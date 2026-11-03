@@ -294,7 +294,7 @@ That is before counting free health care, education and guaranteed housing. It i
 
 ## Debts and the change itself
 
-Today, according to a figure the research still needs to recheck, about **3.3 billion** people live in countries that spend more on interest than on health or education. Under UNIRA, **no region carries public debt**. Debts between member regions are cancelled. Bonds held by savers and pension funds count as their own protected savings.
+Today, according to UNCTAD, about **3.3 billion** people live in countries that spend more on interest than on health or education. Under UNIRA, **no region carries public debt**. Debts between member regions are cancelled. Bonds held by savers and pension funds count as their own protected savings.
 
 How does a region move onto the U? Not overnight at a political rate. That was the mistake of 1990, when East Germany's output fell to about **half** its 1989 level within months (Chapter 4). Instead:
 - wages move directly onto the UNIRA scale at full membership;
@@ -360,5 +360,5 @@ Two rules. Prices of essentials are fixed by the constitution. And average pay m
 - Constitutional text: `v75/constitution/UNIRA_CONSTITUTION_DRAFT.md`, Articles 6, 7, 12–17a, 19, 20 and transitional provision T-1.
 - Digital payments and leakage in India: `v69/evidence/evidence.md`.
 - Summary of the money results: `v67/WORKING_PAPER_02.md`, section 4.
-- Transition rules, debts (including the UNCTAD 3.3 billion figure, marked for recheck) and the German monetary union: `v72/TRANSITION_RULES.md`.
+- Transition rules, debts (including the UNCTAD 3.3 billion figure: UNCTAD, *A World of Debt*, 2023) and the German monetary union: `v72/TRANSITION_RULES.md`.
 - Income deciles (Eurostat 2024): `v74/outputs/distribution.json`.

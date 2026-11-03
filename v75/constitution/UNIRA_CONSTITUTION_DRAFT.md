@@ -91,7 +91,7 @@ We, the people of the Earth, one humanity in many regions, cultures and language
 4. Disputes between regions are settled by the Court of One Earth (Article 32), whose rulings bind.
 5. Weapons of mass destruction (nuclear, chemical, biological) are destroyed under independent verification and never rebuilt.
 
-*Evidence: military spending is 2.5% of world output (SIPRI 2025), military activity about 5.5% of global emissions (SGR/CEOBS 2022), and armed forces number 27.4 million people (World Bank). UN peacekeeping uses about 59,000 uniformed personnel (peak 106,595 in 2015) on USD 5.6 bn a year, and peacekeepers are found to reduce violence against civilians. A Peace Force of about 500,000 frees about 26.9 million people and 2.45% of world output (`v76/peace_force/`). New armed forces are most at risk of coups while being built (De Bruin 2018), hence point 5 of Article 5a.*
+*Evidence: military spending is 2.5% of world output (SIPRI Fact Sheet, April 2026, on 2025 data), military activity about 5.5% of global emissions (SGR/CEOBS 2022), and armed forces number 27.4 million people (World Bank). UN peacekeeping uses about 59,000 uniformed personnel (peak 106,595 in 2015) on USD 5.6 bn a year, and peacekeepers are found to reduce violence against civilians. A Peace Force of about 500,000 frees about 26.9 million people and 2.45% of world output (`v76/peace_force/`). New armed forces are most at risk of coups while being built (De Bruin 2018), hence point 5 of Article 5a.*
 
 **Article 5a — The One Earth Peace Force: the only armed force, under strict control.** One Earth holds the only armed force so that the Court's rulings and people's rights can be enforced everywhere. Because whoever controls the only armed force could dominate everyone, it is bound by these rules:
 1. **Purpose:**
@@ -316,7 +316,7 @@ Surplus beyond a region's needs goes to the One Earth Fund for sharing.
 ## Part V — Safeguards
 
 **Article 33 — Public Allocation Register.** Every allocation is published within 30 days in a free, open register stating what, where, how much, why and on which data. Personal data are never published.
-*Evidence: when allocations were published in Uganda, leakage fell from 87% to under 20%.*
+*Evidence: when grant amounts were published in Uganda, the share captured before reaching schools fell from about 80% to under 20% (Reinikka & Svensson 2004).*
 
 **Article 34 — Direct digital delivery and verification.**
 1. Payments go directly, in U, to those who deliver.
@@ -329,7 +329,7 @@ Surplus beyond a region's needs goes to the One Earth Fund for sharing.
 3. Every person may complain and receive a reasoned answer within 90 days.
 
 **Article 36 — Independent audits.** Every region is audited every year, at random and without notice. All reports are public.
-*Evidence: audits reduced missing funds by 8 percentage points (Indonesia) and corruption by 8–13% (Brazil).*
+*Evidence: audits reduced missing funds by 8 percentage points (Indonesia; Olken 2007) and corruption by about 8%, 13% after repeated audits (Brazil; Avis, Ferraz & Finan 2018).*
 
 **Article 37 — Timely and honest data.**
 1. Needs data are less than one year old.

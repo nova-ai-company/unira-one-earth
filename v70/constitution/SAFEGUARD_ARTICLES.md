@@ -13,7 +13,7 @@ Each article gives the rule, the evidence behind it, and a **measurable trigger*
 2. The register publishes amounts and places, never personal data. Article 12 privacy protections apply in full.
 3. Anyone may download, analyse and publish the register without permission.
 
-*Evidence:* when Uganda's newspapers published school-grant amounts, the share of grants that never reached schools fell from 87% to under 20% (Reinikka & Svensson).
+*Evidence:* when Uganda's newspapers published school-grant amounts, schools had received only 13% of the grants in 1991–95; once amounts were published, the share captured before reaching schools fell from about 80% to under 20% (Reinikka & Svensson 2004).
 *Trigger:* any allocation missing from the register after 60 days is void until published.
 
 ## Article 14 — Independent Audit Authority
@@ -21,7 +21,7 @@ Each article gives the rule, the evidence behind it, and a **measurable trigger*
 2. Its budget is fixed by the constitution as a share of allocated value and cannot be reduced by the bodies it audits.
 3. All audit reports are published in full in the Public Allocation Register.
 
-*Evidence:* random audits reduced missing expenditure by 8 percentage points (Indonesia, Olken) and corruption by 8–13% (Brazil, Ferraz & Finan).
+*Evidence:* random audits reduced missing expenditure by 8 percentage points (Indonesia, Olken) and corruption by about 8%, and by about 13% after repeated audits (Brazil, Avis, Ferraz & Finan 2018).
 *Trigger:* measured leakage above 15% in any region for 2 consecutive years automatically starts an independent review of that region's allocation system.
 
 ## Article 15 — Direct Digital Delivery and Physical Verification

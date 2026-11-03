@@ -66,7 +66,7 @@
 2. **Ordinary savers and pensioners are protected.** Government bonds held by households, pension funds and banks on behalf of savers are treated as those people's savings under T3: kept up to the money cap, the rest to the One Earth entity. Pension promises are replaced by UNIRA's needs-based retirement income (rule 15).
 3. **Debts owed to creditors outside UNIRA** are paid by the One Earth entity on a negotiated schedule until the creditors' regions join. This avoids asset seizures and trade blockades against new members. When the whole world has joined, no public debt remains anywhere.
 
-*Evidence:* debt relief for heavily indebted poor countries (USD 76 bn + 43 bn) let them spend 7.3% of output on poverty reduction against 1.9% on debt service. UNCTAD reports that about 3.3 billion people live in countries that spend more on interest than on health or education (REPORTED_NEEDS_RECHECK). Unilateral defaults on outside creditors have historically triggered litigation and asset seizures, which is why external debts are honoured until creditors join.
+*Evidence:* debt relief for heavily indebted poor countries (USD 76 bn + 43 bn) let them spend 7.3% of output on poverty reduction against 1.9% on debt service. UNCTAD reports that about 3.3 billion people live in countries that spend more on interest than on health or education (UNCTAD, *A World of Debt*, 2023). Unilateral defaults on outside creditors have historically triggered litigation and asset seizures, which is why external debts are honoured until creditors join.
 
 **T7. Right to leave, and the money cap.**
 1. A region may leave by democratic decision, with a negotiated settlement.

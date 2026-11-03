@@ -267,7 +267,7 @@ The rules are written to avoid giving them a reason. Debts to outside creditors 
 
 **"Debt cancellation is a gift to irresponsible governments."**
 
-Inside UNIRA, no region carries public debt at all. The rule is not a one-off rescue. It is a permanent change. A figure reported by UNCTAD suggests about **3.3 billion** people live in countries that spend more on interest than on health or education. The research marks this figure as still to be rechecked.
+Inside UNIRA, no region carries public debt at all. The rule is not a one-off rescue. It is a permanent change. According to UNCTAD, about **3.3 billion** people live in countries that spend more on interest than on health or education (*A World of Debt*, 2023).
 
 ## What the evidence says
 

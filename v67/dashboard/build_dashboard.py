@@ -30,7 +30,7 @@ def md_to_html(md):
     out, lines, i = [], md.splitlines(), 0
     while i < len(lines):
         ln = lines[i]
-        if not ln.strip():
+        if not ln.strip() or re.fullmatch(r"\s*<!--.*-->\s*", ln):  # blank line or hidden marker
             i += 1
             continue
         m = re.match(r"^(#{1,4})\s+(.*)", ln)

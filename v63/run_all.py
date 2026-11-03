@@ -12,7 +12,7 @@ STEPS = [("../v62", ["run_all.py"]), ("io", ["run.py"]), ("flows", ["run.py"]),
          ("health", ["run.py"]), ("ledger", ["ledger.py"]), ("../v64", ["run.py"]), ("../v64", ["run_lifecycle.py"]), ("../v65/data", ["build.py"]), ("../v65/model", ["run.py"]), ("../v66/data", ["build.py"]),
          ("../v66/model", ["run_health.py"]), ("../v66/model", ["run_housing.py"]),
          ("../v67", ["run_transition.py"]), ("../v67", ["energy_budget_check.py"]), ("../v68/counterfactual", ["compare.py"]), ("../v69/coordination", ["run.py"]), ("../v70/housing", ["run.py"]), ("../v72/joining", ["run.py"]), ("../v74/distribution", ["run.py"]), ("../v78/planning", ["forecast.py"]), ("../v78/planning", ["information.py"]),
-         ("../v67/dashboard", ["build_dashboard.py"]), ("../v73/book", ["build_book.py"]), ("../v75/constitution", ["voting.py"]), ("../v75/constitution", ["build.py"]), ("../v77/site", ["build_site.py"])]
+         ("../references", ["check_bib.py"]), ("../references", ["cite.py"]), ("../v67/dashboard", ["build_dashboard.py"]), ("../v73/book", ["build_book.py"]), ("../v75/constitution", ["voting.py"]), ("../v75/constitution", ["build.py"]), ("../v77/site", ["build_site.py"])]
 
 
 def main():

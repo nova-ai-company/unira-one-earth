@@ -11,7 +11,7 @@ from build_dashboard import CSS, md_to_html  # noqa: E402
 
 
 def main():
-    parts = [HERE / "OUTLINE.md"] + sorted(HERE.glob("CHAPTER_*.md"))
+    parts = [HERE / "OUTLINE.md"] + sorted(HERE.glob("CHAPTER_*.md")) + [HERE / "BIBLIOGRAPHY.md"]
     md = "\n\n".join(p.read_text(encoding="utf-8") for p in parts)
     body = ("<div class='wrap'><header><p>Draft manuscript · generated from the UNIRA research</p>"
             "<h1>UNIRA: One Humanity, One Future</h1></header>" + md_to_html(md) + "</div>")

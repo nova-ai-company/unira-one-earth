@@ -78,6 +78,12 @@ All results are reproducible offline from frozen official data: 157 tests pass, 
 
 Code and data: `UNIRA_V62_V67` package, `python3 v63/run_all.py`.
 
+<!-- refs:begin sources §2 -->
+
+*Sources for this section:* Food & Nations n.d.a; Our World in Data n.d.b; United Nations & Social Affairs WPP2024_Demographic_Indicators_Medium.csv.gz, 2024.
+
+<!-- refs:end -->
+
 ## 3. Labour: a 30-hour week from year 1
 
 With universal work at an 88% employment rate (ages 20–64), France keeps today's output under a 30-hour week from year 1, on central assumptions. Without new workers, it would need 20% more output per hour.
@@ -99,9 +105,15 @@ Conditions for the 88% case:
 
 - workplaces for about 5 m new workers;
 - childcare and eldercare;
-- an employment rate above any country today (Iceland 85%).
+- an employment rate above any country today (Iceland 85.8% in 2025).
 
 Health and care staffing remains short in year 1 (about 100,000 nurses and 145,000 care workers), because training takes years.
+
+<!-- refs:begin sources §3 -->
+
+*Sources for this section:* Aiken et al. 2014; Asai et al. 2024; Batut et al. 2023; Chemin & Wasmer 2009; Collewet & Sauermann 2017; Crépon & Kramarz 2002; Crépon et al. 2004; Estevão & Sá 2008; Eurostat hlth_rs_prs2, 2026; Eurostat lfsi_emp_a, 2026; Eurostat lfsi_long_a, 2026; Eurostat lfsi_sla_a, 2026; Eurostat nama_10_a64, 2026; Eurostat nama_10_a64_e, 2026; Gubian et al. 2004; Hunt 1999; Pencavel 2015.
+
+<!-- refs:end -->
 
 ## 4. Money under UNIRA's own rules
 
@@ -139,6 +151,12 @@ On today's production, a decent life for all is possible for food and energy. A 
 - **Labour:** universal work at 30 h (80% of ages 15–64) gives 0.88× today's world working hours.
 - **Equal shares:** France's final energy would fall about 43% (90 → 51 GJ per person), still above the comfortable level. Nigeria's would rise 9×.
 
+<!-- refs:begin sources §5 -->
+
+*Sources for this section:* Eurostat n.d.c; Food & Nations n.d.a; International Labour Organization HOW_TEMP_SEX_NB_A, 2026; Millward-Hopkins et al. 2020; Our World in Data n.d.b; United Nations Environment Programme 2024; World Health Organization 2016; World Health Organization 2026d.
+
+<!-- refs:end -->
+
 ## 6. Within Earth's limits: ecology, health care, housing
 
 A comfortable life for 9.7 bn people in 2050 fits a 1.5 °C pathway (with temporary overshoot) and 2 °C comfortably. The binding limits are materials, health-worker training and home building.
@@ -174,6 +192,12 @@ Schools and teachers are the bottleneck. Disarmament helps most early: 71 vs 64 
 
 **Housing.** World residential floor area averages about 26 m² per person: 7 in Ethiopia, 10.5 in India, 45 in France, 55 in the USA. Decent space for all (15 m²) needs about 13 bn m² of new homes; comfortable space (27 m²) about 65 bn m², mostly in South Asia and Africa. Floor-area values are regional model estimates (IMAGE); no official country data exists.
 
+<!-- refs:begin sources §6 -->
+
+*Sources for this section:* Brauer et al. 2024; Deetman & others n.d.; Food & Nations 2023; Forster et al. 2025; International Energy Agency 2023b; International Renewable Energy Agency 2026; International Resource Panel 2024; IPCC 2022; Millward-Hopkins et al. 2020; Murray et al. 2020; O’Neill et al. 2018; Rockström et al. 2025; United Nations & Social Affairs WPP2024_Demographic_Indicators_Medium.csv.gz, 2024; World Bank 2026b; World Health Organization 2026c; World Health Organization 2026d.
+
+<!-- refs:end -->
+
 ## 7. A 30-year world transition plan
 
 In the central case, every region reaches comfortable energy (40 GJ) by year 27 and EU-level health care by year 30. Comfortable housing is only half done by year 30, because population growth adds about 40 bn m² of need.
@@ -184,7 +208,7 @@ Each year the One Earth entity gives new capacity to the regions furthest below 
 
 - clean energy from solar and wind;
 - health workers from the training plan, trained in-region;
-- new homes from world construction capacity (3.3–4.7 bn m² a year today).
+- new homes from world construction capacity (3.3–4.7 bn m² a year in the model; for comparison, the world's residential floor area grew by a net 3.4 bn m² in 2024).
 
 Food is redistributed at once, and waste is halved over 10 years. Regions above the target reduce energy use. Population follows the UN 2024 projection.
 
@@ -199,6 +223,12 @@ Food is redistributed at once, and waste is halved over 10 years. Regions above 
 - **Housing is the slowest domain:** at today's world building rate it takes more than 30 years. Closing the 65 bn m² backlog in 27 years needs about 4.7 bn m² a year, mostly in Africa and South Asia. Including population growth and upgrading (Section 10) raises the peak to 6–7 bn m² a year. Its labour need is 33–64 hours per m², against a world construction workforce of 294 m.
 - **Convergence and decarbonisation compete for the same build.** The model sends all new clean energy to regions below 40 GJ. Measured afterwards (`v67/energy_budget_check.py`), convergence absorbs 178 of the 217 EJ a year built by year 30 in the central case. Only 39 EJ is left to replace fossil supply elsewhere, so final energy is about 75% clean by year 30 (assuming 19% clean today). Doing both, with fossil use near zero, needs the high build rate of about 1.8 TW a year, which leaves 147 EJ for replacement against 132 EJ needed. The central case therefore delivers convergence, not full decarbonisation.
 - **Food** is feasible for everyone from year 1 by redistribution; comfortable diets follow as waste falls.
+
+<!-- refs:begin sources §7 -->
+
+*Sources for this section:* Eurostat n.d.c; International Labour Organization 2025; Millward-Hopkins et al. 2020; National Bureau of Statistics of China 2011; Parkinson & Cottrell 2022; Press Information Bureau, Government of India 2025; United Nations & Social Affairs WPP2024_Demographic_Indicators_Medium.csv.gz, 2024; United Nations Environment Programme et al. 2026.
+
+<!-- refs:end -->
 
 ## 8. UNIRA versus a reformed market economy
 
@@ -226,6 +256,12 @@ The comparison reruns the labour ledger and the 30-year transition with only the
 
 The advantage is entirely institutional; no efficiency bonus is assumed. It holds only if UNIRA's institutions work as designed, which is the claim still to be tested.
 
+<!-- refs:begin sources §8 -->
+
+*Sources for this section:* International Energy Agency 2026; Millward-Hopkins et al. 2020.
+
+<!-- refs:end -->
+
 ## 9. Can the One Earth entity allocate well enough?
 
 UNIRA's advantage survives realistic governance failures. With typical errors and no safeguards it still beats the most ambitious market world. With strong safeguards it keeps about 85% of its ideal performance.
@@ -248,7 +284,7 @@ The allocator decides on *perceived* needs. Each failure is calibrated on 44 sou
 - **Leakage is the decisive failure.** Measurement errors and exaggeration matter much less: errors average out across 179 regions, and audits catch exaggerators.
 - **Safeguards with evidence behind them:**
     - independent audits (−8 pp leakage);
-    - open publication of every allocation (Uganda: 87% → under 20% leakage);
+    - open publication of every allocation (Uganda: capture of school grants fell from about 80% to under 20%);
     - direct digital delivery (−19 to −24% in India), which UNIRA's digital U and invoice system provide by design;
     - community monitoring;
     - data less than a year old.
@@ -260,6 +296,12 @@ The allocator decides on *perceived* needs. Each failure is calibrated on 44 sou
 - **Rerunning the 30-year transition** with AI-forecast information costs at most 1% of progress against perfect information, while misreporting and 8% leakage cost 12–19%. Each point of leakage costs about one point of progress.
 - **AI's main value is therefore integrity checking rather than prediction.** Health-worker forecasts are 3–6× less accurate in low-income regions, so fair AI planning requires better statistics there first.
 - Article 3b of the draft constitution sets the conditions: AI advises and people decide; models are open and must beat simple benchmarks each year; fairness is tested per region; AI has no role in rights, sanctions or force.
+
+<!-- refs:begin sources §9 -->
+
+*Sources for this section:* Avis et al. 2018; Banerjee et al. 2020; Chen et al. 2019; Drèze & Khera 2015; European Court of Auditors n.d.; Monasterio n.d.; Olken 2007; Reinikka & Svensson 2004a; Reinikka & Svensson 2004b; Revista Brasileira de Economia n.d.; Statistics South Africa 2012.
+
+<!-- refs:end -->
 
 ## 10. Accelerating housing, and safeguards in the constitution
 
@@ -292,6 +334,12 @@ The full article texts follow the paper (Appendix).
 
 **Security and consumption (rule 20).** The author's hypothesis is that secure access reduces over-consumption. The evidence supports it for goods with natural satiation. In France, mobile calls levelled off at about 7 minutes a day after unlimited plans. Panic buying (toilet roll +181% in March 2020) is driven by scarcity. Cash transfers do not raise alcohol or tobacco spending. The evidence contradicts it for energy, travel and data: data use rose from 0.5 to 14 GB a month, and free transit raised trips 14–70%. In the model, a 20–30% energy rebound would raise peak world energy to 424–436 EJ, beyond the climate envelope. Energy, travel and data must therefore stay metered and priced per unit, never flat-rate.
 
+<!-- refs:begin sources §10 -->
+
+*Sources for this section:* Adworld.ie 2020; ARCEP 2015; ARCEP n.d.; Cats et al. 2017; Evans & Popova 2017; Forster et al. 2025; International Labour Organization 2025; Le Den et al. 2022; National Bureau of Statistics of China 2012; Social & (CSEP) n.d.; Sorrell et al. 2009; The Connexion n.d.; World Business Council for Sustainable Development & Arup 2021.
+
+<!-- refs:end -->
+
 ## 11. The transition: voluntary joining, property, savings and debts
 
 UNIRA can start with willing regions and grow. Compared with a reformed market world after 30 years, 86% of humanity gains materially by joining. Rich regions lose 6–12% on average, in energy use only, and keep comfortable levels. Inside rich regions, half the population is better off even at the lowest UNIRA salary, and the poorest tenth gains 146–258% (Eurostat 2024 income deciles).
@@ -303,7 +351,7 @@ UNIRA can start with willing regions and grow. Compared with a reformed market w
 - **Lessons from history** (61 sourced findings):
     - Germany's 1990 conversion of all wages at a political 1:1 rate halved East German output within months, and more than 3 million jobs were lost;
     - giving property back to former owners slowed investment;
-    - staged EU accession with transfers of 2–4% of recipient output worked (Poland: 51% → 81% of the EU average);
+    - staged EU accession with transfers of 2–4% of recipient output worked (Poland: from 44% of the EU average income per person in 1995 to 81% in 2025, Eurostat);
     - small savings were protected at par;
     - capped debt relief freed poor countries' budgets (7.3% vs 1.9% of output).
 - **Draft transition rules:**
@@ -314,6 +362,12 @@ UNIRA can start with willing regions and grow. Compared with a reformed market w
     - enterprise owners receive their share in U under the same cap (compensation, not restitution);
     - all public debts of member regions are cancelled (author decision), with bonds held by savers and pension funds treated as protected savings; outside creditors are paid on a schedule until they join;
     - a democratic right to leave (author decision); energy, travel and data always metered per unit (Article 21).
+
+<!-- refs:begin sources §11 -->
+
+*Sources for this section:* Brainard & Perry 1991; Documents & Images n.d.a; Eurostat ilc_di01, 2026; Institut für Arbeitsmarkt- und Berufsforschung (IAB) 1998; International Monetary Fund 2019; Notes from Poland 2026; Polish Economic Institute 2019; Polish Investment \& Trade Agency n.d.; Wikipedia contributors n.d.b.
+
+<!-- refs:end -->
 
 ## 12. Limitations and falsification tests
 
@@ -337,6 +391,12 @@ These results show that UNIRA's targets are physically possible under stated con
 5. **Housing:** world construction capacity is too small to add about 65 bn m² within a generation (section 7).
 6. **Comparison:** a reformed market economy with the same resources reaches the same outcomes, so UNIRA adds no advantage beyond its assumptions.
 
+<!-- refs:begin sources §12 -->
+
+*Sources for this section:* Collewet & Sauermann 2017; OECD n.d..
+
+<!-- refs:end -->
+
 ## 13. Conclusions and research agenda
 
 On the physical evidence, UNIRA's core aim is achievable over about one generation: a comfortable life for everyone, a 30-hour week, within climate limits. It depends on six conditions, and today's European or US consumption for everyone is not one of them.
@@ -348,7 +408,7 @@ On the physical evidence, UNIRA's core aim is achievable over about one generati
 3. **Clean-energy building at 1.2–1.8 TW a year,** with regions above 40 GJ per person cutting energy about 3–4% a year (3% once weapons production and military fuel stop).
 4. **About 2.7× less material use per person,** through stock-first, repair and no overproduction.
 5. **A world health-worker training programme lasting 20–30 years,** helped by disarmament volunteers and healthier lives.
-6. **Growing home building 5–10% a year to about 6–7 bn m² a year, with low-carbon materials and about 250 m builders,** mostly in Africa and South Asia, which is above today's world rate of about 3.4 bn m².
+6. **Growing home building 5–10% a year to about 6–7 bn m² a year, with low-carbon materials and about 250 m builders,** mostly in Africa and South Asia, well above today's net growth of the world's residential floor area, about 3.4 bn m² in 2024 (GlobalABC 2026).
 
 **Money:** UNIRA's rules (fixed prices, 1×–5× pay, savings, a yearly money cap with surplus to the One Earth entity) form a consistent system of accounts. The money cap is essential.
 
@@ -360,6 +420,12 @@ On the physical evidence, UNIRA's core aim is achievable over about one generati
 - Evidence on take-up of guaranteed work.
 - Governance and legitimacy of One Earth allocation.
 - External review by economists, demographers, health-workforce and climate scientists.
+
+<!-- refs:begin sources §13 -->
+
+*Sources for this section:* Millward-Hopkins et al. 2020; O’Neill et al. 2018; Rockström et al. 2025; United Nations Environment Programme et al. 2026.
+
+<!-- refs:end -->
 
 ## Sources and reproducibility
 
@@ -395,7 +461,7 @@ Each article gives the rule, the evidence behind it, and a **measurable trigger*
 2. The register publishes amounts and places, never personal data. Article 12 privacy protections apply in full.
 3. Anyone may download, analyse and publish the register without permission.
 
-*Evidence:* when Uganda's newspapers published school-grant amounts, the share of grants that never reached schools fell from 87% to under 20% (Reinikka & Svensson).
+*Evidence:* when Uganda's newspapers published school-grant amounts, schools had received only 13% of the grants in 1991–95; once amounts were published, the share captured before reaching schools fell from about 80% to under 20% (Reinikka & Svensson 2004a, 2004b).
 *Trigger:* any allocation missing from the register after 60 days is void until published.
 
 ### Article 14 — Independent Audit Authority
@@ -403,7 +469,7 @@ Each article gives the rule, the evidence behind it, and a **measurable trigger*
 2. Its budget is fixed by the constitution as a share of allocated value and cannot be reduced by the bodies it audits.
 3. All audit reports are published in full in the Public Allocation Register.
 
-*Evidence:* random audits reduced missing expenditure by 8 percentage points (Indonesia, Olken) and corruption by 8–13% (Brazil, Ferraz & Finan).
+*Evidence:* random audits reduced missing expenditure by 8 percentage points (Indonesia, Olken) and corruption by about 8%, and by about 13% after repeated audits (Brazil, Avis, Ferraz & Finan 2018).
 *Trigger:* measured leakage above 15% in any region for 2 consecutive years automatically starts an independent review of that region's allocation system.
 
 ### Article 15 — Direct Digital Delivery and Physical Verification
@@ -523,7 +589,7 @@ The federation commits to measuring whether needs-first allocation is working, a
 2. **Ordinary savers and pensioners are protected.** Government bonds held by households, pension funds and banks on behalf of savers are treated as those people's savings under T3: kept up to the money cap, the rest to the One Earth entity. Pension promises are replaced by UNIRA's needs-based retirement income (rule 15).
 3. **Debts owed to creditors outside UNIRA** are paid by the One Earth entity on a negotiated schedule until the creditors' regions join. This avoids asset seizures and trade blockades against new members. When the whole world has joined, no public debt remains anywhere.
 
-*Evidence:* debt relief for heavily indebted poor countries (USD 76 bn + 43 bn) let them spend 7.3% of output on poverty reduction against 1.9% on debt service. UNCTAD reports that about 3.3 billion people live in countries that spend more on interest than on health or education (REPORTED_NEEDS_RECHECK). Unilateral defaults on outside creditors have historically triggered litigation and asset seizures, which is why external debts are honoured until creditors join.
+*Evidence:* debt relief for heavily indebted poor countries (USD 76 bn + 43 bn) let them spend 7.3% of output on poverty reduction against 1.9% on debt service. UNCTAD reports that about 3.3 billion people live in countries that spend more on interest than on health or education (UNCTAD, *A World of Debt*, 2023). Unilateral defaults on outside creditors have historically triggered litigation and asset seizures, which is why external debts are honoured until creditors join.
 
 **T7. Right to leave, and the money cap.**
 1. A region may leave by democratic decision, with a negotiated settlement.
@@ -547,3 +613,119 @@ The federation commits to measuring whether needs-first allocation is working, a
 
 ### Distribution inside rich regions (V7.4, `v74/distribution`)
 National averages hide who gains. At the **lowest** UNIRA salary (base worker saving the maximum 50%), a person consumes about 86% of today's average. By Eurostat 2024 income deciles, **half of the population of France, Germany, Italy, Spain and the EU27 is already better off at that level** (40% in Poland). **The poorest tenth gains +146% to +258%.** Free health care, education and guaranteed housing come on top and are not counted. Fixed prices also end household price shocks such as the 2022 energy-price crisis.
+
+<!-- refs:begin reference list -->
+## References
+
+Author–year list of every source used in this paper (generated from `references/REFERENCES.bib`; the full bibliography of the project, with DOIs and verification notes, is in `references/`).
+
+- Adworld.ie (2020). *Panic Buying Triggers 23% Growth in Retail Sales Says Nielsen*. https://www.adworld.ie/2020/03/27/panic-buying-triggers-23-growth-in-retail-sales-says-nielsen/ (accessed 2026-11-03)
+- Aiken, L. H., Sloane, D. M., Bruyneel, L., Van den Heede, K., Griffiths, P., Busse, R., et al. (2014). Nurse staffing and education and hospital mortality in nine European countries: a retrospective observational study. *The Lancet*, *383*(9931), 1824–1830. https://doi.org/10.1016/S0140-6736(13)62631-8
+- Andersen, J. J., Johannesen, N., & Rijkers, B. (2022). Elite Capture of Foreign Aid: Evidence from Offshore Bank Accounts. *Journal of Political Economy*, *130*(2), 388–425. https://doi.org/10.1086/717455
+- ARCEP (2015). *Observatoire des marchés des communications électroniques, 1er trimestre 2015* [Data set]. https://www.arcep.fr/fileadmin/reprise/observatoire/1-2015/obs-marches-t1_2015.pdf (accessed 2026-11-03) *[not independently verified]*
+- ARCEP (n.d.). *Le marché des communications électroniques en France en 2023 (résultats provisoires)* [Data set]. https://www.arcep.fr/cartes-et-donnees/nos-publications-chiffrees/observatoire-des-marches-des-communications-electroniques-en-france/marche-communications-electroniques-france-2023-resultats-provisoires.html (accessed 2026-11-03) *[not independently verified]*
+- Asai, K., Lopes, M. C., & Tondini, A. (2024). *Firm-Level Effects of Reductions in Working Hours* (Working paper). Paris School of Economics. https://www.parisschoolofeconomics.eu/app/uploads/2024/11/asai-kentaro-firm-level-effects-of-reductions-in-working-hours.pdf (accessed 2026-11-03) *[not independently verified]*
+- Avis, E., Ferraz, C., & Finan, F. (2018). Do Government Audits Reduce Corruption? Estimating the Impacts of Exposing Corrupt Politicians. *Journal of Political Economy*, *126*(5), 1912–1964. https://doi.org/10.1086/699209
+- Banerjee, A., Duflo, E., Imbert, C., Mathew, S., & Pande, R. (2020). E-governance, Accountability, and Leakage in Public Programs: Experimental Evidence from a Financial Management Reform in India. *American Economic Journal: Applied Economics*, *12*(4), 39–72. https://doi.org/10.1257/app.20180302
+- Batut, C., Garnero, A., & Tondini, A. (2023). The employment effects of working time reductions: Sector‐level evidence from European reforms. *Industrial Relations: A Journal of Economy and Society*, *62*(3), 217–232. https://doi.org/10.1111/irel.12323
+- Björkman, M., & Svensson, J. (2009). Power to the People: Evidence from a Randomized Field Experiment on Community-Based Monitoring in Uganda*. *Quarterly Journal of Economics*, *124*(2), 735–769. https://doi.org/10.1162/qjec.2009.124.2.735
+- Brainard, W. C., & Perry, G. L. (1991). Editors' Summary. *Brookings Papers on Economic Activity*, *1991*(1), ix. https://doi.org/10.2307/2534637
+- Brauer, M., Roth, G. A., Aravkin, A. Y., Zheng, P., Abate, K. H., Abate, Y. H., et al. (2024). Global burden and strength of evidence for 88 risk factors in 204 countries and 811 subnational locations, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021. *The Lancet*, *403*(10440), 2162–2203. https://doi.org/10.1016/S0140-6736(24)00933-4
+- Cats, O., Susilo, Y. O., & Reimal, T. (2017). The prospects of fare-free public transport: evidence from Tallinn. *Transportation*, *44*(5), 1083–1104. https://doi.org/10.1007/s11116-016-9695-5
+- Centre for Social & Economic Progress (CSEP)} (n.d.). *India's housing paradox: Empty houses and housing shortages (policy brief)*. https://csep.org/policy-brief/indias-housing-paradox-empty-houses-and-housing-shortages/ (accessed 2026-11-03)
+- Chemin, M., & Wasmer, E. (2009). Using Alsace‐Moselle Local Laws to Build a Difference‐in‐Differences Estimation Strategy of the Employment Effects of the 35‐Hour Workweek Regulation in France. *Journal of Labor Economics*, *27*(4), 487–524. https://doi.org/10.1086/605426
+- Chen, W., Chen, X., Hsieh, C., & Song, Z. (2019). A Forensic Examination of China's National Accounts. *Brookings Papers on Economic Activity*, *2019*(1), 77–141. https://doi.org/10.1353/eca.2019.0001
+- Collewet, M., & Sauermann, J. (2017). Working hours and productivity. *Labour Economics*, *47*, 96–106. https://doi.org/10.1016/j.labeco.2017.03.006
+- Crépon, B., & Kramarz, F. (2002). Employed 40 Hours or Not Employed 39: Lessons from the 1982 Mandatory Reduction of the Workweek. *Journal of Political Economy*, *110*(6), 1355–1389. https://doi.org/10.1086/342807
+- Crépon, B., Leclair, M., & Roux, S. (2004). RTT, productivité et emploi : nouvelles estimations sur données d'entreprises. *Economie et statistique*, *376*(1), 55–89. https://doi.org/10.3406/estat.2004.7234
+- Deetman, S., et al. (n.d.). *BUMA: building material model – model inputs (IMAGE population, residential floor space per capita, rural population share)* [Data set]. https://github.com/SPDeetman/BUMA (accessed 2026-11-03) *[not independently verified]*
+- Drèze, J., & Khera, R. (2015). *[Article on PDS leakage estimates]* [Economic and Political Weekly]. *[not independently verified]*
+- Estevão, M., & Sá, F. (2008). The 35-hour workweek in France: Straightjacket or welfare improvement?. *Economic Policy*, *23*(55), 417–463. https://doi.org/10.1111/j.1468-0327.2008.00204.x
+- European Court of Auditors (n.d.). *2023 EU audit in brief*. https://op.europa.eu/webpub/eca/audit-in-brief-2023/en/ (accessed 2026-11-03)
+- Eurostat (2026). *Average usual weekly hours worked in the main job by professional status, full-time/part-time employment and economic activity (NACE Rev. 2) (2008-2026) (lfsa_ewhun2)* [Eurostat database (online data code lfsa_ewhun2)] [Data set]. https://doi.org/10.2908/LFSA_EWHUN2 https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/lfsa_ewhun2 (accessed 2026-11-03)
+- Eurostat (2026). *Distribution of income by quantiles (ilc_di01)* [Eurostat database (online data code ilc_di01)] [Data set]. https://doi.org/10.2908/ILC_DI01 https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ilc_di01 (accessed 2026-11-03)
+- Eurostat (2026). *Distribution of population by tenure status, type of household and income group (ilc_lvho02)* [Eurostat database (online data code ilc_lvho02)] [Data set]. https://doi.org/10.2908/ILC_LVHO02 https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ilc_lvho02 (accessed 2026-11-03)
+- Eurostat (2026). *Employment and labour force by sex and age - annual data (lfsi_emp_a)* [Eurostat database (online data code lfsi_emp_a)] [Data set]. https://doi.org/10.2908/LFSI_EMP_A https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/lfsi_emp_a (accessed 2026-11-03)
+- Eurostat (2026). *Employment by detailed industry (NACE Rev.2) - national accounts (nama_10_a64_e)* [Eurostat database (online data code nama_10_a64_e)] [Data set]. https://doi.org/10.2908/NAMA_10_A64_E https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10_a64_e (accessed 2026-11-03)
+- Eurostat (2026). *Gross value added and income by detailed industry (NACE Rev.2 ) (nama_10_a64)* [Eurostat database (online data code nama_10_a64)] [Data set]. https://doi.org/10.2908/NAMA_10_A64 https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10_a64 (accessed 2026-11-03)
+- Eurostat (2026). *Health graduates (hlth_rs_grd2)* [Eurostat database (online data code hlth_rs_grd2)] [Data set]. https://doi.org/10.2908/HLTH_RS_GRD2 https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/hlth_rs_grd2 (accessed 2026-11-03)
+- Eurostat (2026). *Health personnel (hlth_rs_prs2)* [Eurostat database (online data code hlth_rs_prs2)] [Data set]. https://doi.org/10.2908/HLTH_RS_PRS2 https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/hlth_rs_prs2 (accessed 2026-11-03)
+- Eurostat (2026). *Hospital employment (hlth_rs_prshp2)* [Eurostat database (online data code hlth_rs_prshp2)] [Data set]. https://doi.org/10.2908/HLTH_RS_PRSHP2 https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/hlth_rs_prshp2 (accessed 2026-11-03)
+- Eurostat (2026). *Job vacancy rate by NACE Rev. 2 activity - annual data (2008-2025) (jvs_a_rate_r2)* [Eurostat database (online data code jvs_a_rate_r2)] [Data set]. https://doi.org/10.2908/JVS_A_RATE_R2 https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/jvs_a_rate_r2 (accessed 2026-11-03)
+- Eurostat (2026). *Labour market slack by sex and age - annual data (lfsi_sla_a)* [Eurostat database (online data code lfsi_sla_a)] [Data set]. https://doi.org/10.2908/LFSI_SLA_A https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/lfsi_sla_a (accessed 2026-11-03)
+- Eurostat (2026). *Labour market transitions - annual data (lfsi_long_a)* [Eurostat database (online data code lfsi_long_a)] [Data set]. https://doi.org/10.2908/LFSI_LONG_A https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/lfsi_long_a (accessed 2026-11-03)
+- Eurostat (2026). *Population on 1 January by age and sex (demo_pjan)* [Eurostat database (online data code demo_pjan)] [Data set]. https://doi.org/10.2908/DEMO_PJAN https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/demo_pjan (accessed 2026-11-03)
+- Eurostat (2026). *Private households by household composition, number of children and age of youngest child (lfst_hhnhtych)* [Eurostat database (online data code lfst_hhnhtych)] [Data set]. https://doi.org/10.2908/LFST_HHNHTYCH https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/lfst_hhnhtych (accessed 2026-11-03)
+- Eurostat (2026). *Symmetric input-output table at basic prices (product by product) (naio_10_cp1700)* [Eurostat database (online data code naio_10_cp1700)] [Data set]. https://doi.org/10.2908/NAIO_10_CP1700 https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/naio_10_cp1700 (accessed 2026-11-03)
+- Eurostat (n.d.). *Eurostat database* [Data set]. https://ec.europa.eu/eurostat/web/main/data/database (accessed 2026-11-03) *[not independently verified]*
+- Eurostat (n.d.). *Healthcare personnel statistics – physicians* [Statistics Explained] [Data set]. https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Healthcare_personnel_statistics_-_physicians (accessed 2026-11-03)
+- Evans, D. K., & Popova, A. (2017). Cash Transfers and Temptation Goods. *Economic Development and Cultural Change*, *65*(2), 189–221. https://doi.org/10.1086/689575
+- Food & Agriculture Organization of the United Nations} (2023). *FAOSTAT Analytical Brief 71 [land statistics]* (FAOSTAT Analytical Brief 71). FAO. https://openknowledge.fao.org/server/api/core/bitstreams/5c8b2707-1bcf-4c29-90e2-3487e583f71e/content (accessed 2026-11-03) *[not independently verified]*
+- Food & Agriculture Organization of the United Nations} (n.d.). *FAOSTAT Food Balance Sheets (2010–), bulk download* [FAOSTAT] [Data set]. https://bulks-faostat.fao.org/production/FoodBalanceSheets_E_All_Data.zip (accessed 2026-11-03) *[not independently verified]*
+- Food & Agriculture Organization of the United Nations} (n.d.). *SDG indicator 12.3.1a: Global food losses (SDG data portal)* [Data set]. https://www.fao.org/sustainable-development-goals-data-portal/data/indicators/1231-global-food-losses/en (accessed 2026-11-03)
+- Forster, P. M., Smith, C., Walsh, T., Lamb, W. F., Lamboll, R., Cassou, C., et al. (2025). Indicators of Global Climate Change 2024: annual update of key indicators of the state of the climate system and human influence. *Earth System Science Data*, *17*(6), 2641–2680. https://doi.org/10.5194/essd-17-2641-2025
+- German History in Documents & Images} (n.d.). *Closing the Treuhandanstalt [Trusteeship Agency] (December 30, 1994)*. https://germanhistorydocs.org/en/a-new-germany-1990-2023/closing-the-treuhandanstalt-trusteeship-agency-december-30-1994 (accessed 2026-11-03)
+- German History in Documents & Images} (n.d.). *Unification and Property Issues (June 15, 1990)*. https://germanhistorydocs.org/en/a-new-germany-1990-2023/unification-and-property-issues-june-15-1990 (accessed 2026-11-03)
+- Government of Iceland (2014). *Debt relief will reach 100,000 households (news, 26 March 2014)*. https://www.stjornarradid.is/frettir/grein/2014-03-26-Debt-Relief-Will-Reach-100-000-Households/ (accessed 2026-11-03) *[not independently verified]*
+- Government of Iceland (2014). *Improved equity and debt position of 56,000 households (news, 10 November 2014)*. https://www.stjornarradid.is/frettir/grein/2014-11-10-Improved-equity-and-debt-position-of-56-000-households/ (accessed 2026-11-03) *[not independently verified]*
+- Gubian, A., Jugnot, S., Lerais, F., & Passeron, V. (2004). Les effets de la RTT sur l'emploi : des estimations ex ante aux évaluations ex post. *Economie et statistique*, *376*(1), 25–54. https://doi.org/10.3406/estat.2004.7233
+- HM Government of Gibraltar (2018). *Implementing Article 9(3) of the Energy Efficiency Directive: guidance note*. https://www.gibraltar.gov.gi/new/sites/default/files/HMGoG_Documents/20180501-Implementing_Article_9-3_EED_GuidanceNote.pdf (accessed 2026-11-03) *[not independently verified]*
+- Hungarian Ministry for National Economy (2015). *Law on conversion of forex loans and fair banks enters into force (news, 3 February 2015)*. https://2015-2019.kormany.hu/en/ministry-for-national-economy/news/law-on-conversion-of-forex-loans-and-fair-banks-enters-into-force (accessed 2026-11-03)
+- Hunt, J. (1999). Has Work-Sharing Worked in Germany?. *The Quarterly Journal of Economics*, *114*(1), 117–148. https://doi.org/10.1162/003355399555963
+- INSEE (2026). *Emploi, chômage, revenus du travail – Édition 2026 (Insee Références): fiches « Évolution de l'emploi », « Durée du travail », « Temps partiel »* [Data set]. https://www.insee.fr/fr/statistiques/8733071?sommaire=8733125 (accessed 2026-11-03)
+- Institut für Arbeitsmarkt- und Berufsforschung (IAB) (1998). *IAB Topics No. 29* (29). https://doku.iab.de/topics/1998/topics29.pdf (accessed 2026-11-03) *[not independently verified]*
+- International Energy Agency (2023). *Net Zero Roadmap: A Global Pathway to Keep the 1.5 °C Goal in Reach – 2023 Update*. IEA. https://iea.blob.core.windows.net/assets/9a698da4-4002-4e53-8ef3-631d8971bf84/NetZeroRoadmap_AGlobalPathwaytoKeepthe1.5CGoalinReach-2023Update.pdf (accessed 2026-11-03) *[not independently verified]*
+- International Energy Agency (2026). *World Energy Investment 2026*. IEA. https://www.iea.org/files/64594543-cf6e-4fd9-8238-d3cae35daf48/WorldEnergyInvestment2026.pdf (accessed 2026-11-03) *[not independently verified]*
+- International Labour Office (1971). [Article on land reform in Japan]. *International Labour Review*, *103*(4), 393–413. https://webapps.ilo.org/public/libdoc/ilo/P/09602/09602(1971-103-4)393-413.pdf (accessed 2026-11-03) *[not independently verified]*
+- International Labour Organization (2025). *Employment by sex and age – ILO modelled estimates, Nov. 2025 (EMP_2EMP_SEX_AGE_NB_A)* [ILOSTAT] [Data set]. https://rplumber.ilo.org/data/indicator/?id=EMP_2EMP_SEX_AGE_NB_A (accessed 2026-11-03)
+- International Labour Organization (2025). *Employment by sex and economic activity – ILO modelled estimates, Nov. 2025 (EMP_2EMP_SEX_ECO_NB), construction aggregate* [ILOSTAT SDMX API] [Data set]. https://sdmx.ilo.org/rest/data/ILO,DF_EMP_2EMP_SEX_ECO_NB,1.0/.A..SEX_T.ECO_AGGREGATE_CON (accessed 2026-11-03)
+- International Labour Organization (2026). *Average weekly hours actually worked per employed person by sex (HOW_TEMP_SEX_NB_A)* [ILOSTAT] [Data set]. https://rplumber.ilo.org/data/indicator/?id=HOW_TEMP_SEX_NB_A (accessed 2026-11-03)
+- International Monetary Fund (2019). *Heavily Indebted Poor Countries (HIPC) Initiative and Multilateral Debt Relief Initiative (MDRI) – Statistical Update*. IMF. https://www.imf.org/-/media/files/publications/pp/2019/ppea2019028.pdf (accessed 2026-11-03) *[not independently verified]*
+- International Renewable Energy Agency (2026). *Renewable Capacity Statistics 2026*. IRENA. https://bdd.pseau.org/outils/ouvrages/irena_renewable_capacity_statistics_2026_2026.pdf (accessed 2026-11-03) *[not independently verified]*
+- International Resource Panel (2024). *Global Resources Outlook 2024 (press release)*. United Nations Environment Programme. https://resourcepanel.org/news-events/global-resources-outlook-2024-press-release (accessed 2026-11-03)
+- IPCC (2022). Mitigation Pathways Compatible with Long-term Goals (Chapter 3). In *Climate Change 2022 -- Mitigation of Climate Change* (pp. 295–408). Cambridge University Press. https://doi.org/10.1017/9781009157926.005
+- IPCC (n.d.). *Sixth Assessment Report (AR6) – generic reference; see ipcc2021wg1spm and ipcc2022wg3ch3*. https://www.ipcc.ch/assessment-report/ar6/ (accessed 2026-11-03) *[not independently verified]*
+- Kikstra, J. S., Mastrucci, A., Min, J., Riahi, K., & Rao, N. D. (2021). Decent living gaps and energy needs around the world. *Environmental Research Letters*, *16*(9), 095006. https://doi.org/10.1088/1748-9326/ac1c27
+- Le Den, X., Steinmann, J., Röck, M., Birgisdottir, H., Horup, L. H., Tozan, B., & Sørensen, A. (2022). *Towards embodied carbon benchmarks for buildings in Europe - Summary report*. Ramboll; Aalborg University (BUILD); KU Leuven. https://doi.org/10.5281/zenodo.6397514 https://vbn.aau.dk/ws/files/518613236/Towards_embodied_carbon_benchmarks_for_buildings_in_Europe.pdf
+- Millward-Hopkins, J., Steinberger, J. K., Rao, N. D., & Oswald, Y. (2020). Providing decent living with minimum energy: A global scenario. *Global Environmental Change*, *65*, 102168. https://doi.org/10.1016/j.gloenvcha.2020.102168
+- Monasterio, L. (n.d.). *O FPM e a Estranha Distribuição da População dos Pequenos Municípios Brasileiros* (Texto para Discussão 1818). IPEA. https://ideas.repec.org/p/ipe/ipetds/1818.html (accessed 2026-11-03)
+- Murray, C. J. L., Aravkin, A. Y., Zheng, P., Abbafati, C., Abbas, K. M., Abbasi-Kangevari, M., et al. (2020). Global burden of 87 risk factors in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019. *The Lancet*, *396*(10258), 1223–1249. https://doi.org/10.1016/S0140-6736(20)30752-2
+- Narain, K. V. (1964). *Prosperity through free economy: a case study of Taiwan* [Republished by Indian Liberals]. https://indianliberals.in/primary-works/prosperity-through-free-enterprise-a-case-study-of-taiwan-by-kv-narain-november-9-1964/ (accessed 2026-11-03)
+- National Bureau of Statistics of China (2011). *China Statistical Yearbook 2011, Table 15-2* [Data set]. https://www.stats.gov.cn/sj/ndsj/2011/html/O1502e.htm (accessed 2026-11-03) *[not independently verified]*
+- National Bureau of Statistics of China (2012). *China Statistical Yearbook 2012, Table 10-35* [Data set]. https://www.stats.gov.cn/sj/ndsj/2012/html/J1035e.htm (accessed 2026-11-03) *[not independently verified]*
+- Notes from Poland (2026). *Poland's wealth gap to EU average narrows to record low level*. https://notesfrompoland.com/2026/03/26/polands-wealth-gap-to-eu-average-narrows-to-record-low-level/ (accessed 2026-11-03) *[secondary source, to be replaced by a primary one]*
+- OECD (n.d.). *OECD Health Statistics: health graduates (dataflow DSD_HEALTH_REAC_EMP@DF_GRAD)* [Data set]. https://sdmx.oecd.org/public/rest/data/OECD.ELS.HD,DSD_HEALTH_REAC_EMP@DF_GRAD,/all (accessed 2026-11-03) *[not independently verified]*
+- Olken, B. A. (2007). Monitoring Corruption: Evidence from a Field Experiment in Indonesia. *Journal of Political Economy*, *115*(2), 200–249. https://doi.org/10.1086/517935
+- Our World in Data (n.d.). *Energy dataset (owid-energy-data.csv; compiled from Energy Institute, Ember and EIA data)* [Data set]. https://github.com/owid/energy-data (accessed 2026-11-03) *[not independently verified]*
+- O’Neill, D. W., Fanning, A. L., Lamb, W. F., & Steinberger, J. K. (2018). A good life for all within planetary boundaries. *Nature Sustainability*, *1*(2), 88–95. https://doi.org/10.1038/s41893-018-0021-4
+- Parkinson, S., & Cottrell, L. (2022). *Estimating the Military's Global Greenhouse Gas Emissions*. Scientists for Global Responsibility (SGR) and Conflict and Environment Observatory (CEOBS). https://ceobs.org/wp-content/uploads/2022/11/SGRCEOBS-Estimating_Global_MIlitary_GHG_Emissions_Nov22_rev.pdf (accessed 2026-11-03) *[not independently verified]*
+- Pega, F., Náfrádi, B., Momen, N. C., Ujita, Y., Streicher, K. N., Prüss-Üstün, A. M., et al. (2021). Global, regional, and national burdens of ischemic heart disease and stroke attributable to exposure to long working hours for 194 countries, 2000–2016: A systematic analysis from the WHO/ILO Joint Estimates of the Work-related Burden of Disease and Injury. *Environment International*, *154*, 106595. https://doi.org/10.1016/j.envint.2021.106595
+- Pencavel, J. (2015). The Productivity of Working Hours. *The Economic Journal*, *125*(589), 2052–2076. https://doi.org/10.1111/ecoj.12166
+- Polish Economic Institute (2019). *Cohesion report (Raport Spójność / Cohesion)*. https://pie.net.pl/wp-content/uploads/2019/09/PIE-Raport_Cohesion-Spojnosc-EN-red..pdf (accessed 2026-11-03) *[not independently verified]*
+- Polish Investment \& Trade Agency (n.d.). *Poland's GDP is already 80% of the EU average*. https://www.trade.gov.pl/en/news/polands-gdp-is-already-80-of-the-eu-average (accessed 2026-11-03)
+- Press Information Bureau, Government of India (2025). *Sapno Ka Ghar (factsheet on Pradhan Mantri Awas Yojana – Gramin)* [Data set]. https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/sep/doc2025924644801.pdf (accessed 2026-11-03) *[not independently verified]*
+- Rao, N. D., & Min, J. (2018). Decent Living Standards: Material Prerequisites for Human Wellbeing. *Social Indicators Research*, *138*(1), 225–244. https://doi.org/10.1007/s11205-017-1650-0
+- Reinikka, R., & Svensson, J. (2004). *The Power of Information: Evidence from a Newspaper Campaign to Reduce Capture*. World Bank. https://gsdrc.org/document-library/the-power-of-information-evidence-from-a-newspaper-campaign-to-reduce-capture/ (accessed 2026-11-03)
+- Reinikka, R., & Svensson, J. (2004). Local Capture: Evidence from a Central Government Transfer Program in Uganda. *The Quarterly Journal of Economics*, *119*(2), 679–705. https://doi.org/10.1162/0033553041382120
+- Revista Brasileira de Economia (n.d.). *Elasticity of population (mis)reporting in Brazilian municipalities: A census tale* [Revista Brasileira de Economia]. https://www.scielo.br/j/rbe/a/Js8zBWXCLTtxcYH5z7CPQkn/?lang=en (accessed 2026-11-03)
+- Rockström, J., Thilsted, S. H., Willett, W. C., Gordon, L. J., Herrero, M., Hicks, C. C., et al. (2025). The EAT–Lancet Commission on healthy, sustainable, and just food systems. *The Lancet*, *406*(10512), 1625–1700. https://doi.org/10.1016/S0140-6736(25)01201-2
+- Serajuddin, U., Uematsu, H., Wieser, C., Yoshida, N., & Dabalen, A. (2015). *Data Deprivation: Another Deprivation to End* (Policy Research Working Paper 7252). World Bank. http://documents1.worldbank.org/curated/en/700611468172787967/txt/WPS7252.txt (accessed 2026-11-03)
+- Sorrell, S., Dimitropoulos, J., & Sommerville, M. (2009). Empirical estimates of the direct rebound effect: A review. *Energy Policy*, *37*(4), 1356–1371. https://doi.org/10.1016/j.enpol.2008.11.026
+- Statistics South Africa (2012). *Census 2011 evaluation (presentation at the UNSD workshop, Kampala, 2012)*. https://unstats.un.org/unsd/demographic/meetings/wshops/Uganda/2012/docs/South%20Africa.pdf (accessed 2026-11-03) *[not independently verified]*
+- SWI swissinfo.ch (n.d.). *Rich Norwegians flee to low-tax Switzerland as wealth levy bites*. https://www.swissinfo.ch/eng/business/rich-norwegians-flee-to-low-tax-switzerland-as-wealth-levy-bites/48140438 (accessed 2026-11-03) *[secondary source, to be replaced by a primary one]*
+- The Connexion (n.d.). *Free buses prove successful in French town of Dunkirk*. https://connexionfrance.com/news/free-buses-prove-successful-in-french-town-of-dunkirk/426645 (accessed 2026-11-03) *[secondary source, to be replaced by a primary one]*
+- UNCTAD (2023). *A World of Debt*. United Nations Conference on Trade and Development. https://www.un.org/sustainabledevelopment/blog/2023/07/press-release-un-warns-of-soaring-global-public-debt-a-record-92-trillion-in-2022-3-3-billion-people-now-live-in-countries-where-debt-interest-payments-are-greater-than-expenditure-on-health-or-edu (accessed 2026-11-03).
+- United Nations Environment Programme (2024). *Food Waste Index Report 2024*. UNEP. https://www.unep.org/resources/publication/food-waste-index-report-2024 (accessed 2026-11-03) *[not independently verified]*
+- United Nations Environment Programme, Global Alliance for Buildings, & Construction} (2026). *Building fast. Falling short. As climate risks rise and cities grow, we must rethink how we build to create better lives for all – Global Status Report for Buildings and Construction 2025/26*. https://doi.org/10.59117/20.500.11822/49531 https://build-up.ec.europa.eu/system/files/2026-06/mUPr9hKVkn_15_06_2026_152610.pdf
+- United Nations, Department of Economic, & Social Affairs, P. D. (2024). *World Population Prospects 2024: Demographic indicators, medium variant (WPP2024_Demographic_Indicators_Medium.csv.gz)* [Data set]. https://population.un.org/wpp/ (accessed 2026-11-03) *[not independently verified]*
+- Wikipedia contributors (n.d.). *East German mark* [Wikipedia, The Free Encyclopedia]. https://en.wikipedia.org/wiki/East_German_mark (accessed 2026-11-03) *[secondary source, to be replaced by a primary one]*
+- Wikipedia contributors (n.d.). *Enlargement of the European Union* [Wikipedia, The Free Encyclopedia]. https://en.wikipedia.org/wiki/Enlargement_of_the_European_Union (accessed 2026-11-03) *[secondary source, to be replaced by a primary one]*
+- Wikipedia contributors (n.d.). *Solidarity tax on wealth* [Wikipedia, The Free Encyclopedia]. https://en.wikipedia.org/wiki/Solidarity_tax_on_wealth (accessed 2026-11-03) *[secondary source, to be replaced by a primary one]*
+- World Bank (2026). *Armed forces personnel, total (MS.MIL.TOTL.P1)* [World Development Indicators (indicator MS.MIL.TOTL.P1)] [Data set]. https://api.worldbank.org/v2/country/all/indicator/MS.MIL.TOTL.P1 (accessed 2026-11-03)
+- World Bank (n.d.). *World Bank Open Data* [Data set]. https://data.worldbank.org/ (accessed 2026-11-03) *[not independently verified]*
+- World Business Council for Sustainable Development & Arup (2021). *Net-zero buildings: Where do we stand?*. WBCSD. https://archive.wbcsd.org/contentwbc/download/12446/185553/1 (accessed 2026-11-03) *[not independently verified]*
+- World Health Organization (2016). *Global strategy on human resources for health: Workforce 2030*. https://www.who.int/publications/i/item/9789241511131 (accessed 2026-11-03)
+- World Health Organization (2026). *Medical doctors (number) [indicator HWF_0002]* [Global Health Observatory, National Health Workforce Accounts data (xMart public OData API)] [Data set]. https://xmart-api-public.who.int/GHO/FACT?$filter=INDICATOR_CODE eq 'HWF_0002' (accessed 2026-11-03)
+- World Health Organization (2026). *Nursing and midwifery personnel (per 10 000 population) [indicator HWF_0006]* [Global Health Observatory, National Health Workforce Accounts data (xMart public OData API)] [Data set]. https://xmart-api-public.who.int/GHO/FACT?$filter=INDICATOR_CODE eq 'HWF_0006' (accessed 2026-11-03)
+
+<!-- refs:end -->

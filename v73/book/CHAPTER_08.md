@@ -268,7 +268,7 @@ Study exempts a person from the duty to work, without loss of income (Article 7)
 
 ### Keeping school money honest
 
-There is also evidence on making sure school money arrives. In Uganda in the early 1990s, most school grants never reached the schools. After newspapers published how much each school should receive, the share lost along the way fell from **87%** to under **20%**. That finding is one reason the draft constitution requires every allocation to be published in an open register (Chapter 14).
+There is also evidence on making sure school money arrives. In Uganda in the early 1990s, most school grants never reached the schools. Schools received only about **13%** of the grants. After newspapers published how much each school should receive, the share captured along the way fell from about **80%** to under **20%** (Reinikka & Svensson). That finding is one reason the draft constitution requires every allocation to be published in an open register (Chapter 14).
 
 Some questions remain unmeasured. How many more teachers does the world need, and where? Those are open tasks for the next round of research.
 
