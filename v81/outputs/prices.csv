@@ -1,63 +1,63 @@
-product,label,hours_per_1000_eur,u_per_euro_work,resource_surcharge_pct,u_per_euro,relative_to_today,household_spending_share
-CPA_A01,"Products of agriculture, hunting and related services",22.92,3.355,0.0,3.355,1.295,0.0138
-CPA_A02,"Products of forestry, logging and related services",14.45,2.116,0.0,2.116,0.817,0.003
-CPA_A03,Fish and other fishing products; aquaculture products; support services to fishing,19.28,2.822,0.0,2.822,1.09,0.0007
-CPA_B,Mining and quarrying,10.12,1.482,74.8,2.59,1.0,0.0
-CPA_C10-12,"Food, beverages and tobacco products",16.13,2.362,0.0,2.362,0.912,0.107
-CPA_C13-15,"Textiles, wearing apparel, leather and related products",15.57,2.279,0.0,2.279,0.88,0.0064
-CPA_C16,"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",14.5,2.123,0.0,2.123,0.82,0.0005
-CPA_C17,Paper and paper products,9.93,1.453,0.0,1.453,0.561,0.0036
-CPA_C18,Printing and recording services,16.13,2.361,0.0,2.361,0.912,0.0
-CPA_C19,Coke and refined petroleum products,2.91,0.427,507.1,2.59,1.0,0.0224
-CPA_C20,Chemicals and chemical products,7.21,1.055,0.0,1.055,0.407,0.0041
-CPA_C21,Basic pharmaceutical products and pharmaceutical preparations,6.35,0.93,0.0,0.93,0.359,0.0012
-CPA_C22,Rubber and plastic products,10.74,1.572,0.0,1.572,0.607,0.0002
-CPA_C23,Other non-metallic mineral products,11.58,1.695,0.0,1.695,0.654,0.0018
-CPA_C24,Basic metals,7.34,1.074,0.0,1.074,0.415,0.0
-CPA_C25,"Fabricated metal products, except machinery and equipment",12.69,1.858,0.0,1.858,0.717,0.0009
-CPA_C26,"Computer, electronic and optical products",8.82,1.292,0.0,1.292,0.499,0.0012
-CPA_C27,Electrical equipment,10.65,1.559,0.0,1.559,0.602,0.0012
-CPA_C28,Machinery and equipment n.e.c.,11.15,1.632,0.0,1.632,0.63,0.0001
-CPA_C29,"Motor vehicles, trailers and semi-trailers",7.83,1.146,0.0,1.146,0.443,0.0149
-CPA_C30,Other transport equipment,5.86,0.857,0.0,0.857,0.331,0.001
-CPA_C31_32,Furniture and other manufactured goods,15.54,2.275,0.0,2.275,0.878,0.0043
-CPA_C33,Repair and installation services of machinery and equipment,13.72,2.008,0.0,2.008,0.775,0.0006
-CPA_D,"Electricity, gas, steam and air conditioning",4.77,0.698,271.2,2.59,1.0,0.0529
-CPA_E36,Natural water; water treatment and supply services,9.82,1.437,0.0,1.437,0.555,0.0053
-CPA_E37-39,"Sewerage services; sewage sludge; waste collection, treatment and disposal services; materials recovery services; remediation services and other waste management services",9.2,1.347,0.0,1.347,0.52,0.0128
-CPA_F,Constructions and construction works,17.94,2.627,0.0,2.627,1.014,0.0309
-CPA_G45,Wholesale and retail trade and repair services of motor vehicles and motorcycles,19.27,2.821,0.0,2.821,1.089,0.0223
-CPA_G46,"Wholesale trade services, except of motor vehicles and motorcycles",13.62,1.993,0.0,1.993,0.77,0.0303
-CPA_G47,"Retail trade services, except of motor vehicles and motorcycles",23.53,3.444,0.0,3.444,1.33,0.1623
-CPA_H49,Land transport services and transport services via pipelines,18.3,2.679,0.0,2.679,1.034,0.0323
-CPA_H50,Water transport services,5.79,0.848,0.0,0.848,0.327,0.0001
-CPA_H51,Air transport services,8.96,1.311,97.5,2.59,1.0,0.0078
-CPA_H52,Warehousing and support services for transportation,11.06,1.619,0.0,1.619,0.625,0.0095
-CPA_H53,Postal and courier services,37.28,5.457,0.0,5.457,2.107,0.0022
-CPA_I,Accommodation and food services,23.38,3.422,0.0,3.422,1.322,0.1329
-CPA_J58,Publishing services,12.76,1.868,0.0,1.868,0.721,0.0119
-CPA_J59_60,"Motion picture, video and television programme production services, sound recording and music publishing; programming and broadcasting services",11.61,1.699,0.0,1.699,0.656,0.0019
-CPA_J61,Telecommunications services,8.41,1.23,0.0,1.23,0.475,0.0312
-CPA_J62_63,"Computer programming, consultancy and related services; Information services",14.34,2.099,0.0,2.099,0.811,0.0043
-CPA_K64,"Financial services, except insurance and pension funding",10.98,1.607,0.0,1.607,0.621,0.0171
-CPA_K65,"Insurance, reinsurance and pension funding services, except compulsory social security",12.79,1.872,0.0,1.872,0.723,0.0664
-CPA_K66,Services auxiliary to financial services and insurance services,12.59,1.843,0.0,1.843,0.712,0.0
-CPA_M69_70,Legal and accounting services; services of head offices; management consultancy services,14.07,2.059,0.0,2.059,0.795,0.0063
-CPA_M71,Architectural and engineering services; technical testing and analysis services,16.18,2.368,0.0,2.368,0.915,0.0012
-CPA_M72,Scientific research and development services,11.19,1.638,0.0,1.638,0.633,0.0
-CPA_M73,Advertising and market research services,16.62,2.433,0.0,2.433,0.939,0.0
-CPA_M74_75,"Other professional, scientific and technical services and veterinary services",18.79,2.75,0.0,2.75,1.062,0.006
-CPA_N77,Rental and leasing services,8.79,1.286,0.0,1.286,0.497,0.0092
-CPA_N78,Employment services,33.77,4.943,0.0,4.943,1.909,0.0007
-CPA_N79,"Travel agency, tour operator and other reservation services and related services",20.89,3.058,0.0,3.058,1.181,0.0056
-CPA_N80-82,"Security and investigation services; services to buildings and landscape; office administrative, office support and other business support services",22.28,3.262,0.0,3.262,1.26,0.0081
-CPA_O,Public administration and defence services; compulsory social security services,17.48,2.559,0.0,2.559,0.988,0.0009
-CPA_P,Education services,17.7,2.591,0.0,2.591,1.001,0.017
-CPA_Q86,Human health services,18.17,2.659,0.0,2.659,1.027,0.0402
-CPA_Q87_88,Residential care services; social work services without accommodation,27.76,4.064,0.0,4.064,1.569,0.0278
-CPA_R90-92,"Creative, arts, entertainment, library, archive, museum, other cultural services; gambling and betting services",17.38,2.545,0.0,2.545,0.983,0.0136
-CPA_R93,Sporting services and amusement and recreation services,20.44,2.993,0.0,2.993,1.156,0.0125
-CPA_S94,Services furnished by membership organisations,25.53,3.737,0.0,3.737,1.443,0.0
-CPA_S95,Repair services of computers and personal and household goods,16.38,2.398,0.0,2.398,0.926,0.0031
-CPA_S96,Other personal services,32.65,4.78,0.0,4.78,1.846,0.021
-CPA_T,Services of households as employers; undifferentiated goods and services produced by households for own use,86.62,12.68,0.0,12.68,4.896,0.0034
+product,label,hours_per_1000_eur,u_per_euro_work,resource_surcharge_pct,u_per_euro,relative_to_today,u_per_euro_within_allowance,u_per_euro_step2,household_spending_share
+CPA_A01,"Products of agriculture, hunting and related services",22.92,3.355,0.0,3.355,1.295,,,0.0138
+CPA_A02,"Products of forestry, logging and related services",14.45,2.116,0.0,2.116,0.817,,,0.003
+CPA_A03,Fish and other fishing products; aquaculture products; support services to fishing,19.28,2.822,0.0,2.822,1.09,,,0.0007
+CPA_B,Mining and quarrying,10.12,1.482,74.8,2.59,1.0,,,0.0
+CPA_C10-12,"Food, beverages and tobacco products",16.13,2.362,0.0,2.362,0.912,,,0.107
+CPA_C13-15,"Textiles, wearing apparel, leather and related products",15.57,2.279,0.0,2.279,0.88,,,0.0064
+CPA_C16,"Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",14.5,2.123,0.0,2.123,0.82,,,0.0005
+CPA_C17,Paper and paper products,9.93,1.453,0.0,1.453,0.561,,,0.0036
+CPA_C18,Printing and recording services,16.13,2.361,0.0,2.361,0.912,,,0.0
+CPA_C19,Coke and refined petroleum products,2.91,0.427,507.1,2.59,1.0,0.427,1.508,0.0224
+CPA_C20,Chemicals and chemical products,7.21,1.055,0.0,1.055,0.407,,,0.0041
+CPA_C21,Basic pharmaceutical products and pharmaceutical preparations,6.35,0.93,0.0,0.93,0.359,,,0.0012
+CPA_C22,Rubber and plastic products,10.74,1.572,0.0,1.572,0.607,,,0.0002
+CPA_C23,Other non-metallic mineral products,11.58,1.695,0.0,1.695,0.654,,,0.0018
+CPA_C24,Basic metals,7.34,1.074,0.0,1.074,0.415,,,0.0
+CPA_C25,"Fabricated metal products, except machinery and equipment",12.69,1.858,0.0,1.858,0.717,,,0.0009
+CPA_C26,"Computer, electronic and optical products",8.82,1.292,0.0,1.292,0.499,,,0.0012
+CPA_C27,Electrical equipment,10.65,1.559,0.0,1.559,0.602,,,0.0012
+CPA_C28,Machinery and equipment n.e.c.,11.15,1.632,0.0,1.632,0.63,,,0.0001
+CPA_C29,"Motor vehicles, trailers and semi-trailers",7.83,1.146,0.0,1.146,0.443,,,0.0149
+CPA_C30,Other transport equipment,5.86,0.857,0.0,0.857,0.331,,,0.001
+CPA_C31_32,Furniture and other manufactured goods,15.54,2.275,0.0,2.275,0.878,,,0.0043
+CPA_C33,Repair and installation services of machinery and equipment,13.72,2.008,0.0,2.008,0.775,,,0.0006
+CPA_D,"Electricity, gas, steam and air conditioning",4.77,0.698,271.2,2.59,1.0,0.698,1.644,0.0529
+CPA_E36,Natural water; water treatment and supply services,9.82,1.437,0.0,1.437,0.555,,,0.0053
+CPA_E37-39,"Sewerage services; sewage sludge; waste collection, treatment and disposal services; materials recovery services; remediation services and other waste management services",9.2,1.347,0.0,1.347,0.52,,,0.0128
+CPA_F,Constructions and construction works,17.94,2.627,0.0,2.627,1.014,,,0.0309
+CPA_G45,Wholesale and retail trade and repair services of motor vehicles and motorcycles,19.27,2.821,0.0,2.821,1.089,,,0.0223
+CPA_G46,"Wholesale trade services, except of motor vehicles and motorcycles",13.62,1.993,0.0,1.993,0.77,,,0.0303
+CPA_G47,"Retail trade services, except of motor vehicles and motorcycles",23.53,3.444,0.0,3.444,1.33,,,0.1623
+CPA_H49,Land transport services and transport services via pipelines,18.3,2.679,0.0,2.679,1.034,,,0.0323
+CPA_H50,Water transport services,5.79,0.848,0.0,0.848,0.327,,,0.0001
+CPA_H51,Air transport services,8.96,1.311,97.5,2.59,1.0,,,0.0078
+CPA_H52,Warehousing and support services for transportation,11.06,1.619,0.0,1.619,0.625,,,0.0095
+CPA_H53,Postal and courier services,37.28,5.457,0.0,5.457,2.107,,,0.0022
+CPA_I,Accommodation and food services,23.38,3.422,0.0,3.422,1.322,,,0.1329
+CPA_J58,Publishing services,12.76,1.868,0.0,1.868,0.721,,,0.0119
+CPA_J59_60,"Motion picture, video and television programme production services, sound recording and music publishing; programming and broadcasting services",11.61,1.699,0.0,1.699,0.656,,,0.0019
+CPA_J61,Telecommunications services,8.41,1.23,0.0,1.23,0.475,,,0.0312
+CPA_J62_63,"Computer programming, consultancy and related services; Information services",14.34,2.099,0.0,2.099,0.811,,,0.0043
+CPA_K64,"Financial services, except insurance and pension funding",10.98,1.607,0.0,1.607,0.621,,,0.0171
+CPA_K65,"Insurance, reinsurance and pension funding services, except compulsory social security",12.79,1.872,0.0,1.872,0.723,,,0.0664
+CPA_K66,Services auxiliary to financial services and insurance services,12.59,1.843,0.0,1.843,0.712,,,0.0
+CPA_M69_70,Legal and accounting services; services of head offices; management consultancy services,14.07,2.059,0.0,2.059,0.795,,,0.0063
+CPA_M71,Architectural and engineering services; technical testing and analysis services,16.18,2.368,0.0,2.368,0.915,,,0.0012
+CPA_M72,Scientific research and development services,11.19,1.638,0.0,1.638,0.633,,,0.0
+CPA_M73,Advertising and market research services,16.62,2.433,0.0,2.433,0.939,,,0.0
+CPA_M74_75,"Other professional, scientific and technical services and veterinary services",18.79,2.75,0.0,2.75,1.062,,,0.006
+CPA_N77,Rental and leasing services,8.79,1.286,0.0,1.286,0.497,,,0.0092
+CPA_N78,Employment services,33.77,4.943,0.0,4.943,1.909,,,0.0007
+CPA_N79,"Travel agency, tour operator and other reservation services and related services",20.89,3.058,0.0,3.058,1.181,,,0.0056
+CPA_N80-82,"Security and investigation services; services to buildings and landscape; office administrative, office support and other business support services",22.28,3.262,0.0,3.262,1.26,,,0.0081
+CPA_O,Public administration and defence services; compulsory social security services,17.48,2.559,0.0,2.559,0.988,,,0.0009
+CPA_P,Education services,17.7,2.591,0.0,2.591,1.001,,,0.017
+CPA_Q86,Human health services,18.17,2.659,0.0,2.659,1.027,,,0.0402
+CPA_Q87_88,Residential care services; social work services without accommodation,27.76,4.064,0.0,4.064,1.569,,,0.0278
+CPA_R90-92,"Creative, arts, entertainment, library, archive, museum, other cultural services; gambling and betting services",17.38,2.545,0.0,2.545,0.983,,,0.0136
+CPA_R93,Sporting services and amusement and recreation services,20.44,2.993,0.0,2.993,1.156,,,0.0125
+CPA_S94,Services furnished by membership organisations,25.53,3.737,0.0,3.737,1.443,,,0.0
+CPA_S95,Repair services of computers and personal and household goods,16.38,2.398,0.0,2.398,0.926,,,0.0031
+CPA_S96,Other personal services,32.65,4.78,0.0,4.78,1.846,,,0.021
+CPA_T,Services of households as employers; undifferentiated goods and services produced by households for own use,86.62,12.68,0.0,12.68,4.896,,,0.0034

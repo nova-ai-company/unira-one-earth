@@ -314,10 +314,15 @@ Surplus beyond a region's needs goes to the One Earth Fund for sharing.
 3. Gains in productivity become shorter working hours, never higher prices or unemployment.
 4. **New products.** The price of a new product is the hours of work it embodies, including all inputs, times the fixed price of one hour. It is set once, when the product is introduced, and published with its calculation.
 5. **The price of one hour is fixed forever.**
-6. **Nature has a price too.** Goods that use scarce natural resources (fossil fuels, energy, rare materials, land) carry a resource surcharge, measured physically. Energy, fuels and air travel never become cheaper, relative to other goods, than they are when a region joins. The surcharge goes to the One Earth Fund.
-7. **Rare goods.** What cannot be produced again, such as an original work of art or a seat at a unique event, is allocated by turn, lottery or rotation, never by bidding.
+6. **Energy for needs is cheap, and its price rises in steps.** Every person has an essential energy allowance for home electricity, heating, cooking and essential travel, set each year from measured needs by the Scientific Council.
+    - Within the allowance, electricity, gas and fuels cost only the work they embody, with no surcharge.
+    - Up to one and a half times the allowance, half the resource surcharge applies.
+    - Beyond that, the full resource surcharge applies.
+    - **Energy used to grow, process and transport food is never surcharged**, so that food stays cheap everywhere. The same holds for energy used by health care, schools and public transport.
+7. **Nature has a price too.** Energy used beyond the allowance, air travel, and goods that use scarce natural resources (rare materials, mining products, land) carry a resource surcharge, measured physically, so that they never become cheaper, relative to other goods, than they are when a region joins. The surcharge goes to the One Earth Fund.
+8. **Rare goods.** What cannot be produced again, such as an original work of art or a seat at a unique event, is allocated by turn, lottery or rotation, never by bidding.
 
-*Evidence: priced by hours alone, French fuels would become 79% cheaper and electricity 65% cheaper relative to other goods, because their market prices pay mostly for resources, not work. That would encourage waste, so the surcharge is essential (V7.9, `v79/prices`). The calculator of V8.1 (`v81/prices`) sets the surcharges at +507% for fuels, +271% for electricity and gas, +98% for air travel and +75% for mining products, which keeps each at today's relative price and raises the cost of the household basket by about 6%. Examples at the base salary: a kilo of tomatoes about 10 U (16 minutes of work), a litre of petrol about 4.7 U, a small new car about 23,000 U (4.6 months).*
+*Evidence: priced by hours alone, French fuels would become 79% cheaper and electricity 65% cheaper relative to other goods, because their market prices pay mostly for resources, not work. That would encourage waste, so the surcharge is essential (V7.9, `v79/prices`). The calculator of V8.1 (`v81/prices`) sets the surcharges at +507% for fuels, +271% for electricity and gas, +98% for air travel and +75% for mining products, which keeps each at today's relative price. Within the essential allowance, a kilowatt-hour of electricity costs about 0.17 U and a litre of fuel about 0.8 U; if the allowance covers 80% of today's household energy, the household basket is only about 1.5% dearer, against 6% with the surcharge on all energy. Cheap energy beyond needs is used more (V7.1), which is why the surcharge remains above the allowance. Examples at the base salary: a kilo of tomatoes about 10 U (16 minutes of work), a litre of petrol about 4.7 U, a small new car about 23,000 U (4.6 months).*
 
 **Article 14 — Salaries.**
 1. The base salary is 5,000 U a month.
@@ -422,7 +427,7 @@ Income, wealth and any offer to pay more are never taken into account.
 
 *Evidence: in a 30-year simulation of a city with 2.5 applicants per desirable home, points with a lottery housed 28% of high-need households within 5 years (0% for a queue), with no income gradient; bidding left the poorer half with almost nothing; the must-live-in rule cut empty desirable homes from 6–32% to under 0.5% (V7.9, `v79/housing`).*
 
-**Article 19 — Metering.** Energy, travel and data are always metered and paid per unit, never at a flat rate.
+**Article 19 — Metering.** Energy, travel and data are always metered and paid per unit, never at a flat rate. Within the essential energy allowance (Article 13.6), each unit is paid at the hours price only.
 
 *Evidence: free or flat-rate access raises use of goods without natural limits by 14–70%; a 20–30% energy rebound would break the climate limit (V7.1).*
 

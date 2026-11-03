@@ -124,7 +124,13 @@ Why the surcharge? The research priced France's 2022 household basket by hours a
 
 Priced by hours alone, fuels would become **79%** cheaper relative to everything else, and electricity **65%** cheaper. Their market prices pay mostly for natural resources, land and capital, not for work. Cheap fuel and cheap flights would encourage exactly the uses the planet cannot afford. Chapter 9 shows how use rises when such goods get cheaper.
 
-So the surcharge is essential, not optional. **Energy, fuels and air travel never become cheaper, relative to other goods, than they were when a region joined.** The surcharge is paid in U and goes to the One Earth Fund.
+So UNIRA uses **two prices for energy**.
+
+- **Energy for needs is cheap.** Every person has an **essential energy allowance** for home electricity, heating, cooking and essential travel, set each year from measured needs. Within it, electricity, gas and fuel cost only the work they need, with no surcharge. A kilowatt-hour of electricity costs about **0.17 U**, a few seconds of work at the base salary. A litre of fuel costs about **0.8 U**, about a minute of work.
+- **Beyond needs, the price rises in steps.** Up to one and a half times the allowance, half the surcharge applies. Beyond that, and for flights, the full surcharge keeps energy at least as dear, relative to other goods, as it is today: fuels about **+507%**, electricity and gas about **+271%**, flights about **+98%**. The surcharge is paid in U and goes to the One Earth Fund.
+- **Food stays cheap.** Energy used to grow, process and transport food is never surcharged. The same holds for health care, schools and public transport.
+
+This keeps energy cheap for every family's real needs, while waste stays expensive. If the allowance covers most of what households use today, about 80%, the household basket becomes only about **1.5%** dearer. With the surcharge on all energy, it would be 6% dearer.
 
 Care, food and personal services would become relatively dearer, because they are mostly work. But in UNIRA health and care are free, so households do not pay those prices.
 
@@ -435,7 +441,7 @@ Two rules. Prices of essentials are fixed by the constitution. And average pay m
 - If everyone saves half their income for life, unspent money piles up: **21 years** of consumption after 30 years in the first model, **152 months** after 60 in the lifecycle simulation.
 - A low money cap with zero-interest credit for homes holds unspent money at about **12 months** of consumption. The chosen design is a moderate cap of **1.5 years** of base salary (**90,000 U**), with a home account (**150,000 U**), a retirement account (**120,000 U**) and a time account. Then **40%** of adults reach the cap, a spending rush adds **+26%** to a year's demand (against **+78%** at 5 years), and about **22%** of consumption value flows to the One Earth Fund, or **19.8%** with the time account.
 - A yearly thermostat, limited to **±10%**, keeps unspent money within about **10–14 months** of consumption through disasters, fear, a baby boom and automation. No salaried person was blocked from a first home.
-- Priced by hours alone, fuels would be **79%** cheaper and electricity **65%** cheaper than other goods. A resource surcharge is therefore essential.
+- Priced by hours alone, fuels would be **79%** cheaper and electricity **65%** cheaper than other goods. So energy for needs is cheap, inside a personal allowance priced by work only, and energy beyond needs carries a resource surcharge.
 - Average pay must track productivity. A drift of **0.5%** a year opens a **13%** gap after 30 years.
 - Half the people of France, Germany, Italy and Spain are better off even at the lowest UNIRA salary. The poorest tenth gains **146–258%**.
 

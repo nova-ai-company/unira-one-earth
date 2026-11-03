@@ -39,6 +39,19 @@ class TestPrices(unittest.TestCase):
         e = {x["item"]: x for x in self.r["examples"]}
         self.assertAlmostEqual(e["tomatoes"]["u_price"], 3.0 * self.r["products"]["CPA_A01"]["u_per_euro"], places=1)
 
+    def test_energy_allowance_is_cheap(self):
+        for k in calculator.ENERGY_GROUPS:
+            t = self.r["products"][k]
+            self.assertAlmostEqual(t["u_per_euro_within_allowance"], t["u_per_euro_work"], places=3)
+            self.assertLess(t["u_per_euro_within_allowance"], t["u_per_euro_step2"])
+            self.assertLess(t["u_per_euro_step2"], t["u_per_euro"])
+        inc = self.r["basket_increase_pct_if_allowance_covers"]
+        self.assertLess(inc["80%"], inc["0%"])
+
+    def test_food_carries_no_surcharge(self):
+        for k in ("CPA_A01", "CPA_A03", "CPA_C10-12", "CPA_H49"):  # farming, fishing, food industry, land transport
+            self.assertEqual(self.r["products"][k]["resource_surcharge_pct"], 0.0, k)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -64,7 +64,7 @@ Python 3.10+ and nothing else (standard library only). All data are frozen snaps
 python3 v63/run_all.py
 ```
 
-This regenerates every output, the dashboard, book, constitution and website, then runs all 192 tests.
+This regenerates every output, the dashboard, book, constitution and website, then runs all 194 tests.
 
 ## Take part
 

@@ -47,7 +47,7 @@ Three proposals from this research were provisionally accepted (P1–P3, section
 
 ## 2. Data and methods
 
-All results are reproducible offline from frozen official data: 192 tests pass, and outputs regenerate byte for byte from a clean copy.
+All results are reproducible offline from frozen official data: 194 tests pass, and outputs regenerate byte for byte from a clean copy.
 
 - **Sources:**
     - Eurostat national accounts and Labour Force Survey;
