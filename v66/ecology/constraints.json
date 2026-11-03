@@ -1,0 +1,66 @@
+{
+  "version": "v66-ecology-1",
+  "date": "2026-11-03",
+  "population_2050_bn": 9.66,
+  "population_note": "UN WPP 2024 medium variant (~9.7 bn); not re-fetched here (evidence P01). Per-capita values scale as 1/population.",
+  "constraints_2050_per_capita": {
+    "final_energy_GJ_per_cap_yr": {
+      "low": 25.4,
+      "central": 35.2,
+      "high": 42.4,
+      "two_degree_central": 46.4,
+      "floor_decent_living": 15.3,
+      "derivation": "Global 1.5C-compatible final energy in 2050 divided by 9.66 bn. low = LED 245 EJ (Grubler 2018, E02); central = IEA NZE 2023 343 EJ (E06); high = AR6 WG3 C1 median 410 EJ (E03; C1 p5-p95 325-540 EJ = 33.6-55.9 GJ). 2C reference: C3 median 448 EJ (E04). Floor: Millward-Hopkins 2020 149 EJ (E01).",
+      "evidence_ids": ["E01", "E02", "E03", "E04", "E06"]
+    },
+    "co2_t_per_cap_yr": {
+      "low": 0.0,
+      "central": 0.35,
+      "high": 1.72,
+      "high_2C_50pct": 2.17,
+      "today": 5.2,
+      "derivation": "low: 1.5C 50% budget = 130 GtCO2 from start of 2025 (Forster 2025, C08); a linear decline from 42.2 Gt/yr reaches zero by about 2031, so net CO2 in 2050 is <= 0 and residual emissions need CDR. central: AR6 C1 energy and industry CO2 index in 2050 = 8% of 2020 (E03), with 2025 total 42.2 Gt used as proxy base = 3.4 Gt, which is 0.35 t gross (net about 0). high: 2C 67% budget 870 Gt from 2025 (C11); linear decline to net zero in 2066 leaves 16.6 Gt in 2050 = 1.72 t (50%: 1050 Gt, net zero 2075, 2.17 t). O'Neill 2018 2C boundary 1.61 t (G01). today: 42.2 Gt / ~8.2 bn.",
+      "evidence_ids": ["C08", "C11", "C13", "E03", "G01"]
+    },
+    "cropland_m2_per_cap": {
+      "low": 1346,
+      "central": 1636,
+      "high": 1816,
+      "today": 2000,
+      "derivation": "low: EAT-Lancet 2019 cropland boundary 13 M km2 (F04) / 9.66 bn. central: no net cropland expansion, so 2021 cropland of 1,580 Mha (F07) / 9.66 bn. This matches the EAT-Lancet 2025 land rule of no conversion of intact land and total agricultural land below 48 M km2 (F03). high: EAT-Lancet 2025 healthy-diet scenario ensemble with cropland +11% vs 2020 (model range -3% to +42%), offset by -11% grazing land (total agricultural land -7%) (F05). today: FAO 0.2 ha/cap (2021).",
+      "evidence_ids": ["F03", "F04", "F05", "F07"]
+    },
+    "material_footprint_t_per_cap_yr": {
+      "low": 3.0,
+      "central": 5.2,
+      "high": 8.0,
+      "today": 14.2,
+      "derivation": "low: Bringezu 2015 corridor lower bound 3 t (M04). central: 50 Gt/yr global cap (the common denominator in O'Neill 2018, M02) / 9.66 bn = 5.2 t, close to Bringezu's 5 t. high: IRP 6-8 t upper bound (M03) and Dittrich 8 t (M05). today: 39 kg/person/day x 365 (M01) = 14.2 t.",
+      "evidence_ids": ["M01", "M02", "M03", "M04", "M05"]
+    }
+  },
+  "unira_40GJ_test": {
+    "demand_EJ_2050": 386.4,
+    "vs_today_final_EJ_2022": 442,
+    "vs_NZE_2050_EJ": 343,
+    "vs_C1_median_2050_EJ": 410,
+    "vs_C3_median_2050_EJ": 448,
+    "verdict_1p5C": "Inside the AR6 C1 range (325-540 EJ) and below the C1 median, but 13% above IEA NZE. So 40 GJ for all is compatible with 1.5C-class energy pathways (limited or temporary overshoot) only if solar+wind build-out reaches about 1.3 TW/yr by around 2030. That is about 1.9 times the 2025 record of 669 GW (510 PV + 159 wind), with electricity at about 50% of final energy and fossil CO2 near net zero by 2050. With only 130 GtCO2 left at 50% (about 3 years of emissions), no energy level avoids at least a temporary overshoot of 1.5C.",
+    "verdict_2C": "Compatible. 386 EJ is below the C3 median of 448 EJ; the 2C 67% budget (870 Gt from 2025) allows a linear decline to net zero by about 2066. This works with build-out at the IRENA tripling pace (about 1.1 TW/yr all renewables).",
+    "buildout_required_solar_wind_GW_per_yr": {
+      "NZE_2030": 1140,
+      "scaled_to_40GJ_all": 1294,
+      "IRENA_tripling_all_RE_2025_2030": 1122,
+      "actual_2025_solar_plus_wind": 669,
+      "actual_2025_all_RE": 692,
+      "derivation": "NZE 2030 additions of 820 PV + 320 wind (E07), scaled by 386.4/343 EJ. A first-order scaling, not a model run."
+    }
+  },
+  "food_fit_2470kcal_9p7bn": "Conditional yes. EAT-Lancet 2025 finds a healthy diet for 9.6 bn within boundaries at 2,400 kcal intake. This requires the diet shift (ruminant meat -33%), food loss and waste halved, and 7-10% extra productivity. 2,470 kcal is +3% above that reference, inside the stated uncertainty, but only with a planetary-health diet composition. A comfortable diet at today's composition and waste does not fit, because cropland and nitrogen are already over the boundaries.",
+  "caveats": [
+    "AR6 C1 pathways start from 2020 budgets; post-2020 emissions have used about 75% of the 50% 1.5C budget, so C1 final-energy levels now imply faster decarbonisation or more CDR.",
+    "Scenario totals assume unequal distribution; equal 40 GJ means large cuts in high-income countries (see v65).",
+    "The material targets are an immature literature (O'Neill 2018 says so explicitly); the energy-transition minerals are not separated out.",
+    "Values marked partial/no in evidence.csv (F04 range, M03-M05 primaries, C14, P01) were not read in primary text."
+  ]
+}

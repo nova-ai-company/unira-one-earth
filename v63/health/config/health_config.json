@@ -1,0 +1,42 @@
+{
+  "_comment": "Health & care staffing, France, 30 h from year 1. Section-Q hours ratio from ../../v62 (primary scenario, employees capped).",
+  "v62_sector_csv": "../../v62/outputs/labour_sector_year.csv",
+  "v62_scenario": "cap30_employees_constant_absence",
+  "v62_year": 2023,
+  "stock_year": 2023,
+  "trend_window": [
+    2018,
+    2023
+  ],
+  "occupations": {
+    "NRS": {
+      "label": "Nurses (practising)",
+      "lead_time_years": 3,
+      "lead_time_note": "VERIFIED: 3-year state diploma (4,620 h from Sept 2026, arrêté of 20 Feb 2026)"
+    },
+    "PHYS": {
+      "label": "Physicians (practising)",
+      "lead_time_years": 10,
+      "lead_time_note": "VERIFIED: general practice in France = 6 + 4 years (4th year of DES since the 2023 reform; first placements Nov 2026). Series break in 2020 ('b'): trend window 2020-2023. Self-employed physicians partly outside the primary cap: extra_needed is an upper bound.",
+      "trend_window": [
+        2020,
+        2023
+      ]
+    },
+    "PER_CARE": {
+      "label": "Caring personnel (health-care assistants, home-based personal care)",
+      "lead_time_years": 1,
+      "lead_time_note": "CONFIRMED_WITH_CAVEAT: aide-soignant diploma 1,540 h (~11 months), from a training institute copy; no graduate series in Eurostat (MISSING)"
+    }
+  },
+  "training_expansions": [
+    0.25,
+    0.5,
+    1.0
+  ],
+  "missing": {
+    "licensed_not_practising": "France does not report 'licensed to practise' to Eurostat: the pool of qualified people not practising cannot be measured here (MISSING). National sources (DREES) are a follow-up task.",
+    "caring_personnel_after_2021": "Caring-personnel stock is published only to 2021; 2021 is used.",
+    "occupation_specific_hours": "No occupation-specific weekly hours; the NACE Q full-time/part-time ratio is applied to every occupation."
+  }
+}

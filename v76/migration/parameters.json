@@ -1,0 +1,40 @@
+{
+  "_meta": {
+    "purpose": "UNIRA migration/displacement parameters. 'verified' = number quoted in fetched source text (see evidence.csv). 'assumption' = analyst estimate, not a sourced fact.",
+    "date": "2026-11-03"
+  },
+  "baseline_verified": {
+    "forcibly_displaced_end2025_m": 117.8,
+    "forcibly_displaced_end2024_m": 123.2,
+    "refugees_incl_unrwa_end2025_m": 41.6,
+    "asylum_seekers_end2025_m": 9.0,
+    "conflict_idps_end2025_m": 68.7,
+    "share_hosted_neighbouring_2025": 0.65,
+    "share_hosted_lmic_2025": 0.68,
+    "share_protracted_2025": 0.70,
+    "new_conflict_internal_displacements_2024_m": 20.1,
+    "new_disaster_displacements_2024_m": 45.8,
+    "disaster_displacements_15yr_avg_m_per_yr": 24,
+    "weather_related_share_disaster_2024": 0.993,
+    "disaster_idps_stock_end2024_m": 9.8,
+    "groundswell_internal_climate_migrants_2050_m": 216,
+    "groundswell_max_reduction_with_action": 0.80,
+    "intl_migrants_2020_m": 281,
+    "refugee_asylum_share_of_intl_migrants_2020": 0.12,
+    "place_premium_median_ratio": 2.7,
+    "migration_hump_reversal_gdp_pc_ppp": 10000,
+    "emigration_prevalence_at_ppp1000": 0.04,
+    "emigration_prevalence_at_ppp10000": 0.11,
+    "returns_2025_total_m": 14.7,
+    "refugee_returns_2025_m": 4.4,
+    "mozambique_refugee_returns_post_peace_m": 1.7
+  },
+  "unira_scenario_assumptions": {
+    "new_conflict_persecution_displacement_steady_state_m_per_yr": {"value": 0, "range": [0, 2], "type": "assumption", "note": "0 only if 'no wars/persecution' fully holds; range allows residual communal/criminal violence"},
+    "share_of_existing_forced_stock_returning_within_10yr": {"value": 0.7, "range": [0.5, 0.85], "type": "assumption", "note": "Mozambique suggests near-complete return within ~3 yrs; protracted (70%) caseloads and children born abroad lower it; rest integrate locally"},
+    "disaster_displacement_m_per_yr": {"value": 24, "range": [15, 45], "type": "assumption anchored on verified 24 m avg / 45.8 m in 2024", "note": "Not removed by peace or income; DRR shortens duration rather than eliminating evacuations"},
+    "climate_internal_migrants_2050_m": {"value": 43, "range": [43, 216], "type": "computed from verified 216 m x (1-0.8)", "note": "Best-case floor with strong mitigation + inclusive development"},
+    "intl_migrant_share_after_convergence": {"value": 0.03, "range": [0.02, 0.04], "type": "assumption", "note": "Clemens: rich-country emigration prevalence ~ similar to poorest (~4%); current global stock 3.6-3.7%. Convergence changes motives more than volume"},
+    "transitional_emigration_uplift_while_poor_regions_rise": {"value": 1.35, "type": "verified elasticity applied as assumption", "note": "+0.35 per 100% GDP/cap rise below PPP$10k (to all destinations); +0.74 to rich destinations"}
+  }
+}

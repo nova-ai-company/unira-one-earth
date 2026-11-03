@@ -1,0 +1,4 @@
+scenario,housing_need,homes_delivered,unmet_homes,excess_homes,labour_hours,worker_years_required,cement_t,steel_t,electricity_mwh,water_m3,embodied_tco2e,physical_cost_index,annual_base_payroll_u,feasible
+A_current_style_synthetic,100,100,0,0,25700,14.28,117.0,29.0,305.0,1190,670.0,0.812,1200000,True
+B_reformed_current_synthetic,100,100,0,0,22400,12.44,85.0,20.75,230.0,875,462.5,0.5958,1200000,True
+C_unira_stock_first_synthetic,100,100,0,0,19700,13.13,66.0,16.25,185.0,695,347.5,0.4705,1200000,True

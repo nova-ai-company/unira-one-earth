@@ -1,0 +1,68 @@
+{
+  "regions": 217,
+  "world_pop": 8117484624.0,
+  "proportional_cap1.0": {
+    "IND": 16.48,
+    "CHN": 16.0,
+    "USA": 3.86,
+    "IDN": 3.22,
+    "PAK": 2.85,
+    "largest_two_share": 32.5,
+    "smallest_region_seats": 1.0
+  },
+  "sqrt_cap1.0": {
+    "IND": 4.43,
+    "CHN": 4.36,
+    "USA": 2.14,
+    "IDN": 1.96,
+    "PAK": 1.84,
+    "largest_two_share": 8.8,
+    "smallest_region_seats": 1.0
+  },
+  "sqrt_cap0.1": {
+    "IND": 4.43,
+    "CHN": 4.36,
+    "USA": 2.14,
+    "IDN": 1.96,
+    "PAK": 1.84,
+    "largest_two_share": 8.8,
+    "smallest_region_seats": 1.0
+  },
+  "sqrt_cap0.05": {
+    "IND": 4.43,
+    "CHN": 4.36,
+    "USA": 2.14,
+    "IDN": 1.96,
+    "PAK": 1.84,
+    "largest_two_share": 8.8,
+    "smallest_region_seats": 1.0
+  },
+  "double_majority_55_65": {
+    "min_regions_to_pass": 120,
+    "regions_needed_for_population_alone": 16,
+    "min_regions_to_block": 2,
+    "blocking_by_population_needs": 2,
+    "blocking_by_count_needs": 98
+  },
+  "double_majority_55_60": {
+    "min_regions_to_pass": 120,
+    "regions_needed_for_population_alone": 12,
+    "min_regions_to_block": 4,
+    "blocking_by_population_needs": 4,
+    "blocking_by_count_needs": 98
+  },
+  "double_majority_60_65": {
+    "min_regions_to_pass": 131,
+    "regions_needed_for_population_alone": 16,
+    "min_regions_to_block": 2,
+    "blocking_by_population_needs": 2,
+    "blocking_by_count_needs": 87
+  },
+  "double_majority_55_65_sqrt": {
+    "min_regions_to_pass": 120,
+    "regions_needed_for_population_alone": 63,
+    "min_regions_to_block": 21,
+    "blocking_by_population_needs": 21,
+    "blocking_by_count_needs": 98
+  }
+}

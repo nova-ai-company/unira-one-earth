@@ -1,0 +1,188 @@
+{
+  "_comment": "UNIRA V6.4 money circuit, France region pilot. Rules from v63/DESIGN_CLARIFICATIONS_2026-11-03.md (numbers = rule ids). Every parameter carries an evidence class.",
+  "base_salary_u_month": {
+    "value": 5000,
+    "evidence_class": "NORMATIVE_TARGET",
+    "rule": 6
+  },
+  "employment_rate_20_64": {
+    "value": 0.88,
+    "evidence_class": "NORMATIVE_TARGET",
+    "rule": 14,
+    "note": "universal work; closes the year-1 30 h gap in v63/ledger (universal_88)"
+  },
+  "multiplier_by_isco": {
+    "evidence_class": "SYNTHETIC_ASSUMPTION",
+    "rule": 12,
+    "note": "Occupation (ISCO-08 major group) is used as a proxy for knowledge/study and job complexity; experience spread within a group is not modelled. Values are illustrative and must be set democratically. Owners/managers are capped at 5x.",
+    "values": {
+      "OC1": 3.5,
+      "OC2": 2.6,
+      "OC3": 1.9,
+      "OC4": 1.3,
+      "OC5": 1.3,
+      "OC6": 1.4,
+      "OC7": 1.5,
+      "OC8": 1.4,
+      "OC9": 1.1,
+      "OC0": 1.8
+    }
+  },
+  "multiplier_cap": {
+    "value": 5.0,
+    "evidence_class": "NORMATIVE_TARGET",
+    "rule": 6
+  },
+  "public_service_employment_share": {
+    "value": 0.29,
+    "evidence_class": "MODEL_DERIVED",
+    "note": "persons in NACE O+P+Q / all employed, 2023 national accounts (v62)"
+  },
+  "saving_rate_adults_20_64": {
+    "value": 0.5,
+    "evidence_class": "NORMATIVE_TARGET",
+    "rule": 16
+  },
+  "saving_rate_retirees": {
+    "value": 0.0,
+    "evidence_class": "SYNTHETIC_ASSUMPTION"
+  },
+  "unable_to_work_share_20_64": {
+    "value": 0.03,
+    "range": [
+      0.02,
+      0.05
+    ],
+    "evidence_class": "SYNTHETIC_ASSUMPTION",
+    "note": "MISSING: national disability statistics needed (5,000 U guarantee pool)"
+  },
+  "disability_guarantee_u_month": {
+    "value": 5000,
+    "evidence_class": "NORMATIVE_TARGET",
+    "rule": "spec"
+  },
+  "child_allowance": {
+    "per_child": 1000,
+    "household_threshold": 15000,
+    "ge3_children_count": 3,
+    "evidence_class": "NORMATIVE_TARGET",
+    "note": "spec formula; 'GE3' households counted as 3 children (lower bound)"
+  },
+  "retiree_needs": {
+    "rule": 15,
+    "evidence_class": "SYNTHETIC_ASSUMPTION",
+    "note": "Needs-based, case by case. Proposal: a single retiree's living basket (food, daily life, 1 holiday/yr) = what a base worker spends after saving 50% (2,500 U/month); couple = 1.5x (OECD modified scale); renters receive housing cost on top.",
+    "single_basket_u_month": 2500,
+    "couple_factor": 1.5,
+    "rent_u_month": 500,
+    "rent_note": "MODEL_DERIVED: average home 300,000 U repaid interest-free over 50 years = 500 U/month (rules 11 and 16)"
+  },
+  "housing": {
+    "rule": 11,
+    "price_range_u": [
+      100000,
+      500000
+    ],
+    "average_price_u": 300000,
+    "residential_share_of_construction_gfcf": {
+      "value": 0.5,
+      "evidence_class": "SYNTHETIC_ASSUMPTION",
+      "note": "share of construction investment hours that builds or renovates dwellings; to be replaced by national accounts dwelling GFCF"
+    }
+  },
+  "dynamics": {
+    "years": 30,
+    "experience_creep_per_year": {
+      "values": [
+        0.0,
+        0.005,
+        0.01
+      ],
+      "evidence_class": "SYNTHETIC_ASSUMPTION",
+      "note": "average multiplier drift if no rule keeps the distribution matched to output"
+    },
+    "productivity_growth_per_year": {
+      "values": [
+        0.0,
+        0.005
+      ],
+      "evidence_class": "SYNTHETIC_ASSUMPTION"
+    }
+  },
+  "lifecycle": {
+    "_comment": "Rules 11-18. Behavioural parameters are SYNTHETIC_ASSUMPTION unless stated: no UNIRA economy has been observed.",
+    "sample_size": 6000,
+    "years": 60,
+    "seeds": [
+      1,
+      2,
+      3
+    ],
+    "employment_rate": 0.88,
+    "unable_share": 0.03,
+    "saving_range": {
+      "value": [
+        0.0,
+        0.5
+      ],
+      "evidence_class": "NORMATIVE_TARGET (rule 17: personal choice, max 50%); uniform spread is SYNTHETIC"
+    },
+    "retiree_basket_month": 2500,
+    "rent_month": 500,
+    "disability_month": 5000,
+    "home_price": 300000,
+    "initial_owner_share": {
+      "value": 0.63,
+      "evidence_class": "VERIFIED_OFFICIAL share of population in owner households (Eurostat ilc_lvho02, FR 2023); age gradient SYNTHETIC"
+    },
+    "new_homes_per_adult_year": {
+      "value": 0.022,
+      "evidence_class": "MODEL_DERIVED from V6.4 base circuit (~1.1 m homes/yr / ~52.8 m adults 20+) with 50% residential share SYNTHETIC"
+    },
+    "credit_repay_share": {
+      "value": 0.3,
+      "evidence_class": "SYNTHETIC_ASSUMPTION: zero-interest credit repaid from salary, at most 30% of salary"
+    },
+    "credit_max_years": {
+      "value": 25,
+      "evidence_class": "SYNTHETIC_ASSUMPTION"
+    },
+    "cap_coef_initial": {
+      "value": 10,
+      "evidence_class": "SYNTHETIC_ASSUMPTION: initial cap = 10 years of base salary (600,000 U)"
+    },
+    "deposit_target_months": {
+      "value": 12,
+      "evidence_class": "SYNTHETIC_ASSUMPTION: total deposits kept at about 12 months of consumption (to be linked to reserve stocks)"
+    },
+    "cap_adjust_speed": {
+      "value": 0.5,
+      "evidence_class": "SYNTHETIC_ASSUMPTION"
+    },
+    "gompertz": {
+      "a": 3e-05,
+      "b": 0.1,
+      "evidence_class": "SYNTHETIC_ASSUMPTION (modal age at death ~81); replace with INSEE/Eurostat life table"
+    },
+    "productivity_growth": {
+      "values": [
+        0.0,
+        0.01,
+        0.02
+      ],
+      "evidence_class": "SYNTHETIC_ASSUMPTION: 0, 1, 2%/yr (automation / AI scenarios)"
+    },
+    "weekly_hours": 30,
+    "variants": {
+      "cap_low_credit": {
+        "cap_floor_years": 1.0,
+        "_note": "cap floor 1 year of base salary (60,000 U); homes financed by zero-interest credit"
+      },
+      "cap_low_credit_need_first": {
+        "cap_floor_years": 1.0,
+        "second_home_only_if_no_queue": true,
+        "_note": "as above + second homes only when no one in the region waits for a first home"
+      }
+    }
+  }
+}

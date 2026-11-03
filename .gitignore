@@ -1,0 +1,10 @@
+# Generated / duplicate / third-party material not redistributed
+*.zip
+__pycache__/
+*.pyc
+.DS_Store
+v62/audit/source_cache/
+v62/audit/repro_work/
+**/source_cache/
+v62/scratch/
+!*/data/raw/*.zip

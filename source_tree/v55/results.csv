@@ -1,0 +1,6 @@
+scenario,households,annual_income_u,annual_child_allowance_u,consumer_spending_budget_u,annual_desired_basket_u,basket_affordability_ratio,total_labour_hours,required_labour_hours,labour_gap_hours,public_service_hours_shortfall,maintenance_hours_shortfall,public_fund_shortfall_u,physical_feasible,financially_balanced_public_fund
+baseline,100,10200000,1320000,7650000.0,5484000,1.395,180000,104800.0,0,0,0,0,True,True
+food_supply_shock,100,10200000,1320000,7650000.0,5484000,1.395,180000,92200.0,0,0,0,0,False,True
+shorter_work_year,100,10200000,1320000,7650000.0,5484000,1.395,158400,104800.0,0,0,0,0,True,True
+housing_shortage,100,10200000,1320000,7650000.0,5484000,1.395,180000,103600.0,0,0,0,0,False,True
+public_fund_gap,100,10200000,1320000,7650000.0,5484000,1.395,180000,104800.0,0,0,0,1300000,True,False

@@ -1,0 +1,488 @@
+{
+  "baseline": {
+    "parameters": {
+      "food_supply": 110,
+      "food_demand": 100,
+      "public_cost": 500000,
+      "initial_issue": 1000000,
+      "work_hours": 1500,
+      "shortage_rule": "report"
+    },
+    "closing_deposits_U": {
+      "households": 190000,
+      "firms": 770000,
+      "public_fund": 0,
+      "investment_fund": 40000,
+      "monetary_authority": 0
+    },
+    "total_issued_U": 1000000,
+    "sector_net_flows_U": {
+      "households": 190000,
+      "firms": 770000,
+      "public_fund": 0,
+      "investment_fund": 40000,
+      "monetary_authority": 0
+    },
+    "public_unpaid_U": 300000,
+    "food_unmet_units": 0,
+    "food_delivered_units": 100,
+    "labour_shortfall_hours": 0,
+    "ledger_balances": true,
+    "transactions": [
+      {
+        "source": "ISSUANCE",
+        "target": "firms",
+        "amount": 1000000,
+        "reason": "initial working capital (explicit monetary creation)"
+      },
+      {
+        "source": "firms",
+        "target": "households",
+        "amount": 600000,
+        "reason": "annual wages: 10 workers x 5,000 U x 12 months"
+      },
+      {
+        "source": "firms",
+        "target": "public_fund",
+        "amount": 140000,
+        "reason": "distributable operating surplus"
+      },
+      {
+        "source": "firms",
+        "target": "investment_fund",
+        "amount": 80000,
+        "reason": "investment reserve contribution"
+      },
+      {
+        "source": "households",
+        "target": "firms",
+        "amount": 350000,
+        "reason": "household purchases of goods"
+      },
+      {
+        "source": "households",
+        "target": "public_fund",
+        "amount": 60000,
+        "reason": "illustrative household contribution"
+      },
+      {
+        "source": "investment_fund",
+        "target": "firms",
+        "amount": 40000,
+        "reason": "capital purchases"
+      },
+      {
+        "source": "public_fund",
+        "target": "firms",
+        "amount": 200000,
+        "reason": "public service procurement"
+      }
+    ],
+    "model_status": "synthetic accounting demonstrator; not full SFC macro model"
+  },
+  "food_shortage": {
+    "parameters": {
+      "food_supply": 70,
+      "food_demand": 100,
+      "public_cost": 500000,
+      "initial_issue": 1000000,
+      "work_hours": 1500,
+      "shortage_rule": "report"
+    },
+    "closing_deposits_U": {
+      "households": 190000,
+      "firms": 770000,
+      "public_fund": 0,
+      "investment_fund": 40000,
+      "monetary_authority": 0
+    },
+    "total_issued_U": 1000000,
+    "sector_net_flows_U": {
+      "households": 190000,
+      "firms": 770000,
+      "public_fund": 0,
+      "investment_fund": 40000,
+      "monetary_authority": 0
+    },
+    "public_unpaid_U": 300000,
+    "food_unmet_units": 30,
+    "food_delivered_units": 70,
+    "labour_shortfall_hours": 0,
+    "ledger_balances": true,
+    "transactions": [
+      {
+        "source": "ISSUANCE",
+        "target": "firms",
+        "amount": 1000000,
+        "reason": "initial working capital (explicit monetary creation)"
+      },
+      {
+        "source": "firms",
+        "target": "households",
+        "amount": 600000,
+        "reason": "annual wages: 10 workers x 5,000 U x 12 months"
+      },
+      {
+        "source": "firms",
+        "target": "public_fund",
+        "amount": 140000,
+        "reason": "distributable operating surplus"
+      },
+      {
+        "source": "firms",
+        "target": "investment_fund",
+        "amount": 80000,
+        "reason": "investment reserve contribution"
+      },
+      {
+        "source": "households",
+        "target": "firms",
+        "amount": 350000,
+        "reason": "household purchases of goods"
+      },
+      {
+        "source": "households",
+        "target": "public_fund",
+        "amount": 60000,
+        "reason": "illustrative household contribution"
+      },
+      {
+        "source": "investment_fund",
+        "target": "firms",
+        "amount": 40000,
+        "reason": "capital purchases"
+      },
+      {
+        "source": "public_fund",
+        "target": "firms",
+        "amount": 200000,
+        "reason": "public service procurement"
+      }
+    ],
+    "model_status": "synthetic accounting demonstrator; not full SFC macro model"
+  },
+  "public_fund_shortage": {
+    "parameters": {
+      "food_supply": 110,
+      "food_demand": 100,
+      "public_cost": 500000,
+      "initial_issue": 1000000,
+      "work_hours": 1500,
+      "shortage_rule": "report"
+    },
+    "closing_deposits_U": {
+      "households": 190000,
+      "firms": 770000,
+      "public_fund": 0,
+      "investment_fund": 40000,
+      "monetary_authority": 0
+    },
+    "total_issued_U": 1000000,
+    "sector_net_flows_U": {
+      "households": 190000,
+      "firms": 770000,
+      "public_fund": 0,
+      "investment_fund": 40000,
+      "monetary_authority": 0
+    },
+    "public_unpaid_U": 300000,
+    "food_unmet_units": 0,
+    "food_delivered_units": 100,
+    "labour_shortfall_hours": 0,
+    "ledger_balances": true,
+    "transactions": [
+      {
+        "source": "ISSUANCE",
+        "target": "firms",
+        "amount": 1000000,
+        "reason": "initial working capital (explicit monetary creation)"
+      },
+      {
+        "source": "firms",
+        "target": "households",
+        "amount": 600000,
+        "reason": "annual wages: 10 workers x 5,000 U x 12 months"
+      },
+      {
+        "source": "firms",
+        "target": "public_fund",
+        "amount": 140000,
+        "reason": "distributable operating surplus"
+      },
+      {
+        "source": "firms",
+        "target": "investment_fund",
+        "amount": 80000,
+        "reason": "investment reserve contribution"
+      },
+      {
+        "source": "households",
+        "target": "firms",
+        "amount": 350000,
+        "reason": "household purchases of goods"
+      },
+      {
+        "source": "households",
+        "target": "public_fund",
+        "amount": 60000,
+        "reason": "illustrative household contribution"
+      },
+      {
+        "source": "investment_fund",
+        "target": "firms",
+        "amount": 40000,
+        "reason": "capital purchases"
+      },
+      {
+        "source": "public_fund",
+        "target": "firms",
+        "amount": 200000,
+        "reason": "public service procurement"
+      }
+    ],
+    "model_status": "synthetic accounting demonstrator; not full SFC macro model"
+  },
+  "public_cost_low": {
+    "parameters": {
+      "food_supply": 110,
+      "food_demand": 100,
+      "public_cost": 150000,
+      "initial_issue": 1000000,
+      "work_hours": 1500,
+      "shortage_rule": "report"
+    },
+    "closing_deposits_U": {
+      "households": 190000,
+      "firms": 720000,
+      "public_fund": 50000,
+      "investment_fund": 40000,
+      "monetary_authority": 0
+    },
+    "total_issued_U": 1000000,
+    "sector_net_flows_U": {
+      "households": 190000,
+      "firms": 720000,
+      "public_fund": 50000,
+      "investment_fund": 40000,
+      "monetary_authority": 0
+    },
+    "public_unpaid_U": 0,
+    "food_unmet_units": 0,
+    "food_delivered_units": 100,
+    "labour_shortfall_hours": 0,
+    "ledger_balances": true,
+    "transactions": [
+      {
+        "source": "ISSUANCE",
+        "target": "firms",
+        "amount": 1000000,
+        "reason": "initial working capital (explicit monetary creation)"
+      },
+      {
+        "source": "firms",
+        "target": "households",
+        "amount": 600000,
+        "reason": "annual wages: 10 workers x 5,000 U x 12 months"
+      },
+      {
+        "source": "firms",
+        "target": "public_fund",
+        "amount": 140000,
+        "reason": "distributable operating surplus"
+      },
+      {
+        "source": "firms",
+        "target": "investment_fund",
+        "amount": 80000,
+        "reason": "investment reserve contribution"
+      },
+      {
+        "source": "households",
+        "target": "firms",
+        "amount": 350000,
+        "reason": "household purchases of goods"
+      },
+      {
+        "source": "households",
+        "target": "public_fund",
+        "amount": 60000,
+        "reason": "illustrative household contribution"
+      },
+      {
+        "source": "investment_fund",
+        "target": "firms",
+        "amount": 40000,
+        "reason": "capital purchases"
+      },
+      {
+        "source": "public_fund",
+        "target": "firms",
+        "amount": 150000,
+        "reason": "public service procurement"
+      }
+    ],
+    "model_status": "synthetic accounting demonstrator; not full SFC macro model"
+  },
+  "labour_shock": {
+    "parameters": {
+      "food_supply": 110,
+      "food_demand": 100,
+      "public_cost": 500000,
+      "initial_issue": 1000000,
+      "work_hours": 1000,
+      "shortage_rule": "report"
+    },
+    "closing_deposits_U": {
+      "households": 190000,
+      "firms": 770000,
+      "public_fund": 0,
+      "investment_fund": 40000,
+      "monetary_authority": 0
+    },
+    "total_issued_U": 1000000,
+    "sector_net_flows_U": {
+      "households": 190000,
+      "firms": 770000,
+      "public_fund": 0,
+      "investment_fund": 40000,
+      "monetary_authority": 0
+    },
+    "public_unpaid_U": 300000,
+    "food_unmet_units": 0,
+    "food_delivered_units": 100,
+    "labour_shortfall_hours": 2000,
+    "ledger_balances": true,
+    "transactions": [
+      {
+        "source": "ISSUANCE",
+        "target": "firms",
+        "amount": 1000000,
+        "reason": "initial working capital (explicit monetary creation)"
+      },
+      {
+        "source": "firms",
+        "target": "households",
+        "amount": 600000,
+        "reason": "annual wages: 10 workers x 5,000 U x 12 months"
+      },
+      {
+        "source": "firms",
+        "target": "public_fund",
+        "amount": 140000,
+        "reason": "distributable operating surplus"
+      },
+      {
+        "source": "firms",
+        "target": "investment_fund",
+        "amount": 80000,
+        "reason": "investment reserve contribution"
+      },
+      {
+        "source": "households",
+        "target": "firms",
+        "amount": 350000,
+        "reason": "household purchases of goods"
+      },
+      {
+        "source": "households",
+        "target": "public_fund",
+        "amount": 60000,
+        "reason": "illustrative household contribution"
+      },
+      {
+        "source": "investment_fund",
+        "target": "firms",
+        "amount": 40000,
+        "reason": "capital purchases"
+      },
+      {
+        "source": "public_fund",
+        "target": "firms",
+        "amount": 200000,
+        "reason": "public service procurement"
+      }
+    ],
+    "model_status": "synthetic accounting demonstrator; not full SFC macro model"
+  },
+  "money_creation": {
+    "parameters": {
+      "food_supply": 110,
+      "food_demand": 100,
+      "public_cost": 500000,
+      "initial_issue": 1500000,
+      "work_hours": 1500,
+      "shortage_rule": "report"
+    },
+    "closing_deposits_U": {
+      "households": 190000,
+      "firms": 1270000,
+      "public_fund": 0,
+      "investment_fund": 40000,
+      "monetary_authority": 0
+    },
+    "total_issued_U": 1500000,
+    "sector_net_flows_U": {
+      "households": 190000,
+      "firms": 1270000,
+      "public_fund": 0,
+      "investment_fund": 40000,
+      "monetary_authority": 0
+    },
+    "public_unpaid_U": 300000,
+    "food_unmet_units": 0,
+    "food_delivered_units": 100,
+    "labour_shortfall_hours": 0,
+    "ledger_balances": true,
+    "transactions": [
+      {
+        "source": "ISSUANCE",
+        "target": "firms",
+        "amount": 1500000,
+        "reason": "initial working capital (explicit monetary creation)"
+      },
+      {
+        "source": "firms",
+        "target": "households",
+        "amount": 600000,
+        "reason": "annual wages: 10 workers x 5,000 U x 12 months"
+      },
+      {
+        "source": "firms",
+        "target": "public_fund",
+        "amount": 140000,
+        "reason": "distributable operating surplus"
+      },
+      {
+        "source": "firms",
+        "target": "investment_fund",
+        "amount": 80000,
+        "reason": "investment reserve contribution"
+      },
+      {
+        "source": "households",
+        "target": "firms",
+        "amount": 350000,
+        "reason": "household purchases of goods"
+      },
+      {
+        "source": "households",
+        "target": "public_fund",
+        "amount": 60000,
+        "reason": "illustrative household contribution"
+      },
+      {
+        "source": "investment_fund",
+        "target": "firms",
+        "amount": 40000,
+        "reason": "capital purchases"
+      },
+      {
+        "source": "public_fund",
+        "target": "firms",
+        "amount": 200000,
+        "reason": "public service procurement"
+      }
+    ],
+    "model_status": "synthetic accounting demonstrator; not full SFC macro model"
+  }
+}

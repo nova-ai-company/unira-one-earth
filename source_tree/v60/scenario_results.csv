@@ -1,0 +1,6 @@
+scenario,production_index,demand_index,index_gap
+reference,100,100,0
+10pct_demand_growth,100,110.0,-10.0
+10pct_generation_loss,90.0,100,-10.0
+demand_growth_and_efficiency,100,99.0,1.0
+combined_shock,90.0,110.0,-20.0

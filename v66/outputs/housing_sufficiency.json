@@ -1,0 +1,72 @@
+{
+  "decent_15m2": {
+    "population_covered": 8085838002.0,
+    "world_supply": 206286319288.6071,
+    "world_need": 121287570030.0,
+    "sufficiency_ratio": 1.7008034643416714,
+    "people_below_threshold": 3475587711.0,
+    "share_people_below": 0.42983642637167935,
+    "shortfall_volume": 13036561776.518276,
+    "surplus_volume": 98035311035.12538,
+    "needs_first_feasible": true,
+    "equal_share_per_person": 25.51205196512507,
+    "equal_share_vs_threshold": 1.7008034643416714,
+    "volume_moved_equal_share": 57342262499.83978,
+    "share_of_supply_moved": 0.27797414146313054,
+    "new_floor_area_needed_m2": 13036561776.518276
+  },
+  "comfortable_27m2": {
+    "population_covered": 8085838002.0,
+    "world_supply": 206286319288.6071,
+    "world_need": 218317626054.0,
+    "sufficiency_ratio": 0.9448908135231509,
+    "people_below_threshold": 5007349666.0,
+    "share_people_below": 0.6192740523321704,
+    "shortfall_volume": 64556033067.9856,
+    "surplus_volume": 52524726302.592705,
+    "needs_first_feasible": false,
+    "equal_share_per_person": 25.51205196512507,
+    "equal_share_vs_threshold": 0.9448908135231507,
+    "volume_moved_equal_share": 57342262499.83978,
+    "share_of_supply_moved": 0.27797414146313054,
+    "new_floor_area_needed_m2": 64556033067.9856
+  },
+  "regions": {
+    "FRA": {
+      "region": "FRA",
+      "today_pc": 44.702682,
+      "equal_share_pc": 25.51205196512507,
+      "change_pct": -42.9294824746196
+    },
+    "USA": {
+      "region": "USA",
+      "today_pc": 55.12094,
+      "equal_share_pc": 25.51205196512507,
+      "change_pct": -53.71622478657825
+    },
+    "CHN": {
+      "region": "CHN",
+      "today_pc": 47.12207,
+      "equal_share_pc": 25.51205196512507,
+      "change_pct": -45.85965352301995
+    },
+    "IND": {
+      "region": "IND",
+      "today_pc": 10.485114,
+      "equal_share_pc": 25.51205196512507,
+      "change_pct": 143.31687729027146
+    },
+    "NGA": {
+      "region": "NGA",
+      "today_pc": 11.215043,
+      "equal_share_pc": 25.51205196512507,
+      "change_pct": 127.48064332098478
+    },
+    "ETH": {
+      "region": "ETH",
+      "today_pc": 7.106071,
+      "equal_share_pc": 25.51205196512507,
+      "change_pct": 259.0176901571216
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "_comment": "Governance scenarios calibrated on ../evidence/parameters.json (44 sourced rows, 2026-11-03). audit_detect 0.5/yr under safeguards is an assumption (audits are documented to cut leakage by 8-13 pp, not detection rates).",
+  "seeds": 30,
+  "scenarios": {
+    "C_perfect": {
+      "sigma": 0.0,
+      "lag": 0,
+      "misreport_share": 0.0,
+      "inflation": 0.0,
+      "audit_detect": 0.0,
+      "leakage": 0.0
+    },
+    "C_best_observed": {
+      "sigma": 0.05,
+      "lag": 1,
+      "misreport_share": 0.1,
+      "inflation": 0.02,
+      "audit_detect": 0.5,
+      "leakage": 0.03
+    },
+    "C_strong_safeguards": {
+      "sigma": 0.05,
+      "lag": 1,
+      "misreport_share": 0.25,
+      "inflation": 0.07,
+      "audit_detect": 0.5,
+      "leakage": 0.08
+    },
+    "C_no_safeguards": {
+      "sigma": 0.15,
+      "lag": 2,
+      "misreport_share": 0.25,
+      "inflation": 0.07,
+      "audit_detect": 0.0,
+      "leakage": 0.25
+    },
+    "C_worst_observed": {
+      "sigma": 0.3,
+      "lag": 5,
+      "misreport_share": 0.45,
+      "inflation": 0.2,
+      "audit_detect": 0.0,
+      "leakage": 0.45
+    }
+  },
+  "evidence_basis": {
+    "sigma": "census undercount 10-19% by province (South Africa 2011); PPP revisions",
+    "lag": "poverty data ~2 yr publication lag; 1-5 yr range",
+    "leakage": "Uganda grants 87%->20%; India PDS 54%->9-28%; Brazil 30%; EU cohesion 9.3%; strong safeguards 3-15%",
+    "misreporting": "China local GDP +1.7 pp/yr, Liaoning ~20%; Brazil threshold bunching"
+  }
+}

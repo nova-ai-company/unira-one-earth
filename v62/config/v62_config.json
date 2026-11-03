@@ -1,0 +1,283 @@
+{
+  "_comment": "UNIRA V6.2 scenario definitions. Every parameter not read from data/raw is tagged with an evidence class.",
+  "base_year": 2023,
+  "robustness_years": [
+    2024
+  ],
+  "sectors": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T"
+  ],
+  "trend_windows": [
+    [
+      2015,
+      2019
+    ],
+    [
+      2015,
+      2023
+    ]
+  ],
+  "nonmarket_output_sectors": {
+    "sectors": [
+      "O",
+      "P",
+      "Q"
+    ],
+    "reason": "Non-market output volumes are largely measured from inputs (ESA 2010), so measured hourly productivity growth is close to zero by construction and is not evidence about feasible efficiency gains."
+  },
+  "imputed_output_sectors": {
+    "sectors": [
+      "L",
+      "T"
+    ],
+    "reason": "L includes imputed rents of owner-occupiers (no labour input); T output is mostly paid domestic staff valued at wage cost. VA per hour is not a productivity measure here."
+  },
+  "parameters": {
+    "weekly_cap_hours": {
+      "value": 30,
+      "evidence_class": "NORMATIVE_TARGET",
+      "note": "UNIRA rule: 6h x 5 days"
+    },
+    "normative_weeks": {
+      "value": 46,
+      "evidence_class": "SYNTHETIC_ASSUMPTION",
+      "note": "V6.1 convention, retained only for comparison"
+    },
+    "insee_full_time_employee_annual_hours_2025": {
+      "value": 1656,
+      "evidence_class": "REPORTED_NEEDS_RECHECK",
+      "note": "INSEE, recorded in V6.1 sources.csv; checked by audit/source_verification.csv"
+    }
+  },
+  "scenarios": [
+    {
+      "id": "A_observed",
+      "description": "Observed base year (no policy change)",
+      "cap": null
+    },
+    {
+      "id": "cap30_employees_constant_absence",
+      "description": "PRIMARY. Usual weekly hours of employees capped at 30; leave/absence pattern (effective weeks) unchanged; self-employed unchanged",
+      "cap": 30,
+      "apply_to": [
+        "SAL"
+      ],
+      "annual_method": "constant_absence"
+    },
+    {
+      "id": "cap35_employees_constant_absence",
+      "description": "ALTERNATIVE RULE: usual weekly hours of employees capped at 35 (France's legal reference week enforced as an actual cap); self-employed unchanged",
+      "cap": 35,
+      "apply_to": [
+        "SAL"
+      ],
+      "annual_method": "constant_absence"
+    },
+    {
+      "id": "cap30_all_constant_absence",
+      "description": "As primary, cap also applied to self-employed and family workers",
+      "cap": 30,
+      "apply_to": [
+        "SAL",
+        "SELF"
+      ],
+      "annual_method": "constant_absence"
+    },
+    {
+      "id": "cap30_employees_constant_absence_rtt2w",
+      "description": "SENSITIVITY: as primary, but full-time employees work 2 extra weeks/year because RTT days compensating >35h would lapse (synthetic magnitude)",
+      "cap": 30,
+      "apply_to": [
+        "SAL"
+      ],
+      "annual_method": "constant_absence",
+      "extra_weeks_ft": 2,
+      "extra_weeks_evidence_class": "SYNTHETIC_ASSUMPTION"
+    },
+    {
+      "id": "cap30_employees_46w",
+      "description": "V6.1 convention: annual hours of full-time employees capped at 30 x 46 weeks; part-time unchanged unless above",
+      "cap": 30,
+      "apply_to": [
+        "SAL"
+      ],
+      "annual_method": "normative_weeks",
+      "weeks": 46
+    },
+    {
+      "id": "cap30_all_46w",
+      "description": "V6.1 convention applied to all workers",
+      "cap": 30,
+      "apply_to": [
+        "SAL",
+        "SELF"
+      ],
+      "annual_method": "normative_weeks",
+      "weeks": 46
+    },
+    {
+      "id": "cap30_all_constant_absence_pt_tail",
+      "description": "SENSITIVITY: 15% of part-timers assumed to usually work 32h (synthetic tail; LFS gives only group means)",
+      "cap": 30,
+      "apply_to": [
+        "SAL",
+        "SELF"
+      ],
+      "annual_method": "constant_absence",
+      "pt_above_cap_share": 0.15,
+      "pt_above_cap_hours": 32,
+      "tail_evidence_class": "SYNTHETIC_ASSUMPTION"
+    },
+    {
+      "id": "cap32_all_constant_absence",
+      "description": "SENSITIVITY: 32h cap (not a UNIRA rule)",
+      "cap": 32,
+      "apply_to": [
+        "SAL",
+        "SELF"
+      ],
+      "annual_method": "constant_absence"
+    },
+    {
+      "id": "cap35_all_constant_absence",
+      "description": "SENSITIVITY: 35h cap (France's legal reference duration, not a UNIRA rule)",
+      "cap": 35,
+      "apply_to": [
+        "SAL",
+        "SELF"
+      ],
+      "annual_method": "constant_absence"
+    }
+  ],
+  "offset_grid_theta": [
+    0,
+    0.1,
+    0.2,
+    0.3,
+    0.5,
+    1.0
+  ],
+  "primary_scenario": "cap30_employees_constant_absence",
+  "upper_scenario": "cap30_all_constant_absence",
+  "labour_reserve": {
+    "_comment": "Mobilisation of people not working today into 30h jobs. Shares are UPPER bounds (full take-up, perfect matching).",
+    "years": [
+      2023,
+      2024
+    ],
+    "age_band": "Y20-64",
+    "entrant_weekly_hours": {
+      "value": "equals weekly cap",
+      "evidence_class": "NORMATIVE_TARGET"
+    },
+    "entrant_relative_productivity": {
+      "values": [
+        1.0,
+        0.75
+      ],
+      "evidence_class": "SYNTHETIC_ASSUMPTION",
+      "note": "1.0 = entrants as productive per hour as incumbents (upper bound); 0.75 illustrates lower experience/skills match. Not estimated."
+    },
+    "apply_to_variants": [
+      [
+        "SAL"
+      ],
+      [
+        "SAL",
+        "SELF"
+      ]
+    ],
+    "benchmarks": {
+      "top3": "top3_mean",
+      "NL": "NL"
+    },
+    "weeks_plausible": [
+      28,
+      50
+    ],
+    "weekly_caps": [
+      30,
+      35
+    ]
+  },
+  "evidence_pathway": {
+    "_comment": "Combines sector-specific theta (audit/hours_productivity_evidence.md) with labour-reserve mobilisation (benchmark framing). Take-up is SYNTHETIC: no evaluated reform shows hours cuts alone create net jobs, so mobilisation requires deliberate policy (training, care services, accessible jobs).",
+    "care_sectors": [
+      "P",
+      "Q"
+    ],
+    "evidence_classes": {
+      "theta": "REPORTED_NEEDS_RECHECK (literature-derived range, short run)",
+      "take_up": "SYNTHETIC_ASSUMPTION",
+      "entrant_relative_productivity": "SYNTHETIC_ASSUMPTION"
+    },
+    "by_cap": {
+      "30": {
+        "scenario": "cap30_employees_constant_absence",
+        "cases": {
+          "low": {
+            "theta_market": 0.1,
+            "theta_care": 0.0,
+            "take_up": 0.25,
+            "entrant_relative_productivity": 0.75
+          },
+          "central": {
+            "theta_market": 0.2,
+            "theta_care": 0.05,
+            "take_up": 0.5,
+            "entrant_relative_productivity": 0.75
+          },
+          "high": {
+            "theta_market": 0.35,
+            "theta_care": 0.15,
+            "take_up": 1.0,
+            "entrant_relative_productivity": 1.0
+          }
+        }
+      },
+      "35": {
+        "scenario": "cap35_employees_constant_absence",
+        "_comment": "39->35 is the range actually evaluated (Aubry laws, Portugal): theta 0.2-0.6, upper end from subsidised volunteer firms (audit/hours_productivity_evidence.md)",
+        "cases": {
+          "low": {
+            "theta_market": 0.2,
+            "theta_care": 0.0,
+            "take_up": 0.25,
+            "entrant_relative_productivity": 0.75
+          },
+          "central": {
+            "theta_market": 0.4,
+            "theta_care": 0.05,
+            "take_up": 0.5,
+            "entrant_relative_productivity": 0.75
+          },
+          "high": {
+            "theta_market": 0.6,
+            "theta_care": 0.15,
+            "take_up": 1.0,
+            "entrant_relative_productivity": 1.0
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "clean_share_today_assumed": 0.19,
+  "cases": {
+    "low": {
+      "clean_built_ej_per_yr_by_y30": 120.9,
+      "absorbed_by_convergence_ej": 120.9,
+      "left_for_replacing_fossil_ej": 0.0,
+      "world_final_energy_y30_ej": 379.8,
+      "fossil_still_to_replace_ej": 186.7,
+      "clean_share_y30_if_all_build_is_clean": 0.508
+    },
+    "central": {
+      "clean_built_ej_per_yr_by_y30": 217.0,
+      "absorbed_by_convergence_ej": 178.5,
+      "left_for_replacing_fossil_ej": 38.5,
+      "world_final_energy_y30_ej": 389.8,
+      "fossil_still_to_replace_ej": 137.2,
+      "clean_share_y30_if_all_build_is_clean": 0.747
+    },
+    "high": {
+      "clean_built_ej_per_yr_by_y30": 325.5,
+      "absorbed_by_convergence_ej": 178.9,
+      "left_for_replacing_fossil_ej": 146.6,
+      "world_final_energy_y30_ej": 383.3,
+      "fossil_still_to_replace_ej": 131.6,
+      "clean_share_y30_if_all_build_is_clean": 1.0
+    },
+    "central_no_wars": {
+      "clean_built_ej_per_yr_by_y30": 217.0,
+      "absorbed_by_convergence_ej": 178.3,
+      "left_for_replacing_fossil_ej": 38.7,
+      "world_final_energy_y30_ej": 399.9,
+      "fossil_still_to_replace_ej": 145.6,
+      "clean_share_y30_if_all_build_is_clean": 0.733
+    }
+  }
+}

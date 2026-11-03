@@ -1,0 +1,56 @@
+{
+  "_comment": "UNIRA V6.7 30-year transition. Targets = comfortable levels (v65/thresholds). Capacities: energy from solar+wind build (v66/ecology: 2025 record 669 GW; 1.5C path needs 1.1-1.3 TW/yr; blended capacity factor 0.186 from the 2025 mix), health from v66 training plan, housing from v66/construction/capacity.json.",
+  "years": 30,
+  "energy_target_gj": 40,
+  "health_target_per_10k": 131,
+  "floor_target_m2": 27,
+  "kcal_eaten": {
+    "decent": 2100,
+    "comfortable": 2470
+  },
+  "waste_now": 0.19,
+  "waste_unira": 0.095,
+  "waste_years": 10,
+  "housing_capacity_key": "world_res_floor_added_m2_per_yr",
+  "cases": {
+    "low": {
+      "energy_new_ej_per_yr": 3.9,
+      "health_capacity": "low",
+      "housing": "low",
+      "housing_share_to_deficit": 0.5,
+      "excess_decline": 0.02,
+      "_note": "record solar+wind pace (0.67 TW/yr); half of world home building goes to regions below 27 m2"
+    },
+    "central": {
+      "energy_new_ej_per_yr": 7.0,
+      "health_capacity": "central",
+      "housing": "central",
+      "housing_share_to_deficit": 0.75,
+      "excess_decline": 0.04,
+      "_note": "1.2 TW/yr; 75% of home building to regions below target (One Earth allocation)"
+    },
+    "high": {
+      "energy_new_ej_per_yr": 10.5,
+      "health_capacity": "high",
+      "housing": "high",
+      "housing_share_to_deficit": 0.9,
+      "excess_decline": 0.05,
+      "_note": "1.8 TW/yr; 90% of home building to regions below target"
+    },
+    "central_no_wars": {
+      "energy_new_ej_per_yr": 7.0,
+      "health_capacity": "central",
+      "housing": "central",
+      "housing_share_to_deficit": 0.75,
+      "excess_decline": 0.03,
+      "_note": "central + rule 19: military energy (5.5% of world, Parkinson & Cottrell 2022, REPORTED_NEEDS_RECHECK) freed over 5 years in regions above target; rich-region decline 3%/yr instead of 4%",
+      "military_energy_share": 0.055,
+      "military_years": 5
+    }
+  },
+  "evidence_classes": {
+    "energy_new_ej_per_yr": "MODEL_DERIVED from REPORTED build rates",
+    "housing_share_to_deficit": "SYNTHETIC_ASSUMPTION (One Earth allocation choice)",
+    "excess_decline": "SYNTHETIC_ASSUMPTION; 4%/yr is the slowest tested rate keeping world final energy at or below today's 409 EJ (inside the IPCC AR6 1.5C range) while poorer regions converge"
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "material_index_definition": "mean log ratio UNIRA/market of final energy, health workers, floor area at year 30",
+  "gainers_share_of_world_pop": 0.8593181666020514,
+  "losers_share_of_world_pop": 0.14068183339794857,
+  "n_gainers": 146,
+  "n_losers": 33,
+  "union_of_gainers": {
+    "members_share_energy_use": 0.62307406292392,
+    "members_share_health_workers": 0.6538573470420763,
+    "members_share_population": 0.8593181666020514,
+    "outcomes": {
+      "energy_closed_y15": 0.20350311505136698,
+      "health_closed_y15": 0.15331905967347925,
+      "housing_closed_y30": 0.2505184237123885
+    }
+  },
+  "whole_world_unira_outcomes": {
+    "energy_closed_y15": 0.5249577610332838,
+    "health_closed_y15": 0.3363310207153387,
+    "housing_closed_y30": 0.40451871706126763
+  },
+  "breakeven_losers_top": [
+    [
+      "LUX",
+      12.154003490211329
+    ],
+    [
+      "ISL",
+      12.154003490211318
+    ],
+    [
+      "BEL",
+      12.154003490211307
+    ],
+    [
+      "FIN",
+      12.154003490211307
+    ],
+    [
+      "AUS",
+      12.154003490211307
+    ],
+    [
+      "NLD",
+      12.154003490211295
+    ],
+    [
+      "SWE",
+      12.154003490211295
+    ],
+    [
+      "AUT",
+      12.154003490211284
+    ],
+    [
+      "NOR",
+      12.154003490211284
+    ],
+    [
+      "USA",
+      12.154003490211274
+    ],
+    [
+      "MLT",
+      12.149973079762432
+    ],
+    [
+      "CAN",
+      12.135496795359002
+    ],
+    [
+      "KOR",
+      12.016134578003824
+    ],
+    [
+      "JPN",
+      11.668140039186092
+    ],
+    [
+      "RUS",
+      11.62010733474963
+    ]
+  ],
+  "regions": {
+    "FRA": {
+      "pop": 68551653.0,
+      "energy_ratio": 0.8276600198555335,
+      "health_ratio": 1.0,
+      "floor_ratio": 1.0,
+      "material_index": -0.06305093765233637,
+      "material_change_pct": -6.110435266900149
+    },
+    "USA": {
+      "pop": 340003797.0,
+      "energy_ratio": 0.6779004485706986,
+      "health_ratio": 1.0,
+      "floor_ratio": 1.0,
+      "material_index": -0.12958494427971307,
+      "material_change_pct": -12.154003490211274
+    },
+    "DEU": {
+      "pop": 83516593.0,
+      "energy_ratio": 0.7811933927440501,
+      "health_ratio": 1.0,
+      "floor_ratio": 1.0,
+      "material_index": -0.08231084594809925,
+      "material_change_pct": -7.901437045467585
+    },
+    "CHN": {
+      "pop": 1408975000.0,
+      "energy_ratio": 0.8161520085097705,
+      "health_ratio": 1.3079995240354247,
+      "floor_ratio": 1.0,
+      "material_index": 0.02178141090639348,
+      "material_change_pct": 2.202035754837972
+    },
+    "BRA": {
+      "pop": 211998573.0,
+      "energy_ratio": 1.0188318095397348,
+      "health_ratio": 1.2870215571695256,
+      "floor_ratio": 1.0330165982740442,
+      "material_index": 0.1011568742133726,
+      "material_change_pct": 10.645020165455232
+    },
+    "IND": {
+      "pop": 1450935791.0,
+      "energy_ratio": 1.8347297300707122,
+      "health_ratio": 1.8360170187363076,
+      "floor_ratio": 1.5184347593227907,
+      "material_index": 0.5440585956324573,
+      "material_change_pct": 72.29855924835607
+    },
+    "NGA": {
+      "pop": 232679478.0,
+      "energy_ratio": 3.4208392479084577,
+      "health_ratio": 2.342557843766621,
+      "floor_ratio": 1.6338762904800999,
+      "material_index": 0.8573615423497087,
+      "material_change_pct": 135.69338125880282
+    },
+    "ETH": {
+      "pop": 132059767.0,
+      "energy_ratio": 4.220334215503397,
+      "health_ratio": 2.4501206493408216,
+      "floor_ratio": 1.9017717118688409,
+      "material_index": 0.9929458408285371,
+      "material_change_pct": 169.9174109448976
+    },
+    "PAK": {
+      "pop": 251269164.0,
+      "energy_ratio": 2.998591775546857,
+      "health_ratio": 2.278387714306784,
+      "floor_ratio": 1.4762837192608744,
+      "material_index": 0.7703795832376971,
+      "material_change_pct": 116.05862204651541
+    },
+    "IDN": {
+      "pop": 283487931.0,
+      "energy_ratio": 1.5180613376731165,
+      "health_ratio": 1.7942626087073712,
+      "floor_ratio": 1.3305033998706042,
+      "material_index": 0.4291951954702735,
+      "material_change_pct": 53.60208294452333
+    },
+    "RUS": {
+      "pop": 143669648.0,
+      "energy_ratio": 0.6779004485706979,
+      "health_ratio": 1.0182306576078197,
+      "floor_ratio": 1.0001112651179596,
+      "material_index": -0.12352570075500201,
+      "material_change_pct": -11.62010733474963
+    },
+    "JPN": {
+      "pop": 123975371.0,
+      "energy_ratio": 0.6892108817505774,
+      "health_ratio": 1.0,
+      "floor_ratio": 1.0,
+      "material_index": -0.12406932849798552,
+      "material_change_pct": -11.668140039186092
+    }
+  }
+}

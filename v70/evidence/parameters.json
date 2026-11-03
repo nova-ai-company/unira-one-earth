@@ -1,0 +1,59 @@
+{
+  "embodied_co2_kg_m2": {
+    "unit": "kgCO2e per m2 floor area, upfront A1-A5 (some sources A1-A3)",
+    "conventional": {
+      "low": 250,
+      "central": 400,
+      "high": 600,
+      "basis": "low: concrete/brick building 240 (Escamilla 2018 via Tello-Ayala 2023); central: Malaysia RC+fired brick 406 (A1-A3, Asman 2020) and EU residential ~400 upfront (2/3 of 600, Ramboll 2022); high: WBCSD/Arup 500-600 average upfront"
+    },
+    "low_carbon": {
+      "low": 30,
+      "central": 150,
+      "high": 265,
+      "basis": "low: bamboo buildings 30 (Escamilla 2018, cited); central: judgment between bahareque = 27% of RC structure, Colombian bamboo house ~107 (unverified), SA sandbag 174-189 (unverified); high: Malaysia interlocking CEB 265 (A1-A3, frame unchanged)"
+    },
+    "note": "Earth blocks alone save little at house level (walls ~20-40 kgCO2e per m2 wall; Kenya CEB with 10% cement = stone). Big savings need replacing RC frame/slab/roof (bamboo, timber, vaults, filler slabs). No verified whole-house LCA for India/SSA RC-frame found."
+  },
+  "labour_h_m2_low_cost": {
+    "low": 33,
+    "central": 48,
+    "high": 64,
+    "basis": "low: China 2010 top-down 33 h/m2 (derived, assumed 2,200 h/yr); high: PMAY-G 201 person-days/house at 25 m2 x 8 h = 64 h/m2 (upper bound, houses may be larger); central = midpoint (judgment). Earth/alternative materials reported as more labour-intensive."
+  },
+  "upgrade_share_of_need": {
+    "low": 0.17,
+    "central": 0.4,
+    "high": 0.8,
+    "basis": "India urban TG-12 2012: 17.4% of shortage is obsolete/non-serviceable stock (upgrade-or-replace); 79.8% is congestion, which needs added floor area that could partly be met by in-situ extension of existing structures. Central 0.4 is judgment. No UN-Habitat global upgradable share found."
+  },
+  "upgrade_material_ratio_vs_new": {
+    "low": 0.25,
+    "central": 0.4,
+    "high": 0.67,
+    "basis": "UNEP 2023: repurposing 50-75% fewer emissions => 0.25-0.50; IStructE 2023 case 111/199 = 0.56 (unverified); Chile in-situ upgrading cost ~2/3 of relocation (NBER 34560) used as high. Emissions used as proxy for material."
+  },
+  "vacant_usable_share_deficit_regions": {
+    "low": 0.0,
+    "central": 0.005,
+    "high": 0.02,
+    "unit": "fraction of the ~65 bn m2 comfortable-housing need met by reoccupying vacant stock in deficit regions",
+    "basis": "India urban vacant 11.09 m units (2011); x assumed 30 m2/unit = ~0.33 bn m2 = ~0.5% of 65 bn m2 even if all reused (unit size assumed). No Africa vacancy data found. Large vacant stocks are in China (~65 m units, 21.4%), Japan (9.0 m), EU (46.6 m unoccupied incl. second homes) and cannot be moved to South Asia/Africa."
+  },
+  "max_build_m2_per_1000_per_yr": {
+    "low": 720,
+    "central": 1468,
+    "high": 1500,
+    "basis": "China 2011 1,468 (v66, verified inputs); Korea 1990 750,378 dwellings / 42.87 m = 17.5 dwellings/1000/yr x assumed 60-85 m2 = 1,050-1,490 (size assumed); USA 2025 720 as low. Post-war Europe not sourced."
+  },
+  "basis": "Fetched sources 2026-11-03; see evidence.csv. v66 construction values reused where marked.",
+  "confidence": {
+    "embodied_conventional": "medium",
+    "embodied_low_carbon": "low-medium (few Global South whole-house LCAs; boundaries vary)",
+    "labour": "low",
+    "upgrade_share": "low (judgment on India-only decomposition)",
+    "upgrade_ratio": "medium",
+    "vacant_usable": "medium that it is small; exact value low",
+    "max_build": "medium"
+  }
+}

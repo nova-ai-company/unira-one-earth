@@ -1,0 +1,162 @@
+{
+  "2022": {
+    "total_hours_ths": 45035899.0,
+    "allocated_hours_share": 0.5077449658549061,
+    "embodied_by_use": {
+      "household_consumption": {
+        "hours_ths": 14420926.726531653,
+        "share": 0.32020958938849325
+      },
+      "government_consumption": {
+        "hours_ths": 11550807.359959072,
+        "share": 0.2564799996544772
+      },
+      "npish_consumption": {
+        "hours_ths": 1541710.9467227072,
+        "share": 0.03423293374742463
+      },
+      "gross_fixed_capital_formation": {
+        "hours_ths": 7741511.093535419,
+        "share": 0.17189644850956387
+      },
+      "inventories_and_valuables": {
+        "hours_ths": 90425.63795899997,
+        "share": 0.0020078568423603574
+      },
+      "exports": {
+        "hours_ths": 9690534.835196424,
+        "share": 0.21517356265490392
+      }
+    },
+    "import_hours_equivalent_ths": 10880726.11154544,
+    "market_candidates": {
+      "modest": {
+        "hours_saved_ths": 771336.5693170354,
+        "share_of_total_hours": 0.017127149372926594
+      },
+      "moderate": {
+        "hours_saved_ths": 1747226.6762184128,
+        "share_of_total_hours": 0.03879630950008154
+      },
+      "deep": {
+        "hours_saved_ths": 2970263.3842293695,
+        "share_of_total_hours": 0.06595323842051803
+      }
+    },
+    "durables": [
+      {
+        "lifetime_extension": 0.25,
+        "durables_hours_ths": 422910.60880250996,
+        "gross_saved_ths": 84582.12176050198,
+        "net_saved_ths": 63436.59132037648,
+        "share_of_total_hours": 0.0014085783281549788
+      },
+      {
+        "lifetime_extension": 0.5,
+        "durables_hours_ths": 422910.60880250996,
+        "gross_saved_ths": 140970.20293417,
+        "net_saved_ths": 105727.65220062749,
+        "share_of_total_hours": 0.0023476305469249652
+      },
+      {
+        "lifetime_extension": 1.0,
+        "durables_hours_ths": 422910.60880250996,
+        "gross_saved_ths": 211455.30440125498,
+        "net_saved_ths": 158591.47830094123,
+        "share_of_total_hours": 0.003521445820387448
+      }
+    ],
+    "imported_durables_hours_equivalent_ths": 1266699.9259645492,
+    "household_food_hours_share": 0.035626793477927854
+  },
+  "2019": {
+    "total_hours_ths": 43118597.0,
+    "allocated_hours_share": 0.5065340831938479,
+    "embodied_by_use": {
+      "household_consumption": {
+        "hours_ths": 14596391.838109754,
+        "share": 0.3385173185971184
+      },
+      "government_consumption": {
+        "hours_ths": 10785134.487067357,
+        "share": 0.2501272127909764
+      },
+      "npish_consumption": {
+        "hours_ths": 1480235.2067681712,
+        "share": 0.03432939171857032
+      },
+      "gross_fixed_capital_formation": {
+        "hours_ths": 7664017.933075913,
+        "share": 0.1777427482873785
+      },
+      "inventories_and_valuables": {
+        "hours_ths": 186877.29353662377,
+        "share": 0.004334030013467826
+      },
+      "exports": {
+        "hours_ths": 8405965.773659797,
+        "share": 0.19494989073182964
+      }
+    },
+    "import_hours_equivalent_ths": 9457703.040816493,
+    "market_candidates": {
+      "modest": {
+        "hours_saved_ths": 706212.4127693698,
+        "share_of_total_hours": 0.016378371790932107
+      },
+      "moderate": {
+        "hours_saved_ths": 1600975.4081223905,
+        "share_of_total_hours": 0.037129580262604336
+      },
+      "deep": {
+        "hours_saved_ths": 2720795.5135299116,
+        "share_of_total_hours": 0.06310027929549544
+      }
+    },
+    "durables": [
+      {
+        "lifetime_extension": 0.25,
+        "durables_hours_ths": 371716.94149484794,
+        "gross_saved_ths": 74343.38829896957,
+        "net_saved_ths": 55757.54122422718,
+        "share_of_total_hours": 0.0012931204886890725
+      },
+      {
+        "lifetime_extension": 0.5,
+        "durables_hours_ths": 371716.94149484794,
+        "gross_saved_ths": 123905.64716494933,
+        "net_saved_ths": 92929.235373712,
+        "share_of_total_hours": 0.0021552008144817883
+      },
+      {
+        "lifetime_extension": 1.0,
+        "durables_hours_ths": 371716.94149484794,
+        "gross_saved_ths": 185858.47074742397,
+        "net_saved_ths": 139393.85306056798,
+        "share_of_total_hours": 0.0032328012217226823
+      }
+    ],
+    "imported_durables_hours_equivalent_ths": 1281784.3521963716,
+    "household_food_hours_share": 0.03945335963674361
+  },
+  "gap_comparison": {
+    "low": {
+      "uncovered_share_after_v62_pathway": 0.13470856984632426,
+      "after_modest_candidates": 0.11758142047339767,
+      "after_moderate_candidates": 0.09591226034624273,
+      "after_deep_candidates": 0.06875533142580623
+    },
+    "central": {
+      "uncovered_share_after_v62_pathway": 0.10078815917848007,
+      "after_modest_candidates": 0.08366100980555347,
+      "after_moderate_candidates": 0.061991849678398527,
+      "after_deep_candidates": 0.03483492075796203
+    },
+    "high": {
+      "uncovered_share_after_v62_pathway": 0.01536231712816635,
+      "after_modest_candidates": -0.0017648322447602442,
+      "after_moderate_candidates": -0.02343399237191519,
+      "after_deep_candidates": -0.05059092129235168
+    }
+  }
+}

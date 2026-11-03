@@ -1,0 +1,118 @@
+{
+  "stock0": 47404421.067994,
+  "results": {
+    "low|1_status_quo_training": {
+      "years_to_close": null,
+      "need_y26": 126603359.4897,
+      "stock_y26": 47404421.067994,
+      "per_10k_y10": 54.32018587207952,
+      "per_10k_y26": 49.050666466812324
+    },
+    "low|2_expand_training_7pct_15y": {
+      "years_to_close": null,
+      "need_y26": 126603359.4897,
+      "stock_y26": 73795206.60282566,
+      "per_10k_y10": 56.1290213906801,
+      "per_10k_y26": 76.35794266388838
+    },
+    "low|3_plus_disarmament_25pct_volunteer": {
+      "years_to_close": null,
+      "need_y26": 126603359.4897,
+      "stock_y26": 77639809.19698061,
+      "per_10k_y10": 63.30111759880233,
+      "per_10k_y26": 80.33605937314738
+    },
+    "low|4_plus_prevention_central": {
+      "years_to_close": null,
+      "need_y26": 122805258.705009,
+      "stock_y26": 77639809.19698061,
+      "per_10k_y10": 63.30111759880233,
+      "per_10k_y26": 80.33605937314738
+    },
+    "low|5_ambitious_10pct_50pct_prevention_high": {
+      "years_to_close": 42,
+      "need_y26": 110229324.99569881,
+      "stock_y26": 88332405.03032367,
+      "per_10k_y10": 70.09984067341803,
+      "per_10k_y26": 91.39998421537796
+    },
+    "central|1_status_quo_training": {
+      "years_to_close": null,
+      "need_y26": 126603359.4897,
+      "stock_y26": 60370348.80734037,
+      "per_10k_y10": 61.45177098837503,
+      "per_10k_y26": 62.46687075002142
+    },
+    "central|2_expand_training_7pct_15y": {
+      "years_to_close": 37,
+      "need_y26": 126603359.4897,
+      "stock_y26": 99956527.10958785,
+      "per_10k_y10": 64.16502426627592,
+      "per_10k_y26": 103.42778504563549
+    },
+    "central|3_plus_disarmament_25pct_volunteer": {
+      "years_to_close": 36,
+      "need_y26": 126603359.4897,
+      "stock_y26": 103801129.7037428,
+      "per_10k_y10": 71.33712047439815,
+      "per_10k_y26": 107.40590175489449
+    },
+    "central|4_plus_prevention_central": {
+      "years_to_close": 34,
+      "need_y26": 122805258.705009,
+      "stock_y26": 103801129.7037428,
+      "per_10k_y10": 71.33712047439815,
+      "per_10k_y26": 107.40590175489449
+    },
+    "central|5_ambitious_10pct_50pct_prevention_high": {
+      "years_to_close": 23,
+      "need_y26": 110229324.99569881,
+      "stock_y26": 118928573.34350394,
+      "per_10k_y10": 79.83489726007731,
+      "per_10k_y26": 123.05868636342561
+    },
+    "high|1_status_quo_training": {
+      "years_to_close": null,
+      "need_y26": 126603359.4897,
+      "stock_y26": 73336276.54668675,
+      "per_10k_y10": 68.58335610467056,
+      "per_10k_y26": 75.88307503323054
+    },
+    "high|2_expand_training_7pct_15y": {
+      "years_to_close": 27,
+      "need_y26": 126603359.4897,
+      "stock_y26": 126117847.61635005,
+      "per_10k_y10": 72.20102714187173,
+      "per_10k_y26": 130.49762742738264
+    },
+    "high|3_plus_disarmament_25pct_volunteer": {
+      "years_to_close": 25,
+      "need_y26": 126603359.4897,
+      "stock_y26": 129962450.21050502,
+      "per_10k_y10": 79.37312334999399,
+      "per_10k_y26": 134.47574413664165
+    },
+    "high|4_plus_prevention_central": {
+      "years_to_close": 24,
+      "need_y26": 122805258.705009,
+      "stock_y26": 129962450.21050502,
+      "per_10k_y10": 79.37312334999399,
+      "per_10k_y26": 134.47574413664165
+    },
+    "high|5_ambitious_10pct_50pct_prevention_high": {
+      "years_to_close": 18,
+      "need_y26": 110229324.99569881,
+      "stock_y26": 148850840.86546826,
+      "per_10k_y10": 88.31279366152543,
+      "per_10k_y26": 154.02008471159684
+    }
+  },
+  "assumptions": {
+    "base_intake_share_of_stock": "3/4.5/6% MODEL_DERIVED from OECD graduates per worker (~5.4-6.0/100), lower for world",
+    "exit_rate": "3%/yr MODEL_DERIVED (France nurses 3.3%)",
+    "lead_time": "4 yr weighted nurses 3 / doctors 6-9 (REPORTED_NEEDS_RECHECK)",
+    "training_capacity_cap": "3x today's intake (teachers, schools) SYNTHETIC",
+    "military_volunteers": "25% / 50% of 27.4 m armed forces volunteer over 5 years (SYNTHETIC; voluntary)",
+    "population_after_2050": "held at 2050 level (SYNTHETIC; UN WPP peak ~2080s)"
+  }
+}

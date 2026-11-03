@@ -1,0 +1,6 @@
+scenario,labour_hours_week_billion,labour_output_index_vs_baseline,productivity_multiplier_for_parity,food_kcal_supply_to_target_ratio,food_kcal_gap_quadrillion_year,electricity_twh_surplus_vs_target,housing_units_after_programme_million
+baseline,130.5,0.8430232558139535,1.186206896551724,0.96,-0.2993,-2800.0,12.0
+drought_20pct_food_supply,130.5,0.8430232558139535,1.186206896551724,0.768,-1.73594,-2800.0,12.0
+electricity_disruption_15pct,130.5,0.8430232558139535,1.186206896551724,0.96,-0.2993,-7300.0,12.0
+productivity_up_20pct,130.5,1.0116279069767442,1.186206896551724,0.96,-0.2993,-2800.0,12.0
+population_up_10pct,143.55,0.9273255813953488,1.078369905956113,0.96,-0.32923,-6080.0,12.0

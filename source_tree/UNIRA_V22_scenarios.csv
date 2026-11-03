@@ -1,0 +1,6 @@
+scenario,gross_food,gross_energy,gross_materials,gross_housing,capacity_shortfalls,labor_overages,simple_feasible
+baseline,106.377,113.64,88.773,45.336,[],{},True
+region_A_energy_70pct_loss,106.377,113.64,88.773,45.336,"[{""sector"": ""energy"", ""shortfall"": 14.14}]",{},False
+housing_demand_plus_25pct,106.897,116.602,93.283,55.774,[],{},True
+labor_availability_minus_40pct,106.377,113.64,88.773,45.336,[],"{""A"": 12.242, ""B"": 13.113, ""C"": 13.999}",False
+energy_efficiency_plus_20pct,106.377,113.64,88.773,45.336,[],{},True

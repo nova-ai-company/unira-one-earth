@@ -1,0 +1,516 @@
+{
+  "base_year": 2023,
+  "scenarios": {
+    "2023:A_observed": {
+      "hours_before_ths": 45599316.0,
+      "hours_after_ths": 45599316.0,
+      "persons_ths": 30375.1,
+      "hours_retention_ratio": 1.0,
+      "required_hourly_productivity_gain": 0.0,
+      "additional_persons_same_profile_ths": 0.0,
+      "va_at_risk_fixed_productivity_meur": 0,
+      "trend_va_per_hour_2015_2019": 0.005679,
+      "years_of_trend_2015_2019_to_cover_gain": 0.0,
+      "trend_va_per_hour_2015_2023": 0.000609,
+      "years_of_trend_2015_2023_to_cover_gain": 0.0
+    },
+    "2023:cap30_employees_constant_absence": {
+      "hours_before_ths": 45599316.0,
+      "hours_after_ths": 37969324.963711,
+      "persons_ths": 30375.1,
+      "hours_retention_ratio": 0.832673,
+      "required_hourly_productivity_gain": 0.200951,
+      "additional_persons_same_profile_ths": 6814.549306,
+      "va_at_risk_fixed_productivity_meur": 447761.909987,
+      "trend_va_per_hour_2015_2019": 0.005679,
+      "years_of_trend_2015_2019_to_cover_gain": 32.333539,
+      "trend_va_per_hour_2015_2023": 0.000609,
+      "years_of_trend_2015_2023_to_cover_gain": 300.88875
+    },
+    "2023:cap35_employees_constant_absence": {
+      "hours_before_ths": 45599316.0,
+      "hours_after_ths": 42295255.916057,
+      "persons_ths": 30375.1,
+      "hours_retention_ratio": 0.927541,
+      "required_hourly_productivity_gain": 0.078119,
+      "additional_persons_same_profile_ths": 2570.044485,
+      "va_at_risk_fixed_productivity_meur": 199336.150213,
+      "trend_va_per_hour_2015_2019": 0.005679,
+      "years_of_trend_2015_2019_to_cover_gain": 13.281648,
+      "trend_va_per_hour_2015_2023": 0.000609,
+      "years_of_trend_2015_2023_to_cover_gain": 123.596076
+    },
+    "2023:cap30_all_constant_absence": {
+      "hours_before_ths": 45599316.0,
+      "hours_after_ths": 35326854.415733,
+      "persons_ths": 30375.1,
+      "hours_retention_ratio": 0.774723,
+      "required_hourly_productivity_gain": 0.290783,
+      "additional_persons_same_profile_ths": 8489.876886,
+      "va_at_risk_fixed_productivity_meur": 579359.541511,
+      "trend_va_per_hour_2015_2019": 0.005679,
+      "years_of_trend_2015_2019_to_cover_gain": 45.070872,
+      "trend_va_per_hour_2015_2023": 0.000609,
+      "years_of_trend_2015_2023_to_cover_gain": 419.419543
+    },
+    "2023:cap30_employees_constant_absence_rtt2w": {
+      "hours_before_ths": 45599316.0,
+      "hours_after_ths": 39311947.298474,
+      "persons_ths": 30375.1,
+      "hours_retention_ratio": 0.862117,
+      "required_hourly_productivity_gain": 0.159935,
+      "additional_persons_same_profile_ths": 5362.792602,
+      "va_at_risk_fixed_productivity_meur": 370610.908624,
+      "trend_va_per_hour_2015_2019": 0.005679,
+      "years_of_trend_2015_2019_to_cover_gain": 26.197548,
+      "trend_va_per_hour_2015_2023": 0.000609,
+      "years_of_trend_2015_2023_to_cover_gain": 243.788578
+    },
+    "2023:cap30_employees_46w": {
+      "hours_before_ths": 45599316.0,
+      "hours_after_ths": 42599340.311663,
+      "persons_ths": 30375.1,
+      "hours_retention_ratio": 0.93421,
+      "required_hourly_productivity_gain": 0.070423,
+      "additional_persons_same_profile_ths": 2272.142229,
+      "va_at_risk_fixed_productivity_meur": 179503.94318,
+      "trend_va_per_hour_2015_2019": 0.005679,
+      "years_of_trend_2015_2019_to_cover_gain": 12.016687,
+      "trend_va_per_hour_2015_2023": 0.000609,
+      "years_of_trend_2015_2023_to_cover_gain": 111.824624
+    },
+    "2023:cap30_all_46w": {
+      "hours_before_ths": 45599316.0,
+      "hours_after_ths": 39177794.011139,
+      "persons_ths": 30375.1,
+      "hours_retention_ratio": 0.859175,
+      "required_hourly_productivity_gain": 0.163907,
+      "additional_persons_same_profile_ths": 4825.370845,
+      "va_at_risk_fixed_productivity_meur": 347717.906271,
+      "trend_va_per_hour_2015_2019": 0.005679,
+      "years_of_trend_2015_2019_to_cover_gain": 26.80115,
+      "trend_va_per_hour_2015_2023": 0.000609,
+      "years_of_trend_2015_2023_to_cover_gain": 249.405559
+    },
+    "2023:cap30_all_constant_absence_pt_tail": {
+      "hours_before_ths": 45599316.0,
+      "hours_after_ths": 35260596.827799,
+      "persons_ths": 30375.1,
+      "hours_retention_ratio": 0.77327,
+      "required_hourly_productivity_gain": 0.293209,
+      "additional_persons_same_profile_ths": 8561.672163,
+      "va_at_risk_fixed_productivity_meur": 582548.891597,
+      "trend_va_per_hour_2015_2019": 0.005679,
+      "years_of_trend_2015_2019_to_cover_gain": 45.402361,
+      "trend_va_per_hour_2015_2023": 0.000609,
+      "years_of_trend_2015_2023_to_cover_gain": 422.50431
+    },
+    "2023:cap32_all_constant_absence": {
+      "hours_before_ths": 45599316.0,
+      "hours_after_ths": 37357081.152143,
+      "persons_ths": 30375.1,
+      "hours_retention_ratio": 0.819247,
+      "required_hourly_productivity_gain": 0.220634,
+      "additional_persons_same_profile_ths": 6379.447749,
+      "va_at_risk_fixed_productivity_meur": 464436.822306,
+      "trend_va_per_hour_2015_2019": 0.005679,
+      "years_of_trend_2015_2019_to_cover_gain": 35.203977,
+      "trend_va_per_hour_2015_2023": 0.000609,
+      "years_of_trend_2015_2023_to_cover_gain": 327.600407
+    },
+    "2023:cap35_all_constant_absence": {
+      "hours_before_ths": 45599316.0,
+      "hours_after_ths": 40402421.256759,
+      "persons_ths": 30375.1,
+      "hours_retention_ratio": 0.886031,
+      "required_hourly_productivity_gain": 0.128628,
+      "additional_persons_same_profile_ths": 3613.323092,
+      "va_at_risk_fixed_productivity_meur": 292052.7435,
+      "trend_va_per_hour_2015_2019": 0.005679,
+      "years_of_trend_2015_2019_to_cover_gain": 21.366213,
+      "trend_va_per_hour_2015_2023": 0.000609,
+      "years_of_trend_2015_2023_to_cover_gain": 198.829242
+    },
+    "2024:A_observed": {
+      "hours_before_ths": 46271440.0,
+      "hours_after_ths": 46271440.0,
+      "persons_ths": 30591.9,
+      "hours_retention_ratio": 1.0,
+      "required_hourly_productivity_gain": 0.0,
+      "additional_persons_same_profile_ths": 0.0,
+      "va_at_risk_fixed_productivity_meur": 0,
+      "trend_va_per_hour_2015_2019": 0.005679,
+      "years_of_trend_2015_2019_to_cover_gain": 0.0,
+      "trend_va_per_hour_2015_2023": 0.000609,
+      "years_of_trend_2015_2023_to_cover_gain": 0.0
+    },
+    "2024:cap30_employees_constant_absence": {
+      "hours_before_ths": 46271440.0,
+      "hours_after_ths": 38579076.962253,
+      "persons_ths": 30591.9,
+      "hours_retention_ratio": 0.833756,
+      "required_hourly_productivity_gain": 0.199392,
+      "additional_persons_same_profile_ths": 6810.941802,
+      "va_at_risk_fixed_productivity_meur": 457011.991217,
+      "trend_va_per_hour_2015_2019": 0.005679,
+      "years_of_trend_2015_2019_to_cover_gain": 32.104118,
+      "trend_va_per_hour_2015_2023": 0.000609,
+      "years_of_trend_2015_2023_to_cover_gain": 298.753807
+    },
+    "2024:cap35_employees_constant_absence": {
+      "hours_before_ths": 46271440.0,
+      "hours_after_ths": 42944794.343172,
+      "persons_ths": 30591.9,
+      "hours_retention_ratio": 0.928106,
+      "required_hourly_productivity_gain": 0.077463,
+      "additional_persons_same_profile_ths": 2567.272444,
+      "va_at_risk_fixed_productivity_meur": 201959.039539,
+      "trend_va_per_hour_2015_2019": 0.005679,
+      "years_of_trend_2015_2019_to_cover_gain": 13.174237,
+      "trend_va_per_hour_2015_2023": 0.000609,
+      "years_of_trend_2015_2023_to_cover_gain": 122.596525
+    },
+    "2024:cap30_all_constant_absence": {
+      "hours_before_ths": 46271440.0,
+      "hours_after_ths": 35928013.277352,
+      "persons_ths": 30591.9,
+      "hours_retention_ratio": 0.776462,
+      "required_hourly_productivity_gain": 0.287893,
+      "additional_persons_same_profile_ths": 8478.035183,
+      "va_at_risk_fixed_productivity_meur": 591058.947196,
+      "trend_va_per_hour_2015_2019": 0.005679,
+      "years_of_trend_2015_2019_to_cover_gain": 44.675046,
+      "trend_va_per_hour_2015_2023": 0.000609,
+      "years_of_trend_2015_2023_to_cover_gain": 415.736077
+    },
+    "2024:cap30_employees_constant_absence_rtt2w": {
+      "hours_before_ths": 46271440.0,
+      "hours_after_ths": 39922978.483547,
+      "persons_ths": 30591.9,
+      "hours_retention_ratio": 0.8628,
+      "required_hourly_productivity_gain": 0.159018,
+      "additional_persons_same_profile_ths": 5371.072256,
+      "va_at_risk_fixed_productivity_meur": 378414.248839,
+      "trend_va_per_hour_2015_2019": 0.005679,
+      "years_of_trend_2015_2019_to_cover_gain": 26.05781,
+      "trend_va_per_hour_2015_2023": 0.000609,
+      "years_of_trend_2015_2023_to_cover_gain": 242.488206
+    },
+    "2024:cap30_employees_46w": {
+      "hours_before_ths": 46271440.0,
+      "hours_after_ths": 43056238.018564,
+      "persons_ths": 30591.9,
+      "hours_retention_ratio": 0.930514,
+      "required_hourly_productivity_gain": 0.074674,
+      "additional_persons_same_profile_ths": 2433.641703,
+      "va_at_risk_fixed_productivity_meur": 192754.557853,
+      "trend_va_per_hour_2015_2019": 0.005679,
+      "years_of_trend_2015_2019_to_cover_gain": 12.716608,
+      "trend_va_per_hour_2015_2023": 0.000609,
+      "years_of_trend_2015_2023_to_cover_gain": 118.337932
+    },
+    "2024:cap30_all_46w": {
+      "hours_before_ths": 46271440.0,
+      "hours_after_ths": 39557195.264726,
+      "persons_ths": 30591.9,
+      "hours_retention_ratio": 0.854894,
+      "required_hourly_productivity_gain": 0.169735,
+      "additional_persons_same_profile_ths": 5049.128276,
+      "va_at_risk_fixed_productivity_meur": 368451.821881,
+      "trend_va_per_hour_2015_2019": 0.005679,
+      "years_of_trend_2015_2019_to_cover_gain": 27.683095,
+      "trend_va_per_hour_2015_2023": 0.000609,
+      "years_of_trend_2015_2023_to_cover_gain": 257.612745
+    },
+    "2024:cap30_all_constant_absence_pt_tail": {
+      "hours_before_ths": 46271440.0,
+      "hours_after_ths": 35859279.168818,
+      "persons_ths": 30591.9,
+      "hours_retention_ratio": 0.774977,
+      "required_hourly_productivity_gain": 0.290362,
+      "additional_persons_same_profile_ths": 8551.608613,
+      "va_at_risk_fixed_productivity_meur": 594414.865702,
+      "trend_va_per_hour_2015_2019": 0.005679,
+      "years_of_trend_2015_2019_to_cover_gain": 45.013178,
+      "trend_va_per_hour_2015_2023": 0.000609,
+      "years_of_trend_2015_2023_to_cover_gain": 418.882659
+    },
+    "2024:cap32_all_constant_absence": {
+      "hours_before_ths": 46271440.0,
+      "hours_after_ths": 37984234.721429,
+      "persons_ths": 30591.9,
+      "hours_retention_ratio": 0.8209,
+      "required_hourly_productivity_gain": 0.218175,
+      "additional_persons_same_profile_ths": 6364.720194,
+      "va_at_risk_fixed_productivity_meur": 472648.267862,
+      "trend_va_per_hour_2015_2019": 0.005679,
+      "years_of_trend_2015_2019_to_cover_gain": 34.84791,
+      "trend_va_per_hour_2015_2023": 0.000609,
+      "years_of_trend_2015_2023_to_cover_gain": 324.28693
+    },
+    "2024:cap35_all_constant_absence": {
+      "hours_before_ths": 46271440.0,
+      "hours_after_ths": 41068566.887545,
+      "persons_ths": 30591.9,
+      "hours_retention_ratio": 0.887558,
+      "required_hourly_productivity_gain": 0.126687,
+      "additional_persons_same_profile_ths": 3593.533587,
+      "va_at_risk_fixed_productivity_meur": 295032.248862,
+      "trend_va_per_hour_2015_2019": 0.005679,
+      "years_of_trend_2015_2019_to_cover_gain": 21.062306,
+      "trend_va_per_hour_2015_2023": 0.000609,
+      "years_of_trend_2015_2023_to_cover_gain": 196.001155
+    }
+  },
+  "slack_ths": {
+    "2023": {
+      "UNE": 2300,
+      "UEMP_PT": 1249,
+      "SEEK_NAVL": 516,
+      "NSEEK_AVL": 731,
+      "SLACK": 4795
+    },
+    "2024": {
+      "UNE": 2331,
+      "UEMP_PT": 1213,
+      "SEEK_NAVL": 527,
+      "NSEEK_AVL": 696,
+      "SLACK": 4767
+    }
+  },
+  "insee_reconciliation": [
+    {
+      "year": 2019,
+      "na_hours_per_employee": 1394.600784,
+      "lfs_usual_ft": 39.1,
+      "lfs_usual_pt": 23.5,
+      "lfs_usual_all_employees": 36.3,
+      "implied_ft_employee_annual_hours": 1502.173296,
+      "implied_pt_employee_annual_hours": 902.840728,
+      "implied_employee_effective_weeks": 38.418754,
+      "na_hours_per_self_employed": 2458.377903
+    },
+    {
+      "year": 2020,
+      "na_hours_per_employee": 1287.300103,
+      "lfs_usual_ft": 39.1,
+      "lfs_usual_pt": 23.6,
+      "lfs_usual_all_employees": 36.4,
+      "implied_ft_employee_annual_hours": 1382.78665,
+      "implied_pt_employee_annual_hours": 834.623144,
+      "implied_employee_effective_weeks": 35.365387,
+      "na_hours_per_self_employed": 2264.258186
+    },
+    {
+      "year": 2021,
+      "na_hours_per_employee": 1364.425035,
+      "lfs_usual_ft": 38.8,
+      "lfs_usual_pt": 23.4,
+      "lfs_usual_all_employees": 36.0,
+      "implied_ft_employee_annual_hours": 1470.546983,
+      "implied_pt_employee_annual_hours": 886.876273,
+      "implied_employee_effective_weeks": 37.900695,
+      "na_hours_per_self_employed": 2337.34996
+    },
+    {
+      "year": 2022,
+      "na_hours_per_employee": 1392.111646,
+      "lfs_usual_ft": 38.9,
+      "lfs_usual_pt": 23.2,
+      "lfs_usual_all_employees": 36.2,
+      "implied_ft_employee_annual_hours": 1495.943177,
+      "implied_pt_employee_annual_hours": 892.182049,
+      "implied_employee_effective_weeks": 38.456123,
+      "na_hours_per_self_employed": 2369.902945
+    },
+    {
+      "year": 2023,
+      "na_hours_per_employee": 1396.765479,
+      "lfs_usual_ft": 38.9,
+      "lfs_usual_pt": 23.1,
+      "lfs_usual_all_employees": 36.1,
+      "implied_ft_employee_annual_hours": 1505.101859,
+      "implied_pt_employee_annual_hours": 893.77514,
+      "implied_employee_effective_weeks": 38.691565,
+      "na_hours_per_self_employed": 2351.915201
+    },
+    {
+      "year": 2024,
+      "na_hours_per_employee": 1407.920182,
+      "lfs_usual_ft": 38.8,
+      "lfs_usual_pt": 23.2,
+      "lfs_usual_all_employees": 36.1,
+      "implied_ft_employee_annual_hours": 1513.221691,
+      "implied_pt_employee_annual_hours": 904.81297,
+      "implied_employee_effective_weeks": 39.000559,
+      "na_hours_per_self_employed": 2346.423084
+    },
+    {
+      "year": 2025,
+      "na_hours_per_employee": 1396.167426,
+      "lfs_usual_ft": 38.8,
+      "lfs_usual_pt": 23.2,
+      "lfs_usual_all_employees": 36.1,
+      "implied_ft_employee_annual_hours": 1500.58992,
+      "implied_pt_employee_annual_hours": 897.259952,
+      "implied_employee_effective_weeks": 38.674998,
+      "na_hours_per_self_employed": 2303.115835,
+      "insee_ft_employee_annual_hours": 1656,
+      "insee_pt_employee_annual_hours": 966,
+      "insee_self_employed_annual_hours": 1903,
+      "ratio_implied_to_insee_ft": 0.906153,
+      "ratio_implied_to_insee_pt": 0.928841,
+      "ratio_na_to_insee_self_employed": 1.210255,
+      "insee_ft_over_pt_ratio": 1.714286,
+      "lfs_weekly_ft_over_pt_ratio": 1.672414
+    }
+  ],
+  "rounding_bounds_required_gain": {
+    "2023:cap30_employees_constant_absence": [
+      0.199588,
+      0.202313
+    ],
+    "2023:cap30_all_constant_absence": [
+      0.288972,
+      0.292595
+    ],
+    "2024:cap30_employees_constant_absence": [
+      0.198027,
+      0.200756
+    ],
+    "2024:cap30_all_constant_absence": [
+      0.286076,
+      0.28971
+    ]
+  },
+  "offset_grid": {
+    "cap30_employees_constant_absence": {
+      "0": 0.200951,
+      "0.1": 0.177294,
+      "0.2": 0.15455,
+      "0.3": 0.132668,
+      "0.5": 0.091302,
+      "1.0": 0.0
+    },
+    "cap30_all_constant_absence": {
+      "0": 0.290783,
+      "0.1": 0.25431,
+      "0.2": 0.219841,
+      "0.3": 0.187217,
+      "0.5": 0.126936,
+      "1.0": 0.0
+    }
+  },
+  "labour_reserve_FR_primary": {
+    "geo": "FR",
+    "year": 2023,
+    "weekly_cap": 30,
+    "apply_to": "SAL",
+    "hours_before_ths": 45599311.0,
+    "hours_after_ths": 37933902.825274,
+    "hours_gap_ths": 7665408.174726,
+    "required_gain_no_mobilisation": 0.202073,
+    "employee_effective_weeks": 38.691565,
+    "entrant_annual_hours": 1160.746935,
+    "population_ths": 37302.82638,
+    "employment_rate": 74.3,
+    "employment_rate_55_64": 58.5,
+    "lfs_usual_hours_all": 37.0,
+    "t1_unemployed_ths": 2089,
+    "t2_extended_lf_ths": 1035,
+    "t3_underemployed_pt_ths": 1164,
+    "t3_extra_hours_ths": 310755.169522,
+    "pt_involuntary_share_pct": 24.4,
+    "inactive_care_reason_pct_pop": 0.4,
+    "inactive_illness_reason_pct_pop": 0.7,
+    "bench_top3_rate": 83.966667,
+    "bench_top3_countries": "IS+NL+CH",
+    "bench_top3_employment_gap_persons_ths": 3605.939883,
+    "bench_NL_rate": 83.5,
+    "bench_NL_countries": "NL",
+    "bench_NL_employment_gap_persons_ths": 3431.860027,
+    "slack_persons_ths": 3124,
+    "slack_hours_supplied_ths": 3936928.595439,
+    "slack_gap_closed_share": 0.513597,
+    "slack_residual_gain": 0.089047,
+    "bench_top3_persons_ths": 3605.939883,
+    "bench_top3_hours_supplied_ths": 4496338.838049,
+    "bench_top3_gap_closed_share": 0.586575,
+    "bench_top3_residual_gain": 0.074689,
+    "bench_NL_persons_ths": 3431.860027,
+    "bench_NL_hours_supplied_ths": 4294276.178189,
+    "bench_NL_gap_closed_share": 0.560215,
+    "bench_NL_residual_gain": 0.079831,
+    "entrant_relative_productivity": 1.0,
+    "weeks_flag": ""
+  },
+  "evidence_pathway_FR": {
+    "30": {
+      "low": {
+        "hours_gap_ths": 7629991.036289,
+        "theta_offset_hours_ths": 644320.653758,
+        "mobilised_persons_ths": 901.484971,
+        "mobilised_hours_ths": 843063.532134,
+        "share_closed_by_theta": 0.084446,
+        "share_closed_by_mobilisation": 0.110493,
+        "residual_required_gain": 0.15568,
+        "years_of_2015_2019_trend": 25.550162
+      },
+      "central": {
+        "hours_gap_ths": 7629991.036289,
+        "theta_offset_hours_ths": 1347980.532451,
+        "mobilised_persons_ths": 1802.969942,
+        "mobilised_hours_ths": 1686127.064268,
+        "share_closed_by_theta": 0.176669,
+        "share_closed_by_mobilisation": 0.220987,
+        "residual_required_gain": 0.112085,
+        "years_of_2015_2019_trend": 18.759994
+      },
+      "high": {
+        "hours_gap_ths": 7629991.036289,
+        "theta_offset_hours_ths": 2433139.962959,
+        "mobilised_persons_ths": 3605.939883,
+        "mobilised_hours_ths": 4496338.838049,
+        "share_closed_by_theta": 0.318892,
+        "share_closed_by_mobilisation": 0.589298,
+        "residual_required_gain": 0.015602,
+        "years_of_2015_2019_trend": 2.733837
+      }
+    },
+    "35": {
+      "low": {
+        "hours_gap_ths": 3304060.083943,
+        "theta_offset_hours_ths": 568253.377389,
+        "mobilised_persons_ths": 901.484971,
+        "mobilised_hours_ths": 1016085.191548,
+        "share_closed_by_theta": 0.171986,
+        "share_closed_by_mobilisation": 0.307526,
+        "residual_required_gain": 0.039192,
+        "years_of_2015_2019_trend": 6.788615
+      },
+      "central": {
+        "hours_gap_ths": 3304060.083943,
+        "theta_offset_hours_ths": 1159646.414628,
+        "mobilised_persons_ths": 1802.969942,
+        "mobilised_hours_ths": 2032170.383095,
+        "share_closed_by_theta": 0.350976,
+        "share_closed_by_mobilisation": 0.615052,
+        "residual_required_gain": 0.002468,
+        "years_of_2015_2019_trend": 0.435279
+      },
+      "high": {
+        "hours_gap_ths": 3304060.083943,
+        "theta_offset_hours_ths": 1774179.111716,
+        "mobilised_persons_ths": 3605.939883,
+        "mobilised_hours_ths": 5419121.021587,
+        "share_closed_by_theta": 0.536969,
+        "share_closed_by_mobilisation": 1.64014,
+        "residual_required_gain": 0.0,
+        "years_of_2015_2019_trend": 0.0
+      }
+    }
+  },
+  "checks_passed": 34,
+  "checks_total": 34,
+  "checks_failed": []
+}

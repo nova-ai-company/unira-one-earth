@@ -1,0 +1,5 @@
+scenario,status,units,cost_eur,carbon_30y_t,new_build
+cost_min,optimal,100,8565000.0,4416.0,5
+carbon_10000,optimal,100,14930000.0,2805.0,52
+stock_first,optimal,100,8565000.0,4416.0,5
+stock_first_carbon_10000,optimal,100,9770000.0,3941.0,5

@@ -1,0 +1,7 @@
+place,year,measure,value,geography,source,caveat
+Paris municipality,2023,moderate_overcrowding_pct,28.2,Paris commune,https://www.insee.fr/fr/statistiques/2011101?geo=COM-75056,"INSEE occupancy index, not UK bedroom standard"
+Paris municipality,2023,severe_overcrowding_pct,2.6,Paris commune,https://www.insee.fr/fr/statistiques/2011101?geo=COM-75056,"INSEE occupancy index, not UK bedroom standard"
+Paris urban unit,2022,moderate_overcrowding_pct,19.8,Paris unité urbaine 2020,https://www.insee.fr/fr/statistiques/8581193?geo=UU2020-00851,"INSEE occupancy index, different geography and year"
+Paris urban unit,2022,severe_overcrowding_pct,2.9,Paris unité urbaine 2020,https://www.insee.fr/fr/statistiques/8581193?geo=UU2020-00851,"INSEE occupancy index, different geography and year"
+Greater London,2023-24,overcrowding_pct,6.7,Greater London,https://www.london.gov.uk/sites/default/files/2026-01/Housing%20in%20London%202025%20report%20%28002%29.pdf,"UK bedroom standard, three-year rolling survey estimate; likely underestimated"
+England,2024-25,overcrowding_pct,3.0,England,https://www.gov.uk/government/statistics/chapters-for-english-housing-survey-2024-to-2025-headline-findings-on-housing-quality-and-energy-efficiency/chapter-1-housing-quality,National comparator only; three-year rolling estimate

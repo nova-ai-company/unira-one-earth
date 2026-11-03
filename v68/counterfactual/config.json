@@ -1,0 +1,83 @@
+{
+  "_comment": "UNIRA V6.8: matched-resource comparison of B (reformed market economy) and C (UNIRA). Same targets (30 h week, comfortable level for all), same population, technology, productivity response (theta) and capacities. Only institutional levers differ. Values marked PENDING_VERIFICATION are replaced from ../verification/parameters.json when available.",
+  "levers": {
+    "employment_rate_20_64": {
+      "B": 84,
+      "C": 88,
+      "unit": "%",
+      "basis_B": "best observed 20-64 rate in Europe (top-3 mean ~84%: IS, NL, CH) reached by active labour-market policy",
+      "basis_C": "rule 14 universal work; above any observed rate (SYNTHETIC beyond observation)"
+    },
+    "market_specific_activity_cut": {
+      "B": "modest",
+      "C": "moderate",
+      "basis_B": "regulation trims advertising/speculative finance (v63/io modest level)",
+      "basis_C": "no commercial competition for profit (rule 4)"
+    },
+    "energy_share_to_regions_in_need": {
+      "B": 0.2,
+      "C": 1.0,
+      "unit": "share of new clean energy",
+      "basis_B": "VERIFIED: ~20% of global clean-energy investment goes to developing economies excl. China (IEA World Energy Investment 2026, p.202-203; Africa 2%)",
+      "basis_C": "needs-first allocation by the One Earth entity (rules 5, 9)"
+    },
+    "rich_region_energy_decline": {
+      "B": 0.02,
+      "C": 0.03,
+      "unit": "per year",
+      "basis_B": "efficiency policy (SYNTHETIC)",
+      "basis_C": "convergence within climate envelope with military energy freed (v67)"
+    },
+    "military_energy_share_freed": {
+      "B": 0.0,
+      "C": 0.055,
+      "basis_C": "rule 19; military = 5.5% of global GHG emissions incl. supply chains (CONFIRMED, SGR/CEOBS 2022, range 3.3-7.0%); used as proxy for energy share (no global military energy statistic exists)"
+    },
+    "health_plan": {
+      "B": "2_expand_training_7pct_15y",
+      "C": "5_ambitious_10pct_50pct_prevention_high",
+      "basis_B": "training +7%/yr, no military volunteers, no prevention effect",
+      "basis_C": "ambitious training + 50% of soldiers volunteer + strong prevention (v66)"
+    },
+    "health_share_to_regions_in_need": {
+      "B": 0.5,
+      "C": 1.0,
+      "basis_B": "SYNTHETIC: new workers partly absorbed by richer regions (health-worker migration)",
+      "basis_C": "needs-first, trained in-region"
+    },
+    "housing_share_to_regions_in_need": {
+      "B": 0.3,
+      "C": 0.75,
+      "basis_B": "SYNTHETIC: no source splits new residential construction by income group (UNEP GlobalABC: estimates 'are lacking'); 30% kept as an assumption",
+      "basis_C": "One Earth allocation (v67 central)"
+    }
+  },
+  "shared": {
+    "energy_new_ej_per_yr": 7.0,
+    "health_capacity": "central",
+    "housing_capacity": "central",
+    "weekly_hours": 30,
+    "theta": "central"
+  },
+  "lever_order": [
+    "employment_rate_20_64",
+    "market_specific_activity_cut",
+    "energy_share_to_regions_in_need",
+    "rich_region_energy_decline",
+    "military_energy_share_freed",
+    "health_plan",
+    "health_share_to_regions_in_need",
+    "housing_share_to_regions_in_need"
+  ],
+  "B2_ambitious_cooperative_market": {
+    "_comment": "Strongest plausible reformed market: large international transfers and climate finance, but militaries, commercial competition and market allocation of labour remain. All values SYNTHETIC (policy scenario).",
+    "employment_rate_20_64": 84,
+    "market_specific_activity_cut": "modest",
+    "energy_share_to_regions_in_need": 0.5,
+    "rich_region_energy_decline": 0.03,
+    "military_energy_share_freed": 0.0,
+    "health_plan": "2_expand_training_7pct_15y",
+    "health_share_to_regions_in_need": 0.75,
+    "housing_share_to_regions_in_need": 0.5
+  }
+}

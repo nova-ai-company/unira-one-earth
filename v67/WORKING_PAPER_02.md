@@ -1,0 +1,542 @@
+# UNIRA Working Paper 02 — One Earth, 30 Hours: Physical Feasibility Evidence (V6.2–V6.7)
+
+3 November 2026
+
+**Abstract.** We test whether UNIRA, a proposed one-world cooperative economy, is physically possible with today's people, energy, food, land and materials. It has a 30-hour week, fixed prices, needs × population allocation and no commercial competition. Using official data for France, 30 European countries and about 180 world regions, the answer is yes, over about one generation and under six conditions:
+
+- universal work at about 88% employment;
+- halved food waste;
+- clean energy built at 1.2–1.8 TW a year (1.2 TW closes the energy gap of poorer regions; about 1.8 TW is needed to also bring fossil use near zero);
+- a 2.7× cut in material use;
+- a 20–30-year health-worker training programme;
+- home building growing to about 4.7 bn m² a year for the backlog, and to a peak of 6–7 bn m² a year once population growth and upgrading are included.
+
+In the central 30-year plan, every region reaches 40 GJ of final energy per person by year 27 and EU-level health care by year 30, with world energy at or below today's level. Comfortable housing is half done. Everyone's diet is covered from year 1. Giving everyone today's EU energy use is not possible.
+
+With the same resources, a reformed market economy does not converge within 30 years; it would need to direct about 90% of new capacity by need to match UNIRA on energy. The advantage survives realistic allocation errors and leakage, and strong safeguards preserve about 85% of it. UNIRA's money rules are internally consistent once personal money is capped. All results are reproducible from frozen official data and stated assumptions.
+
+## 1. Introduction
+
+UNIRA proposes one democratic world federation in which today's countries become regions. Resources go to regions by needs and population, with a 30-hour week, fixed prices and no commercial competition for profit. This paper tests whether that is **physically possible** with the people, energy, food, land and materials the world has. It does not test whether it is politically achievable.
+
+The design rules below were set by the author and are treated as **normative targets**. Every other number is classed as official, model-derived or a stated assumption.
+
+| # | Design rule (normative) | What the research tests |
+| --- | --- | --- |
+| 1 | 30-hour week (6 h × 5 days) from the start | Hours lost and how they are replaced, year 1 |
+| 2 | Currency U and the economy are not the market model | Results in hours and physical units, never euros |
+| 3 | One world entity; countries become regions | Pooling labour and production across regions |
+| 4 | No commercial competition for profit; ideas still compared | Hours freed from market-specific activity |
+| 5 | Resources allocated by needs × population | World sufficiency and redistribution volumes |
+| 6 | Base salary 5,000 U/month; multipliers 1×–5× by experience, knowledge and job complexity | Money circuit, price stability |
+| 7 | Surplus goes to region, then to the One Earth entity | Regional balances and One Earth flows |
+| 8 | Fixed prices for essentials, permanently | Shortage risk at fixed prices |
+| 9 | One Earth decides which region produces what | Allocation of production and transfers |
+| 10 | Owner pay is a capped salary; essentials bought with salary | Enterprise surplus, regional fund |
+| 11 | Homes 100,000–500,000 U; at most 2 per adult and per family | Affordability, construction capacity |
+| 12 | Multipliers set by experience, study and job complexity | Experience creep at fixed prices |
+| 13 | Savings kept; studied catastrophe reserves; no waste or overproduction | Deposits, reserves, hours |
+| 14 | Everyone able to work, works; 30 h keeps families together | Employment rate and the hours gap |
+| 15 | Retirees: needs-based income; health care and education free | Regional fund outflows |
+| 16 | Up to 50% saving; zero-interest home credit | Housing finance, money balance |
+| 17 | Saving is personal, at most 50% | Lifecycle simulation |
+| 18 | Personal money capped yearly; excess and large inheritances to One Earth; automation shortens hours | Money stability, work incentive |
+| 19 | No wars; far less disease from better lives | Freed personnel; preventable health demand |
+
+Three proposals from this research were provisionally accepted (P1–P3, section 4). The full wording of every rule is in `v63/DESIGN_CLARIFICATIONS_2026-11-03.md`.
+
+## 2. Data and methods
+
+All results are reproducible offline from frozen official data: 151 tests pass, and outputs regenerate byte for byte from a clean copy.
+
+- **Sources:**
+    - Eurostat national accounts and Labour Force Survey;
+    - INSEE;
+    - World Bank;
+    - FAO food balance sheets;
+    - WHO health workforce;
+    - ILO;
+    - UN World Population Prospects 2024;
+    - Our World in Data energy (republished, marked for recheck);
+    - peer-reviewed literature on decent living, ecology and health.
+- **Evidence classes:** every number is tagged as one of:
+    - VERIFIED_OFFICIAL, retrieved from the named table with a SHA-256 hash;
+    - REPORTED_NEEDS_RECHECK;
+    - MODEL_DERIVED;
+    - SYNTHETIC_ASSUMPTION;
+    - NORMATIVE_TARGET (the author's rules).
+- **Units:** UNIRA results are in hours of work, kcal, GJ, persons and m². Euro-denominated input-output tables serve only as a technical proxy for physical interdependence. U is never converted to euros.
+- **Independent audit:** four separate reviews were run.
+    - Reproducibility of V0.1–V6.1: 125/125 files intact; 90/90 runnable tests pass.
+    - Primary-source verification: 23 recorded figures, 0 contradicted.
+    - Adversarial code review: 5 major findings, all fixed or documented.
+    - Hours-productivity literature review.
+- **Corrections to earlier versions** found by the audit:
+    - V5.6/V5.7 were not stock-flow consistent.
+    - The V5.6 "stress case" was the baseline.
+    - V6.1's 46-week convention was not a 30-hour rule.
+
+Code and data: `UNIRA_V62_V67` package, `python3 v63/run_all.py`.
+
+## 3. Labour: a 30-hour week from year 1
+
+With universal work at an 88% employment rate (ages 20–64), France keeps today's output under a 30-hour week from year 1, on central assumptions. Without new workers, it would need 20% more output per hour.
+
+- **Baseline (France 2023, national accounts, all employed):** 45.6 bn hours, 1,501 h per person. Capping employees' usual week at 30 h removes 16.7% of hours, so output per hour must rise 20.1% at constant output (29.1% if the self-employed are also capped). That is 32 years of 2015–19 trend growth.
+- **Sector averages mislead.** In health, education and public administration, average annual hours are already below 1,380 because of part-time work. Full-time and part-time workers must be separated.
+- **Labour reserve (30 European countries):** the unemployed, people available but not seeking, and underemployed part-timers could cover up to 51–59% of France's gap (43–50% EU-wide). Observed job-finding flows imply only about 0.53 m additional people in year 1 under today's institutions.
+- **Evidence on shorter hours:** hourly productivity recovers 10–35% of lost hours in market sectors and 0–15% in care. Hours cuts alone create no net jobs without subsidies.
+- **Market-specific activity** (advertising, speculative finance, real-estate intermediation) could free 1.7–6.6% of all hours. This is a UNIRA-specific contribution.
+
+| France, year 1, 30 h for employees | Output-per-hour gain still needed |
+| --- | --- |
+| Today's job-finding flows (central) | 10.2% |
+| Employment rate 20–64 raised to 84% | 2.6% |
+| Employment rate 20–64 raised to 88% (rule 14) | 0% (gap closed) |
+| Europe pooled, 88% | 1.3% |
+
+Conditions for the 88% case:
+
+- workplaces for about 5 m new workers;
+- childcare and eldercare;
+- an employment rate above any country today (Iceland 85%).
+
+Health and care staffing remains short in year 1 (about 100,000 nurses and 145,000 care workers), because training takes years.
+
+## 4. Money under UNIRA's own rules
+
+UNIRA's money rules are internally consistent once personal money is capped. Without the cap, fixed prices and high saving produce an ever-growing pile of unspent money.
+
+- **Model:** a stock-flow-consistent circuit for the France region, with households, enterprises, the regional fund and the One Earth entity. Every U has a sender and a receiver (11 accounting checks).
+- **Fixed price:** one price per hour of embodied work, set once so that household spending buys exactly the goods available. A base worker (2,500 U/month after saving) buys 86% of an average French person's consumption today.
+- **Housing:** one base earner saving 50% buys a 100,000 U home in 3.3 years; two average earners buy a 300,000 U home in 2.6 years. A home costing about €200,000 to build today embodies about 3,600 hours of work, roughly 525,000 U at the fixed price, which is at the top of the 100,000–500,000 U range.
+- **Experience creep:** if average pay drifts up 0.5% a year without matching productivity, demand exceeds supply by 13% after 30 years. Pay growth must track productivity.
+
+| 60-year simulation, 6,000 adults | No cap | Cap ≈ 1.4 years of base salary + zero-interest home credit |
+| --- | --- | --- |
+| Unspent money (months of consumption) | 152, still rising | 12, stable |
+| Flow to One Earth (share of regional consumption) | ~0% | ~20–23% a year |
+| Adults at the cap | — | 57% |
+| Work week with +1%/yr productivity | 30 h → 23 h after 30 years | 30 h → 23 h after 30 years |
+
+Proposals provisionally accepted:
+
+- **P1:** an inherited home beyond the heir's first returns to the regional pool. In simulation, second homes came mainly from inheritance.
+- **P2:** a low money cap combined with zero-interest home credit.
+- **P3:** guaranteed public housing for adults without a salary.
+
+Behavioural parameters are assumptions; no UNIRA economy has been observed.
+
+## 5. Is there enough for everyone on Earth?
+
+On today's production, a decent life for all is possible for food and energy. A comfortable life for all is possible with half the food waste, but not at EU energy use or with today's health workforce.
+
+*(Chart: world supply divided by world need, see the dashboard charts.)*
+
+- **Method:** needs × population against current world supply, in physical units. Thresholds come from the decent-living literature (food 2,100 / 2,470 kcal eaten; energy 15.3 / 40 GJ final per person per year) and from WHO and the EU (44.5 / 131 health workers per 10,000).
+- **Distribution:** moving about 7% of world food supply covers everyone. Energy, health workers and homes cannot be shipped; they must be built or trained where people live.
+- **Health:** the WHO-level ratio above 1.0 is misleading. 4.2 bn people live in regions below that level today, because workers cannot be redistributed.
+- **Labour:** universal work at 30 h (80% of ages 15–64) gives 0.88× today's world working hours.
+- **Equal shares:** France's final energy would fall about 43% (90 → 51 GJ per person), still above the comfortable level. Nigeria's would rise 9×.
+
+## 6. Within Earth's limits: ecology, health care, housing
+
+A comfortable life for 9.7 bn people in 2050 fits a 1.5 °C pathway (with temporary overshoot) and 2 °C comfortably. The binding limits are materials, health-worker training and home building.
+
+**Ecology (2050, per person per year)**
+
+|  | Sustainable range (low / central / high) | Today |
+| --- | --- | --- |
+| Final energy, 1.5 °C-class | 25 / 35 / 42 GJ | ~55 GJ |
+| CO₂ | net 0 / 0.35 gross / 1.7 t (2 °C) | 5.2 t |
+| Cropland | 1,346 / 1,636 / 1,816 m² | ~2,000 m² |
+| Material footprint | 3 / 5.2 / 8 t | 14.2 t |
+
+40 GJ for everyone totals 386 EJ in 2050, 6–13% less than the world uses today (409 EJ in the UNIRA model, 442 EJ per the IEA), and inside the IPCC 1.5 °C range. The conditions:
+
+- about half of final energy as electricity;
+- fossil CO₂ near zero by 2050;
+- solar and wind built 1.7–1.9× faster than the 2025 record of 669 GW.
+
+Material use per person must fall 2.7×, which UNIRA's stock-first, repair and no-overproduction rules target directly.
+
+**Health workers.** The world has 47.4 m (58 per 10,000) and needs about 107 m at the EU level. Years until everyone has EU-level care, by training capacity (low / central / high):
+
+| Scenario | Years |
+| --- | --- |
+| Training as today | never |
+| Training +7%/yr for 15 years | never / 37 / 27 |
+| + 25% of 27.4 m soldiers volunteer (no wars) | never / 36 / 25 |
+| + healthier lives, central (−3% need) | never / 34 / 24 |
+| Ambitious: +10%/yr, 50% of soldiers, strong prevention (−14%) | 42 / 23 / 18 |
+
+Schools and teachers are the bottleneck. Disarmament helps most early: 71 vs 64 per 10,000 by year 10. On the evidence, better lives cut health-worker need only 3–14% after 30 years. About 41–48% of disease is linked to modifiable risks, but longer lives add later care.
+
+**Housing.** World residential floor area averages about 26 m² per person: 7 in Ethiopia, 10.5 in India, 45 in France, 55 in the USA. Decent space for all (15 m²) needs about 13 bn m² of new homes; comfortable space (27 m²) about 65 bn m², mostly in South Asia and Africa. Floor-area values are regional model estimates (IMAGE); no official country data exists.
+
+## 7. A 30-year world transition plan
+
+In the central case, every region reaches comfortable energy (40 GJ) by year 27 and EU-level health care by year 30. Comfortable housing is only half done by year 30, because population growth adds about 40 bn m² of need.
+
+*(Chart: share of the world shortfall closed over 30 years, see the dashboard charts.)*
+
+Each year the One Earth entity gives new capacity to the regions furthest below the target (needs first):
+
+- clean energy from solar and wind;
+- health workers from the training plan, trained in-region;
+- new homes from world construction capacity (3.3–4.7 bn m² a year today).
+
+Food is redistributed at once, and waste is halved over 10 years. Regions above the target reduce energy use. Population follows the UN 2024 projection.
+
+| Case | All regions at 40 GJ | All at 131 health workers per 10,000 | All at 27 m² | World final energy, year 30 |
+| --- | --- | --- | --- | --- |
+| Low: record solar+wind pace, today's training | not in 30 yrs | not in 30 yrs | not in 30 yrs | 380 EJ |
+| Central: 1.2 TW/yr, ambitious training | year 27 | year 30 | not in 30 yrs (50% closed) | 390 EJ |
+| Central + no wars (military energy freed) | year 27 | year 30 | not in 30 yrs | 400 EJ |
+| High: 1.8 TW/yr, 4.7 bn m²/yr homes | year 27 | year 27 | year 27 | 383 EJ |
+
+- **Climate:** to keep world energy at or below today's 409 EJ while poorer regions converge, regions above 40 GJ per person must cut energy use about **4% a year**. Without weapons production and military fuel (5.5% of global emissions, confirmed: SGR/CEOBS 2022), **3% a year** is enough.
+- **Housing is the slowest domain:** at today's world building rate it takes more than 30 years. Closing the 65 bn m² backlog in 27 years needs about 4.7 bn m² a year, mostly in Africa and South Asia. Including population growth and upgrading (Section 10) raises the peak to 6–7 bn m² a year. Its labour need is 33–64 hours per m², against a world construction workforce of 294 m.
+- **Convergence and decarbonisation compete for the same build.** The model sends all new clean energy to regions below 40 GJ. Measured afterwards (`v67/energy_budget_check.py`), convergence absorbs 178 of the 217 EJ a year built by year 30 in the central case. Only 39 EJ is left to replace fossil supply elsewhere, so final energy is about 75% clean by year 30 (assuming 19% clean today). Doing both, with fossil use near zero, needs the high build rate of about 1.8 TW a year, which leaves 147 EJ for replacement against 132 EJ needed. The central case therefore delivers convergence, not full decarbonisation.
+- **Food** is feasible for everyone from year 1 by redistribution; comfortable diets follow as waste falls.
+
+## 8. UNIRA versus a reformed market economy
+
+With the same people, technology, capacities and targets, UNIRA's institutions close the world's gaps far faster than a reformed market economy. A market world would have to direct about 90% of new capacity by need to match UNIRA on energy and housing, and it would still lag on health.
+
+The comparison reruns the labour ledger and the 30-year transition with only the institutions changed:
+
+- **B (reformed market):** best-observed employment (84%), today's pattern of clean-energy investment (20% to developing economies excluding China, verified), modest cuts to market-specific activity, militaries kept.
+- **B2 (ambitious cooperative market):** half of new capacity to regions in need, faster rich-region energy cuts.
+- **C (UNIRA):** universal work (88%), needs-first allocation, no commercial competition, disarmament, and the ambitious health programme.
+
+| Outcome | B | B2 | C (UNIRA) |
+| --- | --- | --- | --- |
+| France, year 1: extra output per hour needed | 5.0% | 5.0% | 0% |
+| Everyone at 40 GJ by | not within 30 yrs | not within 30 yrs | year 27 |
+| Everyone at EU-level care by | not within 30 yrs | not within 30 yrs | year 30 |
+| Energy shortfall closed, year 15 | −14% (gap grows) | 14% | 60% |
+| Health shortfall closed, year 15 | −4% | 4% | 38% |
+| Housing shortfall closed, year 30 | −21% | 10% | 50% |
+
+- **Allocation by need** is the most decisive single institution. On its own it brings every region to 40 GJ by year 27. It must come with restraint in rich regions, or world energy peaks at 453 EJ.
+- **Universal work** and **removing commercial competition** each roughly halve France's year-1 gap; together they close it.
+- **Health:** UNIRA's advantage comes from the scale of training, disarmament volunteers and prevention, not from allocation alone.
+- **Boundary:** a market world directing 90% of new capacity by need reaches 40 GJ for all by year 29 but closes only 8% of the health gap by year 15. That level of direction would in practice be needs-first allocation.
+
+The advantage is entirely institutional; no efficiency bonus is assumed. It holds only if UNIRA's institutions work as designed, which is the claim still to be tested.
+
+## 9. Can the One Earth entity allocate well enough?
+
+UNIRA's advantage survives realistic governance failures. With typical errors and no safeguards it still beats the most ambitious market world. With strong safeguards it keeps about 85% of its ideal performance.
+
+The allocator decides on *perceived* needs. Each failure is calibrated on 44 sourced observations:
+
+- **measurement error:** 5–30% (census undercounts, poverty revisions);
+- **data delays:** 1–5 years;
+- **exaggeration:** 10–45% of regions inflate needs by 2–20% (China, Brazil);
+- **leakage:** 3–15% with strong safeguards, 10–45% without (Uganda, India, Brazil, EU).
+
+| Scenario (median of 30 runs) | Energy gap closed, yr 15 | Health, yr 15 | Housing, yr 30 |
+| --- | --- | --- | --- |
+| UNIRA, perfect allocation | 60% | 38% | 50% |
+| UNIRA, strong safeguards | 52% | 34% | 40% |
+| UNIRA, no safeguards | 36% | 24% | 19% |
+| UNIRA, worst governance observed | 15% | 12% | −9% |
+| Ambitious cooperative market (B2) | 14% | 4% | 10% |
+
+- **Leakage is the decisive failure.** Measurement errors and exaggeration matter much less: errors average out across 179 regions, and audits catch exaggerators.
+- **Safeguards with evidence behind them:**
+    - independent audits (−8 pp leakage);
+    - open publication of every allocation (Uganda: 87% → under 20% leakage);
+    - direct digital delivery (−19 to −24% in India), which UNIRA's digital U and invoice system provide by design;
+    - community monitoring;
+    - data less than a year old.
+- **Sharpened falsification test:** if leakage cannot be kept well below about 45% and data delays under about 5 years, needs-first allocation is no better than a cooperative market.
+
+## 10. Accelerating housing, and safeguards in the constitution
+
+Comfortable homes for everyone (27 m² per person) are possible within about 27 years if building capacity in regions of need grows 5–10% a year. This requires low-carbon construction and a workforce of about 250 m builders at the peak.
+
+| Housing plan | Everyone at 27 m² by | Gap closed, yr 15 | Embodied CO₂, 30 yrs | Peak builders |
+| --- | --- | --- | --- | --- |
+| Today's capacity | not within 30 yrs | 15% | 29 Gt | 87 m |
+| +10%/yr, conventional concrete | year 27 | 70% | 43 Gt | 253 m |
+| +10%/yr, stock-first, low-carbon | year 27 | 83% | 16 Gt | 265 m |
+| +5%/yr, stock-first, low-carbon | year 27 | 54% | 15 Gt | 236 m |
+
+- **Scale:** about 109 bn m² must be built or upgraded (65 bn backlog plus about 40 bn for population growth). The peak is about 6–7 bn m² a year, China's past rate per person.
+- **Climate:** conventional concrete homes (about 400 kg CO₂e per m²) would take about a third of the remaining 1.5 °C budget. Low-carbon frames of bamboo, timber, vaults or low-cement concrete (about 150) cut that to about 12%.
+- **Stock-first** (upgrading and extending existing homes, about 40% of the need, at about 40% of the materials) speeds the early years. Most of the need is missing space, so it cannot replace building. Empty homes in regions of need cover only about 0.5%.
+- **Workforce:** the world has 294 m construction workers, about 116 m of them in South Asia and Africa. Universal work and training must roughly double the builders in those regions.
+
+**Safeguards.** The governance results of section 9 are turned into draft constitutional Articles 13–20, each with its evidence and a measurable trigger:
+
+- 13: a public register of every allocation;
+- 14: an independent audit authority;
+- 15: direct digital delivery and physical verification;
+- 16: needs data less than a year old;
+- 17: community monitoring and whistleblower protection;
+- 18: anti-capture rules (asset declarations, the money cap for officials, rotation);
+- 19: correction without cutting people's guaranteed rights;
+- 20: a built-in falsification clause. Leakage above 25% or data older than 2 years forces a review; leakage above 45% for 3 years requires a democratic change of the allocation system.
+
+The full article texts follow the paper (Appendix).
+
+**Security and consumption (rule 20).** The author's hypothesis is that secure access reduces over-consumption. The evidence supports it for goods with natural satiation. In France, mobile calls levelled off at about 7 minutes a day after unlimited plans. Panic buying (toilet roll +181% in March 2020) is driven by scarcity. Cash transfers do not raise alcohol or tobacco spending. The evidence contradicts it for energy, travel and data: data use rose from 0.5 to 14 GB a month, and free transit raised trips 14–70%. In the model, a 20–30% energy rebound would raise peak world energy to 424–436 EJ, beyond the climate envelope. Energy, travel and data must therefore stay metered and priced per unit, never flat-rate.
+
+## 11. The transition: voluntary joining, property, savings and debts
+
+UNIRA can start with willing regions and grow. Compared with a reformed market world after 30 years, 86% of humanity gains materially by joining. Rich regions lose 6–12% on average, in energy use only, and keep comfortable levels. Inside rich regions, half the population is better off even at the lowest UNIRA salary, and the poorest tenth gains 146–258% (Eurostat 2024 income deciles).
+
+- **Who gains:**
+    - 146 regions with 86% of the world's people gain materially (Ethiopia +170%, Nigeria +136%, India +72%, Brazil +11%; China about neutral);
+    - 33 rich regions lose 6–12% (France −6%, USA and Japan −12%), in energy use only. Their health care and housing are unchanged.
+- **A union of gainers alone** closes 20% of the energy gap by year 15, against 52% with the whole world. That is still more than the best market world (14%).
+- **Lessons from history** (61 sourced findings):
+    - Germany's 1990 conversion of all wages at a political 1:1 rate halved East German output within months, and more than 3 million jobs were lost;
+    - giving property back to former owners slowed investment;
+    - staged EU accession with transfers of 2–4% of recipient output worked (Poland: 51% → 81% of the EU average);
+    - small savings were protected at par;
+    - capped debt relief freed poor countries' budgets (7.3% vs 1.9% of output).
+- **Draft transition rules:**
+    - staged, voluntary joining by referendum;
+    - wages move directly onto the UNIRA scale, and essential prices are set from embodied work (no single exchange rate);
+    - savings convert at local "basket parity"; amounts above the money cap go directly to the One Earth entity, with the cap phased in over 10 years and an anti-flight rule (author decision); homes are never transferred;
+    - homes are never seized, and mortgages become zero-interest U credit;
+    - enterprise owners receive their share in U under the same cap (compensation, not restitution);
+    - all public debts of member regions are cancelled (author decision), with bonds held by savers and pension funds treated as protected savings; outside creditors are paid on a schedule until they join;
+    - a democratic right to leave (author decision); energy, travel and data always metered per unit (Article 21).
+
+## 12. Limitations and falsification tests
+
+These results show that UNIRA's targets are physically possible under stated conditions. They do not show that people would behave as assumed, or that the institutions could be built.
+
+**Main limitations**
+
+- National and regional averages hide inequality inside countries.
+- Floor area per person comes from a regional model; world health-graduate numbers are estimated from OECD ratios.
+- Behavioural parameters are assumptions, since no UNIRA economy exists to observe. They include take-up of work, saving choices, response to the money cap, entrant productivity and voluntary military conversion.
+- Euro-based input-output coefficients proxy physical structure; physical units (energy, materials, food mass) are still to come.
+- Governance failures (section 9) are calibrated on transfer programmes; infrastructure, regional favouritism, correlated errors and political dynamics are not yet modelled.
+- UNIRA's own institutions (the U transaction system, allocation bodies, democratic governance) need hours not yet counted.
+
+**What would refute UNIRA's physical claims**
+
+1. **Labour:** under universal work, employment rates cannot be raised above about 85% within a few years, and the output-per-hour response to a 30-hour week stays below 0.1.
+2. **Money:** under the cap, people respond by spending rather than saving, and demand exceeds supply at fixed prices by more than reserve stocks can absorb.
+3. **Health:** world training capacity cannot grow beyond about 1.5×, which would leave EU-level care for all out of reach for more than 50 years.
+4. **Ecology:** clean-energy build rates stay below the 2025 record, or material use cannot be cut by at least 2× while homes and infrastructure are built.
+5. **Housing:** world construction capacity is too small to add about 65 bn m² within a generation (section 7).
+6. **Comparison:** a reformed market economy with the same resources reaches the same outcomes, so UNIRA adds no advantage beyond its assumptions.
+
+## 13. Conclusions and research agenda
+
+On the physical evidence, UNIRA's core aim is achievable over about one generation: a comfortable life for everyone, a 30-hour week, within climate limits. It depends on six conditions, and today's European or US consumption for everyone is not one of them.
+
+**The six conditions**
+
+1. **Universal work:** about 88% employment among adults aged 20–64, which makes the 30-hour week hold at today's output from year 1.
+2. **Less waste and a healthier diet,** so comfortable food for all fits within land limits.
+3. **Clean-energy building at 1.2–1.8 TW a year,** with regions above 40 GJ per person cutting energy about 3–4% a year (3% once weapons production and military fuel stop).
+4. **About 2.7× less material use per person,** through stock-first, repair and no overproduction.
+5. **A world health-worker training programme lasting 20–30 years,** helped by disarmament volunteers and healthier lives.
+6. **Growing home building 5–10% a year to about 6–7 bn m² a year, with low-carbon materials and about 250 m builders,** mostly in Africa and South Asia, which is above today's world rate of about 3.4 bn m².
+
+**Money:** UNIRA's rules (fixed prices, 1×–5× pay, savings, a yearly money cap with surplus to the One Earth entity) form a consistent system of accounts. The money cap is essential.
+
+**Next research**
+
+- Design and pilot the safeguard institutions (audits, open allocation data, digital delivery, community monitoring) and test leakage in infrastructure, not only transfers.
+- Physical-unit accounts for food, energy and materials.
+- Construction capacity by region, and its labour and material needs.
+- Evidence on take-up of guaranteed work.
+- Governance and legitimacy of One Earth allocation.
+- External review by economists, demographers, health-workforce and climate scientists.
+
+## Sources and reproducibility
+
+Every data source is frozen with its retrieval time and SHA-256 hash in a `raw_manifest.csv` beside it. The literature reviews list each value with its citation and whether it was read in fetched text.
+
+| Area | Main sources | Where |
+| --- | --- | --- |
+| France labour, output | [Eurostat](https://ec.europa.eu/eurostat/web/main/data/database) national accounts (nama_10_a64_e, nama_10_a64), LFS (lfsa_ewhun2, lfsi_sla_a, lfsi_long_a); [INSEE](https://www.insee.fr/fr/statistiques/8733071) | `v62/`, `v63/flows/` |
+| Input-output | Eurostat naio_10_cp1700 (France 2022, 2019) | `v63/io/` |
+| Health workforce France | Eurostat hlth_rs_prs2, hlth_rs_grd2, hlth_rs_prshp2, jvs_a_rate_r2 | `v63/health/` |
+| Population, households | Eurostat demo_pjan, lfst_hhnhtych, ilc_lvho02; [World Bank](https://data.worldbank.org/); UN WPP 2024 | `v64/`, `v65/data/`, `v66/data/` |
+| World food, energy, health, labour | FAO food balance sheets; Our World in Data energy; WHO workforce; ILO modelled estimates | `v65/data/` |
+| Decent and comfortable thresholds | Millward-Hopkins et al. 2020; Kikstra et al. 2021; Rao & Min 2018; WHO; Eurostat | `v65/thresholds/` |
+| Ecology | IPCC AR6; Forster et al. 2025; IEA; EAT-Lancet; UNEP IRP; O'Neill et al. 2018 | `v66/ecology/` |
+| Health prevention | GBD 2019/2021; WHO/ILO 2021; lifetime-cost studies | `v66/evidence_health/` |
+| Hours and productivity | DARES/INSEE evaluations of the 35-hour week; Pencavel; Collewet & Sauermann; Asai et al. | `v62/audit/` |
+| Construction capacity | see section 7 | `v66/construction/` |
+
+To reproduce: unpack the package and run `python3 v63/run_all.py` (Python 3, standard library only). Independent audits are in `v62/audit/`.
+
+## Appendix — UNIRA Constitution — Draft safeguard articles (Articles 13–21)
+
+**Status:** draft proposal for the author's decision (2026-11-03). These articles extend Articles 11 (Responsible Production) and 12 (Universal Digital Transaction Integrity) of the master specification.
+
+**Why they exist:** V6.9 showed that UNIRA's advantage over market economies depends on how well the One Earth entity allocates new capacity by need. With strong safeguards UNIRA keeps about 85% of its ideal performance. Without them it keeps about half. Under the worst governance ever observed it is no better than a cooperative market. Leakage, meaning resources that never reach the people they were meant for, is the decisive failure.
+
+Each article gives the rule, the evidence behind it, and a **measurable trigger** that forces review when it fails.
+
+---
+
+### Article 13 — Public Allocation Register
+1. Every allocation by the One Earth entity or a region must be published within 30 days in a free, machine-readable public register. That covers energy capacity, homes, health workers, food, materials and U transfers. Each entry states what was allocated, where, how much, when, and on which needs data and rule.
+2. The register publishes amounts and places, never personal data. Article 12 privacy protections apply in full.
+3. Anyone may download, analyse and publish the register without permission.
+
+*Evidence:* when Uganda's newspapers published school-grant amounts, the share of grants that never reached schools fell from 87% to under 20% (Reinikka & Svensson).
+*Trigger:* any allocation missing from the register after 60 days is void until published.
+
+### Article 14 — Independent Audit Authority
+1. An Audit Authority, independent of the One Earth executive and of regional governments, audits allocations and delivery in every region every year, with random selection and unannounced inspections.
+2. Its budget is fixed by the constitution as a share of allocated value and cannot be reduced by the bodies it audits.
+3. All audit reports are published in full in the Public Allocation Register.
+
+*Evidence:* random audits reduced missing expenditure by 8 percentage points (Indonesia, Olken) and corruption by 8–13% (Brazil, Ferraz & Finan).
+*Trigger:* measured leakage above 15% in any region for 2 consecutive years automatically starts an independent review of that region's allocation system.
+
+### Article 15 — Direct Digital Delivery and Physical Verification
+1. Payments for allocated work and materials go directly, in digital U through the transaction network of Article 12, to the enterprises and workers who deliver them, with no cash intermediaries.
+2. Physical delivery (homes built, energy capacity installed, staff in post) is verified by independent inspection and by remote sensing where possible, before allocation is recorded as complete.
+
+*Evidence:* direct electronic payments reduced leakage by 19–24% in India's public programmes.
+*Trigger:* any project whose delivery cannot be verified within 12 months is reported in the register as undelivered.
+
+### Article 16 — Timely and Honest Needs Data
+1. An independent statistical office measures needs in every region (population, housing, energy, food, health workforce) and updates them at least once a year, with stated uncertainty.
+2. Regions may not change measurement methods alone. Methods are public and comparable across regions.
+3. Reported needs are checked against independent sources (censuses, satellite data, sample surveys).
+
+*Evidence:* census undercounts of 10–19% by province (South Africa 2011); poverty data typically published 2 years late; local statistics inflated (China, about +1.7 percentage points of growth a year). In the V6.9 model, data delays and errors cost less than leakage, but delays above about 5 years remove UNIRA's advantage.
+*Trigger:* if needs data for a region is more than 2 years old, that region's allocations are flagged for verification.
+
+### Article 17 — Community Monitoring and Whistleblower Protection
+1. Every community has the right to form a monitoring committee with access to the register and to delivery sites, and the power to flag irregularities to the Audit Authority.
+2. People who report misuse are protected from retaliation. Retaliation is a serious offence.
+3. Every person has the right to complain about an allocation and to receive a reasoned answer within 90 days, with appeal to an independent court.
+
+*Evidence:* community monitoring of health services in Uganda reduced under-five deaths by 33% (Björkman & Svensson).
+
+### Article 18 — Anti-Capture Rules for Officials
+1. Officials of the One Earth entity, regional bodies and the Audit Authority are subject to the personal money cap (rule 18), like everyone else. Their assets and those of their households are declared publicly every year.
+2. Allocation posts have fixed terms and rotation. No person may decide allocations to a region where they or close family hold an interest.
+3. Officials found diverting resources lose office and are prosecuted before independent courts.
+
+*Evidence:* elite capture of aid flows reached 7.5% at aid peaks (Andersen, Johannesen & Rijkers).
+
+### Article 19 — Correction Without Punishing People
+1. Resources found misallocated are recovered and reallocated by need within the next allocation cycle.
+2. A region found misreporting loses priority for discretionary allocations until audits confirm honest reporting. **The guaranteed rights of its people are never reduced:** income guarantees, health care, education, food and housing.
+3. The allocation rule itself is reviewed publicly every 5 years by the democratic assembly of the federation.
+
+### Article 20 — Built-in Falsification Clause
+The federation commits to measuring whether needs-first allocation is working, and to changing it if it is not:
+1. World leakage, data age and delivery rates are published every year.
+2. If world leakage exceeds **25%** or average needs data is older than **2 years**, the One Earth assembly must review the allocation system within one year.
+3. If leakage exceeds **45%**, or data is older than **5 years**, for 3 consecutive years, needs-first allocation has lost its measured advantage over a cooperative market economy (UNIRA V6.9). The assembly must then adopt a reformed allocation system by democratic vote.
+
+### Article 21 — Metering of Goods Without Natural Limits (author decision, 2026-11-03)
+1. Energy, travel and data are always metered and paid per unit at the fixed UNIRA prices. They are never offered at a flat rate or without limit.
+2. Food, basic goods and essential services, which people naturally stop wanting once needs are met, may be offered with secure, guaranteed access.
+
+*Evidence (V7.1):* free or flat-rate access raises use of goods without natural satiation. Mobile data rose from 0.5 to 14 GB a month; free transit raised trips 14–70%; flat-rate heating uses about 30% more than metered heating. A 20–30% energy rebound would push world energy beyond the climate envelope.
+
+---
+*Evidence sources: `v69/evidence/evidence.md` (44 sourced rows). Model results: `v69/RESEARCH_NOTE.md`. All thresholds are proposals derived from the model and may be set differently by democratic decision.*
+
+## Appendix — UNIRA transition rules — draft for the author's decision (2026-11-03)
+
+**Principles kept:**
+- voluntary joining;
+- no seizure of homes and no forced relocation;
+- the money cap (rule 18);
+- needs-based allocation;
+- rights are never reduced.
+
+**Evidence:** `evidence/evidence.md` (61 findings on German reunification, EU enlargement, the euro, debt relief, land reforms, wealth taxes and household debt).
+**Model:** `joining/run.py`.
+
+### What the models show
+- **86% of humanity (146 regions) gains materially by joining**, compared with a reformed market world after 30 years: Ethiopia +170%, Nigeria +136%, India +72%, Indonesia +54%, Brazil +11%. China is about neutral (+2%).
+- **14% (33 rich regions) loses materially by 6–12%**, in energy use only (France −6%, USA and Japan −12%). They keep comfortable levels, and their health care and housing are unchanged. Joining is worthwhile for them if peace, security, the 30-hour week and a stable climate are worth more than that loss.
+- **A union of only the gaining regions works on its own resources, at about half speed.** By year 15 it closes 20% of the energy gap, 15% of the health gap and 25% of the housing gap by year 30, against 52%, 34% and 40% for the whole world. That still beats the best market world (14%, 4%, 10%). **UNIRA can start with willing regions and grow.**
+
+### Draft rules
+
+**T1. Voluntary, staged joining.**
+1. A region joins by referendum.
+2. Joining has three stages:
+    - **observer:** shares data and builds the safeguard institutions of Articles 13–17;
+    - **associate:** receives needs-based transfers and adopts the 30-hour week;
+    - **full member:** adopts the U and the full rules.
+3. Each stage has published entry criteria.
+
+*Evidence:* the EU grew from 6 to 27 members through staged, rule-based accession. Net transfers of 1.9–4.0% of recipient output cost donors only 0.3–0.4% of theirs.
+
+**T2. Wages and prices: no single "political" exchange rate.**
+1. At full membership, wages move directly onto the UNIRA scale (5,000 U base × multiplier).
+2. Prices of essentials are set from the work and resources they embody (V6.4), the same everywhere.
+3. Living standards are therefore set by physical allocation by need, not by an exchange rate.
+
+*Evidence:* German monetary union converted wages and prices 1:1 at a political rate. Within months East German output fell to about half the 1989 level and more than 3 million jobs were lost. UNIRA avoids converting a whole economy at one invented rate.
+
+**T3. Savings converted at "basket parity", small savings protected, cap phased in over 10 years (author decision 2026-11-03).**
+1. Existing savings convert to U so that they buy the same essential basket locally (food, housing, energy) after the change as before.
+2. Savings up to the money cap convert in full and stay with their owner.
+3. **Savings above the cap are transferred directly to the One Earth entity** (author decision; rule 18).
+4. The cap phases in over **10 years**: it starts high and falls each year to its steady level (about 1.4 years of base salary).
+5. **Homes are not money and are never transferred** (T4).
+6. **Anti-flight rule:** the cap applies to wealth held on the day a region votes to join. Transfers abroad after the vote count as held.
+
+*Risk noted:* direct transfer is legally and politically harder than compensation in bonds. Wealthy holders may try to move wealth out before a vote (France lost 843 wealthy taxpayers in 2006; Norway at least 30 in 2022). The anti-flight rule and the 10-year phase-in reduce this risk but do not remove it.
+
+*Evidence:* Germany protected small savings at 1:1 (up to 2,000–6,000 marks by age) and converted the rest at 2:1. Taiwan compensated landowners with 70% bonds and 30% shares, which worked. Japan paid in money that inflation eroded (under 1,000 yen per unit against a market value of about 20,000), which was unjust.
+
+**T4. Homes are never seized.**
+1. Homes people live in are kept.
+2. The two-home maximum (rule 11) applies to new purchases.
+3. Homes beyond two may be sold to the regional pool at the fixed price within a transition period (e.g. 10 years), paid in U or bonds, or passed on under P1.
+4. Mortgages convert to zero-interest U credit at basket parity, repaid from salary.
+
+*Evidence:* Iceland (2014) and Hungary (2014) converted or reduced household mortgages without systemic collapse.
+
+**T5. Enterprises: compensation, not restitution.**
+1. Enterprises become cooperative or public enterprises under UNIRA rules: owner pay capped at 5× base, and surplus to the region.
+2. Owners receive their share in U, under the same money-cap rules as savings (T3). Any excess goes to the One Earth entity over the 10-year phase-in.
+3. Old property claims from past regimes are settled by compensation, never by giving property back.
+
+*Evidence:* Germany's 1990 "restitution before compensation" principle tied up property and slowed investment. The Treuhand privatisation agency closed with a DM 256 bn deficit.
+
+**T6. No public debts (author decision 2026-11-03).**
+1. At full membership, **all public debts of member regions are cancelled.** Inside one world entity, debts between regions would be the entity owing money to itself.
+2. **Ordinary savers and pensioners are protected.** Government bonds held by households, pension funds and banks on behalf of savers are treated as those people's savings under T3: kept up to the money cap, the rest to the One Earth entity. Pension promises are replaced by UNIRA's needs-based retirement income (rule 15).
+3. **Debts owed to creditors outside UNIRA** are paid by the One Earth entity on a negotiated schedule until the creditors' regions join. This avoids asset seizures and trade blockades against new members. When the whole world has joined, no public debt remains anywhere.
+
+*Evidence:* debt relief for heavily indebted poor countries (USD 76 bn + 43 bn) let them spend 7.3% of output on poverty reduction against 1.9% on debt service. UNCTAD reports that about 3.3 billion people live in countries that spend more on interest than on health or education (REPORTED_NEEDS_RECHECK). Unilateral defaults on outside creditors have historically triggered litigation and asset seizures, which is why external debts are honoured until creditors join.
+
+**T7. Right to leave, and the money cap.**
+1. A region may leave by democratic decision, with a negotiated settlement.
+2. Every person has the right to emigrate.
+3. A person who emigrates keeps their money up to the cap. Wealth above the cap has already been transferred under T3. (Author decision 2026-11-03: the right to leave is confirmed.)
+
+*Evidence:* wealth taxes leak when the wealthy can move their wealth out: France lost 843 wealthy taxpayers in 2006 (net €2.8 bn), and Norway saw at least 30 leave in 2022. A bond schedule protects the cap without trapping people.
+
+**T8. Protect production during the change.**
+1. New members keep their productive capacity running through transitional support from the union.
+2. Trade with non-member regions continues at negotiated prices.
+
+*Evidence:* in East Germany only 8% of workers were in firms that could cover their costs after the 1990 conversion. The lesson is to protect production, not let a currency shock destroy it.
+
+### Author decisions (2026-11-03)
+1. Money cap phase-in: **10 years**.
+2. Savings above the cap: **transferred directly to the One Earth entity**.
+3. Regions may leave: **yes**, by democratic vote.
+4. Energy, travel and data are **always metered per unit** (Article 21).
+5. **No public debts:** all member regions' public debts are cancelled; savers and pensioners are protected; outside creditors are paid on a schedule until they join (T6).
+
+### Distribution inside rich regions (V7.4, `v74/distribution`)
+National averages hide who gains. At the **lowest** UNIRA salary (base worker saving the maximum 50%), a person consumes about 86% of today's average. By Eurostat 2024 income deciles, **half of the population of France, Germany, Italy, Spain and the EU27 is already better off at that level** (40% in Poland). **The poorest tenth gains +146% to +258%.** Free health care, education and guaranteed housing come on top and are not counted. Fixed prices also end household price shocks such as the 2022 energy-price crisis.

@@ -1,0 +1,56 @@
+[
+  {
+    "scenario": "baseline",
+    "shortage_years": 0,
+    "total_shortage": 0.0,
+    "final_debt_U": 20000000.0,
+    "final_capital": 100.0,
+    "max_price_U": 60000.0,
+    "credit_limit_breached": false
+  },
+  {
+    "scenario": "food_supply_shock",
+    "shortage_years": 1,
+    "total_shortage": 70.0,
+    "final_debt_U": 20540523.42,
+    "final_capital": 100.0,
+    "max_price_U": 62940.0,
+    "credit_limit_breached": true
+  },
+  {
+    "scenario": "labor_shock",
+    "shortage_years": 0,
+    "total_shortage": 0.0,
+    "final_debt_U": 20000000.0,
+    "final_capital": 100.0,
+    "max_price_U": 60000.0,
+    "credit_limit_breached": false
+  },
+  {
+    "scenario": "population_growth",
+    "shortage_years": 19,
+    "total_shortage": 554.466,
+    "final_debt_U": 12491545.7,
+    "final_capital": 100.0,
+    "max_price_U": 79300.56,
+    "credit_limit_breached": false
+  },
+  {
+    "scenario": "restricted_credit",
+    "shortage_years": 0,
+    "total_shortage": 0.0,
+    "final_debt_U": 20000000.0,
+    "final_capital": 100.0,
+    "max_price_U": 60000.0,
+    "credit_limit_breached": true
+  },
+  {
+    "scenario": "lower_investment",
+    "shortage_years": 19,
+    "total_shortage": 605.006,
+    "final_debt_U": 46179340.55,
+    "final_capital": 44.2002,
+    "max_price_U": 91119.5,
+    "credit_limit_breached": true
+  }
+]

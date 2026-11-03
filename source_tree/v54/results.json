@@ -1,0 +1,74 @@
+[
+  {
+    "scenario": "A_current_style_synthetic",
+    "housing_need": 100,
+    "labour_hours": 25700,
+    "cement_t": 117.0,
+    "steel_t": 29.0,
+    "electricity_mwh": 305.0,
+    "water_m3": 1190,
+    "embodied_tco2e": 670.0,
+    "homes_delivered": 100,
+    "unmet_homes": 0,
+    "excess_homes": 0,
+    "worker_years_required": 14.28,
+    "labour_capacity_hours": 36000,
+    "shortages": {
+      "cement_t": 0,
+      "steel_t": 0,
+      "electricity_mwh": 0,
+      "water_m3": 0
+    },
+    "feasible": true,
+    "annual_base_payroll_u": 1200000,
+    "physical_cost_index": 0.812
+  },
+  {
+    "scenario": "B_reformed_current_synthetic",
+    "housing_need": 100,
+    "labour_hours": 22400,
+    "cement_t": 85.0,
+    "steel_t": 20.75,
+    "electricity_mwh": 230.0,
+    "water_m3": 875,
+    "embodied_tco2e": 462.5,
+    "homes_delivered": 100,
+    "unmet_homes": 0,
+    "excess_homes": 0,
+    "worker_years_required": 12.44,
+    "labour_capacity_hours": 36000,
+    "shortages": {
+      "cement_t": 0,
+      "steel_t": 0,
+      "electricity_mwh": 0,
+      "water_m3": 0
+    },
+    "feasible": true,
+    "annual_base_payroll_u": 1200000,
+    "physical_cost_index": 0.5958
+  },
+  {
+    "scenario": "C_unira_stock_first_synthetic",
+    "housing_need": 100,
+    "labour_hours": 19700,
+    "cement_t": 66.0,
+    "steel_t": 16.25,
+    "electricity_mwh": 185.0,
+    "water_m3": 695,
+    "embodied_tco2e": 347.5,
+    "homes_delivered": 100,
+    "unmet_homes": 0,
+    "excess_homes": 0,
+    "worker_years_required": 13.13,
+    "labour_capacity_hours": 30000,
+    "shortages": {
+      "cement_t": 0,
+      "steel_t": 0,
+      "electricity_mwh": 0,
+      "water_m3": 0
+    },
+    "feasible": true,
+    "annual_base_payroll_u": 1200000,
+    "physical_cost_index": 0.4705
+  }
+]

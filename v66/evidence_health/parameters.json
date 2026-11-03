@@ -1,0 +1,20 @@
+{
+  "preventable_share": {
+    "y5":  [0.00, 0.02, 0.06],
+    "y15": [0.00, 0.03, 0.10],
+    "y30": [-0.005, 0.03, 0.14]
+  },
+  "definition": "Net fractional reduction in health-workforce NEED (workers per 10,000 at a given service standard, e.g. EU-like 131/10k) relative to the no-UNIRA counterfactual, after the longevity offset. Negative = net increase. Order: [low, central, high].",
+  "formula": "share(t) = A * r * e * ramp(t) * (1 - offset * offramp(t)) + c",
+  "inputs": {
+    "A_attributable_DALY_share": {"low": 0.414, "central": 0.45, "high": 0.478, "source": "GBD 2021 (41.4%) and GBD 2019 (47.8%) all-risk attributable DALYs; verified"},
+    "r_share_of_attributable_burden_UNIRA_removes": {"low": 0.10, "central": 0.25, "high": 0.45, "source": "JUDGEMENT. UNIRA levers (long hours, job strain/insecurity, unemployment, poverty/malnutrition/WASH, housing) are a subset of the 88 risks; tobacco, diet, BMI, air pollution respond to income/stress only partly. Long hours alone ~23.3 m DALYs (~0.8-0.9% of global DALYs); job-strain PAR for CHD 3.4%."},
+    "e_elasticity_workforce_need_to_DALYs": {"low": 0.4, "central": 0.5, "high": 0.7, "source": "JUDGEMENT. Attributable DALYs are YLL-heavy (premature deaths need little care); disability-heavy conditions are weakly attributable (musculoskeletal 20.5%); maternity, child, elderly and routine care are unaffected."},
+    "offset_longevity_fraction_at_30y": {"low": 1.3, "central": 0.6, "high": 0.2, "source": "Barendregt 1997 NEJM (costs higher than baseline after 15 y if all quit); van Baal 2008 (lifetime costs highest in healthy-living); Kingston 2018 (life-expectancy gains spent mostly with 4+ diseases). Smaller offset for poverty/conflict/stress-related burden."},
+    "ramp": {"y5": [0.30, 0.20], "y15": [0.65, 0.60], "y30": [1.0, 1.0], "note": "[benefit ramp, offset ramp]. Benefit fast for CVD (HR 0.61 within 5 y of quitting; cash-transfer illness RR 0.79 at 1-2 y; hospitalisation -8.5% Mincome, contested); slow for cancer (decades; Peto 2000) and full CHD decline (Finland 80% over 35 y). Longevity offset accumulates later."},
+    "c_conflict_term": {"low": 0.001, "central": 0.005, "high": 0.015, "source": "Direct conflict deaths ~140-320 k/yr (UCDP 2021-2025) = ~0.3-0.5% of deaths; 22% mental-disorder prevalence in conflict-affected populations (Charlson 2019). Size of conflict-affected population not verified: JUDGEMENT."}
+  },
+  "in_workers": "Against an EU-like need of ~106.6 m workers for 8.14 bn people (131/10k), central 3% = ~3 m workers; high 14% at 30 y = ~15 m. The v65 gap is +58.7 m. Prevention does not close the gap.",
+  "basis": "Upper bound from GBD attributable fractions (41-48% of DALYs at theoretical-minimum exposure), scaled by (i) the share of that burden UNIRA's specific conditions plausibly remove, (ii) a <1 elasticity from DALYs to workforce need, (iii) a time ramp from risk-reduction timing evidence, and (iv) a longevity offset from lifetime-cost studies. r, e, offset and c are judgements, not measured values.",
+  "confidence": "LOW. Direction of gross effect (less disease) is well supported; the net effect on workforce need is uncertain in sign at 30 y (low case slightly negative). Single most uncertain inputs: r (how much risk exposure UNIRA actually removes) and the longevity offset. Also: poverty reduction may raise care use where need is unmet (UCT service use RR 1.04), and prevention programmes themselves need workers."
+}

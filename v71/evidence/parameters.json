@@ -1,0 +1,38 @@
+{
+  "source": "v71/evidence/evidence.csv; tests rule 20 of v63/DESIGN_CLARIFICATIONS_2026-11-03.md",
+  "status": "Evidence-informed judgement. No study measures these effects for a fixed-price guaranteed-access system, so every value is an assumption that the cited evidence bounds.",
+  "a_household_food_waste_reduction_from_secure_fixed_price_access": {
+    "unit": "fraction of baseline household food waste",
+    "low": 0.0, "central": 0.05, "high": 0.15,
+    "basis": "UNEP FWI 2021/2024: household waste is similar across income groups (about 7 kg/cap/yr spread), so food security by itself does not cut waste. Inverted U (Lopez Barrera et al.): middle-income overbuying 'to avoid running out' is one waste channel that secure access could remove. WRAP 2020: waste FELL 34% (self-reported) under perceived insecurity, so the sign is ambiguous. Central 5% credits only the precautionary-overbuying channel. The high case also needs the absence of promotions and bulk discounts (assumption, not tested here).",
+    "do_not_apply_to": "food-service and retail waste"
+  },
+  "b_precautionary_purchase_and_stockpiling_reduction": {
+    "unit": "fraction of shock-induced excess purchases (panic-buying spike volume) avoided",
+    "low": 0.25, "central": 0.5, "high": 0.75,
+    "steady_state_effect": "negligible (no evidence of large standing household hoards in normal times)",
+    "basis": "Nielsen Ireland, week to 15 Mar 2020: grocery +23% y/y, toilet roll +181%, pasta +199%. The spike is scarcity-driven (Shah et al. 2012 mechanism). Damping needs a CREDIBLE guarantee plus regional catastrophe reserves (rule 13) and per-person purchase limits during shocks. The size of the damping is an assumption.",
+    "shock_spike_to_plan_for_without_damping": {"grocery_value_weekly": 0.23, "storable_staples_weekly": 1.2, "hygiene_paper_weekly": 1.8}
+  },
+  "c_direct_rebound_energy_travel_fixed_prices": {
+    "unit": "fraction of efficiency-driven savings taken back as extra use",
+    "low": 0.1, "central": 0.2, "high": 0.3,
+    "basis": "Sorrell et al. 2009: household energy direct rebound 'generally less than 30%' (verified). Road transport 12% short run / 32% long run (OECD/ITF 2016, not verified). Fixed (non-zero) prices keep marginal cost and therefore limit rebound.",
+    "if_price_zero_or_flat_rate_unmetered": {
+      "heat_flat_rate_billing_vs_metered_extra_use": {"low": 0.1, "central": 0.2, "high": 0.3, "basis": "Gibraltar/EED guidance: metering savings 'often reach 30%' (verified); other values search-only"},
+      "public_transport_fare_free_trip_increase": {"low": 0.14, "central": 0.4, "high": 0.7, "basis": "Tallinn +14% (verified), Dunkirk weekday +70% (verified); car substitution small (Luxembourg car commuting share 72.3% to 69.3% over 2011-2021)"}
+    },
+    "design_rule": "Keep energy and travel metered and priced per unit. Never use flat-rate or unlimited energy or travel."
+  },
+  "d_goods_satiation_classification": [
+    {"good": "food calories (staples)", "satiation": "strong", "evidence": "India calories fell as incomes rose (Deaton & Dreze 2009); obesity link to insecurity only in HIC women (Nettle et al. 2017)", "unira_effect": "security neutral to slightly reducing", "caveat": "ultra-processed food raises intake by +508 kcal/day under free access (Hall 2019)"},
+    {"good": "mobile voice calls", "satiation": "strong", "evidence": "France: 2h15 (2011) to 3h03 (2015, +1.6% y/y) to 3h28 (2023); about 7 min/day", "unira_effect": "a one-off rise of about 35-55% to a ceiling, then flat"},
+    {"good": "temptation goods (alcohol, tobacco)", "satiation": "n/a (income-insensitive)", "evidence": "Evans & Popova 2017: 44 estimates are null or negative", "unira_effect": "no increase"},
+    {"good": "storable essentials (paper, pasta, rice, hygiene)", "satiation": "strong in stock terms", "evidence": "COVID spikes are driven by scarcity", "unira_effect": "secure supply damps spikes"},
+    {"good": "household food waste", "satiation": "n/a", "evidence": "similar across income groups; inverted U", "unira_effect": "small reduction, sign uncertain"},
+    {"good": "mobile data and digital media", "satiation": "none observed", "evidence": "France 529 MB (2015) to 14 GB (2023), +2 GB/yr; unlimited +20% in high-GDP countries", "unira_effect": "use grows regardless; plan capacity growth"},
+    {"good": "space heating and household energy", "satiation": "weak (comfort ceiling)", "evidence": "flat-rate billing about 10-30% more use; rebound under 30%", "unira_effect": "rebound unless metered"},
+    {"good": "passenger travel (km)", "satiation": "weak or none", "evidence": "fare-free +14% to +70% trips; car km rose in Tallinn (unverified)", "unira_effect": "induced demand when price is zero; fixed prices limit it"},
+    {"good": "positional and status goods, housing size", "satiation": "none (relative)", "evidence": "not tested in this review", "unira_effect": "money cap (rule 18) is the binding limit"}
+  ]
+}

@@ -1,0 +1,38 @@
+check,year,passed,detail
+sections_sum_to_total_THS_HW,2023,True,sum=45599310.0 total=45599310.0
+sections_sum_to_total_THS_PER,2023,True,sum=30375.5 total=30375.5
+employees_plus_selfemployed_equals_total,2023,True,max rel. dev=6.47e-04
+inferred_part_time_share_matches_lfsa_epgan2,2023,True,max abs diff=0.0057 (sector K)
+sections_sum_to_total_THS_HW,2024,True,sum=46271437.0 total=46271435.0
+sections_sum_to_total_THS_PER,2024,True,sum=30591.8 total=30591.9
+employees_plus_selfemployed_equals_total,2024,True,max rel. dev=2.46e-04
+inferred_part_time_share_matches_lfsa_epgan2,2024,True,max abs diff=0.0047 (sector O)
+cap_never_increases_hours[2023:A_observed],2023,True,ok
+cap_never_increases_hours[2023:cap30_employees_constant_absence],2023,True,ok
+cap_never_increases_hours[2023:cap35_employees_constant_absence],2023,True,ok
+cap_never_increases_hours[2023:cap30_all_constant_absence],2023,True,ok
+cap_never_increases_hours[2023:cap30_employees_constant_absence_rtt2w],2023,True,ok
+cap_never_increases_hours[2023:cap30_employees_46w],2023,True,ok
+cap_never_increases_hours[2023:cap30_all_46w],2023,True,ok
+cap_never_increases_hours[2023:cap30_all_constant_absence_pt_tail],2023,True,ok
+cap_never_increases_hours[2023:cap32_all_constant_absence],2023,True,ok
+cap_never_increases_hours[2023:cap35_all_constant_absence],2023,True,ok
+cap_never_increases_hours[2024:A_observed],2024,True,ok
+cap_never_increases_hours[2024:cap30_employees_constant_absence],2024,True,ok
+cap_never_increases_hours[2024:cap35_employees_constant_absence],2024,True,ok
+cap_never_increases_hours[2024:cap30_all_constant_absence],2024,True,ok
+cap_never_increases_hours[2024:cap30_employees_constant_absence_rtt2w],2024,True,ok
+cap_never_increases_hours[2024:cap30_employees_46w],2024,True,ok
+cap_never_increases_hours[2024:cap30_all_46w],2024,True,ok
+cap_never_increases_hours[2024:cap30_all_constant_absence_pt_tail],2024,True,ok
+cap_never_increases_hours[2024:cap32_all_constant_absence],2024,True,ok
+cap_never_increases_hours[2024:cap35_all_constant_absence],2024,True,ok
+observed_bottom_up_equals_na_total_hours,2023,True,45599316 vs 45599310 (section U excluded)
+employee_implied_effective_weeks_plausible,2023,True,"flagged: T outside (28.0, 50.0); documented exception ['T'] (households as employers)"
+DIAGNOSTIC_selfemployed_implied_weeks,2023,diagnostic,"12 sectors outside (28.0, 50.0): B,C,D,E,F,G,H,I,J,N,P,S; NA self-employed hours/person exceed LFS main-job hours (see insee_reconciliation)"
+observed_bottom_up_equals_na_total_hours,2024,True,46271440 vs 46271435 (section U excluded)
+employee_implied_effective_weeks_plausible,2024,True,"flagged: T outside (28.0, 50.0); documented exception ['T'] (households as employers)"
+DIAGNOSTIC_selfemployed_implied_weeks,2024,diagnostic,"13 sectors outside (28.0, 50.0): B,C,D,E,F,G,H,I,J,L,N,P,S; NA self-employed hours/person exceed LFS main-job hours (see insee_reconciliation)"
+FR_top_down_gap_matches_sector_bottom_up,2023,True,top-down 0.2021 vs bottom-up 0.2010
+labour_reserve_framings_are_alternatives_not_sums,2023,True,"benchmark = max(gap, T1+T2); slack = T1+T2"
+DIAGNOSTIC_reserve_countries_with_implausible_weeks,2023,diagnostic,"PL,PT"

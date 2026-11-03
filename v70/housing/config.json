@@ -1,0 +1,71 @@
+{
+  "_comment": "UNIRA V7.0 housing acceleration. Evidence values loaded from ../evidence/parameters.json (36 sourced rows).",
+  "leakage_strong_safeguards": 0.08,
+  "hours_per_worker_year": 1290,
+  "co2_budgets_gt_from_2025": {
+    "1.5C_50pct": 130,
+    "1.5C_67pct": 80,
+    "2C_50pct": 1050,
+    "2C_67pct": 870,
+    "source": "v66/ecology (Forster et al. 2025)"
+  },
+  "evidence": {
+    "embodied_co2_kg_m2": {
+      "conventional": {
+        "low": 400,
+        "central": 600,
+        "high": 800
+      },
+      "low_carbon": {
+        "low": 100,
+        "central": 250,
+        "high": 400
+      }
+    },
+    "labour_h_m2_low_cost": {
+      "low": 13,
+      "central": 33,
+      "high": 64
+    },
+    "upgrade_share_of_need": {
+      "low": 0.1,
+      "central": 0.25,
+      "high": 0.4
+    },
+    "upgrade_material_ratio_vs_new": {
+      "low": 0.2,
+      "central": 0.35,
+      "high": 0.5
+    },
+    "max_build_m2_per_1000_per_yr": {
+      "low": 720,
+      "central": 1468,
+      "high": 1468
+    }
+  },
+  "cases": {
+    "today_capacity": {
+      "growth": 0.0
+    },
+    "ramp_5pct": {
+      "growth": 0.05
+    },
+    "ramp_10pct": {
+      "growth": 0.1
+    },
+    "ramp_10pct_stock_first": {
+      "growth": 0.1,
+      "upgrade_from_evidence": true
+    },
+    "ramp_10pct_stock_first_low_carbon": {
+      "growth": 0.1,
+      "low_carbon": true,
+      "upgrade_from_evidence": true
+    },
+    "ramp_5pct_stock_first_low_carbon": {
+      "growth": 0.05,
+      "upgrade_from_evidence": true,
+      "low_carbon": true
+    }
+  }
+}

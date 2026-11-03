@@ -1,0 +1,111 @@
+{
+  "_comment": "UNIRA V6.3 avoidable-output accounting. All results in hours. Candidate selection is NORMATIVE (democratic choice); the model only measures hours.",
+  "base_year": 2022,
+  "robustness_year": 2019,
+  "gap_source": "../../v62/outputs/summary.json",
+  "gap_cases": [
+    "low",
+    "central",
+    "high"
+  ],
+  "gap_weekly_cap": "30",
+  "market_specific_candidates": {
+    "_evidence_class": "NORMATIVE_TARGET (candidates flagged by UNIRA principles, not evidence that they are avoidable)",
+    "items": {
+      "CPA_M73": {
+        "label": "Advertising and market research",
+        "principle": "Article 11: no production merely to sustain sales; public information still needed",
+        "reductions": [
+          0.25,
+          0.5,
+          0.75
+        ]
+      },
+      "CPA_L68B": {
+        "label": "Real estate services (excl. imputed rent)",
+        "principle": "No land speculation; housing allocation and management still needed",
+        "reductions": [
+          0.1,
+          0.25,
+          0.5
+        ]
+      },
+      "CPA_K64": {
+        "label": "Financial services except insurance",
+        "principle": "Public U payment system (UGTN); credit and payments still needed",
+        "reductions": [
+          0.1,
+          0.25,
+          0.5
+        ]
+      },
+      "CPA_K66": {
+        "label": "Services auxiliary to finance (brokerage, fund management)",
+        "principle": "No speculative asset markets",
+        "reductions": [
+          0.25,
+          0.5,
+          0.75
+        ]
+      },
+      "CPA_K65": {
+        "label": "Insurance and pension funding",
+        "principle": "Universal guarantees replace part of private insurance; risk pooling still needed",
+        "reductions": [
+          0.1,
+          0.25,
+          0.5
+        ]
+      },
+      "CPA_M69_70": {
+        "label": "Legal, accounting, head offices, management consulting",
+        "principle": "Simpler tax/benefit rules, less litigation over property; core legal/accounting needed",
+        "reductions": [
+          0.05,
+          0.15,
+          0.3
+        ]
+      }
+    },
+    "excluded": {
+      "CPA_N78": "Labour pass-through: temp-agency workers are recorded in N78 but work in client industries; removing agencies does not remove their work. Hypothetical extraction of N78 is therefore not a valid saving."
+    },
+    "levels": [
+      "modest",
+      "moderate",
+      "deep"
+    ]
+  },
+  "durables": {
+    "_comment": "Article 11 stock-first: longer product lifetimes reduce replacement purchases; repair hours rise. Lifetime extension is a SYNTHETIC sensitivity.",
+    "products": [
+      "CPA_C26",
+      "CPA_C27",
+      "CPA_C28",
+      "CPA_C29",
+      "CPA_C30",
+      "CPA_C31_32",
+      "CPA_C13-15"
+    ],
+    "repair_products": [
+      "CPA_S95",
+      "CPA_C33",
+      "CPA_G45"
+    ],
+    "lifetime_extensions": [
+      0.25,
+      0.5,
+      1.0
+    ],
+    "repair_hours_per_saved_hour": {
+      "value": 0.25,
+      "evidence_class": "SYNTHETIC_ASSUMPTION",
+      "note": "each hour of avoided new production needs 0.25 h of extra repair/maintenance; placeholder pending evidence"
+    }
+  },
+  "food_products": [
+    "CPA_A01",
+    "CPA_A03",
+    "CPA_C10-12"
+  ]
+}

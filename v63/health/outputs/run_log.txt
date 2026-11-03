@@ -1,0 +1,77 @@
+{
+ "q_required_gain": 0.168953,
+ "occupations": [
+  {
+   "occupation": "NRS",
+   "label": "Nurses (practising)",
+   "stock_year": 2023,
+   "practising": 607644.0,
+   "trend_window": "2018-2023",
+   "q_required_gain": 0.168953,
+   "extra_needed_year1": 102663.276732,
+   "lead_time_years": 3,
+   "lead_time_evidence": "French state nursing diploma (IFSI) is a 3-year programme - REPORTED_NEEDS_RECHECK",
+   "graduates_per_year": 24813.4,
+   "net_stock_growth_per_year": 4539.2,
+   "implied_exits_per_year": 20274.2,
+   "extra_as_years_of_graduates": 4.137412717805701,
+   "years_to_close_if_intake_plus_25pct": 20,
+   "years_to_close_if_intake_plus_50pct": 12,
+   "years_to_close_if_intake_plus_100pct": 8,
+   "year1_shortfall_no_reserve": 102663.276732
+  },
+  {
+   "occupation": "PHYS",
+   "label": "Physicians (practising)",
+   "stock_year": 2023,
+   "practising": 266380.0,
+   "trend_window": "2020-2023",
+   "q_required_gain": 0.168953,
+   "extra_needed_year1": 45005.70014,
+   "lead_time_years": 9,
+   "lead_time_evidence": "Minimum 9 years for general practice in France - REPORTED_NEEDS_RECHECK. Series break in 2020 ('b'): trend window restricted to 2020-2023. Many physicians are self-employed and outside the primary cap, so extra_needed is an upper bound.",
+   "graduates_per_year": 8444.333333333334,
+   "net_stock_growth_per_year": 4505.666666666667,
+   "implied_exits_per_year": 3938.666666666667,
+   "extra_as_years_of_graduates": 5.329692512533059,
+   "years_to_close_if_intake_plus_25pct": 31,
+   "years_to_close_if_intake_plus_50pct": 20,
+   "years_to_close_if_intake_plus_100pct": 15,
+   "year1_shortfall_no_reserve": 45005.70014
+  },
+  {
+   "occupation": "PER_CARE",
+   "label": "Caring personnel (health-care assistants, home-based personal care)",
+   "stock_year": 2021,
+   "practising": 859956.0,
+   "trend_window": "2018-2023",
+   "q_required_gain": 0.168953,
+   "extra_needed_year1": 145292.146068,
+   "lead_time_years": 1,
+   "lead_time_evidence": "Care assistant diploma about 1 year - REPORTED_NEEDS_RECHECK; no graduate series in Eurostat (MISSING)",
+   "graduates_per_year": "MISSING",
+   "year1_shortfall_no_reserve": 145292.146068
+  }
+ ],
+ "hospital_nurse_fte_per_head_2023": 0.9273784386386059,
+ "vacancy_rate_q_pct": {
+  "2012": 1.2,
+  "2013": 1.0,
+  "2014": 1.2,
+  "2015": 1.2,
+  "2016": 1.5,
+  "2017": 1.7,
+  "2018": 1.8,
+  "2019": 2.1,
+  "2021": 3.0,
+  "2022": 3.8,
+  "2023": 3.6,
+  "2024": 3.2,
+  "2025": 2.9
+ },
+ "missing": {
+  "licensed_not_practising": "France does not report 'licensed to practise' to Eurostat: the pool of qualified people not practising cannot be measured here (MISSING). National sources (DREES) are a follow-up task.",
+  "caring_personnel_after_2021": "Caring-personnel stock is published only to 2021; 2021 is used.",
+  "occupation_specific_hours": "No occupation-specific weekly hours; the NACE Q full-time/part-time ratio is applied to every occupation."
+ }
+}

@@ -1,0 +1,166 @@
+{
+  "description": "UNIRA V6.3 empirical year-1 take-up rates for the V6.2 labour-reserve pools",
+  "baseline_caveat": "status-quo baseline incl. normal churn (people who would find work anyway); NOT the effect of a mobilisation policy",
+  "years": {
+    "2023": {
+      "FR": {
+        "T1_proposed": 0.41,
+        "T1_markov_cross_check": 0.4991,
+        "T1_silc_cross_check": 0.307,
+        "T2_proposed": 0.2528,
+        "T2_lower_bound_all_inactive": 0.082,
+        "T2_alternative_relative_risk": 0.4524,
+        "T3_proposed_proxy": 0.231,
+        "context_quarterly_U_to_E_by_duration_15_74": {
+          "TOTAL": 0.26,
+          "Y_LT1": 0.32,
+          "Y_GE1": 0.11,
+          "Y_GE2": 0.08
+        },
+        "context_quarterly_I_to_E_by_attachment_15_74": {
+          "TOTAL": 0.03,
+          "SEEK_NAVL": 0.23,
+          "NSEEK_AVL": 0.12,
+          "OTH": 0.02
+        },
+        "context_quarterly_PT_to_FT_25_64_lfsi_long_e08": 0.06
+      },
+      "EU27_2020": {
+        "T1_proposed": 0.362,
+        "T1_markov_cross_check": 0.4688,
+        "T1_silc_cross_check": 0.272,
+        "T2_proposed": 0.2305,
+        "T2_lower_bound_all_inactive": 0.084,
+        "T2_alternative_relative_risk": 0.3187,
+        "T3_proposed_proxy": 0.198,
+        "context_quarterly_U_to_E_by_duration_15_74": {
+          "TOTAL": 0.23,
+          "Y_LT1": 0.31,
+          "Y_GE1": 0.09,
+          "Y_GE2": 0.07
+        },
+        "context_quarterly_I_to_E_by_attachment_15_74": {
+          "TOTAL": 0.04,
+          "SEEK_NAVL": 0.25,
+          "NSEEK_AVL": 0.12,
+          "OTH": 0.03
+        },
+        "context_quarterly_PT_to_FT_25_64_lfsi_long_e08": 0.09
+      },
+      "benchmark_top3": {
+        "T1:top3_mean_of:direct_year_on_year_UNE_EMP_PC_UNE": {
+          "rate": 0.612,
+          "notes": "best observed of 28 countries: IS=0.634, NL=0.604, DK=0.598; upper bound for an ACTIVE mobilisation policy, still status-quo flows shaped by each country's composition and institutions"
+        },
+        "T2:top3_mean_of:e06_quarterly_T2_x_country_U_annualisation_factor": {
+          "rate": 0.3607,
+          "notes": "best observed of 27 countries: IS=0.380, HU=0.355, DK=0.347; upper bound for an ACTIVE mobilisation policy, still status-quo flows shaped by each country's composition and institutions"
+        },
+        "T2:top3_mean_of:direct_year_on_year_INAC_EMP_all_inactive": {
+          "rate": 0.184,
+          "notes": "best observed of 29 countries: IS=0.228, EE=0.168, DK=0.156; upper bound for an ACTIVE mobilisation policy, still status-quo flows shaped by each country's composition and institutions"
+        }
+      },
+      "markov_minus_direct_T1": {
+        "n": 24,
+        "mean": 0.0996,
+        "n_positive": 23
+      },
+      "coverage": {
+        "T1_missing": [
+          "LU",
+          "NO"
+        ],
+        "T2_missing": [
+          "LU",
+          "MT",
+          "NO"
+        ],
+        "T3_missing": [
+          "IS",
+          "LU"
+        ]
+      }
+    },
+    "2024": {
+      "FR": {
+        "T1_proposed": 0.413,
+        "T1_markov_cross_check": 0.5252,
+        "T1_silc_cross_check": 0.316,
+        "T2_proposed": 0.2426,
+        "T2_lower_bound_all_inactive": 0.085,
+        "T2_alternative_relative_risk": 0.4582,
+        "T3_proposed_proxy": 0.222,
+        "context_quarterly_U_to_E_by_duration_15_74": {
+          "TOTAL": 0.26,
+          "Y_LT1": 0.33,
+          "Y_GE1": 0.1,
+          "Y_GE2": 0.07
+        },
+        "context_quarterly_I_to_E_by_attachment_15_74": {
+          "TOTAL": 0.03,
+          "SEEK_NAVL": 0.23,
+          "NSEEK_AVL": 0.11,
+          "OTH": 0.02
+        },
+        "context_quarterly_PT_to_FT_25_64_lfsi_long_e08": 0.05
+      },
+      "EU27_2020": {
+        "T1_proposed": 0.368,
+        "T1_markov_cross_check": 0.4727,
+        "T1_silc_cross_check": 0.277,
+        "T2_proposed": 0.2185,
+        "T2_lower_bound_all_inactive": 0.081,
+        "T2_alternative_relative_risk": 0.3863,
+        "T3_proposed_proxy": 0.18,
+        "context_quarterly_U_to_E_by_duration_15_74": {
+          "TOTAL": 0.24,
+          "Y_LT1": 0.31,
+          "Y_GE1": 0.09,
+          "Y_GE2": 0.07
+        },
+        "context_quarterly_I_to_E_by_attachment_15_74": {
+          "TOTAL": 0.03,
+          "SEEK_NAVL": 0.24,
+          "NSEEK_AVL": 0.11,
+          "OTH": 0.03
+        },
+        "context_quarterly_PT_to_FT_25_64_lfsi_long_e08": 0.09
+      },
+      "benchmark_top3": {
+        "T1:top3_mean_of:direct_year_on_year_UNE_EMP_PC_UNE": {
+          "rate": 0.6053,
+          "notes": "best observed of 28 countries: IS=0.619, DK=0.613, NL=0.584; upper bound for an ACTIVE mobilisation policy, still status-quo flows shaped by each country's composition and institutions"
+        },
+        "T2:top3_mean_of:e06_quarterly_T2_x_country_U_annualisation_factor": {
+          "rate": 0.3978,
+          "notes": "best observed of 27 countries: IS=0.447, CY=0.390, NL=0.357; upper bound for an ACTIVE mobilisation policy, still status-quo flows shaped by each country's composition and institutions"
+        },
+        "T2:top3_mean_of:direct_year_on_year_INAC_EMP_all_inactive": {
+          "rate": 0.185,
+          "notes": "best observed of 28 countries: IS=0.232, DK=0.168, IE=0.155; upper bound for an ACTIVE mobilisation policy, still status-quo flows shaped by each country's composition and institutions"
+        }
+      },
+      "markov_minus_direct_T1": {
+        "n": 25,
+        "mean": 0.0933,
+        "n_positive": 25
+      },
+      "coverage": {
+        "T1_missing": [
+          "LU",
+          "NO"
+        ],
+        "T2_missing": [
+          "LU",
+          "MT",
+          "NO"
+        ],
+        "T3_missing": [
+          "IS",
+          "RO"
+        ]
+      }
+    }
+  }
+}

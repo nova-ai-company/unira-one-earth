@@ -1,0 +1,187 @@
+{
+  "governance_scenarios": {
+    "C_perfect": {
+      "sigma": 0.0,
+      "lag": 0,
+      "misreport_share": 0.0,
+      "inflation": 0.0,
+      "audit_detect": 0.0,
+      "leakage": 0.0
+    },
+    "C_best_observed": {
+      "sigma": 0.05,
+      "lag": 1,
+      "misreport_share": 0.1,
+      "inflation": 0.02,
+      "audit_detect": 0.5,
+      "leakage": 0.03
+    },
+    "C_strong_safeguards": {
+      "sigma": 0.05,
+      "lag": 1,
+      "misreport_share": 0.25,
+      "inflation": 0.07,
+      "audit_detect": 0.5,
+      "leakage": 0.08
+    },
+    "C_no_safeguards": {
+      "sigma": 0.15,
+      "lag": 2,
+      "misreport_share": 0.25,
+      "inflation": 0.07,
+      "audit_detect": 0.0,
+      "leakage": 0.25
+    },
+    "C_worst_observed": {
+      "sigma": 0.3,
+      "lag": 5,
+      "misreport_share": 0.45,
+      "inflation": 0.2,
+      "audit_detect": 0.0,
+      "leakage": 0.45
+    }
+  },
+  "results": {
+    "C_perfect": {
+      "energy_closed_y15": {
+        "p10": 0.5990655880026305,
+        "p50": 0.5990655880026305,
+        "p90": 0.5990655880026305
+      },
+      "health_closed_y15": {
+        "p10": 0.38181868856806234,
+        "p50": 0.38181868856806234,
+        "p90": 0.38181868856806234
+      },
+      "housing_closed_y30": {
+        "p10": 0.49963751381404187,
+        "p50": 0.49963751381404187,
+        "p90": 0.49963751381404187
+      },
+      "energy_all_by": {
+        "share_of_runs_reached": 1.0,
+        "median_year_if_reached": 27.0
+      },
+      "health_all_by": {
+        "share_of_runs_reached": 1.0,
+        "median_year_if_reached": 30.0
+      }
+    },
+    "C_best_observed": {
+      "energy_closed_y15": {
+        "p10": 0.5710996482184088,
+        "p50": 0.5711513506893799,
+        "p90": 0.5711982052852843
+      },
+      "health_closed_y15": {
+        "p10": 0.36469773166684033,
+        "p50": 0.3647034810640237,
+        "p90": 0.3647089247288523
+      },
+      "housing_closed_y30": {
+        "p10": 0.46391125447863374,
+        "p50": 0.4639382884672097,
+        "p90": 0.46395385914995735
+      },
+      "energy_all_by": {
+        "share_of_runs_reached": 1.0,
+        "median_year_if_reached": 29.0
+      },
+      "health_all_by": {
+        "share_of_runs_reached": 0.0,
+        "median_year_if_reached": null
+      }
+    },
+    "C_strong_safeguards": {
+      "energy_closed_y15": {
+        "p10": 0.524156585875905,
+        "p50": 0.5243740314729574,
+        "p90": 0.524560559462597
+      },
+      "health_closed_y15": {
+        "p10": 0.33625158971702884,
+        "p50": 0.33626378399674034,
+        "p90": 0.3362704132030525
+      },
+      "housing_closed_y30": {
+        "p10": 0.4042688987227749,
+        "p50": 0.40441192768671486,
+        "p90": 0.40446595216022646
+      },
+      "energy_all_by": {
+        "share_of_runs_reached": 1.0,
+        "median_year_if_reached": 29.0
+      },
+      "health_all_by": {
+        "share_of_runs_reached": 0.0,
+        "median_year_if_reached": null
+      }
+    },
+    "C_no_safeguards": {
+      "energy_closed_y15": {
+        "p10": 0.3551252671374692,
+        "p50": 0.35727537655556474,
+        "p90": 0.35911714316456417
+      },
+      "health_closed_y15": {
+        "p10": 0.23685772404085625,
+        "p50": 0.2377205499320229,
+        "p90": 0.23836903300918375
+      },
+      "housing_closed_y30": {
+        "p10": 0.18482906505977795,
+        "p50": 0.18651443473827106,
+        "p90": 0.1908796060669264
+      },
+      "energy_all_by": {
+        "share_of_runs_reached": 0.0,
+        "median_year_if_reached": null
+      },
+      "health_all_by": {
+        "share_of_runs_reached": 0.0,
+        "median_year_if_reached": null
+      }
+    },
+    "C_worst_observed": {
+      "energy_closed_y15": {
+        "p10": 0.14291054649043478,
+        "p50": 0.1476365234760066,
+        "p90": 0.15344647654302307
+      },
+      "health_closed_y15": {
+        "p10": 0.11786351153628565,
+        "p50": 0.11901967269558716,
+        "p90": 0.12126422436540035
+      },
+      "housing_closed_y30": {
+        "p10": -0.09329852103340348,
+        "p50": -0.08745138728840307,
+        "p90": -0.07966065894464314
+      },
+      "energy_all_by": {
+        "share_of_runs_reached": 0.0,
+        "median_year_if_reached": null
+      },
+      "health_all_by": {
+        "share_of_runs_reached": 0.0,
+        "median_year_if_reached": null
+      }
+    }
+  },
+  "market_reference": {
+    "B_reformed_market": {
+      "energy_closed_y15": -0.1391157253776656,
+      "health_closed_y15": -0.03670975902950002,
+      "housing_closed_y30": -0.21378973611624996,
+      "energy_all_by": null,
+      "health_all_by": null
+    },
+    "B2_ambitious_cooperative_market": {
+      "energy_closed_y15": 0.13707734778498248,
+      "health_closed_y15": 0.038311748523487954,
+      "housing_closed_y30": 0.10329150694525768,
+      "energy_all_by": null,
+      "health_all_by": null
+    }
+  }
+}

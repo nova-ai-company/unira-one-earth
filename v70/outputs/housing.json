@@ -1,0 +1,113 @@
+{
+  "evidence": {
+    "embodied_co2_kg_m2": {
+      "unit": "kgCO2e per m2 floor area, upfront A1-A5 (some sources A1-A3)",
+      "conventional": {
+        "low": 250,
+        "central": 400,
+        "high": 600,
+        "basis": "low: concrete/brick building 240 (Escamilla 2018 via Tello-Ayala 2023); central: Malaysia RC+fired brick 406 (A1-A3, Asman 2020) and EU residential ~400 upfront (2/3 of 600, Ramboll 2022); high: WBCSD/Arup 500-600 average upfront"
+      },
+      "low_carbon": {
+        "low": 30,
+        "central": 150,
+        "high": 265,
+        "basis": "low: bamboo buildings 30 (Escamilla 2018, cited); central: judgment between bahareque = 27% of RC structure, Colombian bamboo house ~107 (unverified), SA sandbag 174-189 (unverified); high: Malaysia interlocking CEB 265 (A1-A3, frame unchanged)"
+      },
+      "note": "Earth blocks alone save little at house level (walls ~20-40 kgCO2e per m2 wall; Kenya CEB with 10% cement = stone). Big savings need replacing RC frame/slab/roof (bamboo, timber, vaults, filler slabs). No verified whole-house LCA for India/SSA RC-frame found."
+    },
+    "labour_h_m2_low_cost": {
+      "low": 33,
+      "central": 48,
+      "high": 64,
+      "basis": "low: China 2010 top-down 33 h/m2 (derived, assumed 2,200 h/yr); high: PMAY-G 201 person-days/house at 25 m2 x 8 h = 64 h/m2 (upper bound, houses may be larger); central = midpoint (judgment). Earth/alternative materials reported as more labour-intensive."
+    },
+    "upgrade_share_of_need": {
+      "low": 0.17,
+      "central": 0.4,
+      "high": 0.8,
+      "basis": "India urban TG-12 2012: 17.4% of shortage is obsolete/non-serviceable stock (upgrade-or-replace); 79.8% is congestion, which needs added floor area that could partly be met by in-situ extension of existing structures. Central 0.4 is judgment. No UN-Habitat global upgradable share found."
+    },
+    "upgrade_material_ratio_vs_new": {
+      "low": 0.25,
+      "central": 0.4,
+      "high": 0.67,
+      "basis": "UNEP 2023: repurposing 50-75% fewer emissions => 0.25-0.50; IStructE 2023 case 111/199 = 0.56 (unverified); Chile in-situ upgrading cost ~2/3 of relocation (NBER 34560) used as high. Emissions used as proxy for material."
+    },
+    "max_build_m2_per_1000_per_yr": {
+      "low": 720,
+      "central": 1468,
+      "high": 1500,
+      "basis": "China 2011 1,468 (v66, verified inputs); Korea 1990 750,378 dwellings / 42.87 m = 17.5 dwellings/1000/yr x assumed 60-85 m2 = 1,050-1,490 (size assumed); USA 2025 720 as low. Post-war Europe not sourced."
+    }
+  },
+  "cases": {
+    "today_capacity": {
+      "housing_all_by": null,
+      "housing_closed_y15": 0.15019357147726076,
+      "housing_closed_y30": 0.40451871706126763,
+      "new_bn_m2_30y": 72.726,
+      "upgraded_bn_m2_30y": 0.0,
+      "embodied_co2_gt_30y": 29.0904,
+      "peak_bn_m2_per_yr": 2.346,
+      "peak_construction_workers_m": 87.29302325581395
+    },
+    "ramp_5pct": {
+      "housing_all_by": 27,
+      "housing_closed_y15": 0.39007896524826047,
+      "housing_closed_y30": 1.0,
+      "new_bn_m2_30y": 108.71038566969531,
+      "upgraded_bn_m2_30y": 0.0,
+      "embodied_co2_gt_30y": 43.484154267878125,
+      "peak_bn_m2_per_yr": 6.79762068627552,
+      "peak_construction_workers_m": 252.93472321025192
+    },
+    "ramp_10pct": {
+      "housing_all_by": 27,
+      "housing_closed_y15": 0.7001532580138219,
+      "housing_closed_y30": 1.0,
+      "new_bn_m2_30y": 108.74033275775558,
+      "upgraded_bn_m2_30y": 0.0,
+      "embodied_co2_gt_30y": 43.49613310310223,
+      "peak_bn_m2_per_yr": 6.80159105040848,
+      "peak_construction_workers_m": 253.08245768961788
+    },
+    "ramp_10pct_stock_first": {
+      "housing_all_by": 27,
+      "housing_closed_y15": 0.8301311285468029,
+      "housing_closed_y30": 1.0,
+      "new_bn_m2_30y": 100.14395299370437,
+      "upgraded_bn_m2_30y": 8.60849008984901,
+      "embodied_co2_gt_30y": 41.434939611857594,
+      "peak_bn_m2_per_yr": 7.132716540023279,
+      "peak_construction_workers_m": 265.4034061404011
+    },
+    "ramp_10pct_stock_first_low_carbon": {
+      "housing_all_by": 27,
+      "housing_closed_y15": 0.8301311285468029,
+      "housing_closed_y30": 1.0,
+      "new_bn_m2_30y": 100.14395299370437,
+      "upgraded_bn_m2_30y": 8.60849008984901,
+      "embodied_co2_gt_30y": 15.538102354446597,
+      "peak_bn_m2_per_yr": 7.132716540023279,
+      "peak_construction_workers_m": 265.4034061404011
+    },
+    "ramp_5pct_stock_first_low_carbon": {
+      "housing_all_by": 27,
+      "housing_closed_y15": 0.5352553016177439,
+      "housing_closed_y30": 1.0,
+      "new_bn_m2_30y": 97.79986225636175,
+      "upgraded_bn_m2_30y": 10.92293094372225,
+      "embodied_co2_gt_30y": 15.325355195077597,
+      "peak_bn_m2_per_yr": 6.348933787542999,
+      "peak_construction_workers_m": 236.23939674578602
+    }
+  },
+  "budgets_gt": {
+    "1.5C_50pct": 130,
+    "1.5C_67pct": 80,
+    "2C_50pct": 1050,
+    "2C_67pct": 870,
+    "source": "v66/ecology (Forster et al. 2025)"
+  }
+}

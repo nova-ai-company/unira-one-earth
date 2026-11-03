@@ -1,0 +1,7 @@
+location,geography,year,metric,value,unit,source_url,scope_warning
+England,England national,2024,mean_cost_to_EPC_C,7480,GBP_per_eligible_dwelling,https://www.gov.uk/government/statistics/chapters-for-english-housing-survey-2024-to-2025-headline-findings-on-housing-quality-and-energy-efficiency/chapter-2-energy-efficiency,Not London-specific; excludes ineligible dwellings
+England,England national,2024,share_EPC_A_to_C,56,percent_of_stock,https://www.gov.uk/government/statistics/chapters-for-english-housing-survey-2024-to-2025-headline-findings-on-housing-quality-and-energy-efficiency/chapter-2-energy-efficiency,Not London-specific
+England,England national,2024,share_potentially_upgradeable_to_C,42,percent_of_stock,https://www.gov.uk/government/statistics/chapters-for-english-housing-survey-2024-to-2025-headline-findings-on-housing-quality-and-energy-efficiency/chapter-2-energy-efficiency,Not London-specific
+London,London EPC certificates,2025,median_EPC_score,70,SAP_points,https://www.ons.gov.uk/peoplepopulationandcommunity/housing/articles/energyefficiencyofhousinginenglandandwales/2025,Certificate-based; not all homes
+New York,NYC rental market,2023,net_rental_vacancy_rate,1.41,percent,https://www.nyc.gov/assets/hpd/downloads/pdfs/about/2023-nychvs-selected-initial-findings.pdf,Not recoverable vacant stock
+New York,NYC rental market,2023,available_rental_units,33210,units,https://www.nyc.gov/assets/hpd/downloads/pdfs/about/2023-nychvs-selected-initial-findings.pdf,Market listings not public housing inventory

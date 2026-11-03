@@ -1,0 +1,4 @@
+indicator,year,value,unit,scope,source_url,limitation
+Employed people,2025,30500000,persons,France end-year all statuses,https://www.insee.fr/fr/statistiques/8733039,Includes part-time and self-employed; end-year stock
+Full-time employees effective annual hours,2025,1656,hours/person/year,France full-time employees,https://www.insee.fr/fr/statistiques/8733071,Not average across all employed people
+Full-time employees usual weekly hours,2025,38.9,hours/week,France full-time employees,https://www.insee.fr/fr/statistiques/8733071,Not annual effective hours divided by 52

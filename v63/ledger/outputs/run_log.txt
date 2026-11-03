@@ -1,0 +1,11 @@
+FR         low        gap= 7.63bn  theta=   8%  mobil=   6%  avoid=  10%  uncovered= 12.6% of hours  gain= 14.7%
+FR         central    gap= 7.63bn  theta=  18%  mobil=   6%  avoid=  23%  uncovered=  8.9% of hours  gain= 10.2%
+FR         optimistic gap= 7.63bn  theta=  32%  mobil=  26%  avoid=  39%  uncovered=  0.4% of hours  gain=  0.5%
+FR         maximal    gap= 7.63bn  theta=  32%  mobil=  52%  avoid=  39%  uncovered=  0.0% of hours  gain=  0.0%
+EU27_2020  low        gap=61.79bn  theta=   8%  mobil=   6%  avoid=  10%  uncovered= 13.4% of hours  gain= 15.7%
+EU27_2020  central    gap=61.79bn  theta=  18%  mobil=   6%  avoid=  22%  uncovered=  9.6% of hours  gain= 11.1%
+EU27_2020  optimistic gap=61.79bn  theta=  32%  mobil=  21%  avoid=  37%  uncovered=  1.7% of hours  gain=  1.8%
+EU27_2020  maximal    gap=61.79bn  theta=  32%  mobil=  43%  avoid=  37%  uncovered=  0.0% of hours  gain=  0.0%
+{'occupation': 'NRS', 'practising': '607644.0', 'extra_needed_year1': '102663.2767', 'lead_time_years': '3', 'years_to_close_if_intake_plus_100pct': '8'}
+{'occupation': 'PHYS', 'practising': '266380.0', 'extra_needed_year1': '45005.7001', 'lead_time_years': '9', 'years_to_close_if_intake_plus_100pct': '15'}
+{'occupation': 'PER_CARE', 'practising': '859956.0', 'extra_needed_year1': '145292.1461', 'lead_time_years': '1', 'years_to_close_if_intake_plus_100pct': ''}

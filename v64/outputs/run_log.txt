@@ -1,0 +1,55 @@
+PASS row_sums_zero:wages_enterprise
+PASS row_sums_zero:wages_public
+PASS row_sums_zero:transfers_reg
+PASS row_sums_zero:consumption
+PASS row_sums_zero:new_homes
+PASS row_sums_zero:enterprise_surplus_to_reg
+PASS row_sums_zero:one_earth_financing
+PASS row_sums_zero:change_in_deposits
+PASS sector_net_lending_sums_zero
+PASS reg_balance_equals_minus_unspent_saving
+PASS base_year_no_excess_demand
+pop groups (m): children_0_17=14.20, young_18_19=1.64, adults_20_64=38.06, retired_65_plus=14.78
+workers 33.49m, mean multiplier 1.90, unable 1.14m
+  wages                        3822.2 bn U/yr
+  disability_guarantees          68.5 bn U/yr
+  retiree_income                387.1 bn U/yr
+  child_allowances               64.0 bn U/yr
+  household_income             4341.8 bn U/yr
+  saving                       1945.4 bn U/yr
+  consumption                  2396.4 bn U/yr
+  new_home_capacity_u           335.0 bn U/yr
+  new_home_spending             335.0 bn U/yr
+  unspent_saving               1610.4 bn U/yr
+  enterprise_surplus             17.6 bn U/yr
+  reg_outflows                 1628.0 bn U/yr
+  reg_balance                 -1610.4 bn U/yr
+{
+ "pi_u_per_hour_equivalent": 146.3907134997069,
+ "base_worker_basket_h_per_year": 204.9310320497896,
+ "average_person_consumption_today_h_per_year": 238.39072632364656,
+ "base_basket_vs_today_average_person": 0.8596434735953987
+}
+hours per avg home 2049 homes/yr capacity 1116545
+{'multiplier': 1.0, 'earners': 1, 'years_to_buy_100k': 3.3333333333333335, 'years_to_buy_300k': 10.0, 'years_to_buy_500k': 16.666666666666668}
+{'multiplier': 1.0, 'earners': 2, 'years_to_buy_100k': 1.6666666666666667, 'years_to_buy_300k': 5.0, 'years_to_buy_500k': 8.333333333333334}
+{'multiplier': 1.5, 'earners': 1, 'years_to_buy_100k': 2.2222222222222223, 'years_to_buy_300k': 6.666666666666667, 'years_to_buy_500k': 11.11111111111111}
+{'multiplier': 1.5, 'earners': 2, 'years_to_buy_100k': 1.1111111111111112, 'years_to_buy_300k': 3.3333333333333335, 'years_to_buy_500k': 5.555555555555555}
+{'multiplier': 1.9, 'earners': 1, 'years_to_buy_100k': 1.7543859649122806, 'years_to_buy_300k': 5.2631578947368425, 'years_to_buy_500k': 8.771929824561404}
+{'multiplier': 1.9, 'earners': 2, 'years_to_buy_100k': 0.8771929824561403, 'years_to_buy_300k': 2.6315789473684212, 'years_to_buy_500k': 4.385964912280702}
+{'multiplier': 3.0, 'earners': 1, 'years_to_buy_100k': 1.1111111111111112, 'years_to_buy_300k': 3.3333333333333335, 'years_to_buy_500k': 5.555555555555555}
+{'multiplier': 3.0, 'earners': 2, 'years_to_buy_100k': 0.5555555555555556, 'years_to_buy_300k': 1.6666666666666667, 'years_to_buy_500k': 2.7777777777777777}
+{'multiplier': 5.0, 'earners': 1, 'years_to_buy_100k': 0.6666666666666666, 'years_to_buy_300k': 2.0, 'years_to_buy_500k': 3.3333333333333335}
+{'multiplier': 5.0, 'earners': 2, 'years_to_buy_100k': 0.3333333333333333, 'years_to_buy_300k': 1.0, 'years_to_buy_500k': 1.6666666666666667}
+{'year': 10, 'creep': 0.0, 'productivity': 0.0, 'excess_demand_share': 2.220446049250313e-16, 'deposits_u': 17714298835213.99, 'deposits_in_years_of_consumption': 7.391940172068966}
+{'year': 30, 'creep': 0.0, 'productivity': 0.0, 'excess_demand_share': 2.220446049250313e-16, 'deposits_u': 49922114899239.45, 'deposits_in_years_of_consumption': 20.831831394012553}
+{'year': 10, 'creep': 0.0, 'productivity': 0.005, 'excess_demand_share': -0.04865205930393002, 'deposits_u': 17620788242037.35, 'deposits_in_years_of_consumption': 7.35291945120124}
+{'year': 30, 'creep': 0.0, 'productivity': 0.005, 'excess_demand_share': -0.13897026982551564, 'deposits_u': 49104329501000.22, 'deposits_in_years_of_consumption': 20.490580476117955}
+{'year': 10, 'creep': 0.005, 'productivity': 0.0, 'excess_demand_share': 0.040783079847145354, 'deposits_u': 18247814361236.63, 'deposits_in_years_of_consumption': 7.316192219762057}
+{'year': 30, 'creep': 0.005, 'productivity': 0.0, 'excess_demand_share': 0.12871285632986695, 'deposits_u': 54587909351971.164, 'deposits_in_years_of_consumption': 20.181222299585794}
+{'year': 10, 'creep': 0.005, 'productivity': 0.005, 'excess_demand_share': -0.009853160276104944, 'deposits_u': 18154303768059.996, 'deposits_in_years_of_consumption': 7.278700525648952}
+{'year': 30, 'creep': 0.005, 'productivity': 0.005, 'excess_demand_share': -0.028144673869823333, 'deposits_u': 53770123953731.97, 'deposits_in_years_of_consumption': 19.878885956041167}
+{'year': 10, 'creep': 0.01, 'productivity': 0.0, 'excess_demand_share': 0.08343374027700934, 'deposits_u': 18797577279210.273, 'deposits_in_years_of_consumption': 7.239923862749305}
+{'year': 30, 'creep': 0.01, 'productivity': 0.0, 'excess_demand_share': 0.2774015146744171, 'deposits_u': 59731301624961.86, 'deposits_in_years_of_consumption': 19.51232532565038}
+{'year': 10, 'creep': 0.01, 'productivity': 0.005, 'excess_demand_share': 0.030722457693173277, 'deposits_u': 18704066686033.637, 'deposits_in_years_of_consumption': 7.203908073857821}
+{'year': 30, 'creep': 0.01, 'productivity': 0.005, 'excess_demand_share': 0.09988068150459073, 'deposits_u': 58913516226722.664, 'deposits_in_years_of_consumption': 19.245180724697278}

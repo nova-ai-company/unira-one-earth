@@ -1,0 +1,9 @@
+scenario,intervention,units,total_cost,total_tco2e,unmet_units
+cost_priority,repair,150,1800000,1350,0
+cost_priority,deep_retrofit,250,8750000,1500,0
+carbon_weighted,deep_retrofit,250,8750000,1500,0
+carbon_weighted,repair,150,1800000,1350,0
+high_demand,repair,150,1800000,1350,100
+high_demand,deep_retrofit,250,8750000,1500,100
+high_demand,conversion,100,8500000,1400,100
+high_demand,new_build,1000,230000000,35000,100

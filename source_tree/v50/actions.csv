@@ -1,0 +1,14 @@
+id,cohort,kind,capacity,cost_eur,carbon_30y_t,consent,safe,suitable
+S_repair,small,repair,25,24000,55,yes,yes,yes
+S_retrofit,small,deep_retrofit,25,67000,20,yes,yes,yes
+S_conversion,small,conversion,15,90000,35,yes,yes,yes
+S_new,small,new_build,50,165000,25,yes,yes,yes
+F_repair,family,repair,10,45000,90,yes,yes,yes
+F_retrofit,family,deep_retrofit,15,105000,35,yes,yes,yes
+F_conversion,family,conversion,10,135000,45,yes,yes,yes
+F_new,family,new_build,45,225000,32,yes,yes,yes
+A_retrofit,accessible,deep_retrofit,8,125000,35,yes,yes,yes
+A_conversion,accessible,conversion,7,150000,48,yes,yes,yes
+A_new,accessible,new_build,25,240000,30,yes,yes,yes
+A_unsafe,accessible,repair,30,5000,5,yes,no,yes
+F_nonconsent,family,conversion,30,1000,5,no,yes,yes

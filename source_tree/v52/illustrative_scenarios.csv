@@ -1,0 +1,4 @@
+scenario,need,voluntary_rehousing,upgraded_in_place,new_suitable_homes,remaining_need
+low,1000,50,100,100,750
+middle,1000,150,250,250,350
+high,1000,250,350,400,0

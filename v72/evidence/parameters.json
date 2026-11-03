@@ -1,0 +1,93 @@
+{
+  "_meta": {
+    "purpose": "Empirical anchors for a UNIRA voluntary-joining model. All values come from evidence.csv rows with verified_in_fetched_text=yes, unless marked 'unverified' or 'derived'. null = no verified evidence found.",
+    "date": "2026-11-03"
+  },
+  "joining": {
+    "eu_members_start_end": [6, 27],
+    "eu_span_years_1958_2013": 55,
+    "accession_waves": 7,
+    "labour_mobility_max_deferral_years": {"value": 7, "structure": "2+3+2", "status": "unverified"},
+    "voluntary_rejections_example": "Norway referendums 1972 and 1994",
+    "exit_observed": "UK 2020"
+  },
+  "transfers_to_new_members": {
+    "cohesion_eu27_avg_pct_gdp_2014_2020": 0.4,
+    "cohesion_some_2004_entrants_pct_gdp_min": 2.0,
+    "net_eu_transfers_pct_gdp_2010_2017": {"PL": 2.7, "HU": 4.0, "CZ": 1.9, "SK": 2.2},
+    "donor_net_contribution_pct_gdp": [0.3, 0.4],
+    "profit_outflows_pct_gdp_2010_2017": {"PL": 4.7, "HU": 7.2, "CZ": 7.6, "SK": 4.2},
+    "absorption_cap_pct_gdp": {"2007_2013": 3.8, "2014_2020_proposed": 2.5, "status": "unverified"},
+    "gdp_uplift_less_developed_regions_pct_2023": 2.4
+  },
+  "convergence": {
+    "eu2004_entrants_pct_eu_avg": {"accession_2004": 60, "2024": 80},
+    "poland_gdp_pc_pps_pct_eu_avg": {"1995": 44, "2004": 51, "2025": 81},
+    "poland_points_per_year_2004_2025_derived": 1.43,
+    "eu2004_points_per_year_derived": 1.0,
+    "note": "At about 1-1.4 points/year, closing a 20-point gap takes ~15-20 years (derived)."
+  },
+  "currency_conversion": {
+    "gdr_1990": {
+      "wages_prices": "1:1",
+      "savings_par_limit_by_age_M": {"0_14": 2000, "15_59": 4000, "60_plus": 6000},
+      "savings_above_limit": "2:1",
+      "debts_company_and_housing": "2:1",
+      "speculative_money": "3:1",
+      "industrial_output_after_months_pct_of_1989": 50,
+      "share_workers_in_viable_firms_pct": 8,
+      "jobs_lost_share": 0.33,
+      "real_gdp_2yr_pct_of_1989": 67
+    },
+    "euro_2002_changeover_hicp_pp": [0.12, 0.29]
+  },
+  "privatisation_restitution": {
+    "treuhand_deficit_bn_dm": 256.4,
+    "treuhand_revenue_bn_dm": 67,
+    "treuhand_promised_jobs_unrealised_share": [0.2, 0.3],
+    "restitution_principle": "restitution before compensation (1990); 1945-49 expropriations not reversed"
+  },
+  "debt_relief": {
+    "hipc_cost_bn_usd_pv2017": 76.2,
+    "mdri_cost_bn_usd_pv2017": 43.3,
+    "hipc_countries_completed": 36,
+    "poverty_spending_vs_debt_service_pct_gdp_2017": [7.3, 1.9],
+    "sovereign_haircut_mean_pct": 37,
+    "sovereign_haircut_iqr_like_pct": [23, 53],
+    "spread_penalty_bp_per_sd_haircut": {"year1": 150, "years4_5": 70},
+    "iceland_2014_cap_isk_per_household": 4000000,
+    "iceland_2014_avg_mortgage_cut_pct": 20,
+    "hungary_fx_conversion_rate_chf_huf": 256.47
+  },
+  "land_compensation": {
+    "japan_real_value_ratio_1950": {"paid_yen_per_tan_max": 1000, "market_yen_per_tan": 20000, "implied_ratio_derived": 0.05},
+    "japan_tenant_share_pct": {"1947": 43.5, "1950": 11.8},
+    "taiwan_payment_mix": {"land_bonds": 0.7, "state_enterprise_equity": 0.3},
+    "korea_payment_years": 5,
+    "korea_ceiling_ha": 3
+  },
+  "capital_flight": {
+    "france_isf_departures_2006": 843,
+    "france_isf_net_loss_2006_bn_eur": 2.8,
+    "france_isf_revenue_2007_bn_eur": 4.42,
+    "norway_wealthy_emigrants_2022_min": 30,
+    "norway_2022_emigrants_wealth_bn_nok": 29,
+    "norway_business_owners_left_by_2024": 80,
+    "elasticity_emigration_to_tax_rate": null,
+    "elasticity_taxable_wealth": null,
+    "note": "No verified elasticity found. France 2006: 843 departures and EUR 2.8bn net loss, against EUR 4.42bn annual revenue (2007). Mean taxable wealth loss of ~3.3m EUR per leaver (derived)."
+  },
+  "wealth_concentration": {
+    "top10_share_global_wealth_pct": 75,
+    "bottom50_share_pct": 2,
+    "top0001_share_pct": 6,
+    "top1_share_pct": {"value": 37, "status": "unverified"},
+    "global_3pct_tax_on_ultra_rich_bn_usd_per_year": 750
+  },
+  "household_debt": {
+    "global_household_debt_tn_usd_2025q4": 64.6,
+    "global_total_debt_tn_usd_2025": 348.3,
+    "household_share_of_total_debt_derived": 0.185,
+    "household_debt_pct_world_gdp": {"value": 57, "status": "derived from unverified 308% total debt/GDP"}
+  }
+}

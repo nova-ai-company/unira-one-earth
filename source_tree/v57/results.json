@@ -1,0 +1,657 @@
+{
+  "baseline": {
+    "parameters": {
+      "food_supply": 110,
+      "food_demand": 100,
+      "hours_available": 15000,
+      "public_services_U": 160000,
+      "government_credit_U": 200000
+    },
+    "physical": {
+      "food_produced": 110,
+      "food_delivered": 100,
+      "food_unmet": 0,
+      "labour_shortfall_hours": 0,
+      "inventory_left_units": 10,
+      "capital_units": 5
+    },
+    "finance": {
+      "government_unpaid_U": 0,
+      "bank_loans_U": 1100000,
+      "deposits_U": 1100000,
+      "capital_book_value_U": 45000,
+      "inventory_book_value_U": 18182,
+      "balance_sheets": {
+        "bank": {
+          "assets_U": 1200000,
+          "liabilities_U": 1200000,
+          "equity_U": 0
+        },
+        "monetary_authority": {
+          "assets_U": 100000,
+          "liabilities_U": 100000,
+          "equity_U": 0
+        },
+        "households": {
+          "assets_U": 400000,
+          "liabilities_U": 0,
+          "equity_U": 400000
+        },
+        "firms": {
+          "assets_U": 553182,
+          "liabilities_U": 900000,
+          "equity_U": -346818
+        },
+        "government": {
+          "assets_U": 180000,
+          "liabilities_U": 200000,
+          "equity_U": -20000
+        },
+        "investment": {
+          "assets_U": 30000,
+          "liabilities_U": 0,
+          "equity_U": 30000
+        }
+      }
+    },
+    "audited": true,
+    "events": [
+      {
+        "kind": "authority_advance",
+        "U": 100000
+      },
+      {
+        "kind": "bank_loan",
+        "to": "firms",
+        "U": 900000
+      },
+      {
+        "kind": "bank_loan",
+        "to": "government",
+        "U": 200000
+      },
+      {
+        "kind": "transfer",
+        "from": "firms",
+        "to": "households",
+        "U": 600000,
+        "reason": "10 employees x 5000 U x 12 months"
+      },
+      {
+        "kind": "transfer",
+        "from": "firms",
+        "to": "investment",
+        "U": 80000,
+        "reason": "earmarked investment reserve"
+      },
+      {
+        "kind": "transfer",
+        "from": "firms",
+        "to": "government",
+        "U": 140000,
+        "reason": "hypothetical distributable surplus"
+      },
+      {
+        "kind": "production",
+        "units": 110,
+        "hours": 12000,
+        "inventory_cost_U": 200000
+      },
+      {
+        "kind": "transfer",
+        "from": "households",
+        "to": "firms",
+        "U": 200000,
+        "reason": "goods purchase"
+      },
+      {
+        "kind": "inventory_delivery",
+        "units": 100,
+        "cost_U": 181818
+      },
+      {
+        "kind": "transfer",
+        "from": "investment",
+        "to": "firms",
+        "U": 50000,
+        "reason": "capital investment funding"
+      },
+      {
+        "kind": "depreciation",
+        "U": 5000
+      },
+      {
+        "kind": "transfer",
+        "from": "government",
+        "to": "firms",
+        "U": 160000,
+        "reason": "essential services procurement"
+      }
+    ],
+    "status": "synthetic accounting demonstration; incomplete macroeconomic model"
+  },
+  "food_shock": {
+    "parameters": {
+      "food_supply": 70,
+      "food_demand": 100,
+      "hours_available": 15000,
+      "public_services_U": 160000,
+      "government_credit_U": 200000
+    },
+    "physical": {
+      "food_produced": 70,
+      "food_delivered": 70,
+      "food_unmet": 30,
+      "labour_shortfall_hours": 0,
+      "inventory_left_units": 0,
+      "capital_units": 5
+    },
+    "finance": {
+      "government_unpaid_U": 0,
+      "bank_loans_U": 1100000,
+      "deposits_U": 1100000,
+      "capital_book_value_U": 45000,
+      "inventory_book_value_U": 0,
+      "balance_sheets": {
+        "bank": {
+          "assets_U": 1200000,
+          "liabilities_U": 1200000,
+          "equity_U": 0
+        },
+        "monetary_authority": {
+          "assets_U": 100000,
+          "liabilities_U": 100000,
+          "equity_U": 0
+        },
+        "households": {
+          "assets_U": 460000,
+          "liabilities_U": 0,
+          "equity_U": 460000
+        },
+        "firms": {
+          "assets_U": 475000,
+          "liabilities_U": 900000,
+          "equity_U": -425000
+        },
+        "government": {
+          "assets_U": 180000,
+          "liabilities_U": 200000,
+          "equity_U": -20000
+        },
+        "investment": {
+          "assets_U": 30000,
+          "liabilities_U": 0,
+          "equity_U": 30000
+        }
+      }
+    },
+    "audited": true,
+    "events": [
+      {
+        "kind": "authority_advance",
+        "U": 100000
+      },
+      {
+        "kind": "bank_loan",
+        "to": "firms",
+        "U": 900000
+      },
+      {
+        "kind": "bank_loan",
+        "to": "government",
+        "U": 200000
+      },
+      {
+        "kind": "transfer",
+        "from": "firms",
+        "to": "households",
+        "U": 600000,
+        "reason": "10 employees x 5000 U x 12 months"
+      },
+      {
+        "kind": "transfer",
+        "from": "firms",
+        "to": "investment",
+        "U": 80000,
+        "reason": "earmarked investment reserve"
+      },
+      {
+        "kind": "transfer",
+        "from": "firms",
+        "to": "government",
+        "U": 140000,
+        "reason": "hypothetical distributable surplus"
+      },
+      {
+        "kind": "production",
+        "units": 70,
+        "hours": 12000,
+        "inventory_cost_U": 200000
+      },
+      {
+        "kind": "transfer",
+        "from": "households",
+        "to": "firms",
+        "U": 140000,
+        "reason": "goods purchase"
+      },
+      {
+        "kind": "inventory_delivery",
+        "units": 70,
+        "cost_U": 200000
+      },
+      {
+        "kind": "transfer",
+        "from": "investment",
+        "to": "firms",
+        "U": 50000,
+        "reason": "capital investment funding"
+      },
+      {
+        "kind": "depreciation",
+        "U": 5000
+      },
+      {
+        "kind": "transfer",
+        "from": "government",
+        "to": "firms",
+        "U": 160000,
+        "reason": "essential services procurement"
+      }
+    ],
+    "status": "synthetic accounting demonstration; incomplete macroeconomic model"
+  },
+  "labour_shock": {
+    "parameters": {
+      "food_supply": 110,
+      "food_demand": 100,
+      "hours_available": 9000,
+      "public_services_U": 160000,
+      "government_credit_U": 200000
+    },
+    "physical": {
+      "food_produced": 82,
+      "food_delivered": 82,
+      "food_unmet": 18,
+      "labour_shortfall_hours": 3000,
+      "inventory_left_units": 0,
+      "capital_units": 5
+    },
+    "finance": {
+      "government_unpaid_U": 0,
+      "bank_loans_U": 1100000,
+      "deposits_U": 1100000,
+      "capital_book_value_U": 45000,
+      "inventory_book_value_U": 0,
+      "balance_sheets": {
+        "bank": {
+          "assets_U": 1200000,
+          "liabilities_U": 1200000,
+          "equity_U": 0
+        },
+        "monetary_authority": {
+          "assets_U": 100000,
+          "liabilities_U": 100000,
+          "equity_U": 0
+        },
+        "households": {
+          "assets_U": 436000,
+          "liabilities_U": 0,
+          "equity_U": 436000
+        },
+        "firms": {
+          "assets_U": 499000,
+          "liabilities_U": 900000,
+          "equity_U": -401000
+        },
+        "government": {
+          "assets_U": 180000,
+          "liabilities_U": 200000,
+          "equity_U": -20000
+        },
+        "investment": {
+          "assets_U": 30000,
+          "liabilities_U": 0,
+          "equity_U": 30000
+        }
+      }
+    },
+    "audited": true,
+    "events": [
+      {
+        "kind": "authority_advance",
+        "U": 100000
+      },
+      {
+        "kind": "bank_loan",
+        "to": "firms",
+        "U": 900000
+      },
+      {
+        "kind": "bank_loan",
+        "to": "government",
+        "U": 200000
+      },
+      {
+        "kind": "transfer",
+        "from": "firms",
+        "to": "households",
+        "U": 600000,
+        "reason": "10 employees x 5000 U x 12 months"
+      },
+      {
+        "kind": "transfer",
+        "from": "firms",
+        "to": "investment",
+        "U": 80000,
+        "reason": "earmarked investment reserve"
+      },
+      {
+        "kind": "transfer",
+        "from": "firms",
+        "to": "government",
+        "U": 140000,
+        "reason": "hypothetical distributable surplus"
+      },
+      {
+        "kind": "production",
+        "units": 82,
+        "hours": 9000,
+        "inventory_cost_U": 200000
+      },
+      {
+        "kind": "transfer",
+        "from": "households",
+        "to": "firms",
+        "U": 164000,
+        "reason": "goods purchase"
+      },
+      {
+        "kind": "inventory_delivery",
+        "units": 82,
+        "cost_U": 200000
+      },
+      {
+        "kind": "transfer",
+        "from": "investment",
+        "to": "firms",
+        "U": 50000,
+        "reason": "capital investment funding"
+      },
+      {
+        "kind": "depreciation",
+        "U": 5000
+      },
+      {
+        "kind": "transfer",
+        "from": "government",
+        "to": "firms",
+        "U": 160000,
+        "reason": "essential services procurement"
+      }
+    ],
+    "status": "synthetic accounting demonstration; incomplete macroeconomic model"
+  },
+  "public_shortfall": {
+    "parameters": {
+      "food_supply": 110,
+      "food_demand": 100,
+      "hours_available": 15000,
+      "public_services_U": 450000,
+      "government_credit_U": 0
+    },
+    "physical": {
+      "food_produced": 110,
+      "food_delivered": 100,
+      "food_unmet": 0,
+      "labour_shortfall_hours": 0,
+      "inventory_left_units": 10,
+      "capital_units": 5
+    },
+    "finance": {
+      "government_unpaid_U": 310000,
+      "bank_loans_U": 900000,
+      "deposits_U": 900000,
+      "capital_book_value_U": 45000,
+      "inventory_book_value_U": 18182,
+      "balance_sheets": {
+        "bank": {
+          "assets_U": 1000000,
+          "liabilities_U": 1000000,
+          "equity_U": 0
+        },
+        "monetary_authority": {
+          "assets_U": 100000,
+          "liabilities_U": 100000,
+          "equity_U": 0
+        },
+        "households": {
+          "assets_U": 400000,
+          "liabilities_U": 0,
+          "equity_U": 400000
+        },
+        "firms": {
+          "assets_U": 533182,
+          "liabilities_U": 900000,
+          "equity_U": -366818
+        },
+        "government": {
+          "assets_U": 0,
+          "liabilities_U": 0,
+          "equity_U": 0
+        },
+        "investment": {
+          "assets_U": 30000,
+          "liabilities_U": 0,
+          "equity_U": 30000
+        }
+      }
+    },
+    "audited": true,
+    "events": [
+      {
+        "kind": "authority_advance",
+        "U": 100000
+      },
+      {
+        "kind": "bank_loan",
+        "to": "firms",
+        "U": 900000
+      },
+      {
+        "kind": "bank_loan",
+        "to": "government",
+        "U": 0
+      },
+      {
+        "kind": "transfer",
+        "from": "firms",
+        "to": "households",
+        "U": 600000,
+        "reason": "10 employees x 5000 U x 12 months"
+      },
+      {
+        "kind": "transfer",
+        "from": "firms",
+        "to": "investment",
+        "U": 80000,
+        "reason": "earmarked investment reserve"
+      },
+      {
+        "kind": "transfer",
+        "from": "firms",
+        "to": "government",
+        "U": 140000,
+        "reason": "hypothetical distributable surplus"
+      },
+      {
+        "kind": "production",
+        "units": 110,
+        "hours": 12000,
+        "inventory_cost_U": 200000
+      },
+      {
+        "kind": "transfer",
+        "from": "households",
+        "to": "firms",
+        "U": 200000,
+        "reason": "goods purchase"
+      },
+      {
+        "kind": "inventory_delivery",
+        "units": 100,
+        "cost_U": 181818
+      },
+      {
+        "kind": "transfer",
+        "from": "investment",
+        "to": "firms",
+        "U": 50000,
+        "reason": "capital investment funding"
+      },
+      {
+        "kind": "depreciation",
+        "U": 5000
+      },
+      {
+        "kind": "transfer",
+        "from": "government",
+        "to": "firms",
+        "U": 140000,
+        "reason": "essential services procurement"
+      }
+    ],
+    "status": "synthetic accounting demonstration; incomplete macroeconomic model"
+  },
+  "higher_credit": {
+    "parameters": {
+      "food_supply": 110,
+      "food_demand": 100,
+      "hours_available": 15000,
+      "public_services_U": 160000,
+      "government_credit_U": 500000
+    },
+    "physical": {
+      "food_produced": 110,
+      "food_delivered": 100,
+      "food_unmet": 0,
+      "labour_shortfall_hours": 0,
+      "inventory_left_units": 10,
+      "capital_units": 5
+    },
+    "finance": {
+      "government_unpaid_U": 0,
+      "bank_loans_U": 1400000,
+      "deposits_U": 1400000,
+      "capital_book_value_U": 45000,
+      "inventory_book_value_U": 18182,
+      "balance_sheets": {
+        "bank": {
+          "assets_U": 1500000,
+          "liabilities_U": 1500000,
+          "equity_U": 0
+        },
+        "monetary_authority": {
+          "assets_U": 100000,
+          "liabilities_U": 100000,
+          "equity_U": 0
+        },
+        "households": {
+          "assets_U": 400000,
+          "liabilities_U": 0,
+          "equity_U": 400000
+        },
+        "firms": {
+          "assets_U": 553182,
+          "liabilities_U": 900000,
+          "equity_U": -346818
+        },
+        "government": {
+          "assets_U": 480000,
+          "liabilities_U": 500000,
+          "equity_U": -20000
+        },
+        "investment": {
+          "assets_U": 30000,
+          "liabilities_U": 0,
+          "equity_U": 30000
+        }
+      }
+    },
+    "audited": true,
+    "events": [
+      {
+        "kind": "authority_advance",
+        "U": 100000
+      },
+      {
+        "kind": "bank_loan",
+        "to": "firms",
+        "U": 900000
+      },
+      {
+        "kind": "bank_loan",
+        "to": "government",
+        "U": 500000
+      },
+      {
+        "kind": "transfer",
+        "from": "firms",
+        "to": "households",
+        "U": 600000,
+        "reason": "10 employees x 5000 U x 12 months"
+      },
+      {
+        "kind": "transfer",
+        "from": "firms",
+        "to": "investment",
+        "U": 80000,
+        "reason": "earmarked investment reserve"
+      },
+      {
+        "kind": "transfer",
+        "from": "firms",
+        "to": "government",
+        "U": 140000,
+        "reason": "hypothetical distributable surplus"
+      },
+      {
+        "kind": "production",
+        "units": 110,
+        "hours": 12000,
+        "inventory_cost_U": 200000
+      },
+      {
+        "kind": "transfer",
+        "from": "households",
+        "to": "firms",
+        "U": 200000,
+        "reason": "goods purchase"
+      },
+      {
+        "kind": "inventory_delivery",
+        "units": 100,
+        "cost_U": 181818
+      },
+      {
+        "kind": "transfer",
+        "from": "investment",
+        "to": "firms",
+        "U": 50000,
+        "reason": "capital investment funding"
+      },
+      {
+        "kind": "depreciation",
+        "U": 5000
+      },
+      {
+        "kind": "transfer",
+        "from": "government",
+        "to": "firms",
+        "U": 160000,
+        "reason": "essential services procurement"
+      }
+    ],
+    "status": "synthetic accounting demonstration; incomplete macroeconomic model"
+  }
+}

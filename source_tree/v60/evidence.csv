@@ -1,0 +1,5 @@
+indicator,year,value,unit,geography,source_url,definition_note
+Electricity generation,2023,494.7,TWh,France metropolitan,https://analysesetdonnees.rte-france.com/bilan-electrique-2023/synthese,RTE 2023 annual generation as published in narrative
+Weather-adjusted electricity consumption,2023,445.7,TWh,France metropolitan,https://analysesetdonnees.rte-france.com/bilan-electrique-2023/consommation,Weather/calendar adjusted; not directly subtractable from production
+Fossil electricity generation,2023,32.6,TWh,France metropolitan,https://analysesetdonnees.rte-france.com/bilan-electrique-2023/production,Approximate RTE fossil output
+GDP,2023,2822.5,billion EUR,France,https://www.insee.fr/fr/statistiques/8193933?sommaire=8068749,2023 vintage national accounts; monetary benchmark only

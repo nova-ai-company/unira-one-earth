@@ -1,0 +1,15 @@
+{
+  "_meta": {"retrieved_at": "2026-11-03", "source_file": "v68/verification/verification.csv"},
+  "item7_clean_invest_share_EMDE_excl_China": {"value": 20, "unit": "% of global clean energy investment (2026e; derived 50% EMDE - 30% China)", "source": "IEA WEI 2026 p.202-203", "evidence_class": "VERIFIED_OFFICIAL"},
+  "item7_clean_invest_share_Africa": {"value": 2, "unit": "% of global clean energy investment (2025, 2026e)", "source": "IEA WEI 2025 p.9; WEI 2026 p.202", "evidence_class": "VERIFIED_OFFICIAL"},
+  "item7_clean_invest_global_total": {"value": 2.2, "unit": "USD trillion (2026e)", "source": "IEA WEI 2026 p.202", "evidence_class": "VERIFIED_OFFICIAL"},
+  "item8_oda_total_DAC": {"value": 174.3, "unit": "USD billion (2025 preliminary)", "source": "OECD 9 Apr 2026 via Hellenic Aid", "evidence_class": "REPORTED_NEEDS_RECHECK"},
+  "item8_oda_pct_gni": {"value": 0.26, "unit": "% of DAC GNI (2025 preliminary; 2024 = 0.34)", "source": "OECD 9 Apr 2026 via Hellenic Aid", "evidence_class": "REPORTED_NEEDS_RECHECK"},
+  "item8_oda_target_pct_gni": {"value": 0.7, "unit": "% of GNI (UN target)", "source": "OECD/UN", "evidence_class": "VERIFIED_OFFICIAL"},
+  "item9_world_milex": {"value": 2887, "unit": "USD billion, current (2025)", "source": "SIPRI Fact Sheet Apr 2026", "evidence_class": "VERIFIED_OFFICIAL"},
+  "item9_world_milex_pct_gdp": {"value": 2.5, "unit": "% of world GDP (2025)", "source": "SIPRI Fact Sheet Apr 2026", "evidence_class": "VERIFIED_OFFICIAL"},
+  "item10_emp_rate_20_64_2025": {"value": {"IS": 85.8, "MT": 83.6, "NL": 83.4, "CZ": 82.9, "CH": 82.4, "SE": 81.8, "EU27": 76.1, "FR": 75.4}, "unit": "% of population aged 20-64 (2025)", "source": "Eurostat lfsi_emp_a, updated 2026-10-26", "evidence_class": "VERIFIED_OFFICIAL"},
+  "item10_emp_rate_20_64_2024": {"value": {"IS": 87.0, "NL": 83.5, "CH": 83.0, "MT": 82.7, "CZ": 82.3, "SE": 81.9, "EU27": 75.7, "FR": 75.0}, "unit": "% of population aged 20-64 (2024)", "source": "Eurostat lfsi_emp_a", "evidence_class": "VERIFIED_OFFICIAL"},
+  "item11_new_res_construction_share_LIC_LMIC": {"value": null, "unit": "% of global new residential floor area", "source": "not available; GSR 2025-2026 p.31 says estimates are lacking", "evidence_class": "REPORTED_NEEDS_RECHECK"},
+  "item11_global_residential_stock_increase": {"value": 3.4, "unit": "bn m2 net stock increase (2024)", "source": "UNEP GSR 2025-2026 p.31", "evidence_class": "VERIFIED_OFFICIAL"}
+}

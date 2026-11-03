@@ -1,0 +1,29 @@
+[
+  {
+    "name":"A_current_style_synthetic","housing_need":100,"available_workers":20,"hours_per_worker_year":1800,"monthly_base_salary_u":5000,
+    "resource_limits":{"cement_t":120,"steel_t":40,"electricity_mwh":320,"water_m3":2000},
+    "interventions":[
+      {"type":"repair","homes":20,"labour_hours_per_home":80,"cement_t_per_home":0.1,"steel_t_per_home":0.05,"electricity_mwh_per_home":0.5,"water_m3_per_home":2,"embodied_tco2e_per_home":0.5},
+      {"type":"renovate","homes":30,"labour_hours_per_home":220,"cement_t_per_home":0.5,"steel_t_per_home":0.1,"electricity_mwh_per_home":1.5,"water_m3_per_home":5,"embodied_tco2e_per_home":2},
+      {"type":"new","homes":50,"labour_hours_per_home":350,"cement_t_per_home":2,"steel_t_per_home":0.5,"electricity_mwh_per_home":5,"water_m3_per_home":20,"embodied_tco2e_per_home":12}
+    ]
+  },
+  {
+    "name":"B_reformed_current_synthetic","housing_need":100,"available_workers":20,"hours_per_worker_year":1800,"monthly_base_salary_u":5000,
+    "resource_limits":{"cement_t":120,"steel_t":40,"electricity_mwh":320,"water_m3":2000},
+    "interventions":[
+      {"type":"repair","homes":25,"labour_hours_per_home":80,"cement_t_per_home":0.1,"steel_t_per_home":0.05,"electricity_mwh_per_home":0.5,"water_m3_per_home":2,"embodied_tco2e_per_home":0.5},
+      {"type":"renovate","homes":45,"labour_hours_per_home":220,"cement_t_per_home":0.5,"steel_t_per_home":0.1,"electricity_mwh_per_home":1.5,"water_m3_per_home":5,"embodied_tco2e_per_home":2},
+      {"type":"new","homes":30,"labour_hours_per_home":350,"cement_t_per_home":2,"steel_t_per_home":0.5,"electricity_mwh_per_home":5,"water_m3_per_home":20,"embodied_tco2e_per_home":12}
+    ]
+  },
+  {
+    "name":"C_unira_stock_first_synthetic","housing_need":100,"available_workers":20,"hours_per_worker_year":1500,"monthly_base_salary_u":5000,
+    "resource_limits":{"cement_t":120,"steel_t":40,"electricity_mwh":320,"water_m3":2000},
+    "interventions":[
+      {"type":"repair","homes":35,"labour_hours_per_home":80,"cement_t_per_home":0.1,"steel_t_per_home":0.05,"electricity_mwh_per_home":0.5,"water_m3_per_home":2,"embodied_tco2e_per_home":0.5},
+      {"type":"renovate","homes":45,"labour_hours_per_home":220,"cement_t_per_home":0.5,"steel_t_per_home":0.1,"electricity_mwh_per_home":1.5,"water_m3_per_home":5,"embodied_tco2e_per_home":2},
+      {"type":"new","homes":20,"labour_hours_per_home":350,"cement_t_per_home":2,"steel_t_per_home":0.5,"electricity_mwh_per_home":5,"water_m3_per_home":20,"embodied_tco2e_per_home":12}
+    ]
+  }
+]

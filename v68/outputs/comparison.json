@@ -1,0 +1,194 @@
+{
+  "B_reformed_market": {
+    "france_year1_gain_needed": 0.049600145844784116,
+    "europe_year1_gain_needed": 0.06776075893516542,
+    "energy_all_by": null,
+    "health_all_by": null,
+    "housing_all_by": null,
+    "energy_closed_y15": -0.1391157253776656,
+    "health_closed_y15": -0.03670975902950002,
+    "housing_closed_y30": -0.21378973611624996,
+    "peak_world_energy_ej": 408.8940886920029,
+    "world_energy_y30_ej": 304.77864082754104
+  },
+  "C_unira": {
+    "france_year1_gain_needed": 0.0,
+    "europe_year1_gain_needed": 0.012885327165865545,
+    "energy_all_by": 27,
+    "health_all_by": 30,
+    "housing_all_by": null,
+    "energy_closed_y15": 0.5990655880026305,
+    "health_closed_y15": 0.38181868856806234,
+    "housing_closed_y30": 0.49963751381404187,
+    "peak_world_energy_ej": 408.8940886920029,
+    "world_energy_y30_ej": 399.92169367217616
+  },
+  "one_lever_from_B": {
+    "employment_rate_20_64": {
+      "france_year1_gain_needed": 0.018613249779445784,
+      "europe_year1_gain_needed": 0.03571958650312168,
+      "energy_all_by": null,
+      "health_all_by": null,
+      "housing_all_by": null,
+      "energy_closed_y15": -0.1391157253776656,
+      "health_closed_y15": -0.03670975902950002,
+      "housing_closed_y30": -0.21378973611624996,
+      "peak_world_energy_ej": 408.8940886920029,
+      "world_energy_y30_ej": 304.77864082754104
+    },
+    "market_specific_activity_cut": {
+      "france_year1_gain_needed": 0.026459865171363228,
+      "europe_year1_gain_needed": 0.04422009561528961,
+      "energy_all_by": null,
+      "health_all_by": null,
+      "housing_all_by": null,
+      "energy_closed_y15": -0.1391157253776656,
+      "health_closed_y15": -0.03670975902950002,
+      "housing_closed_y30": -0.21378973611624996,
+      "peak_world_energy_ej": 408.8940886920029,
+      "world_energy_y30_ej": 304.77864082754104
+    },
+    "energy_share_to_regions_in_need": {
+      "france_year1_gain_needed": 0.049600145844784116,
+      "europe_year1_gain_needed": 0.06776075893516542,
+      "energy_all_by": 27,
+      "health_all_by": null,
+      "housing_all_by": null,
+      "energy_closed_y15": 0.6020055281409291,
+      "health_closed_y15": -0.03670975902950002,
+      "housing_closed_y30": -0.21378973611624996,
+      "peak_world_energy_ej": 453.08203534113346,
+      "world_energy_y30_ej": 440.44078604731607
+    },
+    "rich_region_energy_decline": {
+      "france_year1_gain_needed": 0.049600145844784116,
+      "europe_year1_gain_needed": 0.06776075893516542,
+      "energy_all_by": null,
+      "health_all_by": null,
+      "housing_all_by": null,
+      "energy_closed_y15": -0.1408369497859212,
+      "health_closed_y15": -0.03670975902950002,
+      "housing_closed_y30": -0.21378973611624996,
+      "peak_world_energy_ej": 408.8940886920029,
+      "world_energy_y30_ej": 267.7440269776399
+    },
+    "military_energy_share_freed": {
+      "france_year1_gain_needed": 0.049600145844784116,
+      "europe_year1_gain_needed": 0.06776075893516542,
+      "energy_all_by": null,
+      "health_all_by": null,
+      "housing_all_by": null,
+      "energy_closed_y15": -0.14071020987461735,
+      "health_closed_y15": -0.03670975902950002,
+      "housing_closed_y30": -0.21378973611624996,
+      "peak_world_energy_ej": 408.8940886920029,
+      "world_energy_y30_ej": 293.8252791291449
+    },
+    "health_plan": {
+      "france_year1_gain_needed": 0.049600145844784116,
+      "europe_year1_gain_needed": 0.06776075893516542,
+      "energy_all_by": null,
+      "health_all_by": null,
+      "housing_all_by": null,
+      "energy_closed_y15": -0.1391157253776656,
+      "health_closed_y15": 0.09752653919094423,
+      "housing_closed_y30": -0.21378973611624996,
+      "peak_world_energy_ej": 408.8940886920029,
+      "world_energy_y30_ej": 304.77864082754104
+    },
+    "health_share_to_regions_in_need": {
+      "france_year1_gain_needed": 0.049600145844784116,
+      "europe_year1_gain_needed": 0.06776075893516542,
+      "energy_all_by": null,
+      "health_all_by": null,
+      "housing_all_by": null,
+      "energy_closed_y15": -0.1391157253776656,
+      "health_closed_y15": 0.11333424221200727,
+      "housing_closed_y30": -0.21378973611624996,
+      "peak_world_energy_ej": 408.8940886920029,
+      "world_energy_y30_ej": 304.77864082754104
+    },
+    "housing_share_to_regions_in_need": {
+      "france_year1_gain_needed": 0.049600145844784116,
+      "europe_year1_gain_needed": 0.06776075893516542,
+      "energy_all_by": null,
+      "health_all_by": null,
+      "housing_all_by": null,
+      "energy_closed_y15": -0.1391157253776656,
+      "health_closed_y15": -0.03670975902950002,
+      "housing_closed_y30": 0.49963751381404187,
+      "peak_world_energy_ej": 408.8940886920029,
+      "world_energy_y30_ej": 304.77864082754104
+    }
+  },
+  "B2_ambitious_cooperative_market": {
+    "france_year1_gain_needed": 0.049600145844784116,
+    "europe_year1_gain_needed": 0.06776075893516542,
+    "energy_all_by": null,
+    "health_all_by": null,
+    "housing_all_by": null,
+    "energy_closed_y15": 0.13707734778498248,
+    "health_closed_y15": 0.038311748523487954,
+    "housing_closed_y30": 0.10329150694525768,
+    "peak_world_energy_ej": 408.8940886920029,
+    "world_energy_y30_ej": 330.73607659425727
+  },
+  "levers": {
+    "employment_rate_20_64": {
+      "B": 84,
+      "C": 88,
+      "unit": "%",
+      "basis_B": "best observed 20-64 rate in Europe (top-3 mean ~84%: IS, NL, CH) reached by active labour-market policy",
+      "basis_C": "rule 14 universal work; above any observed rate (SYNTHETIC beyond observation)"
+    },
+    "market_specific_activity_cut": {
+      "B": "modest",
+      "C": "moderate",
+      "basis_B": "regulation trims advertising/speculative finance (v63/io modest level)",
+      "basis_C": "no commercial competition for profit (rule 4)"
+    },
+    "energy_share_to_regions_in_need": {
+      "B": 0.2,
+      "C": 1.0,
+      "unit": "share of new clean energy",
+      "basis_B": "VERIFIED: ~20% of global clean-energy investment goes to developing economies excl. China (IEA World Energy Investment 2026, p.202-203; Africa 2%)",
+      "basis_C": "needs-first allocation by the One Earth entity (rules 5, 9)"
+    },
+    "rich_region_energy_decline": {
+      "B": 0.02,
+      "C": 0.03,
+      "unit": "per year",
+      "basis_B": "efficiency policy (SYNTHETIC)",
+      "basis_C": "convergence within climate envelope with military energy freed (v67)"
+    },
+    "military_energy_share_freed": {
+      "B": 0.0,
+      "C": 0.055,
+      "basis_C": "rule 19; military = 5.5% of global GHG emissions incl. supply chains (CONFIRMED, SGR/CEOBS 2022, range 3.3-7.0%); used as proxy for energy share (no global military energy statistic exists)"
+    },
+    "health_plan": {
+      "B": "2_expand_training_7pct_15y",
+      "C": "5_ambitious_10pct_50pct_prevention_high",
+      "basis_B": "training +7%/yr, no military volunteers, no prevention effect",
+      "basis_C": "ambitious training + 50% of soldiers volunteer + strong prevention (v66)"
+    },
+    "health_share_to_regions_in_need": {
+      "B": 0.5,
+      "C": 1.0,
+      "basis_B": "SYNTHETIC: new workers partly absorbed by richer regions (health-worker migration)",
+      "basis_C": "needs-first, trained in-region"
+    },
+    "housing_share_to_regions_in_need": {
+      "B": 0.3,
+      "C": 0.75,
+      "basis_B": "SYNTHETIC: no source splits new residential construction by income group (UNEP GlobalABC: estimates 'are lacking'); 30% kept as an assumption",
+      "basis_C": "One Earth allocation (v67 central)"
+    }
+  },
+  "verified_overrides": {
+    "energy_share_to_regions_in_need": {
+      "B": 0.2,
+      "evidence_class": "VERIFIED_OFFICIAL"
+    }
+  }
+}

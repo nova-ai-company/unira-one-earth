@@ -1,0 +1,257 @@
+{
+  "inputs": {
+    "groups": {
+      "children_0_17": 14195092.0,
+      "young_18_19": 1638129.0,
+      "adults_20_64": 38058907.0,
+      "retired_65_plus": 14777175.0
+    },
+    "child_benefit_month": 5333514522.461962,
+    "retirees": {
+      "single_units": 5356205.634,
+      "couple_units": 4710484.683,
+      "renter_share": 0.23873873873873874,
+      "note": "65+ not living alone are grouped in couple units (approximation)"
+    },
+    "households_total": 31581100.0,
+    "household_supply_h": 16370125018.308561,
+    "household_dom_h": 14420926726.531652,
+    "household_imp_h": 1949198291.7769084,
+    "construction_gfcf_h": 4576293981.750749,
+    "residential_construction_h": 2288146990.8753743
+  },
+  "wage_distribution": {
+    "OC1": {
+      "share": 0.07154050830351408,
+      "multiplier": 3.5
+    },
+    "OC2": {
+      "share": 0.2450793650793651,
+      "multiplier": 2.6
+    },
+    "OC3": {
+      "share": 0.18541150564271952,
+      "multiplier": 1.9
+    },
+    "OC4": {
+      "share": 0.08269015506009725,
+      "multiplier": 1.3
+    },
+    "OC5": {
+      "share": 0.14039820166987796,
+      "multiplier": 1.3
+    },
+    "OC6": {
+      "share": 0.02557665840902835,
+      "multiplier": 1.4
+    },
+    "OC7": {
+      "share": 0.093663638865951,
+      "multiplier": 1.5
+    },
+    "OC8": {
+      "share": 0.06556197816313424,
+      "multiplier": 1.4
+    },
+    "OC9": {
+      "share": 0.0829543994861914,
+      "multiplier": 1.1
+    },
+    "OC0": {
+      "share": 0.0071235893201211115,
+      "multiplier": 1.8
+    }
+  },
+  "circuit_base_year": {
+    "workers": 33491838.16,
+    "unable_to_work": 1141767.21,
+    "mean_multiplier": 1.902056702449766,
+    "wages": 3822202514975.4507,
+    "wages_public": 1108438729342.8806,
+    "wages_enterprise": 2713763785632.57,
+    "disability_guarantees": 68506032600.0,
+    "retiree_income": 387077833452.32434,
+    "child_allowances": 64002174269.54354,
+    "household_income": 4341788555297.3184,
+    "saving": 1945354273787.7253,
+    "consumption": 2396434281509.593,
+    "pi_u_per_hour": 146.3907134997069,
+    "supply_h": 16370125018.308561,
+    "demand_h": 16370125018.308563,
+    "excess_demand_share": 2.220446049250313e-16,
+    "new_home_capacity_u": 334963470586.45337,
+    "new_home_spending": 334963470586.45337,
+    "unspent_saving": 1610390803201.272,
+    "enterprise_surplus": 17633966463.476074,
+    "reg_outflows": 1628024769664.7485,
+    "reg_balance": -1610390803201.2725
+  },
+  "transaction_matrix": {
+    "wages_enterprise": {
+      "HH": 2713763785632.57,
+      "ENT": -2713763785632.57
+    },
+    "wages_public": {
+      "HH": 1108438729342.8806,
+      "REG": -1108438729342.8806
+    },
+    "transfers_reg": {
+      "HH": 519586040321.86786,
+      "REG": -519586040321.86786
+    },
+    "consumption": {
+      "HH": -2396434281509.593,
+      "ENT": 2396434281509.593
+    },
+    "new_homes": {
+      "HH": -334963470586.45337,
+      "ENT": 334963470586.45337
+    },
+    "enterprise_surplus_to_reg": {
+      "ENT": -17633966463.476074,
+      "REG": 17633966463.476074
+    },
+    "one_earth_financing": {
+      "REG": 1610390803201.2725,
+      "ONE": -1610390803201.2725
+    },
+    "change_in_deposits": {
+      "HH": -1610390803201.272,
+      "ONE": 1610390803201.272
+    }
+  },
+  "sector_net_lending": {
+    "HH": -0.000244140625,
+    "ENT": 0.000244140625,
+    "REG": 0.0,
+    "ONE": -0.00048828125
+  },
+  "fixed_price": {
+    "pi_u_per_hour_equivalent": 146.3907134997069,
+    "base_worker_basket_h_per_year": 204.9310320497896,
+    "average_person_consumption_today_h_per_year": 238.39072632364656,
+    "base_basket_vs_today_average_person": 0.8596434735953987
+  },
+  "housing": {
+    "hours_per_average_home": 2049.310320497896,
+    "new_or_renovated_homes_per_year_capacity": 1116544.9019548446,
+    "years_to_buy": [
+      {
+        "multiplier": 1.0,
+        "earners": 1,
+        "years_to_buy_100k": 3.3333333333333335,
+        "years_to_buy_300k": 10.0,
+        "years_to_buy_500k": 16.666666666666668
+      },
+      {
+        "multiplier": 1.0,
+        "earners": 2,
+        "years_to_buy_100k": 1.6666666666666667,
+        "years_to_buy_300k": 5.0,
+        "years_to_buy_500k": 8.333333333333334
+      },
+      {
+        "multiplier": 1.5,
+        "earners": 1,
+        "years_to_buy_100k": 2.2222222222222223,
+        "years_to_buy_300k": 6.666666666666667,
+        "years_to_buy_500k": 11.11111111111111
+      },
+      {
+        "multiplier": 1.5,
+        "earners": 2,
+        "years_to_buy_100k": 1.1111111111111112,
+        "years_to_buy_300k": 3.3333333333333335,
+        "years_to_buy_500k": 5.555555555555555
+      },
+      {
+        "multiplier": 1.9,
+        "earners": 1,
+        "years_to_buy_100k": 1.7543859649122806,
+        "years_to_buy_300k": 5.2631578947368425,
+        "years_to_buy_500k": 8.771929824561404
+      },
+      {
+        "multiplier": 1.9,
+        "earners": 2,
+        "years_to_buy_100k": 0.8771929824561403,
+        "years_to_buy_300k": 2.6315789473684212,
+        "years_to_buy_500k": 4.385964912280702
+      },
+      {
+        "multiplier": 3.0,
+        "earners": 1,
+        "years_to_buy_100k": 1.1111111111111112,
+        "years_to_buy_300k": 3.3333333333333335,
+        "years_to_buy_500k": 5.555555555555555
+      },
+      {
+        "multiplier": 3.0,
+        "earners": 2,
+        "years_to_buy_100k": 0.5555555555555556,
+        "years_to_buy_300k": 1.6666666666666667,
+        "years_to_buy_500k": 2.7777777777777777
+      },
+      {
+        "multiplier": 5.0,
+        "earners": 1,
+        "years_to_buy_100k": 0.6666666666666666,
+        "years_to_buy_300k": 2.0,
+        "years_to_buy_500k": 3.3333333333333335
+      },
+      {
+        "multiplier": 5.0,
+        "earners": 2,
+        "years_to_buy_100k": 0.3333333333333333,
+        "years_to_buy_300k": 1.0,
+        "years_to_buy_500k": 1.6666666666666667
+      }
+    ]
+  },
+  "checks": [
+    {
+      "check": "row_sums_zero:wages_enterprise",
+      "passed": true
+    },
+    {
+      "check": "row_sums_zero:wages_public",
+      "passed": true
+    },
+    {
+      "check": "row_sums_zero:transfers_reg",
+      "passed": true
+    },
+    {
+      "check": "row_sums_zero:consumption",
+      "passed": true
+    },
+    {
+      "check": "row_sums_zero:new_homes",
+      "passed": true
+    },
+    {
+      "check": "row_sums_zero:enterprise_surplus_to_reg",
+      "passed": true
+    },
+    {
+      "check": "row_sums_zero:one_earth_financing",
+      "passed": true
+    },
+    {
+      "check": "row_sums_zero:change_in_deposits",
+      "passed": true
+    },
+    {
+      "check": "sector_net_lending_sums_zero",
+      "passed": true
+    },
+    {
+      "check": "reg_balance_equals_minus_unspent_saving",
+      "passed": true
+    },
+    {
+      "check": "base_year_no_excess_demand",
+      "passed": true
+    }
+  ]
+}

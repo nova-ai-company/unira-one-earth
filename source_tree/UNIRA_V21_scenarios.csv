@@ -1,0 +1,6 @@
+scenario,unira_workers_billion,baseline_hours_assumed,food_supply_shock,baseline_weekly_hours,unira_weekly_hours,hours_change_pct,productivity_multiplier_for_equal_aggregate_output,food_supply_target_ratio_floor
+base,4.35,43,0,152426400000,130500000000.0,-14.38,1.168,1.2
+participation_low,3.8,43,0,152426400000,114000000000.0,-25.21,1.3371,1.2
+participation_high,4.7,43,0,152426400000,141000000000.0,-7.5,1.081,1.2
+shorter_current_hours,4.35,38,0,134702400000,130500000000.0,-3.12,1.0322,1.2
+food_shock_20pct,4.35,43,0.2,152426400000,130500000000.0,-14.38,1.168,0.96

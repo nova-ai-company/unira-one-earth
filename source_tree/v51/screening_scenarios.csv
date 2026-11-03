@@ -1,0 +1,10 @@
+city,eligible_inventory_proxy,screening_fraction_ASSUMPTION,screened_units_NOT_verified_recoverable,interpretation
+Paris,136957,0.05,6848,Upper-level screening arithmetic only; NOT available housing
+Paris,136957,0.15,20544,Upper-level screening arithmetic only; NOT available housing
+Paris,136957,0.3,41087,Upper-level screening arithmetic only; NOT available housing
+London,47287,0.05,2364,Upper-level screening arithmetic only; NOT available housing
+London,47287,0.15,7093,Upper-level screening arithmetic only; NOT available housing
+London,47287,0.3,14186,Upper-level screening arithmetic only; NOT available housing
+Tokyo,214200,0.05,10710,Upper-level screening arithmetic only; NOT available housing
+Tokyo,214200,0.15,32130,Upper-level screening arithmetic only; NOT available housing
+Tokyo,214200,0.3,64260,Upper-level screening arithmetic only; NOT available housing

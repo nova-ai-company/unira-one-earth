@@ -1,0 +1,6 @@
+scenario,demand,repair_adapt,deep_renovation,conversion,new_construction,unmet,cost_eur,carbon_t_co2e
+minimum_cost,100,20,35,25,20,0,14600000,3280
+carbon_price_200,100,20,35,25,20,0,14600000,3280
+stock_first,100,20,35,25,20,0,14600000,3280
+tight_budget,100,20,35,19,0,26,7980000,1588
+higher_need,140,20,35,25,60,0,25800000,6280

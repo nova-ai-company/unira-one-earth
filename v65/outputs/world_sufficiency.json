@@ -1,0 +1,342 @@
+{
+  "domains": {
+    "food|decent|consumer_waste_status_quo": {
+      "threshold": 2592.5925925925926,
+      "population_covered": 8093933379.0,
+      "world_supply": 24418458172285.227,
+      "world_need": 20984271723333.332,
+      "sufficiency_ratio": 1.1636552601982022,
+      "people_below_threshold": 1568550027.0,
+      "share_people_below": 0.1937932959850719,
+      "shortfall_volume": 351595016014.70074,
+      "surplus_volume": 3785781464966.5957,
+      "needs_first_feasible": true,
+      "equal_share_per_person": 3016.884007921265,
+      "equal_share_vs_threshold": 1.1636552601982022,
+      "volume_moved_equal_share": 1791940190824.4849,
+      "share_of_supply_moved": 0.07338465754804797
+    },
+    "food|decent|consumer_waste_unira": {
+      "threshold": 2320.441988950276,
+      "population_covered": 8093933379.0,
+      "world_supply": 24418458172285.227,
+      "world_need": 18781502868397.79,
+      "sufficiency_ratio": 1.3001333462708309,
+      "people_below_threshold": 480466818.0,
+      "share_people_below": 0.05936135071813024,
+      "shortfall_volume": 125329659612.30988,
+      "surplus_volume": 5762284963499.75,
+      "needs_first_feasible": true,
+      "equal_share_per_person": 3016.884007921265,
+      "equal_share_vs_threshold": 1.300133346270831,
+      "volume_moved_equal_share": 1791940190824.4849,
+      "share_of_supply_moved": 0.07338465754804797
+    },
+    "food|comfortable|consumer_waste_status_quo": {
+      "threshold": 3049.3827160493825,
+      "population_covered": 8093933379.0,
+      "world_supply": 24418458172285.227,
+      "world_need": 24681500550777.777,
+      "sufficiency_ratio": 0.9893425289134513,
+      "people_below_threshold": 4445280922.0,
+      "share_people_below": 0.5492114542891396,
+      "shortfall_volume": 1936345581233.5845,
+      "surplus_volume": 1673303202741.0376,
+      "needs_first_feasible": false,
+      "equal_share_per_person": 3016.884007921265,
+      "equal_share_vs_threshold": 0.9893425289134514,
+      "volume_moved_equal_share": 1791940190824.4849,
+      "share_of_supply_moved": 0.07338465754804797
+    },
+    "food|comfortable|consumer_waste_unira": {
+      "threshold": 2729.281767955801,
+      "population_covered": 8093933379.0,
+      "world_supply": 24418458172285.227,
+      "world_need": 22090624802353.59,
+      "sufficiency_ratio": 1.1053765292181152,
+      "people_below_threshold": 3357176506.0,
+      "share_people_below": 0.4147768889116773,
+      "shortfall_volume": 674795160494.9347,
+      "surplus_volume": 3002628530426.5723,
+      "needs_first_feasible": true,
+      "equal_share_per_person": 3016.884007921265,
+      "equal_share_vs_threshold": 1.1053765292181152,
+      "volume_moved_equal_share": 1791940190824.4849,
+      "share_of_supply_moved": 0.07338465754804797
+    },
+    "energy|decent": {
+      "threshold": 15.3,
+      "population_covered": 8115122971.0,
+      "world_supply": 413037094060.39056,
+      "world_need": 124161381456.3,
+      "sufficiency_ratio": 3.3266148396211555,
+      "people_below_threshold": 2068289196.0,
+      "share_people_below": 0.2548684971738797,
+      "shortfall_volume": 20476029845.654457,
+      "surplus_volume": 309351742449.74506,
+      "needs_first_feasible": true,
+      "equal_share_per_person": 50.89720704620368,
+      "equal_share_vs_threshold": 3.3266148396211555,
+      "volume_moved_equal_share": 166359195852.06946,
+      "share_of_supply_moved": 0.402770594322809
+    },
+    "energy|comfortable": {
+      "threshold": 40.0,
+      "population_covered": 8115122971.0,
+      "world_supply": 413037094060.39056,
+      "world_need": 324604918840.0,
+      "sufficiency_ratio": 1.272430176155092,
+      "people_below_threshold": 4449021332.0,
+      "share_people_below": 0.5482383135657847,
+      "shortfall_volume": 114533789288.7375,
+      "surplus_volume": 202965964509.1281,
+      "needs_first_feasible": true,
+      "equal_share_per_person": 50.89720704620368,
+      "equal_share_vs_threshold": 1.272430176155092,
+      "volume_moved_equal_share": 166359195852.06946,
+      "share_of_supply_moved": 0.402770594322809
+    },
+    "energy|eu_today": {
+      "threshold": 81.7,
+      "population_covered": 8115122971.0,
+      "world_supply": 413037094060.39056,
+      "world_need": 663005546730.7001,
+      "sufficiency_ratio": 0.6229768304308896,
+      "people_below_threshold": 5488083759.0,
+      "share_people_below": 0.676278570098331,
+      "shortfall_volume": 328716604504.8578,
+      "surplus_volume": 78748151834.54839,
+      "needs_first_feasible": false,
+      "equal_share_per_person": 50.89720704620368,
+      "equal_share_vs_threshold": 0.6229768304308896,
+      "volume_moved_equal_share": 166359195852.06946,
+      "share_of_supply_moved": 0.402770594322809
+    },
+    "health|decent": {
+      "threshold": 44.5,
+      "population_covered": 8097209143.0,
+      "world_supply": 474044210679.94,
+      "world_need": 360325806863.5,
+      "sufficiency_ratio": 1.3155988320856498,
+      "people_below_threshold": 4205851435.0,
+      "share_people_below": 0.5194198841505705,
+      "shortfall_volume": 77072215701.73,
+      "surplus_volume": 190790619518.17,
+      "needs_first_feasible": true,
+      "equal_share_per_person": 58.54414802781142,
+      "equal_share_vs_threshold": 1.3155988320856498,
+      "volume_moved_equal_share": 138890476132.3463,
+      "share_of_supply_moved": 0.2929905544740865,
+      "shortfall_workers": 7707221.570173,
+      "world_workers": 47404421.067994,
+      "extra_workers_for_all_at_threshold": 0.0
+    },
+    "health|comfortable": {
+      "threshold": 131.0,
+      "population_covered": 8097209143.0,
+      "world_supply": 474044210679.94,
+      "world_need": 1060734397733.0,
+      "sufficiency_ratio": 0.44690189334207187,
+      "people_below_threshold": 7274378605.0,
+      "share_people_below": 0.8983809701011202,
+      "shortfall_volume": 605646880774.86,
+      "surplus_volume": 18956693721.800003,
+      "needs_first_feasible": false,
+      "equal_share_per_person": 58.54414802781142,
+      "equal_share_vs_threshold": 0.44690189334207187,
+      "volume_moved_equal_share": 138890476132.3463,
+      "share_of_supply_moved": 0.2929905544740865,
+      "shortfall_workers": 60564688.077486,
+      "world_workers": 47404421.067994,
+      "extra_workers_for_all_at_threshold": 58669018.70530601
+    },
+    "labour": {
+      "employment_now": 3534613785.0,
+      "mean_weekly_hours_now_hours_covered_countries": 40.72641211012156,
+      "hours_coverage_share_of_employment": 0.7105182104075339,
+      "weekly_hours_now_world": 143952137658.0266,
+      "working_age_15_64": 5281300978.126429,
+      "unira_employment": 4225040782.501143,
+      "weekly_hours_unira_30h": 126751223475.03429,
+      "unira_vs_now": 0.8805094911208967
+    }
+  },
+  "region_changes_equal_share": {
+    "food_kcal": [
+      {
+        "region": "FRA",
+        "today_pc": 3489.55,
+        "equal_share_pc": 3016.884007921265,
+        "change_pct": -13.545184682229372
+      },
+      {
+        "region": "USA",
+        "today_pc": 3947.33,
+        "equal_share_pc": 3016.884007921265,
+        "change_pct": -23.571527895532796
+      },
+      {
+        "region": "DEU",
+        "today_pc": 3534.54,
+        "equal_share_pc": 3016.884007921265,
+        "change_pct": -14.645639661136522
+      },
+      {
+        "region": "CHN",
+        "today_pc": 3526.9,
+        "equal_share_pc": 3016.884007921265,
+        "change_pct": -14.46074433861848
+      },
+      {
+        "region": "IND",
+        "today_pc": 2668.5,
+        "equal_share_pc": 3016.884007921265,
+        "change_pct": 13.055424692571304
+      },
+      {
+        "region": "BRA",
+        "today_pc": 3423.45,
+        "equal_share_pc": 3016.884007921265,
+        "change_pct": -11.87591441612218
+      },
+      {
+        "region": "NGA",
+        "today_pc": 2470.11,
+        "equal_share_pc": 3016.884007921265,
+        "change_pct": 22.13561371442021
+      },
+      {
+        "region": "ETH",
+        "today_pc": 2558.42,
+        "equal_share_pc": 3016.884007921265,
+        "change_pct": 17.919810192277463
+      }
+    ],
+    "energy_final_gj": [
+      {
+        "region": "FRA",
+        "today_pc": 89.96868698399999,
+        "equal_share_pc": 50.89720704620368,
+        "change_pct": -43.42786501346271,
+        "today_vs_threshold": 5.880306338823528
+      },
+      {
+        "region": "USA",
+        "today_pc": 182.47577832000002,
+        "equal_share_pc": 50.89720704620368,
+        "change_pct": -72.10741748039162,
+        "today_vs_threshold": 11.92652145882353
+      },
+      {
+        "region": "DEU",
+        "today_pc": 89.79500851200001,
+        "equal_share_pc": 50.89720704620368,
+        "change_pct": -43.31844510109725,
+        "today_vs_threshold": 5.868954804705883
+      },
+      {
+        "region": "CHN",
+        "today_pc": 82.006349832,
+        "equal_share_pc": 50.89720704620368,
+        "change_pct": -37.935041432190545,
+        "today_vs_threshold": 5.359892145882353
+      },
+      {
+        "region": "IND",
+        "today_pc": 18.563516928,
+        "equal_share_pc": 50.89720704620368,
+        "change_pct": 174.17868738780663,
+        "today_vs_threshold": 1.2133017599999998
+      },
+      {
+        "region": "BRA",
+        "today_pc": 43.923280104,
+        "equal_share_pc": 50.89720704620368,
+        "change_pct": 15.87751854071704,
+        "today_vs_threshold": 2.8708026211764706
+      },
+      {
+        "region": "NGA",
+        "today_pc": 5.566110264,
+        "equal_share_pc": 50.89720704620368,
+        "change_pct": 814.4124825444471,
+        "today_vs_threshold": 0.3637980564705882
+      },
+      {
+        "region": "ETH",
+        "today_pc": 1.647425736,
+        "equal_share_pc": 50.89720704620368,
+        "change_pct": 2989.4993281933093,
+        "today_vs_threshold": 0.10767488470588235
+      }
+    ],
+    "health_per_10k": [
+      {
+        "region": "FRA",
+        "today_pc": 134.31,
+        "equal_share_pc": 58.54414802781142,
+        "change_pct": -56.411177106833875,
+        "today_vs_threshold": 3.0182022471910113
+      },
+      {
+        "region": "USA",
+        "today_pc": 150.46,
+        "equal_share_pc": 58.54414802781142,
+        "change_pct": -61.08989231170317,
+        "today_vs_threshold": 3.3811235955056183
+      },
+      {
+        "region": "DEU",
+        "today_pc": 169.88,
+        "equal_share_pc": 58.54414802781142,
+        "change_pct": -65.5379397057856,
+        "today_vs_threshold": 3.8175280898876403
+      },
+      {
+        "region": "CHN",
+        "today_pc": 67.82000000000001,
+        "equal_share_pc": 58.54414802781142,
+        "change_pct": -13.677163037730155,
+        "today_vs_threshold": 1.5240449438202248
+      },
+      {
+        "region": "IND",
+        "today_pc": 36.7,
+        "equal_share_pc": 58.54414802781142,
+        "change_pct": 59.52083931283762,
+        "today_vs_threshold": 0.8247191011235956
+      },
+      {
+        "region": "BRA",
+        "today_pc": 83.31,
+        "equal_share_pc": 58.54414802781142,
+        "change_pct": -29.72734602351289,
+        "today_vs_threshold": 1.8721348314606743
+      },
+      {
+        "region": "NGA",
+        "today_pc": 15.66,
+        "equal_share_pc": 58.54414802781142,
+        "change_pct": 273.84513427721214,
+        "today_vs_threshold": 0.35191011235955055
+      },
+      {
+        "region": "ETH",
+        "today_pc": 12.41,
+        "equal_share_pc": 58.54414802781142,
+        "change_pct": 371.7497826576262,
+        "today_vs_threshold": 0.278876404494382
+      }
+    ]
+  },
+  "names": {
+    "FRA": "France",
+    "USA": "United States",
+    "DEU": "Germany",
+    "CHN": "China",
+    "IND": "India",
+    "BRA": "Brazil",
+    "NGA": "Nigeria",
+    "ETH": "Ethiopia"
+  }
+}

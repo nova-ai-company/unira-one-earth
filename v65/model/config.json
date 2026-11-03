@@ -1,0 +1,11 @@
+{
+  "_comment": "UNIRA V6.5 world sufficiency. Thresholds from ../thresholds/thresholds.csv (row cited per item); data from ../data/world_indicators.csv.",
+  "food": {"decent_eaten_kcal": 2100, "comfortable_eaten_kcal": 2470,
+           "consumer_waste_status_quo": {"value": 0.19, "evidence_class": "REPORTED_NEEDS_RECHECK (UNEP, not verified in fetched text)"},
+           "consumer_waste_unira": {"value": 0.095, "evidence_class": "NORMATIVE_TARGET (rule 13 no waste: half of status quo)"}},
+  "energy": {"primary_to_final": {"value": 0.66, "evidence_class": "MODEL_DERIVED from EU 2024 (81.7 final / 124 primary GJ); world ratio differs - sensitivity"},
+             "decent_final_gj": 15.3, "comfortable_final_gj": 40.0, "eu_today_final_gj": 81.7},
+  "health": {"decent_per_10k": 44.5, "comfortable_per_10k": 131.0},
+  "labour": {"weekly_cap": 30, "employment_rate_15_64_unira": {"value": 0.80, "evidence_class": "SYNTHETIC_ASSUMPTION: rule 14 universal work, 88% of 20-64 approximated as 80% of 15-64 (15-19 mostly in school)"}},
+  "regions_shown": ["FRA", "USA", "DEU", "CHN", "IND", "BRA", "NGA", "ETH"]
+}

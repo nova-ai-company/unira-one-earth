@@ -1,0 +1,97 @@
+[
+  {
+    "scenario": "minimum_cost",
+    "demand": 100,
+    "budget_eur": 18000000,
+    "carbon_price_eur_per_t": 0,
+    "stock_first": false,
+    "allocation": {
+      "repair_adapt": 20,
+      "deep_renovation": 35,
+      "conversion": 25,
+      "new_construction": 20,
+      "unmet": 0
+    },
+    "cost_eur": 14600000,
+    "carbon_t_co2e": 3280,
+    "unmet": 0,
+    "new_homes": 20,
+    "input_status": "SYNTHETIC \u2014 not a city forecast"
+  },
+  {
+    "scenario": "carbon_price_200",
+    "demand": 100,
+    "budget_eur": 18000000,
+    "carbon_price_eur_per_t": 200,
+    "stock_first": false,
+    "allocation": {
+      "repair_adapt": 20,
+      "deep_renovation": 35,
+      "conversion": 25,
+      "new_construction": 20,
+      "unmet": 0
+    },
+    "cost_eur": 14600000,
+    "carbon_t_co2e": 3280,
+    "unmet": 0,
+    "new_homes": 20,
+    "input_status": "SYNTHETIC \u2014 not a city forecast"
+  },
+  {
+    "scenario": "stock_first",
+    "demand": 100,
+    "budget_eur": 18000000,
+    "carbon_price_eur_per_t": 0,
+    "stock_first": true,
+    "allocation": {
+      "repair_adapt": 20,
+      "deep_renovation": 35,
+      "conversion": 25,
+      "new_construction": 20,
+      "unmet": 0
+    },
+    "cost_eur": 14600000,
+    "carbon_t_co2e": 3280,
+    "unmet": 0,
+    "new_homes": 20,
+    "input_status": "SYNTHETIC \u2014 not a city forecast"
+  },
+  {
+    "scenario": "tight_budget",
+    "demand": 100,
+    "budget_eur": 8000000,
+    "carbon_price_eur_per_t": 0,
+    "stock_first": false,
+    "allocation": {
+      "repair_adapt": 20,
+      "deep_renovation": 35,
+      "conversion": 19,
+      "new_construction": 0,
+      "unmet": 26
+    },
+    "cost_eur": 7980000,
+    "carbon_t_co2e": 1588,
+    "unmet": 26,
+    "new_homes": 0,
+    "input_status": "SYNTHETIC \u2014 not a city forecast"
+  },
+  {
+    "scenario": "higher_need",
+    "demand": 140,
+    "budget_eur": 30000000,
+    "carbon_price_eur_per_t": 0,
+    "stock_first": false,
+    "allocation": {
+      "repair_adapt": 20,
+      "deep_renovation": 35,
+      "conversion": 25,
+      "new_construction": 60,
+      "unmet": 0
+    },
+    "cost_eur": 25800000,
+    "carbon_t_co2e": 6280,
+    "unmet": 0,
+    "new_homes": 60,
+    "input_status": "SYNTHETIC \u2014 not a city forecast"
+  }
+]

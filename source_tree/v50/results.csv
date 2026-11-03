@@ -1,0 +1,7 @@
+scenario,status,cost_eur,carbon_30y_t,new_build,units
+cost,optimal,8565000.0,4416.0,5,100
+stock_first,optimal,8565000.0,4416.0,5,100
+carbon_weighted,optimal,8565000.0,4416.0,5,100
+stock_first_carbon,optimal,8565000.0,4416.0,5,100
+high_operational_emissions,optimal,8780000.0,5513.3,5,100
+low_operational_emissions,optimal,8565000.0,3091.2,5,100

@@ -1,0 +1,222 @@
+[
+  {
+    "scenario": "baseline",
+    "households": 100,
+    "annual_income_u": 10200000,
+    "annual_child_allowance_u": 1320000,
+    "consumer_spending_budget_u": 7650000.0,
+    "annual_desired_basket_u": 5484000,
+    "basket_affordability_ratio": 1.395,
+    "total_labour_hours": 180000,
+    "required_labour_hours": 104800.0,
+    "labour_gap_hours": 0,
+    "public_service_hours_shortfall": 0,
+    "maintenance_hours_shortfall": 0,
+    "public_fund_u": 4000000,
+    "public_fund_need_u": 3800000,
+    "public_fund_shortfall_u": 0,
+    "worker_base_payroll_u": 7200000,
+    "goods": {
+      "food": {
+        "desired_units": 132000,
+        "available_units": 200000,
+        "physical_gap_units": 0,
+        "supply_coverage": 1.5152,
+        "notional_sales_u": 2400000
+      },
+      "housing_services": {
+        "desired_units": 1200,
+        "available_units": 1200,
+        "physical_gap_units": 0,
+        "supply_coverage": 1.0,
+        "notional_sales_u": 1920000
+      },
+      "other_goods": {
+        "desired_units": 18000,
+        "available_units": 20000,
+        "physical_gap_units": 0,
+        "supply_coverage": 1.1111,
+        "notional_sales_u": 2200000
+      }
+    },
+    "physical_feasible": true,
+    "financially_balanced_public_fund": true,
+    "note": "Fixed-price stress test; affordability and gaps do not predict inflation or market clearing."
+  },
+  {
+    "scenario": "food_supply_shock",
+    "households": 100,
+    "annual_income_u": 10200000,
+    "annual_child_allowance_u": 1320000,
+    "consumer_spending_budget_u": 7650000.0,
+    "annual_desired_basket_u": 5484000,
+    "basket_affordability_ratio": 1.395,
+    "total_labour_hours": 180000,
+    "required_labour_hours": 92200.0,
+    "labour_gap_hours": 0,
+    "public_service_hours_shortfall": 0,
+    "maintenance_hours_shortfall": 0,
+    "public_fund_u": 4000000,
+    "public_fund_need_u": 3800000,
+    "public_fund_shortfall_u": 0,
+    "worker_base_payroll_u": 7200000,
+    "goods": {
+      "food": {
+        "desired_units": 132000,
+        "available_units": 95000,
+        "physical_gap_units": 37000,
+        "supply_coverage": 0.7197,
+        "notional_sales_u": 1140000
+      },
+      "housing_services": {
+        "desired_units": 1200,
+        "available_units": 1200,
+        "physical_gap_units": 0,
+        "supply_coverage": 1.0,
+        "notional_sales_u": 1920000
+      },
+      "other_goods": {
+        "desired_units": 18000,
+        "available_units": 20000,
+        "physical_gap_units": 0,
+        "supply_coverage": 1.1111,
+        "notional_sales_u": 2200000
+      }
+    },
+    "physical_feasible": false,
+    "financially_balanced_public_fund": true,
+    "note": "Fixed-price stress test; affordability and gaps do not predict inflation or market clearing."
+  },
+  {
+    "scenario": "shorter_work_year",
+    "households": 100,
+    "annual_income_u": 10200000,
+    "annual_child_allowance_u": 1320000,
+    "consumer_spending_budget_u": 7650000.0,
+    "annual_desired_basket_u": 5484000,
+    "basket_affordability_ratio": 1.395,
+    "total_labour_hours": 158400,
+    "required_labour_hours": 104800.0,
+    "labour_gap_hours": 0,
+    "public_service_hours_shortfall": 0,
+    "maintenance_hours_shortfall": 0,
+    "public_fund_u": 4000000,
+    "public_fund_need_u": 3800000,
+    "public_fund_shortfall_u": 0,
+    "worker_base_payroll_u": 7200000,
+    "goods": {
+      "food": {
+        "desired_units": 132000,
+        "available_units": 200000,
+        "physical_gap_units": 0,
+        "supply_coverage": 1.5152,
+        "notional_sales_u": 2400000
+      },
+      "housing_services": {
+        "desired_units": 1200,
+        "available_units": 1200,
+        "physical_gap_units": 0,
+        "supply_coverage": 1.0,
+        "notional_sales_u": 1920000
+      },
+      "other_goods": {
+        "desired_units": 18000,
+        "available_units": 20000,
+        "physical_gap_units": 0,
+        "supply_coverage": 1.1111,
+        "notional_sales_u": 2200000
+      }
+    },
+    "physical_feasible": true,
+    "financially_balanced_public_fund": true,
+    "note": "Fixed-price stress test; affordability and gaps do not predict inflation or market clearing."
+  },
+  {
+    "scenario": "housing_shortage",
+    "households": 100,
+    "annual_income_u": 10200000,
+    "annual_child_allowance_u": 1320000,
+    "consumer_spending_budget_u": 7650000.0,
+    "annual_desired_basket_u": 5484000,
+    "basket_affordability_ratio": 1.395,
+    "total_labour_hours": 180000,
+    "required_labour_hours": 103600.0,
+    "labour_gap_hours": 0,
+    "public_service_hours_shortfall": 0,
+    "maintenance_hours_shortfall": 0,
+    "public_fund_u": 4000000,
+    "public_fund_need_u": 3800000,
+    "public_fund_shortfall_u": 0,
+    "worker_base_payroll_u": 7200000,
+    "goods": {
+      "food": {
+        "desired_units": 132000,
+        "available_units": 200000,
+        "physical_gap_units": 0,
+        "supply_coverage": 1.5152,
+        "notional_sales_u": 2400000
+      },
+      "housing_services": {
+        "desired_units": 1200,
+        "available_units": 900,
+        "physical_gap_units": 300,
+        "supply_coverage": 0.75,
+        "notional_sales_u": 1440000
+      },
+      "other_goods": {
+        "desired_units": 18000,
+        "available_units": 20000,
+        "physical_gap_units": 0,
+        "supply_coverage": 1.1111,
+        "notional_sales_u": 2200000
+      }
+    },
+    "physical_feasible": false,
+    "financially_balanced_public_fund": true,
+    "note": "Fixed-price stress test; affordability and gaps do not predict inflation or market clearing."
+  },
+  {
+    "scenario": "public_fund_gap",
+    "households": 100,
+    "annual_income_u": 10200000,
+    "annual_child_allowance_u": 1320000,
+    "consumer_spending_budget_u": 7650000.0,
+    "annual_desired_basket_u": 5484000,
+    "basket_affordability_ratio": 1.395,
+    "total_labour_hours": 180000,
+    "required_labour_hours": 104800.0,
+    "labour_gap_hours": 0,
+    "public_service_hours_shortfall": 0,
+    "maintenance_hours_shortfall": 0,
+    "public_fund_u": 2500000,
+    "public_fund_need_u": 3800000,
+    "public_fund_shortfall_u": 1300000,
+    "worker_base_payroll_u": 7200000,
+    "goods": {
+      "food": {
+        "desired_units": 132000,
+        "available_units": 200000,
+        "physical_gap_units": 0,
+        "supply_coverage": 1.5152,
+        "notional_sales_u": 2400000
+      },
+      "housing_services": {
+        "desired_units": 1200,
+        "available_units": 1200,
+        "physical_gap_units": 0,
+        "supply_coverage": 1.0,
+        "notional_sales_u": 1920000
+      },
+      "other_goods": {
+        "desired_units": 18000,
+        "available_units": 20000,
+        "physical_gap_units": 0,
+        "supply_coverage": 1.1111,
+        "notional_sales_u": 2200000
+      }
+    },
+    "physical_feasible": true,
+    "financially_balanced_public_fund": false,
+    "note": "Fixed-price stress test; affordability and gaps do not predict inflation or market clearing."
+  }
+]

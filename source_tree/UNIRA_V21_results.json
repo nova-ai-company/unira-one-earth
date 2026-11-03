@@ -1,0 +1,70 @@
+{
+  "labor_scenarios": [
+    {
+      "scenario": "base",
+      "unira_workers_billion": 4.35,
+      "baseline_hours_assumed": 43,
+      "food_supply_shock": 0,
+      "baseline_weekly_hours": 152426400000,
+      "unira_weekly_hours": 130500000000.0,
+      "hours_change_pct": -14.38,
+      "productivity_multiplier_for_equal_aggregate_output": 1.168,
+      "food_supply_target_ratio_floor": 1.2
+    },
+    {
+      "scenario": "participation_low",
+      "unira_workers_billion": 3.8,
+      "baseline_hours_assumed": 43,
+      "food_supply_shock": 0,
+      "baseline_weekly_hours": 152426400000,
+      "unira_weekly_hours": 114000000000.0,
+      "hours_change_pct": -25.21,
+      "productivity_multiplier_for_equal_aggregate_output": 1.3371,
+      "food_supply_target_ratio_floor": 1.2
+    },
+    {
+      "scenario": "participation_high",
+      "unira_workers_billion": 4.7,
+      "baseline_hours_assumed": 43,
+      "food_supply_shock": 0,
+      "baseline_weekly_hours": 152426400000,
+      "unira_weekly_hours": 141000000000.0,
+      "hours_change_pct": -7.5,
+      "productivity_multiplier_for_equal_aggregate_output": 1.081,
+      "food_supply_target_ratio_floor": 1.2
+    },
+    {
+      "scenario": "shorter_current_hours",
+      "unira_workers_billion": 4.35,
+      "baseline_hours_assumed": 38,
+      "food_supply_shock": 0,
+      "baseline_weekly_hours": 134702400000,
+      "unira_weekly_hours": 130500000000.0,
+      "hours_change_pct": -3.12,
+      "productivity_multiplier_for_equal_aggregate_output": 1.0322,
+      "food_supply_target_ratio_floor": 1.2
+    },
+    {
+      "scenario": "food_shock_20pct",
+      "unira_workers_billion": 4.35,
+      "baseline_hours_assumed": 43,
+      "food_supply_shock": 0.2,
+      "baseline_weekly_hours": 152426400000,
+      "unira_weekly_hours": 130500000000.0,
+      "hours_change_pct": -14.38,
+      "productivity_multiplier_for_equal_aggregate_output": 1.168,
+      "food_supply_target_ratio_floor": 0.96
+    }
+  ],
+  "food": {
+    "daily_kcal_supply_floor": 3000,
+    "illustrative_target": 2500,
+    "supply_target_ratio_floor": 1.2,
+    "caveat": "FAO >3000 kcal 2023: 3000 is a conservative floor, not exact observed supply; food balances are not consumed calories."
+  },
+  "sources": {
+    "ilo": "https://www.ilo.org/sites/default/files/wcmsp5/groups/public/@dgreports/@inst/documents/publication/wcms_908142.pdf",
+    "fao": "https://www.fao.org/statistics/highlights-archive/highlights-detail/food-balance-sheets-2010-2023/",
+    "iea": "https://www.iea.org/reports/global-energy-review-2025/electricity"
+  }
+}

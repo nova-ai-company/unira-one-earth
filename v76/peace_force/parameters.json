@@ -1,0 +1,52 @@
+{
+  "peace_force_personnel": {
+    "low": 250000,
+    "central": 500000,
+    "high": 1000000,
+    "constitutional_ceiling": "1,000,000 or 0.0125% of world population (~12 per 100,000), whichever is lower",
+    "per_100k_population": {"low": 3.1, "central": 6.1, "high": 12.3},
+    "pct_of_2020_world_armed_forces": {"low": 0.9, "central": 1.8, "high": 3.6},
+    "multiple_of_UN_PK_2015_uniformed_peak_106595": {"low": 2.3, "central": 4.7, "high": 9.4},
+    "basis": "UN peacekeeping uniformed peak 106,595 (Mar 2015) deployed at once; sustaining that deployment needs ~3x total strength for rotation/training/reserve (planning ASSUMPTION, not verified) => ~320k; plus a surge reserve for 2-3 simultaneous Haiti-scale disasters (US alone deployed 21,493 in 2 weeks, 2010) and logistics/airlift/verification of WMD destruction. Central 500k. Low 250k assumes Protection Service carries most disaster work and the disarmed world needs less than the 2015 PK peak. High = ceiling for transition years when residual armed groups persist."
+  },
+  "peace_force_budget_pct_world_gdp": {
+    "low": 0.02,
+    "central": 0.05,
+    "high": 0.13,
+    "constitutional_ceiling": 0.15,
+    "unit": "% of world GDP (2025 world GDP ~USD 115.5 tn implied by SIPRI)",
+    "usd_bn": {"low": 25, "central": 60, "high": 150},
+    "cost_per_member_usd": {"low": 100000, "central": 120000, "high": 150000},
+    "basis": "UN PK cost per uniformed peacekeeper USD 94k (2024-25: 5.6bn/59,376) and 79k (2014-15); world milex per armed-forces member USD 105k (2,887bn/27.4m). UN costs understate a fairly paid force (troop reimbursement only USD 1,428/month), hence 100-150k all-in."
+  },
+  "freed_personnel": {
+    "low_force": 27156000,
+    "central_force": 26906000,
+    "high_force": 26406000,
+    "basis": "World Bank armed forces 27,406,000 (2020) minus Peace Force size. Freed people are offered work in health, construction, civil protection (Art. 5.3); some move to regional police and the Protection Service."
+  },
+  "freed_spending_pct_gdp": {
+    "low_force": 2.48,
+    "central_force": 2.45,
+    "high_force": 2.37,
+    "basis": "SIPRI 2025 military burden 2.5% of world GDP minus Peace Force budget. Gross figure: excludes transition costs (income guarantee for 27m former soldiers, WMD destruction/verification, possible police expansion in under-policed regions)."
+  },
+  "regional_police_reference": {
+    "un_median_per_100k_2006": 300,
+    "observed_range_functioning_states_per_100k": [130, 350],
+    "un_recommended_222_status": "UNVERIFIED - no UN document found; do not cite",
+    "implied_world_police_at_300_per_100k": 24400000,
+    "note": "Regional civilian police are separate from and ~50x larger than the central Peace Force - a structural counterweight (De Bruin 2018)."
+  },
+  "safeguards": [
+    "Hard constitutional ceiling on personnel (<=0.0125% of world population) and budget (<=0.15% of world GDP); actual level set by law below it and published annually (Art. 5a.4).",
+    "Multinational composition: no region >5% of personnel or commanders (UN PK already draws on 121 countries).",
+    "Commanders rotate every 3 years; members never serve in their own region.",
+    "Deployment only with Court ruling + double-majority Council of Regions; 72-hour emergency limit (Art. 5a.2).",
+    "Counterweight: armed regional civilian police (~24m worldwide) remain under regional control; counterbalancing reduces coup success though not attempts (De Bruin 2018).",
+    "Civilian oversight + legitimacy + strong civil society lower structural coup risk (Belkin & Schofer 2003).",
+    "Separate control of logistics/airlift/arms depots from combat command, and of arms stocks under independent verification (design proposal, not evidence-tested).",
+    "Transition is the risk window: new forces raise coup-attempt odds the next year (De Bruin 2018) - phase build-up gradually with independent inspection.",
+    "Annual public register of size, budget, every deployment; independent inspectorate reporting to the Court and Council of Regions."
+  ]
+}

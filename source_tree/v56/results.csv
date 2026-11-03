@@ -1,0 +1,7 @@
+scenario,issued_U,public_unpaid_U,food_unmet_units,labour_shortfall_hours,deposits_sum_U
+baseline,1000000,300000,0,0,1000000
+food_shortage,1000000,300000,30,0,1000000
+public_fund_shortage,1000000,300000,0,0,1000000
+public_cost_low,1000000,0,0,0,1000000
+labour_shock,1000000,300000,0,2000,1000000
+money_creation,1500000,300000,0,0,1500000

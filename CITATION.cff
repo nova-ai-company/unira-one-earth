@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this research, please cite it as below."
+title: "UNIRA — One Humanity, One Future: open research, models and data (V6.2–V7.7)"
+type: software
+authors:
+  - name: "UNIRA project contributors"
+date-released: 2026-11-03
+version: "7.7"
+license: MIT
+repository-code: "https://github.com/nova-ai-company/unira-one-earth"
+url: "https://nova-ai-company.github.io/unira-one-earth/"
+keywords:
+  - post-growth economics
+  - working time reduction
+  - needs-based allocation
+  - input-output analysis
+  - decent living standards
+  - global governance
