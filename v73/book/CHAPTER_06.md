@@ -1,6 +1,6 @@
 # Chapter 6 — The U: money that serves people
 
-*Second draft, 3 November 2026. Every figure comes from the UNIRA research (V6.4, V6.7, V7.2–V7.5) and the draft Constitution of One Earth, and is listed in the notes at the end of the chapter.*
+*Second draft, 3 November 2026, updated with V7.9. Every figure comes from the UNIRA research (V6.4, V6.7, V7.2–V7.5, V7.9) and the draft Constitution of One Earth, and is listed in the notes at the end of the chapter.*
 
 ---
 
@@ -21,7 +21,7 @@ It is **digital**, with no physical cash. Every commercial transaction carries a
 A digital-only currency raises fair worries. What about privacy? What about people without a phone, or places without a signal? The constitution answers each one. The system must guarantee:
 - **privacy**;
 - **access without a smartphone**;
-- **offline operation**;
+- **access everywhere, through several independent networks**;
 - **independent oversight**;
 - **the right to appeal**.
 
@@ -102,6 +102,33 @@ Two numbers follow from it.
 - A worker at the average multiplier buys about **1.6 times** what an average French person consumes today.
 
 What about the tomatoes? At 146 U an hour, 1 U stands for about **25 seconds** of embodied work. That is simple arithmetic, not a measured price for tomatoes. It shows the idea: a price says how much human time a thing takes.
+
+### New products: hours, plus a price for nature
+
+What about something that did not exist when the prices were fixed, a new kind of bicycle or a new medicine? Article 13 now gives the rule.
+- The price is the **hours of work** the product embodies, including all its inputs, times the fixed price of one hour, about **146 U**.
+- It is set **once**, when the product is introduced, and published with its calculation.
+- Later gains in productivity shorten working hours. They do not lower the price.
+- Goods that use **scarce natural resources** carry a **resource surcharge**, measured physically.
+
+Why the surcharge? The research priced France's 2022 household basket by hours alone and compared it with today's market prices, both scaled to the same total. The result was a large shift.
+
+| Cheaper under pure hours pricing | Hours price ÷ market price | Dearer under pure hours pricing | Hours price ÷ market price |
+| --- | --- | --- | --- |
+| Fuels (coke and refined petroleum) | **0.21** | Other personal services | 2.40 |
+| Electricity, gas, steam | **0.35** | Residential care, social work | 2.04 |
+| Rents | 0.50 | Retail trade | 1.73 |
+| Cars | 0.58 | Restaurants and hotels | 1.72 |
+| Telecommunications | 0.62 | Farm products | 1.69 |
+| Air travel | 0.66 | Sport and recreation | 1.50 |
+
+Priced by hours alone, fuels would become **79%** cheaper relative to everything else, and electricity **65%** cheaper. Their market prices pay mostly for natural resources, land and capital, not for work. Cheap fuel and cheap flights would encourage exactly the uses the planet cannot afford. Chapter 9 shows how use rises when such goods get cheaper.
+
+So the surcharge is essential, not optional. **Energy, fuels and air travel never become cheaper, relative to other goods, than they were when a region joined.** The surcharge is paid in U and goes to the One Earth Fund.
+
+Care, food and personal services would become relatively dearer, because they are mostly work. But in UNIRA health and care are free, so households do not pay those prices.
+
+And things that cannot be made again, such as an original painting or a seat at a unique concert, are never sold to the highest bidder. They go by turn, lottery or rotation.
 
 ### Who earns what in the model
 
@@ -199,7 +226,7 @@ So the research looked for another answer.
 
 ## The money cap
 
-UNIRA's answer is the **money cap**. Each person may hold money up to a limit. The limit is set every year by a published rule, and is never below one and a half years of base salary. Its purpose is to keep people working to produce what is needed.
+UNIRA's answer is the **money cap**. Each person may hold money up to a limit. The limit is set every year by a published rule, and is never below one and a half years of base salary, **90,000 U**. Its purpose is to keep people working to produce what is needed.
 
 Money above the cap goes to the **One Earth Fund**. So do large inheritances above the cap.
 
@@ -232,9 +259,9 @@ A **low cap**, combined with zero-interest credit for homes, works. Unspent mone
 
 ### What a low cap means for a person
 
-The working cap is about **1.4 years** of base salary. A year of base salary is 60,000 U. So the cap is roughly **84,000 U** per person.
+In this first test, the cap settled at about **1.4 years** of base salary. A year of base salary is 60,000 U, so that is roughly 84,000 U per person. The final design raises it slightly, to a floor of **1.5 years, 90,000 U**, for reasons explained below.
 
-That is less than the price of a home. How can anyone buy a home, then? With **zero-interest credit**. People do not need to save the whole price first. They move in, and repay from their salary. Chapter 7 shows how this works for a family.
+Either way, that is less than the price of most homes. How can anyone buy a home, then? With **zero-interest credit**. People do not need to save the whole price first. They move in, and repay from their salary. Chapter 7 shows how this works for a family.
 
 ### Two effects at once
 
@@ -258,22 +285,71 @@ Ines is imagined. The research has no evidence on how real people would behave a
 
 ## A moderate cap, and two protected accounts
 
-How high should the cap be? The research tested the choice directly.
+How high should the cap be? The research tested the choice directly, in the same 60-year simulation.
 
 - **Too low**, and most people hit it. At about 1.4 years of base salary, six adults in ten reach it at some point.
-- **Too high**, and money piles up in accounts with nothing to buy. If even a quarter of that money were spent in one year, after a scare or a rumour, there would be too few goods. Because prices are fixed, they could not rise, and the shelves would empty. At 5 years of salary, such a rush would mean demand of almost **80%** more than a normal year's goods.
+- **Too high**, and money piles up in accounts with nothing to buy. If a quarter of that free money were spent in one year, after a scare or a rumour, there would be too few goods. Because prices are fixed, they could not rise, and the shelves would empty.
 
-The answer is a **moderate cap of one and a half years of base salary: 90,000 U.** At that level, four adults in ten reach it, instead of six, and the risk of empty shelves hardly grows.
+The author chose a **moderate cap: never below one and a half years of base salary, 90,000 U** (Article 17.5). Beside it sit **protected accounts**, which are outside the cap and cannot be spent in a rush (Article 17.6):
+- a **home account** of up to **150,000 U**, until the person owns a home, used to buy or build it;
+- a **retirement account** of up to **120,000 U**, paid out evenly from retirement, on top of the needs-based pension;
+- a **time account**, for salaried people, of up to **13 weeks** of their own pay, explained below.
 
-Two **protected accounts** sit outside the cap:
-- a **home account** of up to **150,000 U**, for anyone who does not yet own a home;
-- a **retirement account** of up to **120,000 U**, paid out evenly from retirement, on top of the needs-based pension.
+### The order money flows in
 
-Money above the cap fills these accounts first. Only what is left goes to the One Earth Fund. So an ordinary person can keep up to **360,000 U**: 90,000 U to spend as they like, and 270,000 U set aside for a home and an old age.
+Money fills these places in a fixed order:
+1. free savings, up to the cap of **90,000 U**, to spend as the person likes;
+2. then the home account;
+3. then the retirement account;
+4. then the time account;
+5. only then, the **One Earth Fund**.
+
+So an ordinary person can keep up to **360,000 U**: 90,000 U of free savings and 270,000 U set aside for a home and an old age, plus some weeks of paid time.
+
+### Why 1.5 years, and not 3 or 5?
+
+The author first compared the levels side by side. The table shows the simulation at year 60, with the protected accounts in place.
+
+| Cap, in years of base salary | Adults who reach the cap | Adults who lose some money, once all their accounts are full | Extra demand if a quarter of free money is spent in one year | Flow to the One Earth Fund, share of consumption |
+| --- | --- | --- | --- | --- |
+| 1.4 | 61% | not measured | +25% of a year's goods | 22% |
+| **1.5 (chosen)** | **40%** | **30%** | **+26%** | **22%** |
+| 2 | 38% | not measured | +34% | 22% |
+| 3 | 36% | 28% | +50% | 22% |
+| 5 | 29% | 19% | **+78%** | 18% |
+| No cap | — | — | +316% | 0% |
+
+Moving from 1.4 to 1.5 years lowers the share of adults at the cap from six in ten to four in ten, with almost no added risk. Going higher barely helps more people. At 5 years, 19% of adults lose some money instead of 30%, but a sudden spending rush would empty shelves three times as badly. The author confirmed 1.5 years after seeing this comparison.
+
+Two more results matter. No salaried person was blocked from a first home at any cap tested. And the accounts have a cost: older, better-paid people fill their retirement accounts, so the richest tenth's share of all money rises from **13%** to **23%**. That is still far below the **40%** they would hold with no cap at all.
+
+The account limits of 150,000 U, 120,000 U and 13 weeks are still to be confirmed with data.
+
+### The time account: money that buys time
+
+What should happen to a person who is already full on every account? The research found an option the author accepted: let money above the cap buy **paid time off**.
+- At most **2 weeks** a year of extra paid leave.
+- Unused weeks can be banked, for a **sabbatical of up to 3 months**.
+- In jobs where the region lacks workers, the time is banked and taken later.
+- If total hours worked fall below what the region needs, the limit is lowered automatically.
+
+What does it cost? About **1.8%** of all working time. That is like an average week of about **29.5 hours** instead of 30. And the One Earth Fund's income falls from **22.0%** to **19.8%** of the region's consumption. Less money is shared, but the people who work hardest gain the one thing the cap cannot give them more of: time.
+
+### How the cap is set each year: a thermostat
+
+The cap is not set by politicians. It is computed each year by the **Monetary Authority** (Article 17b). Its five members come from five continents. The Court appoints them, from a shortlist drawn up by the Scientific Council, for a single 7-year term. They have no discretion. They may not set prices, allocate resources or lend, and anyone can recompute their figure from public data.
+
+The rule works like a home thermostat:
+- the target is unspent money equal to about **12 months** of consumption;
+- each year the cap is multiplied by the square root of (target ÷ actual unspent money);
+- it may move by at most **10%** up or down in a year;
+- it is never set below the floor of 1.5 years.
+
+The research hit the simulation with four shocks: a disaster that used up 30% of savings, a wave of fearful saving, a baby boom and fast automation. Unspent money stayed within about **10–14 months** of consumption, and was back within two months of target in about a year. No salaried person was blocked from a first home. Without the 10% limit, the cap could have fallen by **88%** in a single year, a shock to every saver. With it, nobody's ceiling moves by more than a tenth.
 
 And the cap limits only what a person *keeps*. It never touches what they earn or spend. A person at the cap still receives their full salary every month, and can spend it all. That is why the cap does not stop people working: it removes the reason to hoard, not the reason to work.
 
-**Rewards never break the ceiling.** People who invent, improve or win a prize are rewarded, but never above five times the base salary. A team that makes production faster works fewer hours for the same pay, moves up the salary scale within the limit, and gets resources for its next project. A personal prize is at most one year of the winner's salary; anything larger goes to the team's next work or to the One Earth Fund, with the winners' names on it. Honour and time are the rewards that have no ceiling.
+**Rewards never break the ceiling.** People who invent, improve or win a prize are rewarded, but never above five times the base salary (Articles 3d.12 and 14.5). A team that makes production faster keeps part of the hours it saves: it works fewer hours for the same pay, moves up the salary scale within the limit, and gets resources for its next project. A personal prize is at most one year of the winner's salary; anything larger goes to the team's next work or to the One Earth Fund, with the winners' names on it. Honour and time are the rewards that have no ceiling. Chapter 13 asks whether that is enough to keep invention alive.
 
 ## Rules that keep prices fixed for ever
 
@@ -329,13 +405,13 @@ Chapter 15 sets out these transition rules in full.
 This is a real difficulty. In a market, prices rise when something is scarce. In UNIRA, the burden of balance moves to physical planning: measured needs, reserves, and incomes matched to the goods available. The research lists "coordination without prices" as a scientific challenge still to be tested.
 
 **"How is the price of a new product set?"**
-The research admits that new products need a price-setting rule. The principle is clear: the price follows the work and resources the product embodies. The detailed rule is not yet written.
+By the hours of work it embodies, times the fixed price of an hour, set once and published, plus a surcharge for scarce natural resources (Article 13.4–13.7). The rule is now written. How well it works for millions of products has not been tested.
 
 **"Isn't the money cap just confiscation?"**
 It changes property rights deeply, and the research says so. But three limits apply. Homes are never taken. The cap phases in over ten years. And money above the cap is not destroyed. It returns as homes, energy and care, published line by line.
 
 **"With a cap, why would anyone work hard?"**
-Salaries are still spent, so work still pays. What a cap removes is the reason to save beyond it. In the simulation, 57% of adults reached the cap. The research warns that this could weaken the motive to save. If people respond by spending more, demand rises, and the yearly coefficient must take that into account.
+Salaries are still spent, so work still pays. What a cap removes is the reason to save beyond it. Even at the moderate cap, four adults in ten reach it. The research warns that this could weaken the motive to save. If people respond by spending more, demand rises, and the yearly thermostat must respond. The time account gives one more answer: beyond the cap, extra effort can buy time off.
 
 **"Doesn't a 5× pay range bring back inequality?"**
 Pay differs, but rights do not. Food, a home, health care, education and an income are guaranteed to everyone. And the gap between the highest and lowest pay is capped at five times.
@@ -344,10 +420,10 @@ Pay differs, but rights do not. Food, a home, health care, education and an inco
 Because people need it. Saving lets a family put money aside for a home, a project or a rainy day. The design rule keeps savings and protects them. What the research showed is that savings need a ceiling, not a ban. Below the cap, they are free and safe.
 
 **"Won't a digital currency let someone watch everything I buy?"**
-The risk is real, and the constitution names it. Privacy is one of five guarantees the payment system must give, with independent oversight and a right to appeal. Personal gifts need no invoice at all. The Public Allocation Register publishes amounts and places, never personal data. How well these promises hold in practice is untested.
+The risk is real, and the constitution names it. Privacy is one of five guarantees the payment system must give, with independent oversight and a right to appeal. Personal gifts need no invoice at all. The Public Allocation Register publishes amounts and places, never personal data. Article 12a goes further. Everyday payments are anonymous, like cash, starting at up to **200 U** a payment and **2,000 U** a month. No account may be frozen, and no payment data opened, without a judge's order about a named person. Personal details are deleted after two years. How well these promises hold in practice is untested.
 
 **"What if I have no phone, or the network fails?"**
-The system must work without a smartphone and must work offline. Both are written into the constitution, not left to a later choice.
+There is no cash at all: every payment is digital and online. So the system must work without a smartphone (a simple card is enough), run on several independent networks, and never leave anyone stranded: if the network fails in a region, food, care, energy, housing and transport continue, and are recorded when it returns. All of this is written into the constitution, not left to a later choice.
 
 **"What stops prices creeping up, as they do today?"**
 Two rules. Prices of essentials are fixed by the constitution. And average pay may rise only as fast as productivity, so there is no extra money chasing the same goods.
@@ -357,15 +433,18 @@ Two rules. Prices of essentials are fixed by the constitution. And average pay m
 - UNIRA's money rules balance as a system of accounts. A single fixed price, about **146 U per hour of embodied work**, matches spending to the goods available.
 - A base worker saving half their income buys about **86%** of what an average French person consumes today. At the average multiplier, about **1.6 times**.
 - If everyone saves half their income for life, unspent money piles up: **21 years** of consumption after 30 years in the first model, **152 months** after 60 in the lifecycle simulation.
-- A low money cap, about **1.4 years** of base salary, with zero-interest credit for homes, holds unspent money at about **12 months** of consumption. About **20–23%** of a rich region's consumption value then flows to the One Earth Fund each year.
+- A low money cap with zero-interest credit for homes holds unspent money at about **12 months** of consumption. The chosen design is a moderate cap of **1.5 years** of base salary (**90,000 U**), with a home account (**150,000 U**), a retirement account (**120,000 U**) and a time account. Then **40%** of adults reach the cap, a spending rush adds **+26%** to a year's demand (against **+78%** at 5 years), and about **22%** of consumption value flows to the One Earth Fund, or **19.8%** with the time account.
+- A yearly thermostat, limited to **±10%**, keeps unspent money within about **10–14 months** of consumption through disasters, fear, a baby boom and automation. No salaried person was blocked from a first home.
+- Priced by hours alone, fuels would be **79%** cheaper and electricity **65%** cheaper than other goods. A resource surcharge is therefore essential.
 - Average pay must track productivity. A drift of **0.5%** a year opens a **13%** gap after 30 years.
 - Half the people of France, Germany, Italy and Spain are better off even at the lowest UNIRA salary. The poorest tenth gains **146–258%**.
 
 ## What we still don't know
 
-- How people really behave under a money cap. No such economy has ever been observed. If people spend instead of saving, demand rises and the coefficient must respond.
-- How the yearly coefficient that sets the cap should be calculated. The constitution leaves this open.
-- How prices are set for new products, and how preferences are read without market prices.
+- How people really behave under a money cap. No such economy has ever been observed. If people spend instead of saving, demand rises and the thermostat must respond.
+- The account limits (150,000 U, 120,000 U, 13 weeks) are assumptions still to be confirmed. The time account's cost assumes people use it as modelled.
+- How large the resource surcharge must be for each good, and how it should rise with ecological limits.
+- How preferences are read without market prices, for millions of products.
 - The money cap is legally and politically hard. Some wealthy people may try to move money out before a vote.
 - The salary multipliers and the share of people unable to work are illustrative values in the model.
 - The model covers one region, France, one year at a time. Money flows between regions are not yet modelled.
@@ -376,7 +455,11 @@ Two rules. Prices of essentials are fixed by the constitution. And average pay m
 ### Notes on sources
 - Money circuit, fixed price (146 U per hour; 86% and 1.6×), base-year flows, the 14% balancing rate, experience creep, and the lifecycle simulation with the money cap: `v64/RESEARCH_NOTE.md` §1–4b; model outputs, including household goods supply in hours, workers, the average multiplier and illustrative multipliers by occupation group: `v64/outputs/summary.json`.
 - Design rules (salaries, guarantees, retirees, children, saving, money cap, reserves, fixed prices, the tomato example, coordination without prices, new products): `v63/DESIGN_CLARIFICATIONS_2026-11-03.md`, rules 6–18 and "Specific risks of rules 8–9".
-- Constitutional text: `v75/constitution/UNIRA_CONSTITUTION_DRAFT.md`, Articles 6, 7, 12–17a, 19, 20 and transitional provision T-1.
+- Constitutional text: `v75/constitution/UNIRA_CONSTITUTION_DRAFT.md`, Articles 3d (clauses 5 and 12), 6, 7, 12–17b (including 13.4–13.7, 14.5 and 17.4–17.6), 19, 20 and transitional provision T-1.
+- Price rule and resource surcharge (France 2022 input–output table; 146.4 U per hour; fuels 0.21, electricity 0.35; 38% and 40% of spending shifted by more than 30%): `v79/RESEARCH_NOTE.md` §2; `v79/outputs/price_rule.json`.
+- Moderate cap and protected accounts (share at the cap, rush test, One Earth flows, richest tenth 13% → 23%): `v79/RESEARCH_NOTE.md` §4b; `v79/outputs/cap_level.json`. Author's confirmation after comparing 1.5, 3 and 5 years (30%, 28% and 19% of adults losing some money): `v63/DESIGN_CLARIFICATIONS_2026-11-03.md`, rule 34.
+- Time account (1.8% of working time, 29.5 hours, One Earth Fund 22.0% → 19.8%): `v79/outputs/time_account.json`; rule 35.
+- Money-cap thermostat (shocks, ±10% limit, 88% fall without it): `v79/RESEARCH_NOTE.md` §4; `v79/outputs/thermostat.json`.
 - Digital payments and leakage in India: `v69/evidence/evidence.md`.
 - Summary of the money results: `v67/WORKING_PAPER_02.md`, section 4.
 - Transition rules, debts (including the UNCTAD 3.3 billion figure: UNCTAD, *A World of Debt*, 2023) and the German monetary union: `v72/TRANSITION_RULES.md`.

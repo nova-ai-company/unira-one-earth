@@ -9,7 +9,7 @@
 ## Part I additions
 
 **Article 3c — Models that cannot be secretly changed.** *(Follows Article 3b. Strengthens 3b.3 and 3b.6.)*
-1. Every model used by One Earth runs only in a published, signed version. The Audit Office rebuilds it each year from the public code and data before it is used, and checks that the running version is identical. [J]
+1. Every model used by One Earth runs only in a published, signed version. The Audit Authority rebuilds it each year from the public code and data before it is used, and checks that the running version is identical. [J]
 2. Every forecast used for an allocation plan comes from at least two models built by independent teams. If they disagree by more than their stated uncertainty, people decide by the manual procedure of Article 3b.6. [J]
 3. Each year the Scientific Council and outside experts from several regions try to manipulate the models and their data. Their report is public. [J]
 4. No model may score persons, rank their loyalty or behaviour, or select persons for sanctions, policing or audit. Audits of persons are chosen at random or by a published rule. [E 45, E 46]
@@ -43,7 +43,7 @@
 
    Weapons carry technical locks, so they cannot be used without these keys. [E 40, E 41]
 6. **No other armed body.** No body of One Earth or of a region may create any other armed force, guard or intelligence service with arms. The Protection Service is unarmed. [E 8, E 12]
-7. **Records.** Every key use, every movement of heavy weapons and every deployment is logged. The Inspector-General and the Audit Office check the logs. Summaries are published each year. [J]
+7. **Records.** Every key use, every movement of heavy weapons and every deployment is logged. The Inspector-General and the Audit Authority check the logs. Summaries are published each year. [J]
 
 *Basis: under nuclear two-person rules and permissive action links, no single person can arm a weapon (E 40, E 41). The coup literature shows that loyalty-based coup-proofing weakens forces (E 8). Ethnic stacking or purging provokes rebellion and coups (E 9, E 10). Counterbalancing defeats coups mainly because some soldiers resist (E 11). Creating new forces raises coup risk (E 12). A force mixed by rule, not by loyalty, applies these findings; the exact percentages are judgement.*
 
@@ -108,7 +108,7 @@
 
    [E 37, E 39 for feasibility; limits J]
 5. **Invoices name the seller, not the buyer.** For anonymous payments, the invoice of Article 12.2 names the seller and the goods, not the buyer. [E 39]
-6. **Offline.** Payments work offline, from person to person, with cash-like privacy. [E 37]
+6. **Offline.** Payments work offline, from person to person, with cash-like privacy. *(Superseded by the author's rule 38, 2026-11-03: UNIRA has no cash and only online payments. The constitution's 12a.6 now guarantees essential needs during network failures instead.)* [E 37]
 7. **Where data live.** Personal payment data stay in the region where the person lives. They are held on open-source, distributed systems run by at least three independent operators and audited every year. Bodies of One Earth receive only aggregated data, about groups of at least 1,000 people. [J]
 8. **Deletion.** Personal transaction details are deleted after 2 years, unless a court order covers them. Enterprise accounts are kept as the law requires. [J]
 9. **No scoring.** Payment data are never used to score, rank or punish people (Article 3c). [E 45]
@@ -135,7 +135,7 @@
 4. **The thermostat rule.** The cap moves each year by a published formula, within at most 10% up or down. The formula is based on the measured stock of unspent money compared with its target and on hours worked compared with need. Anyone can recompute the result from public data. [J; the formula itself is still a research item, see Article 17 notes]
 5. **One cap for everyone.** The same cap applies to every person in every region. [J]
 6. **Changing the rule.** The rule changes only by the procedure of Article 26a.3. A change never takes effect in the 12 months before an Assembly election. [J]
-7. The Audit Office checks each year's figure. If a figure differs from what the rule gives, the rule's figure applies, and the Court enforces it. [J]
+7. The Audit Authority checks each year's figure. If a figure differs from what the rule gives, the rule's figure applies, and the Court enforces it. [J]
 8. The Authority holds no personal payment data (Article 12a). [J]
 
 *Basis: political control of money is associated with worse outcomes (E 35), and committed rules beat discretion (E 36). These findings come from inflation-targeting central banks. The U has fixed prices, so the risk here is political use of the cap, not inflation. The evidence transfers by analogy only.*
@@ -151,11 +151,11 @@
    |---|---|
    | Law | Assembly of the Peoples and Council of Regions |
    | Executive | Coordination Council |
-   | Allocation | Allocation Council (Article 26a) |
+   | Allocation | Allocation Authority (Article 26a) |
    | Money | Monetary Authority (Article 17b) |
    | Armed force | Peace Force (Articles 5a–5c) |
    | Measuring needs | Statistical Office |
-   | Auditing | Audit Office |
+   | Auditing | Audit Authority |
    | Science | Scientific Council |
    | Judging | Court |
 
@@ -169,20 +169,20 @@
    | Assembly of the Peoples | Elected directly (Article 23) |
    | Council of Regions | Chosen by the regions (Article 24) |
    | Coordination Council | Elected by the Assembly (Article 27) |
-   | Allocation Council | Elected by the Council of Regions by double majority |
+   | Allocation Authority | Elected by the Council of Regions by double majority |
    | Monetary Authority | Appointed by the Court from a Scientific Council shortlist |
    | Inspector-General of the Force | Appointed by the Court |
    | Command Board of the Force | Elected by the Council of Regions by double majority, from a list checked by the Inspector-General |
    | Statistical Office head | Elected by two-thirds of the Assembly from a Scientific Council shortlist; one 7-year term |
-   | Audit Office board | Drawn by lot from auditors nominated by regional audit bodies, then confirmed by the Assembly |
+   | Audit Authority board | Drawn by lot from auditors nominated by regional audit bodies, then confirmed by the Assembly |
    | Scientific Council | Drawn by lot from scientists nominated by regional academies, with every region and discipline represented |
    | Citizens' assemblies | Drawn by lot (Article 32b) |
 
    [J; E 31–E 34 for lot]
-5. Each body's budget is a share fixed by law, which can be cut only by the procedure of Article 42b. The Court's and the Audit Office's budgets are fixed in this Constitution. [J]
+5. Each body's budget is a share fixed by law, which can be cut only by the procedure of Article 42b. The Court's and the Audit Authority's budgets are fixed in this Constitution. [J]
 
 **Article 26a — Allocation without favour.** *(Follows Article 26. Replaces 26.3 and limits Article 38.)*
-1. The Allocation Council has nine members from different continents, elected for one 5-year term (Article 22a). [J]
+1. The Allocation Authority has nine members from different continents, elected for one 5-year term (Article 22a). [J]
 2. **Needs only.** The formula of Article 10 depends only on measured needs and population. No allocation may depend on how a region or its people vote, on their politics or opinions, or on loyalty to any body. [J, Article 2]
 3. **Changing the formula** needs:
    - two-thirds of the Assembly;
@@ -193,14 +193,14 @@
    A change takes effect only after the next Assembly election. [J]
 4. **Formula against actual.** Each year the Register (Article 33) shows, for every region, what the formula gives and what was allocated. A region whose gap exceeds 2% receives reasons within 30 days. Any region or citizen may ask the Court to correct it. [E: Article 33 basis, Reinikka & Svensson in the v75 draft; 2% is J]
 5. **Discretionary allocations** are at most 2% of the yearly total and follow a published rule. Loss of priority under Article 38 needs a ruling of the Court. [J]
-6. **Honest statistics.** The Statistical Office publishes its raw data and code. The Audit Office and any region may replicate its figures. A difference of more than 5% goes to the Court. [J]
+6. **Honest statistics.** The Statistical Office publishes its raw data and code. The Audit Authority and any region may replicate its figures. A difference of more than 5% goes to the Court. [J]
 7. No region's allocation is cut as a sanction except by ruling of the Court. It never falls below what Article 6 requires. [J, Article 9]
 
 **Article 30a — Limits on office.** *(Follows Article 30. Adds to 30.1–30.3.)*
 1. **Terms.** No person holds a One Earth office for more than 10 years in a lifetime. Executive, allocation, monetary, command and judicial offices are held for one term only. [E 15–E 20; durations J]
 2. **No benefit to oneself.** A change to the length of terms, the number of terms or the pay of an office never applies to anyone holding that office, or elected to it, when the change is adopted. [E 16, E 20]
 3. **Pay.** Office-holders are paid within the Article 14 scale, from 1 to 5 times the base salary. They receive no other income and no gifts above a small value fixed by law. [J, direction D]
-4. **Assets.** Office-holders declare their assets, and those of their household, each year while in office and for 5 years after. The Audit Office checks the declarations and they are published. [J]
+4. **Assets.** Office-holders declare their assets, and those of their household, each year while in office and for 5 years after. The Audit Authority checks the declarations and they are published. [J]
 5. **After office.** For 5 years after leaving office, no one may:
    - lobby the body they served in;
    - work for a region or enterprise they decided about.
@@ -334,7 +334,7 @@
 ## Transitional addition
 
 **T-7. Safeguards before power.** *(Follows T-6. Strengthens Article 5a.5.)*
-1. The Court, the Audit Office, the Inspector-General, the Democracy Monitor and the Citizens' Council are in place before the first Force unit is formed, before the U is issued and before the first allocation. [E 12, E 23]
+1. The Court, the Audit Authority, the Inspector-General, the Democracy Monitor and the Citizens' Council are in place before the first Force unit is formed, before the U is issued and before the first allocation. [E 12, E 23]
 2. In its first 5 years the Force does not exceed 250,000 members. [J]
 3. National armies are dissolved by the same rules of mixing, so no group is stacked into the Force or purged from it. Every former soldier is offered work, training and full income (Article 5.3). [E 9, E 10]
 

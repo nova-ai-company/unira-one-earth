@@ -52,7 +52,7 @@ We, the people of the Earth, one humanity in many regions, cultures and language
 *Basis: V7.8 (`v78/RESEARCH_NOTE.md`).*
 
 **Article 3c — Models that cannot be secretly changed.** *(Follows Article 3b. Strengthens 3b.3 and 3b.6.)*
-1. Every model used by One Earth runs only in a published, signed version. The Audit Office rebuilds it each year from the public code and data before it is used, and checks that the running version is identical.
+1. Every model used by One Earth runs only in a published, signed version. The Audit Authority rebuilds it each year from the public code and data before it is used, and checks that the running version is identical.
 2. Every forecast used for an allocation plan comes from at least two models built by independent teams. If they disagree by more than their stated uncertainty, people decide by the manual procedure of Article 3b.6.
 3. Each year the Scientific Council and outside experts from several regions try to manipulate the models and their data. Their report is public.
 4. No model may score persons, rank their loyalty or behaviour, or select persons for sanctions, policing or audit. Audits of persons are chosen at random or by a published rule.
@@ -170,7 +170,7 @@ We, the people of the Earth, one humanity in many regions, cultures and language
 
    Weapons carry technical locks, so they cannot be used without these keys.
 6. **No other armed body.** No body of One Earth or of a region may create any other armed force, guard or intelligence service with arms. The Protection Service is unarmed.
-7. **Records.** Every key use, every movement of heavy weapons and every deployment is logged. The Inspector-General and the Audit Office check the logs. Summaries are published each year.
+7. **Records.** Every key use, every movement of heavy weapons and every deployment is logged. The Inspector-General and the Audit Authority check the logs. Summaries are published each year.
 
 *Basis: under nuclear two-person rules and permissive action links, no single person can arm a weapon (v79/power evidence rows 40, 41). The coup literature shows that loyalty-based coup-proofing weakens forces (v79/power evidence row 8). Ethnic stacking or purging provokes rebellion and coups (v79/power evidence rows 9, 10). Counterbalancing defeats coups mainly because some soldiers resist (v79/power evidence row 11). Creating new forces raises coup risk (v79/power evidence row 12). A force mixed by rule, not by loyalty, applies these findings; the exact percentages are judgement.*
 
@@ -283,12 +283,12 @@ Surplus beyond a region's needs goes to the One Earth Fund for sharing.
 4. Each region keeps studied, rotated reserves against catastrophes.
 
 **Article 12 — One currency, the U.**
-1. One Earth has one digital currency, the U, with no physical cash.
+1. One Earth has one digital currency, the U. There is no cash of any kind: no banknotes, no coins. Every payment is digital and made online.
 2. Every commercial transaction carries a verifiable invoice through the global transaction network. Personal gifts need none.
 3. The system guarantees:
     - privacy;
     - access without a smartphone;
-    - offline operation;
+    - access everywhere, through several independent networks, so that no single failure stops payments;
     - independent oversight;
     - the right to appeal.
 
@@ -296,17 +296,17 @@ Surplus beyond a region's needs goes to the One Earth Fund for sharing.
 1. **No freeze without a judge.** An account may be frozen, seized or restricted only by the order of a court, for a named person, a stated offence and a limited time. The person is told and may appeal. No administrative body, emergency or model may do it.
 2. **Needs are never blocked.** Even under a court order, every person can always pay for food, home, health, energy and transport at the level of Article 6.
 3. **No data without a judge.** Personal payment data are opened only by a court order about a named person. Every access is logged. The person is told after the investigation ends, and at the latest after one year. The number of accesses is published each year.
-4. **Anonymous everyday payments.**
+4. **Private everyday payments.**
    - Everyday payments by a person are anonymous to everyone except the payer, up to a limit per payment and per month.
    - The starting limits are 200 U per payment and 2,000 U per month. The Monetary Authority adjusts them by published rule.
    - The limits are never lowered in the 12 months before an election.
 5. **Invoices name the seller, not the buyer.** For anonymous payments, the invoice of Article 12.2 names the seller and the goods, not the buyer.
-6. **Offline.** Payments work offline, from person to person, with cash-like privacy.
+6. **Always online, never stranded.** All payments are online; there are no offline payment devices. If the network fails in a region, food, health care, energy, housing and transport under Article 6 continue to be provided to everyone, and are recorded when the network returns.
 7. **Where data live.** Personal payment data stay in the region where the person lives. They are held on open-source, distributed systems run by at least three independent operators and audited every year. Bodies of One Earth receive only aggregated data, about groups of at least 1,000 people.
 8. **Deletion.** Personal transaction details are deleted after 2 years, unless a court order covers them. Enterprise accounts are kept as the law requires.
 9. **No scoring.** Payment data are never used to score, rank or punish people (Article 3c).
 
-*Basis: the ECB's digital euro design gives cash-like privacy offline and stops the issuer linking online payments to users (v79/power evidence row 37). BIS Project Tourbillon shows cash-like payer anonymity is technically feasible (v79/power evidence row 39). In Canada in 2022, accounts were frozen without a judge under emergency powers, and a court later found this violated the right against unreasonable search and seizure (v79/power evidence row 27).*
+*Basis: the ECB's digital euro design shows that a central digital currency can keep everyday payments private from the issuer (v79/power evidence row 37), and BIS Project Tourbillon shows that payer anonymity is technically feasible in a fully digital system (row 39). In Canada in 2022, accounts were frozen without a judge under emergency powers, and a court later found this violated the right against unreasonable search and seizure (row 27).*
 
 **Article 13 — Fixed prices.**
 1. Prices of essentials are fixed permanently.
@@ -337,21 +337,26 @@ Surplus beyond a region's needs goes to the One Earth Fund for sharing.
 
 **Article 17 — Savings and the money cap.**
 1. Savings are free and protected, up to a personal money cap set each year by the Monetary Authority under Article 17b, so that people keep working to produce what is needed.
-4. **The cap applies only to savings held, never to salary or spending.** Every person always receives their full salary and may spend it.
-5. **A moderate cap.** The cap is never below one and a half years of base salary (90,000 U).
-6. **Protected accounts outside the cap.** Every person may also hold, outside the cap:
+2. **The cap applies only to savings held, never to salary or spending.** Every person always receives their full salary and may spend it.
+3. **A moderate cap.** The cap is never below one and a half years of base salary (90,000 U).
+4. **Protected accounts outside the cap.** Every person may also hold, outside the cap:
     - a **home account**, until they own a home, of up to 150,000 U, used to buy or build it;
-    - a **retirement account** of up to 120,000 U, paid out evenly from retirement as income on top of the needs-based pension.
+    - a **retirement account** of up to 120,000 U, paid out evenly from retirement as income on top of the needs-based pension;
+    - a **time account**, for salaried people, of up to 13 weeks of their own pay, used for paid leave of at most 2 weeks a year or saved for a sabbatical of up to 3 months. In jobs where the region lacks workers, the time is banked and taken later.
+5. **Order.** Savings first fill the free account up to the cap. Money above the cap then fills the home, retirement and time accounts, in that order. Only what remains, including large inheritances, goes to the One Earth Fund. The limits are fixed by law and published. If total hours worked fall below the region's needs, the time-account limit is lowered automatically.
+6. Homes are not money and are never taken.
 
-    - a **time account**, for salaried people, of up to 13 weeks of their own pay, used for paid leave of at most 2 weeks a year, or saved for a sabbatical of up to 3 months. In jobs where the region lacks workers, the time is banked and taken later.
+*Evidence (V7.9, `v79/money/cap_level.py`, with home, retirement and time accounts):*
 
-   Money above the cap fills these accounts in this order: home, retirement, time. Only what remains goes to the One Earth Fund. The limits are fixed by law and published. If total hours worked fall below the region's needs, the time-account limit is lowered automatically.
+| Cap (years of base salary) | Adults who reach the cap | Adults who lose money to the Fund | Extra demand in a spending rush |
+|---|---|---|---|
+| 1.4 (automatic) | 61% | 46% | +25% of a year's goods |
+| **1.5** | **40%** | **30%** | **+26%** |
+| 2 | 38% | 30% | +34% |
+| 3 | 36% | 28% | +50% |
+| 5 | 29% | 19% | +78% |
 
-*Evidence (V7.9, `v79/money/cap_level.py`): raising the cap from about 1.4 to 1.5 years of base salary lowers the share of adults who reach it from 61% to 40%, while the extra demand from a sudden spending rush rises only from 25% to 26% of a year's goods. Higher caps barely reduce that share (38% at 2 years, 29% at 5) but raise the rush risk sharply (+35% at 2 years, +79% at 5), which fixed prices would turn into shortages. Protected accounts cannot be spent in a rush. A person can therefore keep up to 360,000 U of savings, and no salaried person was blocked from a first home in any case tested. A time account of 2 weeks a year costs 1.8% of working time (about 29.5 instead of 30 hours a week on average) and lowers the One Earth Fund's income from 22.0% to 19.8% of consumption (`v79/money/time_account.py`).*
-2. Money above the cap, including large inheritances, goes to the One Earth Fund.
-3. Homes are not money and are never taken.
-
-*Evidence: without a cap, unspent money grows without limit at fixed prices; with it, money stays stable and about a fifth of a rich region's consumption value flows to the One Earth Fund each year (V6.4).*
+*Higher caps protect a few more savers but sharply raise the risk of empty shelves at fixed prices; protected accounts cannot be spent in a rush. A person can keep up to 360,000 U plus their time account. No salaried person was blocked from a first home in any case tested. The time account (2 weeks a year) costs 1.8% of working time and lowers the One Earth Fund's income from 22.0% to 19.8% of consumption (`v79/money/time_account.py`). Without any cap, unspent money grows without limit at fixed prices (V6.4).*
 
 **Article 17a — The One Earth Fund.**
 1. The One Earth Fund receives:
@@ -381,10 +386,10 @@ Surplus beyond a region's needs goes to the One Earth Fund for sharing.
    - lend;
    - create U except by published rule;
    - treat any person, enterprise or region differently from others.
-4. **The thermostat rule.** Each year the cap is multiplied by the square root of (target stock of unspent money ÷ actual stock), within at most 10% up or down, and never set below the moderate cap of Article 17.5. The target is set by law (12 months of the region's consumption in the research model). Anyone can recompute the result from public data.
+4. **The thermostat rule.** Each year the cap is multiplied by the square root of (target stock of unspent money ÷ actual stock), within at most 10% up or down, and never set below the moderate cap of Article 17.3. The target is set by law (12 months of the region's consumption in the research model). Anyone can recompute the result from public data.
 5. **One cap for everyone.** The same cap applies to every person in every region.
 6. **Changing the rule.** The rule changes only by the procedure of Article 26a.3. A change never takes effect in the 12 months before an Assembly election.
-7. The Audit Office checks each year's figure. If a figure differs from what the rule gives, the rule's figure applies, and the Court enforces it.
+7. The Audit Authority checks each year's figure. If a figure differs from what the rule gives, the rule's figure applies, and the Court enforces it.
 8. The Authority holds no personal payment data (Article 12a).
 
 *Basis: political control of money is associated with worse outcomes (v79/power evidence row 35), and committed rules beat discretion (v79/power evidence row 36). These findings come from inflation-targeting central banks. The U has fixed prices, so the risk here is political use of the cap, not inflation. The evidence transfers by analogy only.*
@@ -451,11 +456,11 @@ Income, wealth and any offer to pay more are never taken into account.
    |---|---|
    | Law | Assembly of the Peoples and Council of Regions |
    | Executive | Coordination Council |
-   | Allocation | Allocation Council (Article 26a) |
+   | Allocation | Allocation Authority (Article 26a) |
    | Money | Monetary Authority (Article 17b) |
    | Armed force | Peace Force (Articles 5a–5c) |
    | Measuring needs | Statistical Office |
-   | Auditing | Audit Office |
+   | Auditing | Audit Authority |
    | Science | Scientific Council |
    | Judging | Court |
 2. No person is a member of two of these bodies.
@@ -467,15 +472,15 @@ Income, wealth and any offer to pay more are never taken into account.
    | Assembly of the Peoples | Elected directly (Article 23) |
    | Council of Regions | Chosen by the regions (Article 24) |
    | Coordination Council | Elected by the Assembly (Article 27) |
-   | Allocation Council | Elected by the Council of Regions by double majority |
+   | Allocation Authority | Elected by the Council of Regions by double majority |
    | Monetary Authority | Appointed by the Court from a Scientific Council shortlist |
    | Inspector-General of the Force | Appointed by the Court |
    | Command Board of the Force | Elected by the Council of Regions by double majority, from a list checked by the Inspector-General |
    | Statistical Office head | Elected by two-thirds of the Assembly from a Scientific Council shortlist; one 7-year term |
-   | Audit Office board | Drawn by lot from auditors nominated by regional audit bodies, then confirmed by the Assembly |
+   | Audit Authority board | Drawn by lot from auditors nominated by regional audit bodies, then confirmed by the Assembly |
    | Scientific Council | Drawn by lot from scientists nominated by regional academies, with every region and discipline represented |
    | Citizens' assemblies | Drawn by lot (Article 32b) |
-5. Each body's budget is a share fixed by law, which can be cut only by the procedure of Article 42b. The Court's and the Audit Office's budgets are fixed in this Constitution.
+5. Each body's budget is a share fixed by law, which can be cut only by the procedure of Article 42b. The Court's and the Audit Authority's budgets are fixed in this Constitution.
 
 **Article 23 — The Assembly of the Peoples.**
 1. The Assembly has 1,000 members, elected every 5 years by direct, secret, universal vote.
@@ -500,7 +505,7 @@ Income, wealth and any offer to pay more are never taken into account.
 3. Changing the formula requires a law under Article 25.
 
 **Article 26a — Allocation without favour.** *(Follows Article 26. Replaces 26.3 and limits Article 38.)*
-1. The Allocation Council has nine members from different continents, elected for one 5-year term (Article 22a).
+1. The Allocation Authority has nine members from different continents, elected for one 5-year term (Article 22a).
 2. **Needs only.** The formula of Article 10 depends only on measured needs and population. No allocation may depend on how a region or its people vote, on their politics or opinions, or on loyalty to any body.
 3. **Changing the formula** needs:
    - two-thirds of the Assembly;
@@ -511,7 +516,7 @@ Income, wealth and any offer to pay more are never taken into account.
    A change takes effect only after the next Assembly election.
 4. **Formula against actual.** Each year the Register (Article 33) shows, for every region, what the formula gives and what was allocated. A region whose gap exceeds 2% receives reasons within 30 days. Any region or citizen may ask the Court to correct it.
 5. **Discretionary allocations** are at most 2% of the yearly total and follow a published rule. Loss of priority under Article 38 needs a ruling of the Court.
-6. **Honest statistics.** The Statistical Office publishes its raw data and code. The Audit Office and any region may replicate its figures. A difference of more than 5% goes to the Court.
+6. **Honest statistics.** The Statistical Office publishes its raw data and code. The Audit Authority and any region may replicate its figures. A difference of more than 5% goes to the Court.
 7. No region's allocation is cut as a sanction except by ruling of the Court. It never falls below what Article 6 requires.
 
 **Article 27 — The Coordination Council (executive).**
@@ -532,7 +537,7 @@ Income, wealth and any offer to pay more are never taken into account.
 1. **Terms.** No person holds a One Earth office for more than 10 years in a lifetime. Executive, allocation, monetary, command and judicial offices are held for one term only.
 2. **No benefit to oneself.** A change to the length of terms, the number of terms or the pay of an office never applies to anyone holding that office, or elected to it, when the change is adopted.
 3. **Pay.** Office-holders are paid within the Article 14 scale, from 1 to 5 times the base salary. They receive no other income and no gifts above a small value fixed by law.
-4. **Assets.** Office-holders declare their assets, and those of their household, each year while in office and for 5 years after. The Audit Office checks the declarations and they are published.
+4. **Assets.** Office-holders declare their assets, and those of their household, each year while in office and for 5 years after. The Audit Authority checks the declarations and they are published.
 5. **After office.** For 5 years after leaving office, no one may:
    - lobby the body they served in;
    - work for a region or enterprise they decided about.
@@ -725,7 +730,7 @@ Income, wealth and any offer to pay more are never taken into account.
 **T-6. Protecting production.** New members keep their productive capacity running through transitional support from the union.
 
 **T-7. Safeguards before power.** *(Follows T-6. Strengthens Article 5a.5.)*
-1. The Court, the Audit Office, the Inspector-General, the Democracy Monitor and the Citizens' Council are in place before the first Force unit is formed, before the U is issued and before the first allocation.
+1. The Court, the Audit Authority, the Inspector-General, the Democracy Monitor and the Citizens' Council are in place before the first Force unit is formed, before the U is issued and before the first allocation.
 2. In its first 5 years the Force does not exceed 250,000 members.
 3. National armies are dissolved by the same rules of mixing, so no group is stacked into the Force or purged from it. Every former soldier is offered work, training and full income (Article 5.3).
 
@@ -741,5 +746,5 @@ Income, wealth and any offer to pay more are never taken into account.
     - How the money cap is set each year (Article 17).
 
 - **V7.9 (2026-11-03): the missing designs and power safeguards added** — Articles 3c, 3d, 5b, 5c, 6a, 9a, 10a, 12a, 17b, 22a, 26a, 30a, 32a, 32b, 39a, 41a, 42a, 42b, T-7; amendments to 5a, 13, 17 and 18. Evidence and the stress test of 13 attack scenarios are in `v79/`.
-- **Decided by the author on the research's recommendation (2026-11-03):** a time account of at most 2 weeks a year (sabbatical up to 3 months), paused in shortage jobs (Article 17.6); an open housing lottery of 10%, at most 20% by regional choice (Article 18.8); health need weighted by age and disease burden together (Article 10a.3). Still to confirm with data: the account limits (150,000 U home, 120,000 U retirement, 13 weeks).
-- **Decided by the author (2026-11-03):** a moderate money cap with protected home and retirement accounts. The research set the floor at 1.5 years of base salary (Article 17.5–17.6), and the author confirmed it after comparing 3- and 5-year caps: with all protected accounts, 30% of adults lose some money at 1.5 years, against 19% at 5 years, but a sudden spending rush would create shortages three times larger at 5 years.
+- **Decided by the author on the research's recommendation (2026-11-03):** a time account of at most 2 weeks a year (sabbatical up to 3 months), paused in shortage jobs (Article 17.4); an open housing lottery of 10%, at most 20% by regional choice (Article 18.8); health need weighted by age and disease burden together (Article 10a.3). Still to confirm with data: the account limits (150,000 U home, 120,000 U retirement, 13 weeks).
+- **Decided by the author (2026-11-03):** a moderate money cap with protected home and retirement accounts. The research set the floor at 1.5 years of base salary (Article 17.3–17.5), and the author confirmed it after comparing 3- and 5-year caps: with all protected accounts, 30% of adults lose some money at 1.5 years, against 19% at 5 years, but a sudden spending rush would create shortages three times larger at 5 years.

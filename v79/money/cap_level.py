@@ -24,12 +24,14 @@ RUSH_SHARE = 0.25
 SEEDS = (1, 2, 3)
 
 
-def run(cfg, floor, accounts, seed):
+def run(cfg, floor, accounts, seed, time_weeks=0):
     c = rl.sim_config(cfg, 0.0, True, "cap_low_credit")
     c["cap_floor_years"] = floor
     c["cap_max_change"] = 0.10
     if accounts:
         c["home_account_max"], c["retirement_account_max"] = HOME_MAX, RET_MAX
+    if time_weeks:
+        c["time_account_weeks_per_year"], c["time_account_max_weeks"] = time_weeks, 13
     rows, people = rl.lifecycle.simulate(c, seed, return_people=True)
     last = rows[-1]
     wealth = sorted((p.dep + p.home_acc + p.ret_acc for p in people), reverse=True)
@@ -37,6 +39,7 @@ def run(cfg, floor, accounts, seed):
     return {"free_money_months": last["deposits_months_of_consumption"],
             "protected_months": last["protected_accounts_months_of_consumption"],
             "share_at_cap": sum(r["share_at_cap"] for r in tail) / len(tail),
+            "share_losing_money_to_fund": sum(r["share_losing_money_to_fund"] for r in tail) / len(tail),
             "one_earth_inflow_share_of_consumption": sum(r["to_one_earth_cap"] + r["to_one_earth_inheritance"] for r in tail)
             / sum(r["consumption"] for r in tail),
             "top10_share_of_money": sum(wealth[:len(wealth) // 10]) / sum(wealth),
@@ -50,13 +53,13 @@ def main():
     cfg = json.loads((U / "v64" / "config" / "circuit_config.json").read_text())
     res = {"home_account_max_u": HOME_MAX, "retirement_account_max_u": RET_MAX, "rush_share": RUSH_SHARE, "results": {}}
     for floor in (1.0, 1.5, 2.0, 3.0, 5.0):
-        for accounts in (False, True):
-            runs = [run(cfg, floor, accounts, s) for s in SEEDS]
+        for accounts, weeks, label in ((False, 0, "no_accounts"), (True, 0, "accounts"), (True, 2, "accounts_time")):
+            runs = [run(cfg, floor, accounts, s, weeks) for s in SEEDS]
             avg = {k: sum(r[k] for r in runs) / len(runs) for k in runs[0]}
-            key = f"cap_{floor:g}y/{'accounts' if accounts else 'no_accounts'}"
+            key = f"cap_{floor:g}y/{label}"
             res["results"][key] = avg
             print(f"{key:24s} free {avg['free_money_months']:5.1f} m | protected {avg['protected_months']:4.1f} m | "
-                  f"at cap {100 * avg['share_at_cap']:3.0f}% | to One Earth {100 * avg['one_earth_inflow_share_of_consumption']:4.1f}% | "
+                  f"at cap {100 * avg['share_at_cap']:3.0f}% | losing {100 * avg['share_losing_money_to_fund']:3.0f}% | to One Earth {100 * avg['one_earth_inflow_share_of_consumption']:4.1f}% | "
                   f"top10 {100 * avg['top10_share_of_money']:3.0f}% | rush +{avg['rush_extra_demand_pct_of_year']:4.1f}% | "
                   f"cap {avg['cap_years']:.2f}y | blocked {avg['first_homes_blocked_by_cap']:.0f}")
     (HERE.parent / "outputs").mkdir(exist_ok=True)

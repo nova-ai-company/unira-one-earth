@@ -168,7 +168,7 @@ Add after Article 18.6:
 >
 > Income, wealth and any offer to pay more are never taken into account.
 >
-> **8. Public lottery.** Applicants whose points fall in the same published band are ranked by a public lottery, drawn once a year for all zones together. A region may reserve up to three-tenths of these homes for an open lottery among all applicants. No one may buy, sell or transfer a place in the ranking.
+> **8. Public lottery.** Applicants whose points fall in the same published band are ranked by a public lottery, drawn once a year for all zones together. One-tenth of these homes go to an open lottery among all applicants; a region may raise this to at most one-fifth (author's decision, rule 36; see `open_share.py`). No one may buy, sell or transfer a place in the ranking.
 >
 > **9. Must live in.** In a zone declared high-demand, a home must be the main residence of the household that holds it. It may not be left empty, used as a second home, or let out whole. A home left empty for more than six months without a recognised reason (care, study, work posting, repair) returns to the regional pool. The second home allowed by Article 18.2 may not be in a high-demand zone.
 >

@@ -19,7 +19,7 @@ The author approved six design proposals on 2026-11-03. Each is tested here, and
 
 **Formula:**
 1. Each region's gap is (target − level) × population.
-2. Health need is adjusted for age: people aged 65 and over count 3×. This is an assumption to calibrate.
+2. Health need is adjusted for age: people aged 65 and over count 3×. This is an assumption to calibrate. *Superseded by rule 37: health need is now weighted by age and disease burden together (`health_need/`).*
 3. New capacity first closes every region's gap to the **decent** level (15.3 GJ, 44.5 health workers per 10,000, 15 m²). It then goes to the **comfortable** gaps (40 GJ, 131, 27 m²).
 4. Both passes use needs-first water-filling.
 
@@ -75,7 +75,7 @@ The author approved six design proposals on 2026-11-03. Each is tested here, and
 **Rule:**
 - each year, cap ← cap × (target ÷ actual deposits)^0.5;
 - the change is limited to **±10% a year**;
-- the cap is never below 1 year of base salary;
+- the cap is never below 1 year of base salary in this test (the chosen design uses 1.5 years; see 4b);
 - the target is total deposits of 12 months of consumption.
 
 **Test:** 6,000 people over 60 years (v64 lifecycle model), 3 seeds. Shocks hit at year 40, after the cap has phased in from its initial 10 years of salary.
@@ -141,7 +141,7 @@ Simulated city: centre and seaside oversubscribed 2.5 to 1, 30 years, several se
 - The must-live-in rule cuts empty desirable homes from 6–32% to under 0.5%.
 - Building 25% more raises high-need access to 39%.
 - The queue's 9.7-year wait is close to Stockholm (9 years) and Amsterdam (10.7 years), but the model was not calibrated to them.
-- Constitution Article 18.7–18.11. **Open author decision:** a region's open-lottery reserve of up to 30%.
+- Constitution Article 18.7–18.11. **Author's decision (rule 36):** 10% of desirable homes go to an open lottery, at most 20% by regional choice. In `housing/open_share.py`, each extra 10% open costs high-need households about 1.2 points (28.3% → 27.1% housed within 5 years at 10%) and gives low-need households about 2.5 points (0.1% → 2.6%).
 
 ## 5. Motivation and innovation without profit (`innovation/`, agent-built, checked)
 
@@ -203,3 +203,27 @@ The five missing mechanisms now have tested, published designs, and the constitu
 3. a fixed price per hour would penalise innovators, so they keep part of the hours they save.
 
 The constitution now has 66 articles. All results remain model-based. A real pilot is the next test.
+
+## Health-need weighting (`health_need/weights.py`, rule 37)
+
+Healthy life expectancy comes from WHO (WHOSIS_000002, latest year). Gap = 88 − HALE. All-cause DALYs by country are not available as open, redistributable data.
+
+| weighting | new health workers to Sub-Saharan Africa | per 10,000 by year 30: Africa / Europe | every region decent by |
+|---|---|---|---|
+| equal | 33% | 131 / 141 | year 7 |
+| age only (65+ count 3×) | 30% | 116 / 151 | year 6 |
+| healthy-life gap | 39% | 164 / 136 | year 7 |
+| **age + disease burden (chosen)** | **35%** | **142 / 141** | year 7 |
+
+- Age alone would move care away from young regions with the most disease.
+- The combined weighting brings Africa and Europe to the same density.
+- Person-years below each region's (weighted) decent level rise from 27.1 to 30.6 billion, because high-burden regions get higher targets. The measure is not comparable across weightings.
+
+## Time account (`money/time_account.py`, rule 35)
+
+| limit | working time lost | equivalent weekly hours | One Earth Fund income |
+|---|---|---|---|
+| none | 0% | 30.0 | 22.0% of consumption |
+| 1 week/yr | 0.9% | 29.7 | 20.9% |
+| **2 weeks/yr (chosen)** | **1.8%** | **29.5** | **19.8%** |
+| 4 weeks/yr | 3.5% | 28.9 | 17.6% |

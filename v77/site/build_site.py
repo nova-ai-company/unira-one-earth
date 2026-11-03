@@ -36,6 +36,11 @@ def main():
                       (U / "v75" / "constitution" / "UNIRA_Constitution_Draft.docx", "UNIRA_Constitution_Draft.docx")):
         if src.exists():
             shutil.copy(src, DOCS / "downloads" / name)
+    pilot = U / "v80" / "pilot"
+    if (pilot / "PILOT_PLAN.md").exists():
+        body = md_to_html((pilot / "PILOT_SUMMARY.md").read_text(encoding="utf-8")) + "<hr>" + \
+            md_to_html((pilot / "PILOT_PLAN.md").read_text(encoding="utf-8"))
+        (DOCS / "pilot.html").write_text(page("UNIRA Pilot Proposal", body, 860), encoding="utf-8")
     review = U / "v77" / "review"
     if (review / "REVIEW_INDEX.html").exists():
         shutil.copy(review / "REVIEW_INDEX.html", DOCS / "review.html")
@@ -50,6 +55,7 @@ tested against real data. Everything here is open: the data, the code, the resul
 <div class='tile'><b><a href='constitution.html'>Constitution</a></b><span>Draft Constitution of One Earth</span></div>
 <div class='tile'><b><a href='book.html'>Book draft</a></b><span>UNIRA: One Humanity, One Future</span></div>
 <div class='tile'><b><a href='review.html'>For reviewers</a></b><span>Review brief, questions and feedback form</span></div>
+<div class='tile'><b><a href='pilot.html'>Pilot proposal</a></b><span>A 30-hour, full-employment town, tested against UNIRA's predictions</span></div>
 </div>
 <h2>Take part</h2>
 <p>This is research in progress, published so that anyone can check it, criticise it and improve it.

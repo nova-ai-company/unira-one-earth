@@ -260,7 +260,7 @@ That is why the teacher in Lille sees a meter by the door. It is not there to pu
 
 The draft constitution turns these findings into law. Article 21 says that total energy use, emissions, materials, land and water "stay within limits set from the best science". It adds that regions using more than a comfortable level of energy reduce their use each year, while regions below it rise.
 
-Article 10 says that new energy systems go to regions by measured need and number of people, needs first. Article 6 guarantees everyone "energy, transport and digital access sufficient for a comfortable life".
+Article 10 says that new energy systems go to regions by measured need and number of people, needs first. Article 10a adds that every region is first brought to the decent level, **15.3 GJ**, before new capacity goes towards the comfortable 40 GJ (Chapter 5). Article 6 guarantees everyone "energy, transport and digital access sufficient for a comfortable life".
 
 Together, these three articles are this chapter in legal form: enough for all, restraint at the top, and limits set by science.
 
@@ -273,7 +273,7 @@ It has never been done. The research says so plainly, and it is one of the large
 Because the limits are graded, not a single cliff edge. The budgets show it: about **490 Gt** for a 50% chance of staying under 1.7 °C, and about **1,050 Gt** for 2 °C. The 2 °C limit is still open. UNIRA's plan fits it comfortably, and fits 1.5 °C with a temporary overshoot.
 
 **"Will a cold country and a hot country really get the same 40 GJ?"**
-Not necessarily in practice. The 40 GJ is the planning level the research uses for every region. But the research also notes that its thresholds are not yet adjusted for climate or age. A cold, ageing region may need more heat. A hot one may need more cooling. How to adjust is still open.
+Not necessarily in practice. The 40 GJ is the planning level the research uses for every region. A cold region may need more heat, and a hot one more cooling. The allocation formula now allows for this: Article 10a says targets take account of real differences in need, such as climate and age, with each adjustment published and approved by the Scientific Council. But the research has not yet measured how large the climate adjustment for energy should be. That is still open.
 
 **"Why should the poorest wait while the rich cut slowly?"**
 They do not wait. Under the needs-first rule, each year's new clean energy goes first to the regions furthest below 40 GJ. Rich regions, already above 40 GJ, are cutting, not receiving. The cut at the top and the rise at the bottom happen at the same time.
@@ -319,4 +319,4 @@ That is a fair challenge. A decent life needs far less, about **15 GJ**. UNIRA c
 - 30-year transition, 409 EJ baseline, 3–4% yearly cut, gains and losses by region: `v67/WORKING_PAPER_02.md`, sections 6, 7 and 11.
 - Peak of 453 EJ without restraint, market comparison and today's clean-energy investment pattern: `v68/RESEARCH_NOTE.md`; `v68/verification/verification.md` (items 5, 7 and 1a). Safeguards result: `v67/WORKING_PAPER_02.md`, section 9.
 - Rebound, flat-rate heating and free transit: `v71/RESEARCH_NOTE.md`.
-- Constitutional text: `v75/constitution/UNIRA_CONSTITUTION_DRAFT.md`, Articles 6, 10, 19 and 21.
+- Constitutional text: `v75/constitution/UNIRA_CONSTITUTION_DRAFT.md`, Articles 6, 10, 10a, 19 and 21. Decent-first allocation: `v79/RESEARCH_NOTE.md` §1.

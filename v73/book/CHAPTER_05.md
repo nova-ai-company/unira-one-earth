@@ -1,6 +1,6 @@
 # Chapter 5 — One Earth, many regions
 
-*Second draft, 3 November 2026. Every figure comes from the UNIRA research (V6.3–V7.6) and the draft Constitution of One Earth, and is listed in the notes at the end of the chapter.*
+*Second draft, 3 November 2026, updated with V7.8–V7.9. Every figure comes from the UNIRA research (V6.3–V7.9) and the draft Constitution of One Earth, and is listed in the notes at the end of the chapter.*
 
 ---
 
@@ -189,23 +189,71 @@ Three separate bodies handle this, and none may do another's job.
 | **Allocation Authority** | Applies a public formula to those needs | No power to favour any region |
 | **Audit Authority** | Checks every region every year | Budget fixed by the constitution |
 
-Changing the formula takes a full law, passed by the two chambers described below.
+Changing the formula is deliberately hard. It needs two-thirds of the Assembly, a double majority of regions, a published opinion of the Scientific Council and review by a citizens' assembly drawn by lot. Even then, it takes effect only after the next Assembly election (Article 26a).
 
 **Resources are not allocated by politicians.** That is the point of the design. A minister cannot send an extra power station to a friendly region. The formula decides, and the register shows what it decided.
 
 ### What "needs first" means in practice
 
-In the research's 30-year world model, the rule is simple. Each year, new capacity goes first to the regions furthest below the comfortable level.
-
 Take energy. The comfortable level is **40 gigajoules** of final energy per person per year (Chapter 10). A region far below it receives new solar and wind first. A region above it receives none, and slowly reduces its use.
 
 Surplus beyond a region's needs goes to the One Earth Fund for sharing.
 
-### What is not yet decided
+### The formula, written down
 
-One honest gap must be named. The constitution sets the principle, needs first and by population. It does not yet give the exact formula. The author's notes list it as work still to be done.
+An earlier draft of this book had to admit a gap: the constitution set the principle, but not the formula. The formula is now written, in **Article 10a**. It has four steps.
+1. For each need (energy, health care, homes, food, education), a region's **gap** is the published target per person minus its measured level, times its population.
+2. Targets take account of real differences in need, such as age, climate, disability and remoteness. Each adjustment is published with its evidence and approved by the Scientific Council.
+3. **Health need** is weighted by the age of the population and by its burden of disease, in equal parts. Age alone is never used. Chapter 8 explains why.
+4. **Decent for everyone first.** New capacity first closes every region's gap to the *decent* level. Only then does it go to the *comfortable* level. Within each step, the largest gaps are served first, in proportion to need.
 
-That matters. A formula decides who gets what, and every region will study it closely. Chapter 16 lists it among the open questions.
+The decent levels are **15.3 GJ** of energy, **44.5** health workers per 10,000 people and **15 m²** of living space per person. The comfortable levels are 40 GJ, 131 health workers and 27 m².
+
+Why two steps? Because the research tested both versions in its 30-year world model, with the same resources. In the first version, all new capacity went towards the comfortable level from the start.
+
+| Same resources, 30-year world model | One step | **Decent first, then comfortable** |
+| --- | --- | --- |
+| Year every region has decent energy | 8 | **4** |
+| Year every region has decent health care | 12 | **7** |
+| Year every region has decent housing | 20 | **9** |
+| Person-years lived below decent energy | 12.7 billion | **8.4 billion** (−33%) |
+| Person-years lived below decent housing | 37.1 billion | **29.6 billion** (−20%) |
+| Comfortable gap closed by year 30 (energy / health / housing) | 100 / 100 / 50% | **100 / 100 / 50%** |
+
+Serving the decent level first roughly halves the wait until every region has decent energy, health care and housing. And it costs nothing on the comfortable goal. That is why the research recommended it, and why it is now the constitutional rule.
+
+The formula, its data and each year's results are published in the Public Allocation Register. Any region may challenge them before the Court.
+
+### Where to produce
+
+Article 10a also says where things are made: where it takes the fewest working hours, resources and transport, while giving every region productive work.
+
+The research tried this on food. Every region keeps a decent diet. The shortfalls of **39** regions are covered from the surpluses of **140**. Only about **1.4%** of the world's food supply needs to move at all.
+
+The question is how. If each surplus region simply sent food to every deficit region in proportion, the average calorie would travel about **8,420 km**. A planned route, matching nearest suppliers to nearest needs, cuts that to about **2,573 km**: **69% less transport**.
+
+There is a limit, and the research names it. The food data describe supply, not production, so some "surplus" regions are in fact importers. A real plan needs crop-by-crop production data and real transport networks.
+
+## A machine that advises, and people who decide
+
+How does One Earth know what each region will need next year? The author's rule is that an artificial-intelligence model, a machine-learning model, helps by default. The research tested that rule on real history before writing it into law.
+
+It asked the models to forecast needs from 2010 onward, using only data from before. Here is what it found.
+- **Needs are very predictable.** The number of people in a region was forecast one year ahead to within about **0.1%**, and five years ahead to within about **1%**. Food supply per person was within about **1%** one year ahead.
+- **Machine learning helps, a little.** It beat simple rules, such as "same as last year", for population, food and health workers. It did not beat them for short-term energy use, which today moves with prices, crises and weather.
+- **Information is not the bottleneck.** In the 30-year world model, errors in the data, whether from statistics or from forecasts, cost at most about **1%** of progress. Misreporting and theft cost about **12–19%**.
+- **The machine's real value is honesty.** If checks by the model helped cut theft from 8% to 4%, the share of the energy gap closed by year 15 would rise from **51.9%** to **55.6%**. That is far more than better forecasts could give. Whether the checks can really do this is an assumption, still to be tested.
+- **Fairness comes first.** Forecasts of health workers were **3–6 times** less accurate in low-income regions, because their statistics are thin. For nurses, they were also biased about 6% too low. A planner who trusted them would under-supply the poorest regions.
+
+So **Article 3b** sets conditions. The AI advises; people decide.
+- A model is used only if it predicts better than simple published rules, on data it has not seen. It is re-tested every year, in public.
+- Code, data and accuracy are open. No secret model may decide anything.
+- Every model is tested for each region and income group. A model that is worse for a region may not be used there until the gap is fixed. Better statistics in the poorest regions come first.
+- A responsible council decides, and must say why if it departs from the proposal. Anyone may go to the Court.
+- No model may decide on a person's rights, on sanctions or on the use of force. A manual procedure always exists.
+- Reserves are sized from the measured forecast errors.
+
+**Article 3c** adds locks against tampering. Every model runs only in a published, signed version, rebuilt each year by the Audit Authority. Each forecast used for allocation must come from at least two models built by independent teams. No model may score people, rank their loyalty or pick them for audit or policing, and none may use personal payment data.
 
 ## A tension to watch: one planner, many regions
 
@@ -270,7 +318,7 @@ There are no permanent seats, no vetoes, and no privileges of size, wealth or hi
 
 Rules like these are easier to follow with an example. The vote below is imagined. The thresholds and the tested numbers come from the research.
 
-Suppose a proposal is tabled to change the allocation formula. That needs a full law.
+Suppose an ordinary law is proposed. (Changing the allocation formula needs more, as described above.)
 
 **Step 1: the Assembly.** The 1,000 members debate and vote. A majority must vote yes.
 
@@ -303,19 +351,7 @@ So under the agreed rule, blocking a law takes at least **21 regions**. Passing 
 
 ### A closer look: how the voting rules were tested
 
-The voting tests were not opinions. They were calculations on real population figures for 2024, for all 217 regions and **8,117,484,624** people.
-
-The research also tried other thresholds, using raw population.
-
-| Thresholds (regions / population) | Fewest regions to pass | Fewest regions to block by population | Regions to block by count |
-| --- | --- | --- | --- |
-| **55% / 65%** (chosen) | **120** | 2 | 98 |
-| 55% / 60% | 120 | 4 | 98 |
-| 60% / 65% | 131 | 2 | 87 |
-
-Lowering the population threshold to 60% only raised the blocking group from two regions to four. Raising the regions threshold to 60% made laws harder to pass. Neither change removed the hidden veto. The square-root count did.
-
-The same tests show how the square root spreads power out. Counted raw, just **16** regions could meet the 65% population test on their own. Counted by square root, it takes **63**.
+The voting tests were calculations on real population figures for 2024, for all 217 regions and **8,117,484,624** people. The research also tried other thresholds with raw population. Lowering the population test to 60% only raised the smallest blocking group from two regions to four. Raising the regions test to 60% made laws harder to pass, needing 131 regions. Neither removed the hidden veto. The square-root count did. It also spreads power out: counted raw, just **16** regions could meet the 65% population test on their own; counted by square root, it takes **63**.
 
 One limit applies to all of this. The tests use population numbers. They do not model how real regions would vote, form alliances or trade favours.
 
@@ -332,21 +368,26 @@ Some things can never be changed. The guaranteed rights of Article 6 cannot be r
 
 ## Power divided, power rotated
 
-Power is split into six parts. No person or body may hold two of them:
-- making laws;
-- carrying them out;
-- allocating resources;
-- measuring needs;
-- auditing;
-- judging.
+Power is split into **nine** parts, each held by a separate body (Articles 22 and 22a):
+- making laws: the Assembly of the Peoples and the Council of Regions;
+- carrying them out: the Coordination Council;
+- allocating resources: the Allocation Authority, which runs the Allocation Authority's formula;
+- money: the Monetary Authority (Chapter 6);
+- armed force: the Peace Force;
+- measuring needs: the Statistical Office;
+- auditing: the Audit Authority;
+- science: the Scientific Council;
+- judging: the Court.
+
+No person may sit in two of these bodies, or move from one to another within three years. They are chosen in different ways, some by election, some by appointment, some by lot. And no body chooses the people who audit or judge it. Above all, **no body holds arms, money and allocation together.**
 
 The executive, the **Coordination Council**, has seven to fifteen members from different regions. The Assembly elects them for a single five-year term. The chair rotates every year, and no region may hold it twice in a row.
 
-The **Court of One Earth** protects rights, settles disputes between regions, and reviews laws and allocations against the constitution. Its judges serve one 12-year term. They come from all continents. Every person may bring a case.
+The **Court of One Earth** protects rights, settles disputes between regions, and reviews laws and allocations against the constitution. It has **21** judges, who serve one 12-year term and come from all continents. A third of them are replaced every four years, so no single majority appoints the whole Court. Every person may bring a case.
 
 No one may hold One Earth office for more than **10 years** in total. Every office-holder declares their assets publicly each year. They are under the same money cap as everyone else.
 
-Chapter 14 explains why each of these limits exists, and what the evidence says about power and its abuse.
+Chapter 14 explains why each of these limits exists, and how the research attacked its own constitution to find the gaps.
 
 ## One Earth owns the arms
 
@@ -383,7 +424,7 @@ A union of only the regions that gain would still work, at about half speed. Cha
 ## Questions a fair reader might ask
 
 **"Isn't a world government a tyranny waiting to happen?"**
-It could be, which is why the draft divides power six ways. Terms are single and short. Officials are under the money cap. The only armed force needs both a court and the regions to move. Regional governments cannot be dissolved except by the Court for a grave breach of rights. None of this proves the design is safe. It shows that the danger was designed against from the start.
+It could be, which is why the draft divides power nine ways. Terms are single and short. Officials are under the money cap. The only armed force needs both a court and the regions to move. Regional governments cannot be dissolved except by the Court for a grave breach of rights. None of this proves the design is safe. It shows that the danger was designed against from the start.
 
 **"Why should India accept 4.4% of the seats, when direct proportion would give it 16.5%?"**
 This is a real cost for India's people, and the book should not hide it. Under the square-root rule, a very large region gets far fewer seats per person than a small one. The constitution's reason is that the rule aims to give every citizen equal voting power in a union of regions. India still holds more seats than any other region, and an equal vote in the Council. Whether its people would accept the trade is a political question.
@@ -398,7 +439,10 @@ Some protections do not depend on any vote. No law, allocation decision, sanctio
 The design says no. Religion, language, education, local planning, holidays and daily life stay with the regions. One Earth decides only six shared things.
 
 **"Can one world institution really know what 8 billion people need?"**
-Not perfectly. The research calls this the knowledge problem and lists it among the tests that could prove UNIRA wrong. The answer it proposes has three parts: measure needs often, publish everything, and leave daily choices to the regions. Whether that is enough has not been shown.
+Not perfectly. The research calls this the knowledge problem and lists it among the tests that could prove UNIRA wrong. The answer it proposes has three parts: measure needs often, publish everything, and leave daily choices to the regions. For the big needs, the forecasts are good: population within about 0.1% a year ahead. But that covers energy, food, health workers and homes, not millions of products. Whether that is enough has not been shown.
+
+**"Won't an AI end up running the world?"**
+Not under Article 3b. The model proposes and people decide, in public, and must give reasons. No model may touch a person's rights, sanctions or the use of force. And the research found that the machine matters less for forecasting than for catching theft.
 
 ## What the evidence says
 
@@ -408,11 +452,15 @@ Not perfectly. The research calls this the knowledge problem and lists it among 
 - Under square-root weighting, India and China hold about **4.4%** of Assembly seats each, against **16–17%** under direct proportion.
 - With a 55%/65% double majority counted by square root, blocking a law takes at least **21 regions** and passing one at least **120 of 217**. Counted raw, **2** regions could block.
 - Needs-first allocation closes the world's gaps where a market world, with the same resources, lets them grow. Strong safeguards keep most of that advantage.
+- Serving the decent level first brings every region to decent energy in **4** years instead of 8, decent health care in **7** instead of 12, and decent housing in **9** instead of 20, with no loss on the comfortable goal (Article 10a).
+- Planning where food comes from cuts transport by **69%**; only about **1.4%** of world food supply needs to move.
+- Needs are highly predictable: population within about **0.1%** a year ahead. Information errors cost at most about **1%** of progress; misreporting and theft cost **12–19%**. The AI's main value is checking honesty, and it advises but never decides (Article 3b).
 
 ## What we still don't know
 
 - No world federation has ever existed. The voting rules were tested on population numbers, not on real political behaviour.
-- The exact allocation formula has not been written.
+- The formula's targets for climate, disability and remoteness are not yet set from evidence. The food plan uses supply data, not production data, and straight-line distances, not real transport routes.
+- Whether AI checks would really cut theft is an assumption. Forecasts are weakest in the poorest regions, so their statistics must improve first.
 - How One Earth's planning of large flows and the regions' own knowledge would share information is an open design question.
 - Whether regional border control and the promise to protect people in emergencies can both hold in a real crisis.
 - The 2–4% share of people living abroad, and the return rates after peace, are assumptions.
@@ -421,7 +469,9 @@ Not perfectly. The research calls this the knowledge problem and lists it among 
 ---
 
 ### Notes on sources
-- Draft Constitution of One Earth: `v75/constitution/UNIRA_CONSTITUTION_DRAFT.md` (Preamble; Articles 1–4b, 5–5a, 6, 9, 10, 22–32, 39–42; notes for the author on the allocation formula). Lionel Penrose and the square-root rule, and the Council of the European Union thresholds, are named there.
+- Draft Constitution of One Earth: `v75/constitution/UNIRA_CONSTITUTION_DRAFT.md` (Preamble; Articles 1–4b, 3b, 3c, 5–5a, 6, 9, 10, 10a, 22, 22a, 23–26a, 27–32a, 39–42).
+- Allocation formula (decent first: 4 vs 8, 7 vs 12, 9 vs 20 years; person-years below decent) and food location (39 deficit and 140 surplus regions, 1.4% moved, 8,420 vs 2,573 km, −69%): `v79/RESEARCH_NOTE.md` §1; `v79/outputs/allocation_formula.json`, `v79/outputs/food_location.json`.
+- AI planning (backtests 2010–2024 on UN WPP, OWID/FAO and WHO data; fairness by income group; 30-year information test; leakage 8% → 4% raising energy gap closed from 51.9% to 55.6%): `v78/RESEARCH_NOTE.md`; `v78/outputs/backtest.json`, `v78/outputs/information.json`. Author's rule 32: `v63/DESIGN_CLARIFICATIONS_2026-11-03.md`. Lionel Penrose and the square-root rule, and the Council of the European Union thresholds, are named there.
 - Voting tests on 2024 populations (217 regions, 8,117,484,624 people; seat shares; alternative thresholds; 16 and 63 regions to meet the population test alone; 98 and 87 regions to block by count): `v75/outputs/voting.json`. Square-root double majority (21 to block, 120 to pass): `v75/outputs/voting.json`, `double_majority_55_65_sqrt`. The constitution's Article 25 note still says 20 and should be updated. India–China 35.2% trap: `v75/constitution/UNIRA_CONSTITUTION_DRAFT.md`, Article 25 note; `v63/DESIGN_CLARIFICATIONS_2026-11-03.md`, items 28–31.
 - One Earth deciding production, the knowledge problem and no forced relocation: `v63/DESIGN_CLARIFICATIONS_2026-11-03.md`, item 9 and "Scientific challenges"; `v67/WORKING_PAPER_02.md`, section 7.
 - Matched comparison with market economies: `v68/RESEARCH_NOTE.md`. Allocation failures and safeguards: `v69/RESEARCH_NOTE.md`.

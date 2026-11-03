@@ -71,10 +71,10 @@ class TestPricesAndCap(unittest.TestCase):
         self.assertEqual(rush, sorted(rush))  # more free money, larger possible rush
         for k, v in r.items():
             self.assertEqual(v["first_homes_blocked_by_cap"], 0)
-            if k.endswith("/accounts"):
-                self.assertGreater(v["protected_months"], 0)
-            else:
+            if k.endswith("/no_accounts"):
                 self.assertEqual(v["protected_months"], 0)
+            else:
+                self.assertGreater(v["protected_months"], 0)
 
     def test_protected_accounts_respect_limits(self):
         import importlib.util

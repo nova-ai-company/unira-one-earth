@@ -1,6 +1,6 @@
 # Chapter 14 — Guarding against power
 
-*Second draft, 3 November 2026. Every figure comes from the UNIRA research (V6.9, V7.0, V7.2 and V7.5) and the draft Constitution of One Earth, and is listed in the notes at the end of the chapter.*
+*Second draft, 3 November 2026, updated with V7.8–V7.9. Every figure comes from the UNIRA research (V6.9, V7.0, V7.2, V7.5, V7.8 and V7.9) and the draft Constitution of One Earth, and is listed in the notes at the end of the chapter.*
 
 ---
 
@@ -151,7 +151,7 @@ The draft constitution answers each failure with a rule. Most of them come strai
 | Community monitoring and protected whistleblowers | 35 | Uganda health: under-five deaths fell **33%** |
 | Random audits of every region, every year | 36 | Indonesia: missing funds down **8 points**; Brazil: corruption down **7.9%**, **12.7%** with repeat audits |
 | Needs data less than **1 year** old | 37 | Typical lag today is about **2 years** |
-| Rules against capture | 26, 30 | Built from the design, not from a single study |
+| Rules against capture | 26, 26a, 30, 30a | Built from the design, not from a single study |
 | Correction without punishing people | 38 | Built from the design |
 | A built-in test of the whole system | 39 | Thresholds from the stress test |
 
@@ -167,7 +167,7 @@ Some of these need a few more words.
 
 **Data.** The Statistical Office measures needs at least once a year, with the uncertainty stated. Data are checked against independent sources, such as censuses, satellite data and sample surveys. No region may change its methods alone.
 
-**Rules against capture.** The Allocation Authority applies a public formula and has no power to favour any region. Changing the formula takes a full law. And no one may decide an allocation to a region where they or their family hold an interest.
+**Rules against capture.** The Allocation Authority applies a public formula and has no power to favour any region. Changing the formula needs two-thirds of the Assembly, a double majority of regions, the Scientific Council's opinion and a citizens' assembly, and takes effect only after the next election (Article 26a). And no one may decide an allocation to a region where they or their family hold an interest.
 
 **Correction without punishing people.** Misallocated resources are recovered and sent where they belong. A region caught misreporting loses priority for extra, discretionary allocations. It never loses its people's rights. A child should not lose a clinic because an official lied.
 
@@ -213,42 +213,42 @@ And checking has limits. Even the European Union stays above 5% irregular spendi
 
 Leakage is one danger. Another is older: people who gain power and keep it.
 
-The constitution divides public power into six parts: making law, carrying it out, allocating resources, measuring needs, auditing and judging. No person or body may hold two of them. So the people who count needs are not the people who share resources. The people who share are not the people who check.
+The first draft of the constitution divided public power into six parts: making law, carrying it out, allocating resources, measuring needs, auditing and judging. The stress test described below showed that this left out the three most dangerous powers of all: **arms, money and science**. Article 22a adds them. There are now nine powers, each in a separate body.
+
+| Power | Body | How it is chosen |
+| --- | --- | --- |
+| Law | Assembly of the Peoples; Council of Regions | Elected directly; chosen by the regions |
+| Executive | Coordination Council | Elected by the Assembly |
+| Allocation | Allocation Authority | Elected by the Council of Regions, by double majority |
+| Money | Monetary Authority | Appointed by the Court from a Scientific Council shortlist |
+| Armed force | Peace Force, led by a Command Board | Board elected by the Council of Regions, from a list checked by the Inspector-General |
+| Measuring needs | Statistical Office | Head elected by two-thirds of the Assembly, from a shortlist; one 7-year term |
+| Auditing | Audit Authority | Board drawn by lot from auditors nominated by the regions, confirmed by the Assembly |
+| Science | Scientific Council | Drawn by lot from scientists nominated by regional academies |
+| Judging | Court | Council of Regions, from candidates of an independent commission |
+
+No person may sit in two of these bodies, or move from one to another within **3 years**. No body chooses the people who audit or judge it. And each body's budget is fixed by law, so it cannot be starved quietly. The point is simple: **no body holds arms, money and allocation together.**
 
 Time is limited too:
 - the executive's seven to fifteen coordinators serve a **single 5-year term**;
 - the chair rotates every year, and no region may hold it twice in a row;
-- judges of the Court serve **one 12-year term**, drawn from all continents;
-- no one may hold One Earth office for more than **10 years** in total.
+- executive, allocation, monetary, command and judicial offices are held for **one term only**;
+- no one may hold One Earth office for more than **10 years** in a lifetime;
+- a change to terms or pay never benefits anyone already in office (Article 30a).
 
-Money is limited as well. Every office-holder declares their assets publicly each year. And they are under the same money cap as everyone else. A world official cannot grow rich in office, because nobody can grow rich above the cap.
+Money is limited as well. Office-holders are paid on the same 1–5× scale as everyone else, with no other income. They declare their assets, and their household's, every year in office and for five years after. They are under the same money cap as everyone else. For five years after leaving, they may not lobby the body they served in, or work for a region or enterprise they decided about. No close relative may serve in the same body at the same time.
 
 Regions are protected from the centre. Each region has its own elected government and parliament. One Earth cannot dissolve them, except by a ruling of the Court for a grave breach of rights. There are no permanent seats, no vetoes, and no privileges of size, wealth or history.
 
-Science is given a voice of its own. An independent Scientific Council, drawn from all regions, reviews the methods behind decisions. Its opinions are public. A decision that departs from its advice must say why.
+**Allocation without favour.** Article 26a ties the Allocation Authority to the formula of Chapter 5. No allocation may depend on how a region votes or on loyalty to anyone. Each year the register shows, for every region, what the formula gives and what was actually allocated. A gap of more than 2% must be explained within 30 days, and anyone may take it to the Court. Discretionary allocations are capped at 2% of the total.
+
+**A machine that checks.** Chapter 5 showed that errors in data and forecasts cost at most about **1%** of progress, while each point of leakage costs about one point of energy progress and 1.2 points of housing progress. So the AI's main job is integrity: comparing deliveries with needs and metered use, flagging anomalies for audit, and sizing reserves. Whether it can really cut leakage is still to be tested in pilots. And Article 3c checks the checker: signed, published models that may never score or select people.
 
 ## Voting that no giant and no clique can control
 
-Chapter 5 described the two chambers. Here is the reasoning in brief.
+Chapter 5 described the two chambers and tested them. In brief: Assembly seats follow the square root of each region's population (the Penrose rule), so India and China hold about **4.4%** each instead of **16–17%**, and no region may hold more than **5%**. A law needs at least **55%** of regions representing at least **65%** of the population, counted by square root. Counted raw, India and China together, **35.2%** of humanity, could block any world law alone. Counted by square root, blocking takes at least **21** regions, and passing a law at least **120 of 217**.
 
-The Assembly of the Peoples has **1,000** members, elected every 5 years. If seats followed raw population, India and China would hold about **16–17%** each. If every region had one equal vote, the people of a tiny island would weigh as much as the people of India. Both are unfair.
-
-The square-root rule, known as the Penrose rule, sits between them. It aims to give every citizen equal voting power in a union of regions. The research tested it on 2024 populations, for **217** regions:
-
-| Region | Seats if proportional to population | Seats under the square-root rule |
-| --- | --- | --- |
-| India | 16.5% | **4.4%** |
-| China | 16.0% | **4.4%** |
-| United States | 3.9% | 2.1% |
-| Indonesia | 3.2% | 2.0% |
-| Pakistan | 2.9% | 1.8% |
-| The two largest together | 32.5% | **8.8%** |
-
-Every region has at least one seat. No region may hold more than **5%**.
-
-The same idea guards the double majority. A law needs at least **55%** of regions, representing at least **65%** of the population, counted by square root. These thresholds follow the Council of the European Union. Counted by raw population, India and China together, **35.2%** of humanity, could block any world law alone. Counted by square root, blocking takes at least **21** regions. Passing a law takes at least **120 of 217**.
-
-Changing the constitution is harder still. It needs **two-thirds** of the Assembly, **65%** of regions representing **65%** of the population, and a world referendum. And some things can never be changed. The guaranteed rights of Article 6, and the rule that no law, sanction or emergency may reduce them, are out of reach of any majority.
+Changing the constitution is harder still: **two-thirds** of the Assembly, **65%** of regions representing **65%** of the population, and a world referendum won by a majority of voters and in a majority of regions. Changes to the institutions need two Assembly votes with an election between them (Article 42b). And a protected core can never be changed: the rights of Article 6, elections on fixed dates, term limits, the independence of the Court, the limits on the Peace Force and on emergencies, and the right to leave (Article 42a).
 
 ## Who guards the only army?
 
@@ -256,10 +256,10 @@ UNIRA abolishes war, so only One Earth may hold arms. That creates the most dang
 
 | Control | Rule |
 | --- | --- |
-| Who may send it | Only with **both** a Court ruling **and** the double majority of regions |
-| Emergencies | It may act alone for at most **72 hours** to save lives, then needs both |
+| Who may send it | To enforce a Court ruling: the ruling **and** a double majority of regions. Any other use: a majority of the Assembly **and** a double majority of regions, reviewed by the Court within 7 days |
+| Emergencies | Under an immediate threat to life, the Command Board may act for at most **72 hours**, only at the request of a region or the Court, and never renewed |
 | No national army inside it | No region provides more than **5%** of members or commanders |
-| No local loyalty | Commanders rotate every **3 years**; members never serve in their own region |
+| No local loyalty | Commanders serve at most **3 years** at each level; members never serve in their own region; every unit of more than 100 members mixes at least ten regions |
 | Size | Never more than **1,000,000** members, about 12 per 100,000 people; planned about **500,000** |
 | Money | Never more than **0.15%** of world output; planned about **0.05%** |
 | Oversight | An Inspector-General appointed by the Court reports publicly; anyone harmed may go to the Court |
@@ -277,7 +277,27 @@ The evidence on how freedom is actually lost is sobering. Today about **74%** of
 
 So the danger is rarely tanks in the street. It is law used against freedom. The first draft was strong on fair voting and a mixed Peace Force, but it had five open doors: no rule on emergencies, accounts that could be frozen without a judge, an amendment rule that was not protected, a Court that could be packed, and no procedure for leaving.
 
-Seventeen new articles close them. Heavy weapons need three keys, held by people from three different regions. There is no commander-in-chief, only a board of five from five continents. Every soldier must refuse an unlawful order. Emergencies last at most 30 days. No account is frozen and no payment data read without a judge, and small everyday payments are private, like cash. Nine powers sit in nine separate bodies, chosen in different ways. A Court of 21 judges is renewed by thirds. Citizens drawn by lot review the biggest decisions. Every year a democracy health check is published, and if freedom falls two years running, brakes start automatically. And a protected core, including elections, term limits and the right to leave, can never be amended away.
+Seventeen new articles close them, with amendments to Article 5a. Here they are, grouped by the door each one shuts.
+
+| Danger | What the constitution now says | Articles |
+| --- | --- | --- |
+| A general seizes the army | No commander-in-chief, only a Command Board of five from five continents. Heavy weapons are spread across many depots and need **three keys**, held by people from three different regions. No other armed body may exist. | 5b |
+| Soldiers obey a tyrant | Every member of the Force must refuse an order that clearly breaks the constitution, and may not be punished for refusing. Obeying is no defence. | 5c |
+| Censorship | No prior censorship, no shutting or slowing networks. Only a court may order specific content removed. No one controls more than a quarter of a region's news audience. | 6a |
+| A fake emergency | An emergency lasts at most **30 days**; each renewal needs two-thirds of both chambers. It may never delay an election, dissolve a body or change the constitution. | 9a |
+| Money and data as weapons | No account frozen and no payment data opened without a judge. Small everyday payments are private, even though there is no cash at all. | 12a |
+| Captured models | Signed, published models, two independent teams, no scoring of people. | 3c |
+| Money for friends | A Monetary Authority bound by a published rule, with no discretion. | 17b |
+| One body holds everything | Nine powers in nine bodies, chosen in different ways. | 22a |
+| Allocation as reward or punishment | Needs only; formula against actual published every year; changes slow and reviewed. | 26a |
+| Staying in office | One term for key offices, 10 years in a lifetime, no rule change that benefits the holder, elections on fixed dates. | 30a |
+| A packed Court | **21** judges, a third renewed every 4 years, removed only by two-thirds of judges and of regions. | 32a |
+| Leaders ignore citizens | A permanent Citizens' Council of 100 drawn by lot; assemblies of at least 500 review formula changes, long emergencies and amendments. | 32b |
+| Slow decay | A yearly democracy health check. If it falls two years running, extra audits, a citizens' assembly and early elections follow automatically. | 39a |
+| A region held by force | A procedure to leave: referendum within 2 years, simple majority with 50% turnout, exit 2 years later, no force. | 41a |
+| Amending freedom away | A protected core (rights, elections, term limits, the Court, the Force's limits, the right to leave) that no amendment may weaken. | 42a |
+| Rushed amendments | Two Assembly votes with an election between them, a citizens' assembly, and none during or just after an emergency. | 42b |
+| A dangerous start | The Court, the Audit Authority, the Inspector-General, the Democracy Monitor and the Citizens' Council exist before the first Force unit, the first U and the first allocation. The Force stays under **250,000** for its first 5 years. | T-7 |
 
 After the fixes, every attack meets at least two independent barriers. But the research is honest about the limit: no text can guarantee freedom. Would-be autocrats are stopped more often by ordinary people who refuse to go along than by courts. So the design spreads power across many hands and many regions, and keeps the door to leave always open.
 
@@ -289,7 +309,7 @@ Nobody, in the end, except other people. That is why the design spreads checking
 
 **"A digital currency where every sale has an invoice is a surveillance machine."**
 
-This is a serious worry, and the constitution meets it only in part. Article 12 guarantees privacy, access without a smartphone, offline use, independent oversight and a right to appeal. Personal gifts need no invoice. The register publishes amounts and places, never personal data. But guarantees on paper are not the same as guarantees in practice. How privacy would be protected in the technology itself is not yet worked out.
+This is a serious worry, and the constitution meets it only in part. Article 12 guarantees privacy, access without a smartphone, several independent networks, independent oversight and a right to appeal. There is no cash; if a network fails, essential needs continue and are recorded later. Personal gifts need no invoice. The register publishes amounts and places, never personal data. Article 12a adds more: anonymous everyday payments up to a limit, invoices that name the seller but not the buyer, payment data kept in the person's own region by at least three independent operators, deleted after two years, and opened only by a judge. But guarantees on paper are not the same as guarantees in practice. The technology that would deliver them is not yet built or tested.
 
 **"A constitution is only paper."**
 
@@ -322,7 +342,9 @@ An allocator is only as good as what it has to give. That is why this book spend
 - With typical failures and no safeguards, needs-first allocation still beats the most cooperative market: **36%** of the energy gap closed by year 15, against **14%**.
 - With strong safeguards it keeps most of its ideal performance: **52%** against **60%**, and everyone reaches 40 GJ by year 29.
 - Leakage is the decisive danger. Above about **45%**, with data lags near 5 years, the advantage disappears. The constitution's built-in test sets its alarms at **25%** and **45%**.
-- Power is split six ways, terms are single and short, and officials are under the money cap. The only armed force needs both a court and the regions to move.
+- Power is split nine ways (Article 22a), terms are single and short, and officials are under the money cap. The only armed force needs both a court and the regions to move, and its heavy weapons need three keys from three regions.
+- After seventeen new articles, every one of thirteen attack scenarios meets at least two independent barriers. **34** of the **111** clauses tested rest directly on evidence; the exact thresholds are judgement.
+- Information errors cost at most about **1%** of progress; leakage costs far more. The AI's main value is checking honesty, not forecasting.
 
 ## What we still don't know
 
@@ -332,7 +354,8 @@ An allocator is only as good as what it has to give. That is why this book spend
 - Errors were treated as independent between regions. If a whole continent were undercounted at once, the damage would be larger.
 - The model does not include politics: legitimacy, anger in regions that receive less, or institutions slowly decaying over decades.
 - The costs of safeguards, in delay and in staff, are noted but not fully modelled.
-- How privacy would be protected inside a world digital currency is not yet designed in detail.
+- How the privacy rules of Article 12a would be built into a world digital currency is not yet designed or tested.
+- Whether the new power articles work. Most of their thresholds are judgement, and no constitution has tried automatic democratic brakes like Article 39a.
 - An allocator is only as good as what it has to give. COVAX promised **2 billion** vaccine doses in 2021 and delivered about **596 million** by the end of November. The failure was supply, not targeting.
 
 ---
@@ -342,6 +365,8 @@ An allocator is only as good as what it has to give. That is why this book spend
 - Evidence on measurement error, household targeting, lags, misreporting, leakage, safeguard effects and costs, and the verification rule (44 sourced rows: Stats SA PES; World Bank; IEA; Reinikka & Svensson 2004; Drèze & Khera; Avis, Ferraz & Finan; Andersen, Johannesen & Rijkers 2022; European Court of Auditors; Chen et al. 2019; Olken 2007; COVAX): `v69/evidence/evidence.md`, `v69/evidence/evidence.csv`.
 - Earlier draft safeguard articles with their finer triggers (Articles 13–20 of the safeguards draft): `v67/WORKING_PAPER_02.md`, appendix; `v70/RESEARCH_NOTE.md`, Part B.
 - Safeguard articles (33–39), Scientific Council (3a), rights (6, 9), currency (12), separation of powers (22), Assembly (23), double majority (25), Allocation Authority (26), executive (27), terms and asset declarations (30), regions (31), Court (32), amendments (42), Peace Force (5a, with the De Bruin 2018 note): `v75/constitution/UNIRA_CONSTITUTION_DRAFT.md`.
+- Separation of nine powers and how each body is chosen (22a), allocation without favour (26a), limits on office (30a), and the seventeen power articles with amendments to 5a (3c, 5b, 5c, 6a, 9a, 12a, 17b, 22a, 26a, 30a, 32a, 32b, 39a, 41a, 42a, 42b, T-7): `v75/constitution/UNIRA_CONSTITUTION_DRAFT.md`. Stress test of 13 attack scenarios and 48 evidence rows (V-Dem 2026; Versteeg et al. 2020; Lührmann & Rooney; 34 of 111 clauses evidence-supported): `v79/RESEARCH_NOTE.md` §6 and `v79/power/`. List of new articles: rule 33 in `v63/DESIGN_CLARIFICATIONS_2026-11-03.md`.
+- AI and integrity (information errors at most about 1%; each point of leakage costs about 1 point of energy and 1.2 of housing progress): `v78/RESEARCH_NOTE.md` §4; `v78/outputs/information.json`.
 - Seat shares and double-majority tests on 2024 populations (blocking needs at least 21 regions under square-root weights, key `double_majority_55_65_sqrt`): `v75/outputs/voting.json`; model `v75/constitution/voting.py`. The note under Article 25 of the constitution draft still says 20; the model output gives 21.
 - Square-root weighting and the double majority agreed by the author: `v63/DESIGN_CLARIFICATIONS_2026-11-03.md`, items 28–29.
 - Uncounted hours of UNIRA's own institutions; next research on infrastructure leakage: `v67/WORKING_PAPER_02.md`, sections 12 and 13.

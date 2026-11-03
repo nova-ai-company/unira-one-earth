@@ -1,6 +1,6 @@
 # Chapter 13 — Better than the best market world
 
-*Second draft, 3 November 2026. Every figure comes from the UNIRA research (V6.2–V6.9) and is listed in the notes at the end of the chapter.*
+*Second draft, 3 November 2026, updated with V7.9. Every figure comes from the UNIRA research (V6.2–V6.9, V7.9) and is listed in the notes at the end of the chapter.*
 
 ---
 
@@ -271,6 +271,37 @@ On energy and housing, nearly. On health, no. And a market that sends 90% of its
 
 Partly, yes. Military activity causes about **5.5%** of global emissions, within a range of 3.3–7.0%. That figure includes supply chains. But no global statistic for military *energy* use exists. The research uses the emissions share as a stand-in, and says so. Fortunately, this lever matters mostly for the climate, not for how fast poorer regions catch up.
 
+## Can a world without profit still invent?
+
+There is one critic this chapter has not yet answered. "Markets may be unfair, but they invent. Profit pays for the new drug, the better battery, the cheaper solar panel. Take profit away, and progress stops."
+
+The comparison above cannot answer that, because it gave all three worlds the same technology. So the research looked at the evidence separately. It gathered **67** sources, read **61** of them in full text, and judged six ways of keeping invention alive without profit.
+
+| Mechanism | What the evidence says |
+| --- | --- |
+| A fixed share of work for research, open results, no patents | **Supported for research, weak for development.** Publicly funded research lies behind all **210** new medicines approved in the United States in 2010–16. Restricting access to gene data cut follow-on research by **20–30%**. |
+| Prizes | **Supported**, but only for clearly defined problems |
+| Pay differences for skill and experience | **Partly supported.** They raise effort only when people can see why they were earned. Unexplained differences cut output by **0.45** standard deviations in one study. |
+| Expert-approved projects and cooperatives | **Partly supported.** A single expert gate is biased against new ideas, so money should come from several bodies, and partly by lottery. |
+| Competition for quality, not profit | **Partly supported.** Plausible, but never tested at the scale of a whole economy. |
+| A 30-hour week, for creativity | **Weak.** No causal evidence was found. |
+
+The research also found a new problem in UNIRA's own design. Prices are fixed by the hours a product takes. So a team that halves those hours also halves what its product earns. That punishes exactly the people who improve things. Soviet economists made the same complaint in 1962.
+
+**Article 3d** is the answer. In plain words:
+- **At least 3%** of all working hours go to research and development, and at least a third of that to developing and scaling up new products, not only to research.
+- **Results are open.** What One Earth or a region pays for is published, with its data. Inventors are named and honoured. Nobody may own an idea so as to stop others using it.
+- **Many funders.** Research money comes from at least three independent bodies. Sound proposals are funded partly by lottery, so unusual ideas are not shut out. At least a fifth goes to high-risk work or to people funded for the first time.
+- **Prizes and promises to buy** are offered for clearly defined problems, with rules fixed in advance.
+- **Whoever improves, gains.** A team that cuts the hours needed for a product keeps part of the hours saved, for a limited time. It can take them as shorter hours at the same pay, a step up the salary scale, or resources for its next project. Its targets are never raised because it did better than planned (Article 3d.5).
+- **Never above five times.** No prize or reward lifts anyone's pay above five times the base salary, or their savings above the money cap and protected accounts. A personal prize is at most one year's salary (Article 3d.12, Article 14.5).
+- **Freedom to try, duty to stop.** Any group may propose a project, and needs approval from only one of several bodies. Every project has a budget, an end date and a test of success. A project that fails is closed, but the people who tried keep their pay level and may try again.
+- **People choose.** For goods in common use, people can choose between designs from different teams, and production follows their choices.
+
+And because the evidence is thin, Article 3d measures itself. Each year the Scientific Council publishes **eight** indicators: the share of hours in research, how fast the hours needed for the essential basket fall, the share of production from products less than five years old, and others. If research falls below 2.5% of hours, or the essential basket gets cheaper in hours by less than 0.5% a year, for **two** years running, the Assembly must review the rules. If results stay weak for **five** years, the rules on prices, pay and research funding must be reformed by law, including new rewards for innovators if that is what works.
+
+Is this enough? Nobody knows. The research is honest that it is a design built on partial evidence. But it no longer rests on hope alone. It says in advance how failure would be noticed, and what must happen then.
+
 ## The honest caveat
 
 It would be easy to end this chapter with a cheer. It would also be dishonest.
@@ -320,6 +351,7 @@ That is the whole argument of this chapter, in one picture. The next chapter ask
 - A market world must direct about **90%** of new capacity by need to nearly match UNIRA on energy. By then it is practising needs-first allocation.
 - Even then it lags on health: **8%** against **38%** by year 15. Nurses must be trained, not shipped.
 - With strong safeguards, UNIRA keeps about **85%** of its ideal advantage.
+- Open, publicly funded research is well supported by evidence; prizes work for clear problems; pay differences help only when people can see why. A fixed price per hour would punish innovators, so Article 3d lets teams keep part of the hours they save, within the five-times ceiling.
 
 ## What we still don't know
 
@@ -330,6 +362,7 @@ That is the whole argument of this chapter, in one picture. The next chapter ask
 - Whether 88% employment is reachable is unknown. No country has reached it.
 - The comparison covers three kinds of new capacity. Planning the whole economy without prices is a much larger problem, and it remains open.
 - No global figure exists for military energy use, or for the number of new doctors trained each year.
+- Whether a world without profit would invent as fast as a market world. The evidence is weak for development and scale-up, and the Article 3d thresholds are provisional until starting values are measured.
 
 ---
 
@@ -340,3 +373,4 @@ That is the whole argument of this chapter, in one picture. The next chapter ask
 - Summary of the comparison and of allocation failures and safeguards: `v67/WORKING_PAPER_02.md`, sections 8 and 9; `v69/RESEARCH_NOTE.md`.
 - Coordination without prices and the knowledge problem: `v63/DESIGN_CLARIFICATIONS_2026-11-03.md`, "Scientific challenges" and "Specific risks of rules 8–9".
 - Uncounted hours of UNIRA's own institutions and falsification tests: `v67/WORKING_PAPER_02.md`, section 12.
+- Innovation without profit (67 evidence rows, 61 read in full; verdicts on six mechanisms; Breza et al. 2018; 210 US drugs of 2010–16; gene-data restrictions; the 1962 Soviet complaint): `v79/RESEARCH_NOTE.md` §5 and `v79/innovation/`. Article 3d (including 3d.5 and 3d.12) and Article 14.5: `v75/constitution/UNIRA_CONSTITUTION_DRAFT.md`.

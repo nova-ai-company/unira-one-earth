@@ -1,6 +1,6 @@
 # Chapter 8 — Health, education and care for all
 
-*Second draft, 3 November 2026. Every figure comes from the UNIRA research (V6.3, V6.5–V6.8, Working Paper 2 and the draft constitution) and is listed in the notes at the end of the chapter.*
+*Second draft, 3 November 2026, updated with V7.9. Every figure comes from the UNIRA research (V6.3, V6.5–V6.8, V7.9, Working Paper 2 and the draft constitution) and is listed in the notes at the end of the chapter.*
 
 ---
 
@@ -150,6 +150,32 @@ Why not simply count the world's graduates? Because nobody publishes that total 
 The model then lets training grow, by 7% or 10% a year. It caps growth at three times today's capacity. Each year, new workers go first to the regions furthest below 131 per 10,000.
 
 The research also says what would prove this plan wrong. If world training capacity cannot grow beyond about **1.5 times** today's, EU-level care for everyone stays out of reach for more than **50 years**.
+
+## Who needs care most? Age, and illness too
+
+"Furthest below" sounds simple. But a region's need for care depends on more than its headcount. Older people need more care. So the first version of the allocation formula counted people aged 65 and over **three times**.
+
+The research then checked what that rule would do, using the World Health Organization's figures on healthy life expectancy. It found a hidden unfairness.
+
+Counting by age alone sends care towards old, rich regions. Sub-Saharan Africa is young. But its people lose many more years of healthy life to disease, long before old age. An age-only rule does not see that. In fact, it gives the region a *smaller* share of new health workers than no weighting at all.
+
+| Health need counted by | Sub-Saharan Africa's share of new health workers | Sub-Saharan Africa, health workers per 10,000 by year 30 | Europe and Central Asia, per 10,000 by year 30 |
+| --- | --- | --- | --- |
+| People only, no weighting | 33% | 131 | 141 |
+| Age alone (65 and over count 3×) | 30% | **116** | **151** |
+| **Age and burden of disease, in equal parts** | **35%** | **142** | **141** |
+
+Under the age-only rule, Africa south of the Sahara would end up far below Europe. Weighting by age *and* by healthy years of life lost to disease brings the two to the same level. And every region still reaches decent care by about year 7.
+
+The author accepted this. Article 10a.3 now says that health need is weighted by age and burden of disease together, in equal parts, and that **age alone is never used**.
+
+### An imagined pair of clinics
+
+Imagine two district clinics. One is in a mountain town in Europe, where many patients are over seventy. The other is in a fast-growing town in West Africa, where most patients are young mothers and small children, and many are ill.
+
+Under an age-only rule, the European clinic would look needier. Under UNIRA's rule, both count for what they are: one region with many older people, one with a heavy load of illness. Both receive new nurses.
+
+The clinics are imagined. The weights are Article 10a.
 
 ## Soldiers into carers
 
@@ -311,6 +337,7 @@ It also asks patience. Food can be shared in the first year. Good health care fo
 - Training as today never closes the world gap. An ambitious UNIRA programme closes it in **18–42 years**, central **23**.
 - Schools and teachers are the bottleneck. Disarmament helps early (**71** vs **64** per 10,000 by year 10). Healthier lives cut need by only about **3%** (central) to **14%** (high) after 30 years.
 - With matched resources, UNIRA closes **38%** of the health shortfall by year 15; a reformed market economy lets it grow.
+- Weighting health need by age alone would leave Sub-Saharan Africa at **116** health workers per 10,000 by year 30, against **151** in Europe and Central Asia. Weighting by age and burden of disease together gives **142** against **141**. Age alone is never used (Article 10a.3).
 - Bringing primary classes to high-income levels means about **1.8 times** as many teachers per pupil.
 
 ## What we still don't know
@@ -321,6 +348,7 @@ It also asks patience. Food can be shared in the first year. Good health care fo
 - The net effect of healthier lives on care needs. The direction is clear; the size is not, and longer lives add care later.
 - France's reserve of qualified staff who have stopped practising. It is not reported.
 - How many teachers the world needs, and where. This has not yet been measured.
+- The equal split between age and disease burden is a judgement. Healthy life expectancy is a broad measure, given here for seven large world regions, not for each region of One Earth.
 
 ---
 
@@ -332,4 +360,5 @@ It also asks patience. Food can be shared in the first year. Good health care fo
 - Training scenarios, training capacity levels, disarmament volunteers (27.4 m, 0.79% of the labour force) and the 71 vs 64 result: `v66/RESEARCH_NOTE.md` §2; `v67/WORKING_PAPER_02.md`, section 6.
 - Prevention evidence and the net-share formula (GBD 2019 and 2021; Pega 2021, WHO/ILO; Kivimäki 2012; Cochrane 2022 on cash transfers; Baxter 2019; UCDP; Charlson 2019; van Baal 2008; Kingston 2018; Duncan 2019; Vartiainen 2010; Peto 2000; WHO 2030 shortfall): `v66/evidence_health/evidence.md`.
 - Matched-resources comparison: `v68/RESEARCH_NOTE.md`.
+- Health-need weighting (WHO healthy life expectancy; no weighting, age-only and combined schemes; shares of new health workers and density by year 30): `v79/outputs/health_need.json`, model `v79/health_need/weights.py`; author's decision, rule 37 in `v63/DESIGN_CLARIFICATIONS_2026-11-03.md`; Article 10a.3 in `v75/constitution/UNIRA_CONSTITUTION_DRAFT.md`.
 - Falsification test on training capacity, and Uganda school grants (Reinikka & Svensson): `v67/WORKING_PAPER_02.md`; `v69/evidence/evidence.md`.

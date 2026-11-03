@@ -1,6 +1,6 @@
 # Chapter 12 — No more wars
 
-*Second draft, 3 November 2026. Every figure comes from the UNIRA research (V6.6–V7.6) and the draft Constitution of One Earth, and is listed in the notes at the end of the chapter.*
+*Second draft, 3 November 2026. Every figure comes from the UNIRA research (V6.6–V7.6, V7.9) and the draft Constitution of One Earth, and is listed in the notes at the end of the chapter.*
 
 ---
 
@@ -96,6 +96,8 @@ This creates an obvious danger. Whoever controls the only armed force could domi
 - **A size limit.** The Force may never exceed **1 million** members, about 12 per 100,000 people. Its budget may never exceed **0.15%** of world output. Size, budget and every deployment are published each year.
 - **Oversight.** An Inspector-General, appointed by the Court, reports publicly. Anyone harmed by the Force can take their case to the Court.
 - **A counterweight.** Regions keep civilian police for everyday crime, under regional control, equipped only for policing.
+
+Later work added more locks (Articles 5b and 5c). There is no commander-in-chief, only a Command Board of five members from five continents. Heavy weapons are spread across depots in many regions, no depot holding more than 5% of any kind, and each weapon is released only when three keyholders from three different regions act together. Every member must refuse an order that clearly breaks the Constitution. And in its first 5 years the Force stays below **250,000** members (transitional provision T-7).
 
 Chapter 14 sets these controls beside UNIRA's other safeguards against power. Here the focus is on two practical questions: how big the Force should be, and whether such forces work.
 
@@ -195,7 +197,7 @@ The Constitution responds in three ways:
 - the Inspector-General is in place **before the first unit is formed**;
 - regional police, under regional control, act as a counterweight.
 
-The research also proposes keeping arms depots and supplies under separate control from combat command. That idea has not been tested by evidence. Another study, which found that measures to "coup-proof" a government deter coups, was seen only in a search summary. The research does not rely on it.
+The research also proposed keeping arms depots and supplies under separate control from combat command. Article 5b now writes a version of it: dispersed depots and three keys from three regions. It borrows from the two-person rules for nuclear weapons, but it has not been tested for a whole armed force. Another study, which found that measures to "coup-proof" a government deter coups, was seen only in a search summary. The research does not rely on it.
 
 ## Disarmament, step by step
 
@@ -289,7 +291,7 @@ In 2024, floods, storms and other disasters displaced **45.8 million** people, m
 The Constitution forbids any region to keep or produce weapons of war. Disputes go to the Court, and the Peace Force exists to enforce its rulings. But the evidence reviewed for this chapter does not test how hidden rearmament would be detected. That is a real gap, and it needs its own study.
 
 **"Won't a single world force become a world tyrant?"**
-That is the most serious objection, and the Constitution treats it as such. Two keys to deploy it. No region above 5%. Rotating command. A hard ceiling on size and budget. An Inspector-General who reports publicly. Regional police as a counterweight. None of this has been tested at world scale. The research says plainly that the build-up years are the riskiest.
+That is the most serious objection, and the Constitution treats it as such. Two keys to deploy it, and three keys for every heavy weapon. No region above 5%. No commander-in-chief. A hard ceiling on size and budget. An Inspector-General who reports publicly. Regional police as a counterweight. None of this has been tested at world scale. The research says plainly that the build-up years are the riskiest.
 
 **"Isn't disarming naive while others stay armed?"**
 UNIRA does not ask a region to disarm and stand alone. Armies are dissolved within five years of *full* membership, and One Earth then guarantees each region's security, much as an outside guarantee long did for Iceland. How a union of only some regions protects itself while others remain armed is not answered by the evidence in this chapter. It belongs to the study of the transition in Chapter 15.
@@ -318,7 +320,7 @@ The draft constitution is careful here. It aims to remove the main causes of cri
 - The freed 2.45% is gross. Retraining soldiers, destroying weapons and expanding police all cost something first.
 - How many soldiers would actually choose to train in health is unknown.
 - The build-up of a new armed force is when coups are most likely. Whether Article 5a's safeguards are enough has never been tested at world scale.
-- Separating arms depots from combat command is a proposal, not a tested safeguard.
+- Dispersed depots and three-key release (Article 5b) are written into the Constitution, but untested for a whole armed force. The exact percentages are judgement.
 - How hidden rearmament would be detected, and how a partial union stays secure, are not covered by this evidence.
 - Some figures were seen only in search summaries or reported secondhand: Panama's dates, the UN police median, the humanitarian workforce. They are marked as such.
 - The size of the civilian Protection Service is still to be studied.
@@ -333,5 +335,6 @@ The draft constitution is careful here. It aims to remove the main causes of cri
 - Soldiers as health-training volunteers, 71 vs 64 per 10,000 by year 10, years to EU-level care, and 0.79% of the labour force: `v66/RESEARCH_NOTE.md`; `v67/WORKING_PAPER_02.md`, section 6.
 - Rich-region energy cuts of 4% vs 3% a year and the no-wars case at 400 EJ: `v67/WORKING_PAPER_02.md`, section 7; design rule 19 in `v63/DESIGN_CLARIFICATIONS_2026-11-03.md`.
 - Construction workforce: `v70/RESEARCH_NOTE.md`.
-- Articles 4b, 5, 5a, 7 and 40, transitional provision T-5, and the note on crime: `v75/constitution/UNIRA_CONSTITUTION_DRAFT.md`.
+- Command Board, dispersed depots and three-key release (basis: nuclear two-person rules and coup research, `v79/power/` evidence rows 8–12, 40, 41): `v79/RESEARCH_NOTE.md` §6.
+- Articles 4b, 5, 5a, 5b, 5c, 7 and 40, transitional provisions T-5 and T-7, and the note on crime: `v75/constitution/UNIRA_CONSTITUTION_DRAFT.md`.
 - Forced displacement, returns and the return-share assumption (UNHCR Global Trends 2025), Mozambique, Syria and disaster displacement (IDMC GRID 2025): `v76/migration/evidence.md`.

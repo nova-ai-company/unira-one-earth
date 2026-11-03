@@ -1,6 +1,6 @@
 # Chapter 15 — The transition
 
-*Second draft, 3 November 2026. Every figure comes from the UNIRA research (V6.4, V7.2, V7.4 and V7.5) and the draft Constitution of One Earth, and is listed in the notes at the end of the chapter.*
+*Second draft, 3 November 2026. Every figure comes from the UNIRA research (V6.4, V7.2, V7.4, V7.5 and V7.9) and the draft Constitution of One Earth, and is listed in the notes at the end of the chapter.*
 
 ---
 
@@ -198,15 +198,15 @@ From these lessons the research drafted eight rules. The author has made the har
 
 **T1. Staged joining.** A region votes to join. As an *observer*, it shares data and builds the safeguards of Chapter 14. As an *associate*, it receives needs-based transfers and adopts the 30-hour week. As a *full member*, it adopts the U and all the rules. Each stage has published entry criteria.
 
-Why build the safeguards first? Because Chapter 14 showed they are worth about as much as the allocation rule itself. A region should not receive needs-based transfers before it can show where they go.
+Why build the safeguards first? Because Chapter 14 showed they are worth about as much as the allocation rule itself. A region should not receive needs-based transfers before it can show where they go. Transitional provision T-7 makes this a rule for One Earth as a whole: the Court, the Audit Authority, the Inspector-General of the Force, the Democracy Monitor and the Citizens' Council must exist before the first U is issued, the first allocation is made or the first Force unit is formed.
 
 **T2. No political exchange rate.** This is the lesson of 1990. At full membership, wages move directly onto the UNIRA scale: **5,000 U** a month, times a multiplier up to five. Prices of essentials are set from the work and resources they contain, the same everywhere. Living standards come from what is allocated by need, not from a rate someone invented.
 
-**T3. Savings and the money cap.** Savings convert so that they buy the same basket of food, housing and energy as before. The research calls this "basket parity". Savings up to the cap stay with their owner in full. This answers the grandmother: an ordinary lifetime of saving is kept.
+**T3. Savings and the money cap.** Savings convert so that they buy the same basket of food, housing and energy as before. The research calls this "basket parity". Savings up to the cap stay with their owner in full, and money above it first fills the protected home, retirement and time accounts of Chapter 6. This answers the grandmother: an ordinary lifetime of saving is kept.
 
 Savings above the cap go **directly to One Earth**, not into bonds. That was the author's decision. The money returns as homes, energy and care in the regions that need them.
 
-The cap does not arrive overnight. It starts high and falls each year for **10 years**, to its steady level of about **1.4 years** of base salary. Chapter 6 explains why a cap is needed at all. Without it, a 60-year simulation showed unspent money piling up to **152 months** of consumption, and still rising. With it, the pile stayed stable at about **12 months**.
+The cap does not arrive overnight. It starts high and falls each year for **10 years**, to its steady level, never below **1.5 years** of base salary (**90,000 U**). Chapter 6 explains why a cap is needed at all. Without it, a 60-year simulation showed unspent money piling up to **152 months** of consumption, and still rising. With it, the pile stayed stable at about **12 months**.
 
 To stop wealth from fleeing before the vote, an **anti-flight rule** applies. The cap counts wealth held on the day the region votes to join. Money sent abroad after that day still counts as held.
 
@@ -222,6 +222,8 @@ Debts to creditors outside UNIRA are paid by One Earth on a negotiated schedule,
 
 **T7. The right to leave.** A region may leave by democratic vote, with a negotiated settlement. Every person may emigrate and keep their money up to the cap. The author confirmed this right. A union people cannot leave would not be voluntary.
 
+Article 41a now gives the procedure, so the centre cannot stall. A request comes from the regional parliament or from 10% of voters. The referendum is held within **2 years**, and a simple majority wins if at least half the voters take part. Exit takes effect **2 years** later unless both sides agree otherwise. The region keeps what was built there and receives its population share of the common reserves. Until the day it leaves, its people keep every right and every allocation, and the Peace Force withdraws with its weapons. The right to leave is part of the protected core that no amendment may remove (Article 42a).
+
 **T8. Protect production.** New members keep their farms, factories and services running with support from the union. Trade with non-members continues at negotiated prices. East Germany shows what happens when a currency shock is left to destroy production.
 
 Two more provisions complete the picture. Armed forces are dissolved within **5 years** of full membership, and every member is offered work, training and full income. And one rule runs through the whole transition, fixed by the author. **Energy, travel and data are always metered and paid per unit**, never at a flat rate. Free or flat-rate access raises the use of such goods by **14–70%**, and the climate cannot absorb that.
@@ -230,15 +232,15 @@ Two more provisions complete the picture. Armed forces are dissolved within **5 
 
 The cap came out of the money model in Chapter 6. That model followed **6,000** simulated adults in one region for **60 years**, under UNIRA's rules.
 
-| 60-year simulation | No cap | Cap of about 1.4 years of base salary, with zero-interest home credit |
-| --- | --- | --- |
-| Unspent money, in months of consumption | 152, still rising | **12**, stable |
-| Flow to One Earth, share of regional consumption | about 0% | about **20–23%** a year |
-| Adults at the cap | not applicable | **57%** |
+| 60-year simulation | No cap | Low cap, about 1.4 years, with zero-interest home credit | **Chosen: 1.5 years, with protected accounts** |
+| --- | --- | --- | --- |
+| Unspent free money, in months of consumption | 152, still rising | **12**, stable | about **13** |
+| Flow to One Earth, share of regional consumption | about 0% | about **20–23%** a year | about **22%** (19.8% with the time account) |
+| Adults at the cap | not applicable | 57–61% | **40%** |
 
-Two things stand out. First, the cap is not a rule for a handful of billionaires. In the simulation, **57%** of adults were at the cap. Second, the flow to One Earth is large. It is what pays for homes, energy and training in the regions that need them.
+Two things stand out. First, the cap is not a rule for a handful of billionaires. Even at the chosen level, **four adults in ten** reach it. Second, the flow to One Earth is large. It is what pays for homes, energy and training in the regions that need them.
 
-That is also why the cap must stay low. The research found that a cap set above the price of a home cannot keep money stable. Its proposal was a cap of about **1 to 1.5 years** of base salary, recalculated each year, with homes bought on zero-interest credit.
+That is also why the cap must stay moderate. The research found that a cap set above the price of a home cannot keep money stable. Its first proposal was a cap of about **1 to 1.5 years** of base salary, recalculated each year, with homes bought on zero-interest credit. The author then chose a floor of **1.5 years**, with protected home and retirement accounts, after seeing that higher caps barely reduce the share of people at the cap but make a sudden spending rush much more dangerous: **+26%** of a year's goods at 1.5 years, **+78%** at 5 years.
 
 These numbers come from a model of people, not from people. How real savers would respond to a cap has never been observed. The research lists this among the tests that could prove UNIRA wrong.
 
@@ -320,4 +322,4 @@ Inside UNIRA, no region carries public debt at all. The rule is not a one-off re
 - Market comparators (very cooperative market: 14%, 4%, 10%) and whole-world results with strong safeguards: `v72/TRANSITION_RULES.md`, from V6.9 (`v69/RESEARCH_NOTE.md`).
 - Distribution inside rich regions (Eurostat 2024 income deciles; base worker at about 86% of today's average): `v74/outputs/distribution.json`; summary in `v72/TRANSITION_RULES.md`. Base worker spending 2,500 U a month, home purchase in 3.3 years, and the 60-year money simulation: `v67/WORKING_PAPER_02.md`, section 4.
 - History of transitions (61 findings: German monetary union and the Treuhand; EU enlargement; the euro changeover; HIPC and MDRI; land reforms in Japan, Taiwan and South Korea; wealth taxes in France and Norway; wealth concentration; mortgage conversions in Iceland and Hungary): `v72/evidence/evidence.md`, `v72/evidence/evidence.csv`.
-- Transition rules T1–T8 and author decisions: `v72/TRANSITION_RULES.md`; design clarifications 15, 21–26: `v63/DESIGN_CLARIFICATIONS_2026-11-03.md`; Constitution, transitional provisions T-1 to T-6 and Articles 6, 14, 17, 18, 19, 20, 40, 41: `v75/constitution/UNIRA_CONSTITUTION_DRAFT.md`.
+- Transition rules T1–T8 and author decisions: `v72/TRANSITION_RULES.md`; moderate cap and protected accounts: `v79/RESEARCH_NOTE.md` §4b, `v79/outputs/cap_level.json`, `v79/outputs/time_account.json` and rules 34–35; design clarifications 15, 21–26: `v63/DESIGN_CLARIFICATIONS_2026-11-03.md`; Constitution, transitional provisions T-1 to T-6 and Articles 6, 14, 17 (17.5–17.6), 18, 19, 20, 40, 41, 41a and 42a, and T-7: `v75/constitution/UNIRA_CONSTITUTION_DRAFT.md`.

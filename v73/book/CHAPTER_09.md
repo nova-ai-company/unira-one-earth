@@ -1,6 +1,6 @@
 # Chapter 9 — Security, not scarcity
 
-*Second draft, 3 November 2026. Every figure comes from the UNIRA research (V6.4, V6.6, V7.1 and the draft constitution) and is listed in the notes at the end of the chapter.*
+*Second draft, 3 November 2026, updated with V7.9. Every figure comes from the UNIRA research (V6.4, V6.6, V7.1, V7.9 and the draft constitution) and is listed in the notes at the end of the chapter.*
 
 ---
 
@@ -173,6 +173,8 @@ This does not mean these goods are scarce or expensive. Article 6 guarantees eve
 
 There is an important difference between a **fixed price** and a **zero price**. A fixed price is still a price. Each extra kilowatt-hour or kilometre still costs something, so people still think before they use it. That limits rebound. Free or flat-rate access removes the signal.
 
+There is a second trap, found later. UNIRA prices goods by the hours of work they take. Priced that way alone, fuels would become about **79%** cheaper relative to other goods, and electricity about **65%** cheaper, because today's prices for them pay mostly for nature, not work. That would undo the meter. So Article 13.6 adds a **resource surcharge**: energy, fuels and air travel never become cheaper, relative to other goods, than they were when a region joined. Chapter 6 explains the rule.
+
 The rule therefore has two halves:
 
 - **Goods with a natural ceiling** (food, basic goods, calls) can be offered with secure, guaranteed access.
@@ -230,13 +232,18 @@ That last condition is where the money cap comes in. Chapter 6 introduced it, an
 
 At fixed prices, unspent money is a claim on goods. The research simulated 6,000 adults over 60 years in a France-sized region. Without a cap, unspent money grew without limit: **152 months** of consumption after 60 years, and still rising. If even part of it were spent at once, the shelves would empty. That is the Soviet trap again.
 
-With a low cap, about **1.4 years** of base salary, and zero-interest credit for homes, unspent money settles at about **12 months** of consumption. Money above the cap goes to the One Earth Fund, about **20–23%** of the region's consumption value each year. The Fund turns it into homes, energy and care where they are needed.
+With a cap and zero-interest credit for homes, unspent money settles at about **12 months** of consumption. Money above the cap goes to the One Earth Fund, about a fifth of the region's consumption value each year. The Fund turns it into homes, energy and care where they are needed.
 
-| 60-year simulation, 6,000 adults | No cap | Cap of about 1.4 years' base salary |
+| 60-year simulation, 6,000 adults | No cap | Moderate cap of 1.5 years' base salary, with protected accounts |
 | --- | --- | --- |
-| Unspent money, months of consumption | **152**, still rising | **12**, stable |
-| Flow to the One Earth Fund | about 0% | about **20–23%** a year |
-| Adults at the cap | — | **57%** |
+| Unspent money, months of consumption | **152**, still rising | about **13** free, plus about **12** in protected accounts |
+| Extra demand if a quarter of free money is spent in one year | **+316%** of a year's goods | **+26%** |
+| Flow to the One Earth Fund | about 0% | about **22%** a year |
+| Adults at the cap | — | **40%** |
+
+The middle row is the one that matters for security. It asks what happens if fear strikes and people rush to spend. Without a cap, the rush would be more than three years' worth of goods: empty shelves are certain. With the moderate cap, it is about a quarter of a year's goods, which reserves can be built to cover. Money in the protected home and retirement accounts cannot be spent in a rush at all. A higher cap of 5 years would raise the rush to **+78%**. That is one reason the author chose 1.5 years (Chapter 6).
+
+The cap also adjusts itself. A yearly thermostat, run by rule and limited to **10%** up or down, kept unspent money within about **10–14 months** of consumption through a simulated disaster, a wave of fearful saving, a baby boom and fast automation.
 
 Pay is guarded too. If average pay drifted up by 0.5% a year with no matching rise in productivity, demand would exceed supply by **13%** after 30 years. So Article 14 says that average pay may rise only as fast as productivity.
 
@@ -279,7 +286,7 @@ The calorie evidence says no, in general: people in India ate fewer calories as 
 - Security alone does little for food waste. Halving waste remains the main lever for a comfortable diet.
 - For goods **without a ceiling**, cheap or unlimited access raises use: data **0.5 → 14 GB** a month, free transit **+14–70%** trips, flat-rate heating up to about **30%** more.
 - A **20–30%** energy rebound would push world energy to **424–436 EJ**, outside the 1.5 °C range. That is why energy, travel and data are always metered (Article 19).
-- Fixed prices are stable only if money stays matched to goods. The money cap holds unspent money at about **12 months** of consumption, against **152** without it.
+- Fixed prices are stable only if money stays matched to goods. The money cap holds unspent money at about **12 months** of consumption, against **152** without it. At the chosen cap of 1.5 years, a sudden spending rush adds about **26%** to a year's demand, against **316%** with no cap.
 
 ## What we still don't know
 
@@ -298,5 +305,7 @@ The calorie evidence says no, in general: people in India ate fewer calories as 
 - Rule 20 hypothesis, rules 8, 10, 13, 15 and 18: `v63/DESIGN_CLARIFICATIONS_2026-11-03.md`, including the note on Soviet fixed prices (Kornai, *Economics of Shortage*, 1980) and testing reserves against harvest variability.
 - Evidence and model effects: `v71/RESEARCH_NOTE.md`; detailed review in `v71/evidence/evidence.md` (ARCEP mobile voice data and basis change; Lambrecht & Skiera 2006; Ireland grocery data, March 2020; Evans & Popova; Deaton & Dreze 2009; Nettle et al. 2017; Hall 2019; UNEP Food Waste Index 2021; UK lockdown waste; Ericsson mobile data; Sorrell 2009; Tallinn, Dunkirk and Luxembourg transit data; excluded and unverified items). Rows and URLs in `v71/evidence/evidence.csv`.
 - Comfortable energy level, 386 EJ in 2050, 6–13% below today: `v66/RESEARCH_NOTE.md` §1; `v67/WORKING_PAPER_02.md`, section 6.
+- Price rule and resource surcharge (fuels 0.21, electricity 0.35 of market relative price): `v79/RESEARCH_NOTE.md` §2; `v79/outputs/price_rule.json`.
+- Moderate cap, rush test and thermostat: `v79/RESEARCH_NOTE.md` §4 and §4b; `v79/outputs/cap_level.json`, `v79/outputs/thermostat.json`.
 - Money cap simulation, adults at the cap, One Earth flows, experience creep, shorter hours, falsification test on the money rules, base-worker consumption, distribution inside rich regions and the 2022 price shock: `v67/WORKING_PAPER_02.md`, sections 4, 10, 12 and the appendix on distribution (V7.4).
-- Constitutional text: `v75/constitution/UNIRA_CONSTITUTION_DRAFT.md`, Articles 3a, 6, 11, 13, 14, 17, 17a and 19.
+- Constitutional text: `v75/constitution/UNIRA_CONSTITUTION_DRAFT.md`, Articles 3a, 6, 11, 13 (including the resource surcharge, 13.6), 14, 17, 17a, 17b and 19.

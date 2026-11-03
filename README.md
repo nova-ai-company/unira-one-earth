@@ -12,7 +12,8 @@ UNIRA is a proposal for one world federation of equal regions. It has a 30-hour 
 | [Working Paper 02](https://nova-ai-company.github.io/unira-one-earth/paper.html) | The scientific paper (also as Word in `docs/downloads/`) |
 | [Draft Constitution of One Earth](https://nova-ai-company.github.io/unira-one-earth/constitution.html) | 66 articles |
 | [Book draft](https://nova-ai-company.github.io/unira-one-earth/book.html) | *UNIRA: One Humanity, One Future* (second draft, English) |
-| [For reviewers](https://nova-ai-company.github.io/unira-one-earth/review.html) | Review brief, 70 questions, feedback form |
+| [For reviewers](https://nova-ai-company.github.io/unira-one-earth/review.html) | Review brief, 80 questions, feedback form |
+| [Pilot proposal](https://nova-ai-company.github.io/unira-one-earth/pilot.html) | A 30-hour, full-employment town inside today's law, with pre-registered predictions and failure criteria |
 
 ## Main results (with their conditions)
 
@@ -49,6 +50,7 @@ These are tests of **physical feasibility under stated assumptions**, not foreca
 | `v76/` | Peace Force and migration evidence |
 | `v77/` | Website, simulator and outside-review package |
 | `v78/` | AI / machine-learning planning of needed production: backtests, fairness, 30-year information test |
+| `v80/pilot/` | Pilot plan: precedents (TZCLD, Marienthal, shorter-week trials), predictions, failure criteria, budget |
 | `v79/` | The missing designs (allocation formula, prices, desirable homes, money cap, innovation) and safeguards against concentrated power |
 | `docs/` | The published website (generated) |
 

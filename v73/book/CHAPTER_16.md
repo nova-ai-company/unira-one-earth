@@ -1,6 +1,6 @@
 # Chapter 16 — One humanity, one future
 
-*Second draft, 3 November 2026. Every figure comes from the UNIRA research (V6.2–V7.5) and is listed in the notes at the end of the chapter.*
+*Second draft, 3 November 2026. Every figure comes from the UNIRA research (V6.2–V7.9) and is listed in the notes at the end of the chapter.*
 
 ---
 
@@ -22,7 +22,7 @@ The answer from the evidence is a qualified **yes**.
 
 **Work can be shared.** A 30-hour week is affordable if almost everyone able to work does work. In France, an employment rate of about **88%** keeps today's output from the first year. Technology can then shorten the week further: towards **23 hours** after 30 years, if productivity grows 1% a year.
 
-**The money can work.** A single currency with fixed prices, salaries from 5,000 to 25,000 U, and a cap on personal money keeps goods and money in balance. Without the cap, unspent money piles up without limit. The money above the cap flows to the One Earth Fund, which pays for what every region receives.
+**The money can work.** A single currency with fixed prices, salaries from 5,000 to 25,000 U, and a cap on personal money keeps goods and money in balance. Without the cap, unspent money piles up without limit. The chosen cap is moderate, **1.5 years** of base salary, with protected accounts for a home and for retirement, and it is set each year by a published thermostat rule. The money above it flows to the One Earth Fund, which pays for what every region receives. New products are priced by the hours they take, with a surcharge on scarce resources so that energy never becomes cheap enough to waste.
 
 **The planet can carry it.** A comfortable level of energy for everyone, **40 GJ** per person, adds up in 2050 to about **6–13% less** energy than the world uses today. The range depends on the estimate of today's use. Material use per person must fall about **2.7 times**, and homes must be built with low-carbon materials.
 
@@ -30,7 +30,9 @@ The answer from the evidence is a qualified **yes**.
 
 **Homes take longest.** Comfortable space for everyone, 27 m² per person, means about **65 billion m²** of new homes. Building about **4.7 billion m²** a year, without a break, closes that backlog by year 27. But the population grows, and old homes need upgrading. Counting both, about **109 billion m²** must be built or upgraded. That needs building in regions of need to grow **5–10%** a year, to a peak of about **6–7 billion m²** a year.
 
-**Safeguards make the difference.** Real institutions make mistakes and lose resources. With strong safeguards, needs-first allocation keeps about **85%** of its advantage. Without them, it keeps less, but still more than the best market world.
+**Decent for everyone comes first.** Serving the decent level before the comfortable one brings every region to decent energy in about **4** years, decent health care in **7** and decent housing in **9**, with no loss on the comfortable goal.
+
+**Safeguards make the difference.** Real institutions make mistakes and lose resources. With strong safeguards, needs-first allocation keeps about **85%** of its advantage. Without them, it keeps less, but still more than the best market world. Information is not the weak point: errors in data and forecasts cost at most about 1%. Theft is. And power is split across nine bodies, so that no one holds arms, money and allocation together.
 
 **Most people gain.** Compared with a reformed market world after 30 years, about **86%** of humanity lives in regions that gain. Add the poor and lower-middle people of the rich regions, about 495 million who are better off even at the lowest UNIRA income, and **about 92% of humanity is better off**. In the richest regions, *average* energy use per person is about **6–12%** lower. That reduction falls on the heaviest users, not on the poor, and nobody falls below the comfortable level. In return they gain peace, security, time and a stable climate. And inside them, 44% of the people, about 495 million, would be better off even at the lowest UNIRA salary.
 
@@ -66,7 +68,8 @@ An honest book must say clearly where its evidence ends.
 - **Building the institutions.** The research shows what needs-first allocation would achieve if it worked. It cannot show that a world federation can be built, or how quickly. Its own institutions also need work hours that are not yet counted.
 - **Politics.** Whether rich regions would choose peace, security and time over part of their energy use is a choice for their people. No model can make it for them.
 - **Averages.** Most numbers are national or regional averages. Inside every region, people live very differently.
-- **Planning at scale.** The comparison with markets covered energy, health workers and homes. Planning millions of products for billions of people is a much larger problem. It is still open.
+- **Planning at scale.** The comparison with markets covered energy, health workers and homes. Planning millions of products for billions of people is a much larger problem. It is still open. AI forecasts help with the big needs, but they are weakest in the poorest regions, where statistics must improve first.
+- **Invention without profit.** Article 3d sets out how research, prizes and rewards would work, within the five-times ceiling. The evidence supports open research and prizes, but is weak for development and scale-up. Whether a world without profit would invent as fast is not shown.
 - **Some data are missing.** World figures for new medical graduates, home building by income group and military energy use do not exist in usable form. Floor area per person comes from a regional model, because no official country data exist.
 
 ## How UNIRA could be proven wrong
@@ -89,13 +92,13 @@ Each chapter of this book has faced its own critics. Here are the hardest object
 
 **"Markets are more efficient than any planner."** Chapter 13 gave UNIRA no efficiency bonus and markets none either. The comparison changed only institutions. But it covered only three kinds of new capacity, and it did not count the work of running UNIRA's own institutions. That objection is not settled.
 
-**"A world authority will be captured or corrupted."** Chapter 14 measured how real allocators fail and put those failures into the model. With typical failures and no safeguards, needs-first allocation still beat the best market world. Under the worst governance ever observed, it did not.
+**"A world authority will be captured or corrupted."** Chapter 14 measured how real allocators fail and put those failures into the model. With typical failures and no safeguards, needs-first allocation still beat the best market world. Under the worst governance ever observed, it did not. The research also attacked the constitution with thirteen ways to seize power, and added seventeen articles until each attack met at least two barriers. No text can guarantee freedom; that is why the right to leave is protected.
 
-**"Taking money above the cap is confiscation."** Chapter 15 does not hide it. The research calls the direct transfer "legally and politically harder" than bonds. The cap phases in over ten years, homes are never taken, and anyone may leave with their money up to the cap.
+**"Taking money above the cap is confiscation."** Chapter 15 does not hide it. The research calls the direct transfer "legally and politically harder" than bonds. But the cap is moderate, 90,000 U of free savings plus protected accounts for a home and for retirement, up to 360,000 U in all. It phases in over ten years, homes are never taken, and anyone may leave with their money up to the cap.
 
 **"If things are free, people will waste them."** Chapter 9 found this is true for some goods and false for others. Use of food and basic goods levels off once needs are met. Use of energy, travel and data does not. So those three are always metered and paid per unit.
 
-**"People will not work if their needs are met."** The research cannot answer this from observation. No UNIRA economy exists. The work rule, the salary scale and the money cap are designed to keep people working, but behaviour is an assumption. It sits behind the labour and money tests below.
+**"People will not work if their needs are met."** The research cannot answer this from observation. No UNIRA economy exists. The work rule, the salary scale, the money cap, the time account and the rewards for innovators (Chapter 13) are designed to keep people working, but behaviour is an assumption. It sits behind the labour and money tests below.
 
 **"Rich regions will never agree."** Perhaps not. That is why UNIRA can start without them. And inside those regions, half the people would be better off even at the lowest UNIRA income.
 
@@ -133,7 +136,7 @@ The evidence reviews go one step further. For each value, they record its source
 
 The calculations are open too. They run on an ordinary computer, with Python 3 and nothing else beyond its standard library. One command reruns the whole chain.
 
-When the research is rerun from a clean copy, the outputs come out byte for byte the same. All **151** automated tests pass.
+When the research is rerun from a clean copy, the outputs come out byte for byte the same. All **186** automated tests pass.
 
 ### An illustration: checking one number
 
@@ -168,11 +171,11 @@ The most useful sign of honest work is not that it was right first time. It is t
 
 Some of these made UNIRA's case harder, not easier. They were made anyway.
 
-### A planned public website and simulator
+### The public website and simulator
 
-A free public website is planned for the research. It is meant to bring the data, the code, the evidence tables and the draft constitution together in one place, open to anyone.
+The research now has a free public website, https://nova-ai-company.github.io/unira-one-earth/, with the code and data at https://github.com/nova-ai-company/unira-one-earth. It brings the data, the code, the evidence tables and the draft constitution together in one place, open to anyone.
 
-It is also meant to host an interactive simulator. The idea is simple. Instead of reading that UNIRA closes 60% of the energy gap by year 15, a reader could move the levers themselves. They could try a lower employment rate, slower clean-energy building or higher leakage, and watch what happens. The website and simulator are plans, not yet finished tools.
+It also hosts an interactive simulator. The idea is simple. Instead of reading that UNIRA closes 60% of the energy gap by year 15, a reader can move the levers themselves: a lower employment rate, slower clean-energy building, weaker safeguards against leakage, and watch what happens. Every result in the simulator comes from the same tested models as the research.
 
 ### Public discussion
 
@@ -215,6 +218,8 @@ One humanity. One future.
 - How a world federation could be built in practice, and how fast.
 - Whether the rich regions of the world would choose to join.
 - Whether planning can work beyond the three kinds of capacity tested here.
+- Whether AI checks can really reduce leakage, and whether a world without profit keeps inventing.
+- Whether the new safeguards against concentrated power hold. Their thresholds are judgement, and resistance by ordinary people still matters more than any text.
 - How much leakage there would be in building homes and power plants, rather than in cash and food programmes.
 - What outside experts will find when they review the work.
 
@@ -226,9 +231,10 @@ One humanity. One future.
 - Housing acceleration (109 billion m², 5–10% growth, a peak of 6–7 billion m² a year, 33–64 hours per m², 294 million construction workers): `v70/RESEARCH_NOTE.md`, Part A.
 - Matched comparison with market economies: `v68/RESEARCH_NOTE.md`. Allocation failures and the sharpened test: `v69/RESEARCH_NOTE.md`.
 - Joining and the union of gainers: `v72/outputs/joining.json`, `v72/TRANSITION_RULES.md`. Distribution inside rich regions: `v74/outputs/distribution.json`.
-- Built-in test (Article 39), data and science in every decision (Article 3a): `v75/constitution/UNIRA_CONSTITUTION_DRAFT.md`.
-- Data sources, evidence labels, SHA-256 fingerprints, 151 tests and reproduction (`python3 v63/run_all.py`, Python 3, standard library only): `v67/WORKING_PAPER_02.md`, section 2 and "Sources and reproducibility".
+- Built-in test (Article 39), data and science in every decision (Article 3a), AI (3b), innovation (3d), allocation formula (10a), money cap and accounts (17.5–17.6), separation of powers (22a); 66 articles in all: `v75/constitution/UNIRA_CONSTITUTION_DRAFT.md`.
+- AI planning: `v78/RESEARCH_NOTE.md`. The missing designs and power safeguards: `v79/RESEARCH_NOTE.md`. Author's decisions 32–37: `v63/DESIGN_CLARIFICATIONS_2026-11-03.md`.
+- Data sources, evidence labels, SHA-256 fingerprints, 186 tests and reproduction (`python3 v63/run_all.py`, Python 3, standard library only): `v67/WORKING_PAPER_02.md`, section 2 and "Sources and reproducibility"; `README.md`.
 - Independent audits and corrections: `v62/audit/AUDIT_FINDINGS.md`; `v67/WORKING_PAPER_02.md`, section 2. Later source verification (11 items, corrections to aid, training time and housing): `v68/verification/verification.md`.
 - Next research steps: `v67/WORKING_PAPER_02.md`, section 13.
 - Security and consumption (satiation for food and basic goods, rebound for energy, travel and data): `v63/DESIGN_CLARIFICATIONS_2026-11-03.md`, item 20; `v67/WORKING_PAPER_02.md`, section 10 and Article 21 of the safeguards draft. Direct transfer above the cap "legally and politically harder": `v72/TRANSITION_RULES.md`, T3.
-- The planned public website and simulator are described from the project's plans; they are not yet part of the research files.
+- Website and simulator: `v77/site/` (published at https://nova-ai-company.github.io/unira-one-earth/).

@@ -1,6 +1,6 @@
 # Chapter 7 — A home for every family
 
-*Second draft, 3 November 2026. Every figure comes from the UNIRA research (V6.4–V7.2 and the draft constitution) and is listed in the notes at the end of the chapter.*
+*Second draft, 3 November 2026, updated with V7.9. Every figure comes from the UNIRA research (V6.4–V7.2, V7.9 and the draft constitution) and is listed in the notes at the end of the chapter.*
 
 ---
 
@@ -55,7 +55,7 @@ Both earn the base salary, **5,000 U** a month each. Together they earn **10,000
 
 **Option 1: save first.** They save half their income, 5,000 U a month, or 60,000 U a year. After **5 years** they have 300,000 U, and they buy. That matches the table.
 
-There is a catch. Chapter 6 showed that personal money is capped, at about **1.4 years** of base salary. That is about 84,000 U each, 168,000 U for the two of them. They cannot hold 300,000 U in savings. So in practice, they cannot save the whole price first.
+There is a catch, and a way round it. Chapter 6 showed that free savings are capped at **90,000 U** each, one and a half years of base salary. But until they own a home, each of them may also hold up to **150,000 U** in a protected home account. Together that is room for up to 480,000 U, so saving the whole price first is possible. It just takes five years of waiting.
 
 **Option 2: borrow at zero interest.** They borrow 300,000 U and move in at once. Each month, 5,000 U is repaid directly from their salaries. After 60 months, **5 years**, the loan is paid.
 
@@ -153,13 +153,64 @@ Savings above the cap go to the One Earth Fund. Homes do not. The difference is 
 
 ## Who gets the house by the sea?
 
-Here is a question the rules do not yet answer.
-
 Prices are fixed by size and location. But some places are more wanted than others: a flat near the centre, a house by the sea. At a fixed price, more people may want such a home than there are homes.
 
-In a market, the price would rise until fewer people wanted it. In UNIRA, the price does not move. So something else must decide.
+In a market, the price would rise until fewer people wanted it. In UNIRA, the price does not move. So something else must decide. An earlier draft of this book called this an honest gap. The research has now designed and tested an answer, and it is in the constitution (Articles 18.7–18.11).
 
-The research lists this as a task still open: how to allocate desirable locations at fixed prices, when demand exceeds supply. The rule that first homes come before second homes helps. But a full answer, fair and simple, has not been designed. It is one of the honest gaps in this chapter.
+### Points, then a public lottery
+
+When more households apply for homes in a zone than there are homes free, they are ranked by **published priority points**. Points are given for:
+- household size and children;
+- nearness to the place of work or study;
+- disability and care duties;
+- time already waiting;
+- local roots.
+
+**Income, wealth and any offer to pay more never count.**
+
+Applicants whose points fall in the same band are ranked by a **public lottery**, drawn once a year for all zones together. Nobody may buy, sell or pass on a place in the ranking.
+
+One-tenth of these homes go to an **open lottery** among all applicants, whatever their points, so that nobody is shut out for ever. A region may raise this share, but to at most one-fifth.
+
+Three more rules protect the system:
+- **Must live in.** In a high-demand zone, a home must be the household's main residence. It may not be left empty, used as a second home or let out whole. A home empty for more than six months without a good reason, such as care, study, a work posting or repair, returns to the regional pool.
+- **Checks.** Points claims are checked before the keys are handed over. A household that lied loses the offer and may not apply again for five years.
+- **Building to need.** Each region publishes waiting times and points thresholds for every zone every year. Where the average wait passes five years, it builds more homes there and moves jobs and services to other zones.
+
+### How the rules were tested
+
+The research built a simulated city over 30 years. Its centre and seaside had about **2.5** applicants for every home that came free. It then compared six ways of choosing.
+
+| Method | Average wait, if housed | High-need households housed within 5 years | Richest tenth's share against poorest tenth's |
+| --- | --- | --- | --- |
+| Queue, first come first served | 9.7 years | **0%** | 1.03 |
+| Points | 5.2 years | 27% | 0.86 |
+| **Points + public lottery** | 5.2 years | **28%** | **0.86** |
+| Points + lottery + 30% open lottery (tested; UNIRA chose 10%) | 4.8 years | 25% | 0.88 |
+| Pure lottery | 4.2 years | 20% | 1.00 |
+| Highest bidder (a market) | short, for the rich only | 27% | 99 or more: the poorer half gets almost nothing |
+
+"High-need" means households with children, a disability or a care duty. The last column compares what the richest tenth receives with what the poorest tenth receives. A value below 1 means the poorest get slightly more, because need is a little more common among them. Income itself plays no part.
+
+What the table shows:
+- **A queue is fair to incomes but blind to need.** Its 9.7-year wait is close to real queues in Stockholm (9 years) and Amsterdam (10.7 years), although the model was not tuned to them. Nobody is housed within five years, however great their need.
+- **Bidding is the worst.** The poorer half gets almost nothing. Without a must-live-in rule, nearly a third of the best homes would sit empty.
+- **Points plus a public lottery is the fairest method.** It reaches the most households in need, gives the shortest commutes, and has no income gradient. The lottery barely changes who is housed. It is there because it breaks ties in public, by chance, instead of by an official's choice.
+
+Why an open share of 10%? Points alone almost completely shut out households with low need. That may be fair, but it means some people never have any chance. Each extra 10% of homes in the open lottery costs high-need households about **1.2 points** and gives low-need households about **2.5 points**. At 10%, high-need households housed within five years fall from **28.3%** to **27.1%**, and low-need households rise from almost **0%** to **2.6%**. The author chose 10%, with a ceiling of 20% for regions that want more.
+
+Three rules turned out to be essential:
+- **Checks.** If 20% of applicants falsely claimed care duties, they would take about **29%** of the homes, and the system would quietly start to favour the better-off, who cheated more in the model. Checking 75% of successful claims undoes almost all of this. Checking a quarter is not enough.
+- **Must live in.** It cuts empty desirable homes from **6–32%** to under **0.5%**.
+- **Building more.** Building 25% more homes in the wanted zones raises high-need households housed within five years from 28% to **39%**. No allocation rule alone makes the wait short. Only more homes, and jobs spread across the city, do that.
+
+### An imagined draw
+
+Imagine Leila, a nurse with two children, who works near the harbour. She applies for a flat by the sea. Her points for children, a short commute and three years of waiting put her in a high band. On draw day, the region publishes the lottery online. Her number comes up fourth in her band, and there are five flats.
+
+Her neighbour, single and with no special need, also applied. He is in a low band. But his name goes into the open lottery too, with one chance in many. This year it is not drawn. Next year it might be.
+
+Leila and her neighbour are imagined. The rules are Article 18.
 
 ## The world's housing gap
 
@@ -286,7 +337,7 @@ So the builders in those regions must roughly double. This is where UNIRA's othe
 ## Questions a fair reader might ask
 
 **"Why only two homes?"**
-Because the space and the builders are limited, and many families still have none. Two homes allow a family home and, for example, a place near work or family. More than that would keep homes empty while others wait.
+Because the space and the builders are limited, and many families still have none. Two homes allow a family home and, for example, a place near work or family. More than that would keep homes empty while others wait. And the second home may not be in a high-demand zone, where every home must be lived in.
 
 **"Isn't the inheritance rule just taking people's property?"**
 The heir always keeps a home, and chooses which one. What returns to the pool is a home *beyond* the one they already have. Homes people live in are never seized.
@@ -307,7 +358,8 @@ It has never been done at this scale. The research says plainly that it is a ver
 
 - UNIRA homes cost **100,000–500,000 U**. A single base earner saving half their pay buys a 100,000 U home in about **3.3 years**; a couple on average pay buys a 300,000 U home in about **2.6 years**.
 - Zero-interest credit lets families move in at once, for the same total price.
-- Saving half for life does not work at fixed prices. A low money cap with zero-interest credit keeps money stable, with home ownership around **91%**.
+- Saving half for life does not work at fixed prices. A moderate money cap with zero-interest credit and a protected home account keeps money stable, with home ownership around **91%**. No salaried person was blocked from a first home.
+- Where more people want a home than there are homes, points plus a public lottery houses **28%** of high-need households within 5 years, against **0%** for a queue, with no income gradient. A 10% open lottery gives low-need households a **2.6%** chance. Checks on claims and the must-live-in rule are essential.
 - Second homes come mainly from inheritance. With the low cap and free credit, they fall from **60%** to **38%** of households in the simulation.
 - People still renting are mostly adults without a salary. Guaranteed public housing is their answer.
 - Comfortable homes for everyone (27 m² each) mean building or upgrading about **109 billion m²**. It can be done in about **27 years** if building capacity grows 5–10% a year.
@@ -318,7 +370,7 @@ It has never been done at this scale. The research says plainly that it is a ver
 ## What we still don't know
 
 - **Is the price range right?** A home embodying about 3,600 hours of work would be worth about **525,000 U** at UNIRA's fixed price, above the 500,000 U ceiling.
-- **Who gets the most wanted locations** at fixed prices, when more people want them than there are homes.
+- **How the desirable-homes rules work in a real city.** The simulated city is stylised; its demand, turnover and point weights are assumptions. Fake addresses, split households and corrupt checkers were not modelled.
 - **How much work does a self-built home take?** No verified figure was found per square metre.
 - **How much carbon do African and Indian concrete homes really emit?** No whole-house assessment was found.
 - The share of homes that can be upgraded, and the materials it saves, are partly judgement.
@@ -329,8 +381,9 @@ It has never been done at this scale. The research says plainly that it is a ver
 ---
 
 ### Notes on sources
-- Housing rules (prices, two-home limit, saving, zero-interest credit, allocation of desirable locations as an open task): `v63/DESIGN_CLARIFICATIONS_2026-11-03.md`, rules 11, 16–18 and 22; proposals P1 (inherited homes), P2 (low cap and credit) and P3 (public housing).
-- Constitutional text: `v75/constitution/UNIRA_CONSTITUTION_DRAFT.md`, Articles 6, 11, 17, 18 and transitional provision T-2.
+- Housing rules (prices, two-home limit, saving, zero-interest credit): `v63/DESIGN_CLARIFICATIONS_2026-11-03.md`, rules 11, 16–18 and 22; proposals P1 (inherited homes), P2 (low cap and credit) and P3 (public housing); moderate cap and home account, rule 34; open lottery of 10%, at most 20%, rule 36.
+- Desirable homes (simulated city, six methods, gaming and audits, must-live-in rule, building more; Stockholm and Amsterdam queues; 39 evidence rows on Singapore, Vienna, Stockholm, the Netherlands and Vancouver): `v79/housing/RESEARCH_NOTE.md`; `v79/housing/outputs/results.json`; open-lottery share: `v79/housing/outputs/open_share.json`; summary in `v79/RESEARCH_NOTE.md` §3.
+- Constitutional text: `v75/constitution/UNIRA_CONSTITUTION_DRAFT.md`, Articles 6, 11, 17 (17.5–17.6), 18 (18.7–18.11) and transitional provision T-2.
 - Money circuit, years-to-buy table (all rows), construction capacity, the 50% saving problem, the 14% balancing rate, labour content of homes (2,050 and 3,600 hours; 17.9 hours per €1,000): `v64/RESEARCH_NOTE.md` §2–4; `v64/outputs/summary.json`. Lifecycle simulation: `v64/RESEARCH_NOTE.md` §4b.
 - Floor area per person, decent and comfortable thresholds, and the 13 / 65 bn m² building need: `v66/RESEARCH_NOTE.md` §3; `v65/thresholds/thresholds.md` (Rao & Min 2018; Millward-Hopkins et al. 2020; Germany and EU ranges); regional model estimates (IMAGE), per `v67/WORKING_PAPER_02.md` section 6.
 - World net stock increase (3.4 bn m², 2024) and China's 7.3 bn m²: `v68/verification/verification.md`.
