@@ -1,0 +1,2 @@
+file,dataset,url,retrieved_at_utc,sha256,bytes,license
+who_WHOSIS_000002.json,WHO GHO WHOSIS_000002 Healthy life expectancy (HALE) at birth (years),"https://xmart-api-public.who.int/GHO/FACT?$filter=INDICATOR_CODE+eq+'WHOSIS_000002'&$select=INDICATOR_CODE,PERIOD_CODE,LOCATION_CODE,LOCATION_TYPE,DIMENSION_1,DIMENSION_MEMBER_1,VALUE_NUMERIC",2026-11-03T21:19:35+00:00,3694cf2a8004dc82c5749c16af15f8f53878be0784ff387e8eb3d024f7f31e4f,2549866,"WHO GHO data, CC BY-NC-SA 3.0 IGO (WHO data policy)"

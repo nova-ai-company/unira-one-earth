@@ -41,7 +41,8 @@ def health_weights(regions):
     return {k: v / mean for k, v in w.items()}
 
 
-def run(regions, s, two_pass, age_adjust, cfg, cap):
+def run(regions, s, two_pass, age_adjust, cfg, cap, weights=None):
+    """weights: optional {iso: health-need weight} (mean 1); overrides the age weight."""
     sh = cfg["shared"]
     p = {"energy_target": 40, "health_target": 131, "floor_target": 27,
          "excess_decline": s["rich_region_energy_decline"], "energy_new_ej_per_yr": sh["energy_new_ej_per_yr"],
@@ -50,7 +51,8 @@ def run(regions, s, two_pass, age_adjust, cfg, cap):
          "floor_new_m2_per_yr": cap["world_res_floor_added_m2_per_yr"][sh["housing_capacity"]] * s["housing_share_to_regions_in_need"],
          "kcal_eaten": {"decent": 2100, "comfortable": 2470}, "waste_now": 0.19, "waste_unira": 0.095, "waste_years": 10,
          "military_energy_share": s["military_energy_share_freed"], "military_years": 5}
-    hw = health_weights(regions) if age_adjust else {k: 1.0 for k in regions}
+    hw = weights or (health_weights(regions) if age_adjust else {k: 1.0 for k in regions})
+    given = {k: 0.0 for k in regions}
     below = {d: 0.0 for d in DECENT}
     reached = {d: None for d in DECENT}
     real = tr.allocate_perceived
@@ -66,11 +68,16 @@ def run(regions, s, two_pass, age_adjust, cfg, cap):
         if reached[domain] is None and not any(v > 0 for v in dec.values()):
             reached[domain] = t
         if not two_pass:
-            return tr.allocate(pool, true_def)
-        g1 = tr.allocate(pool, {k: min(dec[k], true_def[k]) for k in st})
-        rest = pool - sum(g1.values())
-        g2 = tr.allocate(rest, {k: true_def[k] - g1[k] for k in st})
-        return {k: g1[k] + g2[k] for k in st}
+            g = tr.allocate(pool, true_def)
+        else:
+            g1 = tr.allocate(pool, {k: min(dec[k], true_def[k]) for k in st})
+            rest = pool - sum(g1.values())
+            g2 = tr.allocate(rest, {k: true_def[k] - g1[k] for k in st})
+            g = {k: g1[k] + g2[k] for k in st}
+        if domain == "health":
+            for k in g:
+                given[k] += g[k]
+        return g
 
     tr.allocate_perceived = alloc
     try:
@@ -80,7 +87,8 @@ def run(regions, s, two_pass, age_adjust, cfg, cap):
     return {"person_years_below_decent_bn": {d: round(v / 1e9, 2) for d, v in below.items()},
             "year_everyone_decent": reached,
             "comfortable_gap_closed_y15": {d: round(rows[15][f"{d}_shortfall_closed"], 3) for d in DECENT},
-            "comfortable_gap_closed_y30": {d: round(rows[30][f"{d}_shortfall_closed"], 3) for d in DECENT}}
+            "comfortable_gap_closed_y30": {d: round(rows[30][f"{d}_shortfall_closed"], 3) for d in DECENT},
+            "_health_given": given, "_final": {k: dict(v) for k, v in p["_final_state"].items()}}
 
 
 def main():
@@ -91,6 +99,7 @@ def main():
     out = {"age_weight_65plus": AGE_WEIGHT, "decent": {d: v[1] for d, v in DECENT.items()}, "results": {}}
     for name, two, age in (("single_pass_v67", False, False), ("two_pass", True, False), ("two_pass_age_adjusted", True, True)):
         r = run(regions, s, two, age, cfg, cap)
+        r.pop("_health_given"), r.pop("_final")
         out["results"][name] = r
         print(name, json.dumps(r))
     (HERE.parent / "outputs").mkdir(exist_ok=True)

@@ -1,0 +1,200 @@
+{
+  "reference_healthy_life_years": 88.0,
+  "population_share": {
+    "East Asia & Pacific": 0.292,
+    "Europe & Central Asia": 0.115,
+    "Latin America & Caribbean": 0.08,
+    "Middle East, North Africa, Afghanistan & Pakistan": 0.1,
+    "North America": 0.047,
+    "South Asia": 0.208,
+    "Sub-Saharan Africa": 0.157
+  },
+  "schemes": {
+    "equal": {
+      "weight_by_region": {
+        "East Asia & Pacific": 1.0,
+        "Europe & Central Asia": 1.0,
+        "Latin America & Caribbean": 1.0,
+        "Middle East, North Africa, Afghanistan & Pakistan": 1.0,
+        "North America": 1.0,
+        "South Asia": 1.0,
+        "Sub-Saharan Africa": 1.0
+      },
+      "share_of_new_health_workers": {
+        "East Asia & Pacific": 0.184,
+        "Europe & Central Asia": 0.024,
+        "Latin America & Caribbean": 0.064,
+        "Middle East, North Africa, Afghanistan & Pakistan": 0.153,
+        "North America": 0.0,
+        "South Asia": 0.248,
+        "Sub-Saharan Africa": 0.326
+      },
+      "health_workers_per_10k_year30": {
+        "East Asia & Pacific": 133.8,
+        "Europe & Central Asia": 141.3,
+        "Latin America & Caribbean": 131.0,
+        "Middle East, North Africa, Afghanistan & Pakistan": 131.0,
+        "North America": 134.0,
+        "South Asia": 131.0,
+        "Sub-Saharan Africa": 131.0
+      },
+      "year_every_region_decent_health": 7,
+      "person_years_below_decent_health_bn": 27.1
+    },
+    "age_2x": {
+      "weight_by_region": {
+        "East Asia & Pacific": 1.03,
+        "Europe & Central Asia": 1.07,
+        "Latin America & Caribbean": 1.0,
+        "Middle East, North Africa, Afghanistan & Pakistan": 0.95,
+        "North America": 1.07,
+        "South Asia": 0.97,
+        "Sub-Saharan Africa": 0.94
+      },
+      "share_of_new_health_workers": {
+        "East Asia & Pacific": 0.195,
+        "Europe & Central Asia": 0.03,
+        "Latin America & Caribbean": 0.065,
+        "Middle East, North Africa, Afghanistan & Pakistan": 0.148,
+        "North America": 0.004,
+        "South Asia": 0.245,
+        "Sub-Saharan Africa": 0.312
+      },
+      "health_workers_per_10k_year30": {
+        "East Asia & Pacific": 136.0,
+        "Europe & Central Asia": 146.2,
+        "Latin America & Caribbean": 130.2,
+        "Middle East, North Africa, Afghanistan & Pakistan": 124.7,
+        "North America": 140.5,
+        "South Asia": 127.4,
+        "Sub-Saharan Africa": 122.6
+      },
+      "year_every_region_decent_health": 6,
+      "person_years_below_decent_health_bn": 25.99
+    },
+    "age_3x": {
+      "weight_by_region": {
+        "East Asia & Pacific": 1.06,
+        "Europe & Central Asia": 1.13,
+        "Latin America & Caribbean": 0.99,
+        "Middle East, North Africa, Afghanistan & Pakistan": 0.92,
+        "North America": 1.13,
+        "South Asia": 0.95,
+        "Sub-Saharan Africa": 0.88
+      },
+      "share_of_new_health_workers": {
+        "East Asia & Pacific": 0.205,
+        "Europe & Central Asia": 0.037,
+        "Latin America & Caribbean": 0.066,
+        "Middle East, North Africa, Afghanistan & Pakistan": 0.143,
+        "North America": 0.008,
+        "South Asia": 0.242,
+        "Sub-Saharan Africa": 0.298
+      },
+      "health_workers_per_10k_year30": {
+        "East Asia & Pacific": 138.1,
+        "Europe & Central Asia": 151.4,
+        "Latin America & Caribbean": 129.5,
+        "Middle East, North Africa, Afghanistan & Pakistan": 119.4,
+        "North America": 148.3,
+        "South Asia": 124.4,
+        "Sub-Saharan Africa": 115.7
+      },
+      "year_every_region_decent_health": 6,
+      "person_years_below_decent_health_bn": 25.87
+    },
+    "age_4x": {
+      "weight_by_region": {
+        "East Asia & Pacific": 1.08,
+        "Europe & Central Asia": 1.18,
+        "Latin America & Caribbean": 0.99,
+        "Middle East, North Africa, Afghanistan & Pakistan": 0.88,
+        "North America": 1.18,
+        "South Asia": 0.93,
+        "Sub-Saharan Africa": 0.84
+      },
+      "share_of_new_health_workers": {
+        "East Asia & Pacific": 0.215,
+        "Europe & Central Asia": 0.043,
+        "Latin America & Caribbean": 0.066,
+        "Middle East, North Africa, Afghanistan & Pakistan": 0.138,
+        "North America": 0.012,
+        "South Asia": 0.239,
+        "Sub-Saharan Africa": 0.286
+      },
+      "health_workers_per_10k_year30": {
+        "East Asia & Pacific": 140.2,
+        "Europe & Central Asia": 156.2,
+        "Latin America & Caribbean": 128.9,
+        "Middle East, North Africa, Afghanistan & Pakistan": 114.9,
+        "North America": 155.0,
+        "South Asia": 121.8,
+        "Sub-Saharan Africa": 109.8
+      },
+      "year_every_region_decent_health": 6,
+      "person_years_below_decent_health_bn": 25.74
+    },
+    "health_gap": {
+      "weight_by_region": {
+        "East Asia & Pacific": 0.84,
+        "Europe & Central Asia": 0.85,
+        "Latin America & Caribbean": 0.96,
+        "Middle East, North Africa, Afghanistan & Pakistan": 1.06,
+        "North America": 0.93,
+        "South Asia": 1.09,
+        "Sub-Saharan Africa": 1.29
+      },
+      "share_of_new_health_workers": {
+        "East Asia & Pacific": 0.13,
+        "Europe & Central Asia": 0.017,
+        "Latin America & Caribbean": 0.055,
+        "Middle East, North Africa, Afghanistan & Pakistan": 0.153,
+        "North America": 0.0,
+        "South Asia": 0.254,
+        "Sub-Saharan Africa": 0.391
+      },
+      "health_workers_per_10k_year30": {
+        "East Asia & Pacific": 117.5,
+        "Europe & Central Asia": 136.4,
+        "Latin America & Caribbean": 124.3,
+        "Middle East, North Africa, Afghanistan & Pakistan": 137.5,
+        "North America": 134.0,
+        "South Asia": 139.9,
+        "Sub-Saharan Africa": 164.3
+      },
+      "year_every_region_decent_health": 7,
+      "person_years_below_decent_health_bn": 29.76
+    },
+    "combined": {
+      "weight_by_region": {
+        "East Asia & Pacific": 0.95,
+        "Europe & Central Asia": 0.99,
+        "Latin America & Caribbean": 0.98,
+        "Middle East, North Africa, Afghanistan & Pakistan": 0.99,
+        "North America": 1.03,
+        "South Asia": 1.02,
+        "Sub-Saharan Africa": 1.09
+      },
+      "share_of_new_health_workers": {
+        "East Asia & Pacific": 0.165,
+        "Europe & Central Asia": 0.023,
+        "Latin America & Caribbean": 0.061,
+        "Middle East, North Africa, Afghanistan & Pakistan": 0.15,
+        "North America": 0.001,
+        "South Asia": 0.25,
+        "Sub-Saharan Africa": 0.351
+      },
+      "health_workers_per_10k_year30": {
+        "East Asia & Pacific": 128.0,
+        "Europe & Central Asia": 140.9,
+        "Latin America & Caribbean": 127.7,
+        "Middle East, North Africa, Afghanistan & Pakistan": 130.1,
+        "North America": 135.0,
+        "South Asia": 133.5,
+        "Sub-Saharan Africa": 142.3
+      },
+      "year_every_region_decent_health": 7,
+      "person_years_below_decent_health_bn": 30.56
+    }
+  }
+}

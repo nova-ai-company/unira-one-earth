@@ -27,12 +27,12 @@ import random
 
 
 class Person:
-    __slots__ = ("age", "mult", "save", "dep", "homes", "credit", "repay", "unable", "wait", "home_acc", "ret_acc")
+    __slots__ = ("age", "mult", "save", "dep", "homes", "credit", "repay", "unable", "wait", "home_acc", "ret_acc", "time_acc")
 
     def __init__(self, age, mult, save, unable):
         self.age, self.mult, self.save, self.unable = age, mult, save, unable
         self.dep, self.homes, self.credit, self.repay, self.wait = 0.0, 0, 0.0, 0.0, 0
-        self.home_acc = self.ret_acc = 0.0  # protected accounts outside the cap (V7.9)
+        self.home_acc = self.ret_acc = self.time_acc = 0.0  # protected accounts outside the cap (V7.9)
 
 
 def gompertz_death_prob(age, a, b):
@@ -87,6 +87,16 @@ def simulate(cfg, seed=1, return_people=False):
                 mult = rng.choices(cfg["mult_values"], weights=cfg["mult_weights"])[0] if employed else 0.0
                 people.append(Person(20, mult, rng.uniform(*cfg["saving_range"]), unable))
         extra_save = fear[1] if t < fear[0] else 0.0
+        weeks_off = employed_weeks = 0.0
+        tw = cfg.get("time_account_weeks_per_year", 0.0)
+        for p in people:
+            if p.mult and p.age < 65:
+                employed_weeks += 52.0
+                if tw and p.time_acc > 0:
+                    week_pay = monthly_income(p, cfg) * 12 / 52
+                    take = min(tw, p.time_acc / week_pay)
+                    p.time_acc -= take * week_pay  # paid leave: these weeks' pay comes from the account, not from work
+                    weeks_off += take
         # --- income, consumption, saving, credit repayment
         for p in people:
             y = monthly_income(p, cfg) * 12
@@ -149,7 +159,7 @@ def simulate(cfg, seed=1, return_people=False):
         pool_homes = max(0.0, avail)  # unsold freed homes stay in the regional pool
         # --- money cap (rule 18)
         cap = coef * cfg["base_salary"] * 12
-        n_at_cap = 0
+        n_at_cap = n_losing = 0
         for p in people:
             if p.dep > cap:
                 over = p.dep - cap
@@ -163,7 +173,13 @@ def simulate(cfg, seed=1, return_people=False):
                     put = min(over, max(0.0, cfg.get("retirement_account_max", 0.0) - p.ret_acc))
                     p.ret_acc += put
                     over -= put
+                if p.mult and p.age < 65 and cfg.get("time_account_weeks_per_year"):
+                    limit = cfg.get("time_account_max_weeks", 13) * monthly_income(p, cfg) * 12 / 52
+                    put = min(over, max(0.0, limit - p.time_acc))
+                    p.time_acc += put
+                    over -= put
                 to_one_earth += over
+                n_losing += over > 1.0
         deposits = sum(p.dep for p in people)
         target = cfg["deposit_target_months"] / 12 * cons
         step = (target / deposits) ** cfg["cap_adjust_speed"] if deposits > 0 else 1.0
@@ -178,7 +194,7 @@ def simulate(cfg, seed=1, return_people=False):
                 deaths += 1
                 heirs = [q for q in people if q.age < p.age - 15]
                 heir = rng.choice(heirs) if heirs else None
-                estate = p.dep + p.home_acc + p.ret_acc
+                estate = p.dep + p.home_acc + p.ret_acc + p.time_acc
                 if heir:
                     room = max(0.0, cap - heir.dep)
                     heir.dep += min(estate, room)
@@ -212,6 +228,8 @@ def simulate(cfg, seed=1, return_people=False):
                                         max(1, sum(1 for p in adults if p.homes == 0))),
             "excess_demand_share": excess, "weekly_hours": hours,
             "first_homes_blocked_by_cap": blocked_by_cap, "population": len(people),
-            "protected_accounts_months_of_consumption": 12 * sum(p.home_acc + p.ret_acc for p in people) / cons})
+            "protected_accounts_months_of_consumption": 12 * sum(p.home_acc + p.ret_acc for p in people) / cons,
+            "time_off_share_of_work": weeks_off / employed_weeks if employed_weeks else 0.0,
+            "share_losing_money_to_fund": n_losing / len(people)})
         supply_index *= 1 + cfg["productivity_growth"]
     return (out, people) if return_people else out

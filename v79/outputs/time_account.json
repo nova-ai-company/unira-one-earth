@@ -1,0 +1,38 @@
+{
+  "design": {
+    "cap_floor_years": 1.5,
+    "home_account_max_u": 150000,
+    "retirement_account_max_u": 120000,
+    "time_account_max_weeks": 13
+  },
+  "results": {
+    "0_weeks": {
+      "time_off_share_of_work": 0.0,
+      "one_earth_inflow_share_of_consumption": 0.21965274364973777,
+      "free_money_months": 12.691339886844624,
+      "share_at_cap": 0.40123333333333333,
+      "equivalent_weekly_hours": 30.0
+    },
+    "1_weeks": {
+      "time_off_share_of_work": 0.008868740007709841,
+      "one_earth_inflow_share_of_consumption": 0.20856028495812015,
+      "free_money_months": 12.691339886844624,
+      "share_at_cap": 0.40123333333333333,
+      "equivalent_weekly_hours": 29.733937799768704
+    },
+    "2_weeks": {
+      "time_off_share_of_work": 0.017702108304006255,
+      "one_earth_inflow_share_of_consumption": 0.19766797993021912,
+      "free_money_months": 12.691339886844624,
+      "share_at_cap": 0.40123333333333333,
+      "equivalent_weekly_hours": 29.468936750879813
+    },
+    "4_weeks": {
+      "time_off_share_of_work": 0.035222981135397013,
+      "one_earth_inflow_share_of_consumption": 0.17608224953804483,
+      "free_money_months": 12.691339886844624,
+      "share_at_cap": 0.40123333333333333,
+      "equivalent_weekly_hours": 28.94331056593809
+    }
+  }
+}

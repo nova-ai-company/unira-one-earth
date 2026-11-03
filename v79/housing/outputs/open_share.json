@@ -1,0 +1,38 @@
+{
+  "0%": {
+    "high_need_housed_within_5y": 0.2833,
+    "low_need_housed_within_5y": 0.0006,
+    "wait_mean_housed": 5.1237,
+    "wait_p90_housed": 10.0,
+    "share_housed_within_5y": 0.1549,
+    "d10_over_d1": 0.8649,
+    "commute_km_all_at_5y": 3.4477
+  },
+  "10%": {
+    "high_need_housed_within_5y": 0.2714,
+    "low_need_housed_within_5y": 0.0261,
+    "wait_mean_housed": 4.9948,
+    "wait_p90_housed": 9.6,
+    "share_housed_within_5y": 0.16,
+    "d10_over_d1": 0.8707,
+    "commute_km_all_at_5y": 3.5037
+  },
+  "20%": {
+    "high_need_housed_within_5y": 0.2601,
+    "low_need_housed_within_5y": 0.0506,
+    "wait_mean_housed": 4.8612,
+    "wait_p90_housed": 9.4,
+    "share_housed_within_5y": 0.165,
+    "d10_over_d1": 0.8837,
+    "commute_km_all_at_5y": 3.5516
+  },
+  "30%": {
+    "high_need_housed_within_5y": 0.2482,
+    "low_need_housed_within_5y": 0.0701,
+    "wait_mean_housed": 4.8175,
+    "wait_p90_housed": 9.2,
+    "share_housed_within_5y": 0.1673,
+    "d10_over_d1": 0.8791,
+    "commute_km_all_at_5y": 3.6134
+  }
+}

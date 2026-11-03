@@ -89,6 +89,28 @@ class TestPricesAndCap(unittest.TestCase):
         self.assertTrue(all(p.home_acc <= cl.HOME_MAX + 1e-6 and p.ret_acc <= cl.RET_MAX + 1e-6 for p in people))
         self.assertTrue(all(p.home_acc >= -1e-6 and p.ret_acc >= -1e-6 and p.dep >= -1e-6 for p in people))
 
+    def test_time_account_costs_rise_with_limit(self):
+        r = json.loads((OUT / "time_account.json").read_text())["results"]
+        lost = [r[f"{w}_weeks"]["time_off_share_of_work"] for w in (0, 1, 2, 4)]
+        fund = [r[f"{w}_weeks"]["one_earth_inflow_share_of_consumption"] for w in (0, 1, 2, 4)]
+        self.assertEqual(lost, sorted(lost))
+        self.assertEqual(fund, sorted(fund, reverse=True))
+        self.assertEqual(lost[0], 0.0)
+        self.assertLess(lost[2], 2 / 52)  # nobody takes more than the 2-week limit
+
+    def test_health_weights(self):
+        r = json.loads((OUT / "health_need.json").read_text())["schemes"]
+        ssa = "Sub-Saharan Africa"
+        self.assertLess(r["age_3x"]["share_of_new_health_workers"][ssa], r["equal"]["share_of_new_health_workers"][ssa])
+        self.assertGreater(r["health_gap"]["share_of_new_health_workers"][ssa], r["equal"]["share_of_new_health_workers"][ssa])
+
+    def test_open_lottery_tradeoff(self):
+        r = json.loads((V79 / "housing" / "outputs" / "open_share.json").read_text())
+        hi = [r[k]["high_need_housed_within_5y"] for k in ("0%", "10%", "20%", "30%")]
+        lo = [r[k]["low_need_housed_within_5y"] for k in ("0%", "10%", "20%", "30%")]
+        self.assertEqual(hi, sorted(hi, reverse=True))
+        self.assertEqual(lo, sorted(lo))
+
 
 if __name__ == "__main__":
     unittest.main()

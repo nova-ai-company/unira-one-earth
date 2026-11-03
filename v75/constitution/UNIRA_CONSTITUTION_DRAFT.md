@@ -269,11 +269,12 @@ Surplus beyond a region's needs goes to the One Earth Fund for sharing.
 **Article 10a — The allocation formula.** *(Gives the public formula of Article 10.)*
 1. For each need (energy, health care, homes, food, education), each region's gap is the published target per person minus its measured level, times its population.
 2. Targets take account of real differences in need, such as age, climate, disability and remoteness. Each adjustment is published with its evidence and approved by the Scientific Council.
-3. **Decent for everyone first.** New capacity first closes every region's gap to the decent level. Only then does it go to the comfortable level. Within each step, it goes to the largest gaps first, in proportion to need.
-4. **Where to produce.** One Earth decides where goods are produced so as to use the fewest working hours, resources and transport, while giving every region productive work.
-5. The formula, its data and each year's results are published in the Register (Article 33). Any region may challenge them before the Court.
+3. **Health need** is weighted by both the age of the population and its burden of disease (healthy years of life lost), in equal parts. Age alone is never used, because it would send care away from young regions with the most disease.
+4. **Decent for everyone first.** New capacity first closes every region's gap to the decent level. Only then does it go to the comfortable level. Within each step, it goes to the largest gaps first, in proportion to need.
+5. **Where to produce.** One Earth decides where goods are produced so as to use the fewest working hours, resources and transport, while giving every region productive work.
+6. The formula, its data and each year's results are published in the Register (Article 33). Any region may challenge them before the Court.
 
-*Evidence: in the 30-year world plan, serving the decent level first brings every region to decent energy in 4 years instead of 8, decent health care in 7 instead of 12, and decent housing in 9 instead of 20, with no loss on the comfortable goal. Planning where food comes from cuts transport by 69% (V7.9, `v79/allocation`).*
+*Evidence: in the 30-year world plan, serving the decent level first brings every region to decent energy in 4 years instead of 8, decent health care in 7 instead of 12, and decent housing in 9 instead of 20, with no loss on the comfortable goal. Planning where food comes from cuts transport by 69% (V7.9, `v79/allocation`). Weighting health need by age alone would give Sub-Saharan Africa 30% of new health workers and 116 per 10,000 by year 30, against 151 in Europe; weighting by age and disease burden together gives 35%, and 142 against 141 (`v79/health_need`, WHO healthy life expectancy).*
 
 **Article 11 — Responsible production and stewardship.**
 1. Before producing new, society maintains, repairs, renovates, reuses and converts what exists.
@@ -342,9 +343,11 @@ Surplus beyond a region's needs goes to the One Earth Fund for sharing.
     - a **home account**, until they own a home, of up to 150,000 U, used to buy or build it;
     - a **retirement account** of up to 120,000 U, paid out evenly from retirement as income on top of the needs-based pension.
 
-   Money above the cap fills these accounts first. Only what remains goes to the One Earth Fund. The limits are fixed by law and published.
+    - a **time account**, for salaried people, of up to 13 weeks of their own pay, used for paid leave of at most 2 weeks a year, or saved for a sabbatical of up to 3 months. In jobs where the region lacks workers, the time is banked and taken later.
 
-*Evidence (V7.9, `v79/money/cap_level.py`): raising the cap from about 1.4 to 1.5 years of base salary lowers the share of adults who reach it from 61% to 40%, while the extra demand from a sudden spending rush rises only from 25% to 26% of a year's goods. Higher caps barely reduce that share (38% at 2 years, 29% at 5) but raise the rush risk sharply (+35% at 2 years, +79% at 5), which fixed prices would turn into shortages. Protected accounts cannot be spent in a rush. A person can therefore keep up to 360,000 U of savings, and no salaried person was blocked from a first home in any case tested.*
+   Money above the cap fills these accounts in this order: home, retirement, time. Only what remains goes to the One Earth Fund. The limits are fixed by law and published. If total hours worked fall below the region's needs, the time-account limit is lowered automatically.
+
+*Evidence (V7.9, `v79/money/cap_level.py`): raising the cap from about 1.4 to 1.5 years of base salary lowers the share of adults who reach it from 61% to 40%, while the extra demand from a sudden spending rush rises only from 25% to 26% of a year's goods. Higher caps barely reduce that share (38% at 2 years, 29% at 5) but raise the rush risk sharply (+35% at 2 years, +79% at 5), which fixed prices would turn into shortages. Protected accounts cannot be spent in a rush. A person can therefore keep up to 360,000 U of savings, and no salaried person was blocked from a first home in any case tested. A time account of 2 weeks a year costs 1.8% of working time (about 29.5 instead of 30 hours a week on average) and lowers the One Earth Fund's income from 22.0% to 19.8% of consumption (`v79/money/time_account.py`).*
 2. Money above the cap, including large inheritances, goes to the One Earth Fund.
 3. Homes are not money and are never taken.
 
@@ -404,7 +407,7 @@ Surplus beyond a region's needs goes to the One Earth Fund for sharing.
 
 Income, wealth and any offer to pay more are never taken into account.
 
-**8. Public lottery.** Applicants whose points fall in the same published band are ranked by a public lottery, drawn once a year for all zones together. A region may reserve up to three-tenths of these homes for an open lottery among all applicants. No one may buy, sell or transfer a place in the ranking.
+**8. Public lottery.** Applicants whose points fall in the same published band are ranked by a public lottery, drawn once a year for all zones together. One-tenth of these homes go to an open lottery among all applicants, so that nobody is shut out; a region may raise this to at most one-fifth. No one may buy, sell or transfer a place in the ranking.
 
 **9. Must live in.** In a zone declared high-demand, a home must be the main residence of the household that holds it. It may not be left empty, used as a second home, or let out whole. A home left empty for more than six months without a recognised reason (care, study, work posting, repair) returns to the regional pool. The second home allowed by Article 18.2 may not be in a high-demand zone.
 
@@ -738,8 +741,5 @@ Income, wealth and any offer to pay more are never taken into account.
     - How the money cap is set each year (Article 17).
 
 - **V7.9 (2026-11-03): the missing designs and power safeguards added** — Articles 3c, 3d, 5b, 5c, 6a, 9a, 10a, 12a, 17b, 22a, 26a, 30a, 32a, 32b, 39a, 41a, 42a, 42b, T-7; amendments to 5a, 13, 17 and 18. Evidence and the stress test of 13 attack scenarios are in `v79/`.
-- **Decisions still open for the author:**
-  - whether money above the cap may also buy paid free time (time account); the account limits (150,000 U home, 120,000 U retirement) are research assumptions to confirm;
-  - whether regions may reserve up to 30% of desirable homes for an open lottery among all applicants (Article 18.8);
-  - the age weight for health need (Article 10a.2), to be calibrated.
+- **Decided by the author on the research's recommendation (2026-11-03):** a time account of at most 2 weeks a year (sabbatical up to 3 months), paused in shortage jobs (Article 17.6); an open housing lottery of 10%, at most 20% by regional choice (Article 18.8); health need weighted by age and disease burden together (Article 10a.3). Still to confirm with data: the account limits (150,000 U home, 120,000 U retirement, 13 weeks).
 - **Decided by the author (2026-11-03):** a moderate money cap with protected home and retirement accounts. The research set the floor at 1.5 years of base salary (Article 17.5–17.6).
