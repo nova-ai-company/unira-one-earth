@@ -342,11 +342,11 @@ The full article texts follow the paper (Appendix).
 
 ## 11. The transition: voluntary joining, property, savings and debts
 
-UNIRA can start with willing regions and grow. Compared with a reformed market world after 30 years, 86% of humanity gains materially by joining. Rich regions lose 6–12% on average, in energy use only, and keep comfortable levels. Inside rich regions, half the population is better off even at the lowest UNIRA salary, and the poorest tenth gains 146–258% (Eurostat 2024 income deciles).
+UNIRA can start with willing regions and grow. Compared with a reformed market world after 30 years, 86% of humanity gains materially by joining. In rich regions, *average* energy use per person is 6–12% lower. That is a regional average, not a loss for everyone: no one in UNIRA falls below the comfortable level, and the reduction falls on the heaviest energy users. Inside rich regions, half the population is better off even at the lowest UNIRA salary, and the poorest tenth gains 146–258% (Eurostat 2024 income deciles).
 
 - **Who gains:**
     - 146 regions with 86% of the world's people gain materially (Ethiopia +170%, Nigeria +136%, India +72%, Brazil +11%; China about neutral);
-    - 33 rich regions lose 6–12% (France −6%, USA and Japan −12%), in energy use only. Their health care and housing are unchanged.
+    - in 33 rich regions, average energy use per person is 6–12% lower (France −6%, USA and Japan −12%). Health care and housing are unchanged, and no resident falls below the comfortable level. Inside these regions the poorer half of the population gains (see below).
 - **A union of gainers alone** closes 20% of the energy gap by year 15, against 52% with the whole world. That is still more than the best market world (14%).
 - **Lessons from history** (61 sourced findings):
     - Germany's 1990 conversion of all wages at a political 1:1 rate halved East German output within months, and more than 3 million jobs were lost;
@@ -535,7 +535,7 @@ The federation commits to measuring whether needs-first allocation is working, a
 
 ### What the models show
 - **86% of humanity (146 regions) gains materially by joining**, compared with a reformed market world after 30 years: Ethiopia +170%, Nigeria +136%, India +72%, Indonesia +54%, Brazil +11%. China is about neutral (+2%).
-- **14% (33 rich regions) loses materially by 6–12%**, in energy use only (France −6%, USA and Japan −12%). They keep comfortable levels, and their health care and housing are unchanged. Joining is worthwhile for them if peace, security, the 30-hour week and a stable climate are worth more than that loss.
+- **In 33 rich regions (14% of humanity), average energy use per person is 6–12% lower** (France −6%, USA and Japan −12%). This is a regional average, not a loss for every resident. Nobody falls below the comfortable level, health care and housing are unchanged, and inside these regions the poorer half gains (France, Germany, Italy, Spain and the EU: the poorest tenth +146–258%). The reduction falls mainly on the highest consumers. For these regions as a whole, joining is worthwhile if peace, security, the 30-hour week and a stable climate are worth more than that average reduction.
 - **A union of only the gaining regions works on its own resources, at about half speed.** By year 15 it closes 20% of the energy gap, 15% of the health gap and 25% of the housing gap by year 30, against 52%, 34% and 40% for the whole world. That still beats the best market world (14%, 4%, 10%). **UNIRA can start with willing regions and grow.**
 
 ### Draft rules

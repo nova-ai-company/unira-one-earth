@@ -272,7 +272,7 @@ Inside UNIRA, no region carries public debt at all. The rule is not a one-off re
 ## What the evidence says
 
 - **86%** of humanity, in **146** regions, gains materially by joining, compared with a reformed market world after 30 years. Ethiopia gains about **170%**, India **72%**.
-- The 33 richest regions lose **6–12%**, in energy use only, compared with a market future. Their health care and homes are unchanged.
+- In the 33 richest regions, *average* energy use per person is **6–12%** lower than in a market future. Health care and homes are unchanged, nobody falls below the comfortable level, and the poorer half of their people gains.
 - Inside France, Germany, Italy and Spain, **half** the people are better off even at the lowest UNIRA income. The poorest tenth gains **146–258%** across the regions studied.
 - A union of only the gaining regions works at about half speed and still beats the best market world.
 - History warns against one-shot conversion, fire sales, restitution and inflation-eaten compensation. It supports staged joining, protected small savings and capped debt relief.

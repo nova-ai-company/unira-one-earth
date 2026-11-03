@@ -32,7 +32,7 @@ The answer from the evidence is a qualified **yes**.
 
 **Safeguards make the difference.** Real institutions make mistakes and lose resources. With strong safeguards, needs-first allocation keeps about **85%** of its advantage. Without them, it keeps less, but still more than the best market world.
 
-**Most people gain.** Compared with a reformed market world after 30 years, about **86%** of humanity gains materially by joining. The richest regions give up part of their energy use, about **6–12%** on the material measure. In return they gain peace, security, time and a stable climate. And inside them, half of the people of France, Germany, Italy and Spain would be better off even at the lowest UNIRA salary.
+**Most people gain.** Compared with a reformed market world after 30 years, about **86%** of humanity gains materially by joining. In the richest regions, *average* energy use per person is about **6–12%** lower. That reduction falls on the heaviest users, not on the poor, and nobody falls below the comfortable level. In return they gain peace, security, time and a stable climate. And inside them, half of the people of France, Germany, Italy and Spain would be better off even at the lowest UNIRA salary.
 
 ## The six conditions
 
