@@ -19,6 +19,7 @@ ROOT = Path(__file__).resolve().parent
 RAW = ROOT / "data" / "raw"
 U = ROOT.parents[1]
 BASE_REL_FR = json.loads((U / "v64" / "outputs" / "summary.json").read_text())["fixed_price"]["base_basket_vs_today_average_person"]
+MULTIPLIERS = {"lowest_1x": 1.0, "x1_5": 1.5, "average_1_9x": 1.9, "highest_5x": 5.0}  # v64 rule 12; average 1.90
 GROUPS = [(0.0, 0.1, "SI.DST.FRST.10"), (0.1, 0.2, None), (0.2, 0.4, "SI.DST.02ND.20"), (0.4, 0.6, "SI.DST.03RD.20"),
           (0.6, 0.8, "SI.DST.04TH.20"), (0.8, 0.9, None), (0.9, 1.0, "SI.DST.10TH.10")]
 
@@ -99,6 +100,8 @@ def main():
              "poorest_tenth_gain_pct_at_base": round(100 * (base / levels[0][1] - 1), 1),
              "poorest_fifth_gain_pct_at_base": round(100 * (base / ((levels[0][1] + levels[1][1]) / 2) - 1), 1),
              "income_shares_sum_pct": round(tot, 1),
+             # share of people consuming less today than a UNIRA salary at each multiplier buys (saving 50%)
+             "share_better_off_by_salary": {m: round(share_below(levels, base * k), 3) for m, k in MULTIPLIERS.items()},
              "rich_region_average_change_pct": round(losers[iso], 1) if iso in losers else None}
         out["regions"][iso] = r
         rows.append({"iso3": iso, **r})
@@ -108,6 +111,9 @@ def main():
         "n_rich_regions": len(losers), "n_with_data": len(rich), "without_income_data": sorted(set(losers) - set(rich)),
         "population_weighted_share_better_off": round(sum(rich[k]["share_of_people_better_off_at_base"] * tot_pop[k] for k in rich) / sum(tot_pop.values()), 3),
         "people_better_off_millions": round(sum(rich[k]["share_of_people_better_off_at_base"] * tot_pop[k] for k in rich) / 1e6, 1),
+        "population_weighted_share_better_off_by_salary": {
+            m: round(sum(rich[k]["share_better_off_by_salary"][m] * tot_pop[k] for k in rich) / sum(tot_pop.values()), 3)
+            for m in MULTIPLIERS},
         "poorest_tenth_gain_pct_range": [min(v["poorest_tenth_gain_pct_at_base"] for v in rich.values()),
                                          max(v["poorest_tenth_gain_pct_at_base"] for v in rich.values())]}
     # count PEOPLE, not regions: everyone in a gaining region (v72) plus those better off inside the rich regions

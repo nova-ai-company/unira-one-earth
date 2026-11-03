@@ -614,6 +614,20 @@ The federation commits to measuring whether needs-first allocation is working, a
 ### Distribution inside rich regions (V7.4, `v74/distribution`)
 National averages hide who gains. UNIRA's salaries and fixed prices are the same everywhere, so every region is compared with the same absolute basket. The **lowest** UNIRA salary (base worker saving the maximum 50%) buys about 86% of today's average French household consumption, about $21,900 per person a year at 2021 purchasing-power prices (World Bank). Using World Bank income shares (latest year 2019–2024) for 31 of the 33 regions whose average falls, **44% of their people, about 495 million, are already better off at that level**. This ranges from 22–24% in Norway and the USA, where average consumption is highest, to 50% in France, 56% in Japan and 75% in Czechia. **The poorest tenth gains +74% to +446%** (USA +154%, Japan +319%, France +186%, Germany +202%). These are lower bounds. Most workers earn above the lowest salary, and free health care, education and guaranteed housing come on top and are not counted; US households in particular pay much of their health care out of the consumption measured here. Fixed prices also end household price shocks such as the 2022 energy-price crisis. (`v74/distribution/world.py`; the Eurostat decile check for France gives the same 50%.)
 
+**Most people earn more than the lowest salary.** The figures above count only people who are better off even at the *lowest* salary. Under UNIRA, salaries rise with experience, knowledge and job complexity (multipliers 1–5, average 1.9 in the money model, v64). The share of people in the rich regions whose consumption today is below what each UNIRA salary buys (still saving the maximum 50%) is:
+
+| UNIRA salary | USA | Japan | France | Germany | Italy | Canada | Norway | All 31 rich regions |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Lowest (1×) | 24% | 56% | 50% | 35% | 48% | 37% | 22% | **44%** |
+| 1.5× | 42% | 82% | 77% | 64% | 73% | 67% | 54% | **67%** |
+| Average (1.9×) | 54% | 88% | 87% | 79% | 85% | 80% | 73% | **77%** |
+| Highest (5×) | 89% | 100% | 100% | 100% | 100% | 100% | 100% | **97%** |
+
+- At the average UNIRA salary, about three in four people in the rich regions consume more than they do today. Free health care, education and guaranteed housing come on top.
+- The highest salary covers almost everyone. The exception is the richest group in the most unequal regions: in the USA, about the richest tenth consumes more than even the highest UNIRA salary buys.
+- The data come in tenths of the population, so the top 1% cannot be separated. They consume more than this, and they are the ones whose consumption UNIRA limits (at most two homes, the money cap, energy and travel paid per unit), while they still live comfortably.
+- Source: `v74/distribution/world.py`, World Bank income shares applied to household consumption per person, PPP.
+
 <!-- refs:begin reference list -->
 ## References
 

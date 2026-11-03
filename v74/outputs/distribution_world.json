@@ -15,6 +15,12 @@
       "poorest_tenth_gain_pct_at_base": 3645.8,
       "poorest_fifth_gain_pct_at_base": 2462.9,
       "income_shares_sum_pct": 100.1,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "ALB": {
@@ -28,6 +34,12 @@
       "poorest_tenth_gain_pct_at_base": 455.5,
       "poorest_fifth_gain_pct_at_base": 349.7,
       "income_shares_sum_pct": 99.9,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.899,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "ARE": {
@@ -41,6 +53,12 @@
       "poorest_tenth_gain_pct_at_base": 163.2,
       "poorest_fifth_gain_pct_at_base": 79.7,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.298,
+        "x1_5": 0.646,
+        "average_1_9x": 0.833,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "ARG": {
@@ -54,6 +72,12 @@
       "poorest_tenth_gain_pct_at_base": 600.8,
       "poorest_fifth_gain_pct_at_base": 422.2,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.757,
+        "x1_5": 0.873,
+        "average_1_9x": 0.909,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "ARM": {
@@ -67,6 +91,12 @@
       "poorest_tenth_gain_pct_at_base": 376.7,
       "poorest_fifth_gain_pct_at_base": 297.3,
       "income_shares_sum_pct": 100.1,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.905,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "AUS": {
@@ -80,6 +110,12 @@
       "poorest_tenth_gain_pct_at_base": 184.9,
       "poorest_fifth_gain_pct_at_base": 105.8,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.418,
+        "x1_5": 0.688,
+        "average_1_9x": 0.801,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": -12.2
     },
     "AUT": {
@@ -93,6 +129,12 @@
       "poorest_tenth_gain_pct_at_base": 152.7,
       "poorest_fifth_gain_pct_at_base": 83.8,
       "income_shares_sum_pct": 99.9,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.344,
+        "x1_5": 0.649,
+        "average_1_9x": 0.811,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": -12.2
     },
     "AZE": {
@@ -106,6 +148,12 @@
       "poorest_tenth_gain_pct_at_base": 357.5,
       "poorest_fifth_gain_pct_at_base": 306.6,
       "income_shares_sum_pct": 100.1,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.929,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "BDI": {
@@ -119,6 +167,12 @@
       "poorest_tenth_gain_pct_at_base": 12989.9,
       "poorest_fifth_gain_pct_at_base": 10593.2,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "BEL": {
@@ -132,6 +186,12 @@
       "poorest_tenth_gain_pct_at_base": 110.5,
       "poorest_fifth_gain_pct_at_base": 71.2,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.365,
+        "x1_5": 0.729,
+        "average_1_9x": 0.859,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": -12.2
     },
     "BEN": {
@@ -145,6 +205,12 @@
       "poorest_tenth_gain_pct_at_base": 2844.5,
       "poorest_fifth_gain_pct_at_base": 2302.1,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "BFA": {
@@ -158,6 +224,12 @@
       "poorest_tenth_gain_pct_at_base": 4408.0,
       "poorest_fifth_gain_pct_at_base": 3605.2,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "BGD": {
@@ -171,6 +243,12 @@
       "poorest_tenth_gain_pct_at_base": 1012.9,
       "poorest_fifth_gain_pct_at_base": 835.9,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "BGR": {
@@ -184,6 +262,12 @@
       "poorest_tenth_gain_pct_at_base": 490.3,
       "poorest_fifth_gain_pct_at_base": 313.2,
       "income_shares_sum_pct": 100.1,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.76,
+        "x1_5": 0.872,
+        "average_1_9x": 0.903,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "BIH": {
@@ -197,6 +281,12 @@
       "poorest_tenth_gain_pct_at_base": 446.0,
       "poorest_fifth_gain_pct_at_base": 339.4,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.884,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": -0.2
     },
     "BLR": {
@@ -210,6 +300,12 @@
       "poorest_tenth_gain_pct_at_base": 240.6,
       "poorest_fifth_gain_pct_at_base": 197.6,
       "income_shares_sum_pct": 100.1,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.869,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": -9.5
     },
     "BLZ": {
@@ -223,6 +319,12 @@
       "poorest_tenth_gain_pct_at_base": 1240.9,
       "poorest_fifth_gain_pct_at_base": 917.2,
       "income_shares_sum_pct": 100.1,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.946,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "BOL": {
@@ -236,6 +338,12 @@
       "poorest_tenth_gain_pct_at_base": 1358.1,
       "poorest_fifth_gain_pct_at_base": 926.1,
       "income_shares_sum_pct": 99.9,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.93,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "BRA": {
@@ -249,6 +357,12 @@
       "poorest_tenth_gain_pct_at_base": 1363.8,
       "poorest_fifth_gain_pct_at_base": 875.9,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.863,
+        "x1_5": 0.904,
+        "average_1_9x": 0.936,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "BTN": {
@@ -262,6 +376,12 @@
       "poorest_tenth_gain_pct_at_base": 751.1,
       "poorest_fifth_gain_pct_at_base": 596.3,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "BWA": {
@@ -275,6 +395,12 @@
       "poorest_tenth_gain_pct_at_base": 1919.3,
       "poorest_fifth_gain_pct_at_base": 1428.1,
       "income_shares_sum_pct": 100.1,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.894,
+        "x1_5": 0.948,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "CAF": {
@@ -288,6 +414,12 @@
       "poorest_tenth_gain_pct_at_base": 11280.9,
       "poorest_fifth_gain_pct_at_base": 8435.7,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "CAN": {
@@ -301,6 +433,12 @@
       "poorest_tenth_gain_pct_at_base": 150.6,
       "poorest_fifth_gain_pct_at_base": 88.8,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.373,
+        "x1_5": 0.671,
+        "average_1_9x": 0.805,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": -12.1
     },
     "CHE": {
@@ -314,6 +452,12 @@
       "poorest_tenth_gain_pct_at_base": 105.7,
       "poorest_fifth_gain_pct_at_base": 62.4,
       "income_shares_sum_pct": 99.9,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.302,
+        "x1_5": 0.569,
+        "average_1_9x": 0.723,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": -4.9
     },
     "CHL": {
@@ -327,6 +471,12 @@
       "poorest_tenth_gain_pct_at_base": 525.0,
       "poorest_fifth_gain_pct_at_base": 395.7,
       "income_shares_sum_pct": 99.9,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.816,
+        "x1_5": 0.882,
+        "average_1_9x": 0.913,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "CHN": {
@@ -340,6 +490,12 @@
       "poorest_tenth_gain_pct_at_base": 696.9,
       "poorest_fifth_gain_pct_at_base": 576.8,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.922,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "CIV": {
@@ -353,6 +509,12 @@
       "poorest_tenth_gain_pct_at_base": 1583.6,
       "poorest_fifth_gain_pct_at_base": 1273.5,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "CMR": {
@@ -366,6 +528,12 @@
       "poorest_tenth_gain_pct_at_base": 2932.7,
       "poorest_fifth_gain_pct_at_base": 2258.8,
       "income_shares_sum_pct": 100.1,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "COD": {
@@ -379,6 +547,12 @@
       "poorest_tenth_gain_pct_at_base": 15294.1,
       "poorest_fifth_gain_pct_at_base": 11655.5,
       "income_shares_sum_pct": 100.1,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "COG": {
@@ -392,6 +566,12 @@
       "poorest_tenth_gain_pct_at_base": 5158.0,
       "poorest_fifth_gain_pct_at_base": 3906.1,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "COL": {
@@ -405,6 +585,12 @@
       "poorest_tenth_gain_pct_at_base": 1733.4,
       "poorest_fifth_gain_pct_at_base": 1045.9,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.858,
+        "x1_5": 0.893,
+        "average_1_9x": 0.92,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "COM": {
@@ -418,6 +604,12 @@
       "poorest_tenth_gain_pct_at_base": 1933.2,
       "poorest_fifth_gain_pct_at_base": 1609.7,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "CPV": {
@@ -431,6 +623,12 @@
       "poorest_tenth_gain_pct_at_base": 1619.1,
       "poorest_fifth_gain_pct_at_base": 1227.0,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "CRI": {
@@ -444,6 +642,12 @@
       "poorest_tenth_gain_pct_at_base": 744.6,
       "poorest_fifth_gain_pct_at_base": 524.3,
       "income_shares_sum_pct": 100.1,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.786,
+        "x1_5": 0.877,
+        "average_1_9x": 0.91,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "CYP": {
@@ -457,6 +661,12 @@
       "poorest_tenth_gain_pct_at_base": 211.3,
       "poorest_fifth_gain_pct_at_base": 160.6,
       "income_shares_sum_pct": 100.1,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.715,
+        "x1_5": 0.871,
+        "average_1_9x": 0.908,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "CZE": {
@@ -470,6 +680,12 @@
       "poorest_tenth_gain_pct_at_base": 217.2,
       "poorest_fifth_gain_pct_at_base": 153.8,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.749,
+        "x1_5": 0.904,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": -8.1
     },
     "DEU": {
@@ -483,6 +699,12 @@
       "poorest_tenth_gain_pct_at_base": 201.5,
       "poorest_fifth_gain_pct_at_base": 101.0,
       "income_shares_sum_pct": 99.9,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.351,
+        "x1_5": 0.644,
+        "average_1_9x": 0.786,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": -7.9
     },
     "DJI": {
@@ -496,6 +718,12 @@
       "poorest_tenth_gain_pct_at_base": 2268.8,
       "poorest_fifth_gain_pct_at_base": 1566.9,
       "income_shares_sum_pct": 100.1,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "DNK": {
@@ -509,6 +737,12 @@
       "poorest_tenth_gain_pct_at_base": 134.6,
       "poorest_fifth_gain_pct_at_base": 85.6,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.504,
+        "x1_5": 0.798,
+        "average_1_9x": 0.87,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": -0.6
     },
     "DOM": {
@@ -522,6 +756,12 @@
       "poorest_tenth_gain_pct_at_base": 522.2,
       "poorest_fifth_gain_pct_at_base": 369.2,
       "income_shares_sum_pct": 99.9,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.8,
+        "x1_5": 0.891,
+        "average_1_9x": 0.933,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "DZA": {
@@ -535,6 +775,12 @@
       "poorest_tenth_gain_pct_at_base": 766.3,
       "poorest_fifth_gain_pct_at_base": 637.3,
       "income_shares_sum_pct": 100.1,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "ECU": {
@@ -548,6 +794,12 @@
       "poorest_tenth_gain_pct_at_base": 1590.6,
       "poorest_fifth_gain_pct_at_base": 1079.5,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.902,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "EGY": {
@@ -561,6 +813,12 @@
       "poorest_tenth_gain_pct_at_base": 317.6,
       "poorest_fifth_gain_pct_at_base": 261.6,
       "income_shares_sum_pct": 100.1,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.883,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "ESP": {
@@ -574,6 +832,12 @@
       "poorest_tenth_gain_pct_at_base": 325.0,
       "poorest_fifth_gain_pct_at_base": 187.7,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.546,
+        "x1_5": 0.787,
+        "average_1_9x": 0.873,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": -3.1
     },
     "EST": {
@@ -587,6 +851,12 @@
       "poorest_tenth_gain_pct_at_base": 279.6,
       "poorest_fifth_gain_pct_at_base": 183.5,
       "income_shares_sum_pct": 100.1,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.713,
+        "x1_5": 0.875,
+        "average_1_9x": 0.933,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": -10.6
     },
     "ETH": {
@@ -600,6 +870,12 @@
       "poorest_tenth_gain_pct_at_base": 2943.9,
       "poorest_fifth_gain_pct_at_base": 2467.2,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "FIN": {
@@ -613,6 +889,12 @@
       "poorest_tenth_gain_pct_at_base": 128.4,
       "poorest_fifth_gain_pct_at_base": 83.7,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.461,
+        "x1_5": 0.773,
+        "average_1_9x": 0.872,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": -12.2
     },
     "FJI": {
@@ -626,6 +908,12 @@
       "poorest_tenth_gain_pct_at_base": 759.2,
       "poorest_fifth_gain_pct_at_base": 616.0,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "FRA": {
@@ -639,6 +927,12 @@
       "poorest_tenth_gain_pct_at_base": 186.5,
       "poorest_fifth_gain_pct_at_base": 123.3,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.5,
+        "x1_5": 0.772,
+        "average_1_9x": 0.866,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": -6.1
     },
     "GAB": {
@@ -652,6 +946,12 @@
       "poorest_tenth_gain_pct_at_base": 1874.3,
       "poorest_fifth_gain_pct_at_base": 1347.8,
       "income_shares_sum_pct": 99.9,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "GBR": {
@@ -665,6 +965,12 @@
       "poorest_tenth_gain_pct_at_base": 158.1,
       "poorest_fifth_gain_pct_at_base": 97.0,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.41,
+        "x1_5": 0.685,
+        "average_1_9x": 0.817,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "GEO": {
@@ -678,6 +984,12 @@
       "poorest_tenth_gain_pct_at_base": 498.2,
       "poorest_fifth_gain_pct_at_base": 375.3,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.869,
+        "x1_5": 0.948,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "GHA": {
@@ -691,6 +1003,12 @@
       "poorest_tenth_gain_pct_at_base": 2621.6,
       "poorest_fifth_gain_pct_at_base": 1753.0,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "GIN": {
@@ -704,6 +1022,12 @@
       "poorest_tenth_gain_pct_at_base": 2335.1,
       "poorest_fifth_gain_pct_at_base": 1905.4,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "GMB": {
@@ -717,6 +1041,12 @@
       "poorest_tenth_gain_pct_at_base": 3248.5,
       "poorest_fifth_gain_pct_at_base": 2538.2,
       "income_shares_sum_pct": 100.1,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "GNB": {
@@ -730,6 +1060,12 @@
       "poorest_tenth_gain_pct_at_base": 3642.1,
       "poorest_fifth_gain_pct_at_base": 3121.0,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "GNQ": {
@@ -743,6 +1079,12 @@
       "poorest_tenth_gain_pct_at_base": 1078.2,
       "poorest_fifth_gain_pct_at_base": 857.3,
       "income_shares_sum_pct": 99.9,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "GRC": {
@@ -756,6 +1098,12 @@
       "poorest_tenth_gain_pct_at_base": 261.1,
       "poorest_fifth_gain_pct_at_base": 170.8,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.593,
+        "x1_5": 0.843,
+        "average_1_9x": 0.883,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": -4.5
     },
     "GTM": {
@@ -769,6 +1117,12 @@
       "poorest_tenth_gain_pct_at_base": 1263.2,
       "poorest_fifth_gain_pct_at_base": 848.3,
       "income_shares_sum_pct": 99.9,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.88,
+        "x1_5": 0.942,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "HND": {
@@ -782,6 +1136,12 @@
       "poorest_tenth_gain_pct_at_base": 3512.7,
       "poorest_fifth_gain_pct_at_base": 2243.3,
       "income_shares_sum_pct": 100.1,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "HRV": {
@@ -795,6 +1155,12 @@
       "poorest_tenth_gain_pct_at_base": 275.7,
       "poorest_fifth_gain_pct_at_base": 179.4,
       "income_shares_sum_pct": 100.1,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.651,
+        "x1_5": 0.869,
+        "average_1_9x": 0.92,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "HTI": {
@@ -808,6 +1174,12 @@
       "poorest_tenth_gain_pct_at_base": 3778.6,
       "poorest_fifth_gain_pct_at_base": 2861.9,
       "income_shares_sum_pct": 100.1,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "HUN": {
@@ -821,6 +1193,12 @@
       "poorest_tenth_gain_pct_at_base": 320.2,
       "poorest_fifth_gain_pct_at_base": 219.2,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.757,
+        "x1_5": 0.896,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "IDN": {
@@ -834,6 +1212,12 @@
       "poorest_tenth_gain_pct_at_base": 803.6,
       "poorest_fifth_gain_pct_at_base": 680.9,
       "income_shares_sum_pct": 99.9,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "IND": {
@@ -847,6 +1231,12 @@
       "poorest_tenth_gain_pct_at_base": 687.1,
       "poorest_fifth_gain_pct_at_base": 594.9,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "IRL": {
@@ -860,6 +1250,12 @@
       "poorest_tenth_gain_pct_at_base": 144.8,
       "poorest_fifth_gain_pct_at_base": 96.9,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.542,
+        "x1_5": 0.821,
+        "average_1_9x": 0.88,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": 0.0
     },
     "IRN": {
@@ -873,6 +1269,12 @@
       "poorest_tenth_gain_pct_at_base": 978.5,
       "poorest_fifth_gain_pct_at_base": 762.8,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "IRQ": {
@@ -886,6 +1288,12 @@
       "poorest_tenth_gain_pct_at_base": 1063.2,
       "poorest_fifth_gain_pct_at_base": 867.1,
       "income_shares_sum_pct": 100.1,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "ISL": {
@@ -899,6 +1307,12 @@
       "poorest_tenth_gain_pct_at_base": 92.8,
       "poorest_fifth_gain_pct_at_base": 51.8,
       "income_shares_sum_pct": 100.1,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.298,
+        "x1_5": 0.663,
+        "average_1_9x": 0.832,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": -12.2
     },
     "ISR": {
@@ -912,6 +1326,12 @@
       "poorest_tenth_gain_pct_at_base": 488.2,
       "poorest_fifth_gain_pct_at_base": 307.2,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.625,
+        "x1_5": 0.83,
+        "average_1_9x": 0.884,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "ITA": {
@@ -925,6 +1345,12 @@
       "poorest_tenth_gain_pct_at_base": 257.9,
       "poorest_fifth_gain_pct_at_base": 149.4,
       "income_shares_sum_pct": 100.1,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.477,
+        "x1_5": 0.732,
+        "average_1_9x": 0.853,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": -0.8
     },
     "JPN": {
@@ -938,6 +1364,12 @@
       "poorest_tenth_gain_pct_at_base": 319.4,
       "poorest_fifth_gain_pct_at_base": 183.7,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.56,
+        "x1_5": 0.823,
+        "average_1_9x": 0.885,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": -11.7
     },
     "KAZ": {
@@ -951,6 +1383,12 @@
       "poorest_tenth_gain_pct_at_base": 204.0,
       "poorest_fifth_gain_pct_at_base": 166.8,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.793,
+        "x1_5": 0.9,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "KEN": {
@@ -964,6 +1402,12 @@
       "poorest_tenth_gain_pct_at_base": 1674.4,
       "poorest_fifth_gain_pct_at_base": 1349.5,
       "income_shares_sum_pct": 100.1,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "KGZ": {
@@ -977,6 +1421,12 @@
       "poorest_tenth_gain_pct_at_base": 867.4,
       "poorest_fifth_gain_pct_at_base": 746.5,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "KIR": {
@@ -990,6 +1440,12 @@
       "poorest_tenth_gain_pct_at_base": 1254.9,
       "poorest_fifth_gain_pct_at_base": 1068.9,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "KOR": {
@@ -1003,6 +1459,12 @@
       "poorest_tenth_gain_pct_at_base": 237.2,
       "poorest_fifth_gain_pct_at_base": 164.3,
       "income_shares_sum_pct": 100.1,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.586,
+        "x1_5": 0.825,
+        "average_1_9x": 0.884,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": -12.0
     },
     "LBN": {
@@ -1016,6 +1478,12 @@
       "poorest_tenth_gain_pct_at_base": 551.6,
       "poorest_fifth_gain_pct_at_base": 436.6,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.867,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "LKA": {
@@ -1029,6 +1497,12 @@
       "poorest_tenth_gain_pct_at_base": 739.7,
       "poorest_fifth_gain_pct_at_base": 603.5,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.92,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "LSO": {
@@ -1042,6 +1516,12 @@
       "poorest_tenth_gain_pct_at_base": 5228.8,
       "poorest_fifth_gain_pct_at_base": 3838.7,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "LTU": {
@@ -1055,6 +1535,12 @@
       "poorest_tenth_gain_pct_at_base": 336.7,
       "poorest_fifth_gain_pct_at_base": 195.6,
       "income_shares_sum_pct": 99.9,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.597,
+        "x1_5": 0.809,
+        "average_1_9x": 0.873,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": -1.3
     },
     "LUX": {
@@ -1068,6 +1554,12 @@
       "poorest_tenth_gain_pct_at_base": 104.1,
       "poorest_fifth_gain_pct_at_base": 61.0,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.275,
+        "x1_5": 0.505,
+        "average_1_9x": 0.652,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": -12.2
     },
     "LVA": {
@@ -1081,6 +1573,12 @@
       "poorest_tenth_gain_pct_at_base": 341.2,
       "poorest_fifth_gain_pct_at_base": 218.7,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.71,
+        "x1_5": 0.868,
+        "average_1_9x": 0.91,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "MAR": {
@@ -1094,6 +1592,12 @@
       "poorest_tenth_gain_pct_at_base": 1465.5,
       "poorest_fifth_gain_pct_at_base": 1161.7,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "MDA": {
@@ -1107,6 +1611,12 @@
       "poorest_tenth_gain_pct_at_base": 315.7,
       "poorest_fifth_gain_pct_at_base": 261.1,
       "income_shares_sum_pct": 100.1,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.894,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "MDG": {
@@ -1120,6 +1630,12 @@
       "poorest_tenth_gain_pct_at_base": 5971.1,
       "poorest_fifth_gain_pct_at_base": 4790.6,
       "income_shares_sum_pct": 100.1,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "MDV": {
@@ -1133,6 +1649,12 @@
       "poorest_tenth_gain_pct_at_base": 544.4,
       "poorest_fifth_gain_pct_at_base": 450.3,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "MEX": {
@@ -1146,6 +1668,12 @@
       "poorest_tenth_gain_pct_at_base": 659.9,
       "poorest_fifth_gain_pct_at_base": 469.9,
       "income_shares_sum_pct": 99.9,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.853,
+        "x1_5": 0.897,
+        "average_1_9x": 0.933,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "MHL": {
@@ -1159,6 +1687,12 @@
       "poorest_tenth_gain_pct_at_base": 1637.7,
       "poorest_fifth_gain_pct_at_base": 1251.6,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "MKD": {
@@ -1172,6 +1706,12 @@
       "poorest_tenth_gain_pct_at_base": 728.3,
       "poorest_fifth_gain_pct_at_base": 442.7,
       "income_shares_sum_pct": 99.9,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.835,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "MLI": {
@@ -1185,6 +1725,12 @@
       "poorest_tenth_gain_pct_at_base": 2984.6,
       "poorest_fifth_gain_pct_at_base": 2497.6,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "MLT": {
@@ -1198,6 +1744,12 @@
       "poorest_tenth_gain_pct_at_base": 223.1,
       "poorest_fifth_gain_pct_at_base": 138.1,
       "income_shares_sum_pct": 99.9,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.537,
+        "x1_5": 0.791,
+        "average_1_9x": 0.872,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": -12.2
     },
     "MNE": {
@@ -1211,6 +1763,12 @@
       "poorest_tenth_gain_pct_at_base": 502.5,
       "poorest_fifth_gain_pct_at_base": 308.1,
       "income_shares_sum_pct": 99.9,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.726,
+        "x1_5": 0.886,
+        "average_1_9x": 0.943,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "MNG": {
@@ -1224,6 +1782,12 @@
       "poorest_tenth_gain_pct_at_base": 683.6,
       "poorest_fifth_gain_pct_at_base": 549.8,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "MOZ": {
@@ -1237,6 +1801,12 @@
       "poorest_tenth_gain_pct_at_base": 11333.3,
       "poorest_fifth_gain_pct_at_base": 8170.9,
       "income_shares_sum_pct": 100.1,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "MRT": {
@@ -1250,6 +1820,12 @@
       "poorest_tenth_gain_pct_at_base": 2174.3,
       "poorest_fifth_gain_pct_at_base": 1707.8,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "MUS": {
@@ -1263,6 +1839,12 @@
       "poorest_tenth_gain_pct_at_base": 370.6,
       "poorest_fifth_gain_pct_at_base": 279.1,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.812,
+        "x1_5": 0.888,
+        "average_1_9x": 0.924,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "MWI": {
@@ -1276,6 +1858,12 @@
       "poorest_tenth_gain_pct_at_base": 5262.2,
       "poorest_fifth_gain_pct_at_base": 4343.0,
       "income_shares_sum_pct": 100.1,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "MYS": {
@@ -1289,6 +1877,12 @@
       "poorest_tenth_gain_pct_at_base": 396.6,
       "poorest_fifth_gain_pct_at_base": 287.2,
       "income_shares_sum_pct": 100.1,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.711,
+        "x1_5": 0.858,
+        "average_1_9x": 0.888,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "NAM": {
@@ -1302,6 +1896,12 @@
       "poorest_tenth_gain_pct_at_base": 2782.2,
       "poorest_fifth_gain_pct_at_base": 1958.7,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.89,
+        "x1_5": 0.937,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "NER": {
@@ -1315,6 +1915,12 @@
       "poorest_tenth_gain_pct_at_base": 4617.7,
       "poorest_fifth_gain_pct_at_base": 4021.2,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "NIC": {
@@ -1328,6 +1934,12 @@
       "poorest_tenth_gain_pct_at_base": 2107.2,
       "poorest_fifth_gain_pct_at_base": 1631.2,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "NLD": {
@@ -1341,6 +1953,12 @@
       "poorest_tenth_gain_pct_at_base": 112.1,
       "poorest_fifth_gain_pct_at_base": 62.5,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.336,
+        "x1_5": 0.712,
+        "average_1_9x": 0.859,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": -12.2
     },
     "NOR": {
@@ -1354,6 +1972,12 @@
       "poorest_tenth_gain_pct_at_base": 74.4,
       "poorest_fifth_gain_pct_at_base": 38.0,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.219,
+        "x1_5": 0.536,
+        "average_1_9x": 0.73,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": -12.2
     },
     "NPL": {
@@ -1367,6 +1991,12 @@
       "poorest_tenth_gain_pct_at_base": 1385.7,
       "poorest_fifth_gain_pct_at_base": 1163.7,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "PAK": {
@@ -1380,6 +2010,12 @@
       "poorest_tenth_gain_pct_at_base": 1230.4,
       "poorest_fifth_gain_pct_at_base": 1003.2,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "PAN": {
@@ -1393,6 +2029,12 @@
       "poorest_tenth_gain_pct_at_base": 1099.7,
       "poorest_fifth_gain_pct_at_base": 699.8,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.794,
+        "x1_5": 0.873,
+        "average_1_9x": 0.901,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "PER": {
@@ -1406,6 +2048,12 @@
       "poorest_tenth_gain_pct_at_base": 1179.2,
       "poorest_fifth_gain_pct_at_base": 813.7,
       "income_shares_sum_pct": 99.9,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.917,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "PHL": {
@@ -1419,6 +2067,12 @@
       "poorest_tenth_gain_pct_at_base": 977.0,
       "poorest_fifth_gain_pct_at_base": 805.3,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.948,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "POL": {
@@ -1432,6 +2086,12 @@
       "poorest_tenth_gain_pct_at_base": 195.1,
       "poorest_fifth_gain_pct_at_base": 126.5,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.574,
+        "x1_5": 0.852,
+        "average_1_9x": 0.898,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "PRT": {
@@ -1445,6 +2105,12 @@
       "poorest_tenth_gain_pct_at_base": 253.9,
       "poorest_fifth_gain_pct_at_base": 158.2,
       "income_shares_sum_pct": 99.9,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.6,
+        "x1_5": 0.829,
+        "average_1_9x": 0.877,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": 0.0
     },
     "PRY": {
@@ -1458,6 +2124,12 @@
       "poorest_tenth_gain_pct_at_base": 1052.7,
       "poorest_fifth_gain_pct_at_base": 769.9,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.89,
+        "x1_5": 0.948,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "PSE": {
@@ -1471,6 +2143,12 @@
       "poorest_tenth_gain_pct_at_base": 1396.9,
       "poorest_fifth_gain_pct_at_base": 1034.0,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "QAT": {
@@ -1484,6 +2162,12 @@
       "poorest_tenth_gain_pct_at_base": 328.8,
       "poorest_fifth_gain_pct_at_base": 243.0,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.67,
+        "x1_5": 0.856,
+        "average_1_9x": 0.902,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "ROU": {
@@ -1497,6 +2181,12 @@
       "poorest_tenth_gain_pct_at_base": 320.9,
       "poorest_fifth_gain_pct_at_base": 188.6,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.566,
+        "x1_5": 0.851,
+        "average_1_9x": 0.911,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "RUS": {
@@ -1510,6 +2200,12 @@
       "poorest_tenth_gain_pct_at_base": 262.1,
       "poorest_fifth_gain_pct_at_base": 191.6,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.692,
+        "x1_5": 0.86,
+        "average_1_9x": 0.909,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": -11.6
     },
     "RWA": {
@@ -1523,6 +2219,12 @@
       "poorest_tenth_gain_pct_at_base": 3418.3,
       "poorest_fifth_gain_pct_at_base": 2847.7,
       "income_shares_sum_pct": 100.1,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "SDN": {
@@ -1536,6 +2238,12 @@
       "poorest_tenth_gain_pct_at_base": 4186.1,
       "poorest_fifth_gain_pct_at_base": 3416.8,
       "income_shares_sum_pct": 100.1,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "SEN": {
@@ -1549,6 +2257,12 @@
       "poorest_tenth_gain_pct_at_base": 2593.2,
       "poorest_fifth_gain_pct_at_base": 2113.6,
       "income_shares_sum_pct": 99.9,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "SLB": {
@@ -1562,6 +2276,12 @@
       "poorest_tenth_gain_pct_at_base": 4747.5,
       "poorest_fifth_gain_pct_at_base": 3778.0,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "SLE": {
@@ -1575,6 +2295,12 @@
       "poorest_tenth_gain_pct_at_base": 2266.8,
       "poorest_fifth_gain_pct_at_base": 1937.3,
       "income_shares_sum_pct": 100.1,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "SLV": {
@@ -1588,6 +2314,12 @@
       "poorest_tenth_gain_pct_at_base": 1351.2,
       "poorest_fifth_gain_pct_at_base": 884.8,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.934,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "SRB": {
@@ -1601,6 +2333,12 @@
       "poorest_tenth_gain_pct_at_base": 543.3,
       "poorest_fifth_gain_pct_at_base": 366.2,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.859,
+        "x1_5": 0.944,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "STP": {
@@ -1614,6 +2352,12 @@
       "poorest_tenth_gain_pct_at_base": 1432.3,
       "poorest_fifth_gain_pct_at_base": 1145.0,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "SVK": {
@@ -1627,6 +2371,12 @@
       "poorest_tenth_gain_pct_at_base": 250.0,
       "poorest_fifth_gain_pct_at_base": 153.9,
       "income_shares_sum_pct": 100.1,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.677,
+        "x1_5": 0.919,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": -1.1
     },
     "SVN": {
@@ -1640,6 +2390,12 @@
       "poorest_tenth_gain_pct_at_base": 144.0,
       "poorest_fifth_gain_pct_at_base": 100.1,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.587,
+        "x1_5": 0.863,
+        "average_1_9x": 0.925,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": -7.7
     },
     "SWE": {
@@ -1653,6 +2409,12 @@
       "poorest_tenth_gain_pct_at_base": 203.1,
       "poorest_fifth_gain_pct_at_base": 114.9,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.459,
+        "x1_5": 0.75,
+        "average_1_9x": 0.867,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": -12.2
     },
     "SWZ": {
@@ -1666,6 +2428,12 @@
       "poorest_tenth_gain_pct_at_base": 2458.3,
       "poorest_fifth_gain_pct_at_base": 1836.0,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.923,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "SYC": {
@@ -1679,6 +2447,12 @@
       "poorest_tenth_gain_pct_at_base": 431.6,
       "poorest_fifth_gain_pct_at_base": 289.3,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.79,
+        "x1_5": 0.914,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "SYR": {
@@ -1692,6 +2466,12 @@
       "poorest_tenth_gain_pct_at_base": 2114.8,
       "poorest_fifth_gain_pct_at_base": 1709.9,
       "income_shares_sum_pct": 100.1,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "TCD": {
@@ -1705,6 +2485,12 @@
       "poorest_tenth_gain_pct_at_base": 5390.1,
       "poorest_fifth_gain_pct_at_base": 4355.7,
       "income_shares_sum_pct": 100.1,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "TGO": {
@@ -1718,6 +2504,12 @@
       "poorest_tenth_gain_pct_at_base": 3458.5,
       "poorest_fifth_gain_pct_at_base": 2830.5,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "THA": {
@@ -1731,6 +2523,12 @@
       "poorest_tenth_gain_pct_at_base": 463.4,
       "poorest_fifth_gain_pct_at_base": 385.0,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.885,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "TJK": {
@@ -1744,6 +2542,12 @@
       "poorest_tenth_gain_pct_at_base": 2371.3,
       "poorest_fifth_gain_pct_at_base": 1918.8,
       "income_shares_sum_pct": 100.2,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "TLS": {
@@ -1757,6 +2561,12 @@
       "poorest_tenth_gain_pct_at_base": 2507.0,
       "poorest_fifth_gain_pct_at_base": 2118.7,
       "income_shares_sum_pct": 99.9,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "TON": {
@@ -1770,6 +2580,12 @@
       "poorest_tenth_gain_pct_at_base": 765.8,
       "poorest_fifth_gain_pct_at_base": 644.8,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "TUN": {
@@ -1783,6 +2599,12 @@
       "poorest_tenth_gain_pct_at_base": 656.3,
       "poorest_fifth_gain_pct_at_base": 509.0,
       "income_shares_sum_pct": 99.9,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.921,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "TUR": {
@@ -1796,6 +2618,12 @@
       "poorest_tenth_gain_pct_at_base": 450.4,
       "poorest_fifth_gain_pct_at_base": 320.3,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.734,
+        "x1_5": 0.861,
+        "average_1_9x": 0.885,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "TZA": {
@@ -1809,6 +2637,12 @@
       "poorest_tenth_gain_pct_at_base": 3557.2,
       "poorest_fifth_gain_pct_at_base": 2974.2,
       "income_shares_sum_pct": 100.1,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "UGA": {
@@ -1822,6 +2656,12 @@
       "poorest_tenth_gain_pct_at_base": 4556.2,
       "poorest_fifth_gain_pct_at_base": 3568.5,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "UKR": {
@@ -1835,6 +2675,12 @@
       "poorest_tenth_gain_pct_at_base": 483.0,
       "poorest_fifth_gain_pct_at_base": 401.4,
       "income_shares_sum_pct": 99.9,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "USA": {
@@ -1848,6 +2694,12 @@
       "poorest_tenth_gain_pct_at_base": 154.2,
       "poorest_fifth_gain_pct_at_base": 69.5,
       "income_shares_sum_pct": 99.9,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.236,
+        "x1_5": 0.416,
+        "average_1_9x": 0.535,
+        "highest_5x": 0.886
+      },
       "rich_region_average_change_pct": -12.2
     },
     "UZB": {
@@ -1861,6 +2713,12 @@
       "poorest_tenth_gain_pct_at_base": 1431.4,
       "poorest_fifth_gain_pct_at_base": 967.3,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "VNM": {
@@ -1874,6 +2732,12 @@
       "poorest_tenth_gain_pct_at_base": 1109.1,
       "poorest_fifth_gain_pct_at_base": 824.6,
       "income_shares_sum_pct": 99.9,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "VUT": {
@@ -1887,6 +2751,12 @@
       "poorest_tenth_gain_pct_at_base": 2323.7,
       "poorest_fifth_gain_pct_at_base": 1813.4,
       "income_shares_sum_pct": 100.1,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "WSM": {
@@ -1900,6 +2770,12 @@
       "poorest_tenth_gain_pct_at_base": 1614.8,
       "poorest_fifth_gain_pct_at_base": 1261.8,
       "income_shares_sum_pct": 99.9,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "XKX": {
@@ -1913,6 +2789,12 @@
       "poorest_tenth_gain_pct_at_base": 1769.7,
       "poorest_fifth_gain_pct_at_base": 814.1,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.892,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "ZAF": {
@@ -1926,6 +2808,12 @@
       "poorest_tenth_gain_pct_at_base": 1782.7,
       "poorest_fifth_gain_pct_at_base": 1324.7,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 0.886,
+        "x1_5": 0.94,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "ZMB": {
@@ -1939,6 +2827,12 @@
       "poorest_tenth_gain_pct_at_base": 11013.6,
       "poorest_fifth_gain_pct_at_base": 8448.9,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     },
     "ZWE": {
@@ -1952,6 +2846,12 @@
       "poorest_tenth_gain_pct_at_base": 3023.4,
       "poorest_fifth_gain_pct_at_base": 2372.7,
       "income_shares_sum_pct": 100.0,
+      "share_better_off_by_salary": {
+        "lowest_1x": 1.0,
+        "x1_5": 1.0,
+        "average_1_9x": 1.0,
+        "highest_5x": 1.0
+      },
       "rich_region_average_change_pct": null
     }
   },
@@ -1964,6 +2864,12 @@
     ],
     "population_weighted_share_better_off": 0.439,
     "people_better_off_millions": 495.1,
+    "population_weighted_share_better_off_by_salary": {
+      "lowest_1x": 0.439,
+      "x1_5": 0.668,
+      "average_1_9x": 0.766,
+      "highest_5x": 0.966
+    },
     "poorest_tenth_gain_pct_range": [
       74.4,
       446.0

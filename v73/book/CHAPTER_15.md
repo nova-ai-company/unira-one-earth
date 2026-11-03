@@ -112,6 +112,19 @@ Is that true elsewhere? UNIRA's salaries and prices are the same everywhere, so 
 
 Across these 31 regions, **44% of the people, about 495 million, are better off even at the lowest UNIRA income.** The poorest tenth gains between **+74%** and **+446%** everywhere. In the United States, about a quarter of the people are better off at the very lowest income, and the poorest tenth gains about **+154%**. In Japan more than half are better off, and the poorest tenth gains about **+319%**. Nobody anywhere falls below this basket.
 
+But the lowest salary is only the floor. Most people will earn more: under UNIRA, pay rises with experience, knowledge and the complexity of the work, from 1 to 5 times the base salary. In the research's money model the average is about 1.9 times. Here is the share of people who consume less today than each UNIRA salary would buy, even while saving half of it:
+
+| UNIRA salary | USA | Japan | France | Germany | Italy | Canada | Norway | All 31 rich regions |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Lowest (1×) | 24% | 56% | 50% | 35% | 48% | 37% | 22% | **44%** |
+| 1.5× | 42% | 82% | 77% | 64% | 73% | 67% | 54% | **67%** |
+| Average (1.9×) | 54% | 88% | 87% | 79% | 85% | 80% | 73% | **77%** |
+| Highest (5×) | 89% | 100% | 100% | 100% | 100% | 100% | 100% | **97%** |
+
+At the average UNIRA salary, about **three in four** people in the rich regions would consume more than they do today. Free health care, education and a guaranteed home come on top.
+
+Why not everyone? Because in some regions a small group consumes far more than even the highest UNIRA salary allows. In the United States, about the richest tenth consumes more than twice the national average. The data come in tenths, so the very richest, the top 1%, cannot be separated, and they consume more still. These are the people with several homes, large fortunes and private jets. UNIRA limits them to two homes, a money cap and energy and travel paid per unit. They keep a comfortable life, but with less than today. Saying "everyone gains" would be untrue, and this book does not say it.
+
 And this is the floor, not the average. Many people will earn above the base salary. Free health care, free education and guaranteed housing come on top, and they are not counted here. Fixed prices also end household price shocks like the energy crisis of 2022.
 
 So even in the regions whose average falls, a large share of the voters gains, and everyone keeps a comfortable life. The granddaughter in the warehouse is one of them.
