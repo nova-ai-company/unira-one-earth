@@ -4,7 +4,7 @@ sys.path.insert(0, HERE)
 from reg import REFS, ORDER
 import refs_data, refs_lit, refs_other, refs_mdextra  # noqa
 
-ROOT = '/Users/adammoreau/UNIRA'
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 OUT = os.path.join(ROOT, 'references')
 CSL = json.load(open(os.path.join(HERE, 'csl.json')))
 EST = json.load(open(os.path.join(HERE, 'estat.json')))

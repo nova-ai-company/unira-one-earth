@@ -1,6 +1,6 @@
 import json, os, re, collections
 HERE = os.path.dirname(os.path.abspath(__file__))
-OUT = '/Users/adammoreau/UNIRA/references'
+OUT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 st = json.load(open(os.path.join(HERE, 'refs_state.json')))
 um = json.load(open(os.path.join(HERE, 'unmatched.json')))['unmatched']
 
