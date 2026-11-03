@@ -1,0 +1,29 @@
+name: Outside review
+description: Structured feedback from a reviewer (see v77/review/REVIEW_BRIEF.md)
+labels: ["review"]
+body:
+  - type: input
+    id: field
+    attributes:
+      label: Your field and (optionally) affiliation
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area reviewed
+      options: [Labour, Money and prices, Energy and climate, Food and land, Health workforce, Housing, Governance and power, Law and constitution, Demography and migration, Statistics and reproducibility, AI planning, Other]
+    validations:
+      required: true
+  - type: textarea
+    id: major
+    attributes:
+      label: Major issues (assumptions, methods, conclusions)
+    validations:
+      required: true
+  - type: textarea
+    id: minor
+    attributes:
+      label: Specific errors (file and line) and suggested data
+  - type: textarea
+    id: falsification
+    attributes:
+      label: Which falsification test (WP02 §12, Constitution Art. 39) would you run first, and how?

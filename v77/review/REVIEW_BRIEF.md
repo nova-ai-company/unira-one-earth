@@ -1,4 +1,4 @@
-# UNIRA research V6.2–V7.6: brief for external reviewers
+# UNIRA research V6.2–V7.9: brief for external reviewers
 
 *Prepared 3 November 2026 for independent expert review. Paths are relative to the UNIRA research folder. "WP02 L120" means line 120 of `v67/WORKING_PAPER_02.md`; "Const. Art. 25" means `v75/constitution/UNIRA_CONSTITUTION_DRAFT.md`.*
 
@@ -111,8 +111,24 @@ Each result holds only under the conditions stated next to it.
 
    Leakage dominates the result. It is calibrated mainly on cash and food transfer programmes.
 8. **Housing (V7.0).** 27 m² per person for everyone by about year 27 needs building capacity to grow 5–10% a year, to a peak of 6–7 bn m² a year, with about 250 m builders. Low-carbon frames keep embodied CO₂ to about 16 Gt, against 43 Gt for conventional concrete.
-9. **Joining (V7.2).** 86% of the world's population "gains materially". **The comparator is the reformed-market world (B) at year 30, not today.** The material index is an equal-weight log mean of energy, health workers and floor area.
+9. **Joining and distribution (V7.2, V7.4b).**
+   - 86% of the world's population lives in regions that "gain materially". **The comparator is the reformed-market world (B) at year 30, not today.** The material index is an equal-weight log mean of energy, health workers and floor area.
+   - Inside the 33 rich regions whose average falls, 44% of people (495 m; World Bank income shares, 31 of 33 regions, one absolute basket of $21.9k PPP) are better off even at the lowest UNIRA salary.
+   - Counted person by person, about 92% of humanity is better off. This count does not model rich minorities inside gaining regions.
 10. **Voting (V7.5).** Square-root seat apportionment with a 5% cap gives India and China about 4.4% of seats each. Under the 55%/65% double majority, with population counted by square root, at least 21 regions are needed to block.
+
+11. **Clean-energy build (V6.7 check).** At 1.2 TW/yr, convergence absorbs 178 of the 217 EJ built by year 30, so final energy is only about 75% clean. About 1.8 TW/yr is needed for convergence plus near-zero fossil use (`v67/energy_budget_check.py`).
+12. **AI planning (V7.8).**
+    - Out-of-sample backtests on 2010–2024 history: population forecast within 0.10% one year ahead; ML beats simple rules for population, food and health workers, but not for short-term energy.
+    - In the 30-year plan, information errors cost ≤1%, while misreporting and leakage cost 12–19%.
+    - Forecasts are 3–6× less accurate for health workers in low-income regions.
+13. **Missing designs and power (V7.9).**
+    - Decent-for-all-first allocation halves the time until every region has decent energy (4 vs 8 yrs), health care (7 vs 12) and housing (9 vs 20).
+    - Pure hours pricing would make fuels 79% and electricity 65% cheaper relative to other goods, so a resource surcharge is needed.
+    - Points plus a public lottery for desirable homes houses 28% of high-need households within 5 yrs, against 0% for a queue.
+    - A ±10% money-cap thermostat is stable under shocks. The author chose a 1.5-year cap with protected home, retirement and time accounts: 30% of adults lose some money, and a spending rush would add 26% to a year's demand.
+    - A 67-row innovation review shows a fixed hour price would penalise teams that save hours (Article 3d.5 fix).
+    - A 13-scenario power stress test with 48 evidence rows found five legal routes to capture, closed by 17 articles.
 
 ## 5. SYNTHETIC or judgement-based assumptions that drive the results
 
@@ -147,7 +163,7 @@ Each result holds only under the conditions stated next to it.
 - The 30-year transition handles energy, health and housing independently. It does not draw labour, materials or energy for construction out of the other domains.
 - Lead times and several thresholds are REPORTED_NEEDS_RECHECK.
 
-**Internal inconsistencies found while preparing this brief, and corrected on 2026-11-03** (reviewers should check the corrections):
+**Internal inconsistencies found while preparing this brief, and corrected on 2026-11-03** (later corrections: Uganda grant capture, Brazil audit figures, net vs gross home building, Germany/Poland distribution method; see `references/PROBLEMS.md` §0) (reviewers should check the corrections):
 
 - **Annual home-building figure.** The figures are now reconciled. About 4.7 bn m² a year closes the 65 bn m² backlog by year 27 (V6.7). Counting population growth and upgrading (109 bn m², V7.0) raises the peak to 6–7 bn m² a year. WP02 now states both.
 - **Labour per m².** WP02 now uses 33–64 h per m² (V7.0, 48 h central) throughout.

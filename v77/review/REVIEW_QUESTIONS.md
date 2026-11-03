@@ -108,3 +108,17 @@ Each question names the file or section to check. "WP02 Lnn" means line nn of `v
    - "≈85% preserved" vs 80–89% by domain.
 7. **Sensitivity.** Is one-at-a-time lever attribution (V6.8) adequate, given the interactions it notes (energy allocation × restraint)? Would a Shapley-type decomposition change the conclusions? (`v68/counterfactual/compare.py`)
 8. **Audit independence.** The four earlier audits were run as separate agents within the project, not by external human experts. Which of their conclusions need independent human confirmation first? (`v62/audit/`)
+
+## 11. New in V7.8–V7.9: AI planning, missing designs and power
+
+1. **Forecast backtests** (`v78/planning/forecast.py`). Is the split (fit before 2005, choose on 2005–09, test from 2010) free of look-ahead? Are naive, drift and trend fair benchmarks? Is median absolute percentage error the right metric for planning?
+2. **Information vs integrity** (`v78/planning/information.py`). Errors are applied to levels and population, not to gaps. Is this the right way to represent statistics and forecasts? Is leakage of 8% (from v69) reasonable?
+3. **Decent-first allocation** (`v79/allocation/formula.py`). Should decent thresholds (15.3 GJ, 44.5 per 10,000, 15 m²) be uniform across climates and ages?
+4. **Food location** (`v79/allocation/location.py`). FAO food balance supply, not production, is used, so importers appear as suppliers. How should a production-based version be built?
+5. **Price rule** (`v79/prices/price_rule.py`). Embodied hours come from the domestic France IO table, so imports are not traced. How would a multi-regional IO table change the relative prices?
+6. **Money cap** (`v79/money/`). Are the behavioural assumptions (uniform saving rates 0–50%, no response of effort to the cap) acceptable? What evidence exists on labour supply under wealth ceilings?
+7. **Housing simulation** (`v79/housing/`). Are the synthetic household and preference parameters plausible? Does the lottery-in-bands design survive strategic behaviour beyond false claims?
+8. **Health-need weights** (`v79/health_need/`). Healthy life expectancy is used as a proxy for disease burden. What open, redistributable DALY data could replace it?
+9. **Power articles** (`v79/power/POWER_ARTICLES.md`, `STRESS_TEST.md`). Which attack scenarios are missing? Are the thresholds (30-day emergencies, 21 judges, three-key weapons) defensible?
+10. **Innovation** (`v79/innovation/evidence.md`). Is the "innovation dividend" of Article 3d.5 compatible with fixed prices? What indicators would detect stagnation earliest?
+

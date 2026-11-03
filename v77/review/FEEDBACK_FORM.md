@@ -149,3 +149,17 @@ Tick one:
 Highest-priority next step in your field:
 
 Other comments:
+
+## Section on V7.8–V7.9 (optional)
+
+| Item | Agree / disagree / unsure | Comment, evidence or alternative value |
+|---|---|---|
+| AI forecasts: information is not the bottleneck; integrity is | | |
+| Decent-for-all-first allocation rule (Art. 10a) | | |
+| Resource surcharge on hours-based prices (Art. 13.6) | | |
+| Money cap 1.5 years of base salary + protected accounts (Art. 17.4–17.6) | | |
+| Points + public lottery, 10% open, for desirable homes (Art. 18.7–18.11) | | |
+| Health need weighted by age + disease burden (Art. 10a.3) | | |
+| Innovation article (Art. 3d) and its thresholds | | |
+| Power articles (3c, 5b, 5c, 6a, 9a, 12a, 17b, 22a, 26a, 30a, 32a, 32b, 39a, 41a, 42a, 42b, T-7) | | |
+

@@ -1,0 +1,23 @@
+name: Error in data, code or text
+description: A number that does not match its source, a bug, or a test that fails
+labels: ["error"]
+body:
+  - type: input
+    id: where
+    attributes:
+      label: File and line (or page section)
+      placeholder: e.g. v67/WORKING_PAPER_02.md §7, or v79/money/cap_level.py line 40
+    validations:
+      required: true
+  - type: textarea
+    id: found
+    attributes:
+      label: What you found
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What it should be, and your source (link, table, page)
+    validations:
+      required: true
