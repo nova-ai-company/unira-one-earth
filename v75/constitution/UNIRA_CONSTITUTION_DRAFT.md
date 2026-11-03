@@ -358,6 +358,10 @@ Surplus beyond a region's needs goes to the One Earth Fund for sharing.
 1. Enterprises are free to organise and innovate. There is no commercial competition for profit; ideas and methods may be compared openly.
 2. Enterprises first pay for production, maintenance and investment.
 3. Their surplus goes to the region, and the region's surplus to the One Earth Fund.
+4. **Open accounts in U.** Every enterprise publishes yearly accounts in U: sales, inputs, rent of premises, energy, wear of equipment, salaries and the community share it returns.
+5. **Quiet periods.** When demand falls, the region covers an enterprise's losses for up to six months from the pooled community shares. After that, staff and capacity move to where demand is (Article 10b), with no loss of income for the workers. Persistent losses lead to a public review of the enterprise, never to the ruin of the people in it.
+
+*Evidence (V8.2, `v82/enterprise`): with France's real cost structures, a 10-person restaurant serving about 62,000 meals a year at 51 U each pays its food, rent (about 4,350 U a month), energy, equipment and UNIRA salaries (average 1.9×, owner-chef 3×) and returns a community share of 24% of sales; a 40-person supermarket returns 36%. They break even at 63% and 54% of normal demand.*
 
 **Article 16a — Investment, machines and infrastructure.**
 1. **Maintenance first.** Each year, every region invests at least what wears out, measured in hours of work, so that homes, networks, machines and public buildings are never run down.

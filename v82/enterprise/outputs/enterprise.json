@@ -1,0 +1,155 @@
+{
+  "hour_price_u": 146.39,
+  "facts": {
+    "dep_share_of_gva": 0.2043,
+    "u_per_eur_investment_goods": 1.8182
+  },
+  "firms": {
+    "restaurant": {
+      "staff": 10,
+      "hours_per_year": 15600,
+      "output_today_eur": 935782,
+      "sales_u": 3202609,
+      "inputs_u": 1116436,
+      "equipment_and_premises_wear_u": 149978,
+      "salaries_u": 1155000,
+      "community_share_u": 781194,
+      "shares_of_sales": {
+        "inputs": 0.349,
+        "equipment": 0.047,
+        "salaries": 0.361,
+        "community_share": 0.244
+      },
+      "today_shares_of_output": {
+        "inputs": 0.569,
+        "staff_pay": 0.321,
+        "operating_surplus": 0.108,
+        "taxes_on_production": 0.002
+      },
+      "largest_inputs_u": [
+        [
+          "Food, beverages and tobacco products",
+          443075
+        ],
+        [
+          "Wholesale trade services, except of motor vehicles and motorcycles",
+          106128
+        ],
+        [
+          "Security and investigation services; services to buildings and landscape; office administrative, office support and other business support services",
+          57159
+        ],
+        [
+          "Legal and accounting services; services of head offices; management consultancy services",
+          54211
+        ],
+        [
+          "Real estate services excluding imputed rents",
+          52151
+        ],
+        [
+          "Employment services",
+          35126
+        ],
+        [
+          "Accommodation and food services",
+          32651
+        ],
+        [
+          "Products of agriculture, hunting and related services",
+          29861
+        ]
+      ],
+      "rent_of_premises_u": 52151,
+      "energy_u": 17516,
+      "average_multiplier": 1.93,
+      "unpriced_input_share": -0.0,
+      "break_even_share_of_normal_demand": 0.626,
+      "community_share_by_demand": {
+        "50%": -261892,
+        "60%": -53275,
+        "70%": 155342,
+        "80%": 363960,
+        "100%": 781194,
+        "120%": 1198428
+      },
+      "meals_per_year": 62385,
+      "one_meal": {
+        "price_u": 51.3,
+        "inputs_u": 17.9,
+        "equipment_u": 2.4,
+        "salaries_u": 18.5,
+        "community_share_u": 12.5
+      }
+    },
+    "supermarket": {
+      "staff": 40,
+      "hours_per_year": 62400,
+      "output_today_eur": 3246578,
+      "sales_u": 11181767,
+      "inputs_u": 2449455,
+      "equipment_and_premises_wear_u": 738054,
+      "salaries_u": 3930000,
+      "community_share_u": 4064258,
+      "shares_of_sales": {
+        "inputs": 0.219,
+        "equipment": 0.066,
+        "salaries": 0.351,
+        "community_share": 0.363
+      },
+      "today_shares_of_output": {
+        "inputs": 0.388,
+        "staff_pay": 0.378,
+        "operating_surplus": 0.214,
+        "taxes_on_production": 0.02
+      },
+      "largest_inputs_u": [
+        [
+          "Legal and accounting services; services of head offices; management consultancy services",
+          238118
+        ],
+        [
+          "Land transport services and transport services via pipelines",
+          217634
+        ],
+        [
+          "Employment services",
+          192175
+        ],
+        [
+          "Real estate services excluding imputed rents",
+          187987
+        ],
+        [
+          "Security and investigation services; services to buildings and landscape; office administrative, office support and other business support services",
+          175642
+        ],
+        [
+          "Advertising and market research services",
+          135892
+        ],
+        [
+          "Wholesale trade services, except of motor vehicles and motorcycles",
+          125405
+        ],
+        [
+          "Food, beverages and tobacco products",
+          110037
+        ]
+      ],
+      "rent_of_premises_u": 187987,
+      "energy_u": 38385,
+      "average_multiplier": 1.64,
+      "unpriced_input_share": -0.0,
+      "break_even_share_of_normal_demand": 0.535,
+      "community_share_by_demand": {
+        "50%": -301898,
+        "60%": 571333,
+        "70%": 1444564,
+        "80%": 2317796,
+        "100%": 4064258,
+        "120%": 5810720
+      }
+    }
+  }
+}
