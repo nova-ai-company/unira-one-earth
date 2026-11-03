@@ -17,7 +17,7 @@ HERE = Path(__file__).resolve().parent
 U = HERE.parents[1]
 HOUR_PRICE = json.loads((U / "v64" / "outputs" / "summary.json").read_text())["fixed_price"]
 RESOURCE_CODES = {"CPA_B": "mining and quarrying", "CPA_C19": "coke and refined petroleum",
-                  "CPA_D35": "electricity and gas", "CPA_L68B": "rental of homes (imputed and actual)",
+                  "CPA_D": "electricity and gas", "CPA_L68B": "rental of homes (imputed and actual)",
                   "CPA_L68A": "imputed rents of owner-occupiers", "CPA_L68": "real estate"}
 
 

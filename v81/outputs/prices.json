@@ -1,0 +1,690 @@
+{
+  "year": 2022,
+  "hour_price_u": 146.39,
+  "base_pay_u_per_hour": 38.46,
+  "average_u_per_euro_household_basket": 2.59,
+  "surcharge_raises_household_basket_pct": 6.12,
+  "resource_groups": {
+    "CPA_B": "mining and quarrying products",
+    "CPA_C19": "fuels (coke and refined petroleum)",
+    "CPA_D": "electricity and gas",
+    "CPA_H51": "air transport"
+  },
+  "excluded_groups": {
+    "CPA_L68A": "imputed rents (homes are priced by Article 18)",
+    "CPA_L68B": "rents (Article 18)",
+    "CPA_L68": "real estate (Article 18)"
+  },
+  "products": {
+    "CPA_A01": {
+      "label": "Products of agriculture, hunting and related services",
+      "hours_per_1000_eur": 22.92,
+      "u_per_euro_work": 3.355,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 3.355,
+      "relative_to_today": 1.295,
+      "household_spending_share": 0.0138
+    },
+    "CPA_A02": {
+      "label": "Products of forestry, logging and related services",
+      "hours_per_1000_eur": 14.45,
+      "u_per_euro_work": 2.116,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 2.116,
+      "relative_to_today": 0.817,
+      "household_spending_share": 0.003
+    },
+    "CPA_A03": {
+      "label": "Fish and other fishing products; aquaculture products; support services to fishing",
+      "hours_per_1000_eur": 19.28,
+      "u_per_euro_work": 2.822,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 2.822,
+      "relative_to_today": 1.09,
+      "household_spending_share": 0.0007
+    },
+    "CPA_B": {
+      "label": "Mining and quarrying",
+      "hours_per_1000_eur": 10.12,
+      "u_per_euro_work": 1.482,
+      "resource_surcharge_pct": 74.8,
+      "u_per_euro": 2.59,
+      "relative_to_today": 1.0,
+      "household_spending_share": 0.0
+    },
+    "CPA_C10-12": {
+      "label": "Food, beverages and tobacco products",
+      "hours_per_1000_eur": 16.13,
+      "u_per_euro_work": 2.362,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 2.362,
+      "relative_to_today": 0.912,
+      "household_spending_share": 0.107
+    },
+    "CPA_C13-15": {
+      "label": "Textiles, wearing apparel, leather and related products",
+      "hours_per_1000_eur": 15.57,
+      "u_per_euro_work": 2.279,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 2.279,
+      "relative_to_today": 0.88,
+      "household_spending_share": 0.0064
+    },
+    "CPA_C16": {
+      "label": "Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",
+      "hours_per_1000_eur": 14.5,
+      "u_per_euro_work": 2.123,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 2.123,
+      "relative_to_today": 0.82,
+      "household_spending_share": 0.0005
+    },
+    "CPA_C17": {
+      "label": "Paper and paper products",
+      "hours_per_1000_eur": 9.93,
+      "u_per_euro_work": 1.453,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 1.453,
+      "relative_to_today": 0.561,
+      "household_spending_share": 0.0036
+    },
+    "CPA_C18": {
+      "label": "Printing and recording services",
+      "hours_per_1000_eur": 16.13,
+      "u_per_euro_work": 2.361,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 2.361,
+      "relative_to_today": 0.912,
+      "household_spending_share": 0.0
+    },
+    "CPA_C19": {
+      "label": "Coke and refined petroleum products",
+      "hours_per_1000_eur": 2.91,
+      "u_per_euro_work": 0.427,
+      "resource_surcharge_pct": 507.1,
+      "u_per_euro": 2.59,
+      "relative_to_today": 1.0,
+      "household_spending_share": 0.0224
+    },
+    "CPA_C20": {
+      "label": "Chemicals and chemical products",
+      "hours_per_1000_eur": 7.21,
+      "u_per_euro_work": 1.055,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 1.055,
+      "relative_to_today": 0.407,
+      "household_spending_share": 0.0041
+    },
+    "CPA_C21": {
+      "label": "Basic pharmaceutical products and pharmaceutical preparations",
+      "hours_per_1000_eur": 6.35,
+      "u_per_euro_work": 0.93,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 0.93,
+      "relative_to_today": 0.359,
+      "household_spending_share": 0.0012
+    },
+    "CPA_C22": {
+      "label": "Rubber and plastic products",
+      "hours_per_1000_eur": 10.74,
+      "u_per_euro_work": 1.572,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 1.572,
+      "relative_to_today": 0.607,
+      "household_spending_share": 0.0002
+    },
+    "CPA_C23": {
+      "label": "Other non-metallic mineral products",
+      "hours_per_1000_eur": 11.58,
+      "u_per_euro_work": 1.695,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 1.695,
+      "relative_to_today": 0.654,
+      "household_spending_share": 0.0018
+    },
+    "CPA_C24": {
+      "label": "Basic metals",
+      "hours_per_1000_eur": 7.34,
+      "u_per_euro_work": 1.074,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 1.074,
+      "relative_to_today": 0.415,
+      "household_spending_share": 0.0
+    },
+    "CPA_C25": {
+      "label": "Fabricated metal products, except machinery and equipment",
+      "hours_per_1000_eur": 12.69,
+      "u_per_euro_work": 1.858,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 1.858,
+      "relative_to_today": 0.717,
+      "household_spending_share": 0.0009
+    },
+    "CPA_C26": {
+      "label": "Computer, electronic and optical products",
+      "hours_per_1000_eur": 8.82,
+      "u_per_euro_work": 1.292,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 1.292,
+      "relative_to_today": 0.499,
+      "household_spending_share": 0.0012
+    },
+    "CPA_C27": {
+      "label": "Electrical equipment",
+      "hours_per_1000_eur": 10.65,
+      "u_per_euro_work": 1.559,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 1.559,
+      "relative_to_today": 0.602,
+      "household_spending_share": 0.0012
+    },
+    "CPA_C28": {
+      "label": "Machinery and equipment n.e.c.",
+      "hours_per_1000_eur": 11.15,
+      "u_per_euro_work": 1.632,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 1.632,
+      "relative_to_today": 0.63,
+      "household_spending_share": 0.0001
+    },
+    "CPA_C29": {
+      "label": "Motor vehicles, trailers and semi-trailers",
+      "hours_per_1000_eur": 7.83,
+      "u_per_euro_work": 1.146,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 1.146,
+      "relative_to_today": 0.443,
+      "household_spending_share": 0.0149
+    },
+    "CPA_C30": {
+      "label": "Other transport equipment",
+      "hours_per_1000_eur": 5.86,
+      "u_per_euro_work": 0.857,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 0.857,
+      "relative_to_today": 0.331,
+      "household_spending_share": 0.001
+    },
+    "CPA_C31_32": {
+      "label": "Furniture and other manufactured goods",
+      "hours_per_1000_eur": 15.54,
+      "u_per_euro_work": 2.275,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 2.275,
+      "relative_to_today": 0.878,
+      "household_spending_share": 0.0043
+    },
+    "CPA_C33": {
+      "label": "Repair and installation services of machinery and equipment",
+      "hours_per_1000_eur": 13.72,
+      "u_per_euro_work": 2.008,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 2.008,
+      "relative_to_today": 0.775,
+      "household_spending_share": 0.0006
+    },
+    "CPA_D": {
+      "label": "Electricity, gas, steam and air conditioning",
+      "hours_per_1000_eur": 4.77,
+      "u_per_euro_work": 0.698,
+      "resource_surcharge_pct": 271.2,
+      "u_per_euro": 2.59,
+      "relative_to_today": 1.0,
+      "household_spending_share": 0.0529
+    },
+    "CPA_E36": {
+      "label": "Natural water; water treatment and supply services",
+      "hours_per_1000_eur": 9.82,
+      "u_per_euro_work": 1.437,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 1.437,
+      "relative_to_today": 0.555,
+      "household_spending_share": 0.0053
+    },
+    "CPA_E37-39": {
+      "label": "Sewerage services; sewage sludge; waste collection, treatment and disposal services; materials recovery services; remediation services and other waste management services",
+      "hours_per_1000_eur": 9.2,
+      "u_per_euro_work": 1.347,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 1.347,
+      "relative_to_today": 0.52,
+      "household_spending_share": 0.0128
+    },
+    "CPA_F": {
+      "label": "Constructions and construction works",
+      "hours_per_1000_eur": 17.94,
+      "u_per_euro_work": 2.627,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 2.627,
+      "relative_to_today": 1.014,
+      "household_spending_share": 0.0309
+    },
+    "CPA_G45": {
+      "label": "Wholesale and retail trade and repair services of motor vehicles and motorcycles",
+      "hours_per_1000_eur": 19.27,
+      "u_per_euro_work": 2.821,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 2.821,
+      "relative_to_today": 1.089,
+      "household_spending_share": 0.0223
+    },
+    "CPA_G46": {
+      "label": "Wholesale trade services, except of motor vehicles and motorcycles",
+      "hours_per_1000_eur": 13.62,
+      "u_per_euro_work": 1.993,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 1.993,
+      "relative_to_today": 0.77,
+      "household_spending_share": 0.0303
+    },
+    "CPA_G47": {
+      "label": "Retail trade services, except of motor vehicles and motorcycles",
+      "hours_per_1000_eur": 23.53,
+      "u_per_euro_work": 3.444,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 3.444,
+      "relative_to_today": 1.33,
+      "household_spending_share": 0.1623
+    },
+    "CPA_H49": {
+      "label": "Land transport services and transport services via pipelines",
+      "hours_per_1000_eur": 18.3,
+      "u_per_euro_work": 2.679,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 2.679,
+      "relative_to_today": 1.034,
+      "household_spending_share": 0.0323
+    },
+    "CPA_H50": {
+      "label": "Water transport services",
+      "hours_per_1000_eur": 5.79,
+      "u_per_euro_work": 0.848,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 0.848,
+      "relative_to_today": 0.327,
+      "household_spending_share": 0.0001
+    },
+    "CPA_H51": {
+      "label": "Air transport services",
+      "hours_per_1000_eur": 8.96,
+      "u_per_euro_work": 1.311,
+      "resource_surcharge_pct": 97.5,
+      "u_per_euro": 2.59,
+      "relative_to_today": 1.0,
+      "household_spending_share": 0.0078
+    },
+    "CPA_H52": {
+      "label": "Warehousing and support services for transportation",
+      "hours_per_1000_eur": 11.06,
+      "u_per_euro_work": 1.619,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 1.619,
+      "relative_to_today": 0.625,
+      "household_spending_share": 0.0095
+    },
+    "CPA_H53": {
+      "label": "Postal and courier services",
+      "hours_per_1000_eur": 37.28,
+      "u_per_euro_work": 5.457,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 5.457,
+      "relative_to_today": 2.107,
+      "household_spending_share": 0.0022
+    },
+    "CPA_I": {
+      "label": "Accommodation and food services",
+      "hours_per_1000_eur": 23.38,
+      "u_per_euro_work": 3.422,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 3.422,
+      "relative_to_today": 1.322,
+      "household_spending_share": 0.1329
+    },
+    "CPA_J58": {
+      "label": "Publishing services",
+      "hours_per_1000_eur": 12.76,
+      "u_per_euro_work": 1.868,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 1.868,
+      "relative_to_today": 0.721,
+      "household_spending_share": 0.0119
+    },
+    "CPA_J59_60": {
+      "label": "Motion picture, video and television programme production services, sound recording and music publishing; programming and broadcasting services",
+      "hours_per_1000_eur": 11.61,
+      "u_per_euro_work": 1.699,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 1.699,
+      "relative_to_today": 0.656,
+      "household_spending_share": 0.0019
+    },
+    "CPA_J61": {
+      "label": "Telecommunications services",
+      "hours_per_1000_eur": 8.41,
+      "u_per_euro_work": 1.23,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 1.23,
+      "relative_to_today": 0.475,
+      "household_spending_share": 0.0312
+    },
+    "CPA_J62_63": {
+      "label": "Computer programming, consultancy and related services; Information services",
+      "hours_per_1000_eur": 14.34,
+      "u_per_euro_work": 2.099,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 2.099,
+      "relative_to_today": 0.811,
+      "household_spending_share": 0.0043
+    },
+    "CPA_K64": {
+      "label": "Financial services, except insurance and pension funding",
+      "hours_per_1000_eur": 10.98,
+      "u_per_euro_work": 1.607,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 1.607,
+      "relative_to_today": 0.621,
+      "household_spending_share": 0.0171
+    },
+    "CPA_K65": {
+      "label": "Insurance, reinsurance and pension funding services, except compulsory social security",
+      "hours_per_1000_eur": 12.79,
+      "u_per_euro_work": 1.872,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 1.872,
+      "relative_to_today": 0.723,
+      "household_spending_share": 0.0664
+    },
+    "CPA_K66": {
+      "label": "Services auxiliary to financial services and insurance services",
+      "hours_per_1000_eur": 12.59,
+      "u_per_euro_work": 1.843,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 1.843,
+      "relative_to_today": 0.712,
+      "household_spending_share": 0.0
+    },
+    "CPA_M69_70": {
+      "label": "Legal and accounting services; services of head offices; management consultancy services",
+      "hours_per_1000_eur": 14.07,
+      "u_per_euro_work": 2.059,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 2.059,
+      "relative_to_today": 0.795,
+      "household_spending_share": 0.0063
+    },
+    "CPA_M71": {
+      "label": "Architectural and engineering services; technical testing and analysis services",
+      "hours_per_1000_eur": 16.18,
+      "u_per_euro_work": 2.368,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 2.368,
+      "relative_to_today": 0.915,
+      "household_spending_share": 0.0012
+    },
+    "CPA_M72": {
+      "label": "Scientific research and development services",
+      "hours_per_1000_eur": 11.19,
+      "u_per_euro_work": 1.638,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 1.638,
+      "relative_to_today": 0.633,
+      "household_spending_share": 0.0
+    },
+    "CPA_M73": {
+      "label": "Advertising and market research services",
+      "hours_per_1000_eur": 16.62,
+      "u_per_euro_work": 2.433,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 2.433,
+      "relative_to_today": 0.939,
+      "household_spending_share": 0.0
+    },
+    "CPA_M74_75": {
+      "label": "Other professional, scientific and technical services and veterinary services",
+      "hours_per_1000_eur": 18.79,
+      "u_per_euro_work": 2.75,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 2.75,
+      "relative_to_today": 1.062,
+      "household_spending_share": 0.006
+    },
+    "CPA_N77": {
+      "label": "Rental and leasing services",
+      "hours_per_1000_eur": 8.79,
+      "u_per_euro_work": 1.286,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 1.286,
+      "relative_to_today": 0.497,
+      "household_spending_share": 0.0092
+    },
+    "CPA_N78": {
+      "label": "Employment services",
+      "hours_per_1000_eur": 33.77,
+      "u_per_euro_work": 4.943,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 4.943,
+      "relative_to_today": 1.909,
+      "household_spending_share": 0.0007
+    },
+    "CPA_N79": {
+      "label": "Travel agency, tour operator and other reservation services and related services",
+      "hours_per_1000_eur": 20.89,
+      "u_per_euro_work": 3.058,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 3.058,
+      "relative_to_today": 1.181,
+      "household_spending_share": 0.0056
+    },
+    "CPA_N80-82": {
+      "label": "Security and investigation services; services to buildings and landscape; office administrative, office support and other business support services",
+      "hours_per_1000_eur": 22.28,
+      "u_per_euro_work": 3.262,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 3.262,
+      "relative_to_today": 1.26,
+      "household_spending_share": 0.0081
+    },
+    "CPA_O": {
+      "label": "Public administration and defence services; compulsory social security services",
+      "hours_per_1000_eur": 17.48,
+      "u_per_euro_work": 2.559,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 2.559,
+      "relative_to_today": 0.988,
+      "household_spending_share": 0.0009
+    },
+    "CPA_P": {
+      "label": "Education services",
+      "hours_per_1000_eur": 17.7,
+      "u_per_euro_work": 2.591,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 2.591,
+      "relative_to_today": 1.001,
+      "household_spending_share": 0.017
+    },
+    "CPA_Q86": {
+      "label": "Human health services",
+      "hours_per_1000_eur": 18.17,
+      "u_per_euro_work": 2.659,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 2.659,
+      "relative_to_today": 1.027,
+      "household_spending_share": 0.0402
+    },
+    "CPA_Q87_88": {
+      "label": "Residential care services; social work services without accommodation",
+      "hours_per_1000_eur": 27.76,
+      "u_per_euro_work": 4.064,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 4.064,
+      "relative_to_today": 1.569,
+      "household_spending_share": 0.0278
+    },
+    "CPA_R90-92": {
+      "label": "Creative, arts, entertainment, library, archive, museum, other cultural services; gambling and betting services",
+      "hours_per_1000_eur": 17.38,
+      "u_per_euro_work": 2.545,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 2.545,
+      "relative_to_today": 0.983,
+      "household_spending_share": 0.0136
+    },
+    "CPA_R93": {
+      "label": "Sporting services and amusement and recreation services",
+      "hours_per_1000_eur": 20.44,
+      "u_per_euro_work": 2.993,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 2.993,
+      "relative_to_today": 1.156,
+      "household_spending_share": 0.0125
+    },
+    "CPA_S94": {
+      "label": "Services furnished by membership organisations",
+      "hours_per_1000_eur": 25.53,
+      "u_per_euro_work": 3.737,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 3.737,
+      "relative_to_today": 1.443,
+      "household_spending_share": 0.0
+    },
+    "CPA_S95": {
+      "label": "Repair services of computers and personal and household goods",
+      "hours_per_1000_eur": 16.38,
+      "u_per_euro_work": 2.398,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 2.398,
+      "relative_to_today": 0.926,
+      "household_spending_share": 0.0031
+    },
+    "CPA_S96": {
+      "label": "Other personal services",
+      "hours_per_1000_eur": 32.65,
+      "u_per_euro_work": 4.78,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 4.78,
+      "relative_to_today": 1.846,
+      "household_spending_share": 0.021
+    },
+    "CPA_T": {
+      "label": "Services of households as employers; undifferentiated goods and services produced by households for own use",
+      "hours_per_1000_eur": 86.62,
+      "u_per_euro_work": 12.68,
+      "resource_surcharge_pct": 0.0,
+      "u_per_euro": 12.68,
+      "relative_to_today": 4.896,
+      "household_spending_share": 0.0034
+    }
+  },
+  "examples": [
+    {
+      "item": "tomatoes",
+      "unit": "1 kg",
+      "illustrative_eur_today": 3.0,
+      "group": "CPA_A01",
+      "group_label": "Products of agriculture, hunting and related services",
+      "u_price": 10.06,
+      "surcharge_pct": 0.0,
+      "minutes_of_work_at_base_salary": 15.7,
+      "work_time": "16 min"
+    },
+    {
+      "item": "bread (baguette)",
+      "unit": "1 loaf",
+      "illustrative_eur_today": 1.0,
+      "group": "CPA_C10-12",
+      "group_label": "Food, beverages and tobacco products",
+      "u_price": 2.36,
+      "surcharge_pct": 0.0,
+      "minutes_of_work_at_base_salary": 3.7,
+      "work_time": "4 min"
+    },
+    {
+      "item": "restaurant meal",
+      "unit": "1 meal",
+      "illustrative_eur_today": 15.0,
+      "group": "CPA_I",
+      "group_label": "Accommodation and food services",
+      "u_price": 51.33,
+      "surcharge_pct": 0.0,
+      "minutes_of_work_at_base_salary": 80.1,
+      "work_time": "1.3 h"
+    },
+    {
+      "item": "electricity",
+      "unit": "1 kWh",
+      "illustrative_eur_today": 0.25,
+      "group": "CPA_D",
+      "group_label": "Electricity, gas, steam and air conditioning",
+      "u_price": 0.65,
+      "surcharge_pct": 271.2,
+      "minutes_of_work_at_base_salary": 1.0,
+      "work_time": "1 min"
+    },
+    {
+      "item": "petrol",
+      "unit": "1 litre",
+      "illustrative_eur_today": 1.8,
+      "group": "CPA_C19",
+      "group_label": "Coke and refined petroleum products",
+      "u_price": 4.66,
+      "surcharge_pct": 507.1,
+      "minutes_of_work_at_base_salary": 7.3,
+      "work_time": "7 min"
+    },
+    {
+      "item": "a pair of jeans",
+      "unit": "1 pair",
+      "illustrative_eur_today": 40.0,
+      "group": "CPA_C13-15",
+      "group_label": "Textiles, wearing apparel, leather and related products",
+      "u_price": 91.16,
+      "surcharge_pct": 0.0,
+      "minutes_of_work_at_base_salary": 142.2,
+      "work_time": "2.4 h"
+    },
+    {
+      "item": "smartphone",
+      "unit": "1 phone",
+      "illustrative_eur_today": 300.0,
+      "group": "CPA_C26",
+      "group_label": "Computer, electronic and optical products",
+      "u_price": 387.6,
+      "surcharge_pct": 0.0,
+      "minutes_of_work_at_base_salary": 604.7,
+      "work_time": "10.1 h"
+    },
+    {
+      "item": "new small car",
+      "unit": "1 car",
+      "illustrative_eur_today": 20000.0,
+      "group": "CPA_C29",
+      "group_label": "Motor vehicles, trailers and semi-trailers",
+      "u_price": 22920.0,
+      "surcharge_pct": 0.0,
+      "minutes_of_work_at_base_salary": 35755.2,
+      "work_time": "4.6 months"
+    },
+    {
+      "item": "flight Paris–Rome",
+      "unit": "1 return ticket",
+      "illustrative_eur_today": 200.0,
+      "group": "CPA_H51",
+      "group_label": "Air transport services",
+      "u_price": 518.0,
+      "surcharge_pct": 97.5,
+      "minutes_of_work_at_base_salary": 808.1,
+      "work_time": "13.5 h"
+    },
+    {
+      "item": "haircut",
+      "unit": "1 cut",
+      "illustrative_eur_today": 25.0,
+      "group": "CPA_S96",
+      "group_label": "Other personal services",
+      "u_price": 119.5,
+      "surcharge_pct": 0.0,
+      "minutes_of_work_at_base_salary": 186.4,
+      "work_time": "3.1 h"
+    }
+  ]
+}

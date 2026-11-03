@@ -135,6 +135,13 @@
       "hours_price_vs_market": 0.214
     },
     {
+      "product": "CPA_D",
+      "label": "Electricity, gas, steam and air conditioning",
+      "household_spending_share": 0.039,
+      "hours_per_1000_eur": 4.77,
+      "hours_price_vs_market": 0.351
+    },
+    {
       "product": "CPA_L68B",
       "label": "Real estate services excluding imputed rents",
       "household_spending_share": 0.0669,

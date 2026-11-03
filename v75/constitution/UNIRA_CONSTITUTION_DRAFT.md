@@ -317,7 +317,7 @@ Surplus beyond a region's needs goes to the One Earth Fund for sharing.
 6. **Nature has a price too.** Goods that use scarce natural resources (fossil fuels, energy, rare materials, land) carry a resource surcharge, measured physically. Energy, fuels and air travel never become cheaper, relative to other goods, than they are when a region joins. The surcharge goes to the One Earth Fund.
 7. **Rare goods.** What cannot be produced again, such as an original work of art or a seat at a unique event, is allocated by turn, lottery or rotation, never by bidding.
 
-*Evidence: priced by hours alone, French fuels would become 79% cheaper and electricity 65% cheaper relative to other goods, because their market prices pay mostly for resources, not work. That would encourage waste, so the surcharge is essential (V7.9, `v79/prices`).*
+*Evidence: priced by hours alone, French fuels would become 79% cheaper and electricity 65% cheaper relative to other goods, because their market prices pay mostly for resources, not work. That would encourage waste, so the surcharge is essential (V7.9, `v79/prices`). The calculator of V8.1 (`v81/prices`) sets the surcharges at +507% for fuels, +271% for electricity and gas, +98% for air travel and +75% for mining products, which keeps each at today's relative price and raises the cost of the household basket by about 6%. Examples at the base salary: a kilo of tomatoes about 10 U (16 minutes of work), a litre of petrol about 4.7 U, a small new car about 23,000 U (4.6 months).*
 
 **Article 14 — Salaries.**
 1. The base salary is 5,000 U a month.

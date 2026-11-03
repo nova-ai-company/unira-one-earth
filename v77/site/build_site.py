@@ -36,6 +36,8 @@ def main():
                       (U / "v75" / "constitution" / "UNIRA_Constitution_Draft.docx", "UNIRA_Constitution_Draft.docx")):
         if src.exists():
             shutil.copy(src, DOCS / "downloads" / name)
+    if (U / "v81" / "prices" / "prices.html").exists():
+        shutil.copy(U / "v81" / "prices" / "prices.html", DOCS / "prices.html")
     pilot = U / "v80" / "pilot"
     if (pilot / "PILOT_PLAN.md").exists():
         body = md_to_html((pilot / "PILOT_SUMMARY.md").read_text(encoding="utf-8")) + "<hr>" + \
@@ -55,6 +57,7 @@ tested against real data. Everything here is open: the data, the code, the resul
 <div class='tile'><b><a href='constitution.html'>Constitution</a></b><span>Draft Constitution of One Earth</span></div>
 <div class='tile'><b><a href='book.html'>Book draft</a></b><span>UNIRA: One Humanity, One Future</span></div>
 <div class='tile'><b><a href='review.html'>For reviewers</a></b><span>Review brief, questions and feedback form</span></div>
+<div class='tile'><b><a href='prices.html'>Prices</a></b><span>What things cost in U, and in hours of work</span></div>
 <div class='tile'><b><a href='pilot.html'>Pilot proposal</a></b><span>A 30-hour, full-employment town, tested against UNIRA's predictions</span></div>
 </div>
 <h2>Take part</h2>
