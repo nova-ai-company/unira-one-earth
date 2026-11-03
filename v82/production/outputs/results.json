@@ -1,0 +1,81 @@
+{
+  "regimes": {
+    "market": {
+      "served_within_1_month": 0.7073,
+      "served_within_3_months": 0.7073,
+      "lost_or_lapsed": 0.1033,
+      "waste_share_of_production": 0.0553,
+      "mean_stock_months": 1.8812,
+      "hours_used_share": 0.8402,
+      "mean_wait_months_of_served": 0.0,
+      "priced_out_share_of_desire": 0.1894,
+      "priced_out_share_in_poorer_half": 0.9754,
+      "mean_monthly_price_change": 0.1069
+    },
+    "plan": {
+      "served_within_1_month": 0.2453,
+      "served_within_3_months": 0.5212,
+      "lost_or_lapsed": 0.4659,
+      "waste_share_of_production": 0.0716,
+      "mean_stock_months": 2.5959,
+      "hours_used_share": 0.5157,
+      "mean_wait_months_of_served": 1.5062
+    },
+    "unira": {
+      "served_within_1_month": 0.6969,
+      "served_within_3_months": 0.9577,
+      "lost_or_lapsed": 0.0377,
+      "waste_share_of_production": 0.0284,
+      "mean_stock_months": 0.7281,
+      "hours_used_share": 0.8992,
+      "mean_wait_months_of_served": 0.5875
+    },
+    "unira_sales": {
+      "served_within_1_month": 0.9242,
+      "served_within_3_months": 0.9242,
+      "lost_or_lapsed": 0.0758,
+      "waste_share_of_production": 0.0296,
+      "mean_stock_months": 0.754,
+      "hours_used_share": 0.8649,
+      "mean_wait_months_of_served": 0.0
+    }
+  },
+  "unira_stock_target_sensitivity": {
+    "1.5": {
+      "served_within_1_month": 0.5795,
+      "served_within_3_months": 0.9525,
+      "lost_or_lapsed": 0.0423,
+      "waste_share_of_production": 0.0213,
+      "mean_stock_months": 0.3202,
+      "hours_used_share": 0.8866,
+      "mean_wait_months_of_served": 0.7941
+    },
+    "3.0": {
+      "served_within_1_month": 0.6446,
+      "served_within_3_months": 0.9565,
+      "lost_or_lapsed": 0.0387,
+      "waste_share_of_production": 0.0241,
+      "mean_stock_months": 0.4765,
+      "hours_used_share": 0.8933,
+      "mean_wait_months_of_served": 0.674
+    },
+    "5.0": {
+      "served_within_1_month": 0.6969,
+      "served_within_3_months": 0.9577,
+      "lost_or_lapsed": 0.0377,
+      "waste_share_of_production": 0.0284,
+      "mean_stock_months": 0.7281,
+      "hours_used_share": 0.8992,
+      "mean_wait_months_of_served": 0.5875
+    },
+    "8.0": {
+      "served_within_1_month": 0.7328,
+      "served_within_3_months": 0.9579,
+      "lost_or_lapsed": 0.0377,
+      "waste_share_of_production": 0.0353,
+      "mean_stock_months": 1.1294,
+      "hours_used_share": 0.9075,
+      "mean_wait_months_of_served": 0.5379
+    }
+  }
+}

@@ -1,0 +1,2 @@
+file,dataset,url,retrieved_at_utc,sha256,bytes,license
+jvs_a_rate_r2.json,jvs_a_rate_r2,https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/jvs_a_rate_r2?format=JSON&lang=EN&geo=FR&geo=EU27_2020&sizeclas=TOTAL&unit=AVG_A&sinceTimePeriod=2019,2026-11-03T23:25:20+00:00,5d2fb7ca8ea416e667ec428f33c802113f77ffefefb909546a74bd81da59d9ca,8086,Eurostat reuse policy (Commission Decision 2011/833/EU; CC BY 4.0)

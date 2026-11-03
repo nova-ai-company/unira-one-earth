@@ -276,6 +276,16 @@ Surplus beyond a region's needs goes to the One Earth Fund for sharing.
 
 *Evidence: in the 30-year world plan, serving the decent level first brings every region to decent energy in 4 years instead of 8, decent health care in 7 instead of 12, and decent housing in 9 instead of 20, with no loss on the comfortable goal. Planning where food comes from cuts transport by 69% (V7.9, `v79/allocation`). Weighting health need by age alone would give Sub-Saharan Africa 30% of new health workers and 116 per 10,000 by year 30, against 151 in Europe; weighting by age and disease burden together gives 35%, and 142 against 141 (`v79/health_need`, WHO healthy life expectancy).*
 
+**Article 10b — Producing what people want.** *(Ordinary goods, beyond the needs of Article 10a.)*
+1. Production of ordinary goods follows what people ask for: what they buy, plus what they order when a product is out of stock. Orders are kept for up to three months and are published, without personal data.
+2. Forecasts and production plans are updated every month, never only once a year. A plan is never built by adding a target to last year's plan.
+3. Each product keeps a stock sized from its measured forecast error, so that most people find what they want at once and the rest wait a short, published time.
+4. An order is a commitment: it is paid when placed and refunded in full if the product is not delivered. No one may place orders only to hoard or resell (Article 18b).
+5. New products start with a pilot run and grow as orders come in (Article 3d).
+6. Waiting times, lost orders and unsold stock are published for every product group each month. If more than a tenth of orders in a group lapse for six months running, the region must explain why and act.
+
+*Evidence: in a 20-year simulation of 120 products with changing tastes and the same labour hours (V8.2, `v82/production`), these signals served 96% of wishes within 3 months, lost 3.8% and wasted 2.8% of production. A market with flexible prices priced out 19% of wishes, almost all among the poorer half, and lost 10% more; a Soviet-style annual plan lost 47%. Without waiting lists the lost share doubled.*
+
 **Article 11 — Responsible production and stewardship.**
 1. Before producing new, society maintains, repairs, renovates, reuses and converts what exists.
 2. Nothing is produced only to sustain sales. There is no waste and no overproduction.
@@ -330,6 +340,15 @@ Surplus beyond a region's needs goes to the One Earth Fund for sharing.
 3. The pay of enterprise owners and managers is a salary within the same limit.
 4. Average pay may rise only as fast as productivity.
 5. **No exception.** No bonus, prize, profit share or reward of any kind lifts a person's monthly income above five times the base salary (25,000 U).
+
+**Article 14a — Hard and unwanted work.**
+1. **Hardship steps.** A published score for night, weekend, physical, dangerous or unpleasant work adds up to half a multiplier step to a person's salary, always within five times the base salary (Article 14.5).
+2. **Shorter hours.** The hardest jobs count up to 5 fewer hours a week at the same pay.
+3. **Duty to improve.** Every hard job has a yearly plan to make it less hard (staffing, equipment, organisation, machines for heavy tasks), published and audited.
+4. **Training.** Anyone moving into a job where the region lacks workers is trained on full pay.
+5. **Review.** If a sector stays short of workers for two years, its hardship step, hours and conditions are reviewed automatically.
+
+*Evidence: in a job-choice model of 20,000 people using France's sector sizes (V8.2, `v82/jobs`), paying only for knowledge left 87% of people in hard jobs there unwillingly. Hardship steps, shorter hours and work made 30% less hard together brought this to 46%, about the level of ordinary jobs, at the cost of a higher average multiplier (1.60 to 1.85) and about 9% more people in hard sectors. In France the hardest jobs to fill in 2025 were hotels and restaurants (4.5% vacancies), personal services, health and social care, and construction (Eurostat).*
 
 **Article 15 — Children.**
 1. Each child brings an allowance of 1,000 U a month, limited so that adult household income plus child allowance does not exceed 15,000 U.
