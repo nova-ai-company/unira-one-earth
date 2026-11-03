@@ -67,7 +67,12 @@ We, the people of the Earth, one humanity in many regions, cultures and language
 2. **Open results.** Results paid for by One Earth or a region are published openly, with their data. Inventors are named and honoured. No one may own an idea so as to stop others from using it.
 3. **Many funders, fair choice.** Research money is given by at least three independent bodies. Proposals are first checked by experts for soundness. Among those that pass, money is given partly by lottery, so that new and unusual ideas are not shut out. At least a fifth goes to high-risk work or to people funded for the first time.
 4. **Prizes and purchase promises.** For a clearly defined problem, One Earth may offer a prize or a promise to buy the solution. The rules and judges are fixed in advance and may not be changed against those who have already competed.
-5. **Whoever improves, gains.** A team that reduces the hours needed to make a product keeps part of the hours saved for a limited time, as set by law. A unit's targets are never raised because it did better than planned.
+5. **Whoever improves, gains.** A team that reduces the hours needed to make a product keeps part of the hours saved for a limited time, as set by law. A unit's targets are never raised because it did better than planned. The gain is given to the team as:
+    - **shorter working hours** at the same salary;
+    - a **step up the salary scale** for its members, within Article 14;
+    - **resources for the team's next project** (workers, materials, equipment), which belong to the work, not to any person;
+    - public recognition.
+12. **Never above five times.** No prize, gain or reward under this Article raises anyone's monthly pay above five times the base salary (Article 14), or their savings above the money cap and protected accounts (Article 17). A personal prize in U is at most one year of the winner's salary. Larger prizes go to the team's next project or to the One Earth Fund, with full public credit to the winners.
 6. **Freedom to try, duty to stop.** Any group may propose a project or co-operative. It needs approval from one of several independent bodies, not all of them. Every project has a budget, an end date and a published test of success. A project that fails its test is closed. The people who tried keep their salary level and may try again.
 7. **People choose.** For goods in common use, people can choose between designs from different teams whenever this is practical. Teams whose designs are chosen are publicly recognised. Production follows the choices people make.
 8. **Fair and visible rewards.** The criteria for salary multipliers are published, and everyone may see why they are paid what they are paid and may appeal.
@@ -318,6 +323,7 @@ Surplus beyond a region's needs goes to the One Earth Fund for sharing.
 2. Salaries rise with experience, knowledge and the complexity of the work, up to 5 times the base (25,000 U).
 3. The pay of enterprise owners and managers is a salary within the same limit.
 4. Average pay may rise only as fast as productivity.
+5. **No exception.** No bonus, prize, profit share or reward of any kind lifts a person's monthly income above five times the base salary (25,000 U).
 
 **Article 15 — Children.**
 1. Each child brings an allowance of 1,000 U a month, limited so that adult household income plus child allowance does not exceed 15,000 U.

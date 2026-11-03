@@ -273,6 +273,8 @@ Money above the cap fills these accounts first. Only what is left goes to the On
 
 And the cap limits only what a person *keeps*. It never touches what they earn or spend. A person at the cap still receives their full salary every month, and can spend it all. That is why the cap does not stop people working: it removes the reason to hoard, not the reason to work.
 
+**Rewards never break the ceiling.** People who invent, improve or win a prize are rewarded, but never above five times the base salary. A team that makes production faster works fewer hours for the same pay, moves up the salary scale within the limit, and gets resources for its next project. A personal prize is at most one year of the winner's salary; anything larger goes to the team's next work or to the One Earth Fund, with the winners' names on it. Honour and time are the rewards that have no ceiling.
+
 ## Rules that keep prices fixed for ever
 
 The design rule says prices of essentials should not change "even after 1,000 years". That can hold only if a few other rules hold too.
