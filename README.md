@@ -10,7 +10,7 @@ UNIRA is a proposal for one world federation of equal regions. It has a 30-hour 
 |---|---|
 | [Simulator](https://nova-ai-company.github.io/unira-one-earth/simulator.html) | Change the assumptions and see the results |
 | [Working Paper 02](https://nova-ai-company.github.io/unira-one-earth/paper.html) | The scientific paper (also as Word in `docs/downloads/`) |
-| [Draft Constitution of One Earth](https://nova-ai-company.github.io/unira-one-earth/constitution.html) | 47 articles |
+| [Draft Constitution of One Earth](https://nova-ai-company.github.io/unira-one-earth/constitution.html) | 48 articles |
 | [Book draft](https://nova-ai-company.github.io/unira-one-earth/book.html) | *UNIRA: One Humanity, One Future* (second draft, English) |
 | [For reviewers](https://nova-ai-company.github.io/unira-one-earth/review.html) | Review brief, 70 questions, feedback form |
 
@@ -21,6 +21,8 @@ UNIRA is a proposal for one world federation of equal regions. It has a 30-hour 
 - **30-year plan.** In the central case every region reaches 40 GJ per person by year 27 and EU-level health staffing by year 30. Comfortable housing for all needs home building to grow 5–10% a year. At 1.2 TW a year of clean energy, the build closes the poorer regions' gap but leaves final energy only about 75% clean by year 30. Bringing fossil use near zero as well needs about 1.8 TW a year. (V6.7, V7.0)
 - **Needs-first versus market.** With the same resources, needs-first allocation closes the gaps. A reformed market does not, unless about 90% of its new capacity is directed to need. Strong safeguards against error and corruption keep about 80–89% of this advantage. (V6.8–V6.9)
 - **Joining.** Compared with a reformed market world after 30 years, 146 regions with 86% of humanity gain materially by joining. (V7.2)
+
+- **AI planning.** Machine learning forecasts needs well (population ±0.1% a year ahead) and beats simple rules for population, food and health workers, but not for short-term energy. Over 30 years information errors cost ≤1%, while diversion costs 12–19%, so AI's main value is integrity checks. Forecasts are least accurate in the poorest regions, so their statistics come first. (V7.8)
 
 These are tests of **physical feasibility under stated assumptions**, not forecasts. Every limitation is listed in the working paper and the research notes.
 
@@ -44,6 +46,7 @@ These are tests of **physical feasibility under stated assumptions**, not foreca
 | `v75/constitution/` | Draft Constitution of One Earth and voting tests |
 | `v76/` | Peace Force and migration evidence |
 | `v77/` | Website, simulator and outside-review package |
+| `v78/` | AI / machine-learning planning of needed production: backtests, fairness, 30-year information test |
 | `docs/` | The published website (generated) |
 
 ## Reproduce everything
@@ -54,7 +57,7 @@ Python 3.10+ and nothing else (standard library only). All data are frozen snaps
 python3 v63/run_all.py
 ```
 
-This regenerates every output, the dashboard, book, constitution and website, then runs all 151 tests.
+This regenerates every output, the dashboard, book, constitution and website, then runs all 157 tests.
 
 ## Take part
 

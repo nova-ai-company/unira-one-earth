@@ -47,7 +47,7 @@ Three proposals from this research were provisionally accepted (P1–P3, section
 
 ## 2. Data and methods
 
-All results are reproducible offline from frozen official data: 151 tests pass, and outputs regenerate byte for byte from a clean copy.
+All results are reproducible offline from frozen official data: 157 tests pass, and outputs regenerate byte for byte from a clean copy.
 
 - **Sources:**
     - Eurostat national accounts and Labour Force Survey;
@@ -253,6 +253,13 @@ The allocator decides on *perceived* needs. Each failure is calibrated on 44 sou
     - community monitoring;
     - data less than a year old.
 - **Sharpened falsification test:** if leakage cannot be kept well below about 45% and data delays under about 5 years, needs-first allocation is no better than a cooperative market.
+
+**AI-assisted planning (V7.8).** The author's rule 32 proposes that an AI model helps decide the production needed. We backtested five forecasting methods out of sample on real history from 2010 to 2024 (UN population, FAO food, OWID energy, WHO health workers). The method was chosen on 2005–2009 data only.
+- **Needs are highly predictable.** Population one year ahead has a median error of 0.10% (nearest-neighbour ML, against 0.20% for the best simple trend). Food supply per person has an error of about 1%.
+- **ML helps for population, food and health workers, but not for short-term energy use**, where "same as last year" is best.
+- **Rerunning the 30-year transition** with AI-forecast information costs at most 1% of progress against perfect information, while misreporting and 8% leakage cost 12–19%. Each point of leakage costs about one point of progress.
+- **AI's main value is therefore integrity checking rather than prediction.** Health-worker forecasts are 3–6× less accurate in low-income regions, so fair AI planning requires better statistics there first.
+- Article 3b of the draft constitution sets the conditions: AI advises and people decide; models are open and must beat simple benchmarks each year; fairness is tested per region; AI has no role in rights, sanctions or force.
 
 ## 10. Accelerating housing, and safeguards in the constitution
 

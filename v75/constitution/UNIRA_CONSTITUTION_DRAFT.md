@@ -40,6 +40,17 @@ We, the people of the Earth, one humanity in many regions, cultures and language
     - production is planned from measured needs and population in every region, plus the studied reserves of Article 11;
     - no more is produced than is needed, and no region is left without what it needs.
 
+**Article 3b — Artificial intelligence serves the decision; people decide.**
+1. **By default**, One Earth uses open data models, including artificial intelligence and machine learning, to forecast the needs of every region, to propose production plans and their locations, and to check the data for errors and diversion.
+2. **Tested before use, and while in use.** A model is used only if it predicts better than simple published rules (such as "same as last year" or "the recent trend") on data it has not seen. Its accuracy is re-tested every year against what really happened, and the results are published.
+3. **Open.** The code, the data, the training method and the accuracy of every model are public. Anyone may rerun them. No secret model may decide anything.
+4. **Fair.** Every model is tested for each region and each income group. A model that is systematically less accurate, or biased, for any region may not be used for that region until the gap is corrected. Better statistics in the regions with the weakest data come first.
+5. **People decide and are accountable.** A model gives a proposal, its uncertainty and its reasons. The responsible Council decides, may depart from the proposal and must then say why. Any region or citizen may challenge a decision before the Court of One Earth.
+6. **Limits.** No model may decide on a person's rights, on sanctions against a person or region, or on the use of force. Models use aggregated data, and personal data only as the law allows (Article 37). A manual procedure always exists, so that decisions continue if a model fails.
+7. Reserves (Article 11) are sized from the measured forecast errors, so that every region is covered even when a forecast is wrong.
+
+*Basis: V7.8 (`v78/RESEARCH_NOTE.md`).*
+
 **Article 4 — Subsidiarity and diversity.**
 1. Decisions are taken as close to the people as possible.
 2. Each region governs itself according to its own religion, culture, language and traditions:

@@ -51,6 +51,7 @@ def allocate_perceived(pool, true_def, p, domain, t):
 def run(regions, p, years=30):
     """regions: {iso: {pop0, pop50, energy_gj, health_10k, floor_m2, kcal}}; p: parameters."""
     st = {k: dict(v) for k, v in regions.items()}
+    p["_state"] = st  # read-only view for information models that perturb levels (v78)
     rows, reached = [], {k: {} for k in regions}
     targets = {"energy": ("energy_gj", p["energy_target"]), "health": ("health_10k", p["health_target"]),
                "housing": ("floor_m2", p["floor_target"])}

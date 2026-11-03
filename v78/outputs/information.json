@@ -1,0 +1,317 @@
+{
+  "measured_sigmas_h2": {
+    "population": 0.004584649052751863,
+    "energy": 0.08919723804855298,
+    "health": 0.045270260812423066,
+    "housing": 0.08919723804855298
+  },
+  "scenarios": {
+    "perfect": {
+      "sigma": 0.0,
+      "lag": 0,
+      "misreport_share": 0.0,
+      "inflation": 0.0,
+      "audit_detect": 0.0,
+      "leakage": 0.0
+    },
+    "statistics_today": {
+      "sigma": 0.05,
+      "lag": 1,
+      "misreport_share": 0.25,
+      "inflation": 0.07,
+      "audit_detect": 0.5,
+      "leakage": 0.08
+    },
+    "ai_nowcast": {
+      "misreport_share": 0.25,
+      "inflation": 0.07,
+      "audit_detect": 0.5,
+      "leakage": 0.08,
+      "sigma_level": {
+        "energy": 0.08919723804855298,
+        "health": 0.045270260812423066,
+        "housing": 0.08919723804855298
+      },
+      "sigma_pop": 0.004584649052751863
+    },
+    "ai_nowcast_metered": {
+      "misreport_share": 0.25,
+      "inflation": 0.07,
+      "audit_detect": 0.8,
+      "leakage": 0.08,
+      "sigma_level": {
+        "energy": 0.02,
+        "health": 0.045270260812423066,
+        "housing": 0.08919723804855298
+      },
+      "sigma_pop": 0.004584649052751863
+    },
+    "statistics_information_only": {
+      "sigma": 0.05,
+      "lag": 1,
+      "misreport_share": 0.0,
+      "inflation": 0.0,
+      "audit_detect": 0.5,
+      "leakage": 0.0
+    },
+    "ai_information_only": {
+      "misreport_share": 0.0,
+      "inflation": 0.0,
+      "audit_detect": 0.0,
+      "leakage": 0.0,
+      "sigma_level": {
+        "energy": 0.08919723804855298,
+        "health": 0.045270260812423066,
+        "housing": 0.08919723804855298
+      },
+      "sigma_pop": 0.004584649052751863
+    },
+    "integrity_failures_only": {
+      "sigma": 0.0,
+      "lag": 0,
+      "misreport_share": 0.25,
+      "inflation": 0.07,
+      "audit_detect": 0.5,
+      "leakage": 0.08
+    }
+  },
+  "results": {
+    "perfect": {
+      "energy_closed_y15": {
+        "p10": 0.5990655880026305,
+        "p50": 0.5990655880026305,
+        "p90": 0.5990655880026305
+      },
+      "health_closed_y15": {
+        "p10": 0.38181868856806234,
+        "p50": 0.38181868856806234,
+        "p90": 0.38181868856806234
+      },
+      "housing_closed_y30": {
+        "p10": 0.49963751381404187,
+        "p50": 0.49963751381404187,
+        "p90": 0.49963751381404187
+      },
+      "energy_all_by": {
+        "share_of_runs_reached": 1.0,
+        "median_year": 27.0
+      },
+      "health_all_by": {
+        "share_of_runs_reached": 1.0,
+        "median_year": 30.0
+      },
+      "share_of_perfect": {
+        "energy_closed_y15": 1.0,
+        "health_closed_y15": 1.0,
+        "housing_closed_y30": 1.0
+      }
+    },
+    "statistics_today": {
+      "energy_closed_y15": {
+        "p10": 0.5241137329405198,
+        "p50": 0.5243751526057693,
+        "p90": 0.524548687390775
+      },
+      "health_closed_y15": {
+        "p10": 0.3362528730874759,
+        "p50": 0.3362656935144677,
+        "p90": 0.33627752064276883
+      },
+      "housing_closed_y30": {
+        "p10": 0.4043186581076206,
+        "p50": 0.4044114734407279,
+        "p90": 0.4045070298147427
+      },
+      "energy_all_by": {
+        "share_of_runs_reached": 1.0,
+        "median_year": 29.0
+      },
+      "health_all_by": {
+        "share_of_runs_reached": 0.0,
+        "median_year": null
+      },
+      "share_of_perfect": {
+        "energy_closed_y15": 0.8753217729532926,
+        "health_closed_y15": 0.8806946951066424,
+        "housing_closed_y30": 0.80940974658529
+      }
+    },
+    "ai_nowcast": {
+      "energy_closed_y15": {
+        "p10": 0.5177199441861238,
+        "p50": 0.5192410933513337,
+        "p90": 0.5207006690853158
+      },
+      "health_closed_y15": {
+        "p10": 0.3359119389316215,
+        "p50": 0.3360650009760651,
+        "p90": 0.3361211847661991
+      },
+      "housing_closed_y30": {
+        "p10": 0.40054442739240387,
+        "p50": 0.40113957597462,
+        "p90": 0.40157415569094085
+      },
+      "energy_all_by": {
+        "share_of_runs_reached": 0.0,
+        "median_year": null
+      },
+      "health_all_by": {
+        "share_of_runs_reached": 0.0,
+        "median_year": null
+      },
+      "share_of_perfect": {
+        "energy_closed_y15": 0.8667516608365989,
+        "health_closed_y15": 0.8801690724893859,
+        "housing_closed_y30": 0.8028612041407255
+      }
+    },
+    "ai_nowcast_metered": {
+      "energy_closed_y15": {
+        "p10": 0.5240522617543686,
+        "p50": 0.5242424494322213,
+        "p90": 0.5245845060335146
+      },
+      "health_closed_y15": {
+        "p10": 0.3359094017065757,
+        "p50": 0.3360692119207855,
+        "p90": 0.3361538390249551
+      },
+      "housing_closed_y30": {
+        "p10": 0.40018246659784584,
+        "p50": 0.40146896270739163,
+        "p90": 0.4020368817424521
+      },
+      "energy_all_by": {
+        "share_of_runs_reached": 0.0,
+        "median_year": null
+      },
+      "health_all_by": {
+        "share_of_runs_reached": 0.0,
+        "median_year": null
+      },
+      "share_of_perfect": {
+        "energy_closed_y15": 0.8751002560172415,
+        "health_closed_y15": 0.8801801011394924,
+        "housing_closed_y30": 0.8035204555453231
+      }
+    },
+    "statistics_information_only": {
+      "energy_closed_y15": {
+        "p10": 0.5990168911515702,
+        "p50": 0.5990206597423153,
+        "p90": 0.5990240325044084
+      },
+      "health_closed_y15": {
+        "p10": 0.38175788191102417,
+        "p50": 0.3817609449492312,
+        "p90": 0.3817638061882253
+      },
+      "housing_closed_y30": {
+        "p10": 0.49962004564234985,
+        "p50": 0.49962177222411425,
+        "p90": 0.4996228100811287
+      },
+      "energy_all_by": {
+        "share_of_runs_reached": 1.0,
+        "median_year": 29.0
+      },
+      "health_all_by": {
+        "share_of_runs_reached": 1.0,
+        "median_year": 30.0
+      },
+      "share_of_perfect": {
+        "energy_closed_y15": 0.9999250027689539,
+        "health_closed_y15": 0.9998487669133019,
+        "housing_closed_y30": 0.9999684939791501
+      }
+    },
+    "ai_information_only": {
+      "energy_closed_y15": {
+        "p10": 0.5906142743207969,
+        "p50": 0.5922194161644703,
+        "p90": 0.5941123385494921
+      },
+      "health_closed_y15": {
+        "p10": 0.3814135670646348,
+        "p50": 0.38151305586237344,
+        "p90": 0.38164456437746125
+      },
+      "housing_closed_y30": {
+        "p10": 0.49477011185492453,
+        "p50": 0.4957582475641946,
+        "p90": 0.49649240691251645
+      },
+      "energy_all_by": {
+        "share_of_runs_reached": 0.0,
+        "median_year": null
+      },
+      "health_all_by": {
+        "share_of_runs_reached": 0.0,
+        "median_year": null
+      },
+      "share_of_perfect": {
+        "energy_closed_y15": 0.9885719160384652,
+        "health_closed_y15": 0.999199534452242,
+        "housing_closed_y30": 0.9922358386978704
+      }
+    },
+    "integrity_failures_only": {
+      "energy_closed_y15": {
+        "p10": 0.5241497666933773,
+        "p50": 0.5243672694353945,
+        "p90": 0.5245399261819454
+      },
+      "health_closed_y15": {
+        "p10": 0.3363043226178205,
+        "p50": 0.3363224260940213,
+        "p90": 0.33633101473022164
+      },
+      "housing_closed_y30": {
+        "p10": 0.4042845980201442,
+        "p50": 0.4044006479627939,
+        "p90": 0.4045182435370666
+      },
+      "energy_all_by": {
+        "share_of_runs_reached": 1.0,
+        "median_year": 28.0
+      },
+      "health_all_by": {
+        "share_of_runs_reached": 0.0,
+        "median_year": null
+      },
+      "share_of_perfect": {
+        "energy_closed_y15": 0.8753086138426164,
+        "health_closed_y15": 0.8808432802368422,
+        "housing_closed_y30": 0.8093880799216894
+      }
+    }
+  },
+  "leakage_sensitivity": {
+    "0.0": {
+      "energy_closed_y15": 0.5920892758322677,
+      "health_closed_y15": 0.3815216930280632,
+      "housing_closed_y30": 0.4956354201847047
+    },
+    "0.02": {
+      "energy_closed_y15": 0.5739029688842896,
+      "health_closed_y15": 0.37015830617231626,
+      "housing_closed_y30": 0.47202530878527893
+    },
+    "0.04": {
+      "energy_closed_y15": 0.555698126490425,
+      "health_closed_y15": 0.35879417073664194,
+      "housing_closed_y30": 0.4484107486315085
+    },
+    "0.08": {
+      "energy_closed_y15": 0.5192410933513337,
+      "health_closed_y15": 0.3360650009760651,
+      "housing_closed_y30": 0.40113957597462
+    },
+    "0.15": {
+      "energy_closed_y15": 0.4553180172008275,
+      "health_closed_y15": 0.2962887357510343,
+      "housing_closed_y30": 0.3183060908729508
+    }
+  }
+}
