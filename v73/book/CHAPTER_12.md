@@ -197,6 +197,22 @@ The Constitution responds in three ways:
 
 The research also proposes keeping arms depots and supplies under separate control from combat command. That idea has not been tested by evidence. Another study, which found that measures to "coup-proof" a government deter coups, was seen only in a search summary. The research does not rely on it.
 
+## Disarmament, step by step
+
+How would standing down actually unfold in one region? The rules give the order of events. The sketch below is imagined, but every step comes from the draft constitution.
+
+**First, the vote.** A region joins by referendum. It then passes through three stages: observer, associate and full member (Article 40). As an observer, it builds the safeguard institutions. Nothing about its army changes yet.
+
+**Second, the guarantee.** At full membership, One Earth takes on that region's security. The region's armed forces must be dissolved within **five years** (T-5).
+
+**Third, the offer.** Every member of the old army is offered work, training and full income. Some, like the imagined Amina, train as nurses, which takes three years. Others train as builders, or join civil protection. A few join the Peace Force, but they never serve in their own region.
+
+**Fourth, the weapons.** Arms pass to One Earth. Nuclear, chemical and biological weapons are destroyed under independent checks and never rebuilt (Article 5).
+
+**Throughout, the watchers.** The Peace Force grows gradually, with members from all regions from the first day. Its Inspector-General is in place before the first unit forms. Regional police keep everyday order.
+
+The order matters. In the rules, dissolving an army follows full membership, and with it One Earth's guarantee. It does not come first.
+
 ## Countries that already live without armies
 
 A world without armies sounds utopian. A few countries already live that way.
@@ -317,5 +333,5 @@ The draft constitution is careful here. It aims to remove the main causes of cri
 - Soldiers as health-training volunteers, 71 vs 64 per 10,000 by year 10, years to EU-level care, and 0.79% of the labour force: `v66/RESEARCH_NOTE.md`; `v67/WORKING_PAPER_02.md`, section 6.
 - Rich-region energy cuts of 4% vs 3% a year and the no-wars case at 400 EJ: `v67/WORKING_PAPER_02.md`, section 7; design rule 19 in `v63/DESIGN_CLARIFICATIONS_2026-11-03.md`.
 - Construction workforce: `v70/RESEARCH_NOTE.md`.
-- Articles 4b, 5, 5a and 7, transitional provision T-5, and the note on crime: `v75/constitution/UNIRA_CONSTITUTION_DRAFT.md`.
+- Articles 4b, 5, 5a, 7 and 40, transitional provision T-5, and the note on crime: `v75/constitution/UNIRA_CONSTITUTION_DRAFT.md`.
 - Forced displacement, returns and the return-share assumption (UNHCR Global Trends 2025), Mozambique, Syria and disaster displacement (IDMC GRID 2025): `v76/migration/evidence.md`.
