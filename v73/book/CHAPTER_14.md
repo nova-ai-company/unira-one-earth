@@ -269,6 +269,18 @@ One detail shows how carefully this was thought through. Research on new armies 
 
 Regions keep civilian police for everyday crime, trained to One Earth's human-rights standards and equipped only for policing.
 
+## Testing the Constitution against its own abuse
+
+The research then attacked the Constitution itself. It imagined thirteen ways to seize power: a popular leader who wants to stay, a general planning a coup, a bloc of big regions capturing the Assembly, a fake emergency, money and data turned into a tool of control, a packed Court, a region stopped by force from leaving.
+
+The evidence on how freedom is actually lost is sobering. Today about **74%** of the world's people live under autocracies, and **44** countries are sliding toward autocracy (V-Dem 2026). At least **a third** of presidents who reached their term limit tried to stay, and two-thirds of those tried by changing the constitution. Democracies are **75%** more likely to erode during a state of emergency.
+
+So the danger is rarely tanks in the street. It is law used against freedom. The first draft was strong on fair voting and a mixed Peace Force, but it had five open doors: no rule on emergencies, accounts that could be frozen without a judge, an amendment rule that was not protected, a Court that could be packed, and no procedure for leaving.
+
+Seventeen new articles close them. Heavy weapons need three keys, held by people from three different regions. There is no commander-in-chief, only a board of five from five continents. Every soldier must refuse an unlawful order. Emergencies last at most 30 days. No account is frozen and no payment data read without a judge, and small everyday payments are private, like cash. Nine powers sit in nine separate bodies, chosen in different ways. A Court of 21 judges is renewed by thirds. Citizens drawn by lot review the biggest decisions. Every year a democracy health check is published, and if freedom falls two years running, brakes start automatically. And a protected core, including elections, term limits and the right to leave, can never be amended away.
+
+After the fixes, every attack meets at least two independent barriers. But the research is honest about the limit: no text can guarantee freedom. Would-be autocrats are stopped more often by ordinary people who refuse to go along than by courts. So the design spreads power across many hands and many regions, and keeps the door to leave always open.
+
 ## What the critics say, and what the research answers
 
 **"Who guards the guardians?"**

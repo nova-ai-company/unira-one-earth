@@ -1,0 +1,569 @@
+{
+  "year": 2022,
+  "hour_price_u": 146.4,
+  "household_weighted_hours_per_1000_eur": 13.59,
+  "products": 59,
+  "cheaper_under_pure_hours_pricing": [
+    {
+      "product": "CPA_L68A",
+      "label": "Imputed rents of owner-occupied dwellings",
+      "household_spending_share": 0.1967,
+      "hours_per_1000_eur": 0.58,
+      "hours_price_vs_market": 0.043
+    },
+    {
+      "product": "CPA_C19",
+      "label": "Coke and refined petroleum products",
+      "household_spending_share": 0.0165,
+      "hours_per_1000_eur": 2.91,
+      "hours_price_vs_market": 0.214
+    },
+    {
+      "product": "CPA_D",
+      "label": "Electricity, gas, steam and air conditioning",
+      "household_spending_share": 0.039,
+      "hours_per_1000_eur": 4.77,
+      "hours_price_vs_market": 0.351
+    },
+    {
+      "product": "CPA_L68B",
+      "label": "Real estate services excluding imputed rents",
+      "household_spending_share": 0.0669,
+      "hours_per_1000_eur": 6.75,
+      "hours_price_vs_market": 0.497
+    },
+    {
+      "product": "CPA_C29",
+      "label": "Motor vehicles, trailers and semi-trailers",
+      "household_spending_share": 0.0109,
+      "hours_per_1000_eur": 7.83,
+      "hours_price_vs_market": 0.576
+    },
+    {
+      "product": "CPA_J61",
+      "label": "Telecommunications services",
+      "household_spending_share": 0.023,
+      "hours_per_1000_eur": 8.41,
+      "hours_price_vs_market": 0.618
+    },
+    {
+      "product": "CPA_N77",
+      "label": "Rental and leasing services",
+      "household_spending_share": 0.0068,
+      "hours_per_1000_eur": 8.79,
+      "hours_price_vs_market": 0.647
+    },
+    {
+      "product": "CPA_H51",
+      "label": "Air transport services",
+      "household_spending_share": 0.0057,
+      "hours_per_1000_eur": 8.96,
+      "hours_price_vs_market": 0.659
+    }
+  ],
+  "dearer_under_pure_hours_pricing": [
+    {
+      "product": "CPA_S96",
+      "label": "Other personal services",
+      "household_spending_share": 0.0155,
+      "hours_per_1000_eur": 32.65,
+      "hours_price_vs_market": 2.402
+    },
+    {
+      "product": "CPA_Q87_88",
+      "label": "Residential care services; social work services without accommodation",
+      "household_spending_share": 0.0205,
+      "hours_per_1000_eur": 27.76,
+      "hours_price_vs_market": 2.042
+    },
+    {
+      "product": "CPA_G47",
+      "label": "Retail trade services, except of motor vehicles and motorcycles",
+      "household_spending_share": 0.1195,
+      "hours_per_1000_eur": 23.53,
+      "hours_price_vs_market": 1.731
+    },
+    {
+      "product": "CPA_I",
+      "label": "Accommodation and food services",
+      "household_spending_share": 0.0978,
+      "hours_per_1000_eur": 23.38,
+      "hours_price_vs_market": 1.72
+    },
+    {
+      "product": "CPA_A01",
+      "label": "Products of agriculture, hunting and related services",
+      "household_spending_share": 0.0101,
+      "hours_per_1000_eur": 22.92,
+      "hours_price_vs_market": 1.686
+    },
+    {
+      "product": "CPA_N80-82",
+      "label": "Security and investigation services; services to buildings and landscape; office administrative, office support and other business support services",
+      "household_spending_share": 0.006,
+      "hours_per_1000_eur": 22.28,
+      "hours_price_vs_market": 1.639
+    },
+    {
+      "product": "CPA_R93",
+      "label": "Sporting services and amusement and recreation services",
+      "household_spending_share": 0.0092,
+      "hours_per_1000_eur": 20.44,
+      "hours_price_vs_market": 1.504
+    },
+    {
+      "product": "CPA_G45",
+      "label": "Wholesale and retail trade and repair services of motor vehicles and motorcycles",
+      "household_spending_share": 0.0164,
+      "hours_per_1000_eur": 19.27,
+      "hours_price_vs_market": 1.418
+    }
+  ],
+  "resource_products": [
+    {
+      "product": "CPA_L68A",
+      "label": "Imputed rents of owner-occupied dwellings",
+      "household_spending_share": 0.1967,
+      "hours_per_1000_eur": 0.58,
+      "hours_price_vs_market": 0.043
+    },
+    {
+      "product": "CPA_C19",
+      "label": "Coke and refined petroleum products",
+      "household_spending_share": 0.0165,
+      "hours_per_1000_eur": 2.91,
+      "hours_price_vs_market": 0.214
+    },
+    {
+      "product": "CPA_L68B",
+      "label": "Real estate services excluding imputed rents",
+      "household_spending_share": 0.0669,
+      "hours_per_1000_eur": 6.75,
+      "hours_price_vs_market": 0.497
+    },
+    {
+      "product": "CPA_B",
+      "label": "Mining and quarrying",
+      "household_spending_share": 0.0,
+      "hours_per_1000_eur": 10.12,
+      "hours_price_vs_market": 0.745
+    }
+  ],
+  "share_of_spending_more_than_30pct_cheaper": 0.381,
+  "share_of_spending_more_than_30pct_dearer": 0.397,
+  "all": [
+    {
+      "product": "CPA_L68A",
+      "label": "Imputed rents of owner-occupied dwellings",
+      "household_spending_share": 0.1967,
+      "hours_per_1000_eur": 0.58,
+      "hours_price_vs_market": 0.043
+    },
+    {
+      "product": "CPA_C19",
+      "label": "Coke and refined petroleum products",
+      "household_spending_share": 0.0165,
+      "hours_per_1000_eur": 2.91,
+      "hours_price_vs_market": 0.214
+    },
+    {
+      "product": "CPA_D",
+      "label": "Electricity, gas, steam and air conditioning",
+      "household_spending_share": 0.039,
+      "hours_per_1000_eur": 4.77,
+      "hours_price_vs_market": 0.351
+    },
+    {
+      "product": "CPA_H50",
+      "label": "Water transport services",
+      "household_spending_share": 0.0001,
+      "hours_per_1000_eur": 5.79,
+      "hours_price_vs_market": 0.426
+    },
+    {
+      "product": "CPA_C30",
+      "label": "Other transport equipment",
+      "household_spending_share": 0.0007,
+      "hours_per_1000_eur": 5.86,
+      "hours_price_vs_market": 0.431
+    },
+    {
+      "product": "CPA_C21",
+      "label": "Basic pharmaceutical products and pharmaceutical preparations",
+      "household_spending_share": 0.0009,
+      "hours_per_1000_eur": 6.35,
+      "hours_price_vs_market": 0.467
+    },
+    {
+      "product": "CPA_L68B",
+      "label": "Real estate services excluding imputed rents",
+      "household_spending_share": 0.0669,
+      "hours_per_1000_eur": 6.75,
+      "hours_price_vs_market": 0.497
+    },
+    {
+      "product": "CPA_C20",
+      "label": "Chemicals and chemical products",
+      "household_spending_share": 0.003,
+      "hours_per_1000_eur": 7.21,
+      "hours_price_vs_market": 0.53
+    },
+    {
+      "product": "CPA_C24",
+      "label": "Basic metals",
+      "household_spending_share": 0.0,
+      "hours_per_1000_eur": 7.34,
+      "hours_price_vs_market": 0.54
+    },
+    {
+      "product": "CPA_C29",
+      "label": "Motor vehicles, trailers and semi-trailers",
+      "household_spending_share": 0.0109,
+      "hours_per_1000_eur": 7.83,
+      "hours_price_vs_market": 0.576
+    },
+    {
+      "product": "CPA_J61",
+      "label": "Telecommunications services",
+      "household_spending_share": 0.023,
+      "hours_per_1000_eur": 8.41,
+      "hours_price_vs_market": 0.618
+    },
+    {
+      "product": "CPA_N77",
+      "label": "Rental and leasing services",
+      "household_spending_share": 0.0068,
+      "hours_per_1000_eur": 8.79,
+      "hours_price_vs_market": 0.647
+    },
+    {
+      "product": "CPA_C26",
+      "label": "Computer, electronic and optical products",
+      "household_spending_share": 0.0009,
+      "hours_per_1000_eur": 8.82,
+      "hours_price_vs_market": 0.649
+    },
+    {
+      "product": "CPA_H51",
+      "label": "Air transport services",
+      "household_spending_share": 0.0057,
+      "hours_per_1000_eur": 8.96,
+      "hours_price_vs_market": 0.659
+    },
+    {
+      "product": "CPA_E37-39",
+      "label": "Sewerage services; sewage sludge; waste collection, treatment and disposal services; materials recovery services; remediation services and other waste management services",
+      "household_spending_share": 0.0094,
+      "hours_per_1000_eur": 9.2,
+      "hours_price_vs_market": 0.677
+    },
+    {
+      "product": "CPA_E36",
+      "label": "Natural water; water treatment and supply services",
+      "household_spending_share": 0.0039,
+      "hours_per_1000_eur": 9.82,
+      "hours_price_vs_market": 0.722
+    },
+    {
+      "product": "CPA_C17",
+      "label": "Paper and paper products",
+      "household_spending_share": 0.0026,
+      "hours_per_1000_eur": 9.93,
+      "hours_price_vs_market": 0.73
+    },
+    {
+      "product": "CPA_B",
+      "label": "Mining and quarrying",
+      "household_spending_share": 0.0,
+      "hours_per_1000_eur": 10.12,
+      "hours_price_vs_market": 0.745
+    },
+    {
+      "product": "CPA_C27",
+      "label": "Electrical equipment",
+      "household_spending_share": 0.0009,
+      "hours_per_1000_eur": 10.65,
+      "hours_price_vs_market": 0.783
+    },
+    {
+      "product": "CPA_C22",
+      "label": "Rubber and plastic products",
+      "household_spending_share": 0.0002,
+      "hours_per_1000_eur": 10.74,
+      "hours_price_vs_market": 0.79
+    },
+    {
+      "product": "CPA_K64",
+      "label": "Financial services, except insurance and pension funding",
+      "household_spending_share": 0.0126,
+      "hours_per_1000_eur": 10.98,
+      "hours_price_vs_market": 0.808
+    },
+    {
+      "product": "CPA_H52",
+      "label": "Warehousing and support services for transportation",
+      "household_spending_share": 0.007,
+      "hours_per_1000_eur": 11.06,
+      "hours_price_vs_market": 0.814
+    },
+    {
+      "product": "CPA_C28",
+      "label": "Machinery and equipment n.e.c.",
+      "household_spending_share": 0.0001,
+      "hours_per_1000_eur": 11.15,
+      "hours_price_vs_market": 0.82
+    },
+    {
+      "product": "CPA_C23",
+      "label": "Other non-metallic mineral products",
+      "household_spending_share": 0.0013,
+      "hours_per_1000_eur": 11.58,
+      "hours_price_vs_market": 0.852
+    },
+    {
+      "product": "CPA_J59_60",
+      "label": "Motion picture, video and television programme production services, sound recording and music publishing; programming and broadcasting services",
+      "household_spending_share": 0.0014,
+      "hours_per_1000_eur": 11.61,
+      "hours_price_vs_market": 0.854
+    },
+    {
+      "product": "CPA_C25",
+      "label": "Fabricated metal products, except machinery and equipment",
+      "household_spending_share": 0.0007,
+      "hours_per_1000_eur": 12.69,
+      "hours_price_vs_market": 0.934
+    },
+    {
+      "product": "CPA_J58",
+      "label": "Publishing services",
+      "household_spending_share": 0.0088,
+      "hours_per_1000_eur": 12.76,
+      "hours_price_vs_market": 0.939
+    },
+    {
+      "product": "CPA_K65",
+      "label": "Insurance, reinsurance and pension funding services, except compulsory social security",
+      "household_spending_share": 0.0489,
+      "hours_per_1000_eur": 12.79,
+      "hours_price_vs_market": 0.941
+    },
+    {
+      "product": "CPA_G46",
+      "label": "Wholesale trade services, except of motor vehicles and motorcycles",
+      "household_spending_share": 0.0223,
+      "hours_per_1000_eur": 13.62,
+      "hours_price_vs_market": 1.002
+    },
+    {
+      "product": "CPA_C33",
+      "label": "Repair and installation services of machinery and equipment",
+      "household_spending_share": 0.0004,
+      "hours_per_1000_eur": 13.72,
+      "hours_price_vs_market": 1.009
+    },
+    {
+      "product": "CPA_M69_70",
+      "label": "Legal and accounting services; services of head offices; management consultancy services",
+      "household_spending_share": 0.0046,
+      "hours_per_1000_eur": 14.07,
+      "hours_price_vs_market": 1.035
+    },
+    {
+      "product": "CPA_J62_63",
+      "label": "Computer programming, consultancy and related services; Information services",
+      "household_spending_share": 0.0032,
+      "hours_per_1000_eur": 14.34,
+      "hours_price_vs_market": 1.055
+    },
+    {
+      "product": "CPA_A02",
+      "label": "Products of forestry, logging and related services",
+      "household_spending_share": 0.0022,
+      "hours_per_1000_eur": 14.45,
+      "hours_price_vs_market": 1.063
+    },
+    {
+      "product": "CPA_C16",
+      "label": "Wood and of products of wood and cork, except furniture; articles of straw and plaiting materials",
+      "household_spending_share": 0.0004,
+      "hours_per_1000_eur": 14.5,
+      "hours_price_vs_market": 1.067
+    },
+    {
+      "product": "CPA_C31_32",
+      "label": "Furniture and other manufactured goods",
+      "household_spending_share": 0.0032,
+      "hours_per_1000_eur": 15.54,
+      "hours_price_vs_market": 1.143
+    },
+    {
+      "product": "CPA_C13-15",
+      "label": "Textiles, wearing apparel, leather and related products",
+      "household_spending_share": 0.0047,
+      "hours_per_1000_eur": 15.57,
+      "hours_price_vs_market": 1.145
+    },
+    {
+      "product": "CPA_C10-12",
+      "label": "Food, beverages and tobacco products",
+      "household_spending_share": 0.0788,
+      "hours_per_1000_eur": 16.13,
+      "hours_price_vs_market": 1.187
+    },
+    {
+      "product": "CPA_M71",
+      "label": "Architectural and engineering services; technical testing and analysis services",
+      "household_spending_share": 0.0009,
+      "hours_per_1000_eur": 16.18,
+      "hours_price_vs_market": 1.19
+    },
+    {
+      "product": "CPA_S95",
+      "label": "Repair services of computers and personal and household goods",
+      "household_spending_share": 0.0023,
+      "hours_per_1000_eur": 16.38,
+      "hours_price_vs_market": 1.205
+    },
+    {
+      "product": "CPA_R90-92",
+      "label": "Creative, arts, entertainment, library, archive, museum, other cultural services; gambling and betting services",
+      "household_spending_share": 0.01,
+      "hours_per_1000_eur": 17.38,
+      "hours_price_vs_market": 1.279
+    },
+    {
+      "product": "CPA_O",
+      "label": "Public administration and defence services; compulsory social security services",
+      "household_spending_share": 0.0007,
+      "hours_per_1000_eur": 17.48,
+      "hours_price_vs_market": 1.286
+    },
+    {
+      "product": "CPA_P",
+      "label": "Education services",
+      "household_spending_share": 0.0125,
+      "hours_per_1000_eur": 17.7,
+      "hours_price_vs_market": 1.302
+    },
+    {
+      "product": "CPA_F",
+      "label": "Constructions and construction works",
+      "household_spending_share": 0.0228,
+      "hours_per_1000_eur": 17.94,
+      "hours_price_vs_market": 1.32
+    },
+    {
+      "product": "CPA_Q86",
+      "label": "Human health services",
+      "household_spending_share": 0.0296,
+      "hours_per_1000_eur": 18.17,
+      "hours_price_vs_market": 1.336
+    },
+    {
+      "product": "CPA_H49",
+      "label": "Land transport services and transport services via pipelines",
+      "household_spending_share": 0.0238,
+      "hours_per_1000_eur": 18.3,
+      "hours_price_vs_market": 1.346
+    },
+    {
+      "product": "CPA_M74_75",
+      "label": "Other professional, scientific and technical services and veterinary services",
+      "household_spending_share": 0.0044,
+      "hours_per_1000_eur": 18.79,
+      "hours_price_vs_market": 1.382
+    },
+    {
+      "product": "CPA_A03",
+      "label": "Fish and other fishing products; aquaculture products; support services to fishing",
+      "household_spending_share": 0.0005,
+      "hours_per_1000_eur": 19.28,
+      "hours_price_vs_market": 1.418
+    },
+    {
+      "product": "CPA_G45",
+      "label": "Wholesale and retail trade and repair services of motor vehicles and motorcycles",
+      "household_spending_share": 0.0164,
+      "hours_per_1000_eur": 19.27,
+      "hours_price_vs_market": 1.418
+    },
+    {
+      "product": "CPA_R93",
+      "label": "Sporting services and amusement and recreation services",
+      "household_spending_share": 0.0092,
+      "hours_per_1000_eur": 20.44,
+      "hours_price_vs_market": 1.504
+    },
+    {
+      "product": "CPA_N79",
+      "label": "Travel agency, tour operator and other reservation services and related services",
+      "household_spending_share": 0.0041,
+      "hours_per_1000_eur": 20.89,
+      "hours_price_vs_market": 1.537
+    },
+    {
+      "product": "CPA_N80-82",
+      "label": "Security and investigation services; services to buildings and landscape; office administrative, office support and other business support services",
+      "household_spending_share": 0.006,
+      "hours_per_1000_eur": 22.28,
+      "hours_price_vs_market": 1.639
+    },
+    {
+      "product": "CPA_A01",
+      "label": "Products of agriculture, hunting and related services",
+      "household_spending_share": 0.0101,
+      "hours_per_1000_eur": 22.92,
+      "hours_price_vs_market": 1.686
+    },
+    {
+      "product": "CPA_I",
+      "label": "Accommodation and food services",
+      "household_spending_share": 0.0978,
+      "hours_per_1000_eur": 23.38,
+      "hours_price_vs_market": 1.72
+    },
+    {
+      "product": "CPA_G47",
+      "label": "Retail trade services, except of motor vehicles and motorcycles",
+      "household_spending_share": 0.1195,
+      "hours_per_1000_eur": 23.53,
+      "hours_price_vs_market": 1.731
+    },
+    {
+      "product": "CPA_Q87_88",
+      "label": "Residential care services; social work services without accommodation",
+      "household_spending_share": 0.0205,
+      "hours_per_1000_eur": 27.76,
+      "hours_price_vs_market": 2.042
+    },
+    {
+      "product": "CPA_S96",
+      "label": "Other personal services",
+      "household_spending_share": 0.0155,
+      "hours_per_1000_eur": 32.65,
+      "hours_price_vs_market": 2.402
+    },
+    {
+      "product": "CPA_N78",
+      "label": "Employment services",
+      "household_spending_share": 0.0005,
+      "hours_per_1000_eur": 33.77,
+      "hours_price_vs_market": 2.484
+    },
+    {
+      "product": "CPA_H53",
+      "label": "Postal and courier services",
+      "household_spending_share": 0.0016,
+      "hours_per_1000_eur": 37.28,
+      "hours_price_vs_market": 2.742
+    },
+    {
+      "product": "CPA_T",
+      "label": "Services of households as employers; undifferentiated goods and services produced by households for own use",
+      "household_spending_share": 0.0025,
+      "hours_per_1000_eur": 86.62,
+      "hours_price_vs_market": 6.372
+    }
+  ]
+}

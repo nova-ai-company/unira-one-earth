@@ -47,7 +47,7 @@ Three proposals from this research were provisionally accepted (P1–P3, section
 
 ## 2. Data and methods
 
-All results are reproducible offline from frozen official data: 163 tests pass, and outputs regenerate byte for byte from a clean copy.
+All results are reproducible offline from frozen official data: 183 tests pass, and outputs regenerate byte for byte from a clean copy.
 
 - **Sources:**
     - Eurostat national accounts and Labour Force Survey;
@@ -296,6 +296,16 @@ The allocator decides on *perceived* needs. Each failure is calibrated on 44 sou
 - **Rerunning the 30-year transition** with AI-forecast information costs at most 1% of progress against perfect information, while misreporting and 8% leakage cost 12–19%. Each point of leakage costs about one point of progress.
 - **AI's main value is therefore integrity checking rather than prediction.** Health-worker forecasts are 3–6× less accurate in low-income regions, so fair AI planning requires better statistics there first.
 - Article 3b of the draft constitution sets the conditions: AI advises and people decide; models are open and must beat simple benchmarks each year; fairness is tested per region; AI has no role in rights, sanctions or force.
+
+**The missing designs and power safeguards (V7.9).** Five mechanisms had no tested design, and concentrated power was the largest political risk. Each was modelled or reviewed (`v79/`):
+- **Allocation formula.** Closing every region's gap to the *decent* level before allocating toward comfortable levels brings every region to decent energy in 4 years instead of 8, decent health care in 7 instead of 12, and decent housing in 9 instead of 20. There is no loss on the comfortable goal. Planning where food comes from cuts transport by 69%.
+- **Prices.** Pricing France's household basket by embodied hours alone would make fuels 79% and electricity 65% cheaper relative to other goods, so a physical resource surcharge is essential.
+- **Desirable homes.** Points plus a public lottery houses 28% of high-need households within 5 years, against 0% under a queue, with no income gradient. The must-live-in rule cuts empty desirable homes to under 0.5%.
+- **Money cap.** A thermostat limited to ±10% a year keeps unspent money within 10–14 months of consumption through shocks. The author chose a moderate cap of 1.5 years of base salary, with protected home (150,000 U) and retirement (120,000 U) accounts. This lowers the share of adults at the cap from 61% to 40% with little added shortage risk; a 5-year cap would raise the demand from a spending rush to +78% of a year's goods.
+- **Innovation.** A review of 67 evidence rows supports open public research and prizes, and supports salary differences only when they are visibly earned. A fixed hour price would penalise teams that save hours, so they keep part of the saving for a limited time.
+- **Power.** A stress test of 13 attack scenarios, backed by 48 evidence rows, found five legal routes to capture: emergencies, account freezes without a judge, unprotected amendment, a packable Court, and no exit procedure. 17 new articles close them.
+
+The draft constitution now has 66 articles.
 
 <!-- refs:begin sources §9 -->
 

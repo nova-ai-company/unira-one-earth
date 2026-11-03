@@ -1,0 +1,96 @@
+{
+  "need_kcal_supplied_per_person": 2593,
+  "regions": 179,
+  "surplus_regions": 140,
+  "deficit_regions": 39,
+  "surplus_bn_kcal_day": 3774.8,
+  "deficit_bn_kcal_day": 346.6,
+  "deficit_share_of_world_supply": 0.0143,
+  "pro_rata": {
+    "mean_km_per_kcal": 8420,
+    "supplier_regions_used": 140,
+    "routes": 5460,
+    "longest_route_km": 19561
+  },
+  "optimised": {
+    "mean_km_per_kcal": 2573,
+    "supplier_regions_used": 56,
+    "routes": 81,
+    "longest_route_km": 6273
+  },
+  "transport_saved_pct": 69.4,
+  "largest_optimised_flows": [
+    [
+      "SAU",
+      "YEM",
+      31.7,
+      1069
+    ],
+    [
+      "DZA",
+      "NGA",
+      26.8,
+      3110
+    ],
+    [
+      "IND",
+      "PAK",
+      19.8,
+      476
+    ],
+    [
+      "GHA",
+      "COD",
+      18.3,
+      2046
+    ],
+    [
+      "KOR",
+      "PRK",
+      16.2,
+      197
+    ],
+    [
+      "IRN",
+      "SOM",
+      14.3,
+      3790
+    ],
+    [
+      "EGY",
+      "BDI",
+      12.6,
+      3728
+    ],
+    [
+      "ISR",
+      "KEN",
+      11.2,
+      3679
+    ],
+    [
+      "EGY",
+      "UGA",
+      10.7,
+      3315
+    ],
+    [
+      "UZB",
+      "AFG",
+      10.6,
+      754
+    ],
+    [
+      "DZA",
+      "COD",
+      10.2,
+      4741
+    ],
+    [
+      "EGY",
+      "ZMB",
+      9.0,
+      5069
+    ]
+  ]
+}

@@ -10,7 +10,7 @@ UNIRA is a proposal for one world federation of equal regions. It has a 30-hour 
 |---|---|
 | [Simulator](https://nova-ai-company.github.io/unira-one-earth/simulator.html) | Change the assumptions and see the results |
 | [Working Paper 02](https://nova-ai-company.github.io/unira-one-earth/paper.html) | The scientific paper (also as Word in `docs/downloads/`) |
-| [Draft Constitution of One Earth](https://nova-ai-company.github.io/unira-one-earth/constitution.html) | 48 articles |
+| [Draft Constitution of One Earth](https://nova-ai-company.github.io/unira-one-earth/constitution.html) | 66 articles |
 | [Book draft](https://nova-ai-company.github.io/unira-one-earth/book.html) | *UNIRA: One Humanity, One Future* (second draft, English) |
 | [For reviewers](https://nova-ai-company.github.io/unira-one-earth/review.html) | Review brief, 70 questions, feedback form |
 
@@ -23,6 +23,8 @@ UNIRA is a proposal for one world federation of equal regions. It has a 30-hour 
 - **Joining.** Compared with a reformed market world after 30 years, 146 regions with 86% of humanity gain materially by joining. Inside the 33 rich regions whose average falls, 44% of the people (495 million, mostly the poor and lower middle) are better off even at the lowest UNIRA salary, so **about 92% of humanity is better off**. Nobody falls below the comfortable level. (V7.2, V7.4)
 
 - **AI planning.** Machine learning forecasts needs well (population ±0.1% a year ahead) and beats simple rules for population, food and health workers, but not for short-term energy. Over 30 years information errors cost ≤1%, while diversion costs 12–19%, so AI's main value is integrity checks. Forecasts are least accurate in the poorest regions, so their statistics come first. (V7.8)
+
+- **Missing designs and power (V7.9).** Decent-for-all first halves the time until every region has decent energy, health care and housing. A moderate money cap (1.5 years of salary) with protected home and retirement accounts keeps money stable. 17 new constitutional articles close five legal routes to the capture of power found by a 13-scenario stress test.
 
 These are tests of **physical feasibility under stated assumptions**, not forecasts. Every limitation is listed in the working paper and the research notes.
 
@@ -47,6 +49,7 @@ These are tests of **physical feasibility under stated assumptions**, not foreca
 | `v76/` | Peace Force and migration evidence |
 | `v77/` | Website, simulator and outside-review package |
 | `v78/` | AI / machine-learning planning of needed production: backtests, fairness, 30-year information test |
+| `v79/` | The missing designs (allocation formula, prices, desirable homes, money cap, innovation) and safeguards against concentrated power |
 | `docs/` | The published website (generated) |
 
 ## Reproduce everything
@@ -57,7 +60,7 @@ Python 3.10+ and nothing else (standard library only). All data are frozen snaps
 python3 v63/run_all.py
 ```
 
-This regenerates every output, the dashboard, book, constitution and website, then runs all 163 tests.
+This regenerates every output, the dashboard, book, constitution and website, then runs all 183 tests.
 
 ## Take part
 

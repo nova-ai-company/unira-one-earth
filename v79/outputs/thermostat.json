@@ -1,0 +1,130 @@
+{
+  "rule": {
+    "adjust_speed": 0.5,
+    "limit_per_year": 0.1,
+    "floor_years_of_base_salary": 1.0,
+    "target_months": 12
+  },
+  "results": {
+    "calm/limited_10pct": {
+      "deposits_months_min": 11.764128246016531,
+      "deposits_months_max": 12.185082209293848,
+      "deposits_months_final": 12.040406599346618,
+      "max_yearly_cap_change_pct": 10.00000000000002,
+      "cap_years_final": 1.3933763671103734,
+      "share_at_cap_mean": 0.4985698924731183,
+      "first_homes_blocked_by_cap": 0,
+      "phase_in_years_to_target_band": 2.6666666666666665,
+      "years_back_within_2_months_of_target": 1.0,
+      "weekly_hours_final": 29.870928675316964
+    },
+    "calm/unlimited_v64": {
+      "deposits_months_min": 11.748711298520453,
+      "deposits_months_max": 12.187408323419751,
+      "deposits_months_final": 12.040656619781686,
+      "max_yearly_cap_change_pct": 88.28639167769781,
+      "cap_years_final": 1.3938291307497803,
+      "share_at_cap_mean": 0.49560931899641575,
+      "first_homes_blocked_by_cap": 0,
+      "phase_in_years_to_target_band": 2.6666666666666665,
+      "years_back_within_2_months_of_target": 1.0,
+      "weekly_hours_final": 29.870928675316964
+    },
+    "disaster/limited_10pct": {
+      "deposits_months_min": 10.01277222248509,
+      "deposits_months_max": 12.42899502094699,
+      "deposits_months_final": 12.129545439629952,
+      "max_yearly_cap_change_pct": 10.00000000000002,
+      "cap_years_final": 1.4627070765265644,
+      "share_at_cap_mean": 0.4715430107526881,
+      "first_homes_blocked_by_cap": 0,
+      "phase_in_years_to_target_band": 2.6666666666666665,
+      "years_back_within_2_months_of_target": 1.0,
+      "weekly_hours_final": 29.870928675316964
+    },
+    "disaster/unlimited_v64": {
+      "deposits_months_min": 10.019557873420487,
+      "deposits_months_max": 12.430543221209467,
+      "deposits_months_final": 12.129553313601184,
+      "max_yearly_cap_change_pct": 88.28639167769781,
+      "cap_years_final": 1.4629536657378346,
+      "share_at_cap_mean": 0.4682043010752688,
+      "first_homes_blocked_by_cap": 0,
+      "phase_in_years_to_target_band": 2.6666666666666665,
+      "years_back_within_2_months_of_target": 1.0,
+      "weekly_hours_final": 29.870928675316964
+    },
+    "fear/limited_10pct": {
+      "deposits_months_min": 10.452390681070478,
+      "deposits_months_max": 14.249066051869576,
+      "deposits_months_final": 12.065161706312283,
+      "max_yearly_cap_change_pct": 10.00000000000002,
+      "cap_years_final": 1.4067873168810499,
+      "share_at_cap_mean": 0.4976164874551971,
+      "first_homes_blocked_by_cap": 0,
+      "phase_in_years_to_target_band": 2.6666666666666665,
+      "years_back_within_2_months_of_target": 1.0,
+      "weekly_hours_final": 29.870928675316964
+    },
+    "fear/unlimited_v64": {
+      "deposits_months_min": 10.458067104432779,
+      "deposits_months_max": 14.255261047563627,
+      "deposits_months_final": 12.064925866420955,
+      "max_yearly_cap_change_pct": 88.28639167769781,
+      "cap_years_final": 1.4067171863936483,
+      "share_at_cap_mean": 0.49448387096774193,
+      "first_homes_blocked_by_cap": 0,
+      "phase_in_years_to_target_band": 2.6666666666666665,
+      "years_back_within_2_months_of_target": 1.0,
+      "weekly_hours_final": 29.870928675316964
+    },
+    "baby_boom/limited_10pct": {
+      "deposits_months_min": 10.718957549822035,
+      "deposits_months_max": 12.267268264539688,
+      "deposits_months_final": 12.066281222918219,
+      "max_yearly_cap_change_pct": 10.00000000000002,
+      "cap_years_final": 1.492810335614541,
+      "share_at_cap_mean": 0.46843727598566304,
+      "first_homes_blocked_by_cap": 0,
+      "phase_in_years_to_target_band": 2.6666666666666665,
+      "years_back_within_2_months_of_target": 1.0,
+      "weekly_hours_final": 30.0
+    },
+    "baby_boom/unlimited_v64": {
+      "deposits_months_min": 10.72235236693451,
+      "deposits_months_max": 12.268801663984917,
+      "deposits_months_final": 12.066364454251167,
+      "max_yearly_cap_change_pct": 88.28639167769781,
+      "cap_years_final": 1.4931719602472224,
+      "share_at_cap_mean": 0.46508189184977405,
+      "first_homes_blocked_by_cap": 0,
+      "phase_in_years_to_target_band": 2.6666666666666665,
+      "years_back_within_2_months_of_target": 1.0,
+      "weekly_hours_final": 30.0
+    },
+    "automation/limited_10pct": {
+      "deposits_months_min": 11.764128246016531,
+      "deposits_months_max": 12.185082209293848,
+      "deposits_months_final": 12.040406599346618,
+      "max_yearly_cap_change_pct": 10.00000000000002,
+      "cap_years_final": 1.3933763671103734,
+      "share_at_cap_mean": 0.4985698924731183,
+      "first_homes_blocked_by_cap": 0,
+      "phase_in_years_to_target_band": 2.6666666666666665,
+      "years_back_within_2_months_of_target": 1.0,
+      "weekly_hours_final": 9.204083313994019
+    },
+    "automation/unlimited_v64": {
+      "deposits_months_min": 11.748711298520453,
+      "deposits_months_max": 12.187408323419751,
+      "deposits_months_final": 12.040656619781686,
+      "max_yearly_cap_change_pct": 88.28639167769781,
+      "cap_years_final": 1.3938291307497803,
+      "share_at_cap_mean": 0.49560931899641575,
+      "first_homes_blocked_by_cap": 0,
+      "phase_in_years_to_target_band": 2.6666666666666665,
+      "years_back_within_2_months_of_target": 1.0,
+      "weekly_hours_final": 9.204083313994019
+    }
+  }
+}

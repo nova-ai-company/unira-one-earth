@@ -1,0 +1,76 @@
+{
+  "age_weight_65plus": 3.0,
+  "decent": {
+    "energy": 15.3,
+    "health": 44.5,
+    "housing": 15.0
+  },
+  "results": {
+    "single_pass_v67": {
+      "person_years_below_decent_bn": {
+        "energy": 12.66,
+        "health": 30.7,
+        "housing": 37.14
+      },
+      "year_everyone_decent": {
+        "energy": 8,
+        "health": 12,
+        "housing": 20
+      },
+      "comfortable_gap_closed_y15": {
+        "energy": 0.599,
+        "health": 0.382,
+        "housing": 0.198
+      },
+      "comfortable_gap_closed_y30": {
+        "energy": 1.0,
+        "health": 1.0,
+        "housing": 0.5
+      }
+    },
+    "two_pass": {
+      "person_years_below_decent_bn": {
+        "energy": 8.44,
+        "health": 27.1,
+        "housing": 29.6
+      },
+      "year_everyone_decent": {
+        "energy": 4,
+        "health": 7,
+        "housing": 9
+      },
+      "comfortable_gap_closed_y15": {
+        "energy": 0.599,
+        "health": 0.382,
+        "housing": 0.198
+      },
+      "comfortable_gap_closed_y30": {
+        "energy": 1.0,
+        "health": 1.0,
+        "housing": 0.5
+      }
+    },
+    "two_pass_age_adjusted": {
+      "person_years_below_decent_bn": {
+        "energy": 8.44,
+        "health": 25.87,
+        "housing": 29.6
+      },
+      "year_everyone_decent": {
+        "energy": 4,
+        "health": 6,
+        "housing": 9
+      },
+      "comfortable_gap_closed_y15": {
+        "energy": 0.599,
+        "health": 0.373,
+        "housing": 0.198
+      },
+      "comfortable_gap_closed_y30": {
+        "energy": 1.0,
+        "health": 0.889,
+        "housing": 0.5
+      }
+    }
+  }
+}

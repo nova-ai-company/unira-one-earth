@@ -1,0 +1,5247 @@
+{
+ "about": "UNIRA v79 housing allocation simulation; see RESEARCH_NOTE.md",
+ "runtime_seconds": 26.68,
+ "scenarios": {
+  "baseline": {
+   "settings": {
+    "rule": true
+   },
+   "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+   ],
+   "methods": {
+    "queue": {
+     "n_resident_applicants": {
+      "mean": 16357.4,
+      "sd": 58.8626
+     },
+     "share_housed_ever": {
+      "mean": 0.2531,
+      "sd": 0.0027
+     },
+     "share_housed_within_5y": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "wait_mean_housed": {
+      "mean": 9.7429,
+      "sd": 0.1002
+     },
+     "wait_p90_housed": {
+      "mean": 11.0,
+      "sd": 0.0
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "commute_km_all_at_5y": {
+      "mean": 3.94,
+      "sd": 0.0263
+     },
+     "commute_km_winners": {
+      "mean": 4.4629,
+      "sd": 0.0559
+     },
+     "decile_alloc_ratio": [
+      0.9919,
+      0.9923,
+      0.9713,
+      1.0131,
+      1.0287,
+      1.0134,
+      0.9897,
+      0.9977,
+      0.9853,
+      1.0183
+     ],
+     "decile_alloc_share": [
+      0.0961,
+      0.0971,
+      0.0959,
+      0.0999,
+      0.1025,
+      0.0993,
+      0.101,
+      0.1037,
+      0.101,
+      0.1034
+     ],
+     "income_gradient_slope": {
+      "mean": 0.0014,
+      "sd": 0.003
+     },
+     "d10_over_d1": {
+      "mean": 1.0284,
+      "sd": 0.0614
+     },
+     "d10_minus_d1": {
+      "mean": 0.0264,
+      "sd": 0.0612
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0179,
+      "sd": 0.0023
+     },
+     "empty_share_final": {
+      "mean": 0.0019,
+      "sd": 0.0004
+     },
+     "empty_share_mean": {
+      "mean": 0.005,
+      "sd": 0.0004
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "cheaters_caught": {
+      "mean": 0.0,
+      "sd": 0.0
+     }
+    },
+    "points": {
+     "n_resident_applicants": {
+      "mean": 16357.4,
+      "sd": 58.8626
+     },
+     "share_housed_ever": {
+      "mean": 0.2876,
+      "sd": 0.0038
+     },
+     "share_housed_within_5y": {
+      "mean": 0.1482,
+      "sd": 0.0015
+     },
+     "wait_mean_housed": {
+      "mean": 5.1742,
+      "sd": 0.0465
+     },
+     "wait_p90_housed": {
+      "mean": 9.8,
+      "sd": 0.4472
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.2715,
+      "sd": 0.0035
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "commute_km_all_at_5y": {
+      "mean": 3.4582,
+      "sd": 0.0332
+     },
+     "commute_km_winners": {
+      "mean": 2.6037,
+      "sd": 0.0257
+     },
+     "decile_alloc_ratio": [
+      1.0592,
+      1.0352,
+      1.0249,
+      1.07,
+      1.0646,
+      1.0084,
+      0.947,
+      0.9649,
+      0.9268,
+      0.9115
+     ],
+     "decile_alloc_share": [
+      0.1027,
+      0.1013,
+      0.1012,
+      0.1055,
+      0.106,
+      0.0988,
+      0.0966,
+      0.1003,
+      0.095,
+      0.0926
+     ],
+     "income_gradient_slope": {
+      "mean": -0.017,
+      "sd": 0.002
+     },
+     "d10_over_d1": {
+      "mean": 0.8606,
+      "sd": 0.0138
+     },
+     "d10_minus_d1": {
+      "mean": -0.1477,
+      "sd": 0.0151
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0044,
+      "sd": 0.0011
+     },
+     "empty_share_final": {
+      "mean": 0.0004,
+      "sd": 0.0004
+     },
+     "empty_share_mean": {
+      "mean": 0.0037,
+      "sd": 0.0003
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "cheaters_caught": {
+      "mean": 0.0,
+      "sd": 0.0
+     }
+    },
+    "points_lottery": {
+     "n_resident_applicants": {
+      "mean": 16357.4,
+      "sd": 58.8626
+     },
+     "share_housed_ever": {
+      "mean": 0.285,
+      "sd": 0.003
+     },
+     "share_housed_within_5y": {
+      "mean": 0.1527,
+      "sd": 0.0023
+     },
+     "wait_mean_housed": {
+      "mean": 5.1583,
+      "sd": 0.08
+     },
+     "wait_p90_housed": {
+      "mean": 10.0,
+      "sd": 0.0
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.2792,
+      "sd": 0.0058
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.0006,
+      "sd": 0.0004
+     },
+     "commute_km_all_at_5y": {
+      "mean": 3.4536,
+      "sd": 0.0353
+     },
+     "commute_km_winners": {
+      "mean": 2.6415,
+      "sd": 0.0456
+     },
+     "decile_alloc_ratio": [
+      1.0659,
+      1.0449,
+      1.0389,
+      1.0626,
+      1.0537,
+      1.0036,
+      0.9472,
+      0.9533,
+      0.9305,
+      0.9126
+     ],
+     "decile_alloc_share": [
+      0.1034,
+      0.1022,
+      0.1026,
+      0.1047,
+      0.1049,
+      0.0983,
+      0.0966,
+      0.0991,
+      0.0954,
+      0.0927
+     ],
+     "income_gradient_slope": {
+      "mean": -0.0182,
+      "sd": 0.0027
+     },
+     "d10_over_d1": {
+      "mean": 0.8563,
+      "sd": 0.0258
+     },
+     "d10_minus_d1": {
+      "mean": -0.1533,
+      "sd": 0.0291
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0044,
+      "sd": 0.001
+     },
+     "empty_share_final": {
+      "mean": 0.0005,
+      "sd": 0.0003
+     },
+     "empty_share_mean": {
+      "mean": 0.0037,
+      "sd": 0.0002
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "cheaters_caught": {
+      "mean": 0.0,
+      "sd": 0.0
+     }
+    },
+    "points_lottery_open": {
+     "n_resident_applicants": {
+      "mean": 16357.4,
+      "sd": 58.8626
+     },
+     "share_housed_ever": {
+      "mean": 0.2841,
+      "sd": 0.0045
+     },
+     "share_housed_within_5y": {
+      "mean": 0.1673,
+      "sd": 0.0033
+     },
+     "wait_mean_housed": {
+      "mean": 4.8175,
+      "sd": 0.032
+     },
+     "wait_p90_housed": {
+      "mean": 9.2,
+      "sd": 0.4472
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.2482,
+      "sd": 0.0029
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.0701,
+      "sd": 0.004
+     },
+     "commute_km_all_at_5y": {
+      "mean": 3.6134,
+      "sd": 0.039
+     },
+     "commute_km_winners": {
+      "mean": 3.1651,
+      "sd": 0.0601
+     },
+     "decile_alloc_ratio": [
+      1.0547,
+      1.0359,
+      1.0183,
+      1.0587,
+      1.037,
+      0.988,
+      0.9656,
+      0.9775,
+      0.947,
+      0.9266
+     ],
+     "decile_alloc_share": [
+      0.1022,
+      0.1014,
+      0.1006,
+      0.1044,
+      0.1032,
+      0.0968,
+      0.0985,
+      0.1016,
+      0.0971,
+      0.0942
+     ],
+     "income_gradient_slope": {
+      "mean": -0.014,
+      "sd": 0.0019
+     },
+     "d10_over_d1": {
+      "mean": 0.8791,
+      "sd": 0.0221
+     },
+     "d10_minus_d1": {
+      "mean": -0.128,
+      "sd": 0.0263
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0078,
+      "sd": 0.0007
+     },
+     "empty_share_final": {
+      "mean": 0.0008,
+      "sd": 0.0004
+     },
+     "empty_share_mean": {
+      "mean": 0.004,
+      "sd": 0.0002
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "cheaters_caught": {
+      "mean": 0.0,
+      "sd": 0.0
+     }
+    },
+    "lottery": {
+     "n_resident_applicants": {
+      "mean": 16357.4,
+      "sd": 58.8626
+     },
+     "share_housed_ever": {
+      "mean": 0.2824,
+      "sd": 0.0029
+     },
+     "share_housed_within_5y": {
+      "mean": 0.1996,
+      "sd": 0.0025
+     },
+     "wait_mean_housed": {
+      "mean": 4.1869,
+      "sd": 0.0627
+     },
+     "wait_p90_housed": {
+      "mean": 10.0,
+      "sd": 0.0
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.199,
+      "sd": 0.0041
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.2004,
+      "sd": 0.0043
+     },
+     "commute_km_all_at_5y": {
+      "mean": 4.0198,
+      "sd": 0.0191
+     },
+     "commute_km_winners": {
+      "mean": 4.3958,
+      "sd": 0.0505
+     },
+     "decile_alloc_ratio": [
+      1.0073,
+      0.9854,
+      1.014,
+      1.0186,
+      0.9877,
+      0.9882,
+      0.9841,
+      1.0021,
+      1.0024,
+      1.0097
+     ],
+     "decile_alloc_share": [
+      0.0976,
+      0.0965,
+      0.1002,
+      0.1004,
+      0.0984,
+      0.0968,
+      0.1005,
+      0.1042,
+      0.1027,
+      0.1027
+     ],
+     "income_gradient_slope": {
+      "mean": -0.0001,
+      "sd": 0.0028
+     },
+     "d10_over_d1": {
+      "mean": 1.0033,
+      "sd": 0.0324
+     },
+     "d10_minus_d1": {
+      "mean": 0.0023,
+      "sd": 0.0328
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0178,
+      "sd": 0.0013
+     },
+     "empty_share_final": {
+      "mean": 0.0023,
+      "sd": 0.0006
+     },
+     "empty_share_mean": {
+      "mean": 0.0049,
+      "sd": 0.0003
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "cheaters_caught": {
+      "mean": 0.0,
+      "sd": 0.0
+     }
+    },
+    "market": {
+     "n_resident_applicants": {
+      "mean": 16357.4,
+      "sd": 58.8626
+     },
+     "share_housed_ever": {
+      "mean": 0.294,
+      "sd": 0.0024
+     },
+     "share_housed_within_5y": {
+      "mean": 0.2812,
+      "sd": 0.0016
+     },
+     "wait_mean_housed": {
+      "mean": 0.9017,
+      "sd": 0.0519
+     },
+     "wait_p90_housed": {
+      "mean": 3.0,
+      "sd": 0.0
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.271,
+      "sd": 0.0044
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.2934,
+      "sd": 0.005
+     },
+     "commute_km_all_at_5y": {
+      "mean": 4.069,
+      "sd": 0.0115
+     },
+     "commute_km_winners": {
+      "mean": 4.4251,
+      "sd": 0.0564
+     },
+     "decile_alloc_ratio": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0024,
+      0.0713,
+      0.8613,
+      2.4012,
+      3.153,
+      3.267
+     ],
+     "decile_alloc_share": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0002,
+      0.007,
+      0.0878,
+      0.2496,
+      0.3232,
+      0.3321
+     ],
+     "income_gradient_slope": {
+      "mean": 0.4008,
+      "sd": 0.0037
+     },
+     "d10_over_d1": {
+      "mean": 99.0,
+      "sd": 0.0
+     },
+     "d10_minus_d1": {
+      "mean": 3.267,
+      "sd": 0.0253
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0552,
+      "sd": 0.0023
+     },
+     "empty_share_final": {
+      "mean": 0.0055,
+      "sd": 0.0006
+     },
+     "empty_share_mean": {
+      "mean": 0.0091,
+      "sd": 0.0004
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "cheaters_caught": {
+      "mean": 0.0,
+      "sd": 0.0
+     }
+    }
+   }
+  },
+  "no_live_in_rule": {
+   "settings": {
+    "rule": false
+   },
+   "seeds": [
+    11,
+    22,
+    33
+   ],
+   "methods": {
+    "queue": {
+     "n_resident_applicants": {
+      "mean": 16388.0,
+      "sd": 10.583
+     },
+     "share_housed_ever": {
+      "mean": 0.205,
+      "sd": 0.0049
+     },
+     "share_housed_within_5y": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "wait_mean_housed": {
+      "mean": 10.9023,
+      "sd": 0.2143
+     },
+     "wait_p90_housed": {
+      "mean": 12.0,
+      "sd": 0.0
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "commute_km_all_at_5y": {
+      "mean": 3.9225,
+      "sd": 0.0121
+     },
+     "commute_km_winners": {
+      "mean": 4.3581,
+      "sd": 0.0752
+     },
+     "decile_alloc_ratio": [
+      0.9762,
+      0.9993,
+      0.9832,
+      1.0039,
+      0.9947,
+      1.0359,
+      0.9779,
+      1.0124,
+      0.9884,
+      1.0285
+     ],
+     "decile_alloc_share": [
+      0.0893,
+      0.0912,
+      0.0901,
+      0.0924,
+      0.0922,
+      0.0951,
+      0.1108,
+      0.115,
+      0.1106,
+      0.1135
+     ],
+     "income_gradient_slope": {
+      "mean": 0.003,
+      "sd": 0.0033
+     },
+     "d10_over_d1": {
+      "mean": 1.0547,
+      "sd": 0.0728
+     },
+     "d10_minus_d1": {
+      "mean": 0.0523,
+      "sd": 0.0713
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0808,
+      "sd": 0.0024
+     },
+     "empty_share_final": {
+      "mean": 0.1133,
+      "sd": 0.0031
+     },
+     "empty_share_mean": {
+      "mean": 0.1086,
+      "sd": 0.0031
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "cheaters_caught": {
+      "mean": 0.0,
+      "sd": 0.0
+     }
+    },
+    "points": {
+     "n_resident_applicants": {
+      "mean": 16388.0,
+      "sd": 10.583
+     },
+     "share_housed_ever": {
+      "mean": 0.2677,
+      "sd": 0.0024
+     },
+     "share_housed_within_5y": {
+      "mean": 0.1301,
+      "sd": 0.0047
+     },
+     "wait_mean_housed": {
+      "mean": 5.4094,
+      "sd": 0.104
+     },
+     "wait_p90_housed": {
+      "mean": 10.0,
+      "sd": 0.0
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.2374,
+      "sd": 0.0091
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "commute_km_all_at_5y": {
+      "mean": 3.4782,
+      "sd": 0.0437
+     },
+     "commute_km_winners": {
+      "mean": 2.5789,
+      "sd": 0.0349
+     },
+     "decile_alloc_ratio": [
+      1.1145,
+      1.0825,
+      1.0649,
+      1.1223,
+      1.1324,
+      1.0608,
+      0.8825,
+      0.9049,
+      0.8854,
+      0.855
+     ],
+     "decile_alloc_share": [
+      0.102,
+      0.0987,
+      0.0976,
+      0.1033,
+      0.1049,
+      0.0973,
+      0.0999,
+      0.1029,
+      0.0991,
+      0.0942
+     ],
+     "income_gradient_slope": {
+      "mean": -0.0322,
+      "sd": 0.0031
+     },
+     "d10_over_d1": {
+      "mean": 0.7672,
+      "sd": 0.0158
+     },
+     "d10_minus_d1": {
+      "mean": -0.2595,
+      "sd": 0.0179
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0219,
+      "sd": 0.0017
+     },
+     "empty_share_final": {
+      "mean": 0.0642,
+      "sd": 0.0034
+     },
+     "empty_share_mean": {
+      "mean": 0.0768,
+      "sd": 0.0013
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "cheaters_caught": {
+      "mean": 0.0,
+      "sd": 0.0
+     }
+    },
+    "points_lottery": {
+     "n_resident_applicants": {
+      "mean": 16388.0,
+      "sd": 10.583
+     },
+     "share_housed_ever": {
+      "mean": 0.2658,
+      "sd": 0.0008
+     },
+     "share_housed_within_5y": {
+      "mean": 0.1356,
+      "sd": 0.0014
+     },
+     "wait_mean_housed": {
+      "mean": 5.3929,
+      "sd": 0.0883
+     },
+     "wait_p90_housed": {
+      "mean": 10.0,
+      "sd": 0.0
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.2473,
+      "sd": 0.0011
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.0,
+      "sd": 0.0001
+     },
+     "commute_km_all_at_5y": {
+      "mean": 3.4638,
+      "sd": 0.0232
+     },
+     "commute_km_winners": {
+      "mean": 2.6293,
+      "sd": 0.0094
+     },
+     "decile_alloc_ratio": [
+      1.1288,
+      1.0924,
+      1.0886,
+      1.1233,
+      1.1245,
+      1.0656,
+      0.8813,
+      0.8949,
+      0.8634,
+      0.8506
+     ],
+     "decile_alloc_share": [
+      0.1033,
+      0.0996,
+      0.0997,
+      0.1033,
+      0.1042,
+      0.0978,
+      0.0998,
+      0.1018,
+      0.0966,
+      0.0938
+     ],
+     "income_gradient_slope": {
+      "mean": -0.0355,
+      "sd": 0.0034
+     },
+     "d10_over_d1": {
+      "mean": 0.7536,
+      "sd": 0.0109
+     },
+     "d10_minus_d1": {
+      "mean": -0.2781,
+      "sd": 0.0135
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0172,
+      "sd": 0.0005
+     },
+     "empty_share_final": {
+      "mean": 0.0633,
+      "sd": 0.0005
+     },
+     "empty_share_mean": {
+      "mean": 0.0768,
+      "sd": 0.0001
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "cheaters_caught": {
+      "mean": 0.0,
+      "sd": 0.0
+     }
+    },
+    "points_lottery_open": {
+     "n_resident_applicants": {
+      "mean": 16388.0,
+      "sd": 10.583
+     },
+     "share_housed_ever": {
+      "mean": 0.2565,
+      "sd": 0.003
+     },
+     "share_housed_within_5y": {
+      "mean": 0.1412,
+      "sd": 0.002
+     },
+     "wait_mean_housed": {
+      "mean": 5.1471,
+      "sd": 0.0235
+     },
+     "wait_p90_housed": {
+      "mean": 10.0,
+      "sd": 0.0
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.2082,
+      "sd": 0.0041
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.0598,
+      "sd": 0.002
+     },
+     "commute_km_all_at_5y": {
+      "mean": 3.6169,
+      "sd": 0.0161
+     },
+     "commute_km_winners": {
+      "mean": 3.0644,
+      "sd": 0.0107
+     },
+     "decile_alloc_ratio": [
+      1.0968,
+      1.0505,
+      1.0867,
+      1.111,
+      1.1018,
+      1.0444,
+      0.9001,
+      0.904,
+      0.8861,
+      0.9075
+     ],
+     "decile_alloc_share": [
+      0.1004,
+      0.0958,
+      0.0996,
+      0.1022,
+      0.1022,
+      0.0959,
+      0.1019,
+      0.1028,
+      0.0992,
+      0.1001
+     ],
+     "income_gradient_slope": {
+      "mean": -0.027,
+      "sd": 0.0034
+     },
+     "d10_over_d1": {
+      "mean": 0.8277,
+      "sd": 0.0246
+     },
+     "d10_minus_d1": {
+      "mean": -0.1893,
+      "sd": 0.0297
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0323,
+      "sd": 0.002
+     },
+     "empty_share_final": {
+      "mean": 0.0734,
+      "sd": 0.0025
+     },
+     "empty_share_mean": {
+      "mean": 0.0836,
+      "sd": 0.0022
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "cheaters_caught": {
+      "mean": 0.0,
+      "sd": 0.0
+     }
+    },
+    "lottery": {
+     "n_resident_applicants": {
+      "mean": 16388.0,
+      "sd": 10.583
+     },
+     "share_housed_ever": {
+      "mean": 0.241,
+      "sd": 0.0025
+     },
+     "share_housed_within_5y": {
+      "mean": 0.1697,
+      "sd": 0.0035
+     },
+     "wait_mean_housed": {
+      "mean": 4.2486,
+      "sd": 0.034
+     },
+     "wait_p90_housed": {
+      "mean": 10.0,
+      "sd": 0.0
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.1704,
+      "sd": 0.0023
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.1688,
+      "sd": 0.0059
+     },
+     "commute_km_all_at_5y": {
+      "mean": 3.9884,
+      "sd": 0.0041
+     },
+     "commute_km_winners": {
+      "mean": 4.3383,
+      "sd": 0.0508
+     },
+     "decile_alloc_ratio": [
+      0.9619,
+      1.0231,
+      1.013,
+      1.0401,
+      0.9651,
+      0.9799,
+      0.9602,
+      1.0415,
+      0.9739,
+      1.0401
+     ],
+     "decile_alloc_share": [
+      0.088,
+      0.0933,
+      0.0928,
+      0.0957,
+      0.0894,
+      0.0899,
+      0.1087,
+      0.1185,
+      0.109,
+      0.1146
+     ],
+     "income_gradient_slope": {
+      "mean": 0.0017,
+      "sd": 0.0022
+     },
+     "d10_over_d1": {
+      "mean": 1.0815,
+      "sd": 0.031
+     },
+     "d10_minus_d1": {
+      "mean": 0.0782,
+      "sd": 0.0293
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0797,
+      "sd": 0.0008
+     },
+     "empty_share_final": {
+      "mean": 0.1163,
+      "sd": 0.002
+     },
+     "empty_share_mean": {
+      "mean": 0.1091,
+      "sd": 0.0018
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "cheaters_caught": {
+      "mean": 0.0,
+      "sd": 0.0
+     }
+    },
+    "market": {
+     "n_resident_applicants": {
+      "mean": 16388.0,
+      "sd": 10.583
+     },
+     "share_housed_ever": {
+      "mean": 0.181,
+      "sd": 0.0046
+     },
+     "share_housed_within_5y": {
+      "mean": 0.1706,
+      "sd": 0.0039
+     },
+     "wait_mean_housed": {
+      "mean": 1.1365,
+      "sd": 0.0595
+     },
+     "wait_p90_housed": {
+      "mean": 4.0,
+      "sd": 0.0
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.1636,
+      "sd": 0.0055
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.179,
+      "sd": 0.0032
+     },
+     "commute_km_all_at_5y": {
+      "mean": 3.9797,
+      "sd": 0.0237
+     },
+     "commute_km_winners": {
+      "mean": 4.2534,
+      "sd": 0.0766
+     },
+     "decile_alloc_ratio": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0008,
+      0.5838,
+      1.1452,
+      3.1353,
+      4.1036
+     ],
+     "decile_alloc_share": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0001,
+      0.0661,
+      0.1305,
+      0.3508,
+      0.4526
+     ],
+     "income_gradient_slope": {
+      "mean": 0.4022,
+      "sd": 0.0068
+     },
+     "d10_over_d1": {
+      "mean": 99.0,
+      "sd": 0.0
+     },
+     "d10_minus_d1": {
+      "mean": 4.1036,
+      "sd": 0.074
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.3084,
+      "sd": 0.0055
+     },
+     "empty_share_final": {
+      "mean": 0.323,
+      "sd": 0.0021
+     },
+     "empty_share_mean": {
+      "mean": 0.238,
+      "sd": 0.0031
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "cheaters_caught": {
+      "mean": 0.0,
+      "sd": 0.0
+     }
+    }
+   }
+  },
+  "gaming_10pct_audit_0pct": {
+   "settings": {
+    "rule": true,
+    "gaming_rate": 0.1,
+    "audit": 0.0
+   },
+   "seeds": [
+    11,
+    22,
+    33
+   ],
+   "methods": {
+    "points": {
+     "n_resident_applicants": {
+      "mean": 16388.0,
+      "sd": 10.583
+     },
+     "share_housed_ever": {
+      "mean": 0.2905,
+      "sd": 0.0019
+     },
+     "share_housed_within_5y": {
+      "mean": 0.1519,
+      "sd": 0.0026
+     },
+     "wait_mean_housed": {
+      "mean": 5.0983,
+      "sd": 0.067
+     },
+     "wait_p90_housed": {
+      "mean": 10.0,
+      "sd": 0.0
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.2742,
+      "sd": 0.0065
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.0037,
+      "sd": 0.0
+     },
+     "commute_km_all_at_5y": {
+      "mean": 3.4426,
+      "sd": 0.027
+     },
+     "commute_km_winners": {
+      "mean": 2.6298,
+      "sd": 0.0379
+     },
+     "decile_alloc_ratio": [
+      1.0249,
+      1.0003,
+      0.9898,
+      1.0437,
+      1.0623,
+      1.0246,
+      0.9651,
+      0.9828,
+      0.9687,
+      0.9442
+     ],
+     "decile_alloc_share": [
+      0.1002,
+      0.0975,
+      0.0969,
+      0.1026,
+      0.1052,
+      0.1005,
+      0.1003,
+      0.1028,
+      0.0989,
+      0.0952
+     ],
+     "income_gradient_slope": {
+      "mean": -0.0076,
+      "sd": 0.0024
+     },
+     "d10_over_d1": {
+      "mean": 0.9213,
+      "sd": 0.0171
+     },
+     "d10_minus_d1": {
+      "mean": -0.0807,
+      "sd": 0.0181
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0058,
+      "sd": 0.0012
+     },
+     "empty_share_final": {
+      "mean": 0.0004,
+      "sd": 0.0002
+     },
+     "empty_share_mean": {
+      "mean": 0.0038,
+      "sd": 0.0001
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.1483,
+      "sd": 0.0035
+     },
+     "cheaters_caught": {
+      "mean": 0.0,
+      "sd": 0.0
+     }
+    },
+    "points_lottery": {
+     "n_resident_applicants": {
+      "mean": 16388.0,
+      "sd": 10.583
+     },
+     "share_housed_ever": {
+      "mean": 0.2879,
+      "sd": 0.006
+     },
+     "share_housed_within_5y": {
+      "mean": 0.158,
+      "sd": 0.004
+     },
+     "wait_mean_housed": {
+      "mean": 5.015,
+      "sd": 0.1145
+     },
+     "wait_p90_housed": {
+      "mean": 9.3333,
+      "sd": 0.5774
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.283,
+      "sd": 0.0069
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.0066,
+      "sd": 0.001
+     },
+     "commute_km_all_at_5y": {
+      "mean": 3.4252,
+      "sd": 0.0261
+     },
+     "commute_km_winners": {
+      "mean": 2.6663,
+      "sd": 0.0161
+     },
+     "decile_alloc_ratio": [
+      1.0393,
+      1.0087,
+      0.9997,
+      1.0363,
+      1.0575,
+      1.0258,
+      0.965,
+      0.9815,
+      0.9488,
+      0.9448
+     ],
+     "decile_alloc_share": [
+      0.1016,
+      0.0983,
+      0.0979,
+      0.1019,
+      0.1048,
+      0.1006,
+      0.1003,
+      0.1026,
+      0.0968,
+      0.0952
+     ],
+     "income_gradient_slope": {
+      "mean": -0.0097,
+      "sd": 0.0018
+     },
+     "d10_over_d1": {
+      "mean": 0.9089,
+      "sd": 0.0255
+     },
+     "d10_minus_d1": {
+      "mean": -0.0945,
+      "sd": 0.0259
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0053,
+      "sd": 0.0005
+     },
+     "empty_share_final": {
+      "mean": 0.0005,
+      "sd": 0.0003
+     },
+     "empty_share_mean": {
+      "mean": 0.0037,
+      "sd": 0.0003
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.1486,
+      "sd": 0.0051
+     },
+     "cheaters_caught": {
+      "mean": 0.0,
+      "sd": 0.0
+     }
+    },
+    "points_lottery_open": {
+     "n_resident_applicants": {
+      "mean": 16388.0,
+      "sd": 10.583
+     },
+     "share_housed_ever": {
+      "mean": 0.2893,
+      "sd": 0.0013
+     },
+     "share_housed_within_5y": {
+      "mean": 0.1664,
+      "sd": 0.0007
+     },
+     "wait_mean_housed": {
+      "mean": 4.9059,
+      "sd": 0.0328
+     },
+     "wait_p90_housed": {
+      "mean": 10.0,
+      "sd": 0.0
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.2454,
+      "sd": 0.0014
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.0706,
+      "sd": 0.001
+     },
+     "commute_km_all_at_5y": {
+      "mean": 3.602,
+      "sd": 0.0072
+     },
+     "commute_km_winners": {
+      "mean": 3.1839,
+      "sd": 0.0721
+     },
+     "decile_alloc_ratio": [
+      1.0141,
+      1.0084,
+      1.0166,
+      1.0538,
+      1.0271,
+      0.9891,
+      0.9719,
+      0.986,
+      0.9669,
+      0.9707
+     ],
+     "decile_alloc_share": [
+      0.0991,
+      0.0982,
+      0.0995,
+      0.1036,
+      0.1018,
+      0.097,
+      0.101,
+      0.1032,
+      0.0986,
+      0.0979
+     ],
+     "income_gradient_slope": {
+      "mean": -0.0068,
+      "sd": 0.0072
+     },
+     "d10_over_d1": {
+      "mean": 0.9574,
+      "sd": 0.0285
+     },
+     "d10_minus_d1": {
+      "mean": -0.0433,
+      "sd": 0.0292
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0092,
+      "sd": 0.0002
+     },
+     "empty_share_final": {
+      "mean": 0.0011,
+      "sd": 0.0006
+     },
+     "empty_share_mean": {
+      "mean": 0.0042,
+      "sd": 0.0001
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.1357,
+      "sd": 0.0036
+     },
+     "cheaters_caught": {
+      "mean": 0.0,
+      "sd": 0.0
+     }
+    }
+   }
+  },
+  "gaming_10pct_audit_25pct": {
+   "settings": {
+    "rule": true,
+    "gaming_rate": 0.1,
+    "audit": 0.25
+   },
+   "seeds": [
+    11,
+    22,
+    33
+   ],
+   "methods": {
+    "points": {
+     "n_resident_applicants": {
+      "mean": 16388.0,
+      "sd": 10.583
+     },
+     "share_housed_ever": {
+      "mean": 0.2867,
+      "sd": 0.0015
+     },
+     "share_housed_within_5y": {
+      "mean": 0.1478,
+      "sd": 0.0006
+     },
+     "wait_mean_housed": {
+      "mean": 5.1477,
+      "sd": 0.044
+     },
+     "wait_p90_housed": {
+      "mean": 10.0,
+      "sd": 0.0
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.2673,
+      "sd": 0.0028
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.0029,
+      "sd": 0.0006
+     },
+     "commute_km_all_at_5y": {
+      "mean": 3.4392,
+      "sd": 0.0175
+     },
+     "commute_km_winners": {
+      "mean": 2.61,
+      "sd": 0.0202
+     },
+     "decile_alloc_ratio": [
+      1.0281,
+      1.0119,
+      1.0042,
+      1.0431,
+      1.0678,
+      1.0179,
+      0.9532,
+      0.9802,
+      0.9676,
+      0.9338
+     ],
+     "decile_alloc_share": [
+      0.1005,
+      0.0986,
+      0.0983,
+      0.1025,
+      0.1058,
+      0.0998,
+      0.0991,
+      0.1025,
+      0.0987,
+      0.0941
+     ],
+     "income_gradient_slope": {
+      "mean": -0.0097,
+      "sd": 0.003
+     },
+     "d10_over_d1": {
+      "mean": 0.9084,
+      "sd": 0.0251
+     },
+     "d10_minus_d1": {
+      "mean": -0.0943,
+      "sd": 0.0264
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0053,
+      "sd": 0.0013
+     },
+     "empty_share_final": {
+      "mean": 0.0003,
+      "sd": 0.0001
+     },
+     "empty_share_mean": {
+      "mean": 0.0037,
+      "sd": 0.0001
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.1147,
+      "sd": 0.0016
+     },
+     "cheaters_caught": {
+      "mean": 281.0,
+      "sd": 31.3209
+     }
+    },
+    "points_lottery": {
+     "n_resident_applicants": {
+      "mean": 16388.0,
+      "sd": 10.583
+     },
+     "share_housed_ever": {
+      "mean": 0.2862,
+      "sd": 0.0015
+     },
+     "share_housed_within_5y": {
+      "mean": 0.1548,
+      "sd": 0.003
+     },
+     "wait_mean_housed": {
+      "mean": 5.0658,
+      "sd": 0.0762
+     },
+     "wait_p90_housed": {
+      "mean": 10.0,
+      "sd": 0.0
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.2781,
+      "sd": 0.0064
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.0053,
+      "sd": 0.0012
+     },
+     "commute_km_all_at_5y": {
+      "mean": 3.4333,
+      "sd": 0.0186
+     },
+     "commute_km_winners": {
+      "mean": 2.679,
+      "sd": 0.0256
+     },
+     "decile_alloc_ratio": [
+      1.0495,
+      1.0034,
+      1.0129,
+      1.0451,
+      1.0586,
+      1.0198,
+      0.9616,
+      0.9732,
+      0.9322,
+      0.9518
+     ],
+     "decile_alloc_share": [
+      0.1026,
+      0.0978,
+      0.0992,
+      0.1027,
+      0.1048,
+      0.1,
+      0.1,
+      0.1018,
+      0.0951,
+      0.096
+     ],
+     "income_gradient_slope": {
+      "mean": -0.0113,
+      "sd": 0.0019
+     },
+     "d10_over_d1": {
+      "mean": 0.9069,
+      "sd": 0.0027
+     },
+     "d10_minus_d1": {
+      "mean": -0.0977,
+      "sd": 0.0032
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0054,
+      "sd": 0.0007
+     },
+     "empty_share_final": {
+      "mean": 0.0008,
+      "sd": 0.0002
+     },
+     "empty_share_mean": {
+      "mean": 0.0036,
+      "sd": 0.0
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.1129,
+      "sd": 0.0049
+     },
+     "cheaters_caught": {
+      "mean": 293.3333,
+      "sd": 3.0551
+     }
+    },
+    "points_lottery_open": {
+     "n_resident_applicants": {
+      "mean": 16388.0,
+      "sd": 10.583
+     },
+     "share_housed_ever": {
+      "mean": 0.2846,
+      "sd": 0.0029
+     },
+     "share_housed_within_5y": {
+      "mean": 0.1658,
+      "sd": 0.0029
+     },
+     "wait_mean_housed": {
+      "mean": 4.8615,
+      "sd": 0.0521
+     },
+     "wait_p90_housed": {
+      "mean": 9.3333,
+      "sd": 0.5774
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.2452,
+      "sd": 0.0068
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.0694,
+      "sd": 0.0029
+     },
+     "commute_km_all_at_5y": {
+      "mean": 3.6167,
+      "sd": 0.0154
+     },
+     "commute_km_winners": {
+      "mean": 3.1538,
+      "sd": 0.0357
+     },
+     "decile_alloc_ratio": [
+      1.0221,
+      1.0084,
+      1.0191,
+      1.0429,
+      1.0401,
+      1.0068,
+      0.9705,
+      0.9755,
+      0.9615,
+      0.9588
+     ],
+     "decile_alloc_share": [
+      0.0999,
+      0.0983,
+      0.0998,
+      0.1025,
+      0.1031,
+      0.0987,
+      0.1009,
+      0.102,
+      0.0981,
+      0.0967
+     ],
+     "income_gradient_slope": {
+      "mean": -0.0083,
+      "sd": 0.0032
+     },
+     "d10_over_d1": {
+      "mean": 0.9386,
+      "sd": 0.0311
+     },
+     "d10_minus_d1": {
+      "mean": -0.0633,
+      "sd": 0.0337
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0096,
+      "sd": 0.0023
+     },
+     "empty_share_final": {
+      "mean": 0.001,
+      "sd": 0.0004
+     },
+     "empty_share_mean": {
+      "mean": 0.0039,
+      "sd": 0.0001
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.1102,
+      "sd": 0.0048
+     },
+     "cheaters_caught": {
+      "mean": 230.3333,
+      "sd": 8.5049
+     }
+    }
+   }
+  },
+  "gaming_10pct_audit_75pct": {
+   "settings": {
+    "rule": true,
+    "gaming_rate": 0.1,
+    "audit": 0.75
+   },
+   "seeds": [
+    11,
+    22,
+    33
+   ],
+   "methods": {
+    "points": {
+     "n_resident_applicants": {
+      "mean": 16388.0,
+      "sd": 10.583
+     },
+     "share_housed_ever": {
+      "mean": 0.2911,
+      "sd": 0.0028
+     },
+     "share_housed_within_5y": {
+      "mean": 0.1478,
+      "sd": 0.0034
+     },
+     "wait_mean_housed": {
+      "mean": 5.2494,
+      "sd": 0.0597
+     },
+     "wait_p90_housed": {
+      "mean": 10.0,
+      "sd": 0.0
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.2684,
+      "sd": 0.0051
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.0016,
+      "sd": 0.0001
+     },
+     "commute_km_all_at_5y": {
+      "mean": 3.4306,
+      "sd": 0.0149
+     },
+     "commute_km_winners": {
+      "mean": 2.601,
+      "sd": 0.0088
+     },
+     "decile_alloc_ratio": [
+      1.0568,
+      1.0264,
+      1.0209,
+      1.0753,
+      1.0658,
+      1.0131,
+      0.9355,
+      0.9615,
+      0.9327,
+      0.9244
+     ],
+     "decile_alloc_share": [
+      0.1033,
+      0.1,
+      0.1,
+      0.1057,
+      0.1056,
+      0.0993,
+      0.0972,
+      0.1005,
+      0.0952,
+      0.0932
+     ],
+     "income_gradient_slope": {
+      "mean": -0.0159,
+      "sd": 0.0018
+     },
+     "d10_over_d1": {
+      "mean": 0.8749,
+      "sd": 0.028
+     },
+     "d10_minus_d1": {
+      "mean": -0.1324,
+      "sd": 0.0312
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0047,
+      "sd": 0.0011
+     },
+     "empty_share_final": {
+      "mean": 0.0005,
+      "sd": 0.0003
+     },
+     "empty_share_mean": {
+      "mean": 0.0036,
+      "sd": 0.0002
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.0408,
+      "sd": 0.0015
+     },
+     "cheaters_caught": {
+      "mean": 889.3333,
+      "sd": 20.108
+     }
+    },
+    "points_lottery": {
+     "n_resident_applicants": {
+      "mean": 16388.0,
+      "sd": 10.583
+     },
+     "share_housed_ever": {
+      "mean": 0.2883,
+      "sd": 0.0014
+     },
+     "share_housed_within_5y": {
+      "mean": 0.1541,
+      "sd": 0.0014
+     },
+     "wait_mean_housed": {
+      "mean": 5.1914,
+      "sd": 0.0172
+     },
+     "wait_p90_housed": {
+      "mean": 10.0,
+      "sd": 0.0
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.279,
+      "sd": 0.0051
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.0025,
+      "sd": 0.0006
+     },
+     "commute_km_all_at_5y": {
+      "mean": 3.4396,
+      "sd": 0.0042
+     },
+     "commute_km_winners": {
+      "mean": 2.6815,
+      "sd": 0.0199
+     },
+     "decile_alloc_ratio": [
+      1.0583,
+      1.0206,
+      1.0392,
+      1.0518,
+      1.0718,
+      0.9989,
+      0.9628,
+      0.9415,
+      0.9445,
+      0.9211
+     ],
+     "decile_alloc_share": [
+      0.1035,
+      0.0994,
+      0.1018,
+      0.1034,
+      0.1062,
+      0.098,
+      0.1001,
+      0.0984,
+      0.0964,
+      0.0929
+     ],
+     "income_gradient_slope": {
+      "mean": -0.0157,
+      "sd": 0.0025
+     },
+     "d10_over_d1": {
+      "mean": 0.8704,
+      "sd": 0.0218
+     },
+     "d10_minus_d1": {
+      "mean": -0.1372,
+      "sd": 0.0234
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0045,
+      "sd": 0.0008
+     },
+     "empty_share_final": {
+      "mean": 0.0003,
+      "sd": 0.0003
+     },
+     "empty_share_mean": {
+      "mean": 0.0036,
+      "sd": 0.0002
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.039,
+      "sd": 0.0034
+     },
+     "cheaters_caught": {
+      "mean": 906.0,
+      "sd": 24.98
+     }
+    },
+    "points_lottery_open": {
+     "n_resident_applicants": {
+      "mean": 16388.0,
+      "sd": 10.583
+     },
+     "share_housed_ever": {
+      "mean": 0.2865,
+      "sd": 0.0027
+     },
+     "share_housed_within_5y": {
+      "mean": 0.1672,
+      "sd": 0.0024
+     },
+     "wait_mean_housed": {
+      "mean": 4.8631,
+      "sd": 0.0699
+     },
+     "wait_p90_housed": {
+      "mean": 9.6667,
+      "sd": 0.5774
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.2451,
+      "sd": 0.0057
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.0728,
+      "sd": 0.0009
+     },
+     "commute_km_all_at_5y": {
+      "mean": 3.5957,
+      "sd": 0.0217
+     },
+     "commute_km_winners": {
+      "mean": 3.188,
+      "sd": 0.0416
+     },
+     "decile_alloc_ratio": [
+      1.0513,
+      1.0334,
+      1.045,
+      1.036,
+      1.0049,
+      1.0178,
+      0.946,
+      0.9733,
+      0.9582,
+      0.9423
+     ],
+     "decile_alloc_share": [
+      0.1028,
+      0.1007,
+      0.1024,
+      0.1018,
+      0.0995,
+      0.0998,
+      0.0984,
+      0.1018,
+      0.0978,
+      0.095
+     ],
+     "income_gradient_slope": {
+      "mean": -0.0129,
+      "sd": 0.0047
+     },
+     "d10_over_d1": {
+      "mean": 0.8961,
+      "sd": 0.0222
+     },
+     "d10_minus_d1": {
+      "mean": -0.1091,
+      "sd": 0.0225
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.007,
+      "sd": 0.0004
+     },
+     "empty_share_final": {
+      "mean": 0.0004,
+      "sd": 0.0002
+     },
+     "empty_share_mean": {
+      "mean": 0.0037,
+      "sd": 0.0004
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.0493,
+      "sd": 0.0029
+     },
+     "cheaters_caught": {
+      "mean": 727.0,
+      "sd": 20.2237
+     }
+    }
+   }
+  },
+  "gaming_20pct_audit_0pct": {
+   "settings": {
+    "rule": true,
+    "gaming_rate": 0.2,
+    "audit": 0.0
+   },
+   "seeds": [
+    11,
+    22,
+    33
+   ],
+   "methods": {
+    "points": {
+     "n_resident_applicants": {
+      "mean": 16388.0,
+      "sd": 10.583
+     },
+     "share_housed_ever": {
+      "mean": 0.287,
+      "sd": 0.0029
+     },
+     "share_housed_within_5y": {
+      "mean": 0.1506,
+      "sd": 0.0022
+     },
+     "wait_mean_housed": {
+      "mean": 5.1461,
+      "sd": 0.0883
+     },
+     "wait_p90_housed": {
+      "mean": 9.6667,
+      "sd": 0.5774
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.2705,
+      "sd": 0.0055
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.0051,
+      "sd": 0.0001
+     },
+     "commute_km_all_at_5y": {
+      "mean": 3.4677,
+      "sd": 0.0074
+     },
+     "commute_km_winners": {
+      "mean": 2.6953,
+      "sd": 0.0254
+     },
+     "decile_alloc_ratio": [
+      0.9844,
+      0.9759,
+      0.9767,
+      1.0365,
+      1.046,
+      1.0308,
+      0.9751,
+      1.0098,
+      1.0,
+      0.9684
+     ],
+     "decile_alloc_share": [
+      0.0962,
+      0.0951,
+      0.0956,
+      0.1019,
+      0.1036,
+      0.101,
+      0.1014,
+      0.1056,
+      0.102,
+      0.0976
+     ],
+     "income_gradient_slope": {
+      "mean": -0.0001,
+      "sd": 0.0026
+     },
+     "d10_over_d1": {
+      "mean": 0.9841,
+      "sd": 0.0376
+     },
+     "d10_minus_d1": {
+      "mean": -0.0159,
+      "sd": 0.0377
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0065,
+      "sd": 0.0009
+     },
+     "empty_share_final": {
+      "mean": 0.0012,
+      "sd": 0.0005
+     },
+     "empty_share_mean": {
+      "mean": 0.004,
+      "sd": 0.0002
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.2843,
+      "sd": 0.0087
+     },
+     "cheaters_caught": {
+      "mean": 0.0,
+      "sd": 0.0
+     }
+    },
+    "points_lottery": {
+     "n_resident_applicants": {
+      "mean": 16388.0,
+      "sd": 10.583
+     },
+     "share_housed_ever": {
+      "mean": 0.2851,
+      "sd": 0.0038
+     },
+     "share_housed_within_5y": {
+      "mean": 0.1581,
+      "sd": 0.0051
+     },
+     "wait_mean_housed": {
+      "mean": 4.9206,
+      "sd": 0.117
+     },
+     "wait_p90_housed": {
+      "mean": 9.3333,
+      "sd": 0.5774
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.2819,
+      "sd": 0.008
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.008,
+      "sd": 0.0007
+     },
+     "commute_km_all_at_5y": {
+      "mean": 3.4468,
+      "sd": 0.0287
+     },
+     "commute_km_winners": {
+      "mean": 2.7085,
+      "sd": 0.0207
+     },
+     "decile_alloc_ratio": [
+      0.9804,
+      0.9677,
+      0.9881,
+      1.0312,
+      1.0426,
+      1.0352,
+      0.9677,
+      0.9995,
+      0.996,
+      0.9948
+     ],
+     "decile_alloc_share": [
+      0.0958,
+      0.0943,
+      0.0967,
+      0.1014,
+      0.1033,
+      0.1015,
+      0.1006,
+      0.1045,
+      0.1016,
+      0.1002
+     ],
+     "income_gradient_slope": {
+      "mean": 0.0011,
+      "sd": 0.0038
+     },
+     "d10_over_d1": {
+      "mean": 1.0148,
+      "sd": 0.0392
+     },
+     "d10_minus_d1": {
+      "mean": 0.0144,
+      "sd": 0.0383
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0064,
+      "sd": 0.0003
+     },
+     "empty_share_final": {
+      "mean": 0.0008,
+      "sd": 0.0006
+     },
+     "empty_share_mean": {
+      "mean": 0.0037,
+      "sd": 0.0002
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.2887,
+      "sd": 0.01
+     },
+     "cheaters_caught": {
+      "mean": 0.0,
+      "sd": 0.0
+     }
+    },
+    "points_lottery_open": {
+     "n_resident_applicants": {
+      "mean": 16388.0,
+      "sd": 10.583
+     },
+     "share_housed_ever": {
+      "mean": 0.2816,
+      "sd": 0.0022
+     },
+     "share_housed_within_5y": {
+      "mean": 0.1633,
+      "sd": 0.0029
+     },
+     "wait_mean_housed": {
+      "mean": 4.9288,
+      "sd": 0.048
+     },
+     "wait_p90_housed": {
+      "mean": 10.0,
+      "sd": 0.0
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.2395,
+      "sd": 0.0045
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.0709,
+      "sd": 0.0014
+     },
+     "commute_km_all_at_5y": {
+      "mean": 3.6142,
+      "sd": 0.0228
+     },
+     "commute_km_winners": {
+      "mean": 3.1315,
+      "sd": 0.047
+     },
+     "decile_alloc_ratio": [
+      1.0016,
+      0.9772,
+      0.995,
+      1.0231,
+      1.0282,
+      1.0343,
+      0.9564,
+      0.9719,
+      1.0001,
+      1.0166
+     ],
+     "decile_alloc_share": [
+      0.0979,
+      0.0953,
+      0.0975,
+      0.1006,
+      0.1019,
+      0.1014,
+      0.0994,
+      0.1016,
+      0.102,
+      0.1025
+     ],
+     "income_gradient_slope": {
+      "mean": -0.0001,
+      "sd": 0.0014
+     },
+     "d10_over_d1": {
+      "mean": 1.015,
+      "sd": 0.0185
+     },
+     "d10_minus_d1": {
+      "mean": 0.015,
+      "sd": 0.0185
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0097,
+      "sd": 0.0011
+     },
+     "empty_share_final": {
+      "mean": 0.0009,
+      "sd": 0.0005
+     },
+     "empty_share_mean": {
+      "mean": 0.0042,
+      "sd": 0.0003
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.2557,
+      "sd": 0.0063
+     },
+     "cheaters_caught": {
+      "mean": 0.0,
+      "sd": 0.0
+     }
+    }
+   }
+  },
+  "gaming_20pct_audit_25pct": {
+   "settings": {
+    "rule": true,
+    "gaming_rate": 0.2,
+    "audit": 0.25
+   },
+   "seeds": [
+    11,
+    22,
+    33
+   ],
+   "methods": {
+    "points": {
+     "n_resident_applicants": {
+      "mean": 16388.0,
+      "sd": 10.583
+     },
+     "share_housed_ever": {
+      "mean": 0.2928,
+      "sd": 0.002
+     },
+     "share_housed_within_5y": {
+      "mean": 0.1498,
+      "sd": 0.0052
+     },
+     "wait_mean_housed": {
+      "mean": 5.1542,
+      "sd": 0.1158
+     },
+     "wait_p90_housed": {
+      "mean": 9.6667,
+      "sd": 0.5774
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.2697,
+      "sd": 0.0066
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.0045,
+      "sd": 0.0009
+     },
+     "commute_km_all_at_5y": {
+      "mean": 3.4644,
+      "sd": 0.0287
+     },
+     "commute_km_winners": {
+      "mean": 2.6572,
+      "sd": 0.0394
+     },
+     "decile_alloc_ratio": [
+      0.9935,
+      0.9926,
+      0.9927,
+      1.0418,
+      1.0618,
+      1.0368,
+      0.9647,
+      0.9955,
+      0.9793,
+      0.9476
+     ],
+     "decile_alloc_share": [
+      0.0971,
+      0.0967,
+      0.0972,
+      0.1024,
+      0.1052,
+      0.1016,
+      0.1003,
+      0.1041,
+      0.0999,
+      0.0955
+     ],
+     "income_gradient_slope": {
+      "mean": -0.0045,
+      "sd": 0.0031
+     },
+     "d10_over_d1": {
+      "mean": 0.9537,
+      "sd": 0.0098
+     },
+     "d10_minus_d1": {
+      "mean": -0.0459,
+      "sd": 0.0094
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0066,
+      "sd": 0.0017
+     },
+     "empty_share_final": {
+      "mean": 0.0008,
+      "sd": 0.0003
+     },
+     "empty_share_mean": {
+      "mean": 0.0039,
+      "sd": 0.0002
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.2202,
+      "sd": 0.0095
+     },
+     "cheaters_caught": {
+      "mean": 552.3333,
+      "sd": 18.1751
+     }
+    },
+    "points_lottery": {
+     "n_resident_applicants": {
+      "mean": 16388.0,
+      "sd": 10.583
+     },
+     "share_housed_ever": {
+      "mean": 0.2849,
+      "sd": 0.0064
+     },
+     "share_housed_within_5y": {
+      "mean": 0.1567,
+      "sd": 0.0065
+     },
+     "wait_mean_housed": {
+      "mean": 5.0159,
+      "sd": 0.1076
+     },
+     "wait_p90_housed": {
+      "mean": 10.0,
+      "sd": 0.0
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.279,
+      "sd": 0.0092
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.0084,
+      "sd": 0.0011
+     },
+     "commute_km_all_at_5y": {
+      "mean": 3.4503,
+      "sd": 0.0165
+     },
+     "commute_km_winners": {
+      "mean": 2.6826,
+      "sd": 0.0166
+     },
+     "decile_alloc_ratio": [
+      0.9991,
+      0.9946,
+      0.994,
+      1.0405,
+      1.0368,
+      1.0172,
+      0.9752,
+      0.9918,
+      0.9835,
+      0.9715
+     ],
+     "decile_alloc_share": [
+      0.0977,
+      0.0969,
+      0.0973,
+      0.1023,
+      0.1027,
+      0.0997,
+      0.1014,
+      0.1037,
+      0.1004,
+      0.0978
+     ],
+     "income_gradient_slope": {
+      "mean": -0.0034,
+      "sd": 0.0031
+     },
+     "d10_over_d1": {
+      "mean": 0.9721,
+      "sd": 0.0534
+     },
+     "d10_minus_d1": {
+      "mean": -0.0276,
+      "sd": 0.0534
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0065,
+      "sd": 0.0004
+     },
+     "empty_share_final": {
+      "mean": 0.0011,
+      "sd": 0.0003
+     },
+     "empty_share_mean": {
+      "mean": 0.0037,
+      "sd": 0.0
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.2216,
+      "sd": 0.0058
+     },
+     "cheaters_caught": {
+      "mean": 574.3333,
+      "sd": 38.9401
+     }
+    },
+    "points_lottery_open": {
+     "n_resident_applicants": {
+      "mean": 16388.0,
+      "sd": 10.583
+     },
+     "share_housed_ever": {
+      "mean": 0.2893,
+      "sd": 0.0027
+     },
+     "share_housed_within_5y": {
+      "mean": 0.1695,
+      "sd": 0.0043
+     },
+     "wait_mean_housed": {
+      "mean": 4.8715,
+      "sd": 0.0938
+     },
+     "wait_p90_housed": {
+      "mean": 10.0,
+      "sd": 0.0
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.247,
+      "sd": 0.0054
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.0754,
+      "sd": 0.0022
+     },
+     "commute_km_all_at_5y": {
+      "mean": 3.6473,
+      "sd": 0.0327
+     },
+     "commute_km_winners": {
+      "mean": 3.1932,
+      "sd": 0.0387
+     },
+     "decile_alloc_ratio": [
+      1.0245,
+      0.9785,
+      0.9975,
+      1.0312,
+      1.0132,
+      1.001,
+      0.9655,
+      1.0048,
+      0.9783,
+      1.0081
+     ],
+     "decile_alloc_share": [
+      0.1001,
+      0.0953,
+      0.0977,
+      0.1014,
+      0.1004,
+      0.0982,
+      0.1004,
+      0.105,
+      0.0998,
+      0.1017
+     ],
+     "income_gradient_slope": {
+      "mean": -0.002,
+      "sd": 0.0011
+     },
+     "d10_over_d1": {
+      "mean": 0.9844,
+      "sd": 0.0161
+     },
+     "d10_minus_d1": {
+      "mean": -0.0164,
+      "sd": 0.0168
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0086,
+      "sd": 0.0009
+     },
+     "empty_share_final": {
+      "mean": 0.001,
+      "sd": 0.0005
+     },
+     "empty_share_mean": {
+      "mean": 0.004,
+      "sd": 0.0003
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.2079,
+      "sd": 0.0078
+     },
+     "cheaters_caught": {
+      "mean": 438.6667,
+      "sd": 26.6521
+     }
+    }
+   }
+  },
+  "gaming_20pct_audit_75pct": {
+   "settings": {
+    "rule": true,
+    "gaming_rate": 0.2,
+    "audit": 0.75
+   },
+   "seeds": [
+    11,
+    22,
+    33
+   ],
+   "methods": {
+    "points": {
+     "n_resident_applicants": {
+      "mean": 16388.0,
+      "sd": 10.583
+     },
+     "share_housed_ever": {
+      "mean": 0.2837,
+      "sd": 0.0017
+     },
+     "share_housed_within_5y": {
+      "mean": 0.1452,
+      "sd": 0.0006
+     },
+     "wait_mean_housed": {
+      "mean": 5.2228,
+      "sd": 0.0472
+     },
+     "wait_p90_housed": {
+      "mean": 10.0,
+      "sd": 0.0
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.263,
+      "sd": 0.0009
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.0023,
+      "sd": 0.0004
+     },
+     "commute_km_all_at_5y": {
+      "mean": 3.4576,
+      "sd": 0.0079
+     },
+     "commute_km_winners": {
+      "mean": 2.6146,
+      "sd": 0.0189
+     },
+     "decile_alloc_ratio": [
+      1.0503,
+      1.0275,
+      1.0239,
+      1.0661,
+      1.0666,
+      1.0035,
+      0.9492,
+      0.9612,
+      0.9388,
+      0.9243
+     ],
+     "decile_alloc_share": [
+      0.1027,
+      0.1001,
+      0.1002,
+      0.1048,
+      0.1056,
+      0.0984,
+      0.0987,
+      0.1006,
+      0.0958,
+      0.0932
+     ],
+     "income_gradient_slope": {
+      "mean": -0.015,
+      "sd": 0.0029
+     },
+     "d10_over_d1": {
+      "mean": 0.8801,
+      "sd": 0.0324
+     },
+     "d10_minus_d1": {
+      "mean": -0.126,
+      "sd": 0.0348
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0056,
+      "sd": 0.0015
+     },
+     "empty_share_final": {
+      "mean": 0.0004,
+      "sd": 0.0002
+     },
+     "empty_share_mean": {
+      "mean": 0.0038,
+      "sd": 0.0001
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.0802,
+      "sd": 0.0024
+     },
+     "cheaters_caught": {
+      "mean": 1789.3333,
+      "sd": 70.8684
+     }
+    },
+    "points_lottery": {
+     "n_resident_applicants": {
+      "mean": 16388.0,
+      "sd": 10.583
+     },
+     "share_housed_ever": {
+      "mean": 0.2859,
+      "sd": 0.0026
+     },
+     "share_housed_within_5y": {
+      "mean": 0.1532,
+      "sd": 0.0012
+     },
+     "wait_mean_housed": {
+      "mean": 5.2045,
+      "sd": 0.0656
+     },
+     "wait_p90_housed": {
+      "mean": 10.0,
+      "sd": 0.0
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.276,
+      "sd": 0.0037
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.0044,
+      "sd": 0.0006
+     },
+     "commute_km_all_at_5y": {
+      "mean": 3.4365,
+      "sd": 0.0142
+     },
+     "commute_km_winners": {
+      "mean": 2.6568,
+      "sd": 0.0146
+     },
+     "decile_alloc_ratio": [
+      1.0599,
+      1.0196,
+      1.0281,
+      1.0373,
+      1.0579,
+      1.0126,
+      0.944,
+      0.9807,
+      0.95,
+      0.9191
+     ],
+     "decile_alloc_share": [
+      0.1036,
+      0.0993,
+      0.1007,
+      0.102,
+      0.1048,
+      0.0993,
+      0.0981,
+      0.1026,
+      0.097,
+      0.0927
+     ],
+     "income_gradient_slope": {
+      "mean": -0.014,
+      "sd": 0.0039
+     },
+     "d10_over_d1": {
+      "mean": 0.8674,
+      "sd": 0.0196
+     },
+     "d10_minus_d1": {
+      "mean": -0.1408,
+      "sd": 0.0233
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0054,
+      "sd": 0.0015
+     },
+     "empty_share_final": {
+      "mean": 0.0007,
+      "sd": 0.0005
+     },
+     "empty_share_mean": {
+      "mean": 0.0036,
+      "sd": 0.0001
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.0796,
+      "sd": 0.006
+     },
+     "cheaters_caught": {
+      "mean": 1813.3333,
+      "sd": 38.7341
+     }
+    },
+    "points_lottery_open": {
+     "n_resident_applicants": {
+      "mean": 16388.0,
+      "sd": 10.583
+     },
+     "share_housed_ever": {
+      "mean": 0.2832,
+      "sd": 0.003
+     },
+     "share_housed_within_5y": {
+      "mean": 0.1658,
+      "sd": 0.002
+     },
+     "wait_mean_housed": {
+      "mean": 4.8577,
+      "sd": 0.0527
+     },
+     "wait_p90_housed": {
+      "mean": 9.6667,
+      "sd": 0.5774
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.2383,
+      "sd": 0.0025
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.0779,
+      "sd": 0.0025
+     },
+     "commute_km_all_at_5y": {
+      "mean": 3.6251,
+      "sd": 0.0156
+     },
+     "commute_km_winners": {
+      "mean": 3.1965,
+      "sd": 0.0411
+     },
+     "decile_alloc_ratio": [
+      1.0513,
+      1.0346,
+      1.0244,
+      1.0545,
+      1.0279,
+      1.0064,
+      0.9364,
+      0.9713,
+      0.9638,
+      0.939
+     ],
+     "decile_alloc_share": [
+      0.1028,
+      0.1008,
+      0.1004,
+      0.1037,
+      0.1018,
+      0.0987,
+      0.0973,
+      0.1016,
+      0.0984,
+      0.0946
+     ],
+     "income_gradient_slope": {
+      "mean": -0.013,
+      "sd": 0.004
+     },
+     "d10_over_d1": {
+      "mean": 0.8932,
+      "sd": 0.0257
+     },
+     "d10_minus_d1": {
+      "mean": -0.1124,
+      "sd": 0.028
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0086,
+      "sd": 0.0008
+     },
+     "empty_share_final": {
+      "mean": 0.0006,
+      "sd": 0.0001
+     },
+     "empty_share_mean": {
+      "mean": 0.0039,
+      "sd": 0.0002
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.1019,
+      "sd": 0.0021
+     },
+     "cheaters_caught": {
+      "mean": 1426.3333,
+      "sd": 57.1168
+     }
+    }
+   }
+  },
+  "build_more_10pct": {
+   "settings": {
+    "rule": true,
+    "build_pct": 10
+   },
+   "seeds": [
+    11,
+    22,
+    33
+   ],
+   "methods": {
+    "queue": {
+     "n_resident_applicants": {
+      "mean": 16388.0,
+      "sd": 10.583
+     },
+     "share_housed_ever": {
+      "mean": 0.2979,
+      "sd": 0.0063
+     },
+     "share_housed_within_5y": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "wait_mean_housed": {
+      "mean": 8.8414,
+      "sd": 0.0737
+     },
+     "wait_p90_housed": {
+      "mean": 10.0,
+      "sd": 0.0
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "commute_km_all_at_5y": {
+      "mean": 3.9225,
+      "sd": 0.0121
+     },
+     "commute_km_winners": {
+      "mean": 4.435,
+      "sd": 0.0222
+     },
+     "decile_alloc_ratio": [
+      0.9657,
+      1.0184,
+      0.9531,
+      1.0281,
+      1.0085,
+      1.0134,
+      0.9841,
+      1.0095,
+      1.0041,
+      1.0151
+     ],
+     "decile_alloc_share": [
+      0.0943,
+      0.0992,
+      0.0933,
+      0.1011,
+      0.0999,
+      0.0994,
+      0.1023,
+      0.1055,
+      0.1025,
+      0.1023
+     ],
+     "income_gradient_slope": {
+      "mean": 0.003,
+      "sd": 0.002
+     },
+     "d10_over_d1": {
+      "mean": 1.052,
+      "sd": 0.0284
+     },
+     "d10_minus_d1": {
+      "mean": 0.0494,
+      "sd": 0.0256
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0178,
+      "sd": 0.0023
+     },
+     "empty_share_final": {
+      "mean": 0.0021,
+      "sd": 0.0003
+     },
+     "empty_share_mean": {
+      "mean": 0.0048,
+      "sd": 0.0001
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "cheaters_caught": {
+      "mean": 0.0,
+      "sd": 0.0
+     }
+    },
+    "points": {
+     "n_resident_applicants": {
+      "mean": 16388.0,
+      "sd": 10.583
+     },
+     "share_housed_ever": {
+      "mean": 0.3238,
+      "sd": 0.003
+     },
+     "share_housed_within_5y": {
+      "mean": 0.171,
+      "sd": 0.0032
+     },
+     "wait_mean_housed": {
+      "mean": 5.0039,
+      "sd": 0.0541
+     },
+     "wait_p90_housed": {
+      "mean": 9.0,
+      "sd": 0.0
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.3121,
+      "sd": 0.0072
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "commute_km_all_at_5y": {
+      "mean": 3.3921,
+      "sd": 0.031
+     },
+     "commute_km_winners": {
+      "mean": 2.68,
+      "sd": 0.0199
+     },
+     "decile_alloc_ratio": [
+      1.0537,
+      1.029,
+      1.0292,
+      1.0746,
+      1.061,
+      1.0157,
+      0.9498,
+      0.963,
+      0.9207,
+      0.9152
+     ],
+     "decile_alloc_share": [
+      0.103,
+      0.1002,
+      0.1007,
+      0.1056,
+      0.1051,
+      0.0996,
+      0.0987,
+      0.1007,
+      0.094,
+      0.0922
+     ],
+     "income_gradient_slope": {
+      "mean": -0.0167,
+      "sd": 0.0039
+     },
+     "d10_over_d1": {
+      "mean": 0.8685,
+      "sd": 0.0191
+     },
+     "d10_minus_d1": {
+      "mean": -0.1386,
+      "sd": 0.02
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0039,
+      "sd": 0.0009
+     },
+     "empty_share_final": {
+      "mean": 0.0006,
+      "sd": 0.0005
+     },
+     "empty_share_mean": {
+      "mean": 0.004,
+      "sd": 0.0002
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "cheaters_caught": {
+      "mean": 0.0,
+      "sd": 0.0
+     }
+    },
+    "points_lottery": {
+     "n_resident_applicants": {
+      "mean": 16388.0,
+      "sd": 10.583
+     },
+     "share_housed_ever": {
+      "mean": 0.328,
+      "sd": 0.0046
+     },
+     "share_housed_within_5y": {
+      "mean": 0.1799,
+      "sd": 0.0033
+     },
+     "wait_mean_housed": {
+      "mean": 5.0779,
+      "sd": 0.0217
+     },
+     "wait_p90_housed": {
+      "mean": 10.0,
+      "sd": 0.0
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.327,
+      "sd": 0.0082
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.0016,
+      "sd": 0.0008
+     },
+     "commute_km_all_at_5y": {
+      "mean": 3.3792,
+      "sd": 0.0306
+     },
+     "commute_km_winners": {
+      "mean": 2.731,
+      "sd": 0.0491
+     },
+     "decile_alloc_ratio": [
+      1.0642,
+      1.0306,
+      1.0295,
+      1.06,
+      1.0546,
+      1.0034,
+      0.9569,
+      0.9654,
+      0.9215,
+      0.9241
+     ],
+     "decile_alloc_share": [
+      0.1041,
+      0.1005,
+      0.1008,
+      0.1042,
+      0.1045,
+      0.0984,
+      0.0995,
+      0.101,
+      0.0941,
+      0.0931
+     ],
+     "income_gradient_slope": {
+      "mean": -0.0164,
+      "sd": 0.0032
+     },
+     "d10_over_d1": {
+      "mean": 0.8685,
+      "sd": 0.0297
+     },
+     "d10_minus_d1": {
+      "mean": -0.1401,
+      "sd": 0.0331
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0061,
+      "sd": 0.0016
+     },
+     "empty_share_final": {
+      "mean": 0.0009,
+      "sd": 0.0007
+     },
+     "empty_share_mean": {
+      "mean": 0.0035,
+      "sd": 0.0002
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "cheaters_caught": {
+      "mean": 0.0,
+      "sd": 0.0
+     }
+    },
+    "points_lottery_open": {
+     "n_resident_applicants": {
+      "mean": 16388.0,
+      "sd": 10.583
+     },
+     "share_housed_ever": {
+      "mean": 0.3207,
+      "sd": 0.0042
+     },
+     "share_housed_within_5y": {
+      "mean": 0.1946,
+      "sd": 0.0041
+     },
+     "wait_mean_housed": {
+      "mean": 4.6574,
+      "sd": 0.0799
+     },
+     "wait_p90_housed": {
+      "mean": 9.0,
+      "sd": 0.0
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.2859,
+      "sd": 0.0073
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.0838,
+      "sd": 0.0063
+     },
+     "commute_km_all_at_5y": {
+      "mean": 3.5531,
+      "sd": 0.0305
+     },
+     "commute_km_winners": {
+      "mean": 3.2234,
+      "sd": 0.0469
+     },
+     "decile_alloc_ratio": [
+      1.0443,
+      1.0294,
+      1.0088,
+      1.0494,
+      1.0514,
+      0.9997,
+      0.9713,
+      0.9682,
+      0.9444,
+      0.9413
+     ],
+     "decile_alloc_share": [
+      0.1021,
+      0.1003,
+      0.0988,
+      0.1032,
+      0.1041,
+      0.098,
+      0.101,
+      0.1013,
+      0.0964,
+      0.0949
+     ],
+     "income_gradient_slope": {
+      "mean": -0.0122,
+      "sd": 0.004
+     },
+     "d10_over_d1": {
+      "mean": 0.9013,
+      "sd": 0.0256
+     },
+     "d10_minus_d1": {
+      "mean": -0.103,
+      "sd": 0.0264
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0078,
+      "sd": 0.0014
+     },
+     "empty_share_final": {
+      "mean": 0.0012,
+      "sd": 0.0006
+     },
+     "empty_share_mean": {
+      "mean": 0.0041,
+      "sd": 0.0002
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "cheaters_caught": {
+      "mean": 0.0,
+      "sd": 0.0
+     }
+    },
+    "lottery": {
+     "n_resident_applicants": {
+      "mean": 16388.0,
+      "sd": 10.583
+     },
+     "share_housed_ever": {
+      "mean": 0.316,
+      "sd": 0.0052
+     },
+     "share_housed_within_5y": {
+      "mean": 0.2276,
+      "sd": 0.0057
+     },
+     "wait_mean_housed": {
+      "mean": 4.0659,
+      "sd": 0.1071
+     },
+     "wait_p90_housed": {
+      "mean": 10.0,
+      "sd": 0.0
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.2233,
+      "sd": 0.0033
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.2327,
+      "sd": 0.0086
+     },
+     "commute_km_all_at_5y": {
+      "mean": 4.0133,
+      "sd": 0.0136
+     },
+     "commute_km_winners": {
+      "mean": 4.3804,
+      "sd": 0.0234
+     },
+     "decile_alloc_ratio": [
+      0.9884,
+      0.9883,
+      0.9956,
+      1.0011,
+      0.9971,
+      1.0045,
+      1.0032,
+      0.9946,
+      1.0023,
+      1.0248
+     ],
+     "decile_alloc_share": [
+      0.0966,
+      0.0963,
+      0.0975,
+      0.0984,
+      0.0988,
+      0.0985,
+      0.1043,
+      0.104,
+      0.1023,
+      0.1034
+     ],
+     "income_gradient_slope": {
+      "mean": 0.0026,
+      "sd": 0.0017
+     },
+     "d10_over_d1": {
+      "mean": 1.0375,
+      "sd": 0.0325
+     },
+     "d10_minus_d1": {
+      "mean": 0.0364,
+      "sd": 0.0304
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0179,
+      "sd": 0.0018
+     },
+     "empty_share_final": {
+      "mean": 0.0018,
+      "sd": 0.0008
+     },
+     "empty_share_mean": {
+      "mean": 0.0049,
+      "sd": 0.0002
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "cheaters_caught": {
+      "mean": 0.0,
+      "sd": 0.0
+     }
+    },
+    "market": {
+     "n_resident_applicants": {
+      "mean": 16388.0,
+      "sd": 10.583
+     },
+     "share_housed_ever": {
+      "mean": 0.3276,
+      "sd": 0.0039
+     },
+     "share_housed_within_5y": {
+      "mean": 0.3123,
+      "sd": 0.0035
+     },
+     "wait_mean_housed": {
+      "mean": 0.9253,
+      "sd": 0.0104
+     },
+     "wait_p90_housed": {
+      "mean": 3.0,
+      "sd": 0.0
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.3035,
+      "sd": 0.0058
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.323,
+      "sd": 0.0028
+     },
+     "commute_km_all_at_5y": {
+      "mean": 4.0757,
+      "sd": 0.0135
+     },
+     "commute_km_winners": {
+      "mean": 4.4272,
+      "sd": 0.0336
+     },
+     "decile_alloc_ratio": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0095,
+      0.1854,
+      1.2267,
+      2.4936,
+      2.8899,
+      2.9506
+     ],
+     "decile_alloc_share": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0009,
+      0.0183,
+      0.1275,
+      0.2607,
+      0.2949,
+      0.2977
+     ],
+     "income_gradient_slope": {
+      "mean": 0.3825,
+      "sd": 0.0007
+     },
+     "d10_over_d1": {
+      "mean": 99.0,
+      "sd": 0.0
+     },
+     "d10_minus_d1": {
+      "mean": 2.9506,
+      "sd": 0.0286
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.05,
+      "sd": 0.0028
+     },
+     "empty_share_final": {
+      "mean": 0.0052,
+      "sd": 0.0004
+     },
+     "empty_share_mean": {
+      "mean": 0.0092,
+      "sd": 0.0004
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "cheaters_caught": {
+      "mean": 0.0,
+      "sd": 0.0
+     }
+    }
+   }
+  },
+  "build_more_25pct": {
+   "settings": {
+    "rule": true,
+    "build_pct": 25
+   },
+   "seeds": [
+    11,
+    22,
+    33
+   ],
+   "methods": {
+    "queue": {
+     "n_resident_applicants": {
+      "mean": 16388.0,
+      "sd": 10.583
+     },
+     "share_housed_ever": {
+      "mean": 0.3673,
+      "sd": 0.0014
+     },
+     "share_housed_within_5y": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "wait_mean_housed": {
+      "mean": 7.74,
+      "sd": 0.0356
+     },
+     "wait_p90_housed": {
+      "mean": 8.6667,
+      "sd": 0.5774
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "commute_km_all_at_5y": {
+      "mean": 3.9225,
+      "sd": 0.0121
+     },
+     "commute_km_winners": {
+      "mean": 4.4483,
+      "sd": 0.0192
+     },
+     "decile_alloc_ratio": [
+      0.9655,
+      1.0063,
+      0.9671,
+      1.036,
+      1.02,
+      1.0106,
+      0.9874,
+      1.0089,
+      1.0,
+      0.9982
+     ],
+     "decile_alloc_share": [
+      0.0944,
+      0.0981,
+      0.0947,
+      0.1018,
+      0.1011,
+      0.0991,
+      0.1027,
+      0.1055,
+      0.102,
+      0.1006
+     ],
+     "income_gradient_slope": {
+      "mean": 0.0018,
+      "sd": 0.0015
+     },
+     "d10_over_d1": {
+      "mean": 1.034,
+      "sd": 0.03
+     },
+     "d10_minus_d1": {
+      "mean": 0.0328,
+      "sd": 0.0288
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0178,
+      "sd": 0.0019
+     },
+     "empty_share_final": {
+      "mean": 0.0024,
+      "sd": 0.0002
+     },
+     "empty_share_mean": {
+      "mean": 0.0049,
+      "sd": 0.0001
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "cheaters_caught": {
+      "mean": 0.0,
+      "sd": 0.0
+     }
+    },
+    "points": {
+     "n_resident_applicants": {
+      "mean": 16388.0,
+      "sd": 10.583
+     },
+     "share_housed_ever": {
+      "mean": 0.3821,
+      "sd": 0.0018
+     },
+     "share_housed_within_5y": {
+      "mean": 0.211,
+      "sd": 0.0043
+     },
+     "wait_mean_housed": {
+      "mean": 4.8668,
+      "sd": 0.0724
+     },
+     "wait_p90_housed": {
+      "mean": 9.0,
+      "sd": 0.0
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.3848,
+      "sd": 0.0045
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.0001,
+      "sd": 0.0002
+     },
+     "commute_km_all_at_5y": {
+      "mean": 3.3228,
+      "sd": 0.0148
+     },
+     "commute_km_winners": {
+      "mean": 2.7522,
+      "sd": 0.0366
+     },
+     "decile_alloc_ratio": [
+      1.0436,
+      1.0182,
+      1.016,
+      1.0463,
+      1.0563,
+      1.008,
+      0.9664,
+      0.9773,
+      0.9368,
+      0.9387
+     ],
+     "decile_alloc_share": [
+      0.102,
+      0.0992,
+      0.0995,
+      0.1029,
+      0.1046,
+      0.0989,
+      0.1005,
+      0.1022,
+      0.0956,
+      0.0946
+     ],
+     "income_gradient_slope": {
+      "mean": -0.0121,
+      "sd": 0.0028
+     },
+     "d10_over_d1": {
+      "mean": 0.8995,
+      "sd": 0.0231
+     },
+     "d10_minus_d1": {
+      "mean": -0.1048,
+      "sd": 0.0241
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0095,
+      "sd": 0.0018
+     },
+     "empty_share_final": {
+      "mean": 0.002,
+      "sd": 0.0011
+     },
+     "empty_share_mean": {
+      "mean": 0.0043,
+      "sd": 0.0003
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "cheaters_caught": {
+      "mean": 0.0,
+      "sd": 0.0
+     }
+    },
+    "points_lottery": {
+     "n_resident_applicants": {
+      "mean": 16388.0,
+      "sd": 10.583
+     },
+     "share_housed_ever": {
+      "mean": 0.377,
+      "sd": 0.005
+     },
+     "share_housed_within_5y": {
+      "mean": 0.2172,
+      "sd": 0.0039
+     },
+     "wait_mean_housed": {
+      "mean": 4.8091,
+      "sd": 0.0293
+     },
+     "wait_p90_housed": {
+      "mean": 10.0,
+      "sd": 0.0
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.3925,
+      "sd": 0.0091
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.0046,
+      "sd": 0.0016
+     },
+     "commute_km_all_at_5y": {
+      "mean": 3.3087,
+      "sd": 0.013
+     },
+     "commute_km_winners": {
+      "mean": 2.8307,
+      "sd": 0.03
+     },
+     "decile_alloc_ratio": [
+      1.0449,
+      1.014,
+      1.0316,
+      1.0455,
+      1.0558,
+      0.9982,
+      0.9723,
+      0.9684,
+      0.9385,
+      0.9392
+     ],
+     "decile_alloc_share": [
+      0.1021,
+      0.0988,
+      0.101,
+      0.1028,
+      0.1046,
+      0.0979,
+      0.1011,
+      0.1013,
+      0.0958,
+      0.0947
+     ],
+     "income_gradient_slope": {
+      "mean": -0.0126,
+      "sd": 0.0039
+     },
+     "d10_over_d1": {
+      "mean": 0.8991,
+      "sd": 0.0361
+     },
+     "d10_minus_d1": {
+      "mean": -0.1057,
+      "sd": 0.0387
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0088,
+      "sd": 0.0005
+     },
+     "empty_share_final": {
+      "mean": 0.0014,
+      "sd": 0.0006
+     },
+     "empty_share_mean": {
+      "mean": 0.0039,
+      "sd": 0.0001
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "cheaters_caught": {
+      "mean": 0.0,
+      "sd": 0.0
+     }
+    },
+    "points_lottery_open": {
+     "n_resident_applicants": {
+      "mean": 16388.0,
+      "sd": 10.583
+     },
+     "share_housed_ever": {
+      "mean": 0.375,
+      "sd": 0.0014
+     },
+     "share_housed_within_5y": {
+      "mean": 0.2346,
+      "sd": 0.0042
+     },
+     "wait_mean_housed": {
+      "mean": 4.53,
+      "sd": 0.0634
+     },
+     "wait_p90_housed": {
+      "mean": 9.0,
+      "sd": 0.0
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.3387,
+      "sd": 0.0029
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.1085,
+      "sd": 0.0047
+     },
+     "commute_km_all_at_5y": {
+      "mean": 3.5433,
+      "sd": 0.0079
+     },
+     "commute_km_winners": {
+      "mean": 3.2933,
+      "sd": 0.0186
+     },
+     "decile_alloc_ratio": [
+      1.0683,
+      1.0169,
+      0.9974,
+      1.0599,
+      1.0543,
+      1.0221,
+      0.9372,
+      0.9619,
+      0.9534,
+      0.9388
+     ],
+     "decile_alloc_share": [
+      0.1044,
+      0.0991,
+      0.0977,
+      0.1042,
+      0.1044,
+      0.1002,
+      0.0974,
+      0.1006,
+      0.0973,
+      0.0946
+     ],
+     "income_gradient_slope": {
+      "mean": -0.0133,
+      "sd": 0.0031
+     },
+     "d10_over_d1": {
+      "mean": 0.879,
+      "sd": 0.0387
+     },
+     "d10_minus_d1": {
+      "mean": -0.1295,
+      "sd": 0.0427
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0096,
+      "sd": 0.0011
+     },
+     "empty_share_final": {
+      "mean": 0.0011,
+      "sd": 0.0006
+     },
+     "empty_share_mean": {
+      "mean": 0.0042,
+      "sd": 0.0001
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "cheaters_caught": {
+      "mean": 0.0,
+      "sd": 0.0
+     }
+    },
+    "lottery": {
+     "n_resident_applicants": {
+      "mean": 16388.0,
+      "sd": 10.583
+     },
+     "share_housed_ever": {
+      "mean": 0.3732,
+      "sd": 0.0049
+     },
+     "share_housed_within_5y": {
+      "mean": 0.2733,
+      "sd": 0.0043
+     },
+     "wait_mean_housed": {
+      "mean": 3.9175,
+      "sd": 0.0293
+     },
+     "wait_p90_housed": {
+      "mean": 9.3333,
+      "sd": 0.5774
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.2743,
+      "sd": 0.0012
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.272,
+      "sd": 0.0092
+     },
+     "commute_km_all_at_5y": {
+      "mean": 4.0249,
+      "sd": 0.0275
+     },
+     "commute_km_winners": {
+      "mean": 4.4056,
+      "sd": 0.0253
+     },
+     "decile_alloc_ratio": [
+      0.9778,
+      0.9898,
+      0.9897,
+      0.9916,
+      1.0031,
+      1.0156,
+      1.0058,
+      1.0131,
+      1.0074,
+      1.0037
+     ],
+     "decile_alloc_share": [
+      0.0956,
+      0.0965,
+      0.0969,
+      0.0975,
+      0.0994,
+      0.0996,
+      0.1046,
+      0.1059,
+      0.1028,
+      0.1013
+     ],
+     "income_gradient_slope": {
+      "mean": 0.0032,
+      "sd": 0.0012
+     },
+     "d10_over_d1": {
+      "mean": 1.0264,
+      "sd": 0.0349
+     },
+     "d10_minus_d1": {
+      "mean": 0.0259,
+      "sd": 0.0343
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0182,
+      "sd": 0.001
+     },
+     "empty_share_final": {
+      "mean": 0.002,
+      "sd": 0.0003
+     },
+     "empty_share_mean": {
+      "mean": 0.0049,
+      "sd": 0.0002
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "cheaters_caught": {
+      "mean": 0.0,
+      "sd": 0.0
+     }
+    },
+    "market": {
+     "n_resident_applicants": {
+      "mean": 16388.0,
+      "sd": 10.583
+     },
+     "share_housed_ever": {
+      "mean": 0.3762,
+      "sd": 0.0039
+     },
+     "share_housed_within_5y": {
+      "mean": 0.3577,
+      "sd": 0.0057
+     },
+     "wait_mean_housed": {
+      "mean": 0.9253,
+      "sd": 0.0671
+     },
+     "wait_p90_housed": {
+      "mean": 3.0,
+      "sd": 0.0
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.3484,
+      "sd": 0.0058
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.3689,
+      "sd": 0.0085
+     },
+     "commute_km_all_at_5y": {
+      "mean": 4.09,
+      "sd": 0.0106
+     },
+     "commute_km_winners": {
+      "mean": 4.4337,
+      "sd": 0.0192
+     },
+     "decile_alloc_ratio": [
+      0.0,
+      0.0,
+      0.0,
+      0.0016,
+      0.0465,
+      0.4864,
+      1.691,
+      2.3851,
+      2.564,
+      2.5857
+     ],
+     "decile_alloc_share": [
+      0.0,
+      0.0,
+      0.0,
+      0.0002,
+      0.0046,
+      0.0477,
+      0.1758,
+      0.2493,
+      0.2616,
+      0.2608
+     ],
+     "income_gradient_slope": {
+      "mean": 0.3555,
+      "sd": 0.003
+     },
+     "d10_over_d1": {
+      "mean": 99.0,
+      "sd": 0.0
+     },
+     "d10_minus_d1": {
+      "mean": 2.5857,
+      "sd": 0.025
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0438,
+      "sd": 0.0024
+     },
+     "empty_share_final": {
+      "mean": 0.0051,
+      "sd": 0.0006
+     },
+     "empty_share_mean": {
+      "mean": 0.0086,
+      "sd": 0.0002
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "cheaters_caught": {
+      "mean": 0.0,
+      "sd": 0.0
+     }
+    }
+   }
+  },
+  "spread_jobs": {
+   "settings": {
+    "rule": true,
+    "spread_jobs": 0.3
+   },
+   "seeds": [
+    11,
+    22,
+    33
+   ],
+   "methods": {
+    "queue": {
+     "n_resident_applicants": {
+      "mean": 15702.0,
+      "sd": 43.2782
+     },
+     "share_housed_ever": {
+      "mean": 0.2714,
+      "sd": 0.0084
+     },
+     "share_housed_within_5y": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "wait_mean_housed": {
+      "mean": 9.2635,
+      "sd": 0.2033
+     },
+     "wait_p90_housed": {
+      "mean": 10.6667,
+      "sd": 0.5774
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "commute_km_all_at_5y": {
+      "mean": 3.3361,
+      "sd": 0.0195
+     },
+     "commute_km_winners": {
+      "mean": 5.1328,
+      "sd": 0.0133
+     },
+     "decile_alloc_ratio": [
+      0.986,
+      0.991,
+      0.9803,
+      1.0094,
+      1.0144,
+      1.0003,
+      1.0016,
+      0.9965,
+      0.9848,
+      1.0357
+     ],
+     "decile_alloc_share": [
+      0.0973,
+      0.0966,
+      0.0958,
+      0.1,
+      0.101,
+      0.0969,
+      0.104,
+      0.1041,
+      0.1,
+      0.1043
+     ],
+     "income_gradient_slope": {
+      "mean": 0.0027,
+      "sd": 0.0028
+     },
+     "d10_over_d1": {
+      "mean": 1.0513,
+      "sd": 0.0334
+     },
+     "d10_minus_d1": {
+      "mean": 0.0496,
+      "sd": 0.0314
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0182,
+      "sd": 0.0015
+     },
+     "empty_share_final": {
+      "mean": 0.0023,
+      "sd": 0.0009
+     },
+     "empty_share_mean": {
+      "mean": 0.005,
+      "sd": 0.0003
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "cheaters_caught": {
+      "mean": 0.0,
+      "sd": 0.0
+     }
+    },
+    "points": {
+     "n_resident_applicants": {
+      "mean": 15702.0,
+      "sd": 43.2782
+     },
+     "share_housed_ever": {
+      "mean": 0.3048,
+      "sd": 0.0021
+     },
+     "share_housed_within_5y": {
+      "mean": 0.1604,
+      "sd": 0.003
+     },
+     "wait_mean_housed": {
+      "mean": 5.0268,
+      "sd": 0.0287
+     },
+     "wait_p90_housed": {
+      "mean": 9.0,
+      "sd": 0.0
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.2931,
+      "sd": 0.0046
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "commute_km_all_at_5y": {
+      "mean": 2.9456,
+      "sd": 0.0348
+     },
+     "commute_km_winners": {
+      "mean": 3.2422,
+      "sd": 0.0331
+     },
+     "decile_alloc_ratio": [
+      1.0674,
+      1.0169,
+      1.0331,
+      1.0541,
+      1.0342,
+      1.0229,
+      0.9641,
+      0.9627,
+      0.9297,
+      0.924
+     ],
+     "decile_alloc_share": [
+      0.1053,
+      0.0991,
+      0.101,
+      0.1044,
+      0.103,
+      0.099,
+      0.1001,
+      0.1006,
+      0.0944,
+      0.0931
+     ],
+     "income_gradient_slope": {
+      "mean": -0.0154,
+      "sd": 0.0032
+     },
+     "d10_over_d1": {
+      "mean": 0.8682,
+      "sd": 0.0668
+     },
+     "d10_minus_d1": {
+      "mean": -0.1434,
+      "sd": 0.0788
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0047,
+      "sd": 0.0006
+     },
+     "empty_share_final": {
+      "mean": 0.0003,
+      "sd": 0.0004
+     },
+     "empty_share_mean": {
+      "mean": 0.0038,
+      "sd": 0.0002
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "cheaters_caught": {
+      "mean": 0.0,
+      "sd": 0.0
+     }
+    },
+    "points_lottery": {
+     "n_resident_applicants": {
+      "mean": 15702.0,
+      "sd": 43.2782
+     },
+     "share_housed_ever": {
+      "mean": 0.302,
+      "sd": 0.0005
+     },
+     "share_housed_within_5y": {
+      "mean": 0.1669,
+      "sd": 0.0037
+     },
+     "wait_mean_housed": {
+      "mean": 4.9042,
+      "sd": 0.086
+     },
+     "wait_p90_housed": {
+      "mean": 10.0,
+      "sd": 0.0
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.3037,
+      "sd": 0.0061
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.0016,
+      "sd": 0.0007
+     },
+     "commute_km_all_at_5y": {
+      "mean": 2.9634,
+      "sd": 0.0428
+     },
+     "commute_km_winners": {
+      "mean": 3.2554,
+      "sd": 0.0229
+     },
+     "decile_alloc_ratio": [
+      1.0789,
+      1.0154,
+      1.0381,
+      1.0361,
+      1.0331,
+      1.0235,
+      0.9735,
+      0.9681,
+      0.9175,
+      0.9243
+     ],
+     "decile_alloc_share": [
+      0.1065,
+      0.0989,
+      0.1015,
+      0.1026,
+      0.1029,
+      0.0991,
+      0.1011,
+      0.1012,
+      0.0932,
+      0.0931
+     ],
+     "income_gradient_slope": {
+      "mean": -0.0159,
+      "sd": 0.0021
+     },
+     "d10_over_d1": {
+      "mean": 0.8583,
+      "sd": 0.0546
+     },
+     "d10_minus_d1": {
+      "mean": -0.1546,
+      "sd": 0.0654
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0055,
+      "sd": 0.0006
+     },
+     "empty_share_final": {
+      "mean": 0.0008,
+      "sd": 0.0003
+     },
+     "empty_share_mean": {
+      "mean": 0.0037,
+      "sd": 0.0002
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "cheaters_caught": {
+      "mean": 0.0,
+      "sd": 0.0
+     }
+    },
+    "points_lottery_open": {
+     "n_resident_applicants": {
+      "mean": 15702.0,
+      "sd": 43.2782
+     },
+     "share_housed_ever": {
+      "mean": 0.3007,
+      "sd": 0.0047
+     },
+     "share_housed_within_5y": {
+      "mean": 0.1792,
+      "sd": 0.0053
+     },
+     "wait_mean_housed": {
+      "mean": 4.8144,
+      "sd": 0.0174
+     },
+     "wait_p90_housed": {
+      "mean": 10.0,
+      "sd": 0.0
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.2635,
+      "sd": 0.0093
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.0772,
+      "sd": 0.001
+     },
+     "commute_km_all_at_5y": {
+      "mean": 3.1636,
+      "sd": 0.0427
+     },
+     "commute_km_winners": {
+      "mean": 3.8026,
+      "sd": 0.0219
+     },
+     "decile_alloc_ratio": [
+      1.0672,
+      0.9908,
+      1.027,
+      1.0266,
+      1.0326,
+      1.015,
+      0.9468,
+      0.9691,
+      0.9517,
+      0.9799
+     ],
+     "decile_alloc_share": [
+      0.1053,
+      0.0966,
+      0.1004,
+      0.1017,
+      0.1029,
+      0.0983,
+      0.0983,
+      0.1012,
+      0.0966,
+      0.0987
+     ],
+     "income_gradient_slope": {
+      "mean": -0.0097,
+      "sd": 0.0046
+     },
+     "d10_over_d1": {
+      "mean": 0.9201,
+      "sd": 0.073
+     },
+     "d10_minus_d1": {
+      "mean": -0.0873,
+      "sd": 0.0831
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0082,
+      "sd": 0.001
+     },
+     "empty_share_final": {
+      "mean": 0.001,
+      "sd": 0.0005
+     },
+     "empty_share_mean": {
+      "mean": 0.0039,
+      "sd": 0.0002
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "cheaters_caught": {
+      "mean": 0.0,
+      "sd": 0.0
+     }
+    },
+    "lottery": {
+     "n_resident_applicants": {
+      "mean": 15702.0,
+      "sd": 43.2782
+     },
+     "share_housed_ever": {
+      "mean": 0.294,
+      "sd": 0.0038
+     },
+     "share_housed_within_5y": {
+      "mean": 0.2117,
+      "sd": 0.003
+     },
+     "wait_mean_housed": {
+      "mean": 4.0517,
+      "sd": 0.0263
+     },
+     "wait_p90_housed": {
+      "mean": 10.0,
+      "sd": 0.0
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.211,
+      "sd": 0.0051
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.2125,
+      "sd": 0.0031
+     },
+     "commute_km_all_at_5y": {
+      "mean": 3.71,
+      "sd": 0.0189
+     },
+     "commute_km_winners": {
+      "mean": 5.1291,
+      "sd": 0.0851
+     },
+     "decile_alloc_ratio": [
+      0.9981,
+      1.0151,
+      0.9674,
+      0.9912,
+      0.9868,
+      1.0265,
+      0.9991,
+      1.0158,
+      1.0063,
+      0.9925
+     ],
+     "decile_alloc_share": [
+      0.0986,
+      0.0989,
+      0.0945,
+      0.0982,
+      0.0983,
+      0.0994,
+      0.1037,
+      0.1062,
+      0.1022,
+      0.1
+     ],
+     "income_gradient_slope": {
+      "mean": 0.0012,
+      "sd": 0.0011
+     },
+     "d10_over_d1": {
+      "mean": 0.9944,
+      "sd": 0.0102
+     },
+     "d10_minus_d1": {
+      "mean": -0.0056,
+      "sd": 0.0103
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0184,
+      "sd": 0.0018
+     },
+     "empty_share_final": {
+      "mean": 0.0015,
+      "sd": 0.0002
+     },
+     "empty_share_mean": {
+      "mean": 0.0049,
+      "sd": 0.0001
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "cheaters_caught": {
+      "mean": 0.0,
+      "sd": 0.0
+     }
+    },
+    "market": {
+     "n_resident_applicants": {
+      "mean": 15702.0,
+      "sd": 43.2782
+     },
+     "share_housed_ever": {
+      "mean": 0.304,
+      "sd": 0.0035
+     },
+     "share_housed_within_5y": {
+      "mean": 0.2908,
+      "sd": 0.0045
+     },
+     "wait_mean_housed": {
+      "mean": 0.8934,
+      "sd": 0.0299
+     },
+     "wait_p90_housed": {
+      "mean": 3.0,
+      "sd": 0.0
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.2826,
+      "sd": 0.0053
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.3007,
+      "sd": 0.0041
+     },
+     "commute_km_all_at_5y": {
+      "mean": 3.8377,
+      "sd": 0.0257
+     },
+     "commute_km_winners": {
+      "mean": 5.1029,
+      "sd": 0.0242
+     },
+     "decile_alloc_ratio": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.002,
+      0.0906,
+      0.9926,
+      2.4575,
+      3.0791,
+      3.161
+     ],
+     "decile_alloc_share": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0002,
+      0.0088,
+      0.1031,
+      0.2569,
+      0.3127,
+      0.3183
+     ],
+     "income_gradient_slope": {
+      "mean": 0.3961,
+      "sd": 0.0027
+     },
+     "d10_over_d1": {
+      "mean": 99.0,
+      "sd": 0.0
+     },
+     "d10_minus_d1": {
+      "mean": 3.161,
+      "sd": 0.035
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0552,
+      "sd": 0.0011
+     },
+     "empty_share_final": {
+      "mean": 0.0058,
+      "sd": 0.0006
+     },
+     "empty_share_mean": {
+      "mean": 0.0092,
+      "sd": 0.0002
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "cheaters_caught": {
+      "mean": 0.0,
+      "sd": 0.0
+     }
+    }
+   }
+  },
+  "unira_package": {
+   "settings": {
+    "rule": true,
+    "build_pct": 25,
+    "spread_jobs": 0.3,
+    "gaming_rate": 0.1,
+    "audit": 0.25
+   },
+   "seeds": [
+    11,
+    22,
+    33
+   ],
+   "methods": {
+    "queue": {
+     "n_resident_applicants": {
+      "mean": 15702.0,
+      "sd": 43.2782
+     },
+     "share_housed_ever": {
+      "mean": 0.3894,
+      "sd": 0.0053
+     },
+     "share_housed_within_5y": {
+      "mean": 0.0013,
+      "sd": 0.0022
+     },
+     "wait_mean_housed": {
+      "mean": 7.4087,
+      "sd": 0.0355
+     },
+     "wait_p90_housed": {
+      "mean": 8.0,
+      "sd": 0.0
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.0014,
+      "sd": 0.0023
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.0013,
+      "sd": 0.0021
+     },
+     "commute_km_all_at_5y": {
+      "mean": 3.3384,
+      "sd": 0.0177
+     },
+     "commute_km_winners": {
+      "mean": 5.1579,
+      "sd": 0.0328
+     },
+     "decile_alloc_ratio": [
+      0.9881,
+      0.9851,
+      0.9855,
+      1.0211,
+      1.0051,
+      1.0056,
+      1.0028,
+      1.0083,
+      0.9947,
+      1.0022
+     ],
+     "decile_alloc_share": [
+      0.0975,
+      0.096,
+      0.0963,
+      0.1012,
+      0.1001,
+      0.0974,
+      0.1041,
+      0.1054,
+      0.101,
+      0.1009
+     ],
+     "income_gradient_slope": {
+      "mean": 0.0015,
+      "sd": 0.0004
+     },
+     "d10_over_d1": {
+      "mean": 1.0146,
+      "sd": 0.0228
+     },
+     "d10_minus_d1": {
+      "mean": 0.0142,
+      "sd": 0.0223
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.018,
+      "sd": 0.0022
+     },
+     "empty_share_final": {
+      "mean": 0.0019,
+      "sd": 0.0009
+     },
+     "empty_share_mean": {
+      "mean": 0.0051,
+      "sd": 0.0003
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "cheaters_caught": {
+      "mean": 0.0,
+      "sd": 0.0
+     }
+    },
+    "points": {
+     "n_resident_applicants": {
+      "mean": 15702.0,
+      "sd": 43.2782
+     },
+     "share_housed_ever": {
+      "mean": 0.3978,
+      "sd": 0.0041
+     },
+     "share_housed_within_5y": {
+      "mean": 0.234,
+      "sd": 0.0027
+     },
+     "wait_mean_housed": {
+      "mean": 4.5667,
+      "sd": 0.0414
+     },
+     "wait_p90_housed": {
+      "mean": 9.0,
+      "sd": 0.0
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.4172,
+      "sd": 0.0014
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.0126,
+      "sd": 0.0031
+     },
+     "commute_km_all_at_5y": {
+      "mean": 2.948,
+      "sd": 0.023
+     },
+     "commute_km_winners": {
+      "mean": 3.4683,
+      "sd": 0.02
+     },
+     "decile_alloc_ratio": [
+      1.0107,
+      0.9869,
+      1.005,
+      1.0255,
+      1.0149,
+      1.011,
+      0.9982,
+      0.9982,
+      0.9734,
+      0.9776
+     ],
+     "decile_alloc_share": [
+      0.0997,
+      0.0961,
+      0.0982,
+      0.1015,
+      0.1011,
+      0.0979,
+      0.1036,
+      0.1044,
+      0.0989,
+      0.0985
+     ],
+     "income_gradient_slope": {
+      "mean": -0.0031,
+      "sd": 0.0028
+     },
+     "d10_over_d1": {
+      "mean": 0.9698,
+      "sd": 0.078
+     },
+     "d10_minus_d1": {
+      "mean": -0.0331,
+      "sd": 0.0808
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0084,
+      "sd": 0.0018
+     },
+     "empty_share_final": {
+      "mean": 0.0012,
+      "sd": 0.0
+     },
+     "empty_share_mean": {
+      "mean": 0.0042,
+      "sd": 0.0001
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.1037,
+      "sd": 0.0017
+     },
+     "cheaters_caught": {
+      "mean": 355.6667,
+      "sd": 4.0415
+     }
+    },
+    "points_lottery": {
+     "n_resident_applicants": {
+      "mean": 15702.0,
+      "sd": 43.2782
+     },
+     "share_housed_ever": {
+      "mean": 0.3979,
+      "sd": 0.005
+     },
+     "share_housed_within_5y": {
+      "mean": 0.24,
+      "sd": 0.0011
+     },
+     "wait_mean_housed": {
+      "mean": 4.5436,
+      "sd": 0.0324
+     },
+     "wait_p90_housed": {
+      "mean": 9.0,
+      "sd": 0.0
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.4213,
+      "sd": 0.0054
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.0209,
+      "sd": 0.0024
+     },
+     "commute_km_all_at_5y": {
+      "mean": 2.9295,
+      "sd": 0.0259
+     },
+     "commute_km_winners": {
+      "mean": 3.6023,
+      "sd": 0.0537
+     },
+     "decile_alloc_ratio": [
+      1.0203,
+      0.9878,
+      1.0182,
+      1.0254,
+      1.025,
+      1.0137,
+      0.9765,
+      0.9846,
+      0.9781,
+      0.9734
+     ],
+     "decile_alloc_share": [
+      0.1007,
+      0.0962,
+      0.0995,
+      0.1016,
+      0.1021,
+      0.0982,
+      0.1014,
+      0.1029,
+      0.0993,
+      0.098
+     ],
+     "income_gradient_slope": {
+      "mean": -0.0049,
+      "sd": 0.003
+     },
+     "d10_over_d1": {
+      "mean": 0.9563,
+      "sd": 0.0692
+     },
+     "d10_minus_d1": {
+      "mean": -0.0469,
+      "sd": 0.0744
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.009,
+      "sd": 0.0008
+     },
+     "empty_share_final": {
+      "mean": 0.001,
+      "sd": 0.0003
+     },
+     "empty_share_mean": {
+      "mean": 0.004,
+      "sd": 0.0002
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.1049,
+      "sd": 0.0018
+     },
+     "cheaters_caught": {
+      "mean": 329.6667,
+      "sd": 25.8134
+     }
+    },
+    "points_lottery_open": {
+     "n_resident_applicants": {
+      "mean": 15702.0,
+      "sd": 43.2782
+     },
+     "share_housed_ever": {
+      "mean": 0.3993,
+      "sd": 0.0049
+     },
+     "share_housed_within_5y": {
+      "mean": 0.2558,
+      "sd": 0.006
+     },
+     "wait_mean_housed": {
+      "mean": 4.3825,
+      "sd": 0.0888
+     },
+     "wait_p90_housed": {
+      "mean": 9.0,
+      "sd": 0.0
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.3698,
+      "sd": 0.0107
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.1179,
+      "sd": 0.001
+     },
+     "commute_km_all_at_5y": {
+      "mean": 3.2005,
+      "sd": 0.0141
+     },
+     "commute_km_winners": {
+      "mean": 3.9494,
+      "sd": 0.0459
+     },
+     "decile_alloc_ratio": [
+      0.9984,
+      0.983,
+      1.0308,
+      1.0374,
+      0.9996,
+      1.0347,
+      0.9906,
+      0.9865,
+      0.9735,
+      0.9691
+     ],
+     "decile_alloc_share": [
+      0.0986,
+      0.0958,
+      0.1008,
+      0.1027,
+      0.0995,
+      0.1002,
+      0.1028,
+      0.1031,
+      0.0989,
+      0.0976
+     ],
+     "income_gradient_slope": {
+      "mean": -0.004,
+      "sd": 0.0036
+     },
+     "d10_over_d1": {
+      "mean": 0.9711,
+      "sd": 0.0323
+     },
+     "d10_minus_d1": {
+      "mean": -0.0294,
+      "sd": 0.0326
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.011,
+      "sd": 0.0007
+     },
+     "empty_share_final": {
+      "mean": 0.0016,
+      "sd": 0.0004
+     },
+     "empty_share_mean": {
+      "mean": 0.0043,
+      "sd": 0.0004
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.1004,
+      "sd": 0.0043
+     },
+     "cheaters_caught": {
+      "mean": 258.0,
+      "sd": 18.3576
+     }
+    },
+    "lottery": {
+     "n_resident_applicants": {
+      "mean": 15702.0,
+      "sd": 43.2782
+     },
+     "share_housed_ever": {
+      "mean": 0.3903,
+      "sd": 0.0066
+     },
+     "share_housed_within_5y": {
+      "mean": 0.2905,
+      "sd": 0.0048
+     },
+     "wait_mean_housed": {
+      "mean": 3.7815,
+      "sd": 0.0244
+     },
+     "wait_p90_housed": {
+      "mean": 9.0,
+      "sd": 0.0
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.2883,
+      "sd": 0.0064
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.2932,
+      "sd": 0.0041
+     },
+     "commute_km_all_at_5y": {
+      "mean": 3.84,
+      "sd": 0.022
+     },
+     "commute_km_winners": {
+      "mean": 5.0934,
+      "sd": 0.0348
+     },
+     "decile_alloc_ratio": [
+      1.0189,
+      1.0036,
+      0.977,
+      0.9837,
+      1.01,
+      1.0036,
+      0.992,
+      1.0059,
+      1.0017,
+      1.0054
+     ],
+     "decile_alloc_share": [
+      0.1006,
+      0.0978,
+      0.0955,
+      0.0974,
+      0.1006,
+      0.0972,
+      0.1028,
+      0.1051,
+      0.1017,
+      0.1012
+     ],
+     "income_gradient_slope": {
+      "mean": 0.0002,
+      "sd": 0.0043
+     },
+     "d10_over_d1": {
+      "mean": 0.9876,
+      "sd": 0.0471
+     },
+     "d10_minus_d1": {
+      "mean": -0.0135,
+      "sd": 0.0475
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0176,
+      "sd": 0.0009
+     },
+     "empty_share_final": {
+      "mean": 0.0023,
+      "sd": 0.0004
+     },
+     "empty_share_mean": {
+      "mean": 0.0052,
+      "sd": 0.0003
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "cheaters_caught": {
+      "mean": 0.0,
+      "sd": 0.0
+     }
+    },
+    "market": {
+     "n_resident_applicants": {
+      "mean": 15702.0,
+      "sd": 43.2782
+     },
+     "share_housed_ever": {
+      "mean": 0.3907,
+      "sd": 0.0027
+     },
+     "share_housed_within_5y": {
+      "mean": 0.3725,
+      "sd": 0.0028
+     },
+     "wait_mean_housed": {
+      "mean": 0.903,
+      "sd": 0.0144
+     },
+     "wait_p90_housed": {
+      "mean": 3.0,
+      "sd": 0.0
+     },
+     "high_need_housed_within_5y": {
+      "mean": 0.3631,
+      "sd": 0.0027
+     },
+     "low_need_housed_within_5y": {
+      "mean": 0.384,
+      "sd": 0.0053
+     },
+     "commute_km_all_at_5y": {
+      "mean": 3.981,
+      "sd": 0.0286
+     },
+     "commute_km_winners": {
+      "mean": 5.1005,
+      "sd": 0.024
+     },
+     "decile_alloc_ratio": [
+      0.0,
+      0.0,
+      0.0,
+      0.0026,
+      0.0769,
+      0.6235,
+      1.7736,
+      2.3529,
+      2.4713,
+      2.4917
+     ],
+     "decile_alloc_share": [
+      0.0,
+      0.0,
+      0.0,
+      0.0003,
+      0.0076,
+      0.0604,
+      0.184,
+      0.2458,
+      0.251,
+      0.251
+     ],
+     "income_gradient_slope": {
+      "mean": 0.3476,
+      "sd": 0.0023
+     },
+     "d10_over_d1": {
+      "mean": 99.0,
+      "sd": 0.0
+     },
+     "d10_minus_d1": {
+      "mean": 2.4917,
+      "sd": 0.0168
+     },
+     "speculator_share_of_allocations": {
+      "mean": 0.0437,
+      "sd": 0.0005
+     },
+     "empty_share_final": {
+      "mean": 0.0047,
+      "sd": 0.0003
+     },
+     "empty_share_mean": {
+      "mean": 0.0086,
+      "sd": 0.0002
+     },
+     "false_claim_share_of_allocations": {
+      "mean": 0.0,
+      "sd": 0.0
+     },
+     "cheaters_caught": {
+      "mean": 0.0,
+      "sd": 0.0
+     }
+    }
+   }
+  }
+ }
+}

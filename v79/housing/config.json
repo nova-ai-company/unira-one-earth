@@ -1,0 +1,65 @@
+{
+  "_about": "UNIRA v79 housing allocation simulation parameters. Every value has a 'source' note. SYNTHETIC_ASSUMPTION = chosen by the modeller, not taken from evidence.csv. Units: km, years, homes, households.",
+  "years": {"value": 30, "source": "Task spec: 30-year horizon"},
+  "cohort_first_year": {"value": 5, "source": "SYNTHETIC_ASSUMPTION: cohorts arriving in years 5..24 are measured so each has a full 5-year window and the queue is past start-up"},
+  "cohort_last_year": {"value": 24, "source": "SYNTHETIC_ASSUMPTION (see cohort_first_year)"},
+  "seeds_main": {"value": [11, 22, 33, 44, 55], "source": "Fixed seeds for reproducibility"},
+  "seeds_sensitivity": {"value": [11, 22, 33], "source": "Fixed seeds (fewer, to keep runtime < 60 s)"},
+  "zones": {
+    "source": "SYNTHETIC_ASSUMPTION: stylised coastal city. Coordinates in km. Only desirable zones are rationed; non-desirable zones are assumed to have spare fixed-price homes (UNIRA guarantees a home), so they are each household's fallback.",
+    "value": [
+      {"name": "centre",  "x": 0.0,  "y": 0.0,  "desirable": true,  "stock": 3000, "appeal": 3.0, "job_share": 0.35},
+      {"name": "seaside", "x": 6.0,  "y": -2.0, "desirable": true,  "stock": 1800, "appeal": 3.0, "job_share": 0.08},
+      {"name": "inner_east", "x": 4.0, "y": 4.0, "desirable": false, "stock": 0, "appeal": 1.2, "job_share": 0.20},
+      {"name": "north",   "x": 0.0,  "y": 7.0,  "desirable": false, "stock": 0, "appeal": 0.8, "job_share": 0.15},
+      {"name": "west",    "x": -8.0, "y": 0.0,  "desirable": false, "stock": 0, "appeal": 0.5, "job_share": 0.12},
+      {"name": "south",   "x": 0.0,  "y": -10.0, "desirable": false, "stock": 0, "appeal": 0.4, "job_share": 0.10}
+    ]
+  },
+  "candidates_per_year": {"value": 1000, "source": "SYNTHETIC_ASSUMPTION: households (re)locating each year; ~60% find a desirable zone better than their fallback and apply. Gives ~2.5 applicants per desirable vacancy, inside the 1.0-4.8 range of HDB application rates (evidence.csv singapore_hdb_oversubscription)."},
+  "initial_backlog_years": {"value": 2, "source": "SYNTHETIC_ASSUMPTION: queue starts with 2 years of applicants already waiting"},
+  "turnover_rate": {"value": 0.05, "source": "SYNTHETIC_ASSUMPTION: 5%/yr of occupied desirable homes released (moves, deaths, inherited homes returned to the regional pool under Art. 18.4)"},
+  "dropout_rate": {"value": 0.10, "source": "SYNTHETIC_ASSUMPTION: 10%/yr of waiting applicants stop waiting and stay in their fallback home"},
+  "taste_sd": {"value": 1.0, "source": "SYNTHETIC_ASSUMPTION: idiosyncratic zone taste (utility units)"},
+  "commute_cost_per_km": {"value": 0.25, "source": "SYNTHETIC_ASSUMPTION: utility lost per km of home-work distance"},
+  "household": {
+    "source": "SYNTHETIC_ASSUMPTION: shares are round, plausible European values, not calibrated to a specific census",
+    "children_probs": {"value": [0.55, 0.20, 0.17, 0.08], "source": "SYNTHETIC_ASSUMPTION: P(0,1,2,3 children)"},
+    "extra_adult_prob": {"value": 0.6, "source": "SYNTHETIC_ASSUMPTION: P(second adult)"},
+    "disability_prob": {"value": 0.08, "source": "SYNTHETIC_ASSUMPTION; mildly higher in low deciles via disability_income_tilt"},
+    "disability_income_tilt": {"value": 0.5, "source": "SYNTHETIC_ASSUMPTION: P(disability) scaled by 1 + tilt*(5.5-decile)/4.5, i.e. x1.5 in D1, x0.5 in D10"},
+    "care_prob": {"value": 0.10, "source": "SYNTHETIC_ASSUMPTION: caring for a dependent relative"},
+    "roots_prob": {"value": 0.5, "source": "SYNTHETIC_ASSUMPTION: >= 5 years residence / family in the region"},
+    "income_sigma": {"value": 0.6, "source": "SYNTHETIC_ASSUMPTION: log-income spread used only for the market benchmark and for labelling deciles"}
+  },
+  "points": {
+    "source": "SYNTHETIC_ASSUMPTION for weights. Categories follow the approved UNIRA design and real precedents: HDB family / proximity (<=4 km) schemes, Vienna residence bonus, Amsterdam waiting + situation points (evidence.csv).",
+    "per_child": 3, "max_children_counted": 3,
+    "per_extra_adult": 1,
+    "disability": 6,
+    "care": 4,
+    "roots": 2,
+    "per_year_waiting": 1, "max_waiting_points": 10,
+    "commute_same_zone": 4,
+    "commute_near_km": 5.0, "commute_near": 2,
+    "band_width": 3
+  },
+  "market": {"bid_noise_sd": {"value": 0.15, "source": "SYNTHETIC_ASSUMPTION: bid = income * desirability taste * lognormal noise"}, "speculator_bid_multiplier": {"value": 1.5, "source": "SYNTHETIC_ASSUMPTION: investors bid above their income share"}},
+  "speculation": {
+    "initial_empty_share": {"value": 0.10, "source": "Bounded by evidence: Paris vacancy 8.5% (search snippet) and 19% of Paris dwellings not a main residence (Apur 2020). 10% chosen inside that range."},
+    "speculator_share_of_applicants": {"value": 0.08, "source": "SYNTHETIC_ASSUMPTION: owners of one home seeking a desirable second home they will mostly leave empty (Art. 18.2 allows two homes)"},
+    "speculator_min_decile": {"value": 7, "source": "SYNTHETIC_ASSUMPTION: speculators drawn from deciles 7-10"},
+    "empty_release_rate": {"value": 0.03, "source": "SYNTHETIC_ASSUMPTION: an empty-held home is given back or sold 3%/yr without a rule"},
+    "rule_deterrence": {"value": 0.8, "source": "SYNTHETIC_ASSUMPTION: under must-live-in rule 80% of would-be speculators do not apply"},
+    "rule_detection_rate": {"value": 0.5, "source": "Evidence-anchored: Vancouver, 49% of properties vacant in 2020 were occupied in 2021 under the tax (evidence.csv). Used as yearly probability an empty desirable home is detected and returned to the pool."}
+  },
+  "gaming": {
+    "rates": {"value": [0.0, 0.10, 0.20], "source": "SYNTHETIC_ASSUMPTION: share of applicants falsely claiming a care duty (+care points)"},
+    "audit_probs": {"value": [0.0, 0.25, 0.75], "source": "SYNTHETIC_ASSUMPTION: probability a successful claim is audited before the keys are handed over"},
+    "income_gradient": {"value": 0.5, "source": "SYNTHETIC_ASSUMPTION: P(cheat) scaled by 1 + g*(decile-5.5)/4.5, i.e. better-off households game more"},
+    "ban_years": {"value": 5, "source": "SYNTHETIC_ASSUMPTION: caught cheaters lose the offer and are barred for 5 years"}
+  },
+  "open_lottery_share": {"value": 0.3, "source": "SYNTHETIC_ASSUMPTION inspired by HDB quotas (evidence.csv: priority schemes reserve up to 30-40% of supply; the rest is balloted): in method points_lottery_open, 30% of each year's desirable vacancies go to an open lottery among all applicants, so low-need households keep a real chance."},
+  "build_more_pct": {"value": [10, 25], "source": "SYNTHETIC_ASSUMPTION: extra desirable-zone homes added linearly over 30 years (Art. 18 amendment point 3)"},
+  "spread_jobs_share": {"value": 0.3, "source": "SYNTHETIC_ASSUMPTION: 30% of centre jobs moved to non-desirable zones (job decentralisation)"}
+}

@@ -199,7 +199,7 @@ So the research looked for another answer.
 
 ## The money cap
 
-UNIRA's answer is the **money cap**. Each person may hold money up to a limit. The limit is set every year by a published coefficient. Its purpose is to keep people working to produce what is needed.
+UNIRA's answer is the **money cap**. Each person may hold money up to a limit. The limit is set every year by a published rule, and is never below one and a half years of base salary. Its purpose is to keep people working to produce what is needed.
 
 Money above the cap goes to the **One Earth Fund**. So do large inheritances above the cap.
 
@@ -255,6 +255,23 @@ One year her balance reaches the cap. From then on, what she does not spend flow
 Does Ines stop working? The research's answer is careful. Her salary still pays for everything she buys, so she still has a reason to work. What she loses is the point of saving beyond the cap. She might spend more instead. Or she might choose to work fewer hours, if her work allows it.
 
 Ines is imagined. The research has no evidence on how real people would behave at a cap. That is one of the biggest unknowns in this chapter.
+
+## A moderate cap, and two protected accounts
+
+How high should the cap be? The research tested the choice directly.
+
+- **Too low**, and most people hit it. At about 1.4 years of base salary, six adults in ten reach it at some point.
+- **Too high**, and money piles up in accounts with nothing to buy. If even a quarter of that money were spent in one year, after a scare or a rumour, there would be too few goods. Because prices are fixed, they could not rise, and the shelves would empty. At 5 years of salary, such a rush would mean demand of almost **80%** more than a normal year's goods.
+
+The answer is a **moderate cap of one and a half years of base salary: 90,000 U.** At that level, four adults in ten reach it, instead of six, and the risk of empty shelves hardly grows.
+
+Two **protected accounts** sit outside the cap:
+- a **home account** of up to **150,000 U**, for anyone who does not yet own a home;
+- a **retirement account** of up to **120,000 U**, paid out evenly from retirement, on top of the needs-based pension.
+
+Money above the cap fills these accounts first. Only what is left goes to the One Earth Fund. So an ordinary person can keep up to **360,000 U**: 90,000 U to spend as they like, and 270,000 U set aside for a home and an old age.
+
+And the cap limits only what a person *keeps*. It never touches what they earn or spend. A person at the cap still receives their full salary every month, and can spend it all. That is why the cap does not stop people working: it removes the reason to hoard, not the reason to work.
 
 ## Rules that keep prices fixed for ever
 
