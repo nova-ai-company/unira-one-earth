@@ -20,7 +20,7 @@ UNIRA is a proposal for one world federation of equal regions. It has a 30-hour 
 - **Enough for everyone.** Today's world output already covers decent food and energy for all. A comfortable level (40 GJ of final energy per person) fits a 1.5 °C-class pathway at 6–13% less energy than the world uses today, if waste is halved, materials fall about 2.7× and clean energy is built fast. (V6.5–V6.6)
 - **30-year plan.** In the central case every region reaches 40 GJ per person by year 27 and EU-level health staffing by year 30. Comfortable housing for all needs home building to grow 5–10% a year. At 1.2 TW a year of clean energy, the build closes the poorer regions' gap but leaves final energy only about 75% clean by year 30. Bringing fossil use near zero as well needs about 1.8 TW a year. (V6.7, V7.0)
 - **Needs-first versus market.** With the same resources, needs-first allocation closes the gaps. A reformed market does not, unless about 90% of its new capacity is directed to need. Strong safeguards against error and corruption keep about 80–89% of this advantage. (V6.8–V6.9)
-- **Joining.** Compared with a reformed market world after 30 years, 146 regions with 86% of humanity gain materially by joining. (V7.2)
+- **Joining.** Compared with a reformed market world after 30 years, 146 regions with 86% of humanity gain materially by joining. Inside the 33 rich regions whose average falls, 44% of the people (495 million, mostly the poor and lower middle) are better off even at the lowest UNIRA salary, so **about 92% of humanity is better off**. Nobody falls below the comfortable level. (V7.2, V7.4)
 
 - **AI planning.** Machine learning forecasts needs well (population ±0.1% a year ahead) and beats simple rules for population, food and health workers, but not for short-term energy. Over 30 years information errors cost ≤1%, while diversion costs 12–19%, so AI's main value is integrity checks. Forecasts are least accurate in the poorest regions, so their statistics come first. (V7.8)
 
@@ -57,7 +57,7 @@ Python 3.10+ and nothing else (standard library only). All data are frozen snaps
 python3 v63/run_all.py
 ```
 
-This regenerates every output, the dashboard, book, constitution and website, then runs all 157 tests.
+This regenerates every output, the dashboard, book, constitution and website, then runs all 163 tests.
 
 ## Take part
 

@@ -47,7 +47,7 @@ Three proposals from this research were provisionally accepted (P1–P3, section
 
 ## 2. Data and methods
 
-All results are reproducible offline from frozen official data: 157 tests pass, and outputs regenerate byte for byte from a clean copy.
+All results are reproducible offline from frozen official data: 163 tests pass, and outputs regenerate byte for byte from a clean copy.
 
 - **Sources:**
     - Eurostat national accounts and Labour Force Survey;
@@ -342,11 +342,11 @@ The full article texts follow the paper (Appendix).
 
 ## 11. The transition: voluntary joining, property, savings and debts
 
-UNIRA can start with willing regions and grow. Compared with a reformed market world after 30 years, 86% of humanity gains materially by joining. In rich regions, *average* energy use per person is 6–12% lower. That is a regional average, not a loss for everyone: no one in UNIRA falls below the comfortable level, and the reduction falls on the heaviest energy users. Inside rich regions, half the population is better off even at the lowest UNIRA salary, and the poorest tenth gains 146–258% (Eurostat 2024 income deciles).
+UNIRA can start with willing regions and grow. Compared with a reformed market world after 30 years, 86% of humanity lives in regions that gain materially by joining. Counting people rather than whole regions, and adding the 495 million people inside rich regions who are better off even at the lowest UNIRA salary, **about 92% of humanity is better off**. In rich regions, *average* energy use per person is 6–12% lower. That is a regional average, not a loss for everyone: no one in UNIRA falls below the comfortable level, and the reduction falls on the heaviest energy users. Inside rich regions, 44% of people are better off even at the lowest UNIRA salary, and the poorest tenth gains +74% to +446% (World Bank income shares, 31 of 33 regions).
 
 - **Who gains:**
     - 146 regions with 86% of the world's people gain materially (Ethiopia +170%, Nigeria +136%, India +72%, Brazil +11%; China about neutral);
-    - in 33 rich regions, average energy use per person is 6–12% lower (France −6%, USA and Japan −12%). Health care and housing are unchanged, and no resident falls below the comfortable level. Inside these regions the poorer half of the population gains (see below).
+    - in 33 rich regions, average energy use per person is 6–12% lower (France −6%, USA and Japan −12%). Health care and housing are unchanged, and no resident falls below the comfortable level. Inside these regions 44% of people are better off even at the lowest UNIRA salary (see below).
 - **A union of gainers alone** closes 20% of the energy gap by year 15, against 52% with the whole world. That is still more than the best market world (14%).
 - **Lessons from history** (61 sourced findings):
     - Germany's 1990 conversion of all wages at a political 1:1 rate halved East German output within months, and more than 3 million jobs were lost;
@@ -535,7 +535,7 @@ The federation commits to measuring whether needs-first allocation is working, a
 
 ### What the models show
 - **86% of humanity (146 regions) gains materially by joining**, compared with a reformed market world after 30 years: Ethiopia +170%, Nigeria +136%, India +72%, Indonesia +54%, Brazil +11%. China is about neutral (+2%).
-- **In 33 rich regions (14% of humanity), average energy use per person is 6–12% lower** (France −6%, USA and Japan −12%). This is a regional average, not a loss for every resident. Nobody falls below the comfortable level, health care and housing are unchanged, and inside these regions the poorer half gains (France, Germany, Italy, Spain and the EU: the poorest tenth +146–258%). The reduction falls mainly on the highest consumers. For these regions as a whole, joining is worthwhile if peace, security, the 30-hour week and a stable climate are worth more than that average reduction.
+- **In 33 rich regions (14% of humanity), average energy use per person is 6–12% lower** (France −6%, USA and Japan −12%). This is a regional average, not a loss for every resident. Nobody falls below the comfortable level, health care and housing are unchanged, and inside them 44% of people, about 495 million, are better off even at the lowest UNIRA salary, with the poorest tenth gaining +74% to +446% (World Bank income shares, 31 of 33 regions). The reduction falls mainly on the highest consumers. For these regions as a whole, joining is worthwhile if peace, security, the 30-hour week and a stable climate are worth more than that average reduction.
 - **A union of only the gaining regions works on its own resources, at about half speed.** By year 15 it closes 20% of the energy gap, 15% of the health gap and 25% of the housing gap by year 30, against 52%, 34% and 40% for the whole world. That still beats the best market world (14%, 4%, 10%). **UNIRA can start with willing regions and grow.**
 
 ### Draft rules
@@ -612,7 +612,7 @@ The federation commits to measuring whether needs-first allocation is working, a
 5. **No public debts:** all member regions' public debts are cancelled; savers and pensioners are protected; outside creditors are paid on a schedule until they join (T6).
 
 ### Distribution inside rich regions (V7.4, `v74/distribution`)
-National averages hide who gains. At the **lowest** UNIRA salary (base worker saving the maximum 50%), a person consumes about 86% of today's average. By Eurostat 2024 income deciles, **half of the population of France, Germany, Italy, Spain and the EU27 is already better off at that level** (40% in Poland). **The poorest tenth gains +146% to +258%.** Free health care, education and guaranteed housing come on top and are not counted. Fixed prices also end household price shocks such as the 2022 energy-price crisis.
+National averages hide who gains. UNIRA's salaries and fixed prices are the same everywhere, so every region is compared with the same absolute basket. The **lowest** UNIRA salary (base worker saving the maximum 50%) buys about 86% of today's average French household consumption, about $21,900 per person a year at 2021 purchasing-power prices (World Bank). Using World Bank income shares (latest year 2019–2024) for 31 of the 33 regions whose average falls, **44% of their people, about 495 million, are already better off at that level**. This ranges from 22–24% in Norway and the USA, where average consumption is highest, to 50% in France, 56% in Japan and 75% in Czechia. **The poorest tenth gains +74% to +446%** (USA +154%, Japan +319%, France +186%, Germany +202%). These are lower bounds. Most workers earn above the lowest salary, and free health care, education and guaranteed housing come on top and are not counted; US households in particular pay much of their health care out of the consumption measured here. Fixed prices also end household price shocks such as the 2022 energy-price crisis. (`v74/distribution/world.py`; the Eurostat decile check for France gives the same 50%.)
 
 <!-- refs:begin reference list -->
 ## References

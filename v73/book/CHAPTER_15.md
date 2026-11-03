@@ -16,7 +16,9 @@ This chapter answers with the research. It starts with who gains, then looks at 
 
 The research compared each region's situation after 30 years, inside UNIRA or in a reformed market world. It looked at three things people need: energy, health workers and floor space at home. It combined them into one measure of material gain or loss.
 
-The result is clear. **146 regions, home to 86% of humanity, gain materially by joining**, compared with a reformed market world after 30 years. 33 regions, home to 14%, lose a little on the same comparison. Neither number compares with today.
+The result is clear. **146 regions, home to 86% of humanity, gain materially by joining**, compared with a reformed market world after 30 years. In 33 regions, home to 14%, the *average* falls a little on the same comparison. Neither number compares with today.
+
+But averages hide people. Inside those 33 regions, about **495 million** people, mostly the poor and the lower middle, are better off even at the lowest UNIRA income (see below). Counted person by person, **about 92% of humanity is better off.**
 
 | Region | Energy | Health workers | Floor space | Overall |
 | --- | --- | --- | --- | --- |
@@ -68,7 +70,7 @@ Why do so many sit at almost the same number? The model gives them nearly identi
 
 For these regions, joining is a choice, not a bargain. It is worth it if peace, security, a 30-hour week and a stable climate count for more than some energy. No model can decide that. Only their people can, by vote.
 
-## Inside rich regions, half are better off
+## Inside rich regions, many are better off
 
 National averages hide who wins and who loses. So the research looked inside rich regions, at each tenth of the population, from poorest to richest.
 
@@ -89,22 +91,32 @@ Here is France, tenth by tenth, measured against today's average:
 | Ninth | 143% | no |
 | Richest | 243% | no |
 
-The line falls right in the middle. The poorest half of France lives today below the level of the lowest UNIRA income. The same pattern appears across Europe:
+The line falls right in the middle. The poorest half of France lives today below the level of the lowest UNIRA income.
 
-| Region | Share of people better off at the lowest UNIRA income | Gain for the poorest tenth |
-| --- | --- | --- |
-| France | **50%** | **+177%** |
-| Germany | 50% | +153% |
-| Italy | 50% | +244% |
-| Spain | 50% | **+258%** |
-| European Union | 50% | +177% |
-| Poland | 40% | +146% |
+Is that true elsewhere? UNIRA's salaries and prices are the same everywhere, so the lowest income buys the same basket in every region. That basket is worth about **$21,900** of household spending per person a year, at 2021 prices adjusted for purchasing power. In a region where people consume more on average, such as the United States, a smaller share of people lives below it today. The research checked all 33 regions whose average falls, using World Bank income shares (2019–2024) for the 31 that have them:
+
+| Region | Average consumption today, against France | Better off even at the lowest UNIRA income | Gain for the poorest tenth | Change in the region's average energy use |
+| --- | --- | --- | --- | --- |
+| United States | 199% | **24%** | +154% | -12% |
+| Norway | 137% | **22%** | +74% | -12% |
+| Switzerland | 139% | **30%** | +106% | -5% |
+| Germany | 124% | **35%** | +202% | -8% |
+| Canada | 118% | **37%** | +151% | -12% |
+| Australia | 116% | **42%** | +185% | -12% |
+| France | 100% | **50%** | +186% | -6% |
+| Italy | 104% | **48%** | +258% | -1% |
+| Spain | 92% | **55%** | +325% | -3% |
+| Japan | 89% | **56%** | +319% | -12% |
+| South Korea | 88% | **59%** | +237% | -12% |
+| Czechia | 71% | **75%** | +217% | -8% |
+
+Across these 31 regions, **44% of the people, about 495 million, are better off even at the lowest UNIRA income.** The poorest tenth gains between **+74%** and **+446%** everywhere. In the United States, about a quarter of the people are better off at the very lowest income, and the poorest tenth gains about **+154%**. In Japan more than half are better off, and the poorest tenth gains about **+319%**. Nobody anywhere falls below this basket.
 
 And this is the floor, not the average. Many people will earn above the base salary. Free health care, free education and guaranteed housing come on top, and they are not counted here. Fixed prices also end household price shocks like the energy crisis of 2022.
 
-So even in the regions that lose on average, half the voters may gain. The granddaughter in the warehouse is one of them.
+So even in the regions whose average falls, a large share of the voters gains, and everyone keeps a comfortable life. The granddaughter in the warehouse is one of them.
 
-One caution belongs here. These comparisons use income tenths from 2024 for each country. They measure spending power, not wealth. Someone with low income but large savings would be counted among the poor. The savings rules later in this chapter matter for them.
+One caution belongs here. These comparisons use income shares for each country (2019–2024) and apply them to household consumption. In the United States, households pay a large part of their health care out of that consumption, which UNIRA provides free, so the gains there are understated. They measure spending power, not wealth. Someone with low income but large savings would be counted among the poor. The savings rules later in this chapter matter for them.
 
 ## A union of the willing still works
 
@@ -272,7 +284,7 @@ Inside UNIRA, no region carries public debt at all. The rule is not a one-off re
 ## What the evidence says
 
 - **86%** of humanity, in **146** regions, gains materially by joining, compared with a reformed market world after 30 years. Ethiopia gains about **170%**, India **72%**.
-- In the 33 richest regions, *average* energy use per person is **6–12%** lower than in a market future. Health care and homes are unchanged, nobody falls below the comfortable level, and the poorer half of their people gains.
+- In the 33 richest regions, *average* energy use per person is **6–12%** lower than in a market future. Health care and homes are unchanged, nobody falls below the comfortable level, and 44% of their people are better off even at the lowest income.
 - Inside France, Germany, Italy and Spain, **half** the people are better off even at the lowest UNIRA income. The poorest tenth gains **146–258%** across the regions studied.
 - A union of only the gaining regions works at about half speed and still beats the best market world.
 - History warns against one-shot conversion, fire sales, restitution and inflation-eaten compensation. It supports staged joining, protected small savings and capped debt relief.

@@ -79,6 +79,7 @@ def main():
                                 "members_share_population": p_share, "outcomes": pick(rows_union)},
            "whole_world_unira_outcomes": pick(rows_all),
            "breakeven_losers_top": breakeven[:15],
+           "losers_all": {k: round(-v, 3) for k, v in breakeven},  # every region with a negative average change (%)
            "regions": {k: per[k] for k in show if k in per}}
     out = ROOT.parent / "outputs"
     out.mkdir(exist_ok=True)

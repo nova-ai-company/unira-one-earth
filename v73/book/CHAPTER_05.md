@@ -376,7 +376,7 @@ Even with typical failures and no safeguards, sharing by need beats the most coo
 
 Nobody is forced in. A region joins by referendum, in three stages: observer, associate, then full member. A region may also leave by referendum, with a negotiated settlement.
 
-Would regions want to join? The research compared each region's material situation after 30 years, inside UNIRA or in a reformed market world. Compared with that reformed market world, **146 regions, home to 86% of humanity, gain.** In the 33 richest, *average* energy use per person is **6–12%** lower. That is a regional average, borne by the heaviest users: nobody becomes poor, and the poorer half of those regions gains. (This 86% is a share of people. It is not the same as the 86% of today's consumption that a base worker can buy, in Chapter 6.)
+Would regions want to join? The research compared each region's material situation after 30 years, inside UNIRA or in a reformed market world. Compared with that reformed market world, **146 regions, home to 86% of humanity, gain.** In the 33 richest, *average* energy use per person is **6–12%** lower. That is a regional average, borne by the heaviest users: nobody becomes poor, and 44% of their people are better off even at the lowest income. (This 86% is a share of people. It is not the same as the 86% of today's consumption that a base worker can buy, in Chapter 6.)
 
 A union of only the regions that gain would still work, at about half speed. Chapter 15 sets out who gains, what history teaches, and the rules for getting there.
 
