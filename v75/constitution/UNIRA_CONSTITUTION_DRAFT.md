@@ -359,6 +359,15 @@ Surplus beyond a region's needs goes to the One Earth Fund for sharing.
 2. Enterprises first pay for production, maintenance and investment.
 3. Their surplus goes to the region, and the region's surplus to the One Earth Fund.
 
+**Article 16a — Investment, machines and infrastructure.**
+1. **Maintenance first.** Each year, every region invests at least what wears out, measured in hours of work, so that homes, networks, machines and public buildings are never run down.
+2. **Then needs.** New capacity goes first to unmet needs, under the formula of Article 10a.
+3. **Then saving hours.** Machines and methods that save more hours over their life than they take to build are chosen by their published hours payback, within ecological limits. The hours they save shorten the working week (Article 13.3); they never raise output beyond needs.
+4. **Who decides.** The Allocation Authority proposes the yearly investment plan; regions decide a published share for local priorities. Every project, its cost in hours and its expected savings are published in the Register (Article 33).
+5. **Checked afterwards.** Each project's real savings are compared with its promise. Teams whose projects save less than promised lose priority for new ones; teams that save more are recognised (Article 3d).
+
+*Evidence (V8.2, `v82/capital`): in France, investment is 22.2% of GDP and depreciation 18.4%, so 83% of investment only replaces wear; investment goods take about 17% of all working hours. Directing today's net investment (about 3% of hours) to machines that repay their hours in 6–10 years shortens the average week from 30 to about 27–28 hours within 20 years.*
+
 **Article 17 — Savings and the money cap.**
 1. Savings are free and protected, up to a personal money cap set each year by the Monetary Authority under Article 17b, so that people keep working to produce what is needed.
 2. **The cap applies only to savings held, never to salary or spending.** Every person always receives their full salary and may spend it.
