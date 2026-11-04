@@ -56,7 +56,7 @@ def level_perceiver(regions, gov, seed, holder):
     def perceive(domain, t, true_def):
         st = holder["p"]["_state"]
         key, target, unit = DOMAINS[domain]
-        for k in list(cheaters):
+        for k in sorted(cheaters):  # sorted: same random draws on every run
             if rng.random() < gov["audit_detect"]:
                 cheaters.discard(k)
         seen = {}

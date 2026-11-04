@@ -491,7 +491,7 @@ def write_outputs(results, cfg, elapsed):
     od = os.path.join(HERE, "outputs")
     os.makedirs(od, exist_ok=True)
     payload = {"about": "UNIRA v79 housing allocation simulation; see RESEARCH_NOTE.md",
-               "runtime_seconds": round(elapsed, 2), "scenarios": results}
+               "scenarios": results}  # run time is printed, not stored, so outputs are byte-identical
     with open(os.path.join(od, "results.json"), "w") as f:
         json.dump(payload, f, indent=1)
     with open(os.path.join(od, "results.csv"), "w", newline="") as f:

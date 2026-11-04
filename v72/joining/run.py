@@ -60,7 +60,7 @@ def main():
     world = sum(v["pop"] for v in per.values())
     gainers = {k for k, v in per.items() if v["material_index"] > 0}
     losers = set(per) - gainers
-    breakeven = sorted(((k, -per[k]["material_change_pct"]) for k in losers), key=lambda x: -x[1])
+    breakeven = sorted(((k, -per[k]["material_change_pct"]) for k in losers), key=lambda x: (-x[1], x[0]))  # ties by code
     # union of gainers only
     e_share = sum(regions[k]["energy_gj"] * regions[k]["pop0"] for k in gainers) / sum(r["energy_gj"] * r["pop0"] for r in regions.values())
     h_share = sum(regions[k]["health_10k"] * regions[k]["pop0"] for k in gainers) / sum(r["health_10k"] * r["pop0"] for r in regions.values())

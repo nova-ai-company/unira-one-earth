@@ -22,7 +22,7 @@ def load_regions():
                 v[(r["iso3"], r["indicator_id"])] = float(r["value"])
     conv = json.loads((U / "v65" / "model" / "config.json").read_text())["energy"]["primary_to_final"]["value"]
     regions = {}
-    for iso in {k[0] for k in v if k[1] == "pop_total"}:
+    for iso in sorted({k[0] for k in v if k[1] == "pop_total"}):  # sorted: same order on every run (byte-identical outputs)
         need = ["pop_total", "pop_total_2050_wpp2024_medium", "energy_primary_kwh_per_cap", "doctors_per_10k",
                 "nurses_midwives_per_10k", "floor_area_res_m2_per_cap_image_region", "food_kcal_per_cap_day"]
         if all((iso, n) in v for n in need):

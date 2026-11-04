@@ -23,7 +23,7 @@ def make_perceiver(regions, gov, seed):
         hist = history[domain]
         hist.append(dict(true_def))
         lagged = hist[max(0, len(hist) - 1 - gov["lag"])]
-        for k in list(cheaters):
+        for k in sorted(cheaters):  # sorted: same random draws on every run
             if rng.random() < gov["audit_detect"]:
                 cheaters.discard(k)
         seen = {}

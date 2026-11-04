@@ -1,0 +1,4343 @@
+{
+  "inventory_top_unserved": {
+    "basic_water": [
+      {
+        "country": "COD",
+        "people_m": 69.2,
+        "status": "conflict"
+      },
+      {
+        "country": "ETH",
+        "people_m": 57.3,
+        "status": "conflict"
+      },
+      {
+        "country": "IND",
+        "people_m": 47.5,
+        "status": "other"
+      },
+      {
+        "country": "CHN",
+        "people_m": 40.5,
+        "status": "other"
+      },
+      {
+        "country": "NGA",
+        "people_m": 39.0,
+        "status": "conflict"
+      },
+      {
+        "country": "IDN",
+        "people_m": 28.3,
+        "status": "other"
+      },
+      {
+        "country": "TZA",
+        "people_m": 23.6,
+        "status": "other"
+      },
+      {
+        "country": "PAK",
+        "people_m": 20.9,
+        "status": "other"
+      },
+      {
+        "country": "KEN",
+        "people_m": 18.9,
+        "status": "other"
+      },
+      {
+        "country": "UGA",
+        "people_m": 18.0,
+        "status": "other"
+      }
+    ],
+    "safe_water": [
+      {
+        "country": "IND",
+        "people_m": 327.3,
+        "status": "other"
+      },
+      {
+        "country": "IDN",
+        "people_m": 194.3,
+        "status": "other"
+      },
+      {
+        "country": "NGA",
+        "people_m": 160.8,
+        "status": "conflict"
+      },
+      {
+        "country": "PAK",
+        "people_m": 135.8,
+        "status": "other"
+      },
+      {
+        "country": "ETH",
+        "people_m": 112.8,
+        "status": "conflict"
+      },
+      {
+        "country": "COD",
+        "people_m": 95.2,
+        "status": "conflict"
+      },
+      {
+        "country": "MEX",
+        "people_m": 73.3,
+        "status": "other"
+      },
+      {
+        "country": "BGD",
+        "people_m": 69.2,
+        "status": "other"
+      },
+      {
+        "country": "PHL",
+        "people_m": 58.5,
+        "status": "other"
+      },
+      {
+        "country": "TZA",
+        "people_m": 46.4,
+        "status": "other"
+      }
+    ],
+    "basic_sanitation": [
+      {
+        "country": "IND",
+        "people_m": 226.6,
+        "status": "other"
+      },
+      {
+        "country": "NGA",
+        "people_m": 118.9,
+        "status": "conflict"
+      },
+      {
+        "country": "ETH",
+        "people_m": 117.1,
+        "status": "conflict"
+      },
+      {
+        "country": "COD",
+        "people_m": 90.4,
+        "status": "conflict"
+      },
+      {
+        "country": "PAK",
+        "people_m": 68.1,
+        "status": "other"
+      },
+      {
+        "country": "BGD",
+        "people_m": 54.5,
+        "status": "other"
+      },
+      {
+        "country": "TZA",
+        "people_m": 42.4,
+        "status": "other"
+      },
+      {
+        "country": "UGA",
+        "people_m": 37.6,
+        "status": "other"
+      },
+      {
+        "country": "KEN",
+        "people_m": 32.8,
+        "status": "other"
+      },
+      {
+        "country": "IDN",
+        "people_m": 30.6,
+        "status": "other"
+      }
+    ],
+    "clean_cooking": [
+      {
+        "country": "IND",
+        "people_m": 261.2,
+        "status": "other"
+      },
+      {
+        "country": "NGA",
+        "people_m": 165.2,
+        "status": "conflict"
+      },
+      {
+        "country": "CHN",
+        "people_m": 126.8,
+        "status": "other"
+      },
+      {
+        "country": "ETH",
+        "people_m": 121.5,
+        "status": "conflict"
+      },
+      {
+        "country": "BGD",
+        "people_m": 121.5,
+        "status": "other"
+      },
+      {
+        "country": "PAK",
+        "people_m": 120.6,
+        "status": "other"
+      },
+      {
+        "country": "COD",
+        "people_m": 102.7,
+        "status": "conflict"
+      },
+      {
+        "country": "TZA",
+        "people_m": 60.3,
+        "status": "other"
+      },
+      {
+        "country": "UGA",
+        "people_m": 48.5,
+        "status": "other"
+      },
+      {
+        "country": "PHL",
+        "people_m": 40.5,
+        "status": "other"
+      }
+    ]
+  },
+  "totals_unserved_m": {
+    "basic_water": 624,
+    "safe_water": 1917,
+    "basic_sanitation": 1382,
+    "clean_cooking": 1923
+  },
+  "plans": {
+    "5y/scale1/decentralised": {
+      "years": 5,
+      "scale": 1,
+      "option": "decentralised",
+      "participation": true,
+      "services": {
+        "basic_water": {
+          "unserved_m": 624,
+          "durably_served_m": 197,
+          "share_reached": 0.316,
+          "capital_usd_bn_per_year": 1.8,
+          "upkeep_usd_bn_per_year_at_end": 1.0,
+          "skilled_workers_needed_m": 0.03,
+          "all_workers_needed_m": 0.1,
+          "largest_remaining_gaps": [
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 66.3
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 53.8
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 32.8
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 20.0
+            },
+            {
+              "country": "SDN",
+              "status": "conflict",
+              "people_m": 15.9
+            },
+            {
+              "country": "KEN",
+              "status": "other",
+              "people_m": 15.9
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 15.4
+            },
+            {
+              "country": "IDN",
+              "status": "other",
+              "people_m": 13.3
+            }
+          ]
+        },
+        "safe_water": {
+          "unserved_m": 1917,
+          "durably_served_m": 219,
+          "share_reached": 0.114,
+          "capital_usd_bn_per_year": 3.8,
+          "upkeep_usd_bn_per_year_at_end": 2.0,
+          "skilled_workers_needed_m": 0.07,
+          "all_workers_needed_m": 0.21,
+          "largest_remaining_gaps": [
+            {
+              "country": "IND",
+              "status": "other",
+              "people_m": 257.7
+            },
+            {
+              "country": "IDN",
+              "status": "other",
+              "people_m": 180.7
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 155.2
+            },
+            {
+              "country": "PAK",
+              "status": "other",
+              "people_m": 123.7
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 109.7
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 92.6
+            },
+            {
+              "country": "MEX",
+              "status": "other",
+              "people_m": 67.1
+            },
+            {
+              "country": "BGD",
+              "status": "other",
+              "people_m": 60.9
+            }
+          ]
+        },
+        "basic_sanitation": {
+          "unserved_m": 1382,
+          "durably_served_m": 352,
+          "share_reached": 0.255,
+          "capital_usd_bn_per_year": 3.3,
+          "upkeep_usd_bn_per_year_at_end": 1.1,
+          "skilled_workers_needed_m": 0.06,
+          "all_workers_needed_m": 0.18,
+          "largest_remaining_gaps": [
+            {
+              "country": "IND",
+              "status": "other",
+              "people_m": 116.2
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 112.0
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 110.0
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 86.2
+            },
+            {
+              "country": "PAK",
+              "status": "other",
+              "people_m": 49.0
+            },
+            {
+              "country": "BGD",
+              "status": "other",
+              "people_m": 41.3
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 37.1
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 33.8
+            }
+          ]
+        },
+        "clean_cooking": {
+          "unserved_m": 1923,
+          "durably_served_m": 506,
+          "share_reached": 0.263,
+          "capital_usd_bn_per_year": 3.0,
+          "upkeep_usd_bn_per_year_at_end": 0.0,
+          "skilled_workers_needed_m": 0.06,
+          "all_workers_needed_m": 0.17,
+          "largest_remaining_gaps": [
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 153.8
+            },
+            {
+              "country": "IND",
+              "status": "other",
+              "people_m": 118.4
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 115.0
+            },
+            {
+              "country": "BGD",
+              "status": "other",
+              "people_m": 104.4
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 97.3
+            },
+            {
+              "country": "PAK",
+              "status": "other",
+              "people_m": 95.9
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 53.6
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 43.6
+            }
+          ]
+        }
+      },
+      "total_capital_usd_bn_per_year": 11.9,
+      "share_of_world_gdp": 0.00011,
+      "share_of_world_military_spending": 0.004
+    },
+    "5y/scale1/centralised": {
+      "years": 5,
+      "scale": 1,
+      "option": "centralised",
+      "participation": true,
+      "services": {
+        "basic_water": {
+          "unserved_m": 624,
+          "durably_served_m": 157,
+          "share_reached": 0.252,
+          "capital_usd_bn_per_year": 2.8,
+          "upkeep_usd_bn_per_year_at_end": 1.6,
+          "skilled_workers_needed_m": 0.05,
+          "all_workers_needed_m": 0.16,
+          "largest_remaining_gaps": [
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 67.5
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 55.2
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 35.3
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 21.4
+            },
+            {
+              "country": "IDN",
+              "status": "other",
+              "people_m": 19.3
+            },
+            {
+              "country": "KEN",
+              "status": "other",
+              "people_m": 17.1
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 16.4
+            },
+            {
+              "country": "SDN",
+              "status": "conflict",
+              "people_m": 16.4
+            }
+          ]
+        },
+        "safe_water": {
+          "unserved_m": 1917,
+          "durably_served_m": 136,
+          "share_reached": 0.071,
+          "capital_usd_bn_per_year": 5.0,
+          "upkeep_usd_bn_per_year_at_end": 1.8,
+          "skilled_workers_needed_m": 0.09,
+          "all_workers_needed_m": 0.28,
+          "largest_remaining_gaps": [
+            {
+              "country": "IND",
+              "status": "other",
+              "people_m": 285.6
+            },
+            {
+              "country": "IDN",
+              "status": "other",
+              "people_m": 186.1
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 157.4
+            },
+            {
+              "country": "PAK",
+              "status": "other",
+              "people_m": 128.5
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 110.9
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 93.6
+            },
+            {
+              "country": "MEX",
+              "status": "other",
+              "people_m": 69.6
+            },
+            {
+              "country": "BGD",
+              "status": "other",
+              "people_m": 64.2
+            }
+          ]
+        },
+        "basic_sanitation": {
+          "unserved_m": 1382,
+          "durably_served_m": 231,
+          "share_reached": 0.167,
+          "capital_usd_bn_per_year": 27.2,
+          "upkeep_usd_bn_per_year_at_end": 6.1,
+          "skilled_workers_needed_m": 0.5,
+          "all_workers_needed_m": 1.51,
+          "largest_remaining_gaps": [
+            {
+              "country": "IND",
+              "status": "other",
+              "people_m": 160.4
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 114.0
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 113.6
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 87.9
+            },
+            {
+              "country": "PAK",
+              "status": "other",
+              "people_m": 56.7
+            },
+            {
+              "country": "BGD",
+              "status": "other",
+              "people_m": 46.5
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 39.2
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 35.3
+            }
+          ]
+        },
+        "clean_cooking": {
+          "unserved_m": 1923,
+          "durably_served_m": 326,
+          "share_reached": 0.17,
+          "capital_usd_bn_per_year": 1.9,
+          "upkeep_usd_bn_per_year_at_end": 0.0,
+          "skilled_workers_needed_m": 0.04,
+          "all_workers_needed_m": 0.11,
+          "largest_remaining_gaps": [
+            {
+              "country": "IND",
+              "status": "other",
+              "people_m": 175.5
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 158.3
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 117.6
+            },
+            {
+              "country": "BGD",
+              "status": "other",
+              "people_m": 111.2
+            },
+            {
+              "country": "PAK",
+              "status": "other",
+              "people_m": 105.8
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 99.5
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 56.3
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 45.6
+            }
+          ]
+        }
+      },
+      "total_capital_usd_bn_per_year": 36.9,
+      "share_of_world_gdp": 0.00035,
+      "share_of_world_military_spending": 0.013
+    },
+    "5y/scale2/decentralised": {
+      "years": 5,
+      "scale": 2,
+      "option": "decentralised",
+      "participation": true,
+      "services": {
+        "basic_water": {
+          "unserved_m": 624,
+          "durably_served_m": 270,
+          "share_reached": 0.432,
+          "capital_usd_bn_per_year": 2.4,
+          "upkeep_usd_bn_per_year_at_end": 1.3,
+          "skilled_workers_needed_m": 0.04,
+          "all_workers_needed_m": 0.13,
+          "largest_remaining_gaps": [
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 63.4
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 50.3
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 26.7
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 16.3
+            },
+            {
+              "country": "SDN",
+              "status": "conflict",
+              "people_m": 14.5
+            },
+            {
+              "country": "KEN",
+              "status": "other",
+              "people_m": 12.9
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 12.7
+            },
+            {
+              "country": "NER",
+              "status": "conflict",
+              "people_m": 10.9
+            }
+          ]
+        },
+        "safe_water": {
+          "unserved_m": 1917,
+          "durably_served_m": 423,
+          "share_reached": 0.221,
+          "capital_usd_bn_per_year": 7.3,
+          "upkeep_usd_bn_per_year_at_end": 3.8,
+          "skilled_workers_needed_m": 0.14,
+          "all_workers_needed_m": 0.41,
+          "largest_remaining_gaps": [
+            {
+              "country": "IND",
+              "status": "other",
+              "people_m": 188.1
+            },
+            {
+              "country": "IDN",
+              "status": "other",
+              "people_m": 167.1
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 149.6
+            },
+            {
+              "country": "PAK",
+              "status": "other",
+              "people_m": 111.7
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 106.5
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 90.0
+            },
+            {
+              "country": "MEX",
+              "status": "other",
+              "people_m": 60.8
+            },
+            {
+              "country": "BGD",
+              "status": "other",
+              "people_m": 52.6
+            }
+          ]
+        },
+        "basic_sanitation": {
+          "unserved_m": 1382,
+          "durably_served_m": 593,
+          "share_reached": 0.429,
+          "capital_usd_bn_per_year": 5.6,
+          "upkeep_usd_bn_per_year_at_end": 1.9,
+          "skilled_workers_needed_m": 0.1,
+          "all_workers_needed_m": 0.31,
+          "largest_remaining_gaps": [
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 107.0
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 101.2
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 82.1
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 31.9
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 29.9
+            },
+            {
+              "country": "PAK",
+              "status": "other",
+              "people_m": 29.9
+            },
+            {
+              "country": "BGD",
+              "status": "other",
+              "people_m": 28.0
+            },
+            {
+              "country": "KEN",
+              "status": "other",
+              "people_m": 24.2
+            }
+          ]
+        },
+        "clean_cooking": {
+          "unserved_m": 1923,
+          "durably_served_m": 775,
+          "share_reached": 0.403,
+          "capital_usd_bn_per_year": 4.6,
+          "upkeep_usd_bn_per_year_at_end": 0.0,
+          "skilled_workers_needed_m": 0.08,
+          "all_workers_needed_m": 0.25,
+          "largest_remaining_gaps": [
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 142.3
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 108.5
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 92.0
+            },
+            {
+              "country": "BGD",
+              "status": "other",
+              "people_m": 87.3
+            },
+            {
+              "country": "PAK",
+              "status": "other",
+              "people_m": 71.2
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 46.8
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 38.7
+            },
+            {
+              "country": "MOZ",
+              "status": "conflict",
+              "people_m": 28.1
+            }
+          ]
+        }
+      },
+      "total_capital_usd_bn_per_year": 19.9,
+      "share_of_world_gdp": 0.00019,
+      "share_of_world_military_spending": 0.007
+    },
+    "5y/scale2/centralised": {
+      "years": 5,
+      "scale": 2,
+      "option": "centralised",
+      "participation": true,
+      "services": {
+        "basic_water": {
+          "unserved_m": 624,
+          "durably_served_m": 216,
+          "share_reached": 0.346,
+          "capital_usd_bn_per_year": 3.9,
+          "upkeep_usd_bn_per_year_at_end": 2.2,
+          "skilled_workers_needed_m": 0.07,
+          "all_workers_needed_m": 0.21,
+          "largest_remaining_gaps": [
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 65.7
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 53.1
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 31.6
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 19.2
+            },
+            {
+              "country": "SDN",
+              "status": "conflict",
+              "people_m": 15.6
+            },
+            {
+              "country": "KEN",
+              "status": "other",
+              "people_m": 15.3
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 14.8
+            },
+            {
+              "country": "MDG",
+              "status": "other",
+              "people_m": 11.9
+            }
+          ]
+        },
+        "safe_water": {
+          "unserved_m": 1917,
+          "durably_served_m": 261,
+          "share_reached": 0.136,
+          "capital_usd_bn_per_year": 9.7,
+          "upkeep_usd_bn_per_year_at_end": 3.5,
+          "skilled_workers_needed_m": 0.18,
+          "all_workers_needed_m": 0.54,
+          "largest_remaining_gaps": [
+            {
+              "country": "IND",
+              "status": "other",
+              "people_m": 243.8
+            },
+            {
+              "country": "IDN",
+              "status": "other",
+              "people_m": 178.0
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 154.1
+            },
+            {
+              "country": "PAK",
+              "status": "other",
+              "people_m": 121.3
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 109.0
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 92.1
+            },
+            {
+              "country": "MEX",
+              "status": "other",
+              "people_m": 65.8
+            },
+            {
+              "country": "BGD",
+              "status": "other",
+              "people_m": 59.2
+            }
+          ]
+        },
+        "basic_sanitation": {
+          "unserved_m": 1382,
+          "durably_served_m": 407,
+          "share_reached": 0.295,
+          "capital_usd_bn_per_year": 47.9,
+          "upkeep_usd_bn_per_year_at_end": 10.7,
+          "skilled_workers_needed_m": 0.89,
+          "all_workers_needed_m": 2.66,
+          "largest_remaining_gaps": [
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 111.0
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 108.3
+            },
+            {
+              "country": "IND",
+              "status": "other",
+              "people_m": 94.1
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 85.4
+            },
+            {
+              "country": "PAK",
+              "status": "other",
+              "people_m": 45.2
+            },
+            {
+              "country": "BGD",
+              "status": "other",
+              "people_m": 38.6
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 36.1
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 33.0
+            }
+          ]
+        },
+        "clean_cooking": {
+          "unserved_m": 1923,
+          "durably_served_m": 568,
+          "share_reached": 0.296,
+          "capital_usd_bn_per_year": 3.3,
+          "upkeep_usd_bn_per_year_at_end": 0.0,
+          "skilled_workers_needed_m": 0.06,
+          "all_workers_needed_m": 0.19,
+          "largest_remaining_gaps": [
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 151.5
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 113.7
+            },
+            {
+              "country": "BGD",
+              "status": "other",
+              "people_m": 101.0
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 96.3
+            },
+            {
+              "country": "PAK",
+              "status": "other",
+              "people_m": 90.9
+            },
+            {
+              "country": "IND",
+              "status": "other",
+              "people_m": 89.9
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 52.2
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 42.6
+            }
+          ]
+        }
+      },
+      "total_capital_usd_bn_per_year": 64.8,
+      "share_of_world_gdp": 0.00062,
+      "share_of_world_military_spending": 0.022
+    },
+    "5y/scale3/decentralised": {
+      "years": 5,
+      "scale": 3,
+      "option": "decentralised",
+      "participation": true,
+      "services": {
+        "basic_water": {
+          "unserved_m": 624,
+          "durably_served_m": 317,
+          "share_reached": 0.508,
+          "capital_usd_bn_per_year": 2.9,
+          "upkeep_usd_bn_per_year_at_end": 1.6,
+          "skilled_workers_needed_m": 0.05,
+          "all_workers_needed_m": 0.16,
+          "largest_remaining_gaps": [
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 60.5
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 46.8
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 20.5
+            },
+            {
+              "country": "SDN",
+              "status": "conflict",
+              "people_m": 13.2
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 12.7
+            },
+            {
+              "country": "NER",
+              "status": "conflict",
+              "people_m": 10.2
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 10.1
+            },
+            {
+              "country": "KEN",
+              "status": "other",
+              "people_m": 9.9
+            }
+          ]
+        },
+        "safe_water": {
+          "unserved_m": 1917,
+          "durably_served_m": 615,
+          "share_reached": 0.321,
+          "capital_usd_bn_per_year": 10.7,
+          "upkeep_usd_bn_per_year_at_end": 5.5,
+          "skilled_workers_needed_m": 0.2,
+          "all_workers_needed_m": 0.59,
+          "largest_remaining_gaps": [
+            {
+              "country": "IDN",
+              "status": "other",
+              "people_m": 153.5
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 144.0
+            },
+            {
+              "country": "IND",
+              "status": "other",
+              "people_m": 118.6
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 103.3
+            },
+            {
+              "country": "PAK",
+              "status": "other",
+              "people_m": 99.6
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 87.3
+            },
+            {
+              "country": "MEX",
+              "status": "other",
+              "people_m": 54.5
+            },
+            {
+              "country": "BGD",
+              "status": "other",
+              "people_m": 44.2
+            }
+          ]
+        },
+        "basic_sanitation": {
+          "unserved_m": 1382,
+          "durably_served_m": 704,
+          "share_reached": 0.509,
+          "capital_usd_bn_per_year": 6.7,
+          "upkeep_usd_bn_per_year_at_end": 2.2,
+          "skilled_workers_needed_m": 0.12,
+          "all_workers_needed_m": 0.37,
+          "largest_remaining_gaps": [
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 102.0
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 92.3
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 77.9
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 26.7
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 26.1
+            },
+            {
+              "country": "KEN",
+              "status": "other",
+              "people_m": 19.9
+            },
+            {
+              "country": "MDG",
+              "status": "other",
+              "people_m": 19.4
+            },
+            {
+              "country": "NER",
+              "status": "conflict",
+              "people_m": 19.3
+            }
+          ]
+        },
+        "clean_cooking": {
+          "unserved_m": 1923,
+          "durably_served_m": 935,
+          "share_reached": 0.486,
+          "capital_usd_bn_per_year": 5.5,
+          "upkeep_usd_bn_per_year_at_end": 0.0,
+          "skilled_workers_needed_m": 0.1,
+          "all_workers_needed_m": 0.31,
+          "largest_remaining_gaps": [
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 130.9
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 102.0
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 86.6
+            },
+            {
+              "country": "BGD",
+              "status": "other",
+              "people_m": 70.3
+            },
+            {
+              "country": "PAK",
+              "status": "other",
+              "people_m": 46.4
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 40.1
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 33.8
+            },
+            {
+              "country": "MOZ",
+              "status": "conflict",
+              "people_m": 26.4
+            }
+          ]
+        }
+      },
+      "total_capital_usd_bn_per_year": 25.8,
+      "share_of_world_gdp": 0.00025,
+      "share_of_world_military_spending": 0.009
+    },
+    "5y/scale3/centralised": {
+      "years": 5,
+      "scale": 3,
+      "option": "centralised",
+      "participation": true,
+      "services": {
+        "basic_water": {
+          "unserved_m": 624,
+          "durably_served_m": 260,
+          "share_reached": 0.416,
+          "capital_usd_bn_per_year": 4.7,
+          "upkeep_usd_bn_per_year_at_end": 2.6,
+          "skilled_workers_needed_m": 0.09,
+          "all_workers_needed_m": 0.26,
+          "largest_remaining_gaps": [
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 64.0
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 51.0
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 27.9
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 17.1
+            },
+            {
+              "country": "SDN",
+              "status": "conflict",
+              "people_m": 14.8
+            },
+            {
+              "country": "KEN",
+              "status": "other",
+              "people_m": 13.5
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 13.2
+            },
+            {
+              "country": "NER",
+              "status": "conflict",
+              "people_m": 11.0
+            }
+          ]
+        },
+        "safe_water": {
+          "unserved_m": 1917,
+          "durably_served_m": 383,
+          "share_reached": 0.2,
+          "capital_usd_bn_per_year": 14.2,
+          "upkeep_usd_bn_per_year_at_end": 5.1,
+          "skilled_workers_needed_m": 0.26,
+          "all_workers_needed_m": 0.79,
+          "largest_remaining_gaps": [
+            {
+              "country": "IND",
+              "status": "other",
+              "people_m": 202.1
+            },
+            {
+              "country": "IDN",
+              "status": "other",
+              "people_m": 169.8
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 150.7
+            },
+            {
+              "country": "PAK",
+              "status": "other",
+              "people_m": 114.1
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 107.1
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 90.5
+            },
+            {
+              "country": "MEX",
+              "status": "other",
+              "people_m": 62.0
+            },
+            {
+              "country": "BGD",
+              "status": "other",
+              "people_m": 54.2
+            }
+          ]
+        },
+        "basic_sanitation": {
+          "unserved_m": 1382,
+          "durably_served_m": 554,
+          "share_reached": 0.401,
+          "capital_usd_bn_per_year": 65.3,
+          "upkeep_usd_bn_per_year_at_end": 14.6,
+          "skilled_workers_needed_m": 1.21,
+          "all_workers_needed_m": 3.63,
+          "largest_remaining_gaps": [
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 108.0
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 103.0
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 82.9
+            },
+            {
+              "country": "PAK",
+              "status": "other",
+              "people_m": 33.7
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 33.0
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 30.7
+            },
+            {
+              "country": "BGD",
+              "status": "other",
+              "people_m": 30.7
+            },
+            {
+              "country": "IND",
+              "status": "other",
+              "people_m": 27.8
+            }
+          ]
+        },
+        "clean_cooking": {
+          "unserved_m": 1923,
+          "durably_served_m": 742,
+          "share_reached": 0.386,
+          "capital_usd_bn_per_year": 4.4,
+          "upkeep_usd_bn_per_year_at_end": 0.0,
+          "skilled_workers_needed_m": 0.08,
+          "all_workers_needed_m": 0.24,
+          "largest_remaining_gaps": [
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 144.6
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 109.8
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 93.0
+            },
+            {
+              "country": "BGD",
+              "status": "other",
+              "people_m": 90.8
+            },
+            {
+              "country": "PAK",
+              "status": "other",
+              "people_m": 76.1
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 48.2
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 39.7
+            },
+            {
+              "country": "MOZ",
+              "status": "conflict",
+              "people_m": 28.4
+            }
+          ]
+        }
+      },
+      "total_capital_usd_bn_per_year": 88.6,
+      "share_of_world_gdp": 0.00084,
+      "share_of_world_military_spending": 0.031
+    },
+    "10y/scale1/decentralised": {
+      "years": 10,
+      "scale": 1,
+      "option": "decentralised",
+      "participation": true,
+      "services": {
+        "basic_water": {
+          "unserved_m": 624,
+          "durably_served_m": 270,
+          "share_reached": 0.432,
+          "capital_usd_bn_per_year": 1.2,
+          "upkeep_usd_bn_per_year_at_end": 1.3,
+          "skilled_workers_needed_m": 0.02,
+          "all_workers_needed_m": 0.07,
+          "largest_remaining_gaps": [
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 63.4
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 50.3
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 26.7
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 16.3
+            },
+            {
+              "country": "SDN",
+              "status": "conflict",
+              "people_m": 14.5
+            },
+            {
+              "country": "KEN",
+              "status": "other",
+              "people_m": 12.9
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 12.7
+            },
+            {
+              "country": "NER",
+              "status": "conflict",
+              "people_m": 10.9
+            }
+          ]
+        },
+        "safe_water": {
+          "unserved_m": 1917,
+          "durably_served_m": 423,
+          "share_reached": 0.221,
+          "capital_usd_bn_per_year": 3.7,
+          "upkeep_usd_bn_per_year_at_end": 3.8,
+          "skilled_workers_needed_m": 0.07,
+          "all_workers_needed_m": 0.2,
+          "largest_remaining_gaps": [
+            {
+              "country": "IND",
+              "status": "other",
+              "people_m": 188.1
+            },
+            {
+              "country": "IDN",
+              "status": "other",
+              "people_m": 167.1
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 149.6
+            },
+            {
+              "country": "PAK",
+              "status": "other",
+              "people_m": 111.7
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 106.5
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 90.0
+            },
+            {
+              "country": "MEX",
+              "status": "other",
+              "people_m": 60.8
+            },
+            {
+              "country": "BGD",
+              "status": "other",
+              "people_m": 52.6
+            }
+          ]
+        },
+        "basic_sanitation": {
+          "unserved_m": 1382,
+          "durably_served_m": 593,
+          "share_reached": 0.429,
+          "capital_usd_bn_per_year": 2.8,
+          "upkeep_usd_bn_per_year_at_end": 1.9,
+          "skilled_workers_needed_m": 0.05,
+          "all_workers_needed_m": 0.16,
+          "largest_remaining_gaps": [
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 107.0
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 101.2
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 82.1
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 31.9
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 29.9
+            },
+            {
+              "country": "PAK",
+              "status": "other",
+              "people_m": 29.9
+            },
+            {
+              "country": "BGD",
+              "status": "other",
+              "people_m": 28.0
+            },
+            {
+              "country": "KEN",
+              "status": "other",
+              "people_m": 24.2
+            }
+          ]
+        },
+        "clean_cooking": {
+          "unserved_m": 1923,
+          "durably_served_m": 775,
+          "share_reached": 0.403,
+          "capital_usd_bn_per_year": 2.3,
+          "upkeep_usd_bn_per_year_at_end": 0.0,
+          "skilled_workers_needed_m": 0.04,
+          "all_workers_needed_m": 0.13,
+          "largest_remaining_gaps": [
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 142.3
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 108.5
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 92.0
+            },
+            {
+              "country": "BGD",
+              "status": "other",
+              "people_m": 87.3
+            },
+            {
+              "country": "PAK",
+              "status": "other",
+              "people_m": 71.2
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 46.8
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 38.7
+            },
+            {
+              "country": "MOZ",
+              "status": "conflict",
+              "people_m": 28.1
+            }
+          ]
+        }
+      },
+      "total_capital_usd_bn_per_year": 10.0,
+      "share_of_world_gdp": 0.0001,
+      "share_of_world_military_spending": 0.003
+    },
+    "10y/scale1/centralised": {
+      "years": 10,
+      "scale": 1,
+      "option": "centralised",
+      "participation": true,
+      "services": {
+        "basic_water": {
+          "unserved_m": 624,
+          "durably_served_m": 216,
+          "share_reached": 0.346,
+          "capital_usd_bn_per_year": 1.9,
+          "upkeep_usd_bn_per_year_at_end": 2.2,
+          "skilled_workers_needed_m": 0.04,
+          "all_workers_needed_m": 0.11,
+          "largest_remaining_gaps": [
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 65.7
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 53.1
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 31.6
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 19.2
+            },
+            {
+              "country": "SDN",
+              "status": "conflict",
+              "people_m": 15.6
+            },
+            {
+              "country": "KEN",
+              "status": "other",
+              "people_m": 15.3
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 14.8
+            },
+            {
+              "country": "MDG",
+              "status": "other",
+              "people_m": 11.9
+            }
+          ]
+        },
+        "safe_water": {
+          "unserved_m": 1917,
+          "durably_served_m": 261,
+          "share_reached": 0.136,
+          "capital_usd_bn_per_year": 4.8,
+          "upkeep_usd_bn_per_year_at_end": 3.5,
+          "skilled_workers_needed_m": 0.09,
+          "all_workers_needed_m": 0.27,
+          "largest_remaining_gaps": [
+            {
+              "country": "IND",
+              "status": "other",
+              "people_m": 243.8
+            },
+            {
+              "country": "IDN",
+              "status": "other",
+              "people_m": 178.0
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 154.1
+            },
+            {
+              "country": "PAK",
+              "status": "other",
+              "people_m": 121.3
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 109.0
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 92.1
+            },
+            {
+              "country": "MEX",
+              "status": "other",
+              "people_m": 65.8
+            },
+            {
+              "country": "BGD",
+              "status": "other",
+              "people_m": 59.2
+            }
+          ]
+        },
+        "basic_sanitation": {
+          "unserved_m": 1382,
+          "durably_served_m": 407,
+          "share_reached": 0.295,
+          "capital_usd_bn_per_year": 24.0,
+          "upkeep_usd_bn_per_year_at_end": 10.7,
+          "skilled_workers_needed_m": 0.44,
+          "all_workers_needed_m": 1.33,
+          "largest_remaining_gaps": [
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 111.0
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 108.3
+            },
+            {
+              "country": "IND",
+              "status": "other",
+              "people_m": 94.1
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 85.4
+            },
+            {
+              "country": "PAK",
+              "status": "other",
+              "people_m": 45.2
+            },
+            {
+              "country": "BGD",
+              "status": "other",
+              "people_m": 38.6
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 36.1
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 33.0
+            }
+          ]
+        },
+        "clean_cooking": {
+          "unserved_m": 1923,
+          "durably_served_m": 568,
+          "share_reached": 0.296,
+          "capital_usd_bn_per_year": 1.7,
+          "upkeep_usd_bn_per_year_at_end": 0.0,
+          "skilled_workers_needed_m": 0.03,
+          "all_workers_needed_m": 0.09,
+          "largest_remaining_gaps": [
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 151.5
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 113.7
+            },
+            {
+              "country": "BGD",
+              "status": "other",
+              "people_m": 101.0
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 96.3
+            },
+            {
+              "country": "PAK",
+              "status": "other",
+              "people_m": 90.9
+            },
+            {
+              "country": "IND",
+              "status": "other",
+              "people_m": 89.9
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 52.2
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 42.6
+            }
+          ]
+        }
+      },
+      "total_capital_usd_bn_per_year": 32.4,
+      "share_of_world_gdp": 0.00031,
+      "share_of_world_military_spending": 0.011
+    },
+    "10y/scale2/decentralised": {
+      "years": 10,
+      "scale": 2,
+      "option": "decentralised",
+      "participation": true,
+      "services": {
+        "basic_water": {
+          "unserved_m": 624,
+          "durably_served_m": 362,
+          "share_reached": 0.581,
+          "capital_usd_bn_per_year": 1.7,
+          "upkeep_usd_bn_per_year_at_end": 1.8,
+          "skilled_workers_needed_m": 0.03,
+          "all_workers_needed_m": 0.09,
+          "largest_remaining_gaps": [
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 57.6
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 43.3
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 14.4
+            },
+            {
+              "country": "SDN",
+              "status": "conflict",
+              "people_m": 11.9
+            },
+            {
+              "country": "NER",
+              "status": "conflict",
+              "people_m": 9.5
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 9.1
+            },
+            {
+              "country": "BFA",
+              "status": "conflict",
+              "people_m": 9.0
+            },
+            {
+              "country": "MOZ",
+              "status": "conflict",
+              "people_m": 7.5
+            }
+          ]
+        },
+        "safe_water": {
+          "unserved_m": 1917,
+          "durably_served_m": 801,
+          "share_reached": 0.418,
+          "capital_usd_bn_per_year": 6.9,
+          "upkeep_usd_bn_per_year_at_end": 7.1,
+          "skilled_workers_needed_m": 0.13,
+          "all_workers_needed_m": 0.39,
+          "largest_remaining_gaps": [
+            {
+              "country": "IDN",
+              "status": "other",
+              "people_m": 139.9
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 138.5
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 100.2
+            },
+            {
+              "country": "PAK",
+              "status": "other",
+              "people_m": 87.6
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 84.7
+            },
+            {
+              "country": "IND",
+              "status": "other",
+              "people_m": 49.0
+            },
+            {
+              "country": "MEX",
+              "status": "other",
+              "people_m": 48.2
+            },
+            {
+              "country": "PHL",
+              "status": "other",
+              "people_m": 36.3
+            }
+          ]
+        },
+        "basic_sanitation": {
+          "unserved_m": 1382,
+          "durably_served_m": 795,
+          "share_reached": 0.575,
+          "capital_usd_bn_per_year": 3.8,
+          "upkeep_usd_bn_per_year_at_end": 2.5,
+          "skilled_workers_needed_m": 0.07,
+          "all_workers_needed_m": 0.21,
+          "largest_remaining_gaps": [
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 97.0
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 83.5
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 73.7
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 22.3
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 21.5
+            },
+            {
+              "country": "NER",
+              "status": "conflict",
+              "people_m": 18.2
+            },
+            {
+              "country": "MDG",
+              "status": "other",
+              "people_m": 17.0
+            },
+            {
+              "country": "MOZ",
+              "status": "conflict",
+              "people_m": 15.6
+            }
+          ]
+        },
+        "clean_cooking": {
+          "unserved_m": 1923,
+          "durably_served_m": 1087,
+          "share_reached": 0.566,
+          "capital_usd_bn_per_year": 3.2,
+          "upkeep_usd_bn_per_year_at_end": 0.0,
+          "skilled_workers_needed_m": 0.06,
+          "all_workers_needed_m": 0.18,
+          "largest_remaining_gaps": [
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 119.4
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 95.5
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 81.2
+            },
+            {
+              "country": "BGD",
+              "status": "other",
+              "people_m": 53.2
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 33.3
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 28.8
+            },
+            {
+              "country": "MOZ",
+              "status": "conflict",
+              "people_m": 24.7
+            },
+            {
+              "country": "PAK",
+              "status": "other",
+              "people_m": 21.7
+            }
+          ]
+        }
+      },
+      "total_capital_usd_bn_per_year": 15.6,
+      "share_of_world_gdp": 0.00015,
+      "share_of_world_military_spending": 0.005
+    },
+    "10y/scale2/centralised": {
+      "years": 10,
+      "scale": 2,
+      "option": "centralised",
+      "participation": true,
+      "services": {
+        "basic_water": {
+          "unserved_m": 624,
+          "durably_served_m": 289,
+          "share_reached": 0.462,
+          "capital_usd_bn_per_year": 2.6,
+          "upkeep_usd_bn_per_year_at_end": 2.9,
+          "skilled_workers_needed_m": 0.05,
+          "all_workers_needed_m": 0.15,
+          "largest_remaining_gaps": [
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 62.3
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 48.9
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 24.2
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 14.9
+            },
+            {
+              "country": "SDN",
+              "status": "conflict",
+              "people_m": 14.0
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 11.7
+            },
+            {
+              "country": "KEN",
+              "status": "other",
+              "people_m": 11.7
+            },
+            {
+              "country": "NER",
+              "status": "conflict",
+              "people_m": 10.6
+            }
+          ]
+        },
+        "safe_water": {
+          "unserved_m": 1917,
+          "durably_served_m": 500,
+          "share_reached": 0.261,
+          "capital_usd_bn_per_year": 9.3,
+          "upkeep_usd_bn_per_year_at_end": 6.7,
+          "skilled_workers_needed_m": 0.17,
+          "all_workers_needed_m": 0.52,
+          "largest_remaining_gaps": [
+            {
+              "country": "IDN",
+              "status": "other",
+              "people_m": 161.7
+            },
+            {
+              "country": "IND",
+              "status": "other",
+              "people_m": 160.3
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 147.4
+            },
+            {
+              "country": "PAK",
+              "status": "other",
+              "people_m": 106.8
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 105.2
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 88.9
+            },
+            {
+              "country": "MEX",
+              "status": "other",
+              "people_m": 58.3
+            },
+            {
+              "country": "BGD",
+              "status": "other",
+              "people_m": 49.2
+            }
+          ]
+        },
+        "basic_sanitation": {
+          "unserved_m": 1382,
+          "durably_served_m": 639,
+          "share_reached": 0.462,
+          "capital_usd_bn_per_year": 37.7,
+          "upkeep_usd_bn_per_year_at_end": 16.8,
+          "skilled_workers_needed_m": 0.7,
+          "all_workers_needed_m": 2.1,
+          "largest_remaining_gaps": [
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 105.0
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 97.6
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 80.4
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 29.8
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 28.4
+            },
+            {
+              "country": "BGD",
+              "status": "other",
+              "people_m": 22.8
+            },
+            {
+              "country": "KEN",
+              "status": "other",
+              "people_m": 22.5
+            },
+            {
+              "country": "PAK",
+              "status": "other",
+              "people_m": 22.2
+            }
+          ]
+        },
+        "clean_cooking": {
+          "unserved_m": 1923,
+          "durably_served_m": 839,
+          "share_reached": 0.436,
+          "capital_usd_bn_per_year": 2.5,
+          "upkeep_usd_bn_per_year_at_end": 0.0,
+          "skilled_workers_needed_m": 0.05,
+          "all_workers_needed_m": 0.14,
+          "largest_remaining_gaps": [
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 137.7
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 105.9
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 89.8
+            },
+            {
+              "country": "BGD",
+              "status": "other",
+              "people_m": 80.5
+            },
+            {
+              "country": "PAK",
+              "status": "other",
+              "people_m": 61.3
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 44.1
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 36.7
+            },
+            {
+              "country": "MOZ",
+              "status": "conflict",
+              "people_m": 27.4
+            }
+          ]
+        }
+      },
+      "total_capital_usd_bn_per_year": 52.1,
+      "share_of_world_gdp": 0.0005,
+      "share_of_world_military_spending": 0.018
+    },
+    "10y/scale3/decentralised": {
+      "years": 10,
+      "scale": 3,
+      "option": "decentralised",
+      "participation": true,
+      "services": {
+        "basic_water": {
+          "unserved_m": 624,
+          "durably_served_m": 436,
+          "share_reached": 0.698,
+          "capital_usd_bn_per_year": 2.0,
+          "upkeep_usd_bn_per_year_at_end": 2.2,
+          "skilled_workers_needed_m": 0.04,
+          "all_workers_needed_m": 0.11,
+          "largest_remaining_gaps": [
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 51.8
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 36.4
+            },
+            {
+              "country": "SDN",
+              "status": "conflict",
+              "people_m": 9.2
+            },
+            {
+              "country": "NER",
+              "status": "conflict",
+              "people_m": 8.0
+            },
+            {
+              "country": "BFA",
+              "status": "conflict",
+              "people_m": 7.8
+            },
+            {
+              "country": "MOZ",
+              "status": "conflict",
+              "people_m": 5.7
+            },
+            {
+              "country": "SSD",
+              "status": "conflict",
+              "people_m": 5.2
+            },
+            {
+              "country": "IND",
+              "status": "other",
+              "people_m": 4.8
+            }
+          ]
+        },
+        "safe_water": {
+          "unserved_m": 1917,
+          "durably_served_m": 1019,
+          "share_reached": 0.532,
+          "capital_usd_bn_per_year": 8.9,
+          "upkeep_usd_bn_per_year_at_end": 9.1,
+          "skilled_workers_needed_m": 0.16,
+          "all_workers_needed_m": 0.49,
+          "largest_remaining_gaps": [
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 127.3
+            },
+            {
+              "country": "IDN",
+              "status": "other",
+              "people_m": 112.7
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 93.8
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 79.5
+            },
+            {
+              "country": "PAK",
+              "status": "other",
+              "people_m": 63.5
+            },
+            {
+              "country": "MEX",
+              "status": "other",
+              "people_m": 35.7
+            },
+            {
+              "country": "IND",
+              "status": "other",
+              "people_m": 32.7
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 26.7
+            }
+          ]
+        },
+        "basic_sanitation": {
+          "unserved_m": 1382,
+          "durably_served_m": 933,
+          "share_reached": 0.675,
+          "capital_usd_bn_per_year": 4.5,
+          "upkeep_usd_bn_per_year_at_end": 2.9,
+          "skilled_workers_needed_m": 0.08,
+          "all_workers_needed_m": 0.25,
+          "largest_remaining_gaps": [
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 86.9
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 65.8
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 65.4
+            },
+            {
+              "country": "NER",
+              "status": "conflict",
+              "people_m": 16.2
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 14.7
+            },
+            {
+              "country": "MOZ",
+              "status": "conflict",
+              "people_m": 13.0
+            },
+            {
+              "country": "MDG",
+              "status": "other",
+              "people_m": 12.1
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 11.0
+            }
+          ]
+        },
+        "clean_cooking": {
+          "unserved_m": 1923,
+          "durably_served_m": 1325,
+          "share_reached": 0.689,
+          "capital_usd_bn_per_year": 4.0,
+          "upkeep_usd_bn_per_year_at_end": 0.0,
+          "skilled_workers_needed_m": 0.07,
+          "all_workers_needed_m": 0.22,
+          "largest_remaining_gaps": [
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 96.5
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 82.5
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 70.5
+            },
+            {
+              "country": "MOZ",
+              "status": "conflict",
+              "people_m": 21.3
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 19.9
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 19.0
+            },
+            {
+              "country": "BGD",
+              "status": "other",
+              "people_m": 19.0
+            },
+            {
+              "country": "NER",
+              "status": "conflict",
+              "people_m": 17.2
+            }
+          ]
+        }
+      },
+      "total_capital_usd_bn_per_year": 19.4,
+      "share_of_world_gdp": 0.00018,
+      "share_of_world_military_spending": 0.007
+    },
+    "10y/scale3/centralised": {
+      "years": 10,
+      "scale": 3,
+      "option": "centralised",
+      "participation": true,
+      "services": {
+        "basic_water": {
+          "unserved_m": 624,
+          "durably_served_m": 345,
+          "share_reached": 0.552,
+          "capital_usd_bn_per_year": 3.1,
+          "upkeep_usd_bn_per_year_at_end": 3.4,
+          "skilled_workers_needed_m": 0.06,
+          "all_workers_needed_m": 0.17,
+          "largest_remaining_gaps": [
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 58.8
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 44.7
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 16.8
+            },
+            {
+              "country": "SDN",
+              "status": "conflict",
+              "people_m": 12.4
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 10.5
+            },
+            {
+              "country": "NER",
+              "status": "conflict",
+              "people_m": 9.7
+            },
+            {
+              "country": "BFA",
+              "status": "conflict",
+              "people_m": 9.3
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 8.5
+            }
+          ]
+        },
+        "safe_water": {
+          "unserved_m": 1917,
+          "durably_served_m": 728,
+          "share_reached": 0.38,
+          "capital_usd_bn_per_year": 13.5,
+          "upkeep_usd_bn_per_year_at_end": 9.7,
+          "skilled_workers_needed_m": 0.25,
+          "all_workers_needed_m": 0.75,
+          "largest_remaining_gaps": [
+            {
+              "country": "IDN",
+              "status": "other",
+              "people_m": 145.4
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 140.7
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 101.4
+            },
+            {
+              "country": "PAK",
+              "status": "other",
+              "people_m": 92.4
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 85.8
+            },
+            {
+              "country": "IND",
+              "status": "other",
+              "people_m": 76.8
+            },
+            {
+              "country": "MEX",
+              "status": "other",
+              "people_m": 50.7
+            },
+            {
+              "country": "BGD",
+              "status": "other",
+              "people_m": 39.2
+            }
+          ]
+        },
+        "basic_sanitation": {
+          "unserved_m": 1382,
+          "durably_served_m": 763,
+          "share_reached": 0.552,
+          "capital_usd_bn_per_year": 45.3,
+          "upkeep_usd_bn_per_year_at_end": 20.1,
+          "skilled_workers_needed_m": 0.84,
+          "all_workers_needed_m": 2.52,
+          "largest_remaining_gaps": [
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 99.0
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 87.0
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 75.4
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 23.9
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 23.6
+            },
+            {
+              "country": "NER",
+              "status": "conflict",
+              "people_m": 18.6
+            },
+            {
+              "country": "MDG",
+              "status": "other",
+              "people_m": 18.0
+            },
+            {
+              "country": "KEN",
+              "status": "other",
+              "people_m": 17.3
+            }
+          ]
+        },
+        "clean_cooking": {
+          "unserved_m": 1923,
+          "durably_served_m": 1028,
+          "share_reached": 0.535,
+          "capital_usd_bn_per_year": 3.1,
+          "upkeep_usd_bn_per_year_at_end": 0.0,
+          "skilled_workers_needed_m": 0.06,
+          "all_workers_needed_m": 0.17,
+          "largest_remaining_gaps": [
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 124.0
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 98.1
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 83.4
+            },
+            {
+              "country": "BGD",
+              "status": "other",
+              "people_m": 60.0
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 36.0
+            },
+            {
+              "country": "PAK",
+              "status": "other",
+              "people_m": 31.6
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 30.8
+            },
+            {
+              "country": "MOZ",
+              "status": "conflict",
+              "people_m": 25.4
+            }
+          ]
+        }
+      },
+      "total_capital_usd_bn_per_year": 65.0,
+      "share_of_world_gdp": 0.00062,
+      "share_of_world_military_spending": 0.023
+    },
+    "15y/scale1/decentralised": {
+      "years": 15,
+      "scale": 1,
+      "option": "decentralised",
+      "participation": true,
+      "services": {
+        "basic_water": {
+          "unserved_m": 624,
+          "durably_served_m": 317,
+          "share_reached": 0.508,
+          "capital_usd_bn_per_year": 1.0,
+          "upkeep_usd_bn_per_year_at_end": 1.6,
+          "skilled_workers_needed_m": 0.02,
+          "all_workers_needed_m": 0.05,
+          "largest_remaining_gaps": [
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 60.5
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 46.8
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 20.5
+            },
+            {
+              "country": "SDN",
+              "status": "conflict",
+              "people_m": 13.2
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 12.7
+            },
+            {
+              "country": "NER",
+              "status": "conflict",
+              "people_m": 10.2
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 10.1
+            },
+            {
+              "country": "KEN",
+              "status": "other",
+              "people_m": 9.9
+            }
+          ]
+        },
+        "safe_water": {
+          "unserved_m": 1917,
+          "durably_served_m": 615,
+          "share_reached": 0.321,
+          "capital_usd_bn_per_year": 3.6,
+          "upkeep_usd_bn_per_year_at_end": 5.5,
+          "skilled_workers_needed_m": 0.07,
+          "all_workers_needed_m": 0.2,
+          "largest_remaining_gaps": [
+            {
+              "country": "IDN",
+              "status": "other",
+              "people_m": 153.5
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 144.0
+            },
+            {
+              "country": "IND",
+              "status": "other",
+              "people_m": 118.6
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 103.3
+            },
+            {
+              "country": "PAK",
+              "status": "other",
+              "people_m": 99.6
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 87.3
+            },
+            {
+              "country": "MEX",
+              "status": "other",
+              "people_m": 54.5
+            },
+            {
+              "country": "BGD",
+              "status": "other",
+              "people_m": 44.2
+            }
+          ]
+        },
+        "basic_sanitation": {
+          "unserved_m": 1382,
+          "durably_served_m": 704,
+          "share_reached": 0.509,
+          "capital_usd_bn_per_year": 2.2,
+          "upkeep_usd_bn_per_year_at_end": 2.2,
+          "skilled_workers_needed_m": 0.04,
+          "all_workers_needed_m": 0.12,
+          "largest_remaining_gaps": [
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 102.0
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 92.3
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 77.9
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 26.7
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 26.1
+            },
+            {
+              "country": "KEN",
+              "status": "other",
+              "people_m": 19.9
+            },
+            {
+              "country": "MDG",
+              "status": "other",
+              "people_m": 19.4
+            },
+            {
+              "country": "NER",
+              "status": "conflict",
+              "people_m": 19.3
+            }
+          ]
+        },
+        "clean_cooking": {
+          "unserved_m": 1923,
+          "durably_served_m": 935,
+          "share_reached": 0.486,
+          "capital_usd_bn_per_year": 1.8,
+          "upkeep_usd_bn_per_year_at_end": 0.0,
+          "skilled_workers_needed_m": 0.03,
+          "all_workers_needed_m": 0.1,
+          "largest_remaining_gaps": [
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 130.9
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 102.0
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 86.6
+            },
+            {
+              "country": "BGD",
+              "status": "other",
+              "people_m": 70.3
+            },
+            {
+              "country": "PAK",
+              "status": "other",
+              "people_m": 46.4
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 40.1
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 33.8
+            },
+            {
+              "country": "MOZ",
+              "status": "conflict",
+              "people_m": 26.4
+            }
+          ]
+        }
+      },
+      "total_capital_usd_bn_per_year": 8.6,
+      "share_of_world_gdp": 8e-05,
+      "share_of_world_military_spending": 0.003
+    },
+    "15y/scale1/centralised": {
+      "years": 15,
+      "scale": 1,
+      "option": "centralised",
+      "participation": true,
+      "services": {
+        "basic_water": {
+          "unserved_m": 624,
+          "durably_served_m": 260,
+          "share_reached": 0.416,
+          "capital_usd_bn_per_year": 1.6,
+          "upkeep_usd_bn_per_year_at_end": 2.6,
+          "skilled_workers_needed_m": 0.03,
+          "all_workers_needed_m": 0.09,
+          "largest_remaining_gaps": [
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 64.0
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 51.0
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 27.9
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 17.1
+            },
+            {
+              "country": "SDN",
+              "status": "conflict",
+              "people_m": 14.8
+            },
+            {
+              "country": "KEN",
+              "status": "other",
+              "people_m": 13.5
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 13.2
+            },
+            {
+              "country": "NER",
+              "status": "conflict",
+              "people_m": 11.0
+            }
+          ]
+        },
+        "safe_water": {
+          "unserved_m": 1917,
+          "durably_served_m": 383,
+          "share_reached": 0.2,
+          "capital_usd_bn_per_year": 4.7,
+          "upkeep_usd_bn_per_year_at_end": 5.1,
+          "skilled_workers_needed_m": 0.09,
+          "all_workers_needed_m": 0.26,
+          "largest_remaining_gaps": [
+            {
+              "country": "IND",
+              "status": "other",
+              "people_m": 202.1
+            },
+            {
+              "country": "IDN",
+              "status": "other",
+              "people_m": 169.8
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 150.7
+            },
+            {
+              "country": "PAK",
+              "status": "other",
+              "people_m": 114.1
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 107.1
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 90.5
+            },
+            {
+              "country": "MEX",
+              "status": "other",
+              "people_m": 62.0
+            },
+            {
+              "country": "BGD",
+              "status": "other",
+              "people_m": 54.2
+            }
+          ]
+        },
+        "basic_sanitation": {
+          "unserved_m": 1382,
+          "durably_served_m": 554,
+          "share_reached": 0.401,
+          "capital_usd_bn_per_year": 21.8,
+          "upkeep_usd_bn_per_year_at_end": 14.6,
+          "skilled_workers_needed_m": 0.4,
+          "all_workers_needed_m": 1.21,
+          "largest_remaining_gaps": [
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 108.0
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 103.0
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 82.9
+            },
+            {
+              "country": "PAK",
+              "status": "other",
+              "people_m": 33.7
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 33.0
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 30.7
+            },
+            {
+              "country": "BGD",
+              "status": "other",
+              "people_m": 30.7
+            },
+            {
+              "country": "IND",
+              "status": "other",
+              "people_m": 27.8
+            }
+          ]
+        },
+        "clean_cooking": {
+          "unserved_m": 1923,
+          "durably_served_m": 742,
+          "share_reached": 0.386,
+          "capital_usd_bn_per_year": 1.5,
+          "upkeep_usd_bn_per_year_at_end": 0.0,
+          "skilled_workers_needed_m": 0.03,
+          "all_workers_needed_m": 0.08,
+          "largest_remaining_gaps": [
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 144.6
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 109.8
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 93.0
+            },
+            {
+              "country": "BGD",
+              "status": "other",
+              "people_m": 90.8
+            },
+            {
+              "country": "PAK",
+              "status": "other",
+              "people_m": 76.1
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 48.2
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 39.7
+            },
+            {
+              "country": "MOZ",
+              "status": "conflict",
+              "people_m": 28.4
+            }
+          ]
+        }
+      },
+      "total_capital_usd_bn_per_year": 29.6,
+      "share_of_world_gdp": 0.00028,
+      "share_of_world_military_spending": 0.01
+    },
+    "15y/scale2/decentralised": {
+      "years": 15,
+      "scale": 2,
+      "option": "decentralised",
+      "participation": true,
+      "services": {
+        "basic_water": {
+          "unserved_m": 624,
+          "durably_served_m": 436,
+          "share_reached": 0.698,
+          "capital_usd_bn_per_year": 1.3,
+          "upkeep_usd_bn_per_year_at_end": 2.2,
+          "skilled_workers_needed_m": 0.02,
+          "all_workers_needed_m": 0.07,
+          "largest_remaining_gaps": [
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 51.8
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 36.4
+            },
+            {
+              "country": "SDN",
+              "status": "conflict",
+              "people_m": 9.2
+            },
+            {
+              "country": "NER",
+              "status": "conflict",
+              "people_m": 8.0
+            },
+            {
+              "country": "BFA",
+              "status": "conflict",
+              "people_m": 7.8
+            },
+            {
+              "country": "MOZ",
+              "status": "conflict",
+              "people_m": 5.7
+            },
+            {
+              "country": "SSD",
+              "status": "conflict",
+              "people_m": 5.2
+            },
+            {
+              "country": "IND",
+              "status": "other",
+              "people_m": 4.8
+            }
+          ]
+        },
+        "safe_water": {
+          "unserved_m": 1917,
+          "durably_served_m": 1019,
+          "share_reached": 0.532,
+          "capital_usd_bn_per_year": 5.9,
+          "upkeep_usd_bn_per_year_at_end": 9.1,
+          "skilled_workers_needed_m": 0.11,
+          "all_workers_needed_m": 0.33,
+          "largest_remaining_gaps": [
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 127.3
+            },
+            {
+              "country": "IDN",
+              "status": "other",
+              "people_m": 112.7
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 93.8
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 79.5
+            },
+            {
+              "country": "PAK",
+              "status": "other",
+              "people_m": 63.5
+            },
+            {
+              "country": "MEX",
+              "status": "other",
+              "people_m": 35.7
+            },
+            {
+              "country": "IND",
+              "status": "other",
+              "people_m": 32.7
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 26.7
+            }
+          ]
+        },
+        "basic_sanitation": {
+          "unserved_m": 1382,
+          "durably_served_m": 933,
+          "share_reached": 0.675,
+          "capital_usd_bn_per_year": 3.0,
+          "upkeep_usd_bn_per_year_at_end": 2.9,
+          "skilled_workers_needed_m": 0.06,
+          "all_workers_needed_m": 0.17,
+          "largest_remaining_gaps": [
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 86.9
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 65.8
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 65.4
+            },
+            {
+              "country": "NER",
+              "status": "conflict",
+              "people_m": 16.2
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 14.7
+            },
+            {
+              "country": "MOZ",
+              "status": "conflict",
+              "people_m": 13.0
+            },
+            {
+              "country": "MDG",
+              "status": "other",
+              "people_m": 12.1
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 11.0
+            }
+          ]
+        },
+        "clean_cooking": {
+          "unserved_m": 1923,
+          "durably_served_m": 1325,
+          "share_reached": 0.689,
+          "capital_usd_bn_per_year": 2.6,
+          "upkeep_usd_bn_per_year_at_end": 0.0,
+          "skilled_workers_needed_m": 0.05,
+          "all_workers_needed_m": 0.15,
+          "largest_remaining_gaps": [
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 96.5
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 82.5
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 70.5
+            },
+            {
+              "country": "MOZ",
+              "status": "conflict",
+              "people_m": 21.3
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 19.9
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 19.0
+            },
+            {
+              "country": "BGD",
+              "status": "other",
+              "people_m": 19.0
+            },
+            {
+              "country": "NER",
+              "status": "conflict",
+              "people_m": 17.2
+            }
+          ]
+        }
+      },
+      "total_capital_usd_bn_per_year": 12.8,
+      "share_of_world_gdp": 0.00012,
+      "share_of_world_military_spending": 0.004
+    },
+    "15y/scale2/centralised": {
+      "years": 15,
+      "scale": 2,
+      "option": "centralised",
+      "participation": true,
+      "services": {
+        "basic_water": {
+          "unserved_m": 624,
+          "durably_served_m": 345,
+          "share_reached": 0.552,
+          "capital_usd_bn_per_year": 2.1,
+          "upkeep_usd_bn_per_year_at_end": 3.4,
+          "skilled_workers_needed_m": 0.04,
+          "all_workers_needed_m": 0.12,
+          "largest_remaining_gaps": [
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 58.8
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 44.7
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 16.8
+            },
+            {
+              "country": "SDN",
+              "status": "conflict",
+              "people_m": 12.4
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 10.5
+            },
+            {
+              "country": "NER",
+              "status": "conflict",
+              "people_m": 9.7
+            },
+            {
+              "country": "BFA",
+              "status": "conflict",
+              "people_m": 9.3
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 8.5
+            }
+          ]
+        },
+        "safe_water": {
+          "unserved_m": 1917,
+          "durably_served_m": 728,
+          "share_reached": 0.38,
+          "capital_usd_bn_per_year": 9.0,
+          "upkeep_usd_bn_per_year_at_end": 9.7,
+          "skilled_workers_needed_m": 0.17,
+          "all_workers_needed_m": 0.5,
+          "largest_remaining_gaps": [
+            {
+              "country": "IDN",
+              "status": "other",
+              "people_m": 145.4
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 140.7
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 101.4
+            },
+            {
+              "country": "PAK",
+              "status": "other",
+              "people_m": 92.4
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 85.8
+            },
+            {
+              "country": "IND",
+              "status": "other",
+              "people_m": 76.8
+            },
+            {
+              "country": "MEX",
+              "status": "other",
+              "people_m": 50.7
+            },
+            {
+              "country": "BGD",
+              "status": "other",
+              "people_m": 39.2
+            }
+          ]
+        },
+        "basic_sanitation": {
+          "unserved_m": 1382,
+          "durably_served_m": 763,
+          "share_reached": 0.552,
+          "capital_usd_bn_per_year": 30.2,
+          "upkeep_usd_bn_per_year_at_end": 20.1,
+          "skilled_workers_needed_m": 0.56,
+          "all_workers_needed_m": 1.68,
+          "largest_remaining_gaps": [
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 99.0
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 87.0
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 75.4
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 23.9
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 23.6
+            },
+            {
+              "country": "NER",
+              "status": "conflict",
+              "people_m": 18.6
+            },
+            {
+              "country": "MDG",
+              "status": "other",
+              "people_m": 18.0
+            },
+            {
+              "country": "KEN",
+              "status": "other",
+              "people_m": 17.3
+            }
+          ]
+        },
+        "clean_cooking": {
+          "unserved_m": 1923,
+          "durably_served_m": 1028,
+          "share_reached": 0.535,
+          "capital_usd_bn_per_year": 2.0,
+          "upkeep_usd_bn_per_year_at_end": 0.0,
+          "skilled_workers_needed_m": 0.04,
+          "all_workers_needed_m": 0.11,
+          "largest_remaining_gaps": [
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 124.0
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 98.1
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 83.4
+            },
+            {
+              "country": "BGD",
+              "status": "other",
+              "people_m": 60.0
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 36.0
+            },
+            {
+              "country": "PAK",
+              "status": "other",
+              "people_m": 31.6
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 30.8
+            },
+            {
+              "country": "MOZ",
+              "status": "conflict",
+              "people_m": 25.4
+            }
+          ]
+        }
+      },
+      "total_capital_usd_bn_per_year": 43.3,
+      "share_of_world_gdp": 0.00041,
+      "share_of_world_military_spending": 0.015
+    },
+    "15y/scale3/decentralised": {
+      "years": 15,
+      "scale": 3,
+      "option": "decentralised",
+      "participation": true,
+      "services": {
+        "basic_water": {
+          "unserved_m": 624,
+          "durably_served_m": 483,
+          "share_reached": 0.774,
+          "capital_usd_bn_per_year": 1.5,
+          "upkeep_usd_bn_per_year_at_end": 2.4,
+          "skilled_workers_needed_m": 0.03,
+          "all_workers_needed_m": 0.08,
+          "largest_remaining_gaps": [
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 43.2
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 25.9
+            },
+            {
+              "country": "NER",
+              "status": "conflict",
+              "people_m": 5.9
+            },
+            {
+              "country": "BFA",
+              "status": "conflict",
+              "people_m": 5.9
+            },
+            {
+              "country": "SDN",
+              "status": "conflict",
+              "people_m": 5.2
+            },
+            {
+              "country": "IND",
+              "status": "other",
+              "people_m": 4.8
+            },
+            {
+              "country": "SSD",
+              "status": "conflict",
+              "people_m": 4.2
+            },
+            {
+              "country": "CHN",
+              "status": "other",
+              "people_m": 4.1
+            }
+          ]
+        },
+        "safe_water": {
+          "unserved_m": 1917,
+          "durably_served_m": 1270,
+          "share_reached": 0.662,
+          "capital_usd_bn_per_year": 7.4,
+          "upkeep_usd_bn_per_year_at_end": 11.3,
+          "skilled_workers_needed_m": 0.14,
+          "all_workers_needed_m": 0.41,
+          "largest_remaining_gaps": [
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 110.6
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 84.3
+            },
+            {
+              "country": "IDN",
+              "status": "other",
+              "people_m": 71.9
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 71.6
+            },
+            {
+              "country": "IND",
+              "status": "other",
+              "people_m": 32.7
+            },
+            {
+              "country": "PAK",
+              "status": "other",
+              "people_m": 27.3
+            },
+            {
+              "country": "AFG",
+              "status": "conflict",
+              "people_m": 20.0
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 18.9
+            }
+          ]
+        },
+        "basic_sanitation": {
+          "unserved_m": 1382,
+          "durably_served_m": 1093,
+          "share_reached": 0.791,
+          "capital_usd_bn_per_year": 3.5,
+          "upkeep_usd_bn_per_year_at_end": 3.5,
+          "skilled_workers_needed_m": 0.07,
+          "all_workers_needed_m": 0.2,
+          "largest_remaining_gaps": [
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 71.8
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 52.9
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 39.2
+            },
+            {
+              "country": "NER",
+              "status": "conflict",
+              "people_m": 13.1
+            },
+            {
+              "country": "MOZ",
+              "status": "conflict",
+              "people_m": 9.1
+            },
+            {
+              "country": "BFA",
+              "status": "conflict",
+              "people_m": 7.8
+            },
+            {
+              "country": "TCD",
+              "status": "fragile",
+              "people_m": 7.0
+            },
+            {
+              "country": "SSD",
+              "status": "conflict",
+              "people_m": 6.0
+            }
+          ]
+        },
+        "clean_cooking": {
+          "unserved_m": 1923,
+          "durably_served_m": 1560,
+          "share_reached": 0.812,
+          "capital_usd_bn_per_year": 3.1,
+          "upkeep_usd_bn_per_year_at_end": 0.0,
+          "skilled_workers_needed_m": 0.06,
+          "all_workers_needed_m": 0.17,
+          "largest_remaining_gaps": [
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 63.0
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 62.2
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 54.3
+            },
+            {
+              "country": "MOZ",
+              "status": "conflict",
+              "people_m": 16.2
+            },
+            {
+              "country": "NER",
+              "status": "conflict",
+              "people_m": 13.2
+            },
+            {
+              "country": "MLI",
+              "status": "conflict",
+              "people_m": 12.9
+            },
+            {
+              "country": "AFG",
+              "status": "conflict",
+              "people_m": 10.5
+            },
+            {
+              "country": "SOM",
+              "status": "conflict",
+              "people_m": 9.5
+            }
+          ]
+        }
+      },
+      "total_capital_usd_bn_per_year": 15.5,
+      "share_of_world_gdp": 0.00015,
+      "share_of_world_military_spending": 0.005
+    },
+    "15y/scale3/centralised": {
+      "years": 15,
+      "scale": 3,
+      "option": "centralised",
+      "participation": true,
+      "services": {
+        "basic_water": {
+          "unserved_m": 624,
+          "durably_served_m": 418,
+          "share_reached": 0.67,
+          "capital_usd_bn_per_year": 2.6,
+          "upkeep_usd_bn_per_year_at_end": 4.2,
+          "skilled_workers_needed_m": 0.05,
+          "all_workers_needed_m": 0.14,
+          "largest_remaining_gaps": [
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 53.6
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 38.5
+            },
+            {
+              "country": "SDN",
+              "status": "conflict",
+              "people_m": 10.0
+            },
+            {
+              "country": "NER",
+              "status": "conflict",
+              "people_m": 8.5
+            },
+            {
+              "country": "BFA",
+              "status": "conflict",
+              "people_m": 8.2
+            },
+            {
+              "country": "MOZ",
+              "status": "conflict",
+              "people_m": 6.3
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 5.7
+            },
+            {
+              "country": "SSD",
+              "status": "conflict",
+              "people_m": 5.4
+            }
+          ]
+        },
+        "safe_water": {
+          "unserved_m": 1917,
+          "durably_served_m": 962,
+          "share_reached": 0.502,
+          "capital_usd_bn_per_year": 11.9,
+          "upkeep_usd_bn_per_year_at_end": 12.8,
+          "skilled_workers_needed_m": 0.22,
+          "all_workers_needed_m": 0.66,
+          "largest_remaining_gaps": [
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 130.6
+            },
+            {
+              "country": "IDN",
+              "status": "other",
+              "people_m": 120.9
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 95.7
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 81.1
+            },
+            {
+              "country": "PAK",
+              "status": "other",
+              "people_m": 70.7
+            },
+            {
+              "country": "MEX",
+              "status": "other",
+              "people_m": 39.4
+            },
+            {
+              "country": "IND",
+              "status": "other",
+              "people_m": 32.7
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 28.6
+            }
+          ]
+        },
+        "basic_sanitation": {
+          "unserved_m": 1382,
+          "durably_served_m": 892,
+          "share_reached": 0.645,
+          "capital_usd_bn_per_year": 35.6,
+          "upkeep_usd_bn_per_year_at_end": 23.5,
+          "skilled_workers_needed_m": 0.66,
+          "all_workers_needed_m": 1.98,
+          "largest_remaining_gaps": [
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 89.9
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 71.1
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 67.9
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 17.0
+            },
+            {
+              "country": "NER",
+              "status": "conflict",
+              "people_m": 16.8
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 14.2
+            },
+            {
+              "country": "MOZ",
+              "status": "conflict",
+              "people_m": 13.8
+            },
+            {
+              "country": "MDG",
+              "status": "other",
+              "people_m": 13.6
+            }
+          ]
+        },
+        "clean_cooking": {
+          "unserved_m": 1923,
+          "durably_served_m": 1261,
+          "share_reached": 0.656,
+          "capital_usd_bn_per_year": 2.5,
+          "upkeep_usd_bn_per_year_at_end": 0.0,
+          "skilled_workers_needed_m": 0.05,
+          "all_workers_needed_m": 0.14,
+          "largest_remaining_gaps": [
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 103.4
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 86.4
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 73.7
+            },
+            {
+              "country": "BGD",
+              "status": "other",
+              "people_m": 29.3
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 23.9
+            },
+            {
+              "country": "MOZ",
+              "status": "conflict",
+              "people_m": 22.3
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 21.9
+            },
+            {
+              "country": "AFG",
+              "status": "conflict",
+              "people_m": 18.1
+            }
+          ]
+        }
+      },
+      "total_capital_usd_bn_per_year": 52.6,
+      "share_of_world_gdp": 0.0005,
+      "share_of_world_military_spending": 0.018
+    },
+    "10y/scale2/decentralised/no_participation": {
+      "years": 10,
+      "scale": 2,
+      "option": "decentralised",
+      "participation": false,
+      "services": {
+        "basic_water": {
+          "unserved_m": 624,
+          "durably_served_m": 302,
+          "share_reached": 0.484,
+          "capital_usd_bn_per_year": 1.7,
+          "upkeep_usd_bn_per_year_at_end": 1.8,
+          "skilled_workers_needed_m": 0.03,
+          "all_workers_needed_m": 0.09,
+          "largest_remaining_gaps": [
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 59.6
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 45.7
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 18.5
+            },
+            {
+              "country": "SDN",
+              "status": "conflict",
+              "people_m": 12.8
+            },
+            {
+              "country": "IND",
+              "status": "other",
+              "people_m": 11.9
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 11.5
+            },
+            {
+              "country": "CHN",
+              "status": "other",
+              "people_m": 10.1
+            },
+            {
+              "country": "NER",
+              "status": "conflict",
+              "people_m": 9.9
+            }
+          ]
+        },
+        "safe_water": {
+          "unserved_m": 1917,
+          "durably_served_m": 668,
+          "share_reached": 0.348,
+          "capital_usd_bn_per_year": 6.9,
+          "upkeep_usd_bn_per_year_at_end": 7.1,
+          "skilled_workers_needed_m": 0.13,
+          "all_workers_needed_m": 0.39,
+          "largest_remaining_gaps": [
+            {
+              "country": "IDN",
+              "status": "other",
+              "people_m": 149.0
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 142.2
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 102.3
+            },
+            {
+              "country": "PAK",
+              "status": "other",
+              "people_m": 95.6
+            },
+            {
+              "country": "IND",
+              "status": "other",
+              "people_m": 95.4
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 86.5
+            },
+            {
+              "country": "MEX",
+              "status": "other",
+              "people_m": 52.4
+            },
+            {
+              "country": "BGD",
+              "status": "other",
+              "people_m": 41.5
+            }
+          ]
+        },
+        "basic_sanitation": {
+          "unserved_m": 1382,
+          "durably_served_m": 732,
+          "share_reached": 0.53,
+          "capital_usd_bn_per_year": 3.8,
+          "upkeep_usd_bn_per_year_at_end": 2.5,
+          "skilled_workers_needed_m": 0.07,
+          "all_workers_needed_m": 0.21,
+          "largest_remaining_gaps": [
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 98.5
+            },
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 86.3
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 75.0
+            },
+            {
+              "country": "IND",
+              "status": "other",
+              "people_m": 28.3
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 23.5
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 23.1
+            },
+            {
+              "country": "NER",
+              "status": "conflict",
+              "people_m": 18.6
+            },
+            {
+              "country": "MDG",
+              "status": "other",
+              "people_m": 17.8
+            }
+          ]
+        },
+        "clean_cooking": {
+          "unserved_m": 1923,
+          "durably_served_m": 1002,
+          "share_reached": 0.521,
+          "capital_usd_bn_per_year": 3.2,
+          "upkeep_usd_bn_per_year_at_end": 0.0,
+          "skilled_workers_needed_m": 0.06,
+          "all_workers_needed_m": 0.18,
+          "largest_remaining_gaps": [
+            {
+              "country": "NGA",
+              "status": "conflict",
+              "people_m": 123.0
+            },
+            {
+              "country": "ETH",
+              "status": "conflict",
+              "people_m": 97.6
+            },
+            {
+              "country": "COD",
+              "status": "conflict",
+              "people_m": 82.9
+            },
+            {
+              "country": "BGD",
+              "status": "other",
+              "people_m": 58.6
+            },
+            {
+              "country": "TZA",
+              "status": "other",
+              "people_m": 35.5
+            },
+            {
+              "country": "IND",
+              "status": "other",
+              "people_m": 32.6
+            },
+            {
+              "country": "UGA",
+              "status": "other",
+              "people_m": 30.4
+            },
+            {
+              "country": "PAK",
+              "status": "other",
+              "people_m": 29.5
+            }
+          ]
+        }
+      },
+      "total_capital_usd_bn_per_year": 15.6,
+      "share_of_world_gdp": 0.00015,
+      "share_of_world_military_spending": 0.005
+    }
+  },
+  "scale_needed_for_95pct": {
+    "5y/with_conflict_limits": {
+      "basic_water": 14.2,
+      "safe_water": 22.4,
+      "basic_sanitation": 11.8,
+      "clean_cooking": 10.8
+    },
+    "5y/if_conflict_and_fragility_lifted": {
+      "basic_water": 7.2,
+      "safe_water": 12.5,
+      "basic_sanitation": 7.0,
+      "clean_cooking": 6.5
+    },
+    "10y/with_conflict_limits": {
+      "basic_water": 7.1,
+      "safe_water": 11.2,
+      "basic_sanitation": 5.9,
+      "clean_cooking": 5.4
+    },
+    "10y/if_conflict_and_fragility_lifted": {
+      "basic_water": 3.6,
+      "safe_water": 6.2,
+      "basic_sanitation": 3.5,
+      "clean_cooking": 3.3
+    },
+    "15y/with_conflict_limits": {
+      "basic_water": 4.7,
+      "safe_water": 7.5,
+      "basic_sanitation": 3.9,
+      "clean_cooking": 3.6
+    },
+    "15y/if_conflict_and_fragility_lifted": {
+      "basic_water": 2.4,
+      "safe_water": 4.2,
+      "basic_sanitation": 2.3,
+      "clean_cooking": 2.2
+    }
+  }
+}
