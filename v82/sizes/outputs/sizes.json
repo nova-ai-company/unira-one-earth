@@ -1,0 +1,24 @@
+{
+  "energy_allowance": {
+    "france_home_energy_kwh_per_person_2024": 6213,
+    "electricity_kwh": 2202,
+    "gas_kwh": 1462,
+    "allowance_kwh_per_person_year_start": 4970.0,
+    "allowance_kwh_per_person_month_start": 414,
+    "target_kwh_after_renovation": 3000,
+    "cost_u_per_month_within_allowance_if_all_electric": 72.3,
+    "note": "Home energy only (heating, hot water, cooking, appliances). Essential travel is covered by free public transport for needs and a mobility allowance set by the Scientific Council."
+  },
+  "reserves": {
+    "spending_rush_extra_demand_months": 3.2,
+    "essential_goods_stock_months": 3,
+    "foreign_currency_months_of_essential_imports": 6,
+    "france_foreign_currency_reserve_meur": 119400
+  },
+  "pension": {
+    "base_u_month": 2500,
+    "per_year_worked_beyond_20_u": 50,
+    "max_u_month": 3750,
+    "note": "2,500 U (the needs-based retiree basket of v64) + 50 U per year worked beyond 20 years, up to 3,750 U; plus the retirement account (up to 120,000 U paid out from retirement); housing guaranteed; health and care free; case-by-case top-ups for disability or high care needs (rule 15)."
+  }
+}

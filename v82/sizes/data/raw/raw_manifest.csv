@@ -1,0 +1,2 @@
+file,dataset,url,retrieved_at_utc,sha256,bytes,license
+nrg_bal_c_households.json,nrg_bal_c,"https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nrg_bal_c?format=JSON&lang=EN&geo=FR&geo=EU27_2020&siec=TOTAL&siec=E7000&siec=G3000&siec=O4652XR5210B&nrg_bal=FC_OTH_HH_E&unit=GWH&sinceTimePeriod=2022",2026-11-04T05:56:19+00:00,a9c37df818613b8dac33a4e5c647383d1cd60beff96113aab0de2f243dab9732,4211,"Eurostat reuse policy (Commission Decision 2011/833/EU; CC BY 4.0)"

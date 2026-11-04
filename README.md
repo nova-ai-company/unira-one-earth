@@ -28,6 +28,8 @@ UNIRA is a proposal for one world federation of equal regions. It has a 30-hour 
 
 - **Missing designs and power (V7.9).** Decent-for-all first halves the time until every region has decent energy, health care and housing. A moderate money cap (1.5 years of salary) with protected home and retirement accounts keeps money stable. 17 new constitutional articles close five legal routes to the capture of power found by a 13-scenario stress test.
 
+- **Completing the economy (V8.2).** Ordinary goods follow orders and waiting lists (96% served within 3 months, nobody priced out). Hard jobs get hardship pay, shorter hours and better conditions. Investment puts maintenance first. A restaurant and a supermarket balance their accounts with UNIRA prices and salaries. Salaries converge across regions with needs guaranteed in kind from year 1 (target 20 years).
+
 These are tests of **physical feasibility under stated assumptions**, not forecasts. Every limitation is listed in the working paper and the research notes.
 
 ## Repository layout
@@ -52,6 +54,7 @@ These are tests of **physical feasibility under stated assumptions**, not foreca
 | `v77/` | Website, simulator and outside-review package |
 | `v78/` | AI / machine-learning planning of needed production: backtests, fairness, 30-year information test |
 | `v81/prices/` | Price calculator (Article 13): embodied hours × 146.4 U + resource surcharge, 62 product groups, examples |
+| `v82/` | Completing the economy: production signals, hard jobs, investment, restaurant and supermarket accounts, world money (option C), trade, resale, sizes, behaviour register |
 | `v80/pilot/` | Pilot plan: precedents (TZCLD, Marienthal, shorter-week trials), predictions, failure criteria, budget |
 | `v79/` | The missing designs (allocation formula, prices, desirable homes, money cap, innovation) and safeguards against concentrated power |
 | `docs/` | The published website (generated) |

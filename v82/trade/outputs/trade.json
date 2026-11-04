@@ -1,0 +1,127 @@
+{
+  "year": 2022,
+  "imports_meur": 664346,
+  "exports_meur": 924639,
+  "essential_imports_meur": 238799,
+  "essential_share_of_imports": 0.359,
+  "essential_imports_detail": {
+    "energy and raw materials (mining)": 81925,
+    "fuels": 31239,
+    "electricity and gas": 17980,
+    "medicines": 13234,
+    "farm products": 6063,
+    "food products": 25282,
+    "electronics (health, networks)": 31122,
+    "machinery (needs-first capacity)": 31954
+  },
+  "reserve_months": 6,
+  "reserve_meur": 119400,
+  "exports_cover_essential_imports_times": 3.87,
+  "largest_imports": [
+    {
+      "product": "CPA_B",
+      "label": "Mining and quarrying",
+      "imports_meur": 81925,
+      "imported_share_of_use": 0.935,
+      "u_per_euro": 2.59
+    },
+    {
+      "product": "CPA_C20",
+      "label": "Chemicals and chemical products",
+      "imports_meur": 60291,
+      "imported_share_of_use": 0.884,
+      "u_per_euro": 1.055
+    },
+    {
+      "product": "CPA_C24",
+      "label": "Basic metals",
+      "imports_meur": 33765,
+      "imported_share_of_use": 0.734,
+      "u_per_euro": 1.074
+    },
+    {
+      "product": "CPA_C30",
+      "label": "Other transport equipment",
+      "imports_meur": 33252,
+      "imported_share_of_use": 0.614,
+      "u_per_euro": 0.857
+    },
+    {
+      "product": "CPA_C28",
+      "label": "Machinery and equipment n.e.c.",
+      "imports_meur": 31954,
+      "imported_share_of_use": 0.817,
+      "u_per_euro": 1.632
+    },
+    {
+      "product": "CPA_C19",
+      "label": "Coke and refined petroleum products",
+      "imports_meur": 31239,
+      "imported_share_of_use": 0.557,
+      "u_per_euro": 2.59
+    },
+    {
+      "product": "CPA_C26",
+      "label": "Computer, electronic and optical products",
+      "imports_meur": 31122,
+      "imported_share_of_use": 0.894,
+      "u_per_euro": 1.292
+    },
+    {
+      "product": "CPA_C10-12",
+      "label": "Food, beverages and tobacco products",
+      "imports_meur": 25282,
+      "imported_share_of_use": 0.25,
+      "u_per_euro": 2.362
+    },
+    {
+      "product": "CPA_C29",
+      "label": "Motor vehicles, trailers and semi-trailers",
+      "imports_meur": 23957,
+      "imported_share_of_use": 0.647,
+      "u_per_euro": 1.146
+    },
+    {
+      "product": "CPA_C27",
+      "label": "Electrical equipment",
+      "imports_meur": 23690,
+      "imported_share_of_use": 0.813,
+      "u_per_euro": 1.559
+    },
+    {
+      "product": "CPA_C22",
+      "label": "Rubber and plastic products",
+      "imports_meur": 20706,
+      "imported_share_of_use": 0.548,
+      "u_per_euro": 1.572
+    },
+    {
+      "product": "CPA_C13-15",
+      "label": "Textiles, wearing apparel, leather and related products",
+      "imports_meur": 19513,
+      "imported_share_of_use": 0.761,
+      "u_per_euro": 2.279
+    },
+    {
+      "product": "CPA_N77",
+      "label": "Rental and leasing services",
+      "imports_meur": 18204,
+      "imported_share_of_use": 0.211,
+      "u_per_euro": 1.286
+    },
+    {
+      "product": "CPA_D",
+      "label": "Electricity, gas, steam and air conditioning",
+      "imports_meur": 17980,
+      "imported_share_of_use": 0.089,
+      "u_per_euro": 2.59
+    },
+    {
+      "product": "CPA_N80-82",
+      "label": "Security and investigation services; services to buildings and landscape; office administrative, office support and other business support services",
+      "imports_meur": 17602,
+      "imported_share_of_use": 0.159,
+      "u_per_euro": 3.262
+    }
+  ]
+}

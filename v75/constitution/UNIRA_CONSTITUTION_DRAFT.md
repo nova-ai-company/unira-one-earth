@@ -290,7 +290,7 @@ Surplus beyond a region's needs goes to the One Earth Fund for sharing.
 1. Before producing new, society maintains, repairs, renovates, reuses and converts what exists.
 2. Nothing is produced only to sustain sales. There is no waste and no overproduction.
 3. Whole-life environmental impacts are assessed.
-4. Each region keeps studied, rotated reserves against catastrophes.
+4. Each region keeps studied, rotated reserves against catastrophes: at least three months of essential goods (food, medicines, energy, materials for repair). *Evidence: a spending rush of a quarter of all free money would add about 3.2 months of goods to demand (V7.9, V8.2).*
 
 **Article 12 — One currency, the U.**
 1. One Earth has one digital currency, the U. There is no cash of any kind: no banknotes, no coins. Every payment is digital and made online.
@@ -318,6 +318,16 @@ Surplus beyond a region's needs goes to the One Earth Fund for sharing.
 
 *Basis: the ECB's digital euro design shows that a central digital currency can keep everyday payments private from the issuer (v79/power evidence row 37), and BIS Project Tourbillon shows that payer anonymity is technically feasible in a fully digital system (row 39). In Canada in 2022, accounts were frozen without a judge under emergency powers, and a court later found this violated the right against unreasonable search and seizure (row 27).*
 
+**Article 12b — Trade with countries outside One Earth.**
+1. Only One Earth trades with countries that have not joined, through a public Trade Office. Persons and enterprises buy imported goods in U, at the same fixed price as the same goods made inside One Earth.
+2. One Earth sells exports to non-members at fair world prices and keeps the foreign currency in one common account. Over five years, imports are paid for by exports, without new debt (Transitional provision T-4).
+3. Imports for needs come first: energy, medicines, food and the equipment for needs-first capacity (Article 10a).
+4. One Earth keeps a reserve of foreign currency covering at least six months of essential imports.
+5. The U is not traded on currency markets. Personal conversion into foreign currency is allowed for travel and family abroad, up to published limits.
+6. Trade with non-members is fair: no dumping and no hidden subsidies, and every contract is published in the Register (Article 33).
+
+*Evidence (V8.2, `v82/trade`): France imports 94% of its mining products and energy raw materials, 89% of its electronics and 88% of its chemicals. Essential imports were €239 billion in 2022, 36% of all imports; its exports (€925 billion) cover them 3.9 times, and a six-month reserve is about €119 billion.*
+
 **Article 13 — Fixed prices.**
 1. Prices of essentials are fixed permanently.
 2. They are set from the human work and resources each good embodies.
@@ -325,7 +335,8 @@ Surplus beyond a region's needs goes to the One Earth Fund for sharing.
 4. **New products.** The price of a new product is the hours of work it embodies, including all inputs, times the fixed price of one hour. It is set once, when the product is introduced, and published with its calculation.
 5. **The price of one hour is fixed forever.**
 6. **Energy for needs is cheap, and its price rises in steps.** Every person has an essential energy allowance for home electricity, heating, cooking and essential travel, set each year from measured needs by the Scientific Council.
-    - Within the allowance, electricity, gas and fuels cost only the work they embody, with no surcharge.
+    - The allowance starts at four-fifths of the region's average home energy use per person when it joins (in France about 5,000 kWh a year, about 414 kWh a month) and is lowered as homes are renovated, toward about 3,000 kWh. Essential travel is covered by free public transport for needs and a mobility allowance.
+    - Within the allowance, electricity, gas and fuels cost only the work they embody, with no surcharge (about 72 U a month for an all-electric home at the full allowance).
     - Up to one and a half times the allowance, half the resource surcharge applies.
     - Beyond that, the full resource surcharge applies.
     - **Energy used to grow, process and transport food is never surcharged**, so that food stays cheap everywhere. The same holds for energy used by health care, schools and public transport.
@@ -349,6 +360,12 @@ Surplus beyond a region's needs goes to the One Earth Fund for sharing.
 5. **Review.** If a sector stays short of workers for two years, its hardship step, hours and conditions are reviewed automatically.
 
 *Evidence: in a job-choice model of 20,000 people using France's sector sizes (V8.2, `v82/jobs`), paying only for knowledge left 87% of people in hard jobs there unwillingly. Hardship steps, shorter hours and work made 30% less hard together brought this to 46%, about the level of ordinary jobs, at the cost of a higher average multiplier (1.60 to 1.85) and about 9% more people in hard sectors. In France the hardest jobs to fill in 2025 were hotels and restaurants (4.5% vacancies), personal services, health and social care, and construction (Eurostat).*
+
+**Article 14b — Retirement.**
+1. Every retired person receives a pension of at least 2,500 U a month, plus 50 U a month for each year worked beyond twenty, up to 3,750 U.
+2. The retirement account of Article 17.4 is paid out on top, evenly from retirement.
+3. Housing, health care and care are guaranteed and free. Disability and high care needs receive case-by-case top-ups.
+4. The amounts are fixed by law and reviewed every five years against the cost of the needs basket.
 
 **Article 15 — Children.**
 1. Each child brings an allowance of 1,000 U a month, limited so that adult household income plus child allowance does not exceed 15,000 U.
@@ -458,6 +475,15 @@ Income, wealth and any offer to pay more are never taken into account.
 **11. Building to need.** Each region publishes waiting times and points thresholds for every zone each year. Where the average wait in a zone exceeds five years, the region builds more homes there and moves jobs and services towards other zones until waits fall.
 
 *Evidence: in a 30-year simulation of a city with 2.5 applicants per desirable home, points with a lottery housed 28% of high-need households within 5 years (0% for a queue), with no income gradient; bidding left the poorer half with almost nothing; the must-live-in rule cut empty desirable homes from 6–32% to under 0.5% (V7.9, `v79/housing`).*
+
+**Article 18b — Second-hand goods and resale.**
+1. Using goods again is encouraged (Article 11). Anyone may sell a used good through the public second-hand platform of the region.
+2. A used good is sold at most at its fixed price minus a published wear schedule for its kind (for example a fixed share per year of use). Higher prices, bidding and private auctions are not allowed.
+3. Goods obtained through a waiting list or an allocation may not be resold within one year, except back to the public pool at their worn value.
+4. No one may buy goods in order to resell them. Repeated resale beyond personal use is reviewed, and the margin goes to the One Earth Fund.
+5. Homes follow Article 18. Rare goods follow Article 13.8.
+
+*Basis: fixed prices with waiting lists invite resale at a premium, as in shortage economies; capped resale prices and minimum holding periods are used for allocated public housing (for example Singapore's minimum occupation periods, `v79/housing/evidence.csv`).*
 
 **Article 19 — Metering.** Energy, travel and data are always metered and paid per unit, never at a flat rate. Within the essential energy allowance (Article 13.6), each unit is paid at the hours price only.
 
