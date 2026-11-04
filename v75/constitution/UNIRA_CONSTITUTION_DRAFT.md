@@ -773,6 +773,15 @@ Income, wealth and any offer to pay more are never taken into account.
 
 ---
 
+**T-8. Equal salaries, built up within 20 years.**
+1. From the first year, every person in every member region receives their needs in kind: food, health care, education, a home and the essential energy allowance.
+2. Each region's salary scale in U starts at the level its own production can support and rises every year toward the full scale of Article 14, with **twenty years as the target**.
+3. Salaries never rise faster than the goods available to the region, its own production plus transfers from the One Earth Fund, so that money never empties the shelves.
+4. Each region's progress is published every year. A region behind the target receives priority for investment, training and technology from One Earth.
+
+*Evidence (V8.2, `v82/worldmoney`): world household consumption is about $11,500 per person against about $21,900 bought by the lowest UNIRA salary, so equal salaries on day one would ask for about twice what exists. A strict 20-year schedule would leave 19–39% of demand unmet in year 20; with clause 3 there are no shortages, the One Earth Fund transfers 15–20% of world goods, and the full scale is reached in 31–39 years with strong catch-up growth.*
+
+
 ### Notes for the author (not part of the text)
 - **Representation (agreed 2026-11-03).** 55%/65% double majority and a maximum seat share per region. The square-root weighting is added so that no pair of regions can block the world.
 - **Crime and stress.** The evidence links violence and stress to poverty, insecurity, inequality and war, which this Constitution removes or reduces. It does not support a claim that crime disappears, so independent justice is kept (Articles 8, 32).

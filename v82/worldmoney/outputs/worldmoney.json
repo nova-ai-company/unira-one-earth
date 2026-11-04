@@ -1,0 +1,1868 @@
+{
+  "regions": 164,
+  "full_level_cons_pc_ppp": 25448,
+  "world_cons_pc_ppp_2023": 11469,
+  "start_mean_salary_factor": 0.398,
+  "scenarios": {
+    "historical_catch_up/fixed_20y_schedule": {
+      "year_10": {
+        "year": 10,
+        "world_supply_vs_demand": 0.7618937046917501,
+        "world_shortage_share": 0.2381062953082499,
+        "fund_transfers_share_of_world_supply": 0.44525263015602823,
+        "people_at_full_scale_share": 0.10594023718206973,
+        "mean_salary_factor_pop_weighted": 0.6917068089452715
+      },
+      "year_20": {
+        "year": 20,
+        "world_supply_vs_demand": 0.61371077529451,
+        "world_shortage_share": 0.38628922470549,
+        "fund_transfers_share_of_world_supply": 0.7716555381786849,
+        "people_at_full_scale_share": 1.0,
+        "mean_salary_factor_pop_weighted": 1.0
+      },
+      "max_world_shortage": 0.38628922470549,
+      "year_all_at_full_scale": 20,
+      "path": [
+        {
+          "year": 0,
+          "world_supply_vs_demand": 1.133420296309367,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 5.311139350112004e-19,
+          "people_at_full_scale_share": 0.10973200431007057,
+          "mean_salary_factor_pop_weighted": 0.3976210772655573
+        },
+        {
+          "year": 1,
+          "world_supply_vs_demand": 1.0738821797826306,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.050778891077100485,
+          "people_at_full_scale_share": 0.10933036738558799,
+          "mean_salary_factor_pop_weighted": 0.42631036591259447
+        },
+        {
+          "year": 2,
+          "world_supply_vs_demand": 1.021762807589632,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.10004532334934917,
+          "people_at_full_scale_share": 0.1089339826983055,
+          "mean_salary_factor_pop_weighted": 0.45516785657712455
+        },
+        {
+          "year": 3,
+          "world_supply_vs_demand": 0.9757938394137118,
+          "world_shortage_share": 0.024206160586288217,
+          "fund_transfers_share_of_world_supply": 0.14782804494252333,
+          "people_at_full_scale_share": 0.10854274789161618,
+          "mean_salary_factor_pop_weighted": 0.48419027130593656
+        },
+        {
+          "year": 4,
+          "world_supply_vs_demand": 0.9349183015855063,
+          "world_shortage_share": 0.06508169841449374,
+          "fund_transfers_share_of_world_supply": 0.19423214742174422,
+          "people_at_full_scale_share": 0.10815656325140749,
+          "mean_salary_factor_pop_weighted": 0.5133744167712628
+        },
+        {
+          "year": 5,
+          "world_supply_vs_demand": 0.898356690251333,
+          "world_shortage_share": 0.10164330974866698,
+          "fund_transfers_share_of_world_supply": 0.23928681761313203,
+          "people_at_full_scale_share": 0.10777533162133317,
+          "mean_salary_factor_pop_weighted": 0.5427171815573699
+        },
+        {
+          "year": 6,
+          "world_supply_vs_demand": 0.865480257465052,
+          "world_shortage_share": 0.13451974253494803,
+          "fund_transfers_share_of_world_supply": 0.2830222702505642,
+          "people_at_full_scale_share": 0.10739895832132414,
+          "mean_salary_factor_pop_weighted": 0.5722155335508881
+        },
+        {
+          "year": 7,
+          "world_supply_vs_demand": 0.8357802277728745,
+          "world_shortage_share": 0.16421977222712547,
+          "fund_transfers_share_of_world_supply": 0.3254631535288955,
+          "people_at_full_scale_share": 0.1070273510691952,
+          "mean_salary_factor_pop_weighted": 0.6018665174302783
+        },
+        {
+          "year": 8,
+          "world_supply_vs_demand": 0.8088376184123456,
+          "world_shortage_share": 0.19116238158765442,
+          "fund_transfers_share_of_world_supply": 0.3666336251726468,
+          "people_at_full_scale_share": 0.10666041990521119,
+          "mean_salary_factor_pop_weighted": 0.631667252250075
+        },
+        {
+          "year": 9,
+          "world_supply_vs_demand": 0.7843056276180415,
+          "world_shortage_share": 0.21569437238195854,
+          "fund_transfers_share_of_world_supply": 0.40655586433056645,
+          "people_at_full_scale_share": 0.1062980771194829,
+          "mean_salary_factor_pop_weighted": 0.6616149291157516
+        },
+        {
+          "year": 10,
+          "world_supply_vs_demand": 0.7618937046917501,
+          "world_shortage_share": 0.2381062953082499,
+          "fund_transfers_share_of_world_supply": 0.44525263015602823,
+          "people_at_full_scale_share": 0.10594023718206973,
+          "mean_salary_factor_pop_weighted": 0.6917068089452715
+        },
+        {
+          "year": 11,
+          "world_supply_vs_demand": 0.7413534918385262,
+          "world_shortage_share": 0.25864650816147383,
+          "fund_transfers_share_of_world_supply": 0.48275100011861066,
+          "people_at_full_scale_share": 0.10558681667567207,
+          "mean_salary_factor_pop_weighted": 0.721940220313574
+        },
+        {
+          "year": 12,
+          "world_supply_vs_demand": 0.7224648472238261,
+          "world_shortage_share": 0.2775351527761739,
+          "fund_transfers_share_of_world_supply": 0.5191008151771432,
+          "people_at_full_scale_share": 0.1052377342308024,
+          "mean_salary_factor_pop_weighted": 0.7523125573764357
+        },
+        {
+          "year": 13,
+          "world_supply_vs_demand": 0.7050509412471324,
+          "world_shortage_share": 0.2949490587528676,
+          "fund_transfers_share_of_world_supply": 0.5543280068943656,
+          "people_at_full_scale_share": 0.10489291046332878,
+          "mean_salary_factor_pop_weighted": 0.7828212778703147
+        },
+        {
+          "year": 14,
+          "world_supply_vs_demand": 0.6889599496279512,
+          "world_shortage_share": 0.31104005037204885,
+          "fund_transfers_share_of_world_supply": 0.588452960774753,
+          "people_at_full_scale_share": 0.10455226791429051,
+          "mean_salary_factor_pop_weighted": 0.813463901184955
+        },
+        {
+          "year": 15,
+          "world_supply_vs_demand": 0.6740588507775406,
+          "world_shortage_share": 0.3259411492224594,
+          "fund_transfers_share_of_world_supply": 0.6214988264749608,
+          "people_at_full_scale_share": 0.10421984907325063,
+          "mean_salary_factor_pop_weighted": 0.8442380065056817
+        },
+        {
+          "year": 16,
+          "world_supply_vs_demand": 0.6602320114944563,
+          "world_shortage_share": 0.3397679885055437,
+          "fund_transfers_share_of_world_supply": 0.653488932003582,
+          "people_at_full_scale_share": 0.1038873209975956,
+          "mean_salary_factor_pop_weighted": 0.8751412310224636
+        },
+        {
+          "year": 17,
+          "world_supply_vs_demand": 0.6473796996296403,
+          "world_shortage_share": 0.35262030037035974,
+          "fund_transfers_share_of_world_supply": 0.6844422260252684,
+          "people_at_full_scale_share": 0.10355875301867631,
+          "mean_salary_factor_pop_weighted": 0.9061712682029611
+        },
+        {
+          "year": 18,
+          "world_supply_vs_demand": 0.6354122815631028,
+          "world_shortage_share": 0.3645877184368972,
+          "fund_transfers_share_of_world_supply": 0.7143831302420627,
+          "people_at_full_scale_share": 0.1032340748136888,
+          "mean_salary_factor_pop_weighted": 0.9373258661269093
+        },
+        {
+          "year": 19,
+          "world_supply_vs_demand": 0.6242114530964161,
+          "world_shortage_share": 0.3757885469035839,
+          "fund_transfers_share_of_world_supply": 0.743445925680397,
+          "people_at_full_scale_share": 0.10291321771507363,
+          "mean_salary_factor_pop_weighted": 0.9686028258793054
+        },
+        {
+          "year": 20,
+          "world_supply_vs_demand": 0.61371077529451,
+          "world_shortage_share": 0.38628922470549,
+          "fund_transfers_share_of_world_supply": 0.7716555381786849,
+          "people_at_full_scale_share": 1.0,
+          "mean_salary_factor_pop_weighted": 1.0
+        }
+      ]
+    },
+    "historical_catch_up/capacity_rule": {
+      "year_10": {
+        "year": 10,
+        "world_supply_vs_demand": 1.0000000000000007,
+        "world_shortage_share": 0.0,
+        "fund_transfers_share_of_world_supply": 0.1623369265912925,
+        "people_at_full_scale_share": 0.10594023718206973,
+        "mean_salary_factor_pop_weighted": 0.5270070632278211
+      },
+      "year_20": {
+        "year": 20,
+        "world_supply_vs_demand": 1.0000000000000004,
+        "world_shortage_share": 0.0,
+        "fund_transfers_share_of_world_supply": 0.19961813606013254,
+        "people_at_full_scale_share": 0.10259210888647276,
+        "mean_salary_factor_pop_weighted": 0.6137107752945099
+      },
+      "max_world_shortage": 0.0,
+      "year_all_at_full_scale": null,
+      "path": [
+        {
+          "year": 0,
+          "world_supply_vs_demand": 1.133420296309367,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 5.311139350112004e-19,
+          "people_at_full_scale_share": 0.10973200431007057,
+          "mean_salary_factor_pop_weighted": 0.3976210772655573
+        },
+        {
+          "year": 1,
+          "world_supply_vs_demand": 1.073882179782631,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.050778891077099965,
+          "people_at_full_scale_share": 0.10933036738558799,
+          "mean_salary_factor_pop_weighted": 0.42631036591259425
+        },
+        {
+          "year": 2,
+          "world_supply_vs_demand": 1.0217628075896326,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.10004532334934854,
+          "people_at_full_scale_share": 0.1089339826983055,
+          "mean_salary_factor_pop_weighted": 0.4551678565771242
+        },
+        {
+          "year": 3,
+          "world_supply_vs_demand": 1.0000000000000002,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.12665907962478248,
+          "people_at_full_scale_share": 0.10854274789161618,
+          "mean_salary_factor_pop_weighted": 0.47246988384438654
+        },
+        {
+          "year": 4,
+          "world_supply_vs_demand": 1.0,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.1322008019039244,
+          "people_at_full_scale_share": 0.10815656325140749,
+          "mean_salary_factor_pop_weighted": 0.47996313780523897
+        },
+        {
+          "year": 5,
+          "world_supply_vs_demand": 1.0000000000000002,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.13788625259165072,
+          "people_at_full_scale_share": 0.10777533162133317,
+          "mean_salary_factor_pop_weighted": 0.4875536109664107
+        },
+        {
+          "year": 6,
+          "world_supply_vs_demand": 1.0000000000000002,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.1437319698242511,
+          "people_at_full_scale_share": 0.10739895832132414,
+          "mean_salary_factor_pop_weighted": 0.4952412473031246
+        },
+        {
+          "year": 7,
+          "world_supply_vs_demand": 1.0000000000000002,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.14902977307899026,
+          "people_at_full_scale_share": 0.1070273510691952,
+          "mean_salary_factor_pop_weighted": 0.5030281350267448
+        },
+        {
+          "year": 8,
+          "world_supply_vs_demand": 1.0000000000000002,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.153892272591914,
+          "people_at_full_scale_share": 0.10666041990521119,
+          "mean_salary_factor_pop_weighted": 0.5109162359390208
+        },
+        {
+          "year": 9,
+          "world_supply_vs_demand": 1.0,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.15827285564045784,
+          "people_at_full_scale_share": 0.1062980771194829,
+          "mean_salary_factor_pop_weighted": 0.5189083122215955
+        },
+        {
+          "year": 10,
+          "world_supply_vs_demand": 1.0000000000000007,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.1623369265912925,
+          "people_at_full_scale_share": 0.10594023718206973,
+          "mean_salary_factor_pop_weighted": 0.5270070632278211
+        },
+        {
+          "year": 11,
+          "world_supply_vs_demand": 1.0000000000000002,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.16612043242750354,
+          "people_at_full_scale_share": 0.10558681667567207,
+          "mean_salary_factor_pop_weighted": 0.5352129032281427
+        },
+        {
+          "year": 12,
+          "world_supply_vs_demand": 1.0000000000000002,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.1707109065522521,
+          "people_at_full_scale_share": 0.1052377342308024,
+          "mean_salary_factor_pop_weighted": 0.5435193768295324
+        },
+        {
+          "year": 13,
+          "world_supply_vs_demand": 1.0000000000000007,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.17529926433989576,
+          "people_at_full_scale_share": 0.10489291046332878,
+          "mean_salary_factor_pop_weighted": 0.5519288787907481
+        },
+        {
+          "year": 14,
+          "world_supply_vs_demand": 1.0,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.17957330133197016,
+          "people_at_full_scale_share": 0.10455226791429051,
+          "mean_salary_factor_pop_weighted": 0.5604440483845432
+        },
+        {
+          "year": 15,
+          "world_supply_vs_demand": 1.0000000000000002,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.18356360905377592,
+          "people_at_full_scale_share": 0.10421573099188979,
+          "mean_salary_factor_pop_weighted": 0.5690661004479414
+        },
+        {
+          "year": 16,
+          "world_supply_vs_demand": 1.0000000000000002,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.18726871919736446,
+          "people_at_full_scale_share": 0.10388322591556845,
+          "mean_salary_factor_pop_weighted": 0.5777962552996957
+        },
+        {
+          "year": 17,
+          "world_supply_vs_demand": 1.0000000000000004,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.19071310491961813,
+          "people_at_full_scale_share": 0.10355468066208241,
+          "mean_salary_factor_pop_weighted": 0.586636883422243
+        },
+        {
+          "year": 18,
+          "world_supply_vs_demand": 1.0000000000000009,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.19389452006259147,
+          "people_at_full_scale_share": 0.1032300249134916,
+          "mean_salary_factor_pop_weighted": 0.5955883671638103
+        },
+        {
+          "year": 19,
+          "world_supply_vs_demand": 1.0000000000000009,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.19685486938042718,
+          "people_at_full_scale_share": 0.10290919000698594,
+          "mean_salary_factor_pop_weighted": 0.6046129774154156
+        },
+        {
+          "year": 20,
+          "world_supply_vs_demand": 1.0000000000000004,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.19961813606013254,
+          "people_at_full_scale_share": 0.10259210888647276,
+          "mean_salary_factor_pop_weighted": 0.6137107752945099
+        },
+        {
+          "year": 21,
+          "world_supply_vs_demand": 1.0000000000000007,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.20063299207352756,
+          "people_at_full_scale_share": 0.10227871605585313,
+          "mean_salary_factor_pop_weighted": 0.6228773683974723
+        },
+        {
+          "year": 22,
+          "world_supply_vs_demand": 1.0000000000000002,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.2015565326139606,
+          "people_at_full_scale_share": 0.10196894753391986,
+          "mean_salary_factor_pop_weighted": 0.6321100936955544
+        },
+        {
+          "year": 23,
+          "world_supply_vs_demand": 1.0000000000000004,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.20240096268078614,
+          "people_at_full_scale_share": 0.10166274081081071,
+          "mean_salary_factor_pop_weighted": 0.6414082415495042
+        },
+        {
+          "year": 24,
+          "world_supply_vs_demand": 1.0000000000000002,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.20318283907895202,
+          "people_at_full_scale_share": 0.10136003480595551,
+          "mean_salary_factor_pop_weighted": 0.6507670327072128
+        },
+        {
+          "year": 25,
+          "world_supply_vs_demand": 1.0000000000000009,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.20387213261291967,
+          "people_at_full_scale_share": 0.10106076982745722,
+          "mean_salary_factor_pop_weighted": 0.660184623859771
+        },
+        {
+          "year": 26,
+          "world_supply_vs_demand": 1.0000000000000002,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.20448271845597832,
+          "people_at_full_scale_share": 0.10076488753285051,
+          "mean_salary_factor_pop_weighted": 0.6696600740757909
+        },
+        {
+          "year": 27,
+          "world_supply_vs_demand": 1.0000000000000004,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.2050438106691972,
+          "people_at_full_scale_share": 0.10047233089118332,
+          "mean_salary_factor_pop_weighted": 0.679191021042815
+        },
+        {
+          "year": 28,
+          "world_supply_vs_demand": 1.0,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.2050599431389342,
+          "people_at_full_scale_share": 0.10047233089118332,
+          "mean_salary_factor_pop_weighted": 0.6905068239793098
+        },
+        {
+          "year": 29,
+          "world_supply_vs_demand": 1.0000000000000009,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.20499488416440836,
+          "people_at_full_scale_share": 0.10047233089118332,
+          "mean_salary_factor_pop_weighted": 0.7018850391198783
+        },
+        {
+          "year": 30,
+          "world_supply_vs_demand": 1.0000000000000007,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.2048588325474199,
+          "people_at_full_scale_share": 0.10047233089118332,
+          "mean_salary_factor_pop_weighted": 0.7133234691205935
+        },
+        {
+          "year": 31,
+          "world_supply_vs_demand": 1.0000000000000007,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.20470289927303328,
+          "people_at_full_scale_share": 0.10047233089118332,
+          "mean_salary_factor_pop_weighted": 0.7248193182449707
+        },
+        {
+          "year": 32,
+          "world_supply_vs_demand": 1.0000000000000004,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.20452021602720427,
+          "people_at_full_scale_share": 0.10047233089118332,
+          "mean_salary_factor_pop_weighted": 0.7363705761417778
+        },
+        {
+          "year": 33,
+          "world_supply_vs_demand": 1.0000000000000007,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.20433715037214178,
+          "people_at_full_scale_share": 0.10047233089118332,
+          "mean_salary_factor_pop_weighted": 0.747975624371258
+        },
+        {
+          "year": 34,
+          "world_supply_vs_demand": 1.0000000000000004,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.20413907306522955,
+          "people_at_full_scale_share": 0.10047233089118332,
+          "mean_salary_factor_pop_weighted": 0.7596326062363954
+        },
+        {
+          "year": 35,
+          "world_supply_vs_demand": 1.0000000000000004,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.20393291468176944,
+          "people_at_full_scale_share": 0.10047233089118332,
+          "mean_salary_factor_pop_weighted": 0.7713395757735179
+        },
+        {
+          "year": 36,
+          "world_supply_vs_demand": 1.0000000000000002,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.20362902078454462,
+          "people_at_full_scale_share": 0.10047233089118332,
+          "mean_salary_factor_pop_weighted": 0.783093639761103
+        },
+        {
+          "year": 37,
+          "world_supply_vs_demand": 1.0000000000000002,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.20319779656190126,
+          "people_at_full_scale_share": 0.10047233089118332,
+          "mean_salary_factor_pop_weighted": 0.7948938320392563
+        },
+        {
+          "year": 38,
+          "world_supply_vs_demand": 1.0,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.2026073055387392,
+          "people_at_full_scale_share": 0.10047233089118332,
+          "mean_salary_factor_pop_weighted": 0.8067387412478738
+        },
+        {
+          "year": 39,
+          "world_supply_vs_demand": 1.0000000000000007,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.20203163190188353,
+          "people_at_full_scale_share": 0.10047233089118332,
+          "mean_salary_factor_pop_weighted": 0.8186266074091259
+        },
+        {
+          "year": 40,
+          "world_supply_vs_demand": 1.0000000000000004,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.20146230506986193,
+          "people_at_full_scale_share": 0.10047233089118332,
+          "mean_salary_factor_pop_weighted": 0.8305558112750505
+        },
+        {
+          "year": 41,
+          "world_supply_vs_demand": 1.0000000000000009,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.20089396705304038,
+          "people_at_full_scale_share": 0.10047233089118332,
+          "mean_salary_factor_pop_weighted": 0.8425250071633237
+        },
+        {
+          "year": 42,
+          "world_supply_vs_demand": 1.0000000000000002,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.20033692960579125,
+          "people_at_full_scale_share": 0.10047233089118332,
+          "mean_salary_factor_pop_weighted": 0.8545355983512682
+        },
+        {
+          "year": 43,
+          "world_supply_vs_demand": 1.0000000000000004,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.19979807955331297,
+          "people_at_full_scale_share": 0.10047233089118332,
+          "mean_salary_factor_pop_weighted": 0.8665871206686162
+        },
+        {
+          "year": 44,
+          "world_supply_vs_demand": 1.0,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.19926817852766796,
+          "people_at_full_scale_share": 0.10047233089118332,
+          "mean_salary_factor_pop_weighted": 0.8786771697604728
+        },
+        {
+          "year": 45,
+          "world_supply_vs_demand": 1.0000000000000002,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.19916794028523935,
+          "people_at_full_scale_share": 0.10047233089118332,
+          "mean_salary_factor_pop_weighted": 0.8908042948124358
+        },
+        {
+          "year": 46,
+          "world_supply_vs_demand": 1.0000000000000004,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.1989865846955268,
+          "people_at_full_scale_share": 0.10047233089118332,
+          "mean_salary_factor_pop_weighted": 0.9029699305843948
+        },
+        {
+          "year": 47,
+          "world_supply_vs_demand": 1.0,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.19865555461724788,
+          "people_at_full_scale_share": 0.10047233089118332,
+          "mean_salary_factor_pop_weighted": 0.9151738763102539
+        },
+        {
+          "year": 48,
+          "world_supply_vs_demand": 1.0000000000000002,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.19834834141693114,
+          "people_at_full_scale_share": 0.10047233089118332,
+          "mean_salary_factor_pop_weighted": 0.9274161547082773
+        },
+        {
+          "year": 49,
+          "world_supply_vs_demand": 1.0000000000000004,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.1980134902104913,
+          "people_at_full_scale_share": 0.10047233089118332,
+          "mean_salary_factor_pop_weighted": 0.9396989421797379
+        },
+        {
+          "year": 50,
+          "world_supply_vs_demand": 1.0,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.19771376319778725,
+          "people_at_full_scale_share": 0.10047233089118332,
+          "mean_salary_factor_pop_weighted": 0.9520249212958879
+        }
+      ]
+    },
+    "strong_catch_up/fixed_20y_schedule": {
+      "year_10": {
+        "year": 10,
+        "world_supply_vs_demand": 0.8332124592087073,
+        "world_shortage_share": 0.16678754079129265,
+        "fund_transfers_share_of_world_supply": 0.32376282658310507,
+        "people_at_full_scale_share": 0.10594023718206973,
+        "mean_salary_factor_pop_weighted": 0.6917068089452715
+      },
+      "year_20": {
+        "year": 20,
+        "world_supply_vs_demand": 0.7163244200148338,
+        "world_shortage_share": 0.28367557998516624,
+        "fund_transfers_share_of_world_supply": 0.5191475979813919,
+        "people_at_full_scale_share": 1.0,
+        "mean_salary_factor_pop_weighted": 1.0
+      },
+      "max_world_shortage": 0.28367557998516624,
+      "year_all_at_full_scale": 20,
+      "path": [
+        {
+          "year": 0,
+          "world_supply_vs_demand": 1.133420296309367,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 5.311139350112004e-19,
+          "people_at_full_scale_share": 0.10973200431007057,
+          "mean_salary_factor_pop_weighted": 0.3976210772655573
+        },
+        {
+          "year": 1,
+          "world_supply_vs_demand": 1.0839921622734223,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.04150015689057701,
+          "people_at_full_scale_share": 0.10933036738558799,
+          "mean_salary_factor_pop_weighted": 0.42631036591259447
+        },
+        {
+          "year": 2,
+          "world_supply_vs_demand": 1.0411707613638372,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.08050087800472282,
+          "people_at_full_scale_share": 0.1089339826983055,
+          "mean_salary_factor_pop_weighted": 0.45516785657712455
+        },
+        {
+          "year": 3,
+          "world_supply_vs_demand": 1.0036128690369224,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.11733455514800681,
+          "people_at_full_scale_share": 0.10854274789161618,
+          "mean_salary_factor_pop_weighted": 0.48419027130593656
+        },
+        {
+          "year": 4,
+          "world_supply_vs_demand": 0.9704258112292365,
+          "world_shortage_share": 0.029574188770763454,
+          "fund_transfers_share_of_world_supply": 0.15214941645881108,
+          "people_at_full_scale_share": 0.10815656325140749,
+          "mean_salary_factor_pop_weighted": 0.5133744167712628
+        },
+        {
+          "year": 5,
+          "world_supply_vs_demand": 0.9409451023695532,
+          "world_shortage_share": 0.0590548976304468,
+          "fund_transfers_share_of_world_supply": 0.18503517800406413,
+          "people_at_full_scale_share": 0.10777533162133317,
+          "mean_salary_factor_pop_weighted": 0.5427171815573699
+        },
+        {
+          "year": 6,
+          "world_supply_vs_demand": 0.9146428677129944,
+          "world_shortage_share": 0.08535713228700559,
+          "fund_transfers_share_of_world_supply": 0.2160694218531535,
+          "people_at_full_scale_share": 0.10739895832132414,
+          "mean_salary_factor_pop_weighted": 0.5722155335508881
+        },
+        {
+          "year": 7,
+          "world_supply_vs_demand": 0.8910810393113354,
+          "world_shortage_share": 0.10891896068866458,
+          "fund_transfers_share_of_world_supply": 0.2453320000261665,
+          "people_at_full_scale_share": 0.1070273510691952,
+          "mean_salary_factor_pop_weighted": 0.6018665174302783
+        },
+        {
+          "year": 8,
+          "world_supply_vs_demand": 0.8698425422704381,
+          "world_shortage_share": 0.1301574577295619,
+          "fund_transfers_share_of_world_supply": 0.2729837425003411,
+          "people_at_full_scale_share": 0.10666041990521119,
+          "mean_salary_factor_pop_weighted": 0.631667252250075
+        },
+        {
+          "year": 9,
+          "world_supply_vs_demand": 0.8506348462114847,
+          "world_shortage_share": 0.14936515378851534,
+          "fund_transfers_share_of_world_supply": 0.29910327145627724,
+          "people_at_full_scale_share": 0.1062980771194829,
+          "mean_salary_factor_pop_weighted": 0.6616149291157516
+        },
+        {
+          "year": 10,
+          "world_supply_vs_demand": 0.8332124592087073,
+          "world_shortage_share": 0.16678754079129265,
+          "fund_transfers_share_of_world_supply": 0.32376282658310507,
+          "people_at_full_scale_share": 0.10594023718206973,
+          "mean_salary_factor_pop_weighted": 0.6917068089452715
+        },
+        {
+          "year": 11,
+          "world_supply_vs_demand": 0.8173808329415458,
+          "world_shortage_share": 0.18261916705845416,
+          "fund_transfers_share_of_world_supply": 0.3470189670361655,
+          "people_at_full_scale_share": 0.10558681667567207,
+          "mean_salary_factor_pop_weighted": 0.721940220313574
+        },
+        {
+          "year": 12,
+          "world_supply_vs_demand": 0.8028432784654808,
+          "world_shortage_share": 0.19715672153451924,
+          "fund_transfers_share_of_world_supply": 0.3691479310457821,
+          "people_at_full_scale_share": 0.1052377342308024,
+          "mean_salary_factor_pop_weighted": 0.7523125573764357
+        },
+        {
+          "year": 13,
+          "world_supply_vs_demand": 0.7893999303633128,
+          "world_shortage_share": 0.2106000696366872,
+          "fund_transfers_share_of_world_supply": 0.39031376763076364,
+          "people_at_full_scale_share": 0.10489291046332878,
+          "mean_salary_factor_pop_weighted": 0.7828212778703147
+        },
+        {
+          "year": 14,
+          "world_supply_vs_demand": 0.7769105840975933,
+          "world_shortage_share": 0.22308941590240672,
+          "fund_transfers_share_of_world_supply": 0.41061940655528695,
+          "people_at_full_scale_share": 0.10455226791429051,
+          "mean_salary_factor_pop_weighted": 0.813463901184955
+        },
+        {
+          "year": 15,
+          "world_supply_vs_demand": 0.7652495548025597,
+          "world_shortage_share": 0.23475044519744026,
+          "fund_transfers_share_of_world_supply": 0.43016675344122146,
+          "people_at_full_scale_share": 0.10421984907325063,
+          "mean_salary_factor_pop_weighted": 0.8442380065056817
+        },
+        {
+          "year": 16,
+          "world_supply_vs_demand": 0.7543116450284302,
+          "world_shortage_share": 0.24568835497156982,
+          "fund_transfers_share_of_world_supply": 0.44904658892847277,
+          "people_at_full_scale_share": 0.1038873209975956,
+          "mean_salary_factor_pop_weighted": 0.8751412310224636
+        },
+        {
+          "year": 17,
+          "world_supply_vs_demand": 0.7440166981565419,
+          "world_shortage_share": 0.2559833018434581,
+          "fund_transfers_share_of_world_supply": 0.4673257876148139,
+          "people_at_full_scale_share": 0.10355875301867631,
+          "mean_salary_factor_pop_weighted": 0.9061712682029611
+        },
+        {
+          "year": 18,
+          "world_supply_vs_demand": 0.7342915217719721,
+          "world_shortage_share": 0.2657084782280279,
+          "fund_transfers_share_of_world_supply": 0.4850694061026197,
+          "people_at_full_scale_share": 0.1032340748136888,
+          "mean_salary_factor_pop_weighted": 0.9373258661269093
+        },
+        {
+          "year": 19,
+          "world_supply_vs_demand": 0.7250757877984932,
+          "world_shortage_share": 0.27492421220150676,
+          "fund_transfers_share_of_world_supply": 0.5023292380365273,
+          "people_at_full_scale_share": 0.10291321771507363,
+          "mean_salary_factor_pop_weighted": 0.9686028258793054
+        },
+        {
+          "year": 20,
+          "world_supply_vs_demand": 0.7163244200148338,
+          "world_shortage_share": 0.28367557998516624,
+          "fund_transfers_share_of_world_supply": 0.5191475979813919,
+          "people_at_full_scale_share": 1.0,
+          "mean_salary_factor_pop_weighted": 1.0
+        }
+      ]
+    },
+    "strong_catch_up/capacity_rule": {
+      "year_10": {
+        "year": 10,
+        "world_supply_vs_demand": 1.0000000000000007,
+        "world_shortage_share": 0.0,
+        "fund_transfers_share_of_world_supply": 0.15168464636529105,
+        "people_at_full_scale_share": 0.10594023718206973,
+        "mean_salary_factor_pop_weighted": 0.5763387313326968
+      },
+      "year_20": {
+        "year": 20,
+        "world_supply_vs_demand": 1.0000000000000002,
+        "world_shortage_share": 0.0,
+        "fund_transfers_share_of_world_supply": 0.1739550795105538,
+        "people_at_full_scale_share": 0.10259210888647276,
+        "mean_salary_factor_pop_weighted": 0.7163244200148335
+      },
+      "max_world_shortage": 0.0,
+      "year_all_at_full_scale": 39,
+      "path": [
+        {
+          "year": 0,
+          "world_supply_vs_demand": 1.133420296309367,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 5.311139350112004e-19,
+          "people_at_full_scale_share": 0.10973200431007057,
+          "mean_salary_factor_pop_weighted": 0.3976210772655573
+        },
+        {
+          "year": 1,
+          "world_supply_vs_demand": 1.083992162273423,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.04150015689057654,
+          "people_at_full_scale_share": 0.10933036738558799,
+          "mean_salary_factor_pop_weighted": 0.42631036591259425
+        },
+        {
+          "year": 2,
+          "world_supply_vs_demand": 1.041170761363838,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.08050087800472225,
+          "people_at_full_scale_share": 0.1089339826983055,
+          "mean_salary_factor_pop_weighted": 0.4551678565771242
+        },
+        {
+          "year": 3,
+          "world_supply_vs_demand": 1.003612869036923,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.11733455514800625,
+          "people_at_full_scale_share": 0.10854274789161618,
+          "mean_salary_factor_pop_weighted": 0.4841902713059363
+        },
+        {
+          "year": 4,
+          "world_supply_vs_demand": 1.0000000000000004,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.12697087307098587,
+          "people_at_full_scale_share": 0.10815656325140749,
+          "mean_salary_factor_pop_weighted": 0.4981917848595887
+        },
+        {
+          "year": 5,
+          "world_supply_vs_demand": 1.0,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.13261544131164663,
+          "people_at_full_scale_share": 0.10777533162133317,
+          "mean_salary_factor_pop_weighted": 0.5106670739582149
+        },
+        {
+          "year": 6,
+          "world_supply_vs_demand": 1.0000000000000002,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.13756754112527342,
+          "people_at_full_scale_share": 0.10739895832132414,
+          "mean_salary_factor_pop_weighted": 0.5233728565569052
+        },
+        {
+          "year": 7,
+          "world_supply_vs_demand": 1.0,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.1417741963832983,
+          "people_at_full_scale_share": 0.1070273510691952,
+          "mean_salary_factor_pop_weighted": 0.5363118418784664
+        },
+        {
+          "year": 8,
+          "world_supply_vs_demand": 1.0000000000000004,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.1453917810401821,
+          "people_at_full_scale_share": 0.10666041990521119,
+          "mean_salary_factor_pop_weighted": 0.5494510485661871
+        },
+        {
+          "year": 9,
+          "world_supply_vs_demand": 1.0000000000000002,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.1485108185232847,
+          "people_at_full_scale_share": 0.1062980771194829,
+          "mean_salary_factor_pop_weighted": 0.5627927134795996
+        },
+        {
+          "year": 10,
+          "world_supply_vs_demand": 1.0000000000000007,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.15168464636529105,
+          "people_at_full_scale_share": 0.10594023718206973,
+          "mean_salary_factor_pop_weighted": 0.5763387313326968
+        },
+        {
+          "year": 11,
+          "world_supply_vs_demand": 1.0000000000000002,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.1554059538304072,
+          "people_at_full_scale_share": 0.10558681667567207,
+          "mean_salary_factor_pop_weighted": 0.5901000986139122
+        },
+        {
+          "year": 12,
+          "world_supply_vs_demand": 1.0000000000000004,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.15867267406147254,
+          "people_at_full_scale_share": 0.1052377342308024,
+          "mean_salary_factor_pop_weighted": 0.6039890799948474
+        },
+        {
+          "year": 13,
+          "world_supply_vs_demand": 1.0000000000000007,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.16154318305730447,
+          "people_at_full_scale_share": 0.10489291046332878,
+          "mean_salary_factor_pop_weighted": 0.6179590622377457
+        },
+        {
+          "year": 14,
+          "world_supply_vs_demand": 1.0000000000000002,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.1640736375580391,
+          "people_at_full_scale_share": 0.10455226791429051,
+          "mean_salary_factor_pop_weighted": 0.6319887146119102
+        },
+        {
+          "year": 15,
+          "world_supply_vs_demand": 1.0000000000000009,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.1663214534518956,
+          "people_at_full_scale_share": 0.10421573099188979,
+          "mean_salary_factor_pop_weighted": 0.6460527586258729
+        },
+        {
+          "year": 16,
+          "world_supply_vs_demand": 1.0000000000000009,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.16828789406168432,
+          "people_at_full_scale_share": 0.10388322591556845,
+          "mean_salary_factor_pop_weighted": 0.6601292216047594
+        },
+        {
+          "year": 17,
+          "world_supply_vs_demand": 1.0000000000000004,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.17000626081919898,
+          "people_at_full_scale_share": 0.10355468066208241,
+          "mean_salary_factor_pop_weighted": 0.674206554932693
+        },
+        {
+          "year": 18,
+          "world_supply_vs_demand": 1.0000000000000004,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.17150646311082676,
+          "people_at_full_scale_share": 0.1032300249134916,
+          "mean_salary_factor_pop_weighted": 0.6882704366345596
+        },
+        {
+          "year": 19,
+          "world_supply_vs_demand": 1.0000000000000002,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.17281332921058282,
+          "people_at_full_scale_share": 0.10290919000698594,
+          "mean_salary_factor_pop_weighted": 0.702310457038284
+        },
+        {
+          "year": 20,
+          "world_supply_vs_demand": 1.0000000000000002,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.1739550795105538,
+          "people_at_full_scale_share": 0.10259210888647276,
+          "mean_salary_factor_pop_weighted": 0.7163244200148335
+        },
+        {
+          "year": 21,
+          "world_supply_vs_demand": 1.0,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.17310846936897772,
+          "people_at_full_scale_share": 0.10227871605585313,
+          "mean_salary_factor_pop_weighted": 0.7303086221262929
+        },
+        {
+          "year": 22,
+          "world_supply_vs_demand": 1.0000000000000004,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.1722193077902095,
+          "people_at_full_scale_share": 0.10196894753391986,
+          "mean_salary_factor_pop_weighted": 0.7442574372846084
+        },
+        {
+          "year": 23,
+          "world_supply_vs_demand": 1.0,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.17129588842649343,
+          "people_at_full_scale_share": 0.10166274081081071,
+          "mean_salary_factor_pop_weighted": 0.7581650035902476
+        },
+        {
+          "year": 24,
+          "world_supply_vs_demand": 1.0000000000000007,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.17034719480542782,
+          "people_at_full_scale_share": 0.10136003480595551,
+          "mean_salary_factor_pop_weighted": 0.7720279656651504
+        },
+        {
+          "year": 25,
+          "world_supply_vs_demand": 1.0000000000000007,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.1692486037575578,
+          "people_at_full_scale_share": 0.10106076982745722,
+          "mean_salary_factor_pop_weighted": 0.7858427887583641
+        },
+        {
+          "year": 26,
+          "world_supply_vs_demand": 1.0000000000000002,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.1679544870139851,
+          "people_at_full_scale_share": 0.10076488753285051,
+          "mean_salary_factor_pop_weighted": 0.7996087669658694
+        },
+        {
+          "year": 27,
+          "world_supply_vs_demand": 1.0000000000000002,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.1665474885352034,
+          "people_at_full_scale_share": 0.10047233089118332,
+          "mean_salary_factor_pop_weighted": 0.813325512072152
+        },
+        {
+          "year": 28,
+          "world_supply_vs_demand": 1.0,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.16472468813143212,
+          "people_at_full_scale_share": 0.10047233089118332,
+          "mean_salary_factor_pop_weighted": 0.8286699738184558
+        },
+        {
+          "year": 29,
+          "world_supply_vs_demand": 1.0000000000000007,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.16293345271149123,
+          "people_at_full_scale_share": 0.10047233089118332,
+          "mean_salary_factor_pop_weighted": 0.8439436021329165
+        },
+        {
+          "year": 30,
+          "world_supply_vs_demand": 1.0000000000000004,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.16118146716459336,
+          "people_at_full_scale_share": 0.10047233089118332,
+          "mean_salary_factor_pop_weighted": 0.8591436942608589
+        },
+        {
+          "year": 31,
+          "world_supply_vs_demand": 1.0000000000000002,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.15946390807881908,
+          "people_at_full_scale_share": 0.10047233089118332,
+          "mean_salary_factor_pop_weighted": 0.8742674015309742
+        },
+        {
+          "year": 32,
+          "world_supply_vs_demand": 1.0000000000000004,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.15777879000304465,
+          "people_at_full_scale_share": 0.10047233089118332,
+          "mean_salary_factor_pop_weighted": 0.8893125783945803
+        },
+        {
+          "year": 33,
+          "world_supply_vs_demand": 1.0000000000000002,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.1560843388080051,
+          "people_at_full_scale_share": 0.10047233089118332,
+          "mean_salary_factor_pop_weighted": 0.9042564697348969
+        },
+        {
+          "year": 34,
+          "world_supply_vs_demand": 1.0000000000000002,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.1543068953991331,
+          "people_at_full_scale_share": 0.10047233089118332,
+          "mean_salary_factor_pop_weighted": 0.919094077430445
+        },
+        {
+          "year": 35,
+          "world_supply_vs_demand": 1.0000000000000002,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.15259444355378685,
+          "people_at_full_scale_share": 0.10047233089118332,
+          "mean_salary_factor_pop_weighted": 0.9338263029794076
+        },
+        {
+          "year": 36,
+          "world_supply_vs_demand": 1.0000000000000007,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.15095595258671154,
+          "people_at_full_scale_share": 0.10047233089118332,
+          "mean_salary_factor_pop_weighted": 0.9484433453174427
+        },
+        {
+          "year": 37,
+          "world_supply_vs_demand": 1.0000000000000007,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.14981571783560468,
+          "people_at_full_scale_share": 0.10047233089118332,
+          "mean_salary_factor_pop_weighted": 0.9629502290248796
+        },
+        {
+          "year": 38,
+          "world_supply_vs_demand": 1.0000000000000002,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.14903292000137952,
+          "people_at_full_scale_share": 0.10047233089118332,
+          "mean_salary_factor_pop_weighted": 0.9773431976604449
+        },
+        {
+          "year": 39,
+          "world_supply_vs_demand": 1.0000000000000002,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.1483525027757322,
+          "people_at_full_scale_share": 0.10047233089118332,
+          "mean_salary_factor_pop_weighted": 0.991618833412741
+        },
+        {
+          "year": 40,
+          "world_supply_vs_demand": 1.00577470928949,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.14308093411630177,
+          "people_at_full_scale_share": 1.0,
+          "mean_salary_factor_pop_weighted": 0.9999999999999991
+        },
+        {
+          "year": 41,
+          "world_supply_vs_demand": 1.0198062117409528,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.1314283092678298,
+          "people_at_full_scale_share": 1.0,
+          "mean_salary_factor_pop_weighted": 0.9999999999999991
+        },
+        {
+          "year": 42,
+          "world_supply_vs_demand": 1.033713580392487,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.12156118075629595,
+          "people_at_full_scale_share": 1.0,
+          "mean_salary_factor_pop_weighted": 0.9999999999999991
+        },
+        {
+          "year": 43,
+          "world_supply_vs_demand": 1.0475467257671274,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.11232336622951611,
+          "people_at_full_scale_share": 1.0,
+          "mean_salary_factor_pop_weighted": 0.9999999999999991
+        },
+        {
+          "year": 44,
+          "world_supply_vs_demand": 1.061309950165958,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.10350945131661145,
+          "people_at_full_scale_share": 1.0,
+          "mean_salary_factor_pop_weighted": 0.9999999999999991
+        },
+        {
+          "year": 45,
+          "world_supply_vs_demand": 1.0750018020232877,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.09506582355240718,
+          "people_at_full_scale_share": 1.0,
+          "mean_salary_factor_pop_weighted": 0.9999999999999991
+        },
+        {
+          "year": 46,
+          "world_supply_vs_demand": 1.0886202495652708,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.08706909525165686,
+          "people_at_full_scale_share": 1.0,
+          "mean_salary_factor_pop_weighted": 0.9999999999999991
+        },
+        {
+          "year": 47,
+          "world_supply_vs_demand": 1.102169585431635,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.07992113109537957,
+          "people_at_full_scale_share": 1.0,
+          "mean_salary_factor_pop_weighted": 0.9999999999999991
+        },
+        {
+          "year": 48,
+          "world_supply_vs_demand": 1.1156732049517342,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.07310807195931644,
+          "people_at_full_scale_share": 1.0,
+          "mean_salary_factor_pop_weighted": 0.9999999999999991
+        },
+        {
+          "year": 49,
+          "world_supply_vs_demand": 1.1291335220825232,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.06665432704904378,
+          "people_at_full_scale_share": 1.0,
+          "mean_salary_factor_pop_weighted": 0.9999999999999991
+        },
+        {
+          "year": 50,
+          "world_supply_vs_demand": 1.142554698870666,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.06047381077138612,
+          "people_at_full_scale_share": 1.0,
+          "mean_salary_factor_pop_weighted": 0.9999999999999991
+        }
+      ]
+    },
+    "very_strong_catch_up/fixed_20y_schedule": {
+      "year_10": {
+        "year": 10,
+        "world_supply_vs_demand": 0.9066137742474752,
+        "world_shortage_share": 0.09338622575252475,
+        "fund_transfers_share_of_world_supply": 0.2193299507332683,
+        "people_at_full_scale_share": 0.10594023718206973,
+        "mean_salary_factor_pop_weighted": 0.6917068089452715
+      },
+      "year_20": {
+        "year": 20,
+        "world_supply_vs_demand": 0.8093339752891451,
+        "world_shortage_share": 0.19066602471085492,
+        "fund_transfers_share_of_world_supply": 0.3460663086789248,
+        "people_at_full_scale_share": 1.0,
+        "mean_salary_factor_pop_weighted": 1.0
+      },
+      "max_world_shortage": 0.19066602471085492,
+      "year_all_at_full_scale": 20,
+      "path": [
+        {
+          "year": 0,
+          "world_supply_vs_demand": 1.133420296309367,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 5.311139350112004e-19,
+          "people_at_full_scale_share": 0.10973200431007057,
+          "mean_salary_factor_pop_weighted": 0.3976210772655573
+        },
+        {
+          "year": 1,
+          "world_supply_vs_demand": 1.094102144764214,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.032719374402507745,
+          "people_at_full_scale_share": 0.10933036738558799,
+          "mean_salary_factor_pop_weighted": 0.42631036591259447
+        },
+        {
+          "year": 2,
+          "world_supply_vs_demand": 1.0607241483589158,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.06210550934027576,
+          "people_at_full_scale_share": 0.1089339826983055,
+          "mean_salary_factor_pop_weighted": 0.45516785657712455
+        },
+        {
+          "year": 3,
+          "world_supply_vs_demand": 1.0318138365722456,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.08884448751965505,
+          "people_at_full_scale_share": 0.10854274789161618,
+          "mean_salary_factor_pop_weighted": 0.48419027130593656
+        },
+        {
+          "year": 4,
+          "world_supply_vs_demand": 1.0066432741230067,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.1131308688174459,
+          "people_at_full_scale_share": 0.10815656325140749,
+          "mean_salary_factor_pop_weighted": 0.5133744167712628
+        },
+        {
+          "year": 5,
+          "world_supply_vs_demand": 0.9846621743251953,
+          "world_shortage_share": 0.015337825674804684,
+          "fund_transfers_share_of_world_supply": 0.13513623297771743,
+          "people_at_full_scale_share": 0.10777533162133317,
+          "mean_salary_factor_pop_weighted": 0.5427171815573699
+        },
+        {
+          "year": 6,
+          "world_supply_vs_demand": 0.9653171649765712,
+          "world_shortage_share": 0.03468283502342884,
+          "fund_transfers_share_of_world_supply": 0.15511793548921476,
+          "people_at_full_scale_share": 0.10739895832132414,
+          "mean_salary_factor_pop_weighted": 0.5722155335508881
+        },
+        {
+          "year": 7,
+          "world_supply_vs_demand": 0.9481952131423049,
+          "world_shortage_share": 0.05180478685769507,
+          "fund_transfers_share_of_world_supply": 0.17328204410311068,
+          "people_at_full_scale_share": 0.1070273510691952,
+          "mean_salary_factor_pop_weighted": 0.6018665174302783
+        },
+        {
+          "year": 8,
+          "world_supply_vs_demand": 0.9330076830719035,
+          "world_shortage_share": 0.06699231692809648,
+          "fund_transfers_share_of_world_supply": 0.1897574330801708,
+          "people_at_full_scale_share": 0.10666041990521119,
+          "mean_salary_factor_pop_weighted": 0.631667252250075
+        },
+        {
+          "year": 9,
+          "world_supply_vs_demand": 0.9192766387638795,
+          "world_shortage_share": 0.08072336123612045,
+          "fund_transfers_share_of_world_supply": 0.20497644797392314,
+          "people_at_full_scale_share": 0.1062980771194829,
+          "mean_salary_factor_pop_weighted": 0.6616149291157516
+        },
+        {
+          "year": 10,
+          "world_supply_vs_demand": 0.9066137742474752,
+          "world_shortage_share": 0.09338622575252475,
+          "fund_transfers_share_of_world_supply": 0.2193299507332683,
+          "people_at_full_scale_share": 0.10594023718206973,
+          "mean_salary_factor_pop_weighted": 0.6917068089452715
+        },
+        {
+          "year": 11,
+          "world_supply_vs_demand": 0.8948165122565425,
+          "world_shortage_share": 0.10518348774345754,
+          "fund_transfers_share_of_world_supply": 0.23308857997311566,
+          "people_at_full_scale_share": 0.10558681667567207,
+          "mean_salary_factor_pop_weighted": 0.721940220313574
+        },
+        {
+          "year": 12,
+          "world_supply_vs_demand": 0.883701374299684,
+          "world_shortage_share": 0.11629862570031602,
+          "fund_transfers_share_of_world_supply": 0.24639569646928652,
+          "people_at_full_scale_share": 0.1052377342308024,
+          "mean_salary_factor_pop_weighted": 0.7523125573764357
+        },
+        {
+          "year": 13,
+          "world_supply_vs_demand": 0.8731542457680085,
+          "world_shortage_share": 0.12684575423199151,
+          "fund_transfers_share_of_world_supply": 0.25934580738887336,
+          "people_at_full_scale_share": 0.10489291046332878,
+          "mean_salary_factor_pop_weighted": 0.7828212778703147
+        },
+        {
+          "year": 14,
+          "world_supply_vs_demand": 0.8630730414735187,
+          "world_shortage_share": 0.1369269585264813,
+          "fund_transfers_share_of_world_supply": 0.2720377200823358,
+          "people_at_full_scale_share": 0.10455226791429051,
+          "mean_salary_factor_pop_weighted": 0.813463901184955
+        },
+        {
+          "year": 15,
+          "world_supply_vs_demand": 0.8533841095903507,
+          "world_shortage_share": 0.14661589040964929,
+          "fund_transfers_share_of_world_supply": 0.28454226371099894,
+          "people_at_full_scale_share": 0.10421984907325063,
+          "mean_salary_factor_pop_weighted": 0.8442380065056817
+        },
+        {
+          "year": 16,
+          "world_supply_vs_demand": 0.8440302911910758,
+          "world_shortage_share": 0.15596970880892425,
+          "fund_transfers_share_of_world_supply": 0.2969494872743675,
+          "people_at_full_scale_share": 0.1038873209975956,
+          "mean_salary_factor_pop_weighted": 0.8751412310224636
+        },
+        {
+          "year": 17,
+          "world_supply_vs_demand": 0.8349700299967325,
+          "world_shortage_share": 0.16502997000326747,
+          "fund_transfers_share_of_world_supply": 0.3092741399037128,
+          "people_at_full_scale_share": 0.10355875301867631,
+          "mean_salary_factor_pop_weighted": 0.9061712682029611
+        },
+        {
+          "year": 18,
+          "world_supply_vs_demand": 0.8261819313610447,
+          "world_shortage_share": 0.17381806863895533,
+          "fund_transfers_share_of_world_supply": 0.3215404387699736,
+          "people_at_full_scale_share": 0.1032340748136888,
+          "mean_salary_factor_pop_weighted": 0.9373258661269093
+        },
+        {
+          "year": 19,
+          "world_supply_vs_demand": 0.8176445008352341,
+          "world_shortage_share": 0.1823554991647659,
+          "fund_transfers_share_of_world_supply": 0.3337969131308276,
+          "people_at_full_scale_share": 0.10291321771507363,
+          "mean_salary_factor_pop_weighted": 0.9686028258793054
+        },
+        {
+          "year": 20,
+          "world_supply_vs_demand": 0.8093339752891451,
+          "world_shortage_share": 0.19066602471085492,
+          "fund_transfers_share_of_world_supply": 0.3460663086789248,
+          "people_at_full_scale_share": 1.0,
+          "mean_salary_factor_pop_weighted": 1.0
+        }
+      ]
+    },
+    "very_strong_catch_up/capacity_rule": {
+      "year_10": {
+        "year": 10,
+        "world_supply_vs_demand": 1.0000000000000002,
+        "world_shortage_share": 0.0,
+        "fund_transfers_share_of_world_supply": 0.1385768103838796,
+        "people_at_full_scale_share": 0.10594023718206973,
+        "mean_salary_factor_pop_weighted": 0.6271109207305497
+      },
+      "year_20": {
+        "year": 20,
+        "world_supply_vs_demand": 1.0000000000000004,
+        "world_shortage_share": 0.0,
+        "fund_transfers_share_of_world_supply": 0.14850967117832362,
+        "people_at_full_scale_share": 0.10259210888647276,
+        "mean_salary_factor_pop_weighted": 0.8093339752891447
+      },
+      "max_world_shortage": 0.0,
+      "year_all_at_full_scale": 31,
+      "path": [
+        {
+          "year": 0,
+          "world_supply_vs_demand": 1.133420296309367,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 5.311139350112004e-19,
+          "people_at_full_scale_share": 0.10973200431007057,
+          "mean_salary_factor_pop_weighted": 0.3976210772655573
+        },
+        {
+          "year": 1,
+          "world_supply_vs_demand": 1.0941021447642147,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.032719374402507315,
+          "people_at_full_scale_share": 0.10933036738558799,
+          "mean_salary_factor_pop_weighted": 0.42631036591259425
+        },
+        {
+          "year": 2,
+          "world_supply_vs_demand": 1.0607241483589165,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.06210550934027525,
+          "people_at_full_scale_share": 0.1089339826983055,
+          "mean_salary_factor_pop_weighted": 0.4551678565771242
+        },
+        {
+          "year": 3,
+          "world_supply_vs_demand": 1.0318138365722465,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.08884448751965457,
+          "people_at_full_scale_share": 0.10854274789161618,
+          "mean_salary_factor_pop_weighted": 0.4841902713059363
+        },
+        {
+          "year": 4,
+          "world_supply_vs_demand": 1.0066432741230074,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.11313086881744538,
+          "people_at_full_scale_share": 0.10815656325140749,
+          "mean_salary_factor_pop_weighted": 0.5133744167712625
+        },
+        {
+          "year": 5,
+          "world_supply_vs_demand": 1.0,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.12350517640744586,
+          "people_at_full_scale_share": 0.10777533162133317,
+          "mean_salary_factor_pop_weighted": 0.5343930800359217
+        },
+        {
+          "year": 6,
+          "world_supply_vs_demand": 1.0,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.1281183562704805,
+          "people_at_full_scale_share": 0.10739895832132414,
+          "mean_salary_factor_pop_weighted": 0.5523694766028991
+        },
+        {
+          "year": 7,
+          "world_supply_vs_demand": 1.0,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.13132233447817437,
+          "people_at_full_scale_share": 0.1070273510691952,
+          "mean_salary_factor_pop_weighted": 0.5706869507780196
+        },
+        {
+          "year": 8,
+          "world_supply_vs_demand": 1.0,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.13373315390146626,
+          "people_at_full_scale_share": 0.10666041990521119,
+          "mean_salary_factor_pop_weighted": 0.5893503994942381
+        },
+        {
+          "year": 9,
+          "world_supply_vs_demand": 1.0000000000000004,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.13579575410855899,
+          "people_at_full_scale_share": 0.1062980771194829,
+          "mean_salary_factor_pop_weighted": 0.6082071481935303
+        },
+        {
+          "year": 10,
+          "world_supply_vs_demand": 1.0000000000000002,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.1385768103838796,
+          "people_at_full_scale_share": 0.10594023718206973,
+          "mean_salary_factor_pop_weighted": 0.6271109207305497
+        },
+        {
+          "year": 11,
+          "world_supply_vs_demand": 1.0000000000000007,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.14086261495187374,
+          "people_at_full_scale_share": 0.10558681667567207,
+          "mean_salary_factor_pop_weighted": 0.6460040299987116
+        },
+        {
+          "year": 12,
+          "world_supply_vs_demand": 1.0000000000000004,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.14273207922995515,
+          "people_at_full_scale_share": 0.1052377342308024,
+          "mean_salary_factor_pop_weighted": 0.6648196408564659
+        },
+        {
+          "year": 13,
+          "world_supply_vs_demand": 1.0000000000000002,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.14427769598140597,
+          "people_at_full_scale_share": 0.10489291046332878,
+          "mean_salary_factor_pop_weighted": 0.6835237224500031
+        },
+        {
+          "year": 14,
+          "world_supply_vs_demand": 1.0000000000000004,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.14551171589933035,
+          "people_at_full_scale_share": 0.10455226791429051,
+          "mean_salary_factor_pop_weighted": 0.7020787633246127
+        },
+        {
+          "year": 15,
+          "world_supply_vs_demand": 1.0000000000000007,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.14647847217899404,
+          "people_at_full_scale_share": 0.10421573099188979,
+          "mean_salary_factor_pop_weighted": 0.7204592994641834
+        },
+        {
+          "year": 16,
+          "world_supply_vs_demand": 1.0000000000000004,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.1472161944050705,
+          "people_at_full_scale_share": 0.10388322591556845,
+          "mean_salary_factor_pop_weighted": 0.7386457080532062
+        },
+        {
+          "year": 17,
+          "world_supply_vs_demand": 1.0000000000000004,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.14776166227823886,
+          "people_at_full_scale_share": 0.10355468066208241,
+          "mean_salary_factor_pop_weighted": 0.7566258509936035
+        },
+        {
+          "year": 18,
+          "world_supply_vs_demand": 1.0000000000000004,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.14814748576710943,
+          "people_at_full_scale_share": 0.1032300249134916,
+          "mean_salary_factor_pop_weighted": 0.7744016943913935
+        },
+        {
+          "year": 19,
+          "world_supply_vs_demand": 1.0,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.14839074046724227,
+          "people_at_full_scale_share": 0.10290919000698594,
+          "mean_salary_factor_pop_weighted": 0.7919727740736817
+        },
+        {
+          "year": 20,
+          "world_supply_vs_demand": 1.0000000000000004,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.14850967117832362,
+          "people_at_full_scale_share": 0.10259210888647276,
+          "mean_salary_factor_pop_weighted": 0.8093339752891447
+        },
+        {
+          "year": 21,
+          "world_supply_vs_demand": 1.0000000000000002,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.14607922252136854,
+          "people_at_full_scale_share": 0.10227871605585313,
+          "mean_salary_factor_pop_weighted": 0.826480528806549
+        },
+        {
+          "year": 22,
+          "world_supply_vs_demand": 1.0000000000000004,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.14368396914432,
+          "people_at_full_scale_share": 0.10196894753391986,
+          "mean_salary_factor_pop_weighted": 0.8434149304425367
+        },
+        {
+          "year": 23,
+          "world_supply_vs_demand": 1.0000000000000009,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.1413314413686567,
+          "people_at_full_scale_share": 0.10166274081081071,
+          "mean_salary_factor_pop_weighted": 0.8601432697673236
+        },
+        {
+          "year": 24,
+          "world_supply_vs_demand": 1.0000000000000002,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.13903739364309364,
+          "people_at_full_scale_share": 0.10136003480595551,
+          "mean_salary_factor_pop_weighted": 0.8766362200236568
+        },
+        {
+          "year": 25,
+          "world_supply_vs_demand": 1.0000000000000004,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.13681450770999182,
+          "people_at_full_scale_share": 0.10106076982745722,
+          "mean_salary_factor_pop_weighted": 0.8928756965797596
+        },
+        {
+          "year": 26,
+          "world_supply_vs_demand": 1.0000000000000002,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.1344999262975557,
+          "people_at_full_scale_share": 0.10076488753285051,
+          "mean_salary_factor_pop_weighted": 0.9088500444739428
+        },
+        {
+          "year": 27,
+          "world_supply_vs_demand": 1.0,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.1321891230807975,
+          "people_at_full_scale_share": 0.10047233089118332,
+          "mean_salary_factor_pop_weighted": 0.9245529555985952
+        },
+        {
+          "year": 28,
+          "world_supply_vs_demand": 1.0000000000000007,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.12965386053380093,
+          "people_at_full_scale_share": 0.10047233089118332,
+          "mean_salary_factor_pop_weighted": 0.9414357866991965
+        },
+        {
+          "year": 29,
+          "world_supply_vs_demand": 1.0000000000000004,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.12731336933015813,
+          "people_at_full_scale_share": 0.10047233089118332,
+          "mean_salary_factor_pop_weighted": 0.9579863339237454
+        },
+        {
+          "year": 30,
+          "world_supply_vs_demand": 1.0000000000000002,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.12546564256903878,
+          "people_at_full_scale_share": 0.10047233089118332,
+          "mean_salary_factor_pop_weighted": 0.9742064725896844
+        },
+        {
+          "year": 31,
+          "world_supply_vs_demand": 1.0000000000000002,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.12437248350884571,
+          "people_at_full_scale_share": 0.10047233089118332,
+          "mean_salary_factor_pop_weighted": 0.9901123456864772
+        },
+        {
+          "year": 32,
+          "world_supply_vs_demand": 1.0056918184508816,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.11883024307069982,
+          "people_at_full_scale_share": 1.0,
+          "mean_salary_factor_pop_weighted": 0.9999999999999991
+        },
+        {
+          "year": 33,
+          "world_supply_vs_demand": 1.0209412452674955,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.10624836880146202,
+          "people_at_full_scale_share": 1.0,
+          "mean_salary_factor_pop_weighted": 0.9999999999999991
+        },
+        {
+          "year": 34,
+          "world_supply_vs_demand": 1.0358808251196512,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.09558091782177655,
+          "people_at_full_scale_share": 1.0,
+          "mean_salary_factor_pop_weighted": 0.9999999999999991
+        },
+        {
+          "year": 35,
+          "world_supply_vs_demand": 1.0505886775182776,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.08562150319347402,
+          "people_at_full_scale_share": 1.0,
+          "mean_salary_factor_pop_weighted": 0.9999999999999991
+        },
+        {
+          "year": 36,
+          "world_supply_vs_demand": 1.0650745762546945,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.07626016603840371,
+          "people_at_full_scale_share": 1.0,
+          "mean_salary_factor_pop_weighted": 0.9999999999999991
+        },
+        {
+          "year": 37,
+          "world_supply_vs_demand": 1.0793454953221502,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.06786340120019742,
+          "people_at_full_scale_share": 1.0,
+          "mean_salary_factor_pop_weighted": 0.9999999999999991
+        },
+        {
+          "year": 38,
+          "world_supply_vs_demand": 1.093436376353486,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.06015627004475506,
+          "people_at_full_scale_share": 1.0,
+          "mean_salary_factor_pop_weighted": 0.9999999999999991
+        },
+        {
+          "year": 39,
+          "world_supply_vs_demand": 1.1073691168639972,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.05295565180691096,
+          "people_at_full_scale_share": 1.0,
+          "mean_salary_factor_pop_weighted": 0.9999999999999991
+        },
+        {
+          "year": 40,
+          "world_supply_vs_demand": 1.1211502643272855,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.047213757815059695,
+          "people_at_full_scale_share": 1.0,
+          "mean_salary_factor_pop_weighted": 0.9999999999999991
+        },
+        {
+          "year": 41,
+          "world_supply_vs_demand": 1.1348266485244725,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.042556359385316704,
+          "people_at_full_scale_share": 1.0,
+          "mean_salary_factor_pop_weighted": 0.9999999999999991
+        },
+        {
+          "year": 42,
+          "world_supply_vs_demand": 1.1484522204795535,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.0384715719700663,
+          "people_at_full_scale_share": 1.0,
+          "mean_salary_factor_pop_weighted": 0.9999999999999991
+        },
+        {
+          "year": 43,
+          "world_supply_vs_demand": 1.162046604712126,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.03488145581071551,
+          "people_at_full_scale_share": 1.0,
+          "mean_salary_factor_pop_weighted": 0.9999999999999991
+        },
+        {
+          "year": 44,
+          "world_supply_vs_demand": 1.175628372426365,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.03156655797102344,
+          "people_at_full_scale_share": 1.0,
+          "mean_salary_factor_pop_weighted": 0.9999999999999991
+        },
+        {
+          "year": 45,
+          "world_supply_vs_demand": 1.189203482753941,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.028524657600641785,
+          "people_at_full_scale_share": 1.0,
+          "mean_salary_factor_pop_weighted": 0.9999999999999991
+        },
+        {
+          "year": 46,
+          "world_supply_vs_demand": 1.2027790925530206,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.025685864853306352,
+          "people_at_full_scale_share": 1.0,
+          "mean_salary_factor_pop_weighted": 0.9999999999999991
+        },
+        {
+          "year": 47,
+          "world_supply_vs_demand": 1.2163586170101897,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.023029268763607245,
+          "people_at_full_scale_share": 1.0,
+          "mean_salary_factor_pop_weighted": 0.9999999999999991
+        },
+        {
+          "year": 48,
+          "world_supply_vs_demand": 1.2299449922625039,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.020548452774547362,
+          "people_at_full_scale_share": 1.0,
+          "mean_salary_factor_pop_weighted": 0.9999999999999991
+        },
+        {
+          "year": 49,
+          "world_supply_vs_demand": 1.24354164789709,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.018214026312067935,
+          "people_at_full_scale_share": 1.0,
+          "mean_salary_factor_pop_weighted": 0.9999999999999991
+        },
+        {
+          "year": 50,
+          "world_supply_vs_demand": 1.2571507384171314,
+          "world_shortage_share": 0.0,
+          "fund_transfers_share_of_world_supply": 0.016017890283050087,
+          "people_at_full_scale_share": 1.0,
+          "mean_salary_factor_pop_weighted": 0.9999999999999991
+        }
+      ]
+    }
+  }
+}
