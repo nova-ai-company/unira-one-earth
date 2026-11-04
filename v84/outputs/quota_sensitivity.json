@@ -1,0 +1,262 @@
+{
+  "goods_24": {
+    "DC_no_credit": {
+      "poorer_half_y0": 0.194,
+      "poorer_half_y20": 0.431,
+      "year_poorer_half_90pct": 55,
+      "gini_y0": 0.372,
+      "unspendable_y0": 0.0,
+      "richest20_y0": 0.647
+    },
+    "DCQ_equal_salaries": {
+      "poorer_half_y0": 0.253,
+      "poorer_half_y20": 0.494,
+      "year_poorer_half_90pct": 50,
+      "gini_y0": 0.276,
+      "unspendable_y0": 0.593,
+      "richest20_y0": 0.559
+    },
+    "hybrid": {
+      "poorer_half_y0": 0.253,
+      "poorer_half_y20": 0.494,
+      "year_poorer_half_90pct": 50,
+      "gini_y0": 0.276,
+      "unspendable_y0": 0.0,
+      "richest20_y0": 0.559
+    }
+  },
+  "goods_35": {
+    "DC_no_credit": {
+      "poorer_half_y0": 0.194,
+      "poorer_half_y20": 0.431,
+      "year_poorer_half_90pct": 55,
+      "gini_y0": 0.372,
+      "unspendable_y0": 0.0,
+      "richest20_y0": 0.647
+    },
+    "DCQ_equal_salaries": {
+      "poorer_half_y0": 0.279,
+      "poorer_half_y20": 0.523,
+      "year_poorer_half_90pct": 49,
+      "gini_y0": 0.234,
+      "unspendable_y0": 0.589,
+      "richest20_y0": 0.519
+    },
+    "hybrid": {
+      "poorer_half_y0": 0.279,
+      "poorer_half_y20": 0.523,
+      "year_poorer_half_90pct": 49,
+      "gini_y0": 0.234,
+      "unspendable_y0": 0.0,
+      "richest20_y0": 0.519
+    }
+  },
+  "goods_45": {
+    "DC_no_credit": {
+      "poorer_half_y0": 0.194,
+      "poorer_half_y20": 0.431,
+      "year_poorer_half_90pct": 55,
+      "gini_y0": 0.372,
+      "unspendable_y0": 0.0,
+      "richest20_y0": 0.647
+    },
+    "DCQ_equal_salaries": {
+      "poorer_half_y0": 0.304,
+      "poorer_half_y20": 0.55,
+      "year_poorer_half_90pct": 46,
+      "gini_y0": 0.196,
+      "unspendable_y0": 0.585,
+      "richest20_y0": 0.483
+    },
+    "hybrid": {
+      "poorer_half_y0": 0.304,
+      "poorer_half_y20": 0.55,
+      "year_poorer_half_90pct": 46,
+      "gini_y0": 0.196,
+      "unspendable_y0": 0.0,
+      "richest20_y0": 0.483
+    }
+  },
+  "leakage_8": {
+    "DC_no_credit": {
+      "poorer_half_y0": 0.194,
+      "poorer_half_y20": 0.431,
+      "year_poorer_half_90pct": 55,
+      "gini_y0": 0.372,
+      "unspendable_y0": 0.0,
+      "richest20_y0": 0.647
+    },
+    "DCQ_equal_salaries": {
+      "poorer_half_y0": 0.244,
+      "poorer_half_y20": 0.488,
+      "year_poorer_half_90pct": 51,
+      "gini_y0": 0.285,
+      "unspendable_y0": 0.599,
+      "richest20_y0": 0.559
+    },
+    "hybrid": {
+      "poorer_half_y0": 0.244,
+      "poorer_half_y20": 0.488,
+      "year_poorer_half_90pct": 51,
+      "gini_y0": 0.285,
+      "unspendable_y0": 0.016,
+      "richest20_y0": 0.559
+    }
+  },
+  "leakage_15": {
+    "DC_no_credit": {
+      "poorer_half_y0": 0.194,
+      "poorer_half_y20": 0.431,
+      "year_poorer_half_90pct": 55,
+      "gini_y0": 0.372,
+      "unspendable_y0": 0.0,
+      "richest20_y0": 0.647
+    },
+    "DCQ_equal_salaries": {
+      "poorer_half_y0": 0.237,
+      "poorer_half_y20": 0.483,
+      "year_poorer_half_90pct": 51,
+      "gini_y0": 0.292,
+      "unspendable_y0": 0.605,
+      "richest20_y0": 0.559
+    },
+    "hybrid": {
+      "poorer_half_y0": 0.237,
+      "poorer_half_y20": 0.483,
+      "year_poorer_half_90pct": 51,
+      "gini_y0": 0.292,
+      "unspendable_y0": 0.03,
+      "richest20_y0": 0.559
+    }
+  },
+  "effort_0.2": {
+    "DC_no_credit": {
+      "poorer_half_y0": 0.194,
+      "poorer_half_y20": 0.431,
+      "year_poorer_half_90pct": 55,
+      "gini_y0": 0.372,
+      "unspendable_y0": 0.0,
+      "richest20_y0": 0.647
+    },
+    "DCQ_equal_salaries": {
+      "poorer_half_y0": 0.253,
+      "poorer_half_y20": 0.457,
+      "year_poorer_half_90pct": 56,
+      "gini_y0": 0.276,
+      "unspendable_y0": 0.593,
+      "richest20_y0": 0.559
+    },
+    "hybrid": {
+      "poorer_half_y0": 0.253,
+      "poorer_half_y20": 0.494,
+      "year_poorer_half_90pct": 50,
+      "gini_y0": 0.276,
+      "unspendable_y0": 0.0,
+      "richest20_y0": 0.559
+    }
+  },
+  "effort_0.5": {
+    "DC_no_credit": {
+      "poorer_half_y0": 0.194,
+      "poorer_half_y20": 0.431,
+      "year_poorer_half_90pct": 55,
+      "gini_y0": 0.372,
+      "unspendable_y0": 0.0,
+      "richest20_y0": 0.647
+    },
+    "DCQ_equal_salaries": {
+      "poorer_half_y0": 0.253,
+      "poorer_half_y20": 0.398,
+      "year_poorer_half_90pct": 70,
+      "gini_y0": 0.276,
+      "unspendable_y0": 0.593,
+      "richest20_y0": 0.559
+    },
+    "hybrid": {
+      "poorer_half_y0": 0.253,
+      "poorer_half_y20": 0.494,
+      "year_poorer_half_90pct": 50,
+      "gini_y0": 0.276,
+      "unspendable_y0": 0.0,
+      "richest20_y0": 0.559
+    }
+  },
+  "transfer_50": {
+    "DC_no_credit": {
+      "poorer_half_y0": 0.194,
+      "poorer_half_y20": 0.431,
+      "year_poorer_half_90pct": 55,
+      "gini_y0": 0.372,
+      "unspendable_y0": 0.0,
+      "richest20_y0": 0.647
+    },
+    "DCQ_equal_salaries": {
+      "poorer_half_y0": 0.253,
+      "poorer_half_y20": 0.494,
+      "year_poorer_half_90pct": 50,
+      "gini_y0": 0.276,
+      "unspendable_y0": 0.593,
+      "richest20_y0": 0.559
+    },
+    "hybrid": {
+      "poorer_half_y0": 0.253,
+      "poorer_half_y20": 0.494,
+      "year_poorer_half_90pct": 50,
+      "gini_y0": 0.276,
+      "unspendable_y0": 0.0,
+      "richest20_y0": 0.559
+    }
+  },
+  "transfer_35": {
+    "DC_no_credit": {
+      "poorer_half_y0": 0.194,
+      "poorer_half_y20": 0.431,
+      "year_poorer_half_90pct": 55,
+      "gini_y0": 0.372,
+      "unspendable_y0": 0.0,
+      "richest20_y0": 0.647
+    },
+    "DCQ_equal_salaries": {
+      "poorer_half_y0": 0.253,
+      "poorer_half_y20": 0.494,
+      "year_poorer_half_90pct": 50,
+      "gini_y0": 0.276,
+      "unspendable_y0": 0.593,
+      "richest20_y0": 0.559
+    },
+    "hybrid": {
+      "poorer_half_y0": 0.253,
+      "poorer_half_y20": 0.494,
+      "year_poorer_half_90pct": 50,
+      "gini_y0": 0.276,
+      "unspendable_y0": 0.0,
+      "richest20_y0": 0.559
+    }
+  },
+  "transfer_20": {
+    "DC_no_credit": {
+      "poorer_half_y0": 0.194,
+      "poorer_half_y20": 0.431,
+      "year_poorer_half_90pct": 55,
+      "gini_y0": 0.372,
+      "unspendable_y0": 0.0,
+      "richest20_y0": 0.647
+    },
+    "DCQ_equal_salaries": {
+      "poorer_half_y0": 0.229,
+      "poorer_half_y20": 0.491,
+      "year_poorer_half_90pct": 50,
+      "gini_y0": 0.317,
+      "unspendable_y0": 0.593,
+      "richest20_y0": 0.591
+    },
+    "hybrid": {
+      "poorer_half_y0": 0.229,
+      "poorer_half_y20": 0.491,
+      "year_poorer_half_90pct": 50,
+      "gini_y0": 0.317,
+      "unspendable_y0": 0.034,
+      "richest20_y0": 0.591
+    }
+  }
+}

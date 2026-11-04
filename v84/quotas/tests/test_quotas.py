@@ -26,6 +26,19 @@ class TestQuotas(unittest.TestCase):
         a, b = self.r["s2_DCQ"]["year_20"], self.r["s3_hybrid"]["year_20"]
         self.assertAlmostEqual(a["real_poorer_half_vs_full"], b["real_poorer_half_vs_full"], places=6)
 
+    def test_unspendable_money_hurts_equal_salaries_not_hybrid(self):
+        reg = compare.wm.regions()
+        q = compare.simulate(reg, "s2_DCQ", effort=0.5)["year_20"]["real_poorer_half_vs_full"]
+        h = compare.simulate(reg, "s3_hybrid", effort=0.5)["year_20"]["real_poorer_half_vs_full"]
+        self.assertLess(q, h)
+
+    def test_hybrid_beats_dc_across_goods_shares(self):
+        reg = compare.wm.regions()
+        for g in (0.24, 0.35, 0.45):
+            h = compare.simulate(reg, "s3_hybrid", goods=g)["year_0"]["real_poorer_half_vs_full"]
+            d = compare.simulate(reg, "s1_DC", goods=g, credit_share=0.0)["year_0"]["real_poorer_half_vs_full"]
+            self.assertGreater(h, d)
+
 
 if __name__ == "__main__":
     unittest.main()

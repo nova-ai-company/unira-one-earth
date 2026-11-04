@@ -49,7 +49,12 @@ def gini(values, weights):
     return 1 - 2 * area / (tot_w * mean * tot_w) if mean else 0.0
 
 
-def simulate(reg, scenario):
+def simulate(reg, scenario, goods=GOODS, leakage=0.0, effort=0.0, transfer_cap=None, credit_share=CREDIT):
+    """Sensitivity options: goods (shippable share of consumption), leakage (share of quota goods diverted, lost to
+    the poorer half), effort (how much unspendable money weakens local work and capacity growth: growth x (1 - effort
+    x unspendable share)), transfer_cap (largest share of world goods that can be shipped between regions in a year),
+    credit_share (equality credit share in s1; 0 = removed)."""
+    GOODS = goods
     F = reg["FRA"]["cons_pc"]
     keys = sorted(reg)
     cap = {k: reg[k]["cons_pc"] for k in keys}      # production capacity per person (goods + services), PPP
@@ -82,7 +87,7 @@ def simulate(reg, scenario):
             for k in keys:
                 f[k] = max(f[k], min(1.0, sched[k] * lo, svc_cap[k] / ((1 - GOODS) * F * pop[k])))
             years_out = sum(credit.values()) / (F * W)
-            share = CREDIT if years_out < CEILING else 0.0
+            share = credit_share if years_out < CEILING else 0.0
             for k in keys:
                 credit[k] += share * (1 - f[k]) * F * pop[k]
             goods_pc = {k: f[k] * GOODS * F for k in keys}
@@ -93,6 +98,26 @@ def simulate(reg, scenario):
             # equal goods quota for everyone (capped at the full level's goods)
             q = min(GOODS * F, goods_usable / W)
             goods_pc = {k: q for k in keys}
+            # distribution bottleneck: shipments between regions are limited
+            if transfer_cap is not None:
+                local_goods = {k: GOODS * cap[k] * shock * (1 - RESERVE) for k in keys}
+                need_in = sum(max(0.0, q - local_goods[k]) * pop[k] for k in keys)
+                limit = transfer_cap * goods_usable
+                if need_in > limit:
+                    ratio = limit / need_in
+                    for k in keys:
+                        if local_goods[k] < q:
+                            goods_pc[k] = local_goods[k] + (q - local_goods[k]) * ratio
+                    spare = goods_usable - sum(goods_pc[k] * pop[k] for k in keys)
+                    rich_k = [k for k in keys if local_goods[k] >= q]
+                    rp = sum(pop[k] for k in rich_k)
+                    for k in rich_k:  # goods that cannot be shipped stay where they were made
+                        goods_pc[k] = min(GOODS * F, q + spare / rp)
+            # enforcement: diverted quota goods are lost to those below the median
+            if leakage:
+                for k in keys:
+                    if cap[k] < F * 0.5:
+                        goods_pc[k] *= 1 - leakage
             if scenario == "s2_DCQ":
                 income = {k: F for k in keys}                         # 5,000 U scale everywhere
                 svc_pc = {k: min((1 - GOODS) * F, svc_cap[k] / pop[k]) for k in keys}
@@ -122,9 +147,10 @@ def simulate(reg, scenario):
                      "mean_salary_factor": sum(f[k] * pop[k] for k in keys) / W,
                      "credit_outstanding_years": sum(credit.values()) / (F * W),
                      "reserve_years_of_goods": reserve / max(goods_made, 1e-9)})
-        for k in keys:  # capacity growth
+        for k in keys:  # capacity growth; unspendable money weakens local effort and investment
             gap = max(0.0, math.log(F / cap[k])) if cap[k] < F else 0.0
-            cap[k] *= 1 + RICH + EXTRA * min(1.0, gap)
+            u_share = unspent[k] / income[k] if income[k] else 0.0
+            cap[k] *= 1 + (RICH + EXTRA * min(1.0, gap)) * (1 - effort * u_share)
     reach = next((r["year"] for r in rows if r["real_poorer_half_vs_full"] >= 0.9), None)
     pick = lambda y: {k: round(v, 3) for k, v in rows[y].items()}
     return {"year_poorer_half_reaches_90pct": reach, "year_0": pick(0), "year_10": pick(10), "year_20": pick(20),

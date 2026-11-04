@@ -49,3 +49,47 @@ No equality credit is needed for goods. The credit could be kept only for the se
 - No transport losses or delays.
 - Black-market pressure is shown as unspendable money, not modelled as behaviour.
 - PPP consumption stands in for physical capacity.
+
+## Author's decisions (2026-11-04)
+
+1. **The hybrid D + Q + C is adopted provisionally.** The constitution stays unchanged until it passes sensitivity tests.
+2. **The equality credit is removed from the baseline**, including for local services. It stays only as an experimental alternative. Priority goes to real investment in underserved regions: training, health capacity, infrastructure, equipment and productivity. The credit removal is a design decision of a research model; it cancels no accrued claims.
+3. **Quota safeguards:**
+   - allocations adjusted for household size, age, climate, disability and medical needs;
+   - allocation rights never sold, rented or transferred for profit, while ordinary second-hand goods may still be sold under anti-hoarding rules;
+   - transparency of formulas, stocks, shortages and results;
+   - automated routine allocation with accessible alternatives;
+   - privacy;
+   - appeals;
+   - declining or exchanging allocations through an authorised, non-speculative system.
+
+## Sensitivity tests (`quotas/sensitivity.py`)
+
+The author asked why scenarios 2 and 3 were identical. The model did not link money to work and investment. It now does: unspendable money can weaken local effort and capacity growth.
+
+Poorer half of humanity, real consumption ÷ full level, year 0 / year 20, and the year it reaches 90%:
+
+| test | hybrid | D + C (no credit) | D + C + Q (equal salaries) | richest 20 regions, yr 0: hybrid vs D + C |
+|---|---|---|---|---|
+| goods 24% (France) | 25% / 49%, yr 50 | 19% / 43%, yr 55 | 25% / 49%, yr 50 (59% unspendable) | 56% vs 65% |
+| goods 35% | 28% / 52%, yr 49 | 19% / 43%, yr 55 | 28% / 52%, yr 49 | 52% vs 65% |
+| goods 45% | 30% / 55%, yr 46 | 19% / 43%, yr 55 | 30% / 55%, yr 46 | 48% vs 65% |
+| 8% of quota goods diverted | 24% / 49%, yr 51 | – | 24% / 49%, yr 51 | 56% vs 65% |
+| 15% diverted | 24% / 48%, yr 51 | – | 24% / 48%, yr 51 | 56% vs 65% |
+| effort falls with unspendable money (0.2) | 25% / 49%, yr 50 | 19% / 43%, yr 55 | 25% / **46%**, yr **56** | 56% vs 65% |
+| effort falls strongly (0.5) | 25% / 49%, yr 50 | 19% / 43%, yr 55 | 25% / **40%**, yr **70** | 56% vs 65% |
+| shipping capped at 35–50% of world goods | 25% / 49%, yr 50 | 19% / 43%, yr 55 | 25% / 49%, yr 50 | 56% vs 65% |
+| shipping capped at 20% | 23% / 49%, yr 50 | 19% / 43%, yr 55 | 23% / 49%, yr 50 | 59% vs 65% |
+
+## Findings
+
+1. **The hybrid beats D + C in every test** for the poorer half: better from day one, and 4–9 years sooner to 90%. The larger the shippable share of consumption, the larger its advantage, and the larger the contribution of the richest regions in goods (they fall to 48–56% of today, against 65% under D + C).
+2. **Equal salaries (Q) fall behind as soon as unspendable money weakens effort.** The poorer half reaches 90% in year 56 or 70 instead of 50. This answers the author's question: the earlier identical results came from a missing link, not from real equivalence. The hybrid is unaffected because its money is always spendable.
+3. **Enforcement and bottlenecks matter little at these levels.** Diverting 8–15% of quota goods costs about 1 point; only a very tight shipping cap (20% of world goods) costs 2 points at the start.
+4. **The equality credit never changed real living standards** (D + C gives the same real path with or without it). It only moved claims into the future. Removing it from the baseline loses nothing real.
+
+**Limits:**
+- Leakage is applied to quota goods only, while D + C faces its own leakage (V6.9).
+- One goods/services split per run.
+- Synthetic effort strengths.
+- Shipping is capped as an aggregate, not by route.
