@@ -1,6 +1,11 @@
-# V9.0 — proposed constitution changes (NOT applied; for the author's decision)
+# V9.0 — proposed constitution changes
 
-None of these texts has been added to `v75/constitution/UNIRA_CONSTITUTION_DRAFT.md`. Each arises from a V9.0 finding (`RESEARCH_NOTE.md`). Accept, change or reject each one separately.
+**Status (2026-11-04): all three approved by the author and incorporated, with the author's additions.** See `CONSTITUTION_CONSISTENCY_CHECK.md` for the final texts and the consistency check:
+- Proposal 1 became **Article 10f — Peaceful delivery and conflict prevention**, extended at the author's request from avoiding harm to active prevention (mediation, early warning, peaceful dispute resolution, cooperation between communities), with independent supervision and a ban on surveillance or repression. Essential services are never withheld because a region is considered unstable.
+- Proposal 2 became **Article 10e.6** (monitoring of conflict effects), with independent evaluation, community feedback and protection of sensitive information.
+- Proposal 3 became **Article 5.6** in the author's own wording.
+
+The original proposals, as first presented, follow for the record.
 
 ## Proposal 1 — Conflict-sensitive delivery (new Article 10f, after Article 10e)
 

@@ -1,6 +1,6 @@
 # UNIRA V9.0 — can fair distribution of resources reduce armed conflict?
 
-**Question (author):** can UNIRA's fair distribution of resources reduce armed conflict, and would fewer conflicts let humanity reach Level 1 (essential security) and Level 2 (comfortable life, Article 10c) sooner? The question is to be studied with evidence, separating correlation from causation, with no invented percentages. Scenario D is a conditional upper bound, not a forecast. The constitution is unchanged; proposals are in `PROPOSED_CONSTITUTION_CHANGES.md`.
+**Question (author):** can UNIRA's fair distribution of resources reduce armed conflict, and would fewer conflicts let humanity reach Level 1 (essential security) and Level 2 (comfortable life, Article 10c) sooner? The question is to be studied with evidence, separating correlation from causation, with no invented percentages. Scenario D is a conditional upper bound, not a forecast. **Constitution (author's decision, 2026-11-04):** the three proposals were approved and incorporated as Articles 5.6, 10e.6 and 10f, with conflict prevention added to 10f; see `CONSTITUTION_CONSISTENCY_CHECK.md`.
 
 ## Short answers
 

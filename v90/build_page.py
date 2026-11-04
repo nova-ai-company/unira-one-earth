@@ -1,4 +1,4 @@
-"""Standalone HTML of the V9.0 research note and the proposed constitution changes (no JavaScript, no external files,
+"""Standalone HTML of the V9.0 research note, the constitutional changes and their consistency check (no JavaScript, no external files,
 opens from disk in any browser): python3 build_page.py -> V90_conflict.html"""
 import importlib.util
 import re
@@ -26,7 +26,7 @@ def md(path):
 
 
 def main():
-    body = md("RESEARCH_NOTE.md") + "\n<hr>\n" + md("PROPOSED_CONSTITUTION_CHANGES.md")
+    body = md("RESEARCH_NOTE.md") + "\n<hr>\n" + md("CONSTITUTION_CONSISTENCY_CHECK.md") + "\n<hr>\n" + md("PROPOSED_CONSTITUTION_CHANGES.md")
     page = (f"<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'>"
             f"<title>UNIRA V9.0 Conflict</title><style>{CSS}</style></head><body><main>{body}</main></body></html>\n")
     (HERE / "V90_conflict.html").write_text(page)

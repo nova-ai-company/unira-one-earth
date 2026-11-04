@@ -407,6 +407,7 @@ UNIRA can start with willing regions and grow. Compared with a reformed market w
 - **Simulated** (country conflict model coupled with V8.9, 30 runs per scenario): over 80 years UNIRA avoids about 13% (moderate) to 26% (strong) of conflict-years, with little change in the first 20 years. Conflict halves delivery where risk is highest, a conflict trap. Only a conditional upper bound with hypothetical diplomacy and reconciliation avoids about 68%.
 - **Dates:** essential security for 90% is unchanged (year 16). The last people gain most: essential security for 99% is about 3–8 years sooner (21 in the upper bound), and the comfortable life for 95% about 4–6 years sooner (14 in the upper bound).
 - **What remains:** about two thirds of the remaining risk is not linked to living standards (territory, identity, exclusion, state weakness), concentrated in the poorest, weakest states. Prosperity helps peace but does not guarantee it.
+- **Constitution (author's decision):** Article 5.6 states that prosperity does not guarantee peace. Article 10e.6 adds independent monitoring of whether programmes reduce or increase conflict risks. Article 10f requires delivery that never increases tensions, never withholds services from regions considered unstable, and supports mediation, early warning and peaceful dispute resolution, under independent supervision and without surveillance.
 
 <!-- refs:begin sources §11 -->
 
