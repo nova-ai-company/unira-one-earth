@@ -48,3 +48,16 @@
 5. **Open question.** Convergence to today's French consumption level may be neither reachable at historical growth nor ecologically possible for everyone (V6.6). Defining the full scale's real basket as the **sustainable comfortable level for all** would make the target reachable sooner.
 
 The 33–45-year range is a simulated range under strong catch-up, not a deadline. All growth rates are scenarios, and consumption in money terms (PPP) stands in for physical supply. The world-data test of D (production capacity by sector, stocks, transport, natural resources) is the next step.
+
+## Amendments by the author (after the stress test)
+
+- **Credits already earned remain valid** when the two-year ceiling pauses new accrual. The model already keeps them; only new accrual pauses.
+- **The 25% rate is conditional** on the ceiling and on an annual independent sustainability assessment.
+- **"Salaries never cut" protects nominal income, not purchasing power.** In a declared emergency, temporary limits on non-essential purchases are allowed, with essentials always protected (T-8.8).
+- **Reserves come in three forms:**
+  - inventories (food, medicines, fuel, repair materials);
+  - emergency production capacity (standby power, flexible medicine production, mobile care);
+  - resilient infrastructure.
+
+  The 3% reserve margin of the model is an aggregate. Modelling each form separately is future work.
+- **The target is the UNIRA living standard** (Article 10c), not today's French consumption. The 80-year result shows the French level is impossible *under current assumptions*, not that it is fundamentally impossible. It is recorded as an unresolved research question. The next step is to cost the living-standard basket in hours and resources for every region, and rerun convergence toward it.

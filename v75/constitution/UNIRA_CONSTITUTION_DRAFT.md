@@ -286,11 +286,24 @@ Surplus beyond a region's needs goes to the One Earth Fund for sharing.
 
 *Evidence: in a 20-year simulation of 120 products with changing tastes and the same labour hours (V8.2, `v82/production`), these signals served 96% of wishes within 3 months, lost 3.8% and wasted 2.8% of production. A market with flexible prices priced out 19% of wishes, almost all among the poorer half, and lost 10% more; a Soviet-style annual plan lost 47%. Without waiting lists the lost share doubled.*
 
+**Article 10c — The UNIRA living standard.**
+1. The central promise of One Earth is equal access to a high standard of living, defined scientifically and published: a comfortable home, nutritious food, health care, education, mobility, energy, digital access, culture, and reasonable discretionary consumption.
+2. Its physical levels are set by the Scientific Council from the best evidence and reviewed every five years. The starting values come from the research (V6.5–V6.6):
+    - about 27 m² of living space per person;
+    - a comfortable diet of about 2,470 kcal a day with sufficient protein;
+    - health care at about 131 health workers per 10,000 people;
+    - full education;
+    - essential mobility;
+    - about 40 GJ of final energy per person in all uses;
+    - access to digital networks;
+    - a share for personal choices.
+3. The standard must be possible for everyone within Earth's limits. It is the target of the transition (T-8) and the measure of its success.
+
 **Article 11 — Responsible production and stewardship.**
 1. Before producing new, society maintains, repairs, renovates, reuses and converts what exists.
 2. Nothing is produced only to sustain sales. There is no waste and no overproduction.
 3. Whole-life environmental impacts are assessed.
-4. Each region keeps studied, rotated reserves against catastrophes: at least three months of essential goods (food, medicines, energy, materials for repair). *Evidence: a spending rush of a quarter of all free money would add about 3.2 months of goods to demand (V7.9, V8.2).*
+4. Each region keeps studied, rotated reserves against catastrophes: at least three months of essential goods that can be stored (food, medicines, fuel, repair materials), emergency production capacity for what cannot be stored (power, medicines, care), and resilient infrastructure (T-8.7). *Evidence: a spending rush of a quarter of all free money would add about 3.2 months of goods to demand (V7.9, V8.2).*
 
 **Article 12 — One currency, the U.**
 1. One Earth has one digital currency, the U. There is no cash of any kind: no banknotes, no coins. Every payment is digital and made online.
@@ -811,10 +824,15 @@ Income, wealth and any offer to pay more are never taken into account.
 6. **Equality credits are guaranteed obligations.**
     - Repayment begins during the transition, using at most 5% of the world's usable supply each year, and accelerates to at most 15% once salaries are equal everywhere.
     - The outstanding total and the projected repayment capacity are published every year.
-    - While outstanding credits reach two years of world consumption, new accrual pauses until repayment brings them below.
-    - The one-quarter rate is provisional and reviewed every five years with real data. If productivity and resources exceed projections, repayment is accelerated rather than surpluses accumulated.
-7. **Reserves and resilience.** Three per cent of supply each year builds strategic inventories and emergency capacity (Article 11), so that droughts, disasters and supply disruptions are absorbed without cutting rights or salaries.
-8. **The timeline is a tested range, not a promise.** Simulations give full salary convergence in about 33 to 45 years under strong catch-up growth, and later under slower growth. Progress is published every year against this range.
+    - The one-quarter rate is provisional and holds only together with a ceiling: while outstanding credits reach two years of world consumption, new accrual pauses until repayment brings them below. **Credits already earned always remain valid and are always repaid.**
+    - An independent sustainability assessment of the credits (outstanding total, repayment capacity, ecological limits) is published every year. The rate is reviewed every five years with real data. If productivity and resources exceed projections, repayment is accelerated rather than surpluses accumulated.
+7. **Reserves and resilience.** Three per cent of supply each year builds resilience (Article 11.4), in three different forms, because food, medicines, electricity and homes cannot all be stored the same way:
+    - **inventories** of what can be stored: food, medicines, fuel, spare parts and repair materials;
+    - **emergency production capacity** for what cannot be stored long: standby power plants and grid margin, flexible medicine and vaccine production, field hospitals and mobile clinics;
+    - **resilient infrastructure:** redundant networks, renovation and repair crews, and temporary housing ready for disasters.
+8. **Major supply shocks.** Salaries are never cut, but nominal income does not guarantee purchasing power when supply collapses. In a declared emergency (Article 9a), One Earth may set temporary limits on purchases of non-essential goods, for at most the duration of the emergency, published and reviewed by the Court. Essential goods are always protected first and are never rationed below the needs guarantee.
+9. **The target is a living standard, not one country's consumption.** The aim of convergence is the UNIRA living standard of Article 10c for every person. It is not a monetary amount, and not the replication of any one country's current consumption.
+10. **The timeline is a tested range, not a promise.** Simulations give full salary convergence in about 33 to 45 years under strong catch-up growth, and later under slower growth. Progress is published every year against this range.
 
 *Evidence (V8.3, `v83/equality_credit`). Strong catch-up: equal salaries in year 45 and credits fully repaid in year 55; with very strong catch-up, in years 37 and 44. A credit of one half of the gap would be repaid only in years 61 to 75, and a full credit never. The stress test found no shortages after reserves under population changes of ±30% or repeated supply shocks of 5–10%. If Africa and South Asia catch up at half speed, convergence comes in year 54. At the historical growth pace, convergence to today's French level is not reached within 80 years, and the liability ceiling keeps outstanding credits at about two years of world consumption.*
 
@@ -830,5 +848,5 @@ Income, wealth and any offer to pay more are never taken into account.
 
 - **V7.9 (2026-11-03): the missing designs and power safeguards added** — Articles 3c, 3d, 5b, 5c, 6a, 9a, 10a, 12a, 17b, 22a, 26a, 30a, 32a, 32b, 39a, 41a, 42a, 42b, T-7; amendments to 5a, 13, 17 and 18. Evidence and the stress test of 13 attack scenarios are in `v79/`.
 - **Decided by the author on the research's recommendation (2026-11-03):** a time account of at most 2 weeks a year (sabbatical up to 3 months), paused in shortage jobs (Article 17.4); an open housing lottery of 10%, at most 20% by regional choice (Article 18.8); health need weighted by age and disease burden together (Article 10a.3). Still to confirm with data: the account limits (150,000 U home, 120,000 U retirement, 13 weeks).
-- **Open question for the author (V8.3):** at the historical pace of growth, full salary convergence to today's French consumption level is not reached within 80 years, and that level is also not ecologically possible for everyone (V6.6). Should the full scale's real basket be defined as the sustainable comfortable level for all, rather than France's current consumption?
+- **Unresolved research question (V8.3, recorded by the author):** whether today's French consumption level can be provided to everyone. The 80-year simulation shows it is **impossible under current assumptions** (historical growth), not that it is fundamentally impossible. The target of the transition is therefore the UNIRA living standard (Article 10c), whose cost in hours and resources is the next research item.
 - **Decided by the author (2026-11-03):** a moderate money cap with protected home and retirement accounts. The research set the floor at 1.5 years of base salary (Article 17.3–17.5), and the author confirmed it after comparing 3- and 5-year caps: with all protected accounts, 30% of adults lose some money at 1.5 years, against 19% at 5 years, but a sudden spending rush would create shortages three times larger at 5 years.
