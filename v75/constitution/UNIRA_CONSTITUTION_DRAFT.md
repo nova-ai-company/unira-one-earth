@@ -1,6 +1,6 @@
 # The Constitution of One Earth (UNIRA) — Draft 1
 
-*Draft for discussion, 3 November 2026. Written for the author of UNIRA from the design rules, research results (V6.2–V7.4) and evidence reviews. Notes in italics give the evidence or reasoning behind an article; they are not part of the legal text.*
+*Draft for discussion, 3–4 November 2026. Written for the author of UNIRA from the design rules, research results and evidence reviews, with an AI assistant; the legal text expresses the author's decisions. Notes in italics give the reasoning behind an article; they are not part of the legal text. Where a note cites this project's own simulations ("research basis"), it is not independent evidence: the simulations rest on stated assumptions and have not been peer reviewed. The consolidated design is in `concept/UNIRA_CONCEPT.md`; the research status of each component is in its section 10.*
 
 ---
 
@@ -123,7 +123,7 @@ We, the people of the Earth, one humanity in many regions, cultures and language
     - where that is impossible, other regions provide temporary shelter, shared among regions by their means and population through the One Earth Fund;
     - people return home when it is safe again.
 
-*Evidence (`v76/migration/`): all 117.8 million people forcibly displaced at end-2025 fled persecution, conflict or violence, which this Constitution abolishes; 14.7 million returned home in 2025. Disasters displaced 45.8 million people in 2024, 99% weather-related, almost all inside their own country, which is why protection starts in the person's own region. Economic migration (281 million migrants in 2020) falls as living standards converge but does not vanish, and may rise temporarily while poorer regions catch up; regional visa rules manage it.*
+*Research basis (this project's simulation, not independent evidence; `v76/migration/`): all 117.8 million people forcibly displaced at end-2025 fled persecution, conflict or violence, which this Constitution abolishes; 14.7 million returned home in 2025. Disasters displaced 45.8 million people in 2024, 99% weather-related, almost all inside their own country, which is why protection starts in the person's own region. Economic migration (281 million migrants in 2020) falls as living standards converge but does not vanish, and may rise temporarily while poorer regions catch up; regional visa rules manage it.*
 
 **Article 5 — Peace.**
 1. War is abolished.
@@ -304,7 +304,7 @@ Surplus beyond a region's needs goes to the One Earth Fund for sharing.
     - a share for personal choices.
 3. The standard must be possible for everyone within Earth's limits. It is the target of the transition (T-8) and the measure of its success. Travel and vehicles are provided in the forms the planet can sustain: holidays abroad mainly by rail or coach, long-distance flights within the travel allowance at the surcharged energy price (Article 13.7), and car access through shared or owned vehicles as factories and materials allow.
 
-*Evidence (V8.7, `v87`): the comfortable level of energy for 9.66 billion people in 2050, adjusted for climate, is about 378 EJ, below today's use; the comfortable basket needs about 14 hours of work per worker per week at today's French productivity, falling with automation. Shared cars at one per three households need no more cars than exist today; a yearly holiday abroad by rail or coach uses about 1% of the comfortable energy level, by long-distance air about 14%.*
+*Research basis (this project's simulation, not independent evidence; V8.7, `v87`): the comfortable level of energy for 9.66 billion people in 2050, adjusted for climate, is about 378 EJ, below today's use; the comfortable basket needs about 14 hours of work per worker per week at today's French productivity, falling with automation. Shared cars at one per three households need no more cars than exist today; a yearly holiday abroad by rail or coach uses about 1% of the comfortable energy level, by long-distance air about 14%.*
 
 **Article 10d — Fair shares of what is scarce.**
 1. **Principle.** Every person has an equal right to a dignified and comfortable standard of living. Scarce resources shall be allocated according to legitimate needs and sustainable availability, while monetary entitlements shall reflect the economy's real capacity to deliver goods and services.
@@ -320,7 +320,7 @@ Surplus beyond a region's needs goes to the One Earth Fund for sharing.
     - **Appeals:** anyone may challenge an incorrect or discriminatory allocation before an independent body and then the Court.
     - **Flexibility:** a person may decline an allocation, or exchange it through an authorised system that creates no speculative market.
 
-*Evidence (V8.4, `v84/quotas`): sharing scarce shippable goods by needs-based quotas from the first day gives the poorer half of humanity about a quarter more real consumption at the start and brings them to 90% of the full level 4–9 years sooner than converging salaries alone, across all sensitivity tests (goods shares of 24–45%, diversion of 8–15%, shipping limits). Equal salaries without quotas left most money unspendable at first and fell behind when that weakened effort.*
+*Research basis (this project's simulation, not independent evidence; V8.4, `v84/quotas`): sharing scarce shippable goods by needs-based quotas from the first day gives the poorer half of humanity about a quarter more real consumption at the start and brings them to 90% of the full level 4–9 years sooner than converging salaries alone, across all sensitivity tests (goods shares of 24–45%, diversion of 8–15%, shipping limits). Equal salaries without quotas left most money unspendable at first and fell behind when that weakened effort.*
 
 **Article 10e — Global essential infrastructure priority.**
 1. **The right.** Every human being has the right to reliable access to safe drinking water, sanitation, clean cooking energy and other essential infrastructure (electricity, basic health care, schooling).
@@ -343,7 +343,7 @@ Surplus beyond a region's needs goes to the One Earth Fund for sharing.
     - **Protection of sensitive information:** it publishes results only in forms that identify no person and expose no community to danger. It never collects data on anyone's political opinions, beliefs, associations or peaceful protest, and its data are never used for policing or for operations of the Peace Force (Articles 6, 12a.7 and 3c).
     - **Action:** results are published every year, and programmes are adjusted to what is observed, not to what was expected.
 
-*Evidence (V8.8, `v88/essential`): about 624 million people lack basic drinking water, 1.38 billion basic sanitation, and 1.92 billion safe water or clean cooking. Decentralised solutions for all of them cost about USD 10–26 billion a year, roughly 1% of world military spending, so the rule takes little from anyone. The binding limits are trained people, working institutions, security and maintenance: reaching 95% of the unserved within 15 years needs about 2–4 times the best pace any country has achieved, with peace; within 5 years it is not achievable. Without local operation and maintenance, a quarter of rural water points are out of order at any time.*
+*Research basis (this project's simulation, not independent evidence; V8.8, `v88/essential`): about 624 million people lack basic drinking water, 1.38 billion basic sanitation, and 1.92 billion safe water or clean cooking. Decentralised solutions for all of them cost about USD 10–26 billion a year, roughly 1% of world military spending, so the rule takes little from anyone. The binding limits are trained people, working institutions, security and maintenance: reaching 95% of the unserved within 15 years needs about 2–4 times the best pace any country has achieved, with peace; within 5 years it is not achievable. Without local operation and maintenance, a quarter of rural water points are out of order at any time.*
 
 **Article 10f — Peaceful delivery and conflict prevention.** *(Follows Article 10e.)*
 1. **Delivery that does not increase tensions.** Essential services are delivered in a way that does not increase tensions between communities:
@@ -365,7 +365,7 @@ Surplus beyond a region's needs goes to the One Earth Fund for sharing.
     - information from these mechanisms is never used for policing, prosecution, sanctions or the scoring of persons or communities (Articles 3c.4 and 12a.9), or for any action of the Peace Force against peaceful people (Article 5a.1);
     - any use of the Peace Force remains governed only by Articles 5a–5c, and armed protection is never a condition of delivering a service.
 
-*Evidence (V9.0, `v90/`): today 31% of the poorest quarter of countries are in armed conflict, against 2–4% of the others, but much of that pattern reflects reverse causation and state weakness. In simulation, fair distribution avoids about 13–26% of conflict-years over 80 years; about two thirds of the remaining risk comes from territory, identity, exclusion and state weakness, which only political means can address. Development projects can provoke attacks where they start (Crost, Felter & Johnston 2014), and inequality between groups is linked to civil war (Cederman, Weidmann & Gleditsch 2011). The size of the effect of mediation and early warning at world scale is not yet established.*
+*Research basis (this project's simulation, not independent evidence; V9.0, `v90/`): today 31% of the poorest quarter of countries are in armed conflict, against 2–4% of the others, but much of that pattern reflects reverse causation and state weakness. In simulation, fair distribution avoids about 13–26% of conflict-years over 80 years; about two thirds of the remaining risk comes from territory, identity, exclusion and state weakness, which only political means can address. Development projects can provoke attacks where they start (Crost, Felter & Johnston 2014), and inequality between groups is linked to civil war (Cederman, Weidmann & Gleditsch 2011). The size of the effect of mediation and early warning at world scale is not yet established.*
 
 **Article 11 — Responsible production and stewardship.**
 1. Before producing new, society maintains, repairs, renovates, reuses and converts what exists.
@@ -407,7 +407,7 @@ Surplus beyond a region's needs goes to the One Earth Fund for sharing.
 5. The U is not traded on currency markets. Personal conversion into foreign currency is allowed for travel and family abroad, up to published limits.
 6. Trade with non-members is fair: no dumping and no hidden subsidies, and every contract is published in the Register (Article 33).
 
-*Evidence (V8.2, `v82/trade`): France imports 94% of its mining products and energy raw materials, 89% of its electronics and 88% of its chemicals. Essential imports were €239 billion in 2022, 36% of all imports; its exports (€925 billion) cover them 3.9 times, and a six-month reserve is about €119 billion.*
+*Research basis (this project's simulation, not independent evidence; V8.2, `v82/trade`): France imports 94% of its mining products and energy raw materials, 89% of its electronics and 88% of its chemicals. Essential imports were €239 billion in 2022, 36% of all imports; its exports (€925 billion) cover them 3.9 times, and a six-month reserve is about €119 billion.*
 
 **Article 13 — Fixed prices.**
 1. Prices of essentials are fixed permanently.
@@ -459,7 +459,7 @@ Surplus beyond a region's needs goes to the One Earth Fund for sharing.
 4. **Open accounts in U.** Every enterprise publishes yearly accounts in U: sales, inputs, rent of premises, energy, wear of equipment, salaries and the community share it returns.
 5. **Quiet periods.** When demand falls, the region covers an enterprise's losses for up to six months from the pooled community shares. After that, staff and capacity move to where demand is (Article 10b), with no loss of income for the workers. Persistent losses lead to a public review of the enterprise, never to the ruin of the people in it.
 
-*Evidence (V8.2, `v82/enterprise`): with France's real cost structures, a 10-person restaurant serving about 62,000 meals a year at 51 U each pays its food, rent (about 4,350 U a month), energy, equipment and UNIRA salaries (average 1.9×, owner-chef 3×) and returns a community share of 24% of sales; a 40-person supermarket returns 36%. They break even at 63% and 54% of normal demand.*
+*Research basis (this project's simulation, not independent evidence; V8.2, `v82/enterprise`): with France's real cost structures, a 10-person restaurant serving about 62,000 meals a year at 51 U each pays its food, rent (about 4,350 U a month), energy, equipment and UNIRA salaries (average 1.9×, owner-chef 3×) and returns a community share of 24% of sales; a 40-person supermarket returns 36%. They break even at 63% and 54% of normal demand.*
 
 **Article 16a — Investment, machines and infrastructure.**
 1. **Maintenance first.** Each year, every region invests at least what wears out, measured in hours of work, so that homes, networks, machines and public buildings are never run down.
@@ -468,7 +468,7 @@ Surplus beyond a region's needs goes to the One Earth Fund for sharing.
 4. **Who decides.** The Allocation Authority proposes the yearly investment plan; regions decide a published share for local priorities. Every project, its cost in hours and its expected savings are published in the Register (Article 33).
 5. **Checked afterwards.** Each project's real savings are compared with its promise. Teams whose projects save less than promised lose priority for new ones; teams that save more are recognised (Article 3d).
 
-*Evidence (V8.2, `v82/capital`): in France, investment is 22.2% of GDP and depreciation 18.4%, so 83% of investment only replaces wear; investment goods take about 17% of all working hours. Directing today's net investment (about 3% of hours) to machines that repay their hours in 6–10 years shortens the average week from 30 to about 27–28 hours within 20 years.*
+*Research basis (this project's simulation, not independent evidence; V8.2, `v82/capital`): in France, investment is 22.2% of GDP and depreciation 18.4%, so 83% of investment only replaces wear; investment goods take about 17% of all working hours. Directing today's net investment (about 3% of hours) to machines that repay their hours in 6–10 years shortens the average week from 30 to about 27–28 hours within 20 years.*
 
 **Article 17 — Savings and the money cap.**
 1. Savings are free and protected, up to a personal money cap set each year by the Monetary Authority under Article 17b, so that people keep working to produce what is needed.
@@ -481,7 +481,7 @@ Surplus beyond a region's needs goes to the One Earth Fund for sharing.
 5. **Order.** Savings first fill the free account up to the cap. Money above the cap then fills the home, retirement and time accounts, in that order. Only what remains, including large inheritances, goes to the One Earth Fund. The limits are fixed by law and published. If total hours worked fall below the region's needs, the time-account limit is lowered automatically.
 6. Homes are not money and are never taken.
 
-*Evidence (V7.9, `v79/money/cap_level.py`, with home, retirement and time accounts):*
+*Research basis (this project's simulation, not independent evidence; V7.9, `v79/money/cap_level.py`, with home, retirement and time accounts):*
 
 | Cap (years of base salary) | Adults who reach the cap | Adults who lose money to the Fund | Extra demand in a spending rush |
 |---|---|---|---|
@@ -901,7 +901,7 @@ Income, wealth and any offer to pay more are never taken into account.
 8. **Major supply shocks.** Salaries are never cut, but nominal income does not guarantee purchasing power when supply collapses. In a declared emergency (Article 9a), temporary limits on purchases of non-essential goods may be set for at most the duration of the emergency, published and reviewed by the Court. Essential goods are always protected first.
 9. **Parameters are set by law, not by this Constitution.** The salary amounts, the share of supply kept as reserves, shipping limits, the split between shippable goods and local services, and the expected time to convergence are research values. They are set by law from the best evidence, reviewed regularly, and published with their uncertainty.
 
-*Evidence (V8.2–V8.5): with real World Bank data, the world can produce about two-thirds of France's goods per person but only a third of its services; for the poorer half of humanity, local services are at about a tenth of France's level. Equal salaries everywhere on day one would ask for about twice what the world produces, and most of what money buys is local services that must be built locally. The hybrid gives the poorer half of humanity the best real living standards of every design tested, with no shortages under population change or repeated supply shocks. Its simulated convergence (about 46–51 years to 90% of today's French level) depends on growth assumptions and is not a promise. Equality credits were tested and did not improve real living standards; they remain a research alternative only.*
+*Research basis (this project's simulation, not independent evidence; V8.2–V8.5): with real World Bank data, the world can produce about two-thirds of France's goods per person but only a third of its services; for the poorer half of humanity, local services are at about a tenth of France's level. Equal salaries everywhere on day one would ask for about twice what the world produces, and most of what money buys is local services that must be built locally. The hybrid gives the poorer half of humanity the best real living standards of every design tested, with no shortages under population change or repeated supply shocks. Its simulated convergence (about 46–51 years to 90% of today's French level) depends on growth assumptions and is not a promise. Equality credits were tested and did not improve real living standards; they remain a research alternative only.*
 
 
 ### Proposed articles for research and debate (not yet part of the text)

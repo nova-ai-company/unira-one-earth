@@ -8,7 +8,8 @@ D = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(__file__).resolve().parent
 DOCS = [("brief", "REVIEW_BRIEF.md", "Review brief"),
         ("questions", "REVIEW_QUESTIONS.md", "Review questions by field"),
         ("reviewers", "REVIEWERS.md", "Reviewers needed"),
-        ("form", "FEEDBACK_FORM.md", "Feedback form")]
+        ("form", "FEEDBACK_FORM.md", "Feedback form"),
+        ("audit", "SELF_AUDIT_2026-11-04.md", "Self-audit (4 Nov 2026)")]
 
 
 def inline(t):

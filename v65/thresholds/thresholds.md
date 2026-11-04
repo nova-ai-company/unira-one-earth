@@ -31,7 +31,7 @@ Verification rule: "yes" means the exact number was read in fetched source text 
 ## Unverified / to check
 
 - FAO world *average* dietary energy requirement (ADER, often quoted as 2,100–2,400 kcal): no fetched value.
-- OECD Health at a Glance 2025 averages (3.9 doctors, 9.2 nurses per 1,000): OECD returned HTTP 403, so these come from search snippets only.
+- OECD Health at a Glance 2025 averages (3.9 doctors, 9.2 nurses per 1,000): OECD returned HTTP 403, so these come from search snippets only. Recheck 4 Nov 2026: the report's DOI resolves (10.1787/8f9e3f98-en) but its text could not be opened; 3.9 doctors (2023) appears in press summaries, and 9.2 nurses is the OECD *Society at a Glance 2024* average for 2021, while one snippet gives 9.7 for 2025. These averages are corroborative only: the 131 per 10,000 threshold is derived from Eurostat counts and does not depend on them.
 - UNEP Food Waste Index 2024 (19%, 1.05 Gt) and FAO 13% loss: search-snippet quotes only.
 - Rao, Min & Mastrucci 2019 (Nature Energy) range: not fetched. Secondary sources disagree (12–24 vs 11–24 GJ/cap).
 - Grubler et al. 2018 LED (245 EJ final in 2050): only quoted in MH2020; the per-capita value was not stated.

@@ -1,14 +1,21 @@
 cff-version: 1.2.0
 message: "If you use this research, please cite it as below."
-title: "UNIRA — One Humanity, One Future: open research, models and data (V6.2–V7.7)"
+title: "UNIRA — One Humanity, One Future: open research, models and data"
 type: software
 authors:
   - name: "UNIRA project contributors"
-date-released: 2026-11-03
-version: "7.7"
+date-released: 2026-11-04
+version: "9.1"
 license: MIT
 repository-code: "https://github.com/nova-ai-company/unira-one-earth"
 url: "https://nova-ai-company.github.io/unira-one-earth/"
+abstract: >-
+  Reproducible models, frozen data and documents testing whether a proposed one-world cooperative economy (UNIRA)
+  is physically feasible under stated assumptions. Authorship disclosure: the design rules, decisions and
+  research questions are the human author's; the models, code, documents and evidence files were drafted with an
+  AI assistant (Anthropic Claude, models Opus and Fable) under the author's direction, between 3 and 4 November 2026,
+  and have not yet been independently peer reviewed. See README.md, "How this research was made", and
+  v77/review/SELF_AUDIT_2026-11-04.md.
 keywords:
   - post-growth economics
   - working time reduction
@@ -16,3 +23,4 @@ keywords:
   - input-output analysis
   - decent living standards
   - global governance
+  - conflict prevention

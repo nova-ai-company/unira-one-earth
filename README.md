@@ -1,20 +1,31 @@
 # UNIRA — One Humanity, One Future
 
-**Open research on a world without war, poverty or waste, tested against real data.**
+**Open research on a proposed world without war, poverty or waste, tested against real data.**
 
-UNIRA is a proposal for one world federation of equal regions. It has a 30-hour working week, a stable money (the U) with fixed prices, allocation of resources by need and population, and no armies except a small common Peace Force. This repository holds everything behind it: data, models, tests, the working paper, the draft constitution and the book draft. It is published free so that anyone can check it, criticise it and improve it.
+UNIRA is a proposal for one world federation of equal regions. It has a 30-hour working week, a stable money (the U) with fixed prices, allocation of resources by need and population, and no armies except a small common Peace Force. This repository holds everything behind it: data, models, tests, the papers, the concept, the draft constitution and the book draft. It is published free so that anyone can check it, criticise it and improve it.
+
+**Status (4 November 2026): preliminary, not peer reviewed.** The research tests *physical feasibility under stated assumptions*. It does not show that UNIRA is politically achievable or that people would behave as assumed. A self-audit and the responses to it are in `v77/review/SELF_AUDIT_2026-11-04.md`.
 
 **Website and simulator:** https://nova-ai-company.github.io/unira-one-earth/
 
 | | |
 |---|---|
+| [Paper V1](https://nova-ai-company.github.io/unira-one-earth/paper_v1.html) | **The consolidated paper:** physical feasibility, validation and joint uncertainty (`paper/`) |
+| [The concept](https://nova-ai-company.github.io/unira-one-earth/concept.html) | The normative design in one document, with the research status of each part and the open gaps (`concept/`) |
+| [Draft Constitution of One Earth](https://nova-ai-company.github.io/unira-one-earth/constitution.html) | The legal text of the author's decisions |
+| [Working Paper 02](https://nova-ai-company.github.io/unira-one-earth/paper.html) | The full research log, V6.2–V9.1 (superseded as the paper by Paper V1; kept for traceability) |
 | [Simulator](https://nova-ai-company.github.io/unira-one-earth/simulator.html) | Change the assumptions and see the results |
-| [Working Paper 02](https://nova-ai-company.github.io/unira-one-earth/paper.html) | The scientific paper (also as Word in `docs/downloads/`) |
-| [Draft Constitution of One Earth](https://nova-ai-company.github.io/unira-one-earth/constitution.html) | 66 articles |
 | [Book draft](https://nova-ai-company.github.io/unira-one-earth/book.html) | *UNIRA: One Humanity, One Future* (second draft, English) |
-| [For reviewers](https://nova-ai-company.github.io/unira-one-earth/review.html) | Review brief, 80 questions, feedback form |
+| [For reviewers](https://nova-ai-company.github.io/unira-one-earth/review.html) | Review brief, questions by field, self-audit, feedback form |
 | [Prices](https://nova-ai-company.github.io/unira-one-earth/prices.html) | Price calculator: what things cost in U and in hours of work |
 | [Pilot proposal](https://nova-ai-company.github.io/unira-one-earth/pilot.html) | A 30-hour, full-employment town inside today's law, with pre-registered predictions and failure criteria |
+
+## How this research was made (authorship disclosure)
+
+- **The author** set the purpose, the design rules, every decision recorded in `v63/DESIGN_CLARIFICATIONS_2026-11-03.md`, the research questions, and the constitutional text; they reviewed and corrected results throughout.
+- **An AI assistant** (Anthropic Claude; models Opus and Fable) drafted the models, code, tests, evidence files, papers, constitution drafts and book chapters under the author's direction, on 3–4 November 2026.
+- **No independent human expert has yet reviewed the work.** The evidence files record, row by row, whether a figure was read in its source or taken from a search summary; the reference list records which entries were verified. The models are reproducible, which proves that the code does what it says, not that its assumptions are right.
+- **What the pace implies.** Hundreds of modelling judgements were made in hours. Readers should expect errors of judgement, and are asked to report them (issue templates in `.github/`).
 
 ## Main results (with their conditions)
 
@@ -30,12 +41,15 @@ UNIRA is a proposal for one world federation of equal regions. It has a 30-hour 
 
 - **Completing the economy (V8.2).** Ordinary goods follow orders and waiting lists (96% served within 3 months, nobody priced out). Hard jobs get hardship pay, shorter hours and better conditions. Investment puts maintenance first. A restaurant and a supermarket balance their accounts with UNIRA prices and salaries. Salaries converge across regions with needs guaranteed in kind from year 1 (target 20 years).
 
-These are tests of **physical feasibility under stated assumptions**, not forecasts. Every limitation is listed in the working paper and the research notes.
+These are tests of **physical feasibility under stated assumptions**, not forecasts, and not a demonstration that the system would work. The defensible claim is that no physical constraint was identified under the stated conditions. Every limitation is listed in Paper V1 (§7), the concept (§11) and the research notes. A backtest of the delivery model and a joint propagation of all uncertain assumptions are in `validation/`.
 
 ## Repository layout
 
 | Folder | Content |
 |---|---|
+| `paper/` | **Paper V1**: the consolidated modelling paper (physical feasibility, validation, uncertainty) |
+| `concept/` | **The concept**: the normative design, research status of each part, open gaps |
+| `validation/` | Backtest of the delivery pace rule (2000–2024) and joint uncertainty propagation for v67, v89 and v91 |
 | `handover/` | Project specification and history up to V6.1 |
 | `v62/` | France: labour hours by sector, 30-hour week, labour reserve (Eurostat) |
 | `v63/` | Input–output model in hours, take-up flows, health staffing, year-1 ledger; **`run_all.py` rebuilds everything** |
@@ -70,7 +84,7 @@ Python 3.10+ and nothing else (standard library only). All data are frozen snaps
 python3 v63/run_all.py
 ```
 
-This regenerates every output, the dashboard, book, constitution and website, then runs all 194 tests.
+This regenerates every output, the dashboard, book, constitution and website, then runs all tests (about 270).
 
 ## Take part
 

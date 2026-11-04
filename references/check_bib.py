@@ -136,7 +136,7 @@ def main():
             warnings.append('%s is never used in CITATION_MAP.csv' % k)
 
     if os.path.exists(MD):
-        mdkeys = set(re.findall(r'\*\*\[(?:verified|from project files)\]\*\* `([a-z0-9_]+)`', open(MD, encoding='utf-8').read()))
+        mdkeys = set(re.findall(r'\*\*\[(?:verified[^\]]*|from project files|not located[^\]]*|unreachable[^\]]*)\]\*\* `([a-z0-9_]+)`', open(MD, encoding='utf-8').read()))
         for k in keys:
             if k not in mdkeys:
                 errors.append('%s missing from REFERENCES.md' % k)

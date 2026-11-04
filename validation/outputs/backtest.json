@@ -1,0 +1,744 @@
+{
+ "fit_period": [
+  2000,
+  2012
+ ],
+ "test_year": 2024,
+ "domains": {
+  "water": {
+   "countries": 191,
+   "target": 99.0,
+   "actual_world_coverage_2024": 0.9195,
+   "gain_percentiles_fit_vs_later_points_per_year": {
+    "p50": [
+     0.446,
+     0.377
+    ],
+    "p75": [
+     0.866,
+     0.786
+    ],
+    "p90": [
+     1.426,
+     1.461
+    ]
+   },
+   "rank_correlation_own_pace_2000_12_vs_2012_24": 0.939,
+   "variants": {
+    "own_only/no_governance_factor": {
+     "mae_points": 0.95,
+     "bias_points_pred_minus_actual": 0.3,
+     "share_over_by_5pts": 0.021,
+     "share_under_by_5pts": 0.021,
+     "predicted_world_coverage_2024": 0.929,
+     "bias_by_status": {
+      "conflict": 0.2,
+      "fragile": 1.02,
+      "other": 0.25
+     }
+    },
+    "own_only/with_governance_factor": {
+     "mae_points": 1.34,
+     "bias_points_pred_minus_actual": -0.33,
+     "share_over_by_5pts": 0.021,
+     "share_under_by_5pts": 0.063,
+     "predicted_world_coverage_2024": 0.9207,
+     "bias_by_status": {
+      "conflict": -5.17,
+      "fragile": -0.32,
+      "other": 0.25
+     }
+    },
+    "p50/no_governance_factor": {
+     "mae_points": 1.52,
+     "bias_points_pred_minus_actual": 1.01,
+     "share_over_by_5pts": 0.073,
+     "share_under_by_5pts": 0.01,
+     "predicted_world_coverage_2024": 0.9336,
+     "bias_by_status": {
+      "conflict": 1.52,
+      "fragile": 3.06,
+      "other": 0.79
+     }
+    },
+    "p50/with_governance_factor": {
+     "mae_points": 1.81,
+     "bias_points_pred_minus_actual": 0.29,
+     "share_over_by_5pts": 0.052,
+     "share_under_by_5pts": 0.052,
+     "predicted_world_coverage_2024": 0.9246,
+     "bias_by_status": {
+      "conflict": -4.5,
+      "fragile": 1.29,
+      "other": 0.79
+     }
+    },
+    "p75/no_governance_factor": {
+     "mae_points": 2.32,
+     "bias_points_pred_minus_actual": 1.96,
+     "share_over_by_5pts": 0.157,
+     "share_under_by_5pts": 0.01,
+     "predicted_world_coverage_2024": 0.9433,
+     "bias_by_status": {
+      "conflict": 2.84,
+      "fragile": 5.77,
+      "other": 1.54
+     }
+    },
+    "p75/with_governance_factor": {
+     "mae_points": 2.51,
+     "bias_points_pred_minus_actual": 1.15,
+     "share_over_by_5pts": 0.147,
+     "share_under_by_5pts": 0.052,
+     "predicted_world_coverage_2024": 0.9337,
+     "bias_by_status": {
+      "conflict": -3.56,
+      "fragile": 3.32,
+      "other": 1.54
+     }
+    },
+    "p90/no_governance_factor": {
+     "mae_points": 3.45,
+     "bias_points_pred_minus_actual": 3.22,
+     "share_over_by_5pts": 0.262,
+     "share_under_by_5pts": 0.005,
+     "predicted_world_coverage_2024": 0.9516,
+     "bias_by_status": {
+      "conflict": 5.42,
+      "fragile": 9.89,
+      "other": 2.41
+     }
+    },
+    "p90/with_governance_factor": {
+     "mae_points": 3.38,
+     "bias_points_pred_minus_actual": 2.28,
+     "share_over_by_5pts": 0.236,
+     "share_under_by_5pts": 0.047,
+     "predicted_world_coverage_2024": 0.9409,
+     "bias_by_status": {
+      "conflict": -1.95,
+      "fragile": 6.86,
+      "other": 2.41
+     }
+    }
+   }
+  },
+  "sanitation": {
+   "countries": 190,
+   "target": 99.0,
+   "actual_world_coverage_2024": 0.828,
+   "gain_percentiles_fit_vs_later_points_per_year": {
+    "p50": [
+     0.608,
+     0.566
+    ],
+    "p75": [
+     1.061,
+     1.034
+    ],
+    "p90": [
+     1.502,
+     1.598
+    ]
+   },
+   "rank_correlation_own_pace_2000_12_vs_2012_24": 0.957,
+   "variants": {
+    "own_only/no_governance_factor": {
+     "mae_points": 1.16,
+     "bias_points_pred_minus_actual": 0.03,
+     "share_over_by_5pts": 0.021,
+     "share_under_by_5pts": 0.011,
+     "predicted_world_coverage_2024": 0.8259,
+     "bias_by_status": {
+      "conflict": -0.84,
+      "fragile": 1.3,
+      "other": 0.02
+     }
+    },
+    "own_only/with_governance_factor": {
+     "mae_points": 1.51,
+     "bias_points_pred_minus_actual": -0.49,
+     "share_over_by_5pts": 0.016,
+     "share_under_by_5pts": 0.053,
+     "predicted_world_coverage_2024": 0.8215,
+     "bias_by_status": {
+      "conflict": -4.65,
+      "fragile": -0.65,
+      "other": 0.02
+     }
+    },
+    "p50/no_governance_factor": {
+     "mae_points": 2.04,
+     "bias_points_pred_minus_actual": 1.17,
+     "share_over_by_5pts": 0.116,
+     "share_under_by_5pts": 0.011,
+     "predicted_world_coverage_2024": 0.8308,
+     "bias_by_status": {
+      "conflict": 0.76,
+      "fragile": 4.14,
+      "other": 0.96
+     }
+    },
+    "p50/with_governance_factor": {
+     "mae_points": 2.18,
+     "bias_points_pred_minus_actual": 0.53,
+     "share_over_by_5pts": 0.1,
+     "share_under_by_5pts": 0.053,
+     "predicted_world_coverage_2024": 0.8253,
+     "bias_by_status": {
+      "conflict": -3.78,
+      "fragile": 1.52,
+      "other": 0.96
+     }
+    },
+    "p75/no_governance_factor": {
+     "mae_points": 3.38,
+     "bias_points_pred_minus_actual": 2.79,
+     "share_over_by_5pts": 0.274,
+     "share_under_by_5pts": 0.011,
+     "predicted_world_coverage_2024": 0.8423,
+     "bias_by_status": {
+      "conflict": 3.31,
+      "fragile": 7.17,
+      "other": 2.33
+     }
+    },
+    "p75/with_governance_factor": {
+     "mae_points": 3.31,
+     "bias_points_pred_minus_actual": 1.99,
+     "share_over_by_5pts": 0.232,
+     "share_under_by_5pts": 0.047,
+     "predicted_world_coverage_2024": 0.8348,
+     "bias_by_status": {
+      "conflict": -2.36,
+      "fragile": 4.0,
+      "other": 2.33
+     }
+    },
+    "p90/no_governance_factor": {
+     "mae_points": 4.91,
+     "bias_points_pred_minus_actual": 4.49,
+     "share_over_by_5pts": 0.389,
+     "share_under_by_5pts": 0.011,
+     "predicted_world_coverage_2024": 0.8543,
+     "bias_by_status": {
+      "conflict": 7.04,
+      "fragile": 10.52,
+      "other": 3.64
+     }
+    },
+    "p90/with_governance_factor": {
+     "mae_points": 4.44,
+     "bias_points_pred_minus_actual": 3.48,
+     "share_over_by_5pts": 0.342,
+     "share_under_by_5pts": 0.032,
+     "predicted_world_coverage_2024": 0.8442,
+     "bias_by_status": {
+      "conflict": -0.26,
+      "fragile": 6.7,
+      "other": 3.64
+     }
+    }
+   }
+  },
+  "clean_cooking": {
+   "countries": 192,
+   "target": 99.0,
+   "actual_world_coverage_2024": 0.7601,
+   "gain_percentiles_fit_vs_later_points_per_year": {
+    "p50": [
+     0.667,
+     0.583
+    ],
+    "p75": [
+     1.25,
+     1.25
+    ],
+    "p90": [
+     2.333,
+     2.083
+    ]
+   },
+   "rank_correlation_own_pace_2000_12_vs_2012_24": 0.574,
+   "variants": {
+    "own_only/no_governance_factor": {
+     "mae_points": 4.34,
+     "bias_points_pred_minus_actual": -1.73,
+     "share_over_by_5pts": 0.083,
+     "share_under_by_5pts": 0.182,
+     "predicted_world_coverage_2024": 0.7014,
+     "bias_by_status": {
+      "conflict": -0.75,
+      "fragile": -2.88,
+      "other": -1.73
+     }
+    },
+    "own_only/with_governance_factor": {
+     "mae_points": 4.25,
+     "bias_points_pred_minus_actual": -2.08,
+     "share_over_by_5pts": 0.062,
+     "share_under_by_5pts": 0.193,
+     "predicted_world_coverage_2024": 0.6987,
+     "bias_by_status": {
+      "conflict": -3.12,
+      "fragile": -4.04,
+      "other": -1.73
+     }
+    },
+    "p50/no_governance_factor": {
+     "mae_points": 4.23,
+     "bias_points_pred_minus_actual": 0.22,
+     "share_over_by_5pts": 0.156,
+     "share_under_by_5pts": 0.115,
+     "predicted_world_coverage_2024": 0.7143,
+     "bias_by_status": {
+      "conflict": 3.2,
+      "fragile": 1.59,
+      "other": -0.31
+     }
+    },
+    "p50/with_governance_factor": {
+     "mae_points": 3.94,
+     "bias_points_pred_minus_actual": -0.42,
+     "share_over_by_5pts": 0.104,
+     "share_under_by_5pts": 0.13,
+     "predicted_world_coverage_2024": 0.7088,
+     "bias_by_status": {
+      "conflict": -1.07,
+      "fragile": -0.6,
+      "other": -0.31
+     }
+    },
+    "p75/no_governance_factor": {
+     "mae_points": 5.01,
+     "bias_points_pred_minus_actual": 2.69,
+     "share_over_by_5pts": 0.281,
+     "share_under_by_5pts": 0.057,
+     "predicted_world_coverage_2024": 0.7313,
+     "bias_by_status": {
+      "conflict": 7.9,
+      "fragile": 6.94,
+      "other": 1.55
+     }
+    },
+    "p75/with_governance_factor": {
+     "mae_points": 4.39,
+     "bias_points_pred_minus_actual": 1.7,
+     "share_over_by_5pts": 0.229,
+     "share_under_by_5pts": 0.073,
+     "predicted_world_coverage_2024": 0.7225,
+     "bias_by_status": {
+      "conflict": 1.38,
+      "fragile": 3.41,
+      "other": 1.55
+     }
+    },
+    "p90/no_governance_factor": {
+     "mae_points": 8.39,
+     "bias_points_pred_minus_actual": 7.83,
+     "share_over_by_5pts": 0.432,
+     "share_under_by_5pts": 0.021,
+     "predicted_world_coverage_2024": 0.7885,
+     "bias_by_status": {
+      "conflict": 17.6,
+      "fragile": 16.88,
+      "other": 5.57
+     }
+    },
+    "p90/with_governance_factor": {
+     "mae_points": 6.96,
+     "bias_points_pred_minus_actual": 6.13,
+     "share_over_by_5pts": 0.396,
+     "share_under_by_5pts": 0.031,
+     "predicted_world_coverage_2024": 0.773,
+     "bias_by_status": {
+      "conflict": 6.4,
+      "fragile": 10.87,
+      "other": 5.57
+     }
+    }
+   }
+  },
+  "electricity": {
+   "countries": 206,
+   "target": 99.0,
+   "actual_world_coverage_2024": 0.9242,
+   "gain_percentiles_fit_vs_later_points_per_year": {
+    "p50": [
+     1.042,
+     1.083
+    ],
+    "p75": [
+     1.475,
+     1.867
+    ],
+    "p90": [
+     2.458,
+     2.9
+    ]
+   },
+   "rank_correlation_own_pace_2000_12_vs_2012_24": 0.82,
+   "variants": {
+    "own_only/no_governance_factor": {
+     "mae_points": 2.97,
+     "bias_points_pred_minus_actual": -1.7,
+     "share_over_by_5pts": 0.029,
+     "share_under_by_5pts": 0.141,
+     "predicted_world_coverage_2024": 0.9126,
+     "bias_by_status": {
+      "conflict": -2.06,
+      "fragile": -3.23,
+      "other": -1.5
+     }
+    },
+    "own_only/with_governance_factor": {
+     "mae_points": 3.35,
+     "bias_points_pred_minus_actual": -2.41,
+     "share_over_by_5pts": 0.024,
+     "share_under_by_5pts": 0.165,
+     "predicted_world_coverage_2024": 0.9063,
+     "bias_by_status": {
+      "conflict": -6.86,
+      "fragile": -6.46,
+      "other": -1.5
+     }
+    },
+    "p50/no_governance_factor": {
+     "mae_points": 2.78,
+     "bias_points_pred_minus_actual": -0.82,
+     "share_over_by_5pts": 0.068,
+     "share_under_by_5pts": 0.112,
+     "predicted_world_coverage_2024": 0.9172,
+     "bias_by_status": {
+      "conflict": 0.62,
+      "fragile": -0.51,
+      "other": -1.01
+     }
+    },
+    "p50/with_governance_factor": {
+     "mae_points": 3.09,
+     "bias_points_pred_minus_actual": -1.69,
+     "share_over_by_5pts": 0.044,
+     "share_under_by_5pts": 0.141,
+     "predicted_world_coverage_2024": 0.9096,
+     "bias_by_status": {
+      "conflict": -5.41,
+      "fragile": -4.42,
+      "other": -1.01
+     }
+    },
+    "p75/no_governance_factor": {
+     "mae_points": 2.67,
+     "bias_points_pred_minus_actual": 0.04,
+     "share_over_by_5pts": 0.087,
+     "share_under_by_5pts": 0.087,
+     "predicted_world_coverage_2024": 0.9238,
+     "bias_by_status": {
+      "conflict": 3.25,
+      "fragile": 1.99,
+      "other": -0.52
+     }
+    },
+    "p75/with_governance_factor": {
+     "mae_points": 2.83,
+     "bias_points_pred_minus_actual": -1.0,
+     "share_over_by_5pts": 0.058,
+     "share_under_by_5pts": 0.126,
+     "predicted_world_coverage_2024": 0.9142,
+     "bias_by_status": {
+      "conflict": -3.98,
+      "fragile": -2.54,
+      "other": -0.52
+     }
+    },
+    "p90/no_governance_factor": {
+     "mae_points": 3.45,
+     "bias_points_pred_minus_actual": 2.5,
+     "share_over_by_5pts": 0.194,
+     "share_under_by_5pts": 0.034,
+     "predicted_world_coverage_2024": 0.9427,
+     "bias_by_status": {
+      "conflict": 11.32,
+      "fragile": 8.22,
+      "other": 0.95
+     }
+    },
+    "p90/with_governance_factor": {
+     "mae_points": 2.88,
+     "bias_points_pred_minus_actual": 1.01,
+     "share_over_by_5pts": 0.15,
+     "share_under_by_5pts": 0.073,
+     "predicted_world_coverage_2024": 0.9271,
+     "bias_by_status": {
+      "conflict": 0.05,
+      "fragile": 2.75,
+      "other": 0.95
+     }
+    }
+   }
+  },
+  "internet": {
+   "countries": 181,
+   "target": 70,
+   "actual_world_coverage_2024": 0.8856,
+   "gain_percentiles_fit_vs_later_points_per_year": {
+    "p50": [
+     1.926,
+     3.113
+    ],
+    "p75": [
+     3.475,
+     3.905
+    ],
+    "p90": [
+     4.504,
+     4.793
+    ]
+   },
+   "rank_correlation_own_pace_2000_12_vs_2012_24": -0.315,
+   "variants": {
+    "own_only/no_governance_factor": {
+     "mae_points": 11.48,
+     "bias_points_pred_minus_actual": -11.36,
+     "share_over_by_5pts": 0.006,
+     "share_under_by_5pts": 0.442,
+     "predicted_world_coverage_2024": 0.648,
+     "bias_by_status": {
+      "conflict": -18.15,
+      "fragile": -20.39,
+      "other": -9.86
+     }
+    },
+    "own_only/with_governance_factor": {
+     "mae_points": 11.86,
+     "bias_points_pred_minus_actual": -11.8,
+     "share_over_by_5pts": 0.0,
+     "share_under_by_5pts": 0.453,
+     "predicted_world_coverage_2024": 0.6415,
+     "bias_by_status": {
+      "conflict": -21.53,
+      "fragile": -22.4,
+      "other": -9.86
+     }
+    },
+    "p50/no_governance_factor": {
+     "mae_points": 7.42,
+     "bias_points_pred_minus_actual": -5.84,
+     "share_over_by_5pts": 0.072,
+     "share_under_by_5pts": 0.32,
+     "predicted_world_coverage_2024": 0.7398,
+     "bias_by_status": {
+      "conflict": -2.58,
+      "fragile": -6.97,
+      "other": -6.06
+     }
+    },
+    "p50/with_governance_factor": {
+     "mae_points": 7.96,
+     "bias_points_pred_minus_actual": -7.18,
+     "share_over_by_5pts": 0.033,
+     "share_under_by_5pts": 0.365,
+     "predicted_world_coverage_2024": 0.7223,
+     "bias_by_status": {
+      "conflict": -13.75,
+      "fragile": -12.33,
+      "other": -6.06
+     }
+    },
+    "p75/no_governance_factor": {
+     "mae_points": 5.28,
+     "bias_points_pred_minus_actual": 2.17,
+     "share_over_by_5pts": 0.177,
+     "share_under_by_5pts": 0.122,
+     "predicted_world_coverage_2024": 0.875,
+     "bias_by_status": {
+      "conflict": 13.54,
+      "fragile": 10.29,
+      "other": 0.3
+     }
+    },
+    "p75/with_governance_factor": {
+     "mae_points": 4.55,
+     "bias_points_pred_minus_actual": -0.15,
+     "share_over_by_5pts": 0.127,
+     "share_under_by_5pts": 0.16,
+     "predicted_world_coverage_2024": 0.8446,
+     "bias_by_status": {
+      "conflict": -5.46,
+      "fragile": 0.61,
+      "other": 0.3
+     }
+    },
+    "p90/no_governance_factor": {
+     "mae_points": 7.07,
+     "bias_points_pred_minus_actual": 6.7,
+     "share_over_by_5pts": 0.265,
+     "share_under_by_5pts": 0.022,
+     "predicted_world_coverage_2024": 0.9577,
+     "bias_by_status": {
+      "conflict": 24.23,
+      "fragile": 20.64,
+      "other": 3.68
+     }
+    },
+    "p90/with_governance_factor": {
+     "mae_points": 5.37,
+     "bias_points_pred_minus_actual": 3.83,
+     "share_over_by_5pts": 0.221,
+     "share_under_by_5pts": 0.055,
+     "predicted_world_coverage_2024": 0.9192,
+     "bias_by_status": {
+      "conflict": 0.31,
+      "fragile": 9.21,
+      "other": 3.68
+     }
+    }
+   }
+  },
+  "secondary_school": {
+   "countries": 127,
+   "target": 90,
+   "actual_world_coverage_2024": 0.8696,
+   "gain_percentiles_fit_vs_later_points_per_year": {
+    "p50": [
+     1.483,
+     0.691
+    ],
+    "p75": [
+     2.053,
+     1.254
+    ],
+    "p90": [
+     2.452,
+     1.816
+    ]
+   },
+   "rank_correlation_own_pace_2000_12_vs_2012_24": -0.005,
+   "variants": {
+    "own_only/no_governance_factor": {
+     "mae_points": 4.88,
+     "bias_points_pred_minus_actual": 3.92,
+     "share_over_by_5pts": 0.236,
+     "share_under_by_5pts": 0.031,
+     "predicted_world_coverage_2024": 0.9371,
+     "bias_by_status": {
+      "conflict": 20.37,
+      "fragile": 12.11,
+      "other": 2.34
+     }
+    },
+    "own_only/with_governance_factor": {
+     "mae_points": 4.31,
+     "bias_points_pred_minus_actual": 3.34,
+     "share_over_by_5pts": 0.228,
+     "share_under_by_5pts": 0.031,
+     "predicted_world_coverage_2024": 0.9272,
+     "bias_by_status": {
+      "conflict": 13.24,
+      "fragile": 9.8,
+      "other": 2.34
+     }
+    },
+    "p50/no_governance_factor": {
+     "mae_points": 5.33,
+     "bias_points_pred_minus_actual": 4.9,
+     "share_over_by_5pts": 0.291,
+     "share_under_by_5pts": 0.008,
+     "predicted_world_coverage_2024": 0.9506,
+     "bias_by_status": {
+      "conflict": 22.58,
+      "fragile": 15.93,
+      "other": 3.12
+     }
+    },
+    "p50/with_governance_factor": {
+     "mae_points": 4.65,
+     "bias_points_pred_minus_actual": 4.22,
+     "share_over_by_5pts": 0.276,
+     "share_under_by_5pts": 0.008,
+     "predicted_world_coverage_2024": 0.9402,
+     "bias_by_status": {
+      "conflict": 14.35,
+      "fragile": 12.66,
+      "other": 3.12
+     }
+    },
+    "p75/no_governance_factor": {
+     "mae_points": 5.85,
+     "bias_points_pred_minus_actual": 5.54,
+     "share_over_by_5pts": 0.291,
+     "share_under_by_5pts": 0.008,
+     "predicted_world_coverage_2024": 0.9589,
+     "bias_by_status": {
+      "conflict": 24.78,
+      "fragile": 19.06,
+      "other": 3.54
+     }
+    },
+    "p75/with_governance_factor": {
+     "mae_points": 5.09,
+     "bias_points_pred_minus_actual": 4.78,
+     "share_over_by_5pts": 0.291,
+     "share_under_by_5pts": 0.008,
+     "predicted_world_coverage_2024": 0.9467,
+     "bias_by_status": {
+      "conflict": 15.83,
+      "fragile": 15.01,
+      "other": 3.54
+     }
+    },
+    "p90/no_governance_factor": {
+     "mae_points": 6.35,
+     "bias_points_pred_minus_actual": 6.11,
+     "share_over_by_5pts": 0.299,
+     "share_under_by_5pts": 0.008,
+     "predicted_world_coverage_2024": 0.9668,
+     "bias_by_status": {
+      "conflict": 27.26,
+      "fragile": 21.87,
+      "other": 3.88
+     }
+    },
+    "p90/with_governance_factor": {
+     "mae_points": 5.5,
+     "bias_points_pred_minus_actual": 5.25,
+     "share_over_by_5pts": 0.299,
+     "share_under_by_5pts": 0.008,
+     "predicted_world_coverage_2024": 0.9527,
+     "bias_by_status": {
+      "conflict": 17.33,
+      "fragile": 17.12,
+      "other": 3.88
+     }
+    }
+   }
+  }
+ },
+ "summary": {
+  "own_only/no_governance_factor": {
+   "mean_mae_points": 4.3,
+   "mean_bias_points": -1.76,
+   "world_coverage_error_points": -3.88
+  },
+  "p50/no_governance_factor": {
+   "mean_mae_points": 3.89,
+   "mean_bias_points": 0.11,
+   "world_coverage_error_points": -1.68
+  },
+  "p75/no_governance_factor": {
+   "mean_mae_points": 4.08,
+   "mean_bias_points": 2.53,
+   "world_coverage_error_points": 1.46
+  },
+  "p90/no_governance_factor": {
+   "mean_mae_points": 5.6,
+   "mean_bias_points": 5.14,
+   "world_coverage_error_points": 4.58
+  },
+  "p75/with_governance_factor": {
+   "mean_mae_points": 3.78,
+   "mean_bias_points": 1.41,
+   "world_coverage_error_points": 0.16
+  }
+ }
+}

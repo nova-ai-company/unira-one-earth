@@ -1,5 +1,8 @@
 # UNIRA V8.8 — a targeted programme for water, sanitation and clean cooking
 
+> **Status (4 November 2026): preliminary.** Every evidence row that rested on a search summary was verified in source on 4 November 2026 (`essential/evidence.csv`). Confirmed: the basic-WASH capital cost (USD 28.4 bn a year, range 13.8–46.7), handpump non-functionality (about one in four), the IEG outcome ratings (74% against 85%) and the 26% integrity-loss figure. Corrected: the safely-managed WASH range is USD 74–166 bn a year, not 74–116; and the sanitation unit costs had been misread, with recurrent costs per year taken for capital costs — the IRC capital benchmarks are 7–26 USD per person for a pit latrine with slab and 36–358 for a VIP latrine. The model's 40 USD assumption lies between them. Raising it to 100 USD lifts the programme's total capital from about USD 13–20 bn to 17–28 bn a year (scale 2, 15 to 5 years); the timelines, which depend on delivery capacity rather than money, are unchanged.
+
+
 **Question (author):** if global resources are sufficient, why do people still lack clean water, sanitation and clean cooking, and can UNIRA close these gaps in 5, 10 or 15 years? Delivery counts, not spending. Conflict and governance are modelled, not assumed away. The constitution stays unchanged until the evidence is evaluated.
 
 ## 1. Who is without access (latest World Bank / JMP / WHO data; "universal" = 99%)

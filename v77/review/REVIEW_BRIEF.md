@@ -2,6 +2,8 @@
 
 *Prepared 3 November 2026 for independent expert review. Paths are relative to the UNIRA research folder. "WP02 L120" means line 120 of `v67/WORKING_PAPER_02.md`; "Const. Art. 25" means `v75/constitution/UNIRA_CONSTITUTION_DRAFT.md`.*
 
+> **Update, 4 November 2026.** The object of review is now the consolidated **Paper V1** (`paper/UNIRA_PAPER_V1.md`): physical feasibility only, with a historical backtest, joint uncertainty propagation and claims stated at the strength the evidence supports. The normative design is in `concept/UNIRA_CONCEPT.md`. A self-audit (`SELF_AUDIT_2026-11-04.md`, also in this package) lists the project's own view of its weaknesses and what was done about them; reviewers are asked to judge whether the responses are adequate. Section 12 of the review questions covers the newest, least verified work (V8.2–V9.1). The research was produced with an AI assistant on 3–4 November 2026 and has not been independently reviewed.
+
 ## 1. What UNIRA is: design and claims kept apart
 
 UNIRA is a proposal by one author for a single democratic world federation, "One Earth", in which today's countries become regions. The research has two layers, and reviewers are asked to judge them separately.

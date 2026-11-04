@@ -61,9 +61,9 @@ def md_lines():
     """key -> formatted reference line from REFERENCES.md, without the verification tag and key."""
     out = {}
     for line in (HERE / "REFERENCES.md").read_text(encoding="utf-8").splitlines():
-        m = re.match(r"- (.*) \*\*\[(verified|from project files)\]\*\* `([^`]+)`\s*$", line)
+        m = re.match(r"- (.*) \*\*\[(verified[^\]]*|from project files|not located[^\]]*|unreachable[^\]]*)\]\*\* `([^`]+)`\s*$", line)
         if m:
-            out[m.group(3)] = (m.group(1).strip(), m.group(2) == "verified")
+            out[m.group(3)] = (m.group(1).strip(), m.group(2).startswith("verified"), m.group(2))
     return out
 
 
@@ -78,10 +78,10 @@ def uses(prefix):
 def ref_list(keys, lab, lines):
     out = []
     for k in sorted(keys, key=lambda k: lines[k][0].lower()):
-        text, ok = lines[k]
+        text, ok, tag = lines[k]
         flags = []
         if not ok:
-            flags.append("not independently verified")
+            flags.append("could not be located on 4 November 2026" if tag.startswith(("not located", "unreachable")) else "not independently verified")
         if k.startswith(WEAK):
             flags.append("secondary source, to be replaced by a primary one")
         out.append(f"- {text}" + (f" *[{'; '.join(flags)}]*" if flags else ""))

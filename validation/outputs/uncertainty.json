@@ -1,0 +1,777 @@
+{
+ "v67_transition": {
+  "n": 2000,
+  "outcomes": {
+   "year_all_energy": {
+    "p5": 27,
+    "p25": 27,
+    "median": 27,
+    "p75": 31,
+    "p95": 31,
+    "share_reached_within_horizon": 0.685
+   },
+   "year_all_health": {
+    "p5": 27,
+    "p25": 27,
+    "median": 30,
+    "p75": 31,
+    "p95": 31,
+    "share_reached_within_horizon": 0.664
+   },
+   "year_all_housing": {
+    "p5": 28,
+    "p25": 31,
+    "median": 31,
+    "p75": 31,
+    "p95": 31,
+    "share_reached_within_horizon": 0.11
+   },
+   "peak_world_energy_ej": {
+    "p5": 408.9,
+    "p25": 408.9,
+    "median": 408.9,
+    "p75": 415.3,
+    "p95": 446.0
+   },
+   "energy_shortfall_closed_y15": {
+    "p5": 0.234,
+    "p25": 0.4,
+    "median": 0.614,
+    "p75": 0.829,
+    "p95": 0.978
+   },
+   "health_shortfall_closed_y15": {
+    "p5": 0.14,
+    "p25": 0.14,
+    "median": 0.382,
+    "p75": 0.608,
+    "p95": 0.608
+   },
+   "housing_shortfall_closed_y30": {
+    "p5": 0.14,
+    "p25": 0.311,
+    "median": 0.517,
+    "p75": 0.687,
+    "p95": 1.0
+   }
+  },
+  "drivers": {
+   "year_all_energy": [
+    [
+     "energy_new_ej_per_yr",
+     -0.878
+    ],
+    [
+     "housing_capacity",
+     0.052
+    ],
+    [
+     "military_energy_freed",
+     -0.025
+    ],
+    [
+     "health_capacity",
+     0.023
+    ],
+    [
+     "housing_share_to_deficit",
+     0.023
+    ],
+    [
+     "excess_decline",
+     0.02
+    ],
+    [
+     "waste_unira",
+     -0.011
+    ]
+   ],
+   "year_all_health": [
+    [
+     "health_capacity",
+     0.506
+    ],
+    [
+     "excess_decline",
+     -0.035
+    ],
+    [
+     "housing_share_to_deficit",
+     0.028
+    ],
+    [
+     "housing_capacity",
+     0.023
+    ],
+    [
+     "waste_unira",
+     -0.009
+    ],
+    [
+     "energy_new_ej_per_yr",
+     -0.005
+    ],
+    [
+     "military_energy_freed",
+     -0.004
+    ]
+   ],
+   "year_all_housing": [
+    [
+     "housing_share_to_deficit",
+     -0.408
+    ],
+    [
+     "energy_new_ej_per_yr",
+     0.014
+    ],
+    [
+     "waste_unira",
+     0.013
+    ],
+    [
+     "military_energy_freed",
+     -0.011
+    ],
+    [
+     "health_capacity",
+     -0.009
+    ],
+    [
+     "housing_capacity",
+     0.001
+    ],
+    [
+     "excess_decline",
+     -0.001
+    ]
+   ],
+   "peak_world_energy_ej": [
+    [
+     "excess_decline",
+     -0.66
+    ],
+    [
+     "energy_new_ej_per_yr",
+     0.465
+    ],
+    [
+     "military_energy_freed",
+     -0.114
+    ],
+    [
+     "housing_capacity",
+     -0.031
+    ],
+    [
+     "health_capacity",
+     0.028
+    ],
+    [
+     "housing_share_to_deficit",
+     -0.013
+    ],
+    [
+     "waste_unira",
+     0.005
+    ]
+   ],
+   "energy_shortfall_closed_y15": [
+    [
+     "energy_new_ej_per_yr",
+     1.0
+    ],
+    [
+     "housing_capacity",
+     -0.037
+    ],
+    [
+     "housing_share_to_deficit",
+     -0.022
+    ],
+    [
+     "excess_decline",
+     -0.022
+    ],
+    [
+     "military_energy_freed",
+     0.007
+    ],
+    [
+     "health_capacity",
+     -0.003
+    ],
+    [
+     "waste_unira",
+     0.002
+    ]
+   ],
+   "health_shortfall_closed_y15": [
+    [
+     "health_capacity",
+     -0.506
+    ],
+    [
+     "excess_decline",
+     0.035
+    ],
+    [
+     "housing_share_to_deficit",
+     -0.028
+    ],
+    [
+     "housing_capacity",
+     -0.023
+    ],
+    [
+     "waste_unira",
+     0.009
+    ],
+    [
+     "energy_new_ej_per_yr",
+     0.005
+    ],
+    [
+     "military_energy_freed",
+     0.004
+    ]
+   ],
+   "housing_shortfall_closed_y30": [
+    [
+     "housing_share_to_deficit",
+     0.729
+    ],
+    [
+     "housing_capacity",
+     -0.079
+    ],
+    [
+     "health_capacity",
+     0.015
+    ],
+    [
+     "energy_new_ej_per_yr",
+     0.014
+    ],
+    [
+     "waste_unira",
+     -0.008
+    ],
+    [
+     "excess_decline",
+     0.007
+    ],
+    [
+     "military_energy_freed",
+     -0.0
+    ]
+   ]
+  },
+  "probability": {
+   "energy_for_all_within_30y": 0.685,
+   "health_for_all_within_30y": 0.664,
+   "housing_for_all_within_30y": 0.11,
+   "peak_energy_at_or_below_409_ej": 0.696
+  }
+ },
+ "v89_living_standard": {
+  "n": 400,
+  "outcomes": {
+   "L1_90pct": {
+    "p5": 17,
+    "p25": 21,
+    "median": 26,
+    "p75": 32,
+    "p95": 36
+   },
+   "L1_95pct": {
+    "p5": 28,
+    "p25": 37,
+    "median": 47,
+    "p75": 61,
+    "p95": 78,
+    "share_reached_within_horizon": 0.953
+   },
+   "L1_99pct": {
+    "p5": 50,
+    "p25": 74,
+    "median": 81,
+    "p75": 81,
+    "p95": 81,
+    "share_reached_within_horizon": 0.33
+   },
+   "L2_90pct": {
+    "p5": 68,
+    "p25": 81,
+    "median": 81,
+    "p75": 81,
+    "p95": 81,
+    "share_reached_within_horizon": 0.165
+   },
+   "L2_95pct": {
+    "p5": 81,
+    "p25": 81,
+    "median": 81,
+    "p75": 81,
+    "p95": 81,
+    "share_reached_within_horizon": 0.0
+   },
+   "L2_99pct": {
+    "p5": 81,
+    "p25": 81,
+    "median": 81,
+    "p75": 81,
+    "p95": 81,
+    "share_reached_within_horizon": 0.0
+   }
+  },
+  "drivers": {
+   "L1_90pct": [
+    [
+     "access_pctl",
+     -0.936
+    ],
+    [
+     "gov_conflict",
+     -0.249
+    ],
+    [
+     "gov_fragile",
+     -0.132
+    ],
+    [
+     "auto30",
+     -0.084
+    ],
+    [
+     "car_lacking",
+     -0.073
+    ],
+    [
+     "mature",
+     -0.063
+    ],
+    [
+     "v87_scenario",
+     -0.052
+    ],
+    [
+     "durable_sanitation_cooking",
+     -0.05
+    ],
+    [
+     "car_growth",
+     -0.027
+    ],
+    [
+     "mature_years",
+     -0.023
+    ],
+    [
+     "service_catch_up",
+     -0.018
+    ],
+    [
+     "services_L2",
+     -0.017
+    ],
+    [
+     "durable_water",
+     0.005
+    ],
+    [
+     "car_share",
+     -0.0
+    ]
+   ],
+   "L1_95pct": [
+    [
+     "access_pctl",
+     -0.913
+    ],
+    [
+     "gov_conflict",
+     -0.318
+    ],
+    [
+     "gov_fragile",
+     -0.142
+    ],
+    [
+     "auto30",
+     -0.095
+    ],
+    [
+     "car_lacking",
+     -0.07
+    ],
+    [
+     "mature",
+     -0.062
+    ],
+    [
+     "v87_scenario",
+     -0.06
+    ],
+    [
+     "durable_sanitation_cooking",
+     -0.045
+    ],
+    [
+     "car_growth",
+     -0.033
+    ],
+    [
+     "service_catch_up",
+     -0.023
+    ],
+    [
+     "mature_years",
+     -0.018
+    ],
+    [
+     "services_L2",
+     -0.016
+    ],
+    [
+     "car_share",
+     0.01
+    ],
+    [
+     "durable_water",
+     0.002
+    ]
+   ],
+   "L1_99pct": [
+    [
+     "access_pctl",
+     -0.677
+    ],
+    [
+     "gov_conflict",
+     -0.424
+    ],
+    [
+     "gov_fragile",
+     -0.103
+    ],
+    [
+     "car_lacking",
+     -0.096
+    ],
+    [
+     "mature",
+     -0.084
+    ],
+    [
+     "auto30",
+     -0.075
+    ],
+    [
+     "car_growth",
+     -0.062
+    ],
+    [
+     "mature_years",
+     -0.06
+    ],
+    [
+     "v87_scenario",
+     -0.05
+    ],
+    [
+     "durable_sanitation_cooking",
+     -0.044
+    ],
+    [
+     "services_L2",
+     -0.037
+    ],
+    [
+     "car_share",
+     0.028
+    ],
+    [
+     "service_catch_up",
+     -0.018
+    ],
+    [
+     "durable_water",
+     -0.017
+    ]
+   ],
+   "L2_90pct": [
+    [
+     "gov_conflict",
+     -0.469
+    ],
+    [
+     "service_catch_up",
+     -0.427
+    ],
+    [
+     "auto30",
+     -0.107
+    ],
+    [
+     "access_pctl",
+     -0.101
+    ],
+    [
+     "mature_years",
+     -0.088
+    ],
+    [
+     "car_growth",
+     -0.083
+    ],
+    [
+     "v87_scenario",
+     -0.059
+    ],
+    [
+     "car_share",
+     0.057
+    ],
+    [
+     "durable_sanitation_cooking",
+     -0.047
+    ],
+    [
+     "durable_water",
+     0.046
+    ],
+    [
+     "services_L2",
+     0.04
+    ],
+    [
+     "car_lacking",
+     -0.034
+    ],
+    [
+     "mature",
+     0.016
+    ],
+    [
+     "gov_fragile",
+     0.004
+    ]
+   ],
+   "L2_95pct": [
+    [
+     "v87_scenario",
+     0.0
+    ],
+    [
+     "access_pctl",
+     0.0
+    ],
+    [
+     "auto30",
+     0.0
+    ],
+    [
+     "service_catch_up",
+     0.0
+    ],
+    [
+     "car_growth",
+     0.0
+    ],
+    [
+     "car_share",
+     0.0
+    ],
+    [
+     "durable_water",
+     0.0
+    ],
+    [
+     "durable_sanitation_cooking",
+     0.0
+    ],
+    [
+     "mature",
+     0.0
+    ],
+    [
+     "mature_years",
+     0.0
+    ],
+    [
+     "services_L2",
+     0.0
+    ],
+    [
+     "car_lacking",
+     0.0
+    ],
+    [
+     "gov_conflict",
+     0.0
+    ],
+    [
+     "gov_fragile",
+     0.0
+    ]
+   ],
+   "L2_99pct": [
+    [
+     "v87_scenario",
+     0.0
+    ],
+    [
+     "access_pctl",
+     0.0
+    ],
+    [
+     "auto30",
+     0.0
+    ],
+    [
+     "service_catch_up",
+     0.0
+    ],
+    [
+     "car_growth",
+     0.0
+    ],
+    [
+     "car_share",
+     0.0
+    ],
+    [
+     "durable_water",
+     0.0
+    ],
+    [
+     "durable_sanitation_cooking",
+     0.0
+    ],
+    [
+     "mature",
+     0.0
+    ],
+    [
+     "mature_years",
+     0.0
+    ],
+    [
+     "services_L2",
+     0.0
+    ],
+    [
+     "car_lacking",
+     0.0
+    ],
+    [
+     "gov_conflict",
+     0.0
+    ],
+    [
+     "gov_fragile",
+     0.0
+    ]
+   ]
+  }
+ },
+ "v91_institutions_and_conflict": {
+  "n": 40,
+  "outcomes": {
+   "share_conflict_years_avoided_C_vs_A": {
+    "p5": 0.24,
+    "p25": 0.296,
+    "median": 0.375,
+    "p75": 0.438,
+    "p95": 0.49
+   },
+   "L1_99pct_year_C": {
+    "p5": 56,
+    "p25": 62,
+    "median": 77,
+    "p75": 81,
+    "p95": 81,
+    "share_reached_within_horizon": 0.525
+   }
+  },
+  "drivers": {
+   "share_conflict_years_avoided_C_vs_A": [
+    [
+     "relapse_cut",
+     0.532
+    ],
+    [
+     "cQ",
+     0.477
+    ],
+    [
+     "end_boost",
+     0.426
+    ],
+    [
+     "pace",
+     0.384
+    ],
+    [
+     "tension",
+     -0.364
+    ],
+    [
+     "cE",
+     0.271
+    ],
+    [
+     "reversal",
+     -0.191
+    ],
+    [
+     "mediation",
+     0.183
+    ],
+    [
+     "mediation_relapse",
+     -0.024
+    ]
+   ],
+   "L1_99pct_year_C": [
+    [
+     "end_boost",
+     -0.588
+    ],
+    [
+     "pace",
+     -0.472
+    ],
+    [
+     "cQ",
+     -0.378
+    ],
+    [
+     "tension",
+     0.299
+    ],
+    [
+     "relapse_cut",
+     -0.196
+    ],
+    [
+     "reversal",
+     0.181
+    ],
+    [
+     "mediation_relapse",
+     -0.171
+    ],
+    [
+     "cE",
+     -0.137
+    ],
+    [
+     "mediation",
+     0.041
+    ]
+   ]
+  }
+ }
+}

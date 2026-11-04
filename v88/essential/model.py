@@ -36,7 +36,7 @@ SERVICES = {"basic_water": "SH.H2O.BASW.ZS", "safe_water": "SH.H2O.SMDW.ZS", "ba
 COST = {  # (capital per person, upkeep per person-year) by option
     "basic_water": {"decentralised": (40, 4.5), "centralised": (80, 9.0)},
     "safe_water": {"decentralised": (70, 8.0), "centralised": (150, 12.0)},
-    "basic_sanitation": {"decentralised": (40, 3.0), "centralised": (500, 25.0)},
+    "basic_sanitation": {"decentralised": (40, 3.0), "centralised": (500, 25.0)},  # 40: between IRC's pit-with-slab (7-26) and VIP (36-358) per person; see RESEARCH_NOTE status
     "clean_cooking": {"decentralised": (25, 0.0), "centralised": (25, 0.0)}}
 REPAIR_SHARE, REPAIR_COST = 0.15, 0.30   # ASSUMPTION: 15% of the unserved in water reachable by restoring broken points
 GOV = {"conflict": 0.5, "fragile": 0.75, "other": 1.0}

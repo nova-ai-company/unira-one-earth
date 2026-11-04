@@ -1,5 +1,8 @@
 # UNIRA V9.1 — conflict prevention through fair institutions
 
+> **Status (4 November 2026): preliminary.** The five evidence rows that rested on search summaries were verified in source on 4 November 2026 (`evidence.csv`): Fearon (2011) confirmed, with the caveat that the effect is barely present for the CPIA aggregate; Cederman, Wimmer & Min (2010) confirmed from the abstract; Beardsley (2011) confirmed; Powell & Thyne (2011) totals confirmed from a secondary source; Pathways for Peace confirmed verbatim. No model parameter changed. Under joint sampling of the model's assumptions (`validation/uncertainty.py`), scenario C avoids 38% of conflict-years (5–95% range 24–49%); the main drivers are the relapse reduction, the causal fraction and the ending boost, all assumptions.
+
+
 **Question (author):** can UNIRA reduce the risk of conflict by making institutions fairer (representation, transparent resource allocation, independent justice, peaceful dispute resolution, protection against concentrated power), independently of better living standards?
 
 The rules set for the study:

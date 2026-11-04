@@ -122,3 +122,17 @@ Each question names the file or section to check. "WP02 Lnn" means line nn of `v
 9. **Power articles** (`v79/power/POWER_ARTICLES.md`, `STRESS_TEST.md`). Which attack scenarios are missing? Are the thresholds (30-day emergencies, 21 judges, three-key weapons) defensible?
 10. **Innovation** (`v79/innovation/evidence.md`). Is the "innovation dividend" of Article 3d.5 compatible with fixed prices? What indicators would detect stagnation earliest?
 
+
+## 12. New in V8.2–V9.1 and the consolidation of 4 November 2026
+
+*Status: these components are the least verified part of the research. Their evidence rows were sent for verification in source on 4 November 2026; the research notes carry a status banner with the result. Reviewers are asked to treat them as preliminary.*
+
+1. **D + Q + C framework** (`v84/quotas`, Const. Art. 10d, T-8). Is the shortage-economy critique (Kornai) answered by quotas that expire, incomes tied to available goods and buffer stocks? What historical case would test the "no permanent rationing" claim?
+2. **Living-standard levels** (`v87`, Art. 10c). Are the physical values (27 m², 2,470 kcal, 131 health workers per 10,000, 40 GJ) defensible as "comfortable" across cultures and climates? Which should vary regionally?
+3. **Delivery pace** (`v89/integrated`, `validation/backtest.py`). The pace rule extrapolates each country's own gain with a percentile floor and governance factors. The backtest finds the floors optimistic in conflict and fragile states unless the factors are applied, and saturation in enrolment and Internet use. Is a logistic (saturating) rule warranted? Are the governance factors (0.5 conflict, 0.75 fragility) supported by delivery evidence you know?
+4. **Essential infrastructure costs** (`v88/essential`). Are the per-person cost benchmarks (borehole, piped scheme, latrine, stove) current? Is 15% of the water gap reachable by repair plausible?
+5. **Distribution and conflict** (`v90`). The conflict gradient is fitted to a cross-section of today's conflicts. Is the causal-fraction device (0–1) a reasonable way to express ignorance, or does it smuggle in a point estimate? What identification strategy would you recommend with open data?
+6. **Institutions and conflict** (`v91`). The panel uses four WGI components and excludes Political Stability on circularity grounds. Are perception-based indicators acceptable here? Should ethnic-power-relations data (EPR) replace the country-level index? Are the mediation and relapse effects at national scale (10–15% onset reduction, 30–50% ending boost, 15–50% relapse cut) defensible readings of Blattman et al. 2014, Beardsley 2011, Hartzell & Hoddie 2003, Walter 2015 and Fortna 2004?
+7. **Joint uncertainty** (`validation/uncertainty.py`). Are the sampled ranges wide enough? Which assumption that we hold fixed should have been sampled?
+8. **Conflict-prevention articles** (Const. Art. 5.6, 10e.6, 10f; proposals 4c, 10f.6, T-9 in `v91/PROPOSED_CONSTITUTION_CHANGES.md`). Do the safeguards against surveillance and withholding of services hold under an adversarial reading? Is an unarmed Mediation Service separate from the Peace Force workable?
+9. **Authorship and process** (`v77/review/SELF_AUDIT_2026-11-04.md`). The research was produced in two days with an AI assistant. Which results would you expect to change most under slower, human-led modelling, and why?
