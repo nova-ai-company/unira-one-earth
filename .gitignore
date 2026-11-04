@@ -8,3 +8,4 @@ v62/audit/repro_work/
 **/source_cache/
 v62/scratch/
 !*/data/raw/*.zip
+!**/data/raw/*.zip

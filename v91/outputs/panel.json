@@ -1,0 +1,304 @@
+{
+ "sample": {
+  "onset_rows": 3663,
+  "onset_events": 98,
+  "ending_rows": 694,
+  "endings": 94,
+  "correlation_Q_LS": 0.583,
+  "onset_rate_per_country_year": 0.0268,
+  "ending_rate_per_conflict_year": 0.1354
+ },
+ "onset": {
+  "LS_only": {
+   "n": 3663,
+   "events": 98,
+   "log_likelihood": -366.05,
+   "coefficients": {
+    "const": {
+     "estimate": -3.635,
+     "se": 0.329,
+     "ci95": [
+      -4.28,
+      -2.99
+     ],
+     "odds_ratio_per_0.1": null
+    },
+    "e": {
+     "estimate": -1.339,
+     "se": 0.375,
+     "ci95": [
+      -2.074,
+      -0.604
+     ],
+     "odds_ratio_per_0.1": 0.875
+    },
+    "recent": {
+     "estimate": 2.419,
+     "se": 0.242,
+     "ci95": [
+      1.945,
+      2.893
+     ],
+     "odds_ratio_per_0.1": 1.274
+    }
+   }
+  },
+  "Q_only": {
+   "n": 3663,
+   "events": 98,
+   "log_likelihood": -357.39,
+   "coefficients": {
+    "const": {
+     "estimate": -2.505,
+     "se": 0.417,
+     "ci95": [
+      -3.323,
+      -1.688
+     ],
+     "odds_ratio_per_0.1": null
+    },
+    "q": {
+     "estimate": -4.552,
+     "se": 0.895,
+     "ci95": [
+      -6.306,
+      -2.798
+     ],
+     "odds_ratio_per_0.1": 0.634
+    },
+    "recent": {
+     "estimate": 2.121,
+     "se": 0.243,
+     "ci95": [
+      1.645,
+      2.597
+     ],
+     "odds_ratio_per_0.1": 1.236
+    }
+   }
+  },
+  "LS_and_Q": {
+   "n": 3663,
+   "events": 98,
+   "log_likelihood": -356.61,
+   "coefficients": {
+    "const": {
+     "estimate": -2.335,
+     "se": 0.439,
+     "ci95": [
+      -3.196,
+      -1.475
+     ],
+     "odds_ratio_per_0.1": null
+    },
+    "e": {
+     "estimate": -0.512,
+     "se": 0.411,
+     "ci95": [
+      -1.317,
+      0.294
+     ],
+     "odds_ratio_per_0.1": 0.95
+    },
+    "q": {
+     "estimate": -4.096,
+     "se": 0.975,
+     "ci95": [
+      -6.006,
+      -2.185
+     ],
+     "odds_ratio_per_0.1": 0.664
+    },
+    "recent": {
+     "estimate": 2.073,
+     "se": 0.247,
+     "ci95": [
+      1.59,
+      2.557
+     ],
+     "odds_ratio_per_0.1": 1.23
+    }
+   }
+  },
+  "with_rapid_institutional_rise": {
+   "n": 3441,
+   "events": 95,
+   "log_likelihood": -341.76,
+   "coefficients": {
+    "const": {
+     "estimate": -2.495,
+     "se": 0.45,
+     "ci95": [
+      -3.377,
+      -1.614
+     ],
+     "odds_ratio_per_0.1": null
+    },
+    "e": {
+     "estimate": -0.501,
+     "se": 0.422,
+     "ci95": [
+      -1.328,
+      0.326
+     ],
+     "odds_ratio_per_0.1": 0.951
+    },
+    "q": {
+     "estimate": -3.779,
+     "se": 1.011,
+     "ci95": [
+      -5.761,
+      -1.797
+     ],
+     "odds_ratio_per_0.1": 0.685
+    },
+    "recent": {
+     "estimate": 2.172,
+     "se": 0.258,
+     "ci95": [
+      1.667,
+      2.677
+     ],
+     "odds_ratio_per_0.1": 1.243
+    },
+    "dq_up": {
+     "estimate": 0.463,
+     "se": 3.612,
+     "ci95": [
+      -6.616,
+      7.542
+     ],
+     "odds_ratio_per_0.1": 1.047
+    }
+   }
+  }
+ },
+ "ending": {
+  "LS_and_Q": {
+   "n": 694,
+   "events": 94,
+   "log_likelihood": -274.19,
+   "coefficients": {
+    "const": {
+     "estimate": -1.866,
+     "se": 0.306,
+     "ci95": [
+      -2.465,
+      -1.267
+     ],
+     "odds_ratio_per_0.1": null
+    },
+    "e": {
+     "estimate": -0.571,
+     "se": 0.42,
+     "ci95": [
+      -1.395,
+      0.253
+     ],
+     "odds_ratio_per_0.1": 0.944
+    },
+    "q": {
+     "estimate": 1.018,
+     "se": 0.914,
+     "ci95": [
+      -0.773,
+      2.809
+     ],
+     "odds_ratio_per_0.1": 1.107
+    }
+   }
+  }
+ },
+ "pace_of_institutional_change": {
+  "ten_year_change_percentiles": {
+   "p10": -0.0549,
+   "p25": -0.0258,
+   "median": 0.003,
+   "p75": 0.0322,
+   "p90": 0.0623,
+   "p95": 0.084
+  },
+  "decades_observed": 388,
+  "gains_2004_2014_over_0.02": 87,
+  "share_of_gains_reversed_next_decade": 0.333
+ },
+ "robustness_log_gdp_instead_of_access": {
+  "onset": {
+   "n": 3866,
+   "events": 98,
+   "log_likelihood": -355.44,
+   "coefficients": {
+    "const": {
+     "estimate": -1.689,
+     "se": 1.066,
+     "ci95": [
+      -3.778,
+      0.401
+     ],
+     "odds_ratio_per_0.1": null
+    },
+    "e": {
+     "estimate": -0.103,
+     "se": 0.129,
+     "ci95": [
+      -0.356,
+      0.15
+     ],
+     "odds_ratio_per_0.1": 0.99
+    },
+    "q": {
+     "estimate": -4.307,
+     "se": 1.043,
+     "ci95": [
+      -6.351,
+      -2.263
+     ],
+     "odds_ratio_per_0.1": 0.65
+    },
+    "recent": {
+     "estimate": 2.165,
+     "se": 0.25,
+     "ci95": [
+      1.675,
+      2.656
+     ],
+     "odds_ratio_per_0.1": 1.242
+    }
+   }
+  },
+  "ending": {
+   "n": 676,
+   "events": 93,
+   "log_likelihood": -270.57,
+   "coefficients": {
+    "const": {
+     "estimate": -1.281,
+     "se": 0.941,
+     "ci95": [
+      -3.126,
+      0.563
+     ],
+     "odds_ratio_per_0.1": null
+    },
+    "e": {
+     "estimate": -0.08,
+     "se": 0.129,
+     "ci95": [
+      -0.332,
+      0.172
+     ],
+     "odds_ratio_per_0.1": 0.992
+    },
+    "q": {
+     "estimate": 0.383,
+     "se": 1.007,
+     "ci95": [
+      -1.591,
+      2.358
+     ],
+     "odds_ratio_per_0.1": 1.039
+    }
+   }
+  }
+ }
+}

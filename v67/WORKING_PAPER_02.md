@@ -409,6 +409,14 @@ UNIRA can start with willing regions and grow. Compared with a reformed market w
 - **What remains:** about two thirds of the remaining risk is not linked to living standards (territory, identity, exclusion, state weakness), concentrated in the poorest, weakest states. Prosperity helps peace but does not guarantee it.
 - **Constitution (author's decision):** Article 5.6 states that prosperity does not guarantee peace. Article 10e.6 adds independent monitoring of whether programmes reduce or increase conflict risks. Article 10f requires delivery that never increases tensions, never withholds services from regions considered unstable, and supports mediation, early warning and peaceful dispute resolution, under independent supervision and without surveillance.
 
+**Fair institutions and armed conflict (V9.1).**
+- **Observed** (country-years 2000–2024, UCDP/PRIO and World Bank governance indicators): institutional quality goes with fewer conflict onsets after accounting for living standards (0.1 higher on a 0–1 scale, about 34% lower odds). Living standards add little once institutions are included. A recent conflict multiplies the odds about 8 times. Institutions improve slowly (top tenth of countries: +0.06 a decade), and one in three gains was reversed.
+- **This revises V9.0:** its economic effect on conflict was probably overstated, because living standards partly stood in for institutions. The direct economic channel avoids about 3% of conflict-years.
+- **Simulated** (33 conflicts in 2024, 80 years): moderate, strong and comprehensive reform avoid about 15%, 40% (34–50%) and 61% of conflict-years. Rising institutional quality alone accounts for about 11%. The rest depends on mediation and lower relapse, whose national-scale size is assumed.
+- **Dates:** essential security for 99% of humanity in years 48–58 (strong to comprehensive) instead of not within 80 years; the comfortable life for 95% in years 64–72.
+- **Costs and risks:** 2.5–7.8 million workers (courts, mediators, auditors). Rapid reform where institutions are weak can raise tension.
+- **Constitution:** unchanged pending the author's review. Proposals: no permanent exclusion of communities within regions, recovery support after conflicts, and paced reform where institutions are weak.
+
 <!-- refs:begin sources §11 -->
 
 *Sources for this section:* Brainard & Perry 1991; Documents & Images n.d.a; Eurostat ilc_di01, 2026; Institut für Arbeitsmarkt- und Berufsforschung (IAB) 1998; International Monetary Fund 2019; Notes from Poland 2026; Polish Economic Institute 2019; Polish Investment \& Trade Agency n.d.; Wikipedia contributors n.d.b.

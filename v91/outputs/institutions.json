@@ -1,0 +1,2192 @@
+{
+ "panel_coefficients_used": {
+  "bE": -0.512,
+  "bQ": -4.096,
+  "bR": 2.073,
+  "ending_rate": 0.1354,
+  "calibrated_intercept": -2.1616
+ },
+ "countries": 179,
+ "countries_in_conflict_2024_ucdp": 33,
+ "reform_ceiling_Q": 0.633,
+ "median_Q_non_fragile": 0.502,
+ "historical_pace_10y": {
+  "p10": -0.0549,
+  "p25": -0.0258,
+  "median": 0.003,
+  "p75": 0.0322,
+  "p90": 0.0623,
+  "p95": 0.084
+ },
+ "civilian_harm_rates_2015_2024": {
+  "conflict_country_years_2015_2024": 342,
+  "battle_deaths_per_conflict_year": {
+   "mean": 2745,
+   "median": 274
+  },
+  "civilians_killed_one_sided_per_conflict_year": {
+   "mean": 253,
+   "median": 139
+  },
+  "one_sided_outside_conflict_years_share": 0.099
+ },
+ "implementation_workers": {
+  "population_below_reform_ceiling_bn": 6.95,
+  "per_100k_assumed": {
+   "judges": [
+    10,
+    22
+   ],
+   "court_and_legal_aid_staff": [
+    20,
+    66
+   ],
+   "civilian_mediators_and_early_warning": [
+    1.2,
+    10
+   ],
+   "auditors_and_grievance_officers": [
+    5,
+    15
+   ]
+  },
+  "workers_m": {
+   "judges": [
+    0.69,
+    1.53
+   ],
+   "court_and_legal_aid_staff": [
+    1.39,
+    4.58
+   ],
+   "civilian_mediators_and_early_warning": [
+    0.08,
+    0.69
+   ],
+   "auditors_and_grievance_officers": [
+    0.35,
+    1.04
+   ]
+  },
+  "total_workers_m": [
+   2.5,
+   7.8
+  ],
+  "share_of_world_labour_force": [
+   0.0007,
+   0.0022
+  ]
+ },
+ "runs": 30,
+ "scenarios": {
+  "A_baseline": {
+   "conflict_country_years_80y": 2719.0,
+   "conflict_country_years_p10_p90": [
+    2529,
+    2938
+   ],
+   "L1_dates": {
+    "90pct": {
+     "median": 20,
+     "p10": 20,
+     "p90": 22,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 35,
+     "p10": 33,
+     "p90": 40,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "L2_dates": {
+    "90pct": {
+     "median": 70,
+     "p10": 63,
+     "p90": 74,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    },
+    "99pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "countries_in_conflict": {
+    "year_0": 33.0,
+    "year_5": 31.6,
+    "year_10": 32.7,
+    "year_20": 32.7,
+    "year_30": 33.8,
+    "year_40": 34.4,
+    "year_60": 34.0,
+    "year_80": 33.8
+   },
+   "onsets_80y": 364.6,
+   "endings_80y": 363.8,
+   "civilian_harm_80y": {
+    "battle_deaths_mean_based_m": 7.46,
+    "battle_deaths_median_based_m": 0.75,
+    "civilians_killed_one_sided_mean_based_m": 0.69
+   },
+   "share_of_humanity_in_conflict_zones": {
+    "year_0": 0.057,
+    "year_10": 0.0442,
+    "year_20": 0.0379,
+    "year_40": 0.0342,
+    "year_80": 0.03
+   },
+   "institutional_quality_population_weighted": {
+    "year_0": 0.452,
+    "year_10": 0.452,
+    "year_20": 0.452,
+    "year_40": 0.452,
+    "year_80": 0.452
+   },
+   "corruption_loss_share_population_weighted": {
+    "year_0": 0.153,
+    "year_10": 0.153,
+    "year_20": 0.153,
+    "year_40": 0.153,
+    "year_80": 0.153
+   },
+   "highest_remaining_conflict_risk_years_40_80": [
+    {
+     "iso": "SOM",
+     "name": "SOM",
+     "share_of_years_in_conflict": 0.69,
+     "Q_2024": 0.12
+    },
+    {
+     "iso": "HTI",
+     "name": "HTI",
+     "share_of_years_in_conflict": 0.63,
+     "Q_2024": 0.18
+    },
+    {
+     "iso": "SDN",
+     "name": "SDN",
+     "share_of_years_in_conflict": 0.62,
+     "Q_2024": 0.14
+    },
+    {
+     "iso": "AFG",
+     "name": "AFG",
+     "share_of_years_in_conflict": 0.61,
+     "Q_2024": 0.13
+    },
+    {
+     "iso": "YEM",
+     "name": "YEM",
+     "share_of_years_in_conflict": 0.6,
+     "Q_2024": 0.14
+    },
+    {
+     "iso": "CAF",
+     "name": "CAF",
+     "share_of_years_in_conflict": 0.6,
+     "Q_2024": 0.2
+    },
+    {
+     "iso": "TCD",
+     "name": "TCD",
+     "share_of_years_in_conflict": 0.59,
+     "Q_2024": 0.23
+    },
+    {
+     "iso": "MMR",
+     "name": "MMR",
+     "share_of_years_in_conflict": 0.58,
+     "Q_2024": 0.16
+    },
+    {
+     "iso": "SYR",
+     "name": "SYR",
+     "share_of_years_in_conflict": 0.56,
+     "Q_2024": 0.14
+    },
+    {
+     "iso": "VEN",
+     "name": "VEN",
+     "share_of_years_in_conflict": 0.55,
+     "Q_2024": 0.15
+    },
+    {
+     "iso": "COD",
+     "name": "COD",
+     "share_of_years_in_conflict": 0.54,
+     "Q_2024": 0.19
+    },
+    {
+     "iso": "TKM",
+     "name": "TKM",
+     "share_of_years_in_conflict": 0.53,
+     "Q_2024": 0.2
+    }
+   ],
+   "params": {
+    "cE": 0.5,
+    "cQ": 0.5,
+    "pace": 0.0,
+    "reversal": 0.3333333333333333,
+    "tension": 0.0,
+    "mediation": 0.0,
+    "end_boost": 0.0,
+    "relapse_cut": 0.0,
+    "mediation_relapse": 0.0,
+    "cooperation": 0.0
+   },
+   "share_of_conflict_years_avoided_vs_A": 0.0
+  },
+  "B_moderate_reform": {
+   "conflict_country_years_80y": 2302.2,
+   "conflict_country_years_p10_p90": [
+    2111,
+    2491
+   ],
+   "L1_dates": {
+    "90pct": {
+     "median": 20,
+     "p10": 19,
+     "p90": 21,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 33,
+     "p10": 30,
+     "p90": 37,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 67,
+     "p10": 63,
+     "p90": 67,
+     "share_of_runs_reached": 0.07
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "L2_dates": {
+    "90pct": {
+     "median": 63,
+     "p10": 60,
+     "p90": 68,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 79,
+     "p10": 76,
+     "p90": 80,
+     "share_of_runs_reached": 0.27
+    },
+    "99pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "countries_in_conflict": {
+    "year_0": 33.0,
+    "year_5": 30.6,
+    "year_10": 31.0,
+    "year_20": 29.3,
+    "year_30": 29.1,
+    "year_40": 28.9,
+    "year_60": 26.8,
+    "year_80": 25.9
+   },
+   "onsets_80y": 303.2,
+   "endings_80y": 310.2,
+   "civilian_harm_80y": {
+    "battle_deaths_mean_based_m": 6.32,
+    "battle_deaths_median_based_m": 0.63,
+    "civilians_killed_one_sided_mean_based_m": 0.58
+   },
+   "share_of_humanity_in_conflict_zones": {
+    "year_0": 0.057,
+    "year_10": 0.0418,
+    "year_20": 0.0336,
+    "year_40": 0.0282,
+    "year_80": 0.0238
+   },
+   "institutional_quality_population_weighted": {
+    "year_0": 0.452,
+    "year_10": 0.464,
+    "year_20": 0.478,
+    "year_40": 0.506,
+    "year_80": 0.559
+   },
+   "corruption_loss_share_population_weighted": {
+    "year_0": 0.153,
+    "year_10": 0.146,
+    "year_20": 0.138,
+    "year_40": 0.124,
+    "year_80": 0.102
+   },
+   "highest_remaining_conflict_risk_years_40_80": [
+    {
+     "iso": "SOM",
+     "name": "SOM",
+     "share_of_years_in_conflict": 0.65,
+     "Q_2024": 0.12
+    },
+    {
+     "iso": "SDN",
+     "name": "SDN",
+     "share_of_years_in_conflict": 0.6,
+     "Q_2024": 0.14
+    },
+    {
+     "iso": "AFG",
+     "name": "AFG",
+     "share_of_years_in_conflict": 0.58,
+     "Q_2024": 0.13
+    },
+    {
+     "iso": "TCD",
+     "name": "TCD",
+     "share_of_years_in_conflict": 0.56,
+     "Q_2024": 0.23
+    },
+    {
+     "iso": "CAF",
+     "name": "CAF",
+     "share_of_years_in_conflict": 0.55,
+     "Q_2024": 0.2
+    },
+    {
+     "iso": "MMR",
+     "name": "MMR",
+     "share_of_years_in_conflict": 0.54,
+     "Q_2024": 0.16
+    },
+    {
+     "iso": "COD",
+     "name": "COD",
+     "share_of_years_in_conflict": 0.53,
+     "Q_2024": 0.19
+    },
+    {
+     "iso": "HTI",
+     "name": "HTI",
+     "share_of_years_in_conflict": 0.53,
+     "Q_2024": 0.18
+    },
+    {
+     "iso": "YEM",
+     "name": "YEM",
+     "share_of_years_in_conflict": 0.52,
+     "Q_2024": 0.14
+    },
+    {
+     "iso": "PRK",
+     "name": "PRK",
+     "share_of_years_in_conflict": 0.48,
+     "Q_2024": 0.17
+    },
+    {
+     "iso": "SYR",
+     "name": "SYR",
+     "share_of_years_in_conflict": 0.48,
+     "Q_2024": 0.14
+    },
+    {
+     "iso": "MLI",
+     "name": "MLI",
+     "share_of_years_in_conflict": 0.42,
+     "Q_2024": 0.27
+    }
+   ],
+   "params": {
+    "cE": 0.5,
+    "cQ": 0.5,
+    "pace": "p75",
+    "reversal": 0.3333333333333333,
+    "tension": 0.3,
+    "mediation": 0.0,
+    "end_boost": 0.0,
+    "relapse_cut": 0.15,
+    "mediation_relapse": 0.0,
+    "cooperation": 0.0
+   },
+   "share_of_conflict_years_avoided_vs_A": 0.153
+  },
+  "C_strong_reform": {
+   "conflict_country_years_80y": 1621.8,
+   "conflict_country_years_p10_p90": [
+    1448,
+    1779
+   ],
+   "L1_dates": {
+    "90pct": {
+     "median": 19,
+     "p10": 18,
+     "p90": 20,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 29,
+     "p10": 27,
+     "p90": 31,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 58,
+     "p10": 52,
+     "p90": 68,
+     "share_of_runs_reached": 0.77
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "L2_dates": {
+    "90pct": {
+     "median": 56,
+     "p10": 53,
+     "p90": 58,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 72,
+     "p10": 69,
+     "p90": 76,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "countries_in_conflict": {
+    "year_0": 33.0,
+    "year_5": 29.0,
+    "year_10": 26.1,
+    "year_20": 22.9,
+    "year_30": 20.3,
+    "year_40": 20.0,
+    "year_60": 17.0,
+    "year_80": 13.8
+   },
+   "onsets_80y": 256.7,
+   "endings_80y": 275.9,
+   "civilian_harm_80y": {
+    "battle_deaths_mean_based_m": 4.45,
+    "battle_deaths_median_based_m": 0.44,
+    "civilians_killed_one_sided_mean_based_m": 0.41
+   },
+   "share_of_humanity_in_conflict_zones": {
+    "year_0": 0.057,
+    "year_10": 0.0355,
+    "year_20": 0.0276,
+    "year_40": 0.0197,
+    "year_80": 0.0116
+   },
+   "institutional_quality_population_weighted": {
+    "year_0": 0.452,
+    "year_10": 0.477,
+    "year_20": 0.509,
+    "year_40": 0.563,
+    "year_80": 0.619
+   },
+   "corruption_loss_share_population_weighted": {
+    "year_0": 0.153,
+    "year_10": 0.138,
+    "year_20": 0.123,
+    "year_40": 0.1,
+    "year_80": 0.077
+   },
+   "highest_remaining_conflict_risk_years_40_80": [
+    {
+     "iso": "SDN",
+     "name": "SDN",
+     "share_of_years_in_conflict": 0.51,
+     "Q_2024": 0.14
+    },
+    {
+     "iso": "SOM",
+     "name": "SOM",
+     "share_of_years_in_conflict": 0.47,
+     "Q_2024": 0.12
+    },
+    {
+     "iso": "AFG",
+     "name": "AFG",
+     "share_of_years_in_conflict": 0.45,
+     "Q_2024": 0.13
+    },
+    {
+     "iso": "MMR",
+     "name": "MMR",
+     "share_of_years_in_conflict": 0.4,
+     "Q_2024": 0.16
+    },
+    {
+     "iso": "COD",
+     "name": "COD",
+     "share_of_years_in_conflict": 0.38,
+     "Q_2024": 0.19
+    },
+    {
+     "iso": "YEM",
+     "name": "YEM",
+     "share_of_years_in_conflict": 0.38,
+     "Q_2024": 0.14
+    },
+    {
+     "iso": "SYR",
+     "name": "SYR",
+     "share_of_years_in_conflict": 0.36,
+     "Q_2024": 0.14
+    },
+    {
+     "iso": "HTI",
+     "name": "HTI",
+     "share_of_years_in_conflict": 0.35,
+     "Q_2024": 0.18
+    },
+    {
+     "iso": "CAF",
+     "name": "CAF",
+     "share_of_years_in_conflict": 0.35,
+     "Q_2024": 0.2
+    },
+    {
+     "iso": "TCD",
+     "name": "TCD",
+     "share_of_years_in_conflict": 0.29,
+     "Q_2024": 0.23
+    },
+    {
+     "iso": "VEN",
+     "name": "VEN",
+     "share_of_years_in_conflict": 0.29,
+     "Q_2024": 0.15
+    },
+    {
+     "iso": "LBY",
+     "name": "LBY",
+     "share_of_years_in_conflict": 0.28,
+     "Q_2024": 0.19
+    }
+   ],
+   "params": {
+    "cE": 0.5,
+    "cQ": 0.5,
+    "pace": "p90",
+    "reversal": 0.25,
+    "tension": 0.3,
+    "mediation": 0.1,
+    "end_boost": 0.3,
+    "relapse_cut": 0.3,
+    "mediation_relapse": 0.15,
+    "cooperation": 0.0
+   },
+   "share_of_conflict_years_avoided_vs_A": 0.404
+  },
+  "D_comprehensive_reform": {
+   "conflict_country_years_80y": 1060.5,
+   "conflict_country_years_p10_p90": [
+    942,
+    1193
+   ],
+   "L1_dates": {
+    "90pct": {
+     "median": 18,
+     "p10": 16,
+     "p90": 19,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 27,
+     "p10": 26,
+     "p90": 28,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 48,
+     "p10": 42,
+     "p90": 52,
+     "share_of_runs_reached": 1.0
+    },
+    "100pct": {
+     "median": 78,
+     "p10": 78,
+     "p90": 78,
+     "share_of_runs_reached": 0.03
+    }
+   },
+   "L2_dates": {
+    "90pct": {
+     "median": 52,
+     "p10": 52,
+     "p90": 55,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 64,
+     "p10": 61,
+     "p90": 71,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 78,
+     "p10": 74,
+     "p90": 79,
+     "share_of_runs_reached": 0.67
+    },
+    "100pct": {
+     "median": 78,
+     "p10": 78,
+     "p90": 78,
+     "share_of_runs_reached": 0.03
+    }
+   },
+   "countries_in_conflict": {
+    "year_0": 33.0,
+    "year_5": 26.2,
+    "year_10": 20.9,
+    "year_20": 15.2,
+    "year_30": 12.9,
+    "year_40": 11.2,
+    "year_60": 8.6,
+    "year_80": 7.5
+   },
+   "onsets_80y": 179.6,
+   "endings_80y": 205.0,
+   "civilian_harm_80y": {
+    "battle_deaths_mean_based_m": 2.91,
+    "battle_deaths_median_based_m": 0.29,
+    "civilians_killed_one_sided_mean_based_m": 0.27
+   },
+   "share_of_humanity_in_conflict_zones": {
+    "year_0": 0.057,
+    "year_10": 0.0279,
+    "year_20": 0.0175,
+    "year_40": 0.0104,
+    "year_80": 0.0063
+   },
+   "institutional_quality_population_weighted": {
+    "year_0": 0.452,
+    "year_10": 0.492,
+    "year_20": 0.543,
+    "year_40": 0.605,
+    "year_80": 0.643
+   },
+   "corruption_loss_share_population_weighted": {
+    "year_0": 0.153,
+    "year_10": 0.13,
+    "year_20": 0.108,
+    "year_40": 0.082,
+    "year_80": 0.067
+   },
+   "highest_remaining_conflict_risk_years_40_80": [
+    {
+     "iso": "AFG",
+     "name": "AFG",
+     "share_of_years_in_conflict": 0.26,
+     "Q_2024": 0.13
+    },
+    {
+     "iso": "SOM",
+     "name": "SOM",
+     "share_of_years_in_conflict": 0.24,
+     "Q_2024": 0.12
+    },
+    {
+     "iso": "HTI",
+     "name": "HTI",
+     "share_of_years_in_conflict": 0.21,
+     "Q_2024": 0.18
+    },
+    {
+     "iso": "SDN",
+     "name": "SDN",
+     "share_of_years_in_conflict": 0.21,
+     "Q_2024": 0.14
+    },
+    {
+     "iso": "YEM",
+     "name": "YEM",
+     "share_of_years_in_conflict": 0.2,
+     "Q_2024": 0.14
+    },
+    {
+     "iso": "PRK",
+     "name": "PRK",
+     "share_of_years_in_conflict": 0.17,
+     "Q_2024": 0.17
+    },
+    {
+     "iso": "MMR",
+     "name": "MMR",
+     "share_of_years_in_conflict": 0.16,
+     "Q_2024": 0.16
+    },
+    {
+     "iso": "SYR",
+     "name": "SYR",
+     "share_of_years_in_conflict": 0.16,
+     "Q_2024": 0.14
+    },
+    {
+     "iso": "MOZ",
+     "name": "MOZ",
+     "share_of_years_in_conflict": 0.13,
+     "Q_2024": 0.31
+    },
+    {
+     "iso": "MLI",
+     "name": "MLI",
+     "share_of_years_in_conflict": 0.13,
+     "Q_2024": 0.27
+    },
+    {
+     "iso": "VEN",
+     "name": "VEN",
+     "share_of_years_in_conflict": 0.12,
+     "Q_2024": 0.15
+    },
+    {
+     "iso": "COD",
+     "name": "COD",
+     "share_of_years_in_conflict": 0.12,
+     "Q_2024": 0.19
+    }
+   ],
+   "params": {
+    "cE": 0.5,
+    "cQ": 0.5,
+    "pace": "p95",
+    "reversal": 0.15,
+    "tension": 0.3,
+    "mediation": 0.15,
+    "end_boost": 0.5,
+    "relapse_cut": 0.5,
+    "mediation_relapse": 0.15,
+    "cooperation": 0.05
+   },
+   "share_of_conflict_years_avoided_vs_A": 0.61
+  }
+ },
+ "factorial_economics_off": {
+  "A_baseline": {
+   "conflict_country_years_80y": 2806.9,
+   "conflict_country_years_p10_p90": [
+    2684,
+    2961
+   ],
+   "L1_dates": {
+    "90pct": {
+     "median": 20,
+     "p10": 20,
+     "p90": 22,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 35,
+     "p10": 32,
+     "p90": 40,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "L2_dates": {
+    "90pct": {
+     "median": 71,
+     "p10": 64,
+     "p90": 75,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    },
+    "99pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "share_avoided_vs_A_economics_off": 0.0
+  },
+  "B_moderate_reform": {
+   "conflict_country_years_80y": 2353.0,
+   "conflict_country_years_p10_p90": [
+    2180,
+    2524
+   ],
+   "L1_dates": {
+    "90pct": {
+     "median": 20,
+     "p10": 19,
+     "p90": 22,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 33,
+     "p10": 30,
+     "p90": 36,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "L2_dates": {
+    "90pct": {
+     "median": 63,
+     "p10": 60,
+     "p90": 69,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 80,
+     "p10": 72,
+     "p90": 80,
+     "share_of_runs_reached": 0.13
+    },
+    "99pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "share_avoided_vs_A_economics_off": 0.162
+  },
+  "C_strong_reform": {
+   "conflict_country_years_80y": 1652.5,
+   "conflict_country_years_p10_p90": [
+    1500,
+    1854
+   ],
+   "L1_dates": {
+    "90pct": {
+     "median": 19,
+     "p10": 18,
+     "p90": 20,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 30,
+     "p10": 27,
+     "p90": 31,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 64,
+     "p10": 55,
+     "p90": 68,
+     "share_of_runs_reached": 0.67
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "L2_dates": {
+    "90pct": {
+     "median": 55,
+     "p10": 53,
+     "p90": 58,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 73,
+     "p10": 69,
+     "p90": 75,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "share_avoided_vs_A_economics_off": 0.411
+  },
+  "D_comprehensive_reform": {
+   "conflict_country_years_80y": 1073.7,
+   "conflict_country_years_p10_p90": [
+    959,
+    1160
+   ],
+   "L1_dates": {
+    "90pct": {
+     "median": 17,
+     "p10": 17,
+     "p90": 19,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 27,
+     "p10": 26,
+     "p90": 30,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 47,
+     "p10": 41,
+     "p90": 55,
+     "share_of_runs_reached": 1.0
+    },
+    "100pct": {
+     "median": 78,
+     "p10": 78,
+     "p90": 78,
+     "share_of_runs_reached": 0.07
+    }
+   },
+   "L2_dates": {
+    "90pct": {
+     "median": 52,
+     "p10": 52,
+     "p90": 55,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 64,
+     "p10": 62,
+     "p90": 67,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 78,
+     "p10": 74,
+     "p90": 79,
+     "share_of_runs_reached": 0.53
+    },
+    "100pct": {
+     "median": 78,
+     "p10": 78,
+     "p90": 78,
+     "share_of_runs_reached": 0.07
+    }
+   },
+   "share_avoided_vs_A_economics_off": 0.617
+  }
+ },
+ "uncertainty_cQ": {
+  "B_moderate_reform/cQ_0.25": {
+   "conflict_country_years_80y": 2435.7,
+   "conflict_country_years_p10_p90": [
+    2267,
+    2584
+   ],
+   "L1_dates": {
+    "90pct": {
+     "median": 20,
+     "p10": 19,
+     "p90": 22,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 34,
+     "p10": 30,
+     "p90": 36,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "L2_dates": {
+    "90pct": {
+     "median": 65,
+     "p10": 61,
+     "p90": 70,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 76,
+     "p10": 73,
+     "p90": 80,
+     "share_of_runs_reached": 0.2
+    },
+    "99pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "share_avoided_vs_A": 0.104
+  },
+  "C_strong_reform/cQ_0.25": {
+   "conflict_country_years_80y": 1788.5,
+   "conflict_country_years_p10_p90": [
+    1602,
+    1927
+   ],
+   "L1_dates": {
+    "90pct": {
+     "median": 19,
+     "p10": 18,
+     "p90": 20,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 30,
+     "p10": 28,
+     "p90": 32,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 62,
+     "p10": 55,
+     "p90": 75,
+     "share_of_runs_reached": 0.47
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "L2_dates": {
+    "90pct": {
+     "median": 58,
+     "p10": 53,
+     "p90": 60,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 74,
+     "p10": 69,
+     "p90": 76,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "share_avoided_vs_A": 0.342
+  },
+  "D_comprehensive_reform/cQ_0.25": {
+   "conflict_country_years_80y": 1199.2,
+   "conflict_country_years_p10_p90": [
+    1057,
+    1356
+   ],
+   "L1_dates": {
+    "90pct": {
+     "median": 18,
+     "p10": 17,
+     "p90": 19,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 27,
+     "p10": 26,
+     "p90": 30,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 48,
+     "p10": 43,
+     "p90": 57,
+     "share_of_runs_reached": 1.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "L2_dates": {
+    "90pct": {
+     "median": 53,
+     "p10": 52,
+     "p90": 56,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 67,
+     "p10": 63,
+     "p90": 70,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 79,
+     "p10": 74,
+     "p90": 80,
+     "share_of_runs_reached": 0.33
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "share_avoided_vs_A": 0.559
+  },
+  "B_moderate_reform/cQ_1.0": {
+   "conflict_country_years_80y": 2150.9,
+   "conflict_country_years_p10_p90": [
+    1941,
+    2326
+   ],
+   "L1_dates": {
+    "90pct": {
+     "median": 20,
+     "p10": 19,
+     "p90": 22,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 32,
+     "p10": 30,
+     "p90": 34,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 67,
+     "p10": 67,
+     "p90": 80,
+     "share_of_runs_reached": 0.2
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "L2_dates": {
+    "90pct": {
+     "median": 62,
+     "p10": 59,
+     "p90": 64,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 77,
+     "p10": 75,
+     "p90": 80,
+     "share_of_runs_reached": 0.4
+    },
+    "99pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "share_avoided_vs_A": 0.209
+  },
+  "C_strong_reform/cQ_1.0": {
+   "conflict_country_years_80y": 1361.3,
+   "conflict_country_years_p10_p90": [
+    1187,
+    1496
+   ],
+   "L1_dates": {
+    "90pct": {
+     "median": 19,
+     "p10": 18,
+     "p90": 19,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 29,
+     "p10": 27,
+     "p90": 30,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 53,
+     "p10": 47,
+     "p90": 65,
+     "share_of_runs_reached": 1.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "L2_dates": {
+    "90pct": {
+     "median": 54,
+     "p10": 52,
+     "p90": 57,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 69,
+     "p10": 65,
+     "p90": 74,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 80,
+     "p10": 80,
+     "p90": 80,
+     "share_of_runs_reached": 0.07
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "share_avoided_vs_A": 0.499
+  },
+  "D_comprehensive_reform/cQ_1.0": {
+   "conflict_country_years_80y": 867.3,
+   "conflict_country_years_p10_p90": [
+    774,
+    947
+   ],
+   "L1_dates": {
+    "90pct": {
+     "median": 17,
+     "p10": 17,
+     "p90": 18,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 26,
+     "p10": 25,
+     "p90": 27,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 43,
+     "p10": 39,
+     "p90": 50,
+     "share_of_runs_reached": 1.0
+    },
+    "100pct": {
+     "median": 77,
+     "p10": 64,
+     "p90": 78,
+     "share_of_runs_reached": 0.27
+    }
+   },
+   "L2_dates": {
+    "90pct": {
+     "median": 52,
+     "p10": 52,
+     "p90": 55,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 62,
+     "p10": 59,
+     "p90": 66,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 74,
+     "p10": 71,
+     "p90": 75,
+     "share_of_runs_reached": 0.8
+    },
+    "100pct": {
+     "median": 78,
+     "p10": 78,
+     "p90": 78,
+     "share_of_runs_reached": 0.07
+    }
+   },
+   "share_avoided_vs_A": 0.681
+  }
+ },
+ "sensitivity": {
+  "base_C_strong_reform": {
+   "conflict_country_years_80y": 1626.3,
+   "conflict_country_years_p10_p90": [
+    1471,
+    1770
+   ],
+   "L1_dates": {
+    "90pct": {
+     "median": 19,
+     "p10": 18,
+     "p90": 20,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 30,
+     "p10": 27,
+     "p90": 31,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 57,
+     "p10": 55,
+     "p90": 62,
+     "share_of_runs_reached": 0.7
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "L2_dates": {
+    "90pct": {
+     "median": 57,
+     "p10": 54,
+     "p90": 58,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 72,
+     "p10": 69,
+     "p90": 75,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   }
+  },
+  "cQ_0.25": {
+   "conflict_country_years_80y": 1797.8,
+   "conflict_country_years_p10_p90": [
+    1602,
+    1927
+   ],
+   "L1_dates": {
+    "90pct": {
+     "median": 19,
+     "p10": 18,
+     "p90": 20,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 30,
+     "p10": 28,
+     "p90": 32,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 62,
+     "p10": 55,
+     "p90": 75,
+     "share_of_runs_reached": 0.5
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "L2_dates": {
+    "90pct": {
+     "median": 58,
+     "p10": 55,
+     "p90": 59,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 74,
+     "p10": 69,
+     "p90": 75,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   }
+  },
+  "cQ_1": {
+   "conflict_country_years_80y": 1356.8,
+   "conflict_country_years_p10_p90": [
+    1231,
+    1496
+   ],
+   "L1_dates": {
+    "90pct": {
+     "median": 19,
+     "p10": 18,
+     "p90": 19,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 29,
+     "p10": 27,
+     "p90": 30,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 53,
+     "p10": 48,
+     "p90": 62,
+     "share_of_runs_reached": 1.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "L2_dates": {
+    "90pct": {
+     "median": 55,
+     "p10": 52,
+     "p90": 57,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 70,
+     "p10": 65,
+     "p90": 74,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 80,
+     "p10": 80,
+     "p90": 80,
+     "share_of_runs_reached": 0.1
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   }
+  },
+  "no_economic_channel": {
+   "conflict_country_years_80y": 1674.7,
+   "conflict_country_years_p10_p90": [
+    1515,
+    1854
+   ],
+   "L1_dates": {
+    "90pct": {
+     "median": 19,
+     "p10": 18,
+     "p90": 20,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 30,
+     "p10": 27,
+     "p90": 31,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 58,
+     "p10": 55,
+     "p90": 76,
+     "share_of_runs_reached": 0.5
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "L2_dates": {
+    "90pct": {
+     "median": 57,
+     "p10": 54,
+     "p90": 58,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 74,
+     "p10": 69,
+     "p90": 75,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   }
+  },
+  "tension_0": {
+   "conflict_country_years_80y": 1582.4,
+   "conflict_country_years_p10_p90": [
+    1419,
+    1754
+   ],
+   "L1_dates": {
+    "90pct": {
+     "median": 19,
+     "p10": 18,
+     "p90": 20,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 29,
+     "p10": 27,
+     "p90": 31,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 58,
+     "p10": 55,
+     "p90": 72,
+     "share_of_runs_reached": 0.9
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "L2_dates": {
+    "90pct": {
+     "median": 57,
+     "p10": 54,
+     "p90": 58,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 71,
+     "p10": 67,
+     "p90": 75,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   }
+  },
+  "tension_1": {
+   "conflict_country_years_80y": 1720.5,
+   "conflict_country_years_p10_p90": [
+    1583,
+    1848
+   ],
+   "L1_dates": {
+    "90pct": {
+     "median": 19,
+     "p10": 18,
+     "p90": 20,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 30,
+     "p10": 28,
+     "p90": 32,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 68,
+     "p10": 63,
+     "p90": 72,
+     "share_of_runs_reached": 0.7
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "L2_dates": {
+    "90pct": {
+     "median": 57,
+     "p10": 55,
+     "p90": 58,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 74,
+     "p10": 69,
+     "p90": 75,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   }
+  },
+  "reversal_historical": {
+   "conflict_country_years_80y": 1653.6,
+   "conflict_country_years_p10_p90": [
+    1471,
+    1832
+   ],
+   "L1_dates": {
+    "90pct": {
+     "median": 19,
+     "p10": 18,
+     "p90": 20,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 30,
+     "p10": 27,
+     "p90": 34,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 58,
+     "p10": 55,
+     "p90": 62,
+     "share_of_runs_reached": 0.8
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "L2_dates": {
+    "90pct": {
+     "median": 57,
+     "p10": 53,
+     "p90": 59,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 72,
+     "p10": 69,
+     "p90": 74,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   }
+  },
+  "reversal_0.5": {
+   "conflict_country_years_80y": 1685.7,
+   "conflict_country_years_p10_p90": [
+    1498,
+    1905
+   ],
+   "L1_dates": {
+    "90pct": {
+     "median": 19,
+     "p10": 18,
+     "p90": 20,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 30,
+     "p10": 28,
+     "p90": 34,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 59,
+     "p10": 55,
+     "p90": 64,
+     "share_of_runs_reached": 0.7
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "L2_dates": {
+    "90pct": {
+     "median": 58,
+     "p10": 54,
+     "p90": 60,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 74,
+     "p10": 71,
+     "p90": 75,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   }
+  },
+  "pace_p75": {
+   "conflict_country_years_80y": 1739.7,
+   "conflict_country_years_p10_p90": [
+    1495,
+    1913
+   ],
+   "L1_dates": {
+    "90pct": {
+     "median": 19,
+     "p10": 18,
+     "p90": 20,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 30,
+     "p10": 28,
+     "p90": 31,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 64,
+     "p10": 59,
+     "p90": 75,
+     "share_of_runs_reached": 0.7
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "L2_dates": {
+    "90pct": {
+     "median": 59,
+     "p10": 56,
+     "p90": 60,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 75,
+     "p10": 72,
+     "p90": 78,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   }
+  },
+  "mediation_0": {
+   "conflict_country_years_80y": 2015.3,
+   "conflict_country_years_p10_p90": [
+    1802,
+    2196
+   ],
+   "L1_dates": {
+    "90pct": {
+     "median": 19,
+     "p10": 19,
+     "p90": 21,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 32,
+     "p10": 28,
+     "p90": 33,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 73,
+     "p10": 63,
+     "p90": 73,
+     "share_of_runs_reached": 0.2
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "L2_dates": {
+    "90pct": {
+     "median": 60,
+     "p10": 58,
+     "p90": 63,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 77,
+     "p10": 72,
+     "p90": 80,
+     "share_of_runs_reached": 0.9
+    },
+    "99pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   }
+  },
+  "relapse_cut_0": {
+   "conflict_country_years_80y": 1995.2,
+   "conflict_country_years_p10_p90": [
+    1858,
+    2112
+   ],
+   "L1_dates": {
+    "90pct": {
+     "median": 19,
+     "p10": 19,
+     "p90": 21,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 31,
+     "p10": 29,
+     "p90": 34,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 69,
+     "p10": 61,
+     "p90": 75,
+     "share_of_runs_reached": 0.5
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "L2_dates": {
+    "90pct": {
+     "median": 61,
+     "p10": 57,
+     "p90": 62,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 75,
+     "p10": 72,
+     "p90": 80,
+     "share_of_runs_reached": 0.8
+    },
+    "99pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   }
+  },
+  "only_institutional_quality": {
+   "conflict_country_years_80y": 2413.5,
+   "conflict_country_years_p10_p90": [
+    2200,
+    2517
+   ],
+   "L1_dates": {
+    "90pct": {
+     "median": 21,
+     "p10": 20,
+     "p90": 22,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 33,
+     "p10": 32,
+     "p90": 35,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "L2_dates": {
+    "90pct": {
+     "median": 64,
+     "p10": 62,
+     "p90": 65,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 77,
+     "p10": 76,
+     "p90": 77,
+     "share_of_runs_reached": 0.3
+    },
+    "99pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   }
+  },
+  "only_mechanisms": {
+   "conflict_country_years_80y": 1921.2,
+   "conflict_country_years_p10_p90": [
+    1726,
+    2091
+   ],
+   "L1_dates": {
+    "90pct": {
+     "median": 19,
+     "p10": 18,
+     "p90": 20,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 31,
+     "p10": 28,
+     "p90": 34,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 71,
+     "p10": 67,
+     "p90": 71,
+     "share_of_runs_reached": 0.2
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "L2_dates": {
+    "90pct": {
+     "median": 61,
+     "p10": 58,
+     "p90": 62,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 79,
+     "p10": 77,
+     "p90": 80,
+     "share_of_runs_reached": 0.4
+    },
+    "99pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   }
+  }
+ }
+}
