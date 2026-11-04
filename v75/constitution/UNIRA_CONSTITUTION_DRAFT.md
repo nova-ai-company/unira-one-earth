@@ -192,8 +192,8 @@ We, the people of the Earth, one humanity in many regions, cultures and language
 - **a safe, comfortable home** of a decent size for their household, never seized and never subject to forced relocation;
 - **health care and education**, free of charge, throughout life;
 - **an income:**
-    - by work, from the base salary of 5,000 U a month;
-    - if unable to work for health reasons, a guaranteed 5,000 U;
+    - by work, from the base salary of Article 14;
+    - if unable to work for health reasons, a guaranteed income equal to the base salary;
     - in retirement, a needs-based income for life covering food, daily life and one holiday a year;
     - for children, the allowance of Article 15;
 - **time:** a standard working week of 30 hours (6 hours × 5 days), so that families can live together;
@@ -299,6 +299,22 @@ Surplus beyond a region's needs goes to the One Earth Fund for sharing.
     - a share for personal choices.
 3. The standard must be possible for everyone within Earth's limits. It is the target of the transition (T-8) and the measure of its success.
 
+**Article 10d — Fair shares of what is scarce.**
+1. **Principle.** Every person has an equal right to a dignified and comfortable standard of living. Scarce resources shall be allocated according to legitimate needs and sustainable availability, while monetary entitlements shall reflect the economy's real capacity to deliver goods and services.
+2. **Essentials are guaranteed independently of income.** Suitable housing, health care, nutritious food, education and essential energy are guaranteed to every person, whatever their salary.
+3. **Quotas only where goods are genuinely scarce.** When the sustainable supply of a good cannot meet demand, it is shared by published quotas according to legitimate needs and population. Quotas apply only to goods that are genuinely scarce, never automatically to every purchase. Personal choice remains free for everything else.
+4. **Quotas end when they are no longer needed.** A quota relaxes automatically as sustainable supply grows, and is lifted as soon as supply meets demand. The list of goods under quota, and the reason for each, is reviewed and published every year. No quota is permanent.
+5. **Safeguards for every quota:**
+    - **Individual needs:** allocations are adjusted for household size, age, climate, disability and medical needs.
+    - **No trade in rights:** a personal allocation right may never be sold, rented or transferred for profit. This does not affect the right to sell or give away an ordinary used good one legitimately owns (Article 18b), subject to proportionate rules against hoarding.
+    - **Transparency:** allocation formulas, available stocks, shortages and distribution results are published.
+    - **Simple administration:** routine allocation is automated through the digital U system, with accessible alternatives for anyone who cannot use it.
+    - **Privacy:** no person's medical, household or consumption details are ever made public.
+    - **Appeals:** anyone may challenge an incorrect or discriminatory allocation before an independent body and then the Court.
+    - **Flexibility:** a person may decline an allocation, or exchange it through an authorised system that creates no speculative market.
+
+*Evidence (V8.4, `v84/quotas`): sharing scarce shippable goods by needs-based quotas from the first day gives the poorer half of humanity about a quarter more real consumption at the start and brings them to 90% of the full level 4–9 years sooner than converging salaries alone, across all sensitivity tests (goods shares of 24–45%, diversion of 8–15%, shipping limits). Equal salaries without quotas left most money unspendable at first and fell behind when that weakened effort.*
+
 **Article 11 — Responsible production and stewardship.**
 1. Before producing new, society maintains, repairs, renovates, reuses and converts what exists.
 2. Nothing is produced only to sustain sales. There is no waste and no overproduction.
@@ -321,7 +337,7 @@ Surplus beyond a region's needs goes to the One Earth Fund for sharing.
 3. **No data without a judge.** Personal payment data are opened only by a court order about a named person. Every access is logged. The person is told after the investigation ends, and at the latest after one year. The number of accesses is published each year.
 4. **Private everyday payments.**
    - Everyday payments by a person are anonymous to everyone except the payer, up to a limit per payment and per month.
-   - The starting limits are 200 U per payment and 2,000 U per month. The Monetary Authority adjusts them by published rule.
+   - The limits are set by the Monetary Authority by published rule (research starting values: 200 U per payment and 2,000 U per month).
    - The limits are never lowered in the 12 months before an election.
 5. **Invoices name the seller, not the buyer.** For anonymous payments, the invoice of Article 12.2 names the seller and the goods, not the buyer.
 6. **Always online, never stranded.** All payments are online; there are no offline payment devices. If the network fails in a region, food, health care, energy, housing and transport under Article 6 continue to be provided to everyone, and are recorded when the network returns.
@@ -359,11 +375,11 @@ Surplus beyond a region's needs goes to the One Earth Fund for sharing.
 *Evidence: priced by hours alone, French fuels would become 79% cheaper and electricity 65% cheaper relative to other goods, because their market prices pay mostly for resources, not work. That would encourage waste, so the surcharge is essential (V7.9, `v79/prices`). The calculator of V8.1 (`v81/prices`) sets the surcharges at +507% for fuels, +271% for electricity and gas, +98% for air travel and +75% for mining products, which keeps each at today's relative price. Within the essential allowance, a kilowatt-hour of electricity costs about 0.17 U and a litre of fuel about 0.8 U; if the allowance covers 80% of today's household energy, the household basket is only about 1.5% dearer, against 6% with the surcharge on all energy. Cheap energy beyond needs is used more (V7.1), which is why the surcharge remains above the allowance. Examples at the base salary: a kilo of tomatoes about 10 U (16 minutes of work), a litre of petrol about 4.7 U, a small new car about 23,000 U (4.6 months).*
 
 **Article 14 — Salaries.**
-1. The base salary is 5,000 U a month.
-2. Salaries rise with experience, knowledge and the complexity of the work, up to 5 times the base (25,000 U).
+1. The base salary is set by law so that, at fixed prices, it buys at least the UNIRA living standard (Article 10c). The research value is 5,000 U a month, to be confirmed once its real purchasing power under that standard is established.
+2. Salaries rise with experience, knowledge and the complexity of the work, up to 5 times the base.
 3. The pay of enterprise owners and managers is a salary within the same limit.
 4. Average pay may rise only as fast as productivity.
-5. **No exception.** No bonus, prize, profit share or reward of any kind lifts a person's monthly income above five times the base salary (25,000 U).
+5. **No exception.** No bonus, prize, profit share or reward of any kind lifts a person's monthly income above five times the base salary.
 
 **Article 14a — Hard and unwanted work.**
 1. **Hardship steps.** A published score for night, weekend, physical, dangerous or unpleasant work adds up to half a multiplier step to a person's salary, always within five times the base salary (Article 14.5).
@@ -375,13 +391,13 @@ Surplus beyond a region's needs goes to the One Earth Fund for sharing.
 *Evidence: in a job-choice model of 20,000 people using France's sector sizes (V8.2, `v82/jobs`), paying only for knowledge left 87% of people in hard jobs there unwillingly. Hardship steps, shorter hours and work made 30% less hard together brought this to 46%, about the level of ordinary jobs, at the cost of a higher average multiplier (1.60 to 1.85) and about 9% more people in hard sectors. In France the hardest jobs to fill in 2025 were hotels and restaurants (4.5% vacancies), personal services, health and social care, and construction (Eurostat).*
 
 **Article 14b — Retirement.**
-1. Every retired person receives a pension of at least 2,500 U a month, plus 50 U a month for each year worked beyond twenty, up to 3,750 U.
+1. Every retired person receives a pension of at least half the base salary, plus one per cent of the base salary for each year worked beyond twenty, up to three-quarters of the base salary (at the research value of 5,000 U: 2,500 U, plus 50 U a year, up to 3,750 U a month).
 2. The retirement account of Article 17.4 is paid out on top, evenly from retirement.
 3. Housing, health care and care are guaranteed and free. Disability and high care needs receive case-by-case top-ups.
 4. The amounts are fixed by law and reviewed every five years against the cost of the needs basket.
 
 **Article 15 — Children.**
-1. Each child brings an allowance of 1,000 U a month, limited so that adult household income plus child allowance does not exceed 15,000 U.
+1. Each child brings an allowance of one-fifth of the base salary a month, limited so that adult household income plus child allowance does not exceed three times the base salary (at the research value of 5,000 U: 1,000 U per child, limit 15,000 U).
 2. The disability guarantee counts as adult income for this limit but is never reduced by it.
 
 **Article 16 — Enterprises.**
@@ -405,10 +421,10 @@ Surplus beyond a region's needs goes to the One Earth Fund for sharing.
 **Article 17 — Savings and the money cap.**
 1. Savings are free and protected, up to a personal money cap set each year by the Monetary Authority under Article 17b, so that people keep working to produce what is needed.
 2. **The cap applies only to savings held, never to salary or spending.** Every person always receives their full salary and may spend it.
-3. **A moderate cap.** The cap is never below one and a half years of base salary (90,000 U).
+3. **A moderate cap.** The cap is never below one and a half years of base salary (at the research value of 5,000 U: 90,000 U).
 4. **Protected accounts outside the cap.** Every person may also hold, outside the cap:
-    - a **home account**, until they own a home, of up to 150,000 U, used to buy or build it;
-    - a **retirement account** of up to 120,000 U, paid out evenly from retirement as income on top of the needs-based pension;
+    - a **home account**, until they own a home, of up to thirty months of base salary, used to buy or build it (at the research value of 5,000 U: 150,000 U);
+    - a **retirement account** of up to twenty-four months of base salary, paid out evenly from retirement as income on top of the needs-based pension (at the research value of 5,000 U: 120,000 U);
     - a **time account**, for salaried people, of up to 13 weeks of their own pay, used for paid leave of at most 2 weeks a year or saved for a sabbatical of up to 3 months. In jobs where the region lacks workers, the time is banked and taken later.
 5. **Order.** Savings first fill the free account up to the cap. Money above the cap then fills the home, retirement and time accounts, in that order. Only what remains, including large inheritances, goes to the One Earth Fund. The limits are fixed by law and published. If total hours worked fall below the region's needs, the time-account limit is lowered automatically.
 6. Homes are not money and are never taken.
@@ -464,7 +480,7 @@ Surplus beyond a region's needs goes to the One Earth Fund for sharing.
 *Evidence: in a 60-year simulation with a disaster, a wave of precautionary saving, a baby boom and fast automation, this rule kept unspent money within 10–14 months of consumption and no salaried person was ever blocked from a first home. Without the 10% limit the cap could fall 88% in a single year (V7.9, `v79/money`).*
 
 **Article 18 — Homes.**
-1. Homes are priced between 100,000 and 500,000 U according to size and location.
+1. Homes are priced by Article 13 according to size, quality and location, between twenty and one hundred months of base salary (at the research value of 5,000 U: 100,000 to 500,000 U).
 2. An adult may own at most two homes, and a family at most two in total.
 3. Zero-interest credit is available, repaid from salary.
 4. A home inherited beyond the heir's first returns to the regional pool or is chosen by the heir.
@@ -812,29 +828,28 @@ Income, wealth and any offer to pay more are never taken into account.
 
 ---
 
-**T-8. Equal rights from day one; equal purchasing power built up (the D + C transition).**
-1. **Success is measured by real living standards** (homes, food, health care, education, transport, energy), not by money in accounts. Each region's real access is measured and published every year, and unmet needs are listed and given priority.
-2. **Rights from day one (D, the real economy).** From the first day, every person in every member region has the right to food, a home, health care, education and the essential energy allowance. One Earth first takes inventory of what exists, redistributes it, repairs and renovates it, and only then produces what is missing. Equal rights are not the same as immediate equal availability: where homes or care must first be built, the right begins at once as a published priority with a deadline.
-3. **Money follows real supply (C, the monetary economy).** Each region's salary scale in U rises toward the full scale of Article 14 according to the region's sustainable, accessible supply of the goods and services people need, after essential guarantees, reserves and ecological limits. It does not rise simply because total production rises. Essential needs remain guaranteed whatever a person's income. The Monetary Authority (Article 17b) prevents total purchasing power from persistently exceeding available supply. Salaries are never cut.
-4. **Differences are temporary.** Regional salary differences rest only on measured constraints. They are reviewed every year by an independent body, and every region moves toward the full scale. No permanent regional salary scale may exist.
-5. **Compensation during the transition.** While a region's salary scale is below the full scale:
-    - goods and services that are not scarce (education, training, culture, digital access, public transport, health care) are free and equal everywhere;
-    - the regions furthest behind have priority for scarce goods, renovation, building and investment (Article 10a);
-    - each worker receives an **equality credit** of one quarter of the gap between the full salary and the regional salary, in a protected personal account.
-6. **Equality credits are guaranteed obligations.**
-    - Repayment begins during the transition, using at most 5% of the world's usable supply each year, and accelerates to at most 15% once salaries are equal everywhere.
-    - The outstanding total and the projected repayment capacity are published every year.
-    - The one-quarter rate is provisional and holds only together with a ceiling: while outstanding credits reach two years of world consumption, new accrual pauses until repayment brings them below. **Credits already earned always remain valid and are always repaid.**
-    - An independent sustainability assessment of the credits (outstanding total, repayment capacity, ecological limits) is published every year. The rate is reviewed every five years with real data. If productivity and resources exceed projections, repayment is accelerated rather than surpluses accumulated.
-7. **Reserves and resilience.** Three per cent of supply each year builds resilience (Article 11.4), in three different forms, because food, medicines, electricity and homes cannot all be stored the same way:
-    - **inventories** of what can be stored: food, medicines, fuel, spare parts and repair materials;
-    - **emergency production capacity** for what cannot be stored long: standby power plants and grid margin, flexible medicine and vaccine production, field hospitals and mobile clinics;
-    - **resilient infrastructure:** redundant networks, renovation and repair crews, and temporary housing ready for disasters.
-8. **Major supply shocks.** Salaries are never cut, but nominal income does not guarantee purchasing power when supply collapses. In a declared emergency (Article 9a), One Earth may set temporary limits on purchases of non-essential goods, for at most the duration of the emergency, published and reviewed by the Court. Essential goods are always protected first and are never rationed below the needs guarantee.
-9. **The target is a living standard, not one country's consumption.** The aim of convergence is the UNIRA living standard of Article 10c for every person. It is not a monetary amount, and not the replication of any one country's current consumption.
-10. **The timeline is a tested range, not a promise.** Simulations give full salary convergence in about 33 to 45 years under strong catch-up growth, and later under slower growth. Progress is published every year against this range.
+**T-8. The transition: rights, fair shares and money (D + Q + C).**
+1. **The aim.** Equal access to a high standard of living for every person (Articles 10c and 10d). Success is measured by people's real living standards (homes, food, health care, education, mobility, energy), not by money in accounts.
+2. **D, real access from day one.** Every person in every member region has the essential guarantees of Article 10d.2 from the first day. One Earth first takes inventory of what exists, redistributes it, repairs and renovates it, and only then produces what is missing. Equal rights are not the same as immediate equal availability: where homes, care or networks must first be built, the right begins at once as a published priority with a deadline.
+3. **Q, fair shares of scarce goods.** Goods that are scarce and can be moved are shared between regions and people by the needs-based quotas of Article 10d, with all its safeguards. Quotas relax and end as supply grows.
+4. **C, money that matches what can be bought.**
+    - The part of salaries that pays for local services rises in each region as its local capacity grows.
+    - Regional differences rest only on measured constraints, are reviewed every year by an independent body, and are temporary: every region moves toward the full scale of Article 14.
+    - Salaries are never cut.
+    - The Monetary Authority (Article 17b) prevents total purchasing power from persistently exceeding available supply.
+5. **Investment first where needs are greatest.** Underserved regions have priority for training, health capacity, infrastructure, equipment and productivity, to bring real living standards together as fast as possible.
+6. **Independent audit and reporting.** Every year an independent body publishes, for every region:
+    - real living standards;
+    - unmet needs and shortages;
+    - the fairness of distribution;
+    - the goods under quota;
+    - environmental impacts;
+    - progress toward convergence.
+7. **Reserves and resilience.** A share of supply builds resilience in three forms: inventories of what can be stored (food, medicines, fuel, repair materials); emergency production capacity for what cannot (standby power, flexible medicine production, mobile care); and resilient infrastructure (Article 11.4).
+8. **Major supply shocks.** Salaries are never cut, but nominal income does not guarantee purchasing power when supply collapses. In a declared emergency (Article 9a), temporary limits on purchases of non-essential goods may be set for at most the duration of the emergency, published and reviewed by the Court. Essential goods are always protected first.
+9. **Parameters are set by law, not by this Constitution.** The salary amounts, the share of supply kept as reserves, shipping limits, the split between shippable goods and local services, and the expected time to convergence are research values. They are set by law from the best evidence, reviewed regularly, and published with their uncertainty.
 
-*Evidence (V8.3, `v83/equality_credit`). Strong catch-up: equal salaries in year 45 and credits fully repaid in year 55; with very strong catch-up, in years 37 and 44. A credit of one half of the gap would be repaid only in years 61 to 75, and a full credit never. The stress test found no shortages after reserves under population changes of ±30% or repeated supply shocks of 5–10%. If Africa and South Asia catch up at half speed, convergence comes in year 54. At the historical growth pace, convergence to today's French level is not reached within 80 years, and the liability ceiling keeps outstanding credits at about two years of world consumption.*
+*Evidence (V8.2–V8.4): equal salaries everywhere on day one would ask for about twice what the world produces, and most of what money buys is local services that must be built locally. The hybrid gives the poorer half of humanity the best real living standards of every design tested, with no shortages under population change or repeated supply shocks. Its simulated convergence (about 46–51 years to 90% of today's French level) depends on growth assumptions and is not a promise. Equality credits were tested and did not improve real living standards; they remain a research alternative only.*
 
 
 ### Notes for the author (not part of the text)
@@ -848,5 +863,6 @@ Income, wealth and any offer to pay more are never taken into account.
 
 - **V7.9 (2026-11-03): the missing designs and power safeguards added** — Articles 3c, 3d, 5b, 5c, 6a, 9a, 10a, 12a, 17b, 22a, 26a, 30a, 32a, 32b, 39a, 41a, 42a, 42b, T-7; amendments to 5a, 13, 17 and 18. Evidence and the stress test of 13 attack scenarios are in `v79/`.
 - **Decided by the author on the research's recommendation (2026-11-03):** a time account of at most 2 weeks a year (sabbatical up to 3 months), paused in shortage jobs (Article 17.4); an open housing lottery of 10%, at most 20% by regional choice (Article 18.8); health need weighted by age and disease burden together (Article 10a.3). Still to confirm with data: the account limits (150,000 U home, 120,000 U retirement, 13 weeks).
+- **Decided by the author (V8.4, 2026-11-04):** D + Q + C adopted as the economic framework (Article 10d, T-8). Equality credits removed from the baseline and kept for research only. Constitutional articles hold permanent rights and principles; economic parameters (goods/services split, reserve share, shipping limits, convergence time, the 5,000 U salary value) remain research values set by law.
 - **Unresolved research question (V8.3, recorded by the author):** whether today's French consumption level can be provided to everyone. The 80-year simulation shows it is **impossible under current assumptions** (historical growth), not that it is fundamentally impossible. The target of the transition is therefore the UNIRA living standard (Article 10c), whose cost in hours and resources is the next research item.
 - **Decided by the author (2026-11-03):** a moderate money cap with protected home and retirement accounts. The research set the floor at 1.5 years of base salary (Article 17.3–17.5), and the author confirmed it after comparing 3- and 5-year caps: with all protected accounts, 30% of adults lose some money at 1.5 years, against 19% at 5 years, but a sudden spending rush would create shortages three times larger at 5 years.

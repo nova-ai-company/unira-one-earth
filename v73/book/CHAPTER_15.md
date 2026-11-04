@@ -153,20 +153,18 @@ This is perhaps the most important result for the transition. UNIRA does not nee
 
 The research found a hard fact. If every person on Earth were paid at least 5,000 U from the first day, people would try to buy about **twice** what the world produces. With fixed prices, that gap would become empty shelves.
 
-So the transition rests on two parts, in the author's words:
-- **D, the real economy,** decides what must be delivered. From day one, everyone has the right to food, a home, care, education and essential energy. One Earth first counts what exists, redistributes it, repairs and renovates it, and only then produces what is missing.
-- **C, the money,** decides how purchasing power grows. Salaries rise as fast as the goods people need can really be supplied, and are never cut.
+So the transition rests on three parts, in the author's words:
+- **D, real access,** decides what must be delivered. From day one, everyone has the right to suitable housing, health care, nutritious food, education and essential energy, whatever their salary. One Earth first counts what exists, redistributes it, repairs and renovates it, and only then produces what is missing.
+- **Q, fair shares,** decides how scarce goods are divided. Goods that are genuinely scarce and can be moved (food, medicines, clothes, equipment) are shared by needs-based quotas, adjusted for household size, age, climate and health. A quota right can never be sold. Quotas relax and end as soon as supply is sufficient: UNIRA is not meant to ration forever.
+- **C, money,** decides how purchasing power grows. About three-quarters of what people buy is local services (shops, restaurants, transport, care), and those must be built where people live. So the part of salaries that pays for local services rises as each region's services grow, and salaries are never cut.
 
-Success is measured by how people actually live, not by the money in their accounts.
+Success is measured by how people actually live, not by the money in their accounts. The constitution states the principle plainly: *every person has an equal right to a dignified and comfortable standard of living; scarce resources are allocated according to legitimate needs and sustainable availability; and money reflects the economy's real capacity to deliver.*
 
-During the transition, nobody is simply told to wait:
-- everything that is not scarce (school, training, culture, internet, public transport, care) is free and equal everywhere at once;
-- the regions furthest behind come first for homes, energy and investment;
-- each worker earns an **equality credit**: a quarter of the gap between their salary and the full salary, saved in a protected account.
+The research compared this hybrid with two alternatives in the same simulated world. Converging salaries alone left the poorer half of humanity at about 19% of the full level at first. Equal salaries for everyone from day one left most of their money unspendable, an invitation to black markets. The hybrid gave the poorer half about 25% at once, about a quarter more, and brought them to 90% several years sooner. It held up when the share of shippable goods changed, when some goods were diverted, and when shipping was limited.
 
-A worker earning 2,000 U where the full salary is 5,000 U banks 750 U a month. The credit is repaid from the start, faster once salaries are equal, and fully about ten years later in the simulations.
+An idea that was tested and set aside is also worth telling. An "equality credit" would have saved part of the salary gap for later. It did not improve real lives; it only moved promises into the future. UNIRA chose real investment in the regions furthest behind instead: training, care, infrastructure and equipment.
 
-The research tested this against bad news: population surprises, droughts and pandemics, regions catching up slowly. Shelves never emptied; the reserves absorbed the shocks. But slow growth stretches the timeline: equal salaries take about 33 to 45 years with strong growth, longer without it. That is why the constitution calls it a tested range, not a promise.
+None of the dates is a promise. The constitution keeps the numbers (salary amounts, reserves, shipping limits, the expected time to convergence) outside its permanent articles, as research values to be set by law and corrected as real data arrive.
 
 ## What history teaches
 

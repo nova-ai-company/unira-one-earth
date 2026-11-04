@@ -378,12 +378,14 @@ UNIRA can start with willing regions and grow. Compared with a reformed market w
 - **Hard jobs** get hardship steps, shorter hours and better conditions: unwilling workers fall from 87% to 46%.
 - **Investment** puts maintenance first.
 - **A restaurant and a supermarket** balance their accounts with UNIRA prices and salaries.
-- **Equal salaries on day one would demand twice what the world produces.** The author therefore adopted the D + C framework:
-  - equal rights and essentials in kind from day one;
-  - redistribution and repair before new production;
-  - regional salaries rising with sustainable supply;
-  - a provisional 25% equality credit, repaid 10 years after convergence.
-- **Stress test:** no shortages under population change or supply shocks. Full convergence takes about 33–45 years under strong catch-up, longer with regional lag, and is not reached within 80 years at historical growth. Convergence is therefore a tested range, not a promise.
+- **Equal salaries on day one would demand twice what the world produces.** About three-quarters of household spending is local services that cannot be shipped.
+- **The author adopted the D + Q + C framework:**
+  - D: rights and essentials guaranteed in kind, independently of salaries;
+  - Q: needs-based quotas only for genuinely scarce goods, relaxing automatically as supply grows;
+  - C: salaries for local services converge with local capacity.
+- **Results:** in the same simulated world, the hybrid gives the poorer half of humanity about a quarter more real consumption at first than converging salaries alone. It reaches 90% of today's French level 4–9 years sooner across sensitivity tests (goods shares 24–45%, diversion 8–15%, shipping limits). Equal salaries without the hybrid's design left most money unspendable.
+- **Equality credits** did not improve real living standards and are kept for research only.
+- **Constitution vs parameters:** the constitution holds the rights and principles (Article 10d, T-8). The salary amounts, reserves, shipping limits and convergence time remain research parameters.
 
 <!-- refs:begin sources §11 -->
 
