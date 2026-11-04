@@ -56,6 +56,8 @@ These are tests of **physical feasibility under stated assumptions**, not foreca
 | `v81/prices/` | Price calculator (Article 13): embodied hours × 146.4 U + resource surcharge, 62 product groups, examples |
 | `v82/` | Completing the economy: production signals, hard jobs, investment, restaurant and supermarket accounts, world money (option C), trade, resale, sizes, behaviour register |
 | `v80/pilot/` | Pilot plan: precedents (TZCLD, Marienthal, shorter-week trials), predictions, failure criteria, budget |
+| `v87/`–`v89/` | Living-standard levels: real cost, essential infrastructure, integrated dates |
+| `v90/` | Fair distribution and armed conflict: evidence, country conflict model coupled with V8.9, scenarios A–D, proposed (not applied) constitution changes |
 | `v79/` | The missing designs (allocation formula, prices, desirable homes, money cap, innovation) and safeguards against concentrated power |
 | `docs/` | The published website (generated) |
 

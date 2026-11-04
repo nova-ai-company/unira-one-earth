@@ -402,6 +402,12 @@ UNIRA can start with willing regions and grow. Compared with a reformed market w
 - **Bottlenecks:** health-worker training first, then clean-cooking supply chains, then conflict. For the comfortable level, local services in the poorest regions.
 - **Never binding:** energy, materials and money.
 
+**Fair distribution and armed conflict (V9.0).**
+- **Observed:** today 31% of the poorest quarter of countries are in armed conflict, against 2–4% in the other three quarters. Part of that pattern is reverse causation and state weakness. The plausibly causal share of conflict risk linked to deprivation is very uncertain: central about a fifth, range about 5% to two thirds.
+- **Simulated** (country conflict model coupled with V8.9, 30 runs per scenario): over 80 years UNIRA avoids about 13% (moderate) to 26% (strong) of conflict-years, with little change in the first 20 years. Conflict halves delivery where risk is highest, a conflict trap. Only a conditional upper bound with hypothetical diplomacy and reconciliation avoids about 68%.
+- **Dates:** essential security for 90% is unchanged (year 16). The last people gain most: essential security for 99% is about 3–8 years sooner (21 in the upper bound), and the comfortable life for 95% about 4–6 years sooner (14 in the upper bound).
+- **What remains:** about two thirds of the remaining risk is not linked to living standards (territory, identity, exclusion, state weakness), concentrated in the poorest, weakest states. Prosperity helps peace but does not guarantee it.
+
 <!-- refs:begin sources §11 -->
 
 *Sources for this section:* Brainard & Perry 1991; Documents & Images n.d.a; Eurostat ilc_di01, 2026; Institut für Arbeitsmarkt- und Berufsforschung (IAB) 1998; International Monetary Fund 2019; Notes from Poland 2026; Polish Economic Institute 2019; Polish Investment \& Trade Agency n.d.; Wikipedia contributors n.d.b.

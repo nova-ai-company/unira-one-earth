@@ -1,0 +1,2096 @@
+{
+ "fitted_beta": 4.75,
+ "log_likelihood": -48.78,
+ "observed_conflict_rate_today_by_living_standard_quartile": [
+  0.311,
+  0.044,
+  0.045,
+  0.022
+ ],
+ "countries": 179,
+ "countries_in_conflict_today": 19,
+ "runs": 30,
+ "sensitivity_runs": 10,
+ "v89_reference": {
+  "accelerated_todays_conflicts_never_end": {
+   "L1": {
+    "90pct": 17,
+    "95pct": 29,
+    "99pct": 53
+   },
+   "L2": {
+    "90pct": 72,
+    "95pct": null,
+    "99pct": null
+   }
+  },
+  "accelerated_if_all_conflicts_end_now": {
+   "L1": {
+    "90pct": 14,
+    "95pct": 21,
+    "99pct": 32
+   },
+   "L2": {
+    "90pct": 47,
+    "95pct": 54,
+    "99pct": 59
+   }
+  }
+ },
+ "deprivation_linked_share_of_todays_onset_risk": {
+  "s_ne_0.3/beta_x0.5": 0.317,
+  "s_ne_0.3/beta_x1.0": 0.562,
+  "s_ne_0.3/beta_x1.5": 0.665,
+  "s_ne_0.5/beta_x0.5": 0.227,
+  "s_ne_0.5/beta_x1.0": 0.402,
+  "s_ne_0.5/beta_x1.5": 0.475,
+  "s_ne_0.7/beta_x0.5": 0.136,
+  "s_ne_0.7/beta_x1.0": 0.241,
+  "s_ne_0.7/beta_x1.5": 0.285
+ },
+ "scenarios": {
+  "A_no_reduction": {
+   "conflict_country_years_80y": 1512.7,
+   "L1_dates": {
+    "90pct": {
+     "median": 16,
+     "p10": 16,
+     "p90": 18,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 27,
+     "p10": 25,
+     "p90": 30,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 60,
+     "p10": 51,
+     "p90": 74,
+     "share_of_runs_reached": 0.4
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "L2_dates": {
+    "90pct": {
+     "median": 55,
+     "p10": 51,
+     "p90": 60,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 75,
+     "p10": 67,
+     "p90": 79,
+     "share_of_runs_reached": 0.8
+    },
+    "99pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "countries_in_conflict": {
+    "year_0": 19.0,
+    "year_5": 17.1,
+    "year_10": 17.2,
+    "year_20": 19.1,
+    "year_30": 18.7,
+    "year_40": 19.1,
+    "year_60": 19.8,
+    "year_80": 19.3
+   },
+   "countries_in_conflict_p10_p90_year_40": [
+    13,
+    24
+   ],
+   "share_of_humanity_in_conflict_zones": {
+    "year_0": 0.0295,
+    "year_5": 0.0233,
+    "year_10": 0.0209,
+    "year_20": 0.0203,
+    "year_30": 0.0246,
+    "year_40": 0.0249,
+    "year_60": 0.02,
+    "year_80": 0.02
+   },
+   "onsets_80y": 152.1,
+   "resolutions_80y": 151.8,
+   "countries_in_conflict_year_80": 19.3,
+   "yearly_bottleneck_first_draw": {
+    "year_1": {
+     "L1": {
+      "domain": "health",
+      "type": "labour (training)",
+      "people_short_m": 4023,
+      "share_in_conflict_states": 0.22
+     },
+     "L2": {
+      "domain": "health",
+      "type": "labour (training)",
+      "people_short_m": 7024,
+      "share_in_conflict_states": 0.13
+     }
+    },
+    "year_5": {
+     "L1": {
+      "domain": "clean_cooking",
+      "type": "conflict",
+      "people_short_m": 1306,
+      "share_in_conflict_states": 0.5
+     },
+     "L2": {
+      "domain": "health",
+      "type": "labour (training)",
+      "people_short_m": 7026,
+      "share_in_conflict_states": 0.15
+     }
+    },
+    "year_10": {
+     "L1": {
+      "domain": "clean_cooking",
+      "type": "conflict",
+      "people_short_m": 1063,
+      "share_in_conflict_states": 0.5
+     },
+     "L2": {
+      "domain": "health",
+      "type": "labour (training)",
+      "people_short_m": 7045,
+      "share_in_conflict_states": 0.12
+     }
+    },
+    "year_20": {
+     "L1": {
+      "domain": "clean_cooking",
+      "type": "logistics",
+      "people_short_m": 608,
+      "share_in_conflict_states": 0.4
+     },
+     "L2": {
+      "domain": "services",
+      "type": "labour (local services)",
+      "people_short_m": 6473,
+      "share_in_conflict_states": 0.07
+     }
+    },
+    "year_30": {
+     "L1": {
+      "domain": "clean_cooking",
+      "type": "conflict",
+      "people_short_m": 630,
+      "share_in_conflict_states": 0.73
+     },
+     "L2": {
+      "domain": "services",
+      "type": "labour (local services)",
+      "people_short_m": 4546,
+      "share_in_conflict_states": 0.15
+     }
+    },
+    "year_40": {
+     "L1": {
+      "domain": "sanitation",
+      "type": "conflict",
+      "people_short_m": 177,
+      "share_in_conflict_states": 0.94
+     },
+     "L2": {
+      "domain": "services",
+      "type": "labour (local services)",
+      "people_short_m": 1749,
+      "share_in_conflict_states": 0.32
+     }
+    },
+    "year_60": {
+     "L1": {
+      "domain": "teachers",
+      "type": "conflict",
+      "people_short_m": 135,
+      "share_in_conflict_states": 1.0
+     },
+     "L2": {
+      "domain": "services",
+      "type": "conflict",
+      "people_short_m": 677,
+      "share_in_conflict_states": 0.74
+     }
+    },
+    "year_80": {
+     "L1": {
+      "domain": "teachers",
+      "type": "conflict",
+      "people_short_m": 116,
+      "share_in_conflict_states": 1.0
+     },
+     "L2": {
+      "domain": "services",
+      "type": "conflict",
+      "people_short_m": 359,
+      "share_in_conflict_states": 0.55
+     }
+    }
+   },
+   "share_of_remaining_onset_risk_not_linked_to_living_standards_last_decade": 0.5,
+   "highest_remaining_conflict_risk_years_40_80": [
+    {
+     "iso": "CAF",
+     "name": "CAF",
+     "share_of_years_in_conflict": 0.77,
+     "today": "conflict"
+    },
+    {
+     "iso": "COD",
+     "name": "COD",
+     "share_of_years_in_conflict": 0.76,
+     "today": "conflict"
+    },
+    {
+     "iso": "TCD",
+     "name": "TCD",
+     "share_of_years_in_conflict": 0.73,
+     "today": "fragile"
+    },
+    {
+     "iso": "NER",
+     "name": "NER",
+     "share_of_years_in_conflict": 0.73,
+     "today": "conflict"
+    },
+    {
+     "iso": "MDG",
+     "name": "MDG",
+     "share_of_years_in_conflict": 0.68,
+     "today": "other"
+    },
+    {
+     "iso": "BFA",
+     "name": "BFA",
+     "share_of_years_in_conflict": 0.55,
+     "today": "conflict"
+    },
+    {
+     "iso": "BDI",
+     "name": "BDI",
+     "share_of_years_in_conflict": 0.54,
+     "today": "fragile"
+    },
+    {
+     "iso": "LBR",
+     "name": "LBR",
+     "share_of_years_in_conflict": 0.52,
+     "today": "other"
+    },
+    {
+     "iso": "PNG",
+     "name": "PNG",
+     "share_of_years_in_conflict": 0.51,
+     "today": "fragile"
+    },
+    {
+     "iso": "MOZ",
+     "name": "MOZ",
+     "share_of_years_in_conflict": 0.5,
+     "today": "conflict"
+    },
+    {
+     "iso": "MWI",
+     "name": "MWI",
+     "share_of_years_in_conflict": 0.5,
+     "today": "other"
+    },
+    {
+     "iso": "ETH",
+     "name": "ETH",
+     "share_of_years_in_conflict": 0.48,
+     "today": "conflict"
+    }
+   ],
+   "L1_mean_coverage": {
+    "year_5": 0.8307,
+    "year_10": 0.8653,
+    "year_20": 0.9213,
+    "year_30": 0.9554,
+    "year_40": 0.9699,
+    "year_60": 0.9799,
+    "year_80": 0.98
+   },
+   "L2_mean_coverage": {
+    "year_5": 0.1209,
+    "year_10": 0.1231,
+    "year_20": 0.1945,
+    "year_30": 0.4826,
+    "year_40": 0.7833,
+    "year_60": 0.9144,
+    "year_80": 0.9531
+   },
+   "params": {
+    "beta": 4.75,
+    "e0": 0.1,
+    "recur": 4.0,
+    "affected": 0.25,
+    "tau": 0.0,
+    "diplomacy": false,
+    "c": 0.0,
+    "s_ne": 0.5,
+    "backlash": 0.0
+   },
+   "calibrated_onset_H": 0.009295,
+   "share_of_conflict_burden_avoided_vs_A": 0.0,
+   "conflicts_prevented_vs_A": 0.0,
+   "years_of_conflict_reduced_vs_A": 0.0
+  },
+  "B_moderate": {
+   "conflict_country_years_80y": 1320.7,
+   "L1_dates": {
+    "90pct": {
+     "median": 16,
+     "p10": 16,
+     "p90": 18,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 27,
+     "p10": 26,
+     "p90": 30,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 57,
+     "p10": 49,
+     "p90": 73,
+     "share_of_runs_reached": 0.83
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "L2_dates": {
+    "90pct": {
+     "median": 54,
+     "p10": 51,
+     "p90": 58,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 71,
+     "p10": 66,
+     "p90": 76,
+     "share_of_runs_reached": 0.97
+    },
+    "99pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "countries_in_conflict": {
+    "year_0": 19.0,
+    "year_5": 17.4,
+    "year_10": 17.0,
+    "year_20": 19.1,
+    "year_30": 17.9,
+    "year_40": 16.7,
+    "year_60": 14.9,
+    "year_80": 13.5
+   },
+   "countries_in_conflict_p10_p90_year_40": [
+    12,
+    20
+   ],
+   "share_of_humanity_in_conflict_zones": {
+    "year_0": 0.0295,
+    "year_5": 0.0233,
+    "year_10": 0.0199,
+    "year_20": 0.0203,
+    "year_30": 0.0233,
+    "year_40": 0.0208,
+    "year_60": 0.0155,
+    "year_80": 0.0148
+   },
+   "onsets_80y": 134.8,
+   "resolutions_80y": 140.3,
+   "countries_in_conflict_year_80": 13.5,
+   "yearly_bottleneck_first_draw": {
+    "year_1": {
+     "L1": {
+      "domain": "health",
+      "type": "labour (training)",
+      "people_short_m": 4023,
+      "share_in_conflict_states": 0.22
+     },
+     "L2": {
+      "domain": "health",
+      "type": "labour (training)",
+      "people_short_m": 7024,
+      "share_in_conflict_states": 0.13
+     }
+    },
+    "year_5": {
+     "L1": {
+      "domain": "clean_cooking",
+      "type": "conflict",
+      "people_short_m": 1306,
+      "share_in_conflict_states": 0.5
+     },
+     "L2": {
+      "domain": "health",
+      "type": "labour (training)",
+      "people_short_m": 7026,
+      "share_in_conflict_states": 0.15
+     }
+    },
+    "year_10": {
+     "L1": {
+      "domain": "clean_cooking",
+      "type": "conflict",
+      "people_short_m": 1063,
+      "share_in_conflict_states": 0.5
+     },
+     "L2": {
+      "domain": "health",
+      "type": "labour (training)",
+      "people_short_m": 7045,
+      "share_in_conflict_states": 0.12
+     }
+    },
+    "year_20": {
+     "L1": {
+      "domain": "clean_cooking",
+      "type": "logistics",
+      "people_short_m": 608,
+      "share_in_conflict_states": 0.4
+     },
+     "L2": {
+      "domain": "services",
+      "type": "labour (local services)",
+      "people_short_m": 6473,
+      "share_in_conflict_states": 0.07
+     }
+    },
+    "year_30": {
+     "L1": {
+      "domain": "clean_cooking",
+      "type": "conflict",
+      "people_short_m": 630,
+      "share_in_conflict_states": 0.73
+     },
+     "L2": {
+      "domain": "services",
+      "type": "labour (local services)",
+      "people_short_m": 4546,
+      "share_in_conflict_states": 0.15
+     }
+    },
+    "year_40": {
+     "L1": {
+      "domain": "sanitation",
+      "type": "conflict",
+      "people_short_m": 165,
+      "share_in_conflict_states": 0.93
+     },
+     "L2": {
+      "domain": "services",
+      "type": "labour (local services)",
+      "people_short_m": 1749,
+      "share_in_conflict_states": 0.3
+     }
+    },
+    "year_60": {
+     "L1": {
+      "domain": "teachers",
+      "type": "conflict",
+      "people_short_m": 119,
+      "share_in_conflict_states": 1.0
+     },
+     "L2": {
+      "domain": "services",
+      "type": "conflict",
+      "people_short_m": 673,
+      "share_in_conflict_states": 0.66
+     }
+    },
+    "year_80": {
+     "L1": {
+      "domain": "teachers",
+      "type": "conflict",
+      "people_short_m": 114,
+      "share_in_conflict_states": 1.0
+     },
+     "L2": {
+      "domain": "services",
+      "type": "conflict",
+      "people_short_m": 271,
+      "share_in_conflict_states": 0.91
+     }
+    }
+   },
+   "share_of_remaining_onset_risk_not_linked_to_living_standards_last_decade": 0.68,
+   "highest_remaining_conflict_risk_years_40_80": [
+    {
+     "iso": "TCD",
+     "name": "TCD",
+     "share_of_years_in_conflict": 0.63,
+     "today": "fragile"
+    },
+    {
+     "iso": "CAF",
+     "name": "CAF",
+     "share_of_years_in_conflict": 0.62,
+     "today": "conflict"
+    },
+    {
+     "iso": "COD",
+     "name": "COD",
+     "share_of_years_in_conflict": 0.58,
+     "today": "conflict"
+    },
+    {
+     "iso": "MDG",
+     "name": "MDG",
+     "share_of_years_in_conflict": 0.53,
+     "today": "other"
+    },
+    {
+     "iso": "NER",
+     "name": "NER",
+     "share_of_years_in_conflict": 0.49,
+     "today": "conflict"
+    },
+    {
+     "iso": "MWI",
+     "name": "MWI",
+     "share_of_years_in_conflict": 0.42,
+     "today": "other"
+    },
+    {
+     "iso": "ETH",
+     "name": "ETH",
+     "share_of_years_in_conflict": 0.4,
+     "today": "conflict"
+    },
+    {
+     "iso": "BFA",
+     "name": "BFA",
+     "share_of_years_in_conflict": 0.39,
+     "today": "conflict"
+    },
+    {
+     "iso": "BDI",
+     "name": "BDI",
+     "share_of_years_in_conflict": 0.36,
+     "today": "fragile"
+    },
+    {
+     "iso": "LBR",
+     "name": "LBR",
+     "share_of_years_in_conflict": 0.36,
+     "today": "other"
+    },
+    {
+     "iso": "MOZ",
+     "name": "MOZ",
+     "share_of_years_in_conflict": 0.36,
+     "today": "conflict"
+    },
+    {
+     "iso": "GNB",
+     "name": "GNB",
+     "share_of_years_in_conflict": 0.36,
+     "today": "fragile"
+    }
+   ],
+   "L1_mean_coverage": {
+    "year_5": 0.8303,
+    "year_10": 0.8654,
+    "year_20": 0.9214,
+    "year_30": 0.956,
+    "year_40": 0.9734,
+    "year_60": 0.9844,
+    "year_80": 0.9852
+   },
+   "L2_mean_coverage": {
+    "year_5": 0.1209,
+    "year_10": 0.1231,
+    "year_20": 0.1945,
+    "year_30": 0.4826,
+    "year_40": 0.7852,
+    "year_60": 0.921,
+    "year_80": 0.9628
+   },
+   "params": {
+    "beta": 4.75,
+    "e0": 0.1,
+    "recur": 4.0,
+    "affected": 0.25,
+    "tau": 1.0,
+    "diplomacy": false,
+    "c": 0.5,
+    "s_ne": 0.5,
+    "backlash": 0.5
+   },
+   "calibrated_onset_H": 0.009295,
+   "share_of_conflict_burden_avoided_vs_A": 0.127,
+   "conflicts_prevented_vs_A": 17.3,
+   "years_of_conflict_reduced_vs_A": 192.0
+  },
+  "C_strong": {
+   "conflict_country_years_80y": 1122.2,
+   "L1_dates": {
+    "90pct": {
+     "median": 16,
+     "p10": 16,
+     "p90": 18,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 27,
+     "p10": 26,
+     "p90": 30,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 52,
+     "p10": 45,
+     "p90": 65,
+     "share_of_runs_reached": 1.0
+    },
+    "100pct": {
+     "median": 73,
+     "p10": 73,
+     "p90": 73,
+     "share_of_runs_reached": 0.03
+    }
+   },
+   "L2_dates": {
+    "90pct": {
+     "median": 52,
+     "p10": 51,
+     "p90": 60,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 69,
+     "p10": 63,
+     "p90": 74,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 79,
+     "p10": 77,
+     "p90": 80,
+     "share_of_runs_reached": 0.2
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "countries_in_conflict": {
+    "year_0": 19.0,
+    "year_5": 17.2,
+    "year_10": 17.1,
+    "year_20": 19.1,
+    "year_30": 17.2,
+    "year_40": 14.1,
+    "year_60": 10.1,
+    "year_80": 8.4
+   },
+   "countries_in_conflict_p10_p90_year_40": [
+    11,
+    18
+   ],
+   "share_of_humanity_in_conflict_zones": {
+    "year_0": 0.0295,
+    "year_5": 0.023,
+    "year_10": 0.0203,
+    "year_20": 0.0206,
+    "year_30": 0.0229,
+    "year_40": 0.019,
+    "year_60": 0.01,
+    "year_80": 0.0091
+   },
+   "onsets_80y": 109.6,
+   "resolutions_80y": 120.2,
+   "countries_in_conflict_year_80": 8.4,
+   "yearly_bottleneck_first_draw": {
+    "year_1": {
+     "L1": {
+      "domain": "health",
+      "type": "labour (training)",
+      "people_short_m": 4023,
+      "share_in_conflict_states": 0.22
+     },
+     "L2": {
+      "domain": "health",
+      "type": "labour (training)",
+      "people_short_m": 7024,
+      "share_in_conflict_states": 0.13
+     }
+    },
+    "year_5": {
+     "L1": {
+      "domain": "clean_cooking",
+      "type": "conflict",
+      "people_short_m": 1306,
+      "share_in_conflict_states": 0.5
+     },
+     "L2": {
+      "domain": "health",
+      "type": "labour (training)",
+      "people_short_m": 7026,
+      "share_in_conflict_states": 0.15
+     }
+    },
+    "year_10": {
+     "L1": {
+      "domain": "clean_cooking",
+      "type": "conflict",
+      "people_short_m": 1063,
+      "share_in_conflict_states": 0.5
+     },
+     "L2": {
+      "domain": "health",
+      "type": "labour (training)",
+      "people_short_m": 7045,
+      "share_in_conflict_states": 0.12
+     }
+    },
+    "year_20": {
+     "L1": {
+      "domain": "clean_cooking",
+      "type": "logistics",
+      "people_short_m": 608,
+      "share_in_conflict_states": 0.4
+     },
+     "L2": {
+      "domain": "services",
+      "type": "labour (local services)",
+      "people_short_m": 6473,
+      "share_in_conflict_states": 0.07
+     }
+    },
+    "year_30": {
+     "L1": {
+      "domain": "clean_cooking",
+      "type": "conflict",
+      "people_short_m": 628,
+      "share_in_conflict_states": 0.73
+     },
+     "L2": {
+      "domain": "services",
+      "type": "labour (local services)",
+      "people_short_m": 4546,
+      "share_in_conflict_states": 0.15
+     }
+    },
+    "year_40": {
+     "L1": {
+      "domain": "sanitation",
+      "type": "conflict",
+      "people_short_m": 145,
+      "share_in_conflict_states": 0.81
+     },
+     "L2": {
+      "domain": "services",
+      "type": "labour (local services)",
+      "people_short_m": 1739,
+      "share_in_conflict_states": 0.24
+     }
+    },
+    "year_60": {
+     "L1": {
+      "domain": "teachers",
+      "type": "conflict",
+      "people_short_m": 46,
+      "share_in_conflict_states": 1.0
+     },
+     "L2": {
+      "domain": "services",
+      "type": "labour (local services)",
+      "people_short_m": 665,
+      "share_in_conflict_states": 0.27
+     }
+    },
+    "year_80": {
+     "L1": {
+      "domain": "teachers",
+      "type": "conflict",
+      "people_short_m": 67,
+      "share_in_conflict_states": 1.0
+     },
+     "L2": {
+      "domain": "services",
+      "type": "conflict",
+      "people_short_m": 124,
+      "share_in_conflict_states": 0.66
+     }
+    }
+   },
+   "share_of_remaining_onset_risk_not_linked_to_living_standards_last_decade": 0.63,
+   "highest_remaining_conflict_risk_years_40_80": [
+    {
+     "iso": "TCD",
+     "name": "TCD",
+     "share_of_years_in_conflict": 0.4,
+     "today": "fragile"
+    },
+    {
+     "iso": "NER",
+     "name": "NER",
+     "share_of_years_in_conflict": 0.38,
+     "today": "conflict"
+    },
+    {
+     "iso": "CAF",
+     "name": "CAF",
+     "share_of_years_in_conflict": 0.38,
+     "today": "conflict"
+    },
+    {
+     "iso": "COD",
+     "name": "COD",
+     "share_of_years_in_conflict": 0.34,
+     "today": "conflict"
+    },
+    {
+     "iso": "MDG",
+     "name": "MDG",
+     "share_of_years_in_conflict": 0.3,
+     "today": "other"
+    },
+    {
+     "iso": "MOZ",
+     "name": "MOZ",
+     "share_of_years_in_conflict": 0.29,
+     "today": "conflict"
+    },
+    {
+     "iso": "ETH",
+     "name": "ETH",
+     "share_of_years_in_conflict": 0.27,
+     "today": "conflict"
+    },
+    {
+     "iso": "MWI",
+     "name": "MWI",
+     "share_of_years_in_conflict": 0.26,
+     "today": "other"
+    },
+    {
+     "iso": "TZA",
+     "name": "TZA",
+     "share_of_years_in_conflict": 0.23,
+     "today": "other"
+    },
+    {
+     "iso": "UGA",
+     "name": "UGA",
+     "share_of_years_in_conflict": 0.21,
+     "today": "other"
+    },
+    {
+     "iso": "BDI",
+     "name": "BDI",
+     "share_of_years_in_conflict": 0.21,
+     "today": "fragile"
+    },
+    {
+     "iso": "PNG",
+     "name": "PNG",
+     "share_of_years_in_conflict": 0.21,
+     "today": "fragile"
+    }
+   ],
+   "L1_mean_coverage": {
+    "year_5": 0.8305,
+    "year_10": 0.8654,
+    "year_20": 0.9213,
+    "year_30": 0.9562,
+    "year_40": 0.9748,
+    "year_60": 0.99,
+    "year_80": 0.9909
+   },
+   "L2_mean_coverage": {
+    "year_5": 0.1209,
+    "year_10": 0.1231,
+    "year_20": 0.1945,
+    "year_30": 0.4827,
+    "year_40": 0.7858,
+    "year_60": 0.9265,
+    "year_80": 0.9777
+   },
+   "params": {
+    "beta": 4.75,
+    "e0": 0.1,
+    "recur": 4.0,
+    "affected": 0.25,
+    "tau": 1.0,
+    "diplomacy": false,
+    "c": 1.0,
+    "s_ne": 0.3,
+    "backlash": 0.25
+   },
+   "calibrated_onset_H": 0.009295,
+   "share_of_conflict_burden_avoided_vs_A": 0.258,
+   "conflicts_prevented_vs_A": 42.5,
+   "years_of_conflict_reduced_vs_A": 390.5
+  },
+  "D_long_term_peace": {
+   "conflict_country_years_80y": 490.2,
+   "L1_dates": {
+    "90pct": {
+     "median": 16,
+     "p10": 15,
+     "p90": 16,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 25,
+     "p10": 24,
+     "p90": 25,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 39,
+     "p10": 38,
+     "p90": 42,
+     "share_of_runs_reached": 1.0
+    },
+    "100pct": {
+     "median": 57,
+     "p10": 53,
+     "p90": 66,
+     "share_of_runs_reached": 1.0
+    }
+   },
+   "L2_dates": {
+    "90pct": {
+     "median": 50,
+     "p10": 48,
+     "p90": 52,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 61,
+     "p10": 58,
+     "p90": 63,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 70,
+     "p10": 67,
+     "p90": 72,
+     "share_of_runs_reached": 1.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "countries_in_conflict": {
+    "year_0": 19.0,
+    "year_5": 16.1,
+    "year_10": 13.7,
+    "year_20": 10.9,
+    "year_30": 6.0,
+    "year_40": 3.0,
+    "year_60": 1.1,
+    "year_80": 1.1
+   },
+   "countries_in_conflict_p10_p90_year_40": [
+    1,
+    5
+   ],
+   "share_of_humanity_in_conflict_zones": {
+    "year_0": 0.0295,
+    "year_5": 0.0214,
+    "year_10": 0.0164,
+    "year_20": 0.0127,
+    "year_30": 0.0076,
+    "year_40": 0.0028,
+    "year_60": 0.0009,
+    "year_80": 0.0031
+   },
+   "onsets_80y": 88.0,
+   "resolutions_80y": 105.8,
+   "countries_in_conflict_year_80": 1.1,
+   "yearly_bottleneck_first_draw": {
+    "year_1": {
+     "L1": {
+      "domain": "health",
+      "type": "labour (training)",
+      "people_short_m": 4023,
+      "share_in_conflict_states": 0.22
+     },
+     "L2": {
+      "domain": "health",
+      "type": "labour (training)",
+      "people_short_m": 7024,
+      "share_in_conflict_states": 0.13
+     }
+    },
+    "year_5": {
+     "L1": {
+      "domain": "clean_cooking",
+      "type": "logistics",
+      "people_short_m": 1276,
+      "share_in_conflict_states": 0.49
+     },
+     "L2": {
+      "domain": "health",
+      "type": "labour (training)",
+      "people_short_m": 7026,
+      "share_in_conflict_states": 0.13
+     }
+    },
+    "year_10": {
+     "L1": {
+      "domain": "clean_cooking",
+      "type": "conflict",
+      "people_short_m": 1051,
+      "share_in_conflict_states": 0.5
+     },
+     "L2": {
+      "domain": "health",
+      "type": "labour (training)",
+      "people_short_m": 7045,
+      "share_in_conflict_states": 0.12
+     }
+    },
+    "year_20": {
+     "L1": {
+      "domain": "clean_cooking",
+      "type": "logistics",
+      "people_short_m": 569,
+      "share_in_conflict_states": 0.3
+     },
+     "L2": {
+      "domain": "services",
+      "type": "labour (local services)",
+      "people_short_m": 6473,
+      "share_in_conflict_states": 0.05
+     }
+    },
+    "year_30": {
+     "L1": {
+      "domain": "clean_cooking",
+      "type": "logistics",
+      "people_short_m": 211,
+      "share_in_conflict_states": 0.12
+     },
+     "L2": {
+      "domain": "services",
+      "type": "labour (local services)",
+      "people_short_m": 4077,
+      "share_in_conflict_states": 0.02
+     }
+    },
+    "year_40": {
+     "L1": {
+      "domain": "sanitation",
+      "type": "institutions",
+      "people_short_m": 48,
+      "share_in_conflict_states": 0.23
+     },
+     "L2": {
+      "domain": "services",
+      "type": "labour (local services)",
+      "people_short_m": 1568,
+      "share_in_conflict_states": 0.02
+     }
+    },
+    "year_60": {
+     "L1": {
+      "domain": "teachers",
+      "type": "conflict",
+      "people_short_m": 1,
+      "share_in_conflict_states": 1.0
+     },
+     "L2": {
+      "domain": "services",
+      "type": "labour (local services)",
+      "people_short_m": 521,
+      "share_in_conflict_states": 0.0
+     }
+    },
+    "year_80": {
+     "L1": {
+      "domain": "teachers",
+      "type": "labour (training)",
+      "people_short_m": 0,
+      "share_in_conflict_states": 0.0
+     },
+     "L2": {
+      "domain": "services",
+      "type": "labour (local services)",
+      "people_short_m": 14,
+      "share_in_conflict_states": 0.0
+     }
+    }
+   },
+   "share_of_remaining_onset_risk_not_linked_to_living_standards_last_decade": 0.17,
+   "highest_remaining_conflict_risk_years_40_80": [
+    {
+     "iso": "CAF",
+     "name": "CAF",
+     "share_of_years_in_conflict": 0.05,
+     "today": "conflict"
+    },
+    {
+     "iso": "MWI",
+     "name": "MWI",
+     "share_of_years_in_conflict": 0.04,
+     "today": "other"
+    },
+    {
+     "iso": "ZWE",
+     "name": "ZWE",
+     "share_of_years_in_conflict": 0.04,
+     "today": "fragile"
+    },
+    {
+     "iso": "NER",
+     "name": "NER",
+     "share_of_years_in_conflict": 0.04,
+     "today": "conflict"
+    },
+    {
+     "iso": "MDG",
+     "name": "MDG",
+     "share_of_years_in_conflict": 0.04,
+     "today": "other"
+    },
+    {
+     "iso": "TCD",
+     "name": "TCD",
+     "share_of_years_in_conflict": 0.04,
+     "today": "fragile"
+    },
+    {
+     "iso": "PNG",
+     "name": "PNG",
+     "share_of_years_in_conflict": 0.03,
+     "today": "fragile"
+    },
+    {
+     "iso": "BEN",
+     "name": "BEN",
+     "share_of_years_in_conflict": 0.03,
+     "today": "other"
+    },
+    {
+     "iso": "TZA",
+     "name": "TZA",
+     "share_of_years_in_conflict": 0.03,
+     "today": "other"
+    },
+    {
+     "iso": "GNB",
+     "name": "GNB",
+     "share_of_years_in_conflict": 0.03,
+     "today": "fragile"
+    },
+    {
+     "iso": "ETH",
+     "name": "ETH",
+     "share_of_years_in_conflict": 0.03,
+     "today": "conflict"
+    },
+    {
+     "iso": "MLI",
+     "name": "MLI",
+     "share_of_years_in_conflict": 0.03,
+     "today": "conflict"
+    }
+   ],
+   "L1_mean_coverage": {
+    "year_5": 0.8309,
+    "year_10": 0.8666,
+    "year_20": 0.9273,
+    "year_30": 0.9704,
+    "year_40": 0.9912,
+    "year_60": 0.9991,
+    "year_80": 0.9969
+   },
+   "L2_mean_coverage": {
+    "year_5": 0.1209,
+    "year_10": 0.1232,
+    "year_20": 0.1959,
+    "year_30": 0.4909,
+    "year_40": 0.8059,
+    "year_60": 0.9488,
+    "year_80": 0.9938
+   },
+   "params": {
+    "beta": 4.75,
+    "e0": 0.1,
+    "recur": 4.0,
+    "affected": 0.25,
+    "tau": 1.0,
+    "diplomacy": true,
+    "c": 1.0,
+    "s_ne": 0.3,
+    "backlash": 0.25
+   },
+   "calibrated_onset_H": 0.009295,
+   "share_of_conflict_burden_avoided_vs_A": 0.676,
+   "conflicts_prevented_vs_A": 64.1,
+   "years_of_conflict_reduced_vs_A": 1022.5
+  }
+ },
+ "sensitivity": {
+  "base_B_moderate": {
+   "conflict_country_years_80y": 1364.7,
+   "L1_dates": {
+    "90pct": {
+     "median": 17,
+     "p10": 16,
+     "p90": 18,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 27,
+     "p10": 26,
+     "p90": 30,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 55,
+     "p10": 52,
+     "p90": 64,
+     "share_of_runs_reached": 0.7
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "L2_dates": {
+    "90pct": {
+     "median": 54,
+     "p10": 52,
+     "p90": 55,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 72,
+     "p10": 68,
+     "p90": 76,
+     "share_of_runs_reached": 0.9
+    },
+    "99pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   }
+  },
+  "beta_half": {
+   "conflict_country_years_80y": 1444.5,
+   "L1_dates": {
+    "90pct": {
+     "median": 18,
+     "p10": 16,
+     "p90": 20,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 29,
+     "p10": 27,
+     "p90": 30,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 55,
+     "p10": 49,
+     "p90": 62,
+     "share_of_runs_reached": 0.7
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "L2_dates": {
+    "90pct": {
+     "median": 54,
+     "p10": 51,
+     "p90": 57,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 65,
+     "p10": 62,
+     "p90": 68,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   }
+  },
+  "beta_x1.5": {
+   "conflict_country_years_80y": 1342.7,
+   "L1_dates": {
+    "90pct": {
+     "median": 16,
+     "p10": 16,
+     "p90": 18,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 27,
+     "p10": 27,
+     "p90": 29,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 61,
+     "p10": 57,
+     "p90": 73,
+     "share_of_runs_reached": 0.6
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "L2_dates": {
+    "90pct": {
+     "median": 53,
+     "p10": 51,
+     "p90": 55,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 75,
+     "p10": 74,
+     "p90": 77,
+     "share_of_runs_reached": 0.6
+    },
+    "99pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   }
+  },
+  "c_0.25": {
+   "conflict_country_years_80y": 1470.8,
+   "L1_dates": {
+    "90pct": {
+     "median": 17,
+     "p10": 16,
+     "p90": 18,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 27,
+     "p10": 26,
+     "p90": 30,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 64,
+     "p10": 55,
+     "p90": 76,
+     "share_of_runs_reached": 0.6
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "L2_dates": {
+    "90pct": {
+     "median": 54,
+     "p10": 52,
+     "p90": 57,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 76,
+     "p10": 69,
+     "p90": 77,
+     "share_of_runs_reached": 0.8
+    },
+    "99pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   }
+  },
+  "c_1": {
+   "conflict_country_years_80y": 1275.0,
+   "L1_dates": {
+    "90pct": {
+     "median": 17,
+     "p10": 16,
+     "p90": 18,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 27,
+     "p10": 26,
+     "p90": 30,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 57,
+     "p10": 50,
+     "p90": 65,
+     "share_of_runs_reached": 1.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "L2_dates": {
+    "90pct": {
+     "median": 54,
+     "p10": 51,
+     "p90": 55,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 72,
+     "p10": 68,
+     "p90": 74,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   }
+  },
+  "s_ne_0.3": {
+   "conflict_country_years_80y": 1294.8,
+   "L1_dates": {
+    "90pct": {
+     "median": 17,
+     "p10": 16,
+     "p90": 18,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 27,
+     "p10": 26,
+     "p90": 30,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 52,
+     "p10": 50,
+     "p90": 70,
+     "share_of_runs_reached": 0.9
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "L2_dates": {
+    "90pct": {
+     "median": 54,
+     "p10": 51,
+     "p90": 55,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 73,
+     "p10": 68,
+     "p90": 75,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   }
+  },
+  "s_ne_0.7": {
+   "conflict_country_years_80y": 1444.3,
+   "L1_dates": {
+    "90pct": {
+     "median": 17,
+     "p10": 16,
+     "p90": 18,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 27,
+     "p10": 26,
+     "p90": 30,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 64,
+     "p10": 55,
+     "p90": 72,
+     "share_of_runs_reached": 0.6
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "L2_dates": {
+    "90pct": {
+     "median": 54,
+     "p10": 52,
+     "p90": 57,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 75,
+     "p10": 69,
+     "p90": 76,
+     "share_of_runs_reached": 0.8
+    },
+    "99pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   }
+  },
+  "backlash_0": {
+   "conflict_country_years_80y": 1365.9,
+   "L1_dates": {
+    "90pct": {
+     "median": 17,
+     "p10": 16,
+     "p90": 18,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 27,
+     "p10": 26,
+     "p90": 30,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 55,
+     "p10": 52,
+     "p90": 64,
+     "share_of_runs_reached": 0.7
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "L2_dates": {
+    "90pct": {
+     "median": 54,
+     "p10": 52,
+     "p90": 55,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 74,
+     "p10": 68,
+     "p90": 76,
+     "share_of_runs_reached": 0.9
+    },
+    "99pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   }
+  },
+  "backlash_1.85": {
+   "conflict_country_years_80y": 1376.5,
+   "L1_dates": {
+    "90pct": {
+     "median": 17,
+     "p10": 16,
+     "p90": 18,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 27,
+     "p10": 27,
+     "p90": 30,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 54,
+     "p10": 52,
+     "p90": 64,
+     "share_of_runs_reached": 0.7
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "L2_dates": {
+    "90pct": {
+     "median": 54,
+     "p10": 52,
+     "p90": 55,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 72,
+     "p10": 68,
+     "p90": 76,
+     "share_of_runs_reached": 0.9
+    },
+    "99pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   }
+  },
+  "relapse_x2": {
+   "conflict_country_years_80y": 1411.9,
+   "L1_dates": {
+    "90pct": {
+     "median": 17,
+     "p10": 16,
+     "p90": 18,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 27,
+     "p10": 26,
+     "p90": 30,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 52,
+     "p10": 49,
+     "p90": 55,
+     "share_of_runs_reached": 0.8
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "L2_dates": {
+    "90pct": {
+     "median": 54,
+     "p10": 52,
+     "p90": 56,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 73,
+     "p10": 70,
+     "p90": 76,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   }
+  },
+  "relapse_x6": {
+   "conflict_country_years_80y": 1376.1,
+   "L1_dates": {
+    "90pct": {
+     "median": 17,
+     "p10": 16,
+     "p90": 18,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 28,
+     "p10": 26,
+     "p90": 29,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 64,
+     "p10": 53,
+     "p90": 70,
+     "share_of_runs_reached": 0.9
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "L2_dates": {
+    "90pct": {
+     "median": 55,
+     "p10": 52,
+     "p90": 55,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 73,
+     "p10": 67,
+     "p90": 76,
+     "share_of_runs_reached": 0.8
+    },
+    "99pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   }
+  },
+  "end_rate_0.07": {
+   "conflict_country_years_80y": 1412.3,
+   "L1_dates": {
+    "90pct": {
+     "median": 17,
+     "p10": 16,
+     "p90": 18,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 28,
+     "p10": 27,
+     "p90": 38,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 64,
+     "p10": 59,
+     "p90": 71,
+     "share_of_runs_reached": 0.7
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "L2_dates": {
+    "90pct": {
+     "median": 56,
+     "p10": 54,
+     "p90": 58,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 71,
+     "p10": 66,
+     "p90": 76,
+     "share_of_runs_reached": 0.9
+    },
+    "99pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   }
+  },
+  "end_rate_0.15": {
+   "conflict_country_years_80y": 1415.9,
+   "L1_dates": {
+    "90pct": {
+     "median": 16,
+     "p10": 16,
+     "p90": 17,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 27,
+     "p10": 26,
+     "p90": 30,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 63,
+     "p10": 48,
+     "p90": 70,
+     "share_of_runs_reached": 0.9
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "L2_dates": {
+    "90pct": {
+     "median": 53,
+     "p10": 51,
+     "p90": 57,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 75,
+     "p10": 70,
+     "p90": 76,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   }
+  },
+  "affected_0.15": {
+   "conflict_country_years_80y": 1360.8,
+   "L1_dates": {
+    "90pct": {
+     "median": 17,
+     "p10": 16,
+     "p90": 17,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 27,
+     "p10": 26,
+     "p90": 29,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 50,
+     "p10": 44,
+     "p90": 58,
+     "share_of_runs_reached": 1.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "L2_dates": {
+    "90pct": {
+     "median": 54,
+     "p10": 52,
+     "p90": 55,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 71,
+     "p10": 66,
+     "p90": 76,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   }
+  },
+  "affected_0.40": {
+   "conflict_country_years_80y": 1387.3,
+   "L1_dates": {
+    "90pct": {
+     "median": 17,
+     "p10": 16,
+     "p90": 19,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 29,
+     "p10": 27,
+     "p90": 35,
+     "share_of_runs_reached": 1.0
+    },
+    "99pct": {
+     "median": 73,
+     "p10": 65,
+     "p90": 73,
+     "share_of_runs_reached": 0.2
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   },
+   "L2_dates": {
+    "90pct": {
+     "median": 55,
+     "p10": 52,
+     "p90": 57,
+     "share_of_runs_reached": 1.0
+    },
+    "95pct": {
+     "median": 77,
+     "p10": 72,
+     "p90": 80,
+     "share_of_runs_reached": 0.9
+    },
+    "99pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    },
+    "100pct": {
+     "median": null,
+     "p10": null,
+     "p90": null,
+     "share_of_runs_reached": 0.0
+    }
+   }
+  }
+ }
+}
