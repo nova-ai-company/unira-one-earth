@@ -387,6 +387,13 @@ UNIRA can start with willing regions and grow. Compared with a reformed market w
 - **Equality credits** did not improve real living standards and are kept for research only.
 - **Constitution vs parameters:** the constitution holds the rights and principles (Article 10d, T-8). The salary amounts, reserves, shipping limits and convergence time remain research parameters.
 
+**Essential infrastructure (V8.8).**
+- **Who lacks access:** about 624 million people lack basic drinking water, 1.38 billion basic sanitation, and 1.92 billion safe water or clean cooking. The largest gaps are in India, Nigeria, Ethiopia, DR Congo, Pakistan, Indonesia and Bangladesh.
+- **Resources are small:** decentralised solutions cost about USD 10–26 billion a year.
+- **Delivery capacity is the constraint:** the number of trained people, working institutions, security, maintenance and adoption.
+- **Timelines:** reaching 95% of the unserved within 15 years needs 2–4 times the best historical pace with peace; 5 years is not achievable.
+- **Constitution:** the Global Essential Infrastructure Priority Rule (Article 10e) puts closing these gaps first, with repair, local solutions, training, local participation and independently verified delivery.
+
 <!-- refs:begin sources §11 -->
 
 *Sources for this section:* Brainard & Perry 1991; Documents & Images n.d.a; Eurostat ilc_di01, 2026; Institut für Arbeitsmarkt- und Berufsforschung (IAB) 1998; International Monetary Fund 2019; Notes from Poland 2026; Polish Economic Institute 2019; Polish Investment \& Trade Agency n.d.; Wikipedia contributors n.d.b.
