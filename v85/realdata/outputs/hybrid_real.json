@@ -1,0 +1,167 @@
+{
+  "regions": 162,
+  "results": {
+    "hybrid/strong": {
+      "year_poorer_half_90pct": 69,
+      "year_0": {
+        "year": 0,
+        "poorer_half_vs_full": 0.239,
+        "world_vs_full": 0.395,
+        "goods_quota_vs_full_goods": 0.673,
+        "poorer_half_services_vs_full": 0.102,
+        "gini": 0.283
+      },
+      "year_20": {
+        "year": 20,
+        "poorer_half_vs_full": 0.393,
+        "world_vs_full": 0.586,
+        "goods_quota_vs_full_goods": 0.908,
+        "poorer_half_services_vs_full": 0.231,
+        "gini": 0.223
+      },
+      "year_40": {
+        "year": 40,
+        "poorer_half_vs_full": 0.61,
+        "world_vs_full": 0.783,
+        "goods_quota_vs_full_goods": 1.173,
+        "poorer_half_services_vs_full": 0.487,
+        "gini": 0.148
+      }
+    },
+    "hybrid/very_strong": {
+      "year_poorer_half_90pct": 50,
+      "year_0": {
+        "year": 0,
+        "poorer_half_vs_full": 0.239,
+        "world_vs_full": 0.395,
+        "goods_quota_vs_full_goods": 0.673,
+        "poorer_half_services_vs_full": 0.102,
+        "gini": 0.283
+      },
+      "year_20": {
+        "year": 20,
+        "poorer_half_vs_full": 0.483,
+        "world_vs_full": 0.669,
+        "goods_quota_vs_full_goods": 0.968,
+        "poorer_half_services_vs_full": 0.33,
+        "gini": 0.19
+      },
+      "year_40": {
+        "year": 40,
+        "poorer_half_vs_full": 0.773,
+        "world_vs_full": 0.884,
+        "goods_quota_vs_full_goods": 1.245,
+        "poorer_half_services_vs_full": 0.702,
+        "gini": 0.09
+      }
+    },
+    "hybrid/services_slower": {
+      "year_poorer_half_90pct": null,
+      "year_0": {
+        "year": 0,
+        "poorer_half_vs_full": 0.239,
+        "world_vs_full": 0.395,
+        "goods_quota_vs_full_goods": 0.673,
+        "poorer_half_services_vs_full": 0.102,
+        "gini": 0.283
+      },
+      "year_20": {
+        "year": 20,
+        "poorer_half_vs_full": 0.337,
+        "world_vs_full": 0.521,
+        "goods_quota_vs_full_goods": 0.908,
+        "poorer_half_services_vs_full": 0.157,
+        "gini": 0.244
+      },
+      "year_40": {
+        "year": 40,
+        "poorer_half_vs_full": 0.439,
+        "world_vs_full": 0.644,
+        "goods_quota_vs_full_goods": 1.173,
+        "poorer_half_services_vs_full": 0.262,
+        "gini": 0.208
+      }
+    },
+    "DC/strong": {
+      "year_poorer_half_90pct": 69,
+      "year_0": {
+        "year": 0,
+        "poorer_half_vs_full": 0.159,
+        "world_vs_full": 0.379,
+        "goods_quota_vs_full_goods": 0.673,
+        "poorer_half_services_vs_full": 0.101,
+        "gini": 0.401
+      },
+      "year_20": {
+        "year": 20,
+        "poorer_half_vs_full": 0.326,
+        "world_vs_full": 0.555,
+        "goods_quota_vs_full_goods": 0.908,
+        "poorer_half_services_vs_full": 0.236,
+        "gini": 0.29
+      },
+      "year_40": {
+        "year": 40,
+        "poorer_half_vs_full": 0.575,
+        "world_vs_full": 0.765,
+        "goods_quota_vs_full_goods": 1.173,
+        "poorer_half_services_vs_full": 0.487,
+        "gini": 0.17
+      }
+    },
+    "DC/very_strong": {
+      "year_poorer_half_90pct": 51,
+      "year_0": {
+        "year": 0,
+        "poorer_half_vs_full": 0.159,
+        "world_vs_full": 0.379,
+        "goods_quota_vs_full_goods": 0.673,
+        "poorer_half_services_vs_full": 0.101,
+        "gini": 0.401
+      },
+      "year_20": {
+        "year": 20,
+        "poorer_half_vs_full": 0.426,
+        "world_vs_full": 0.638,
+        "goods_quota_vs_full_goods": 0.968,
+        "poorer_half_services_vs_full": 0.336,
+        "gini": 0.237
+      },
+      "year_40": {
+        "year": 40,
+        "poorer_half_vs_full": 0.761,
+        "world_vs_full": 0.877,
+        "goods_quota_vs_full_goods": 1.245,
+        "poorer_half_services_vs_full": 0.702,
+        "gini": 0.097
+      }
+    },
+    "DC/services_slower": {
+      "year_poorer_half_90pct": null,
+      "year_0": {
+        "year": 0,
+        "poorer_half_vs_full": 0.159,
+        "world_vs_full": 0.379,
+        "goods_quota_vs_full_goods": 0.673,
+        "poorer_half_services_vs_full": 0.101,
+        "gini": 0.401
+      },
+      "year_20": {
+        "year": 20,
+        "poorer_half_vs_full": 0.269,
+        "world_vs_full": 0.491,
+        "goods_quota_vs_full_goods": 0.908,
+        "poorer_half_services_vs_full": 0.16,
+        "gini": 0.321
+      },
+      "year_40": {
+        "year": 40,
+        "poorer_half_vs_full": 0.404,
+        "world_vs_full": 0.626,
+        "goods_quota_vs_full_goods": 1.173,
+        "poorer_half_services_vs_full": 0.262,
+        "gini": 0.237
+      }
+    }
+  }
+}

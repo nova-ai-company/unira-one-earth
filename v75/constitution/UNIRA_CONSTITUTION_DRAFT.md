@@ -837,7 +837,7 @@ Income, wealth and any offer to pay more are never taken into account.
     - Regional differences rest only on measured constraints, are reviewed every year by an independent body, and are temporary: every region moves toward the full scale of Article 14.
     - Salaries are never cut.
     - The Monetary Authority (Article 17b) prevents total purchasing power from persistently exceeding available supply.
-5. **Investment first where needs are greatest.** Underserved regions have priority for training, health capacity, infrastructure, equipment and productivity, to bring real living standards together as fast as possible.
+5. **Investment first where needs are greatest.** Underserved regions have priority for training, health capacity, infrastructure, equipment and productivity, to bring real living standards together as fast as possible. **Building local services comes first** (care, teaching, transport, shops, repair), because they cannot be shipped and are the largest gap between regions.
 6. **Independent audit and reporting.** Every year an independent body publishes, for every region:
     - real living standards;
     - unmet needs and shortages;
@@ -849,8 +849,18 @@ Income, wealth and any offer to pay more are never taken into account.
 8. **Major supply shocks.** Salaries are never cut, but nominal income does not guarantee purchasing power when supply collapses. In a declared emergency (Article 9a), temporary limits on purchases of non-essential goods may be set for at most the duration of the emergency, published and reviewed by the Court. Essential goods are always protected first.
 9. **Parameters are set by law, not by this Constitution.** The salary amounts, the share of supply kept as reserves, shipping limits, the split between shippable goods and local services, and the expected time to convergence are research values. They are set by law from the best evidence, reviewed regularly, and published with their uncertainty.
 
-*Evidence (V8.2–V8.4): equal salaries everywhere on day one would ask for about twice what the world produces, and most of what money buys is local services that must be built locally. The hybrid gives the poorer half of humanity the best real living standards of every design tested, with no shortages under population change or repeated supply shocks. Its simulated convergence (about 46–51 years to 90% of today's French level) depends on growth assumptions and is not a promise. Equality credits were tested and did not improve real living standards; they remain a research alternative only.*
+*Evidence (V8.2–V8.5): with real World Bank data, the world can produce about two-thirds of France's goods per person but only a third of its services; for the poorer half of humanity, local services are at about a tenth of France's level. Equal salaries everywhere on day one would ask for about twice what the world produces, and most of what money buys is local services that must be built locally. The hybrid gives the poorer half of humanity the best real living standards of every design tested, with no shortages under population change or repeated supply shocks. Its simulated convergence (about 46–51 years to 90% of today's French level) depends on growth assumptions and is not a promise. Equality credits were tested and did not improve real living standards; they remain a research alternative only.*
 
+
+### Proposed articles for research and debate (not yet part of the text)
+
+**Proposed Article 14c — The right to the benefits of automation.** *(Proposed by the author, 2026-11-04; to be tested for funding and governance before adoption.)*
+1. Technological progress and automation shall serve the well-being of humanity.
+2. No person shall lose access to essential resources solely because their labour is no longer economically required.
+3. The benefits of automated production shall be distributed fairly through universal rights, shared economic returns (the community share of Article 16) and sustainable access to goods and services.
+4. As automation increases productive capacity, society shall progressively reduce compulsory working hours, while protecting individual freedom, innovation and ecological sustainability.
+5. **Guaranteed income plus rewards for work (model B).** As automation grows, a guaranteed income, calibrated to sustainable production and to the UNIRA living standard (Article 10c), progressively covers every adult whether employed or not. Those who contribute work that society still needs (care, teaching, research, repair, creative and civic work) receive additional pay within Article 14. The duty to work (Article 7) becomes a duty to contribute in proportion to what society still needs.
+6. Critical automated systems (energy, food, health, payments, networks) remain under public oversight and human control. They have several independent suppliers, and are protected against failure and cyber-attack.
 
 ### Notes for the author (not part of the text)
 - **Representation (agreed 2026-11-03).** 55%/65% double majority and a maximum seat share per region. The square-root weighting is added so that no pair of regions can block the world.
