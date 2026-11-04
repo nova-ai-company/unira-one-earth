@@ -397,8 +397,8 @@ UNIRA can start with willing regions and grow. Compared with a reformed market w
 **The integrated living standard (V8.9).**
 - **Dates** (every domain together, a person counted only when they have all of it, delivery measured as working services, conflicts not assumed to end):
   - **essential security:** 90% / 95% / 99% of humanity in years 17 / 29 / 53 (accelerated) and 25 / 43 / later (moderate);
-  - **comfortable life:** 90% in year 69 (accelerated); 95% and 99% not within 80 years while today's conflicts last;
-  - **if conflicts ended** (upper bound): years 14 / 21 / 32 and 44 / 51 / 57.
+  - **comfortable life:** 90% in year 72 (accelerated); 95% and 99% not within 80 years while today's conflicts last;
+  - **if conflicts ended** (upper bound): years 14 / 21 / 32 and 47 / 54 / 59.
 - **Bottlenecks:** health-worker training first, then clean-cooking supply chains, then conflict. For the comfortable level, local services in the poorest regions.
 - **Never binding:** energy, materials and money.
 

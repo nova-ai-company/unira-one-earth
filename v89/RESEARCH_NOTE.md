@@ -35,10 +35,10 @@
 
 | scenario | Level 1: 90% / 95% / 99% | Level 2: 90% / 95% / 99% | Level 1 at yr 20 / 40 / 80 | Level 2 at yr 20 / 40 / 60 / 80 |
 |---|---|---|---|---|
-| conservative | year 39 / – / – | – / – / – | 86% / 90% / 94% | 12% / 14% / 49% / 76% |
-| moderate | year 25 / 43 / – | – / – / – | 88% / 94% / 99% | 14% / 49% / 84% / 89% |
-| **accelerated** | **year 17 / 29 / 53** | **year 69 / – / –** | 92% / 98% / 100% | 20% / 83% / 89% / 93% |
-| *comparison only: accelerated if conflicts end* | *year 14 / 21 / 32* | *year 44 / 51 / 57* | *95% / 100% / 100%* | *20% / 88% / 100% / 100%* |
+| conservative | year 39 / – / – | – / – / – | 86% / 90% / 94% | 12% / 14% / 49% / 75% |
+| moderate | year 25 / 43 / – | – / – / – | 88% / 94% / 99% | 14% / 49% / 84% / 88% |
+| **accelerated** | **year 17 / 29 / 53** | **year 72 / – / –** | 92% / 98% / 100% | 20% / 79% / 89% / 93% |
+| *comparison only: accelerated if conflicts end* | *year 14 / 21 / 32* | *year 47 / 54 / 59* | *95% / 100% / 100%* | *20% / 83% / 99% / 100%* |
 
 "–" means not reached within 80 years.
 
@@ -57,8 +57,8 @@
 
 | scenario | Level 1 | Level 2 |
 |---|---|---|
-| conservative | clean cooking 419, sanitation 240, secondary school 156, water 57, electricity 52 | local services 1,747, safe water 601 |
-| moderate | sanitation 86, clean cooking 85, water 26, secondary school 9 | local services 903, safe water 207 |
+| conservative | clean cooking 419, sanitation 240, secondary school 156, water 57, electricity 52 | local services 1,785, safe water 601 |
+| moderate | sanitation 86, clean cooking 85, water 26, secondary school 9 | local services 924, safe water 207 |
 | accelerated | none | local services 584 (98% of them in conflict states), safe water 37 |
 | if conflicts end | none | none |
 
@@ -84,7 +84,7 @@
 ## Findings
 
 1. **Essential security for 90% of humanity in about 17–25 years, and for 95% in about 29–43 years** (accelerated / moderate). The plan-built domains (energy, housing, health, food, goods) arrive early. The slow part is household services (clean cooking, sanitation, water) where delivery capacity and security are weakest.
-2. **A comfortable life for 90% of humanity is reached only in the accelerated scenario, in year 69.** 95% and 99% are not reached within 80 years while today's conflicts continue. **If conflicts end, the dates fall sharply:** Level 1 for 99% in year 32, and Level 2 for 90/95/99% in years 44/51/57.
+2. **A comfortable life for 90% of humanity is reached only in the accelerated scenario, in year 72.** 95% and 99% are not reached within 80 years while today's conflicts continue. **If conflicts end, the dates fall sharply:** Level 1 for 99% in year 32, and Level 2 for 90/95/99% in years 47/54/59.
 3. **Conflict is the single largest barrier.** From about year 10, most of the people still short live in states affected by conflict. In the end almost all of them do. Resources are not the limit: energy, materials and money never bind.
 4. **Early on, the bottleneck is people, not things:** training health workers in the first years, then the supply chains for clean cooking. UNIRA should allocate first to health training and to clean-cooking supply (stoves, LPG or electricity, distribution), then to safe access and local institutions in conflict regions.
 5. **For Level 2, the long-run limit is building local services:** the trained people and facilities for care, transport, shops, culture and leisure in the poorest regions.
@@ -99,3 +99,7 @@
 - Within-country inequality is not modelled.
 - Labour uses France's productivity.
 - The "conflicts end" variant is an upper bound, not a forecast.
+
+## Correction (V9.0, 2026-11-04)
+
+The local-services growth in the first version applied each year's automation speed-up to all earlier years, which overstated service growth. It now uses each year's own speed-up. Level 1 results are unchanged. Level 2 arrives about 2–3 years later: 90% in year 72 instead of 69 (accelerated), and 47/54/59 instead of 44/51/57 if conflicts end. The tables above show the corrected values.

@@ -64,8 +64,8 @@ def automation(t, sc):
     return 1 + sc["auto30"] * min(1.0, t / 30)  # delivery speed-up in construction and services (never energy or materials)
 
 
-def access_cov(cty, level, sc, gov):
-    """{domain: {iso: [coverage share per year]}} for per-country delivery domains."""
+def access_cov(cty, level, sc, govf):
+    """{domain: {iso: [coverage share per year]}} for per-country delivery domains. govf(iso, year) -> delivery factor."""
     out = {}
     for dom, (ess, com, _) in ACCESS.items():
         code = ess if level == "essential" else com
@@ -85,13 +85,13 @@ def access_cov(cty, level, sc, gov):
             if v is None:
                 continue
             own = ((v - s[k][2010]) / (y - 2010)) if 2010 in s[k] and y > 2010 else 0.0
-            rate = max(own, pct) * gov.get(k, 1.0)
+            base_rate = max(own, pct)
             path, val = [], v
             if dom == "water" and v < target:  # repair first: restoring broken points serves part of the gap quickly
                 val = min(target, v + REPAIR_SHARE * (target - v) * 0.5)
             for t in range(YEARS + 1):
                 if t > 0:
-                    val = min(target, val + rate * automation(t, sc))
+                    val = min(target, val + base_rate * govf(k, t) * automation(t, sc))
                 d0 = DURABLE.get(dom, 1.0)
                 f = d0 + (MATURE - d0) * min(1.0, t / MATURE_YEARS) if dom in DURABLE else 1.0
                 reliable = min(v, target) + max(0.0, val - v) * f  # only newly built services can fail
@@ -101,109 +101,139 @@ def access_cov(cty, level, sc, gov):
     return out
 
 
-def main():
+def context():
+    """Data shared by every run (loaded once)."""
     cty = L87.countries()
     regions = L87.rt.load_regions()
     fcs = json.loads((U / "v88" / "essential" / "data" / "raw" / "fcs_fy26.json").read_text())
-    gov = {k: 0.5 for k in fcs["conflict"]} | {k: 0.75 for k in fcs["institutional_social_fragility"]}
-    status = {k: "conflict" for k in fcs["conflict"]} | {k: "fragile" for k in fcs["institutional_social_fragility"]}
-    capf = json.loads((U / "v85" / "realdata" / "outputs" / "capacity.json").read_text())["regions"]
-    tch = L87.series("SE.PRM.ENRL.TC.ZS", U / "v85" / "realdata" / "data" / "raw")
+    return {"cty": cty, "regions": regions, "fcs": fcs,
+            "gov": {k: 0.5 for k in fcs["conflict"]} | {k: 0.75 for k in fcs["institutional_social_fragility"]},
+            "status": {k: "conflict" for k in fcs["conflict"]} | {k: "fragile" for k in fcs["institutional_social_fragility"]},
+            "capf": json.loads((U / "v85" / "realdata" / "outputs" / "capacity.json").read_text())["regions"],
+            "tch": L87.series("SE.PRM.ENRL.TC.ZS", U / "v85" / "realdata" / "data" / "raw"), "phys": {}}
+
+
+def physical(ctx, sc):
+    """Energy, health and housing paths (independent of conflict in the allocation engine); cached per scenario."""
+    key = (sc["v87"], sc["auto30"])
+    if key not in ctx["phys"]:
+        base = L87.B["scenarios"][sc["v87"]]
+        rec = []
+        phys, rows, built, ew = L87.physical_dates(ctx["regions"], ctx["cty"], base, record=rec, years=YEARS, boost=lambda t: automation(t, sc))
+        ctx["phys"][key] = (rec, rows, built, ew)
+    return ctx["phys"][key]
+
+
+def core(ctx, sc, govf, capfn=None, conflict_status=None, keep_country=False):
+    """Coverage of Level 1 and Level 2, per year (world) and optionally per country.
+    govf(iso, t): delivery factor (conflict, fragility); capfn(iso, t): cap on coverage of every domain except food
+    (people inside conflict zones); conflict_status(iso, t): True if the country is in conflict (for bottleneck labels)."""
+    cty, regions, capf, tch = ctx["cty"], ctx["regions"], ctx["capf"], ctx["tch"]
+    base = L87.B["scenarios"][sc["v87"]]
+    rec, rows, built, ew = physical(ctx, sc)
+    food_com = next((r["year"] for r in rows if r["food_comfortable_for_all_feasible"]), 0)
+    acc = {lvl: access_cov(cty, lvl, sc, govf) for lvl in ("essential", "comfortable")}
+    keys = [k for k in cty if k in regions]
+    W0 = sum(cty[k]["pop"] for k in keys)
+    cov = {"L1": [], "L2": []}
+    per_country = {"L1": {k: [] for k in keys}, "L2": {k: [] for k in keys}}
+    bottleneck = []
+    car_fleet_needed = 1.29e9 * CAR_LACKING
+    cars_built, prod = 0.0, 90e6
+    teach_prod = {k: 1.0 for k in keys}        # cumulative growth of teacher numbers
+    svc_level = {k: (capf.get(k, {}).get("services_vs_france") or 0.3) for k in keys}
+    for t in range(YEARS + 1):
+        snap = rec[min(t, len(rec) - 1)]
+        per_dom = {"L1": {}, "L2": {}}
+        for k in keys:
+            if t > 0:
+                teach_prod[k] *= 1 + base["teacher_growth"] * automation(t, sc) ** 0.5 * govf(k, t)
+                lv = svc_level[k]
+                g = max(0.0, math.log(SERVICES_L2 / lv)) if lv < SERVICES_L2 else 0.0
+                svc_level[k] = lv * (1 + (0.01 + sc["service_catch_up"] * min(1.0, g)) * automation(t, sc) ** 0.5 * govf(k, t))
+            r = L87.latest(tch, k)[1]
+            for lvl, L in (("essential", "L1"), ("comfortable", "L2")):
+                tgt = L87.B["domains"]["education"][f"{lvl}_pupils_per_teacher"]
+                per_dom[L].setdefault("teachers", {})[k] = 1.0 if (r is None or r / teach_prod[k] <= tgt) else 0.0
+            e_c, h_c, fl, e_e, h_e = snap[k]
+            per_dom["L1"].setdefault("energy", {})[k] = 1.0 if e_e >= TOL else 0.0
+            per_dom["L1"].setdefault("health", {})[k] = 1.0 if h_e >= TOL else 0.0
+            per_dom["L1"].setdefault("housing", {})[k] = 1.0 if fl >= 15 * TOL else 0.0
+            per_dom["L2"].setdefault("energy", {})[k] = 1.0 if e_c >= TOL else 0.0
+            per_dom["L2"].setdefault("health", {})[k] = 1.0 if h_c >= TOL else 0.0
+            per_dom["L2"].setdefault("housing", {})[k] = 1.0 if fl >= 27 * TOL else 0.0
+            per_dom["L1"].setdefault("food", {})[k] = 1.0 if t >= 1 else 0.0
+            per_dom["L2"].setdefault("food", {})[k] = 1.0 if t >= max(1, food_com) else 0.0
+            per_dom["L2"].setdefault("goods", {})[k] = 1.0 if t >= 1 else 0.0
+            # local services for Level 2 (savings, leisure, holidays, restaurants, culture)
+            per_dom["L2"].setdefault("services", {})[k] = 1.0 if svc_level[k] >= SERVICES_L2 else 0.0
+        for lvl, L in (("essential", "L1"), ("comfortable", "L2")):
+            for dom, d in acc[lvl].items():
+                per_dom[L][dom] = {k: d[k][t] if k in d else 1.0 for k in keys}
+        # mobility (Level 2): shared cars built for regions lacking them, greatest need first
+        share_cars = min(1.0, cars_built / car_fleet_needed)
+        order = sorted(keys, key=lambda k: capf.get(k, {}).get("services_vs_france", 0.3))
+        lacking_pop = CAR_LACKING * sum(cty[k]["pop"] for k in keys)
+        served_pop = lacking_pop * share_cars
+        acc_pop, mob = 0.0, {}
+        for k in order:
+            if acc_pop >= lacking_pop:
+                mob[k] = 1.0
+            else:
+                lacking_here = min(cty[k]["pop"], lacking_pop - acc_pop)
+                got = min(lacking_here, max(0.0, served_pop - acc_pop))
+                mob[k] = 1.0 - (lacking_here - got) / cty[k]["pop"]
+            acc_pop += cty[k]["pop"]
+        per_dom["L2"]["mobility"] = mob
+        cars_built += prod * sc["car_share"]
+        prod *= 1 + sc["car_growth"]
+        if capfn is not None:  # people inside conflict zones lose every service except emergency food
+            for L in per_dom:
+                for d, m in per_dom[L].items():
+                    if d != "food":
+                        for k in keys:
+                            m[k] = min(m.get(k, 1.0), capfn(k, t))
+        for L in ("L1", "L2"):
+            doms = per_dom[L]
+            pc = {k: min(doms[d].get(k, 1.0) for d in doms) for k in keys}
+            cov[L].append(sum(cty[k]["pop"] * pc[k] for k in keys) / W0)
+            if keep_country:
+                for k in keys:
+                    per_country[L][k].append(pc[k])
+        entry = {"year": t}
+        for L in ("L1", "L2"):
+            short = {}
+            for d, m in per_dom[L].items():
+                if t == 0 and d == "food":
+                    continue  # delivery starts in year 1
+                short[d] = sum(cty[k]["pop"] * (1 - m.get(k, 1.0)) for k in keys)
+            worst = max(short, key=short.get)
+            people = short[worst]
+            in_c = (lambda k: conflict_status(k, t)) if conflict_status else (lambda k: False)
+            in_conflict = sum(cty[k]["pop"] * (1 - per_dom[L][worst].get(k, 1.0)) for k in keys if in_c(k))
+            kind = ACCESS[worst][2] if worst in ACCESS else TYPE.get(worst, "other")
+            if people and in_conflict / people > 0.5:
+                kind = "conflict"
+            entry[L] = {"domain": worst, "type": kind, "people_short_m": round(people / 1e6),
+                        "share_in_conflict_states": round(in_conflict / people, 2) if people else 0.0,
+                        "all_domains_short_m": {d: round(v / 1e6) for d, v in sorted(short.items(), key=lambda x: -x[1])}}
+        bottleneck.append(entry)
+    dates = {L: {f"{int(100 * q)}pct": next((t for t, v in enumerate(cov[L]) if v >= q), None) for q in (0.9, 0.95, 0.99)} for L in cov}
+    return {"dates": dates, "cov": cov, "bottleneck": bottleneck, "per_country": per_country if keep_country else None,
+            "built": built, "ew": ew, "keys": keys}
+
+
+def main():
+    ctx = context()
+    regions = ctx["regions"]
     out = {"years": YEARS, "scenarios": {}}
     for name, sc in SCEN.items():
         base = L87.B["scenarios"][sc["v87"]]
-        gov_s = {} if sc.get("no_conflict") else gov
-        rec = []
-        phys, rows, built, ew = L87.physical_dates(regions, cty, base, record=rec, years=YEARS, boost=lambda t: automation(t, sc))
-        food_com = next((r["year"] for r in rows if r["food_comfortable_for_all_feasible"]), 0)
-        acc = {lvl: access_cov(cty, lvl, sc, gov_s) for lvl in ("essential", "comfortable")}
-        keys = [k for k in cty if k in regions]
-        W0 = sum(cty[k]["pop"] for k in keys)
-        cov = {"L1": [], "L2": []}
-        bottleneck = []
-        car_fleet_needed = 1.29e9 * CAR_LACKING
-        cars_built, prod = 0.0, 90e6
-        for t in range(YEARS + 1):
-            snap = rec[min(t, len(rec) - 1)]
-            per_dom = {"L1": {}, "L2": {}}
-            # teachers
-            for k in keys:
-                r = L87.latest(tch, k)[1]
-                for lvl, L in (("essential", "L1"), ("comfortable", "L2")):
-                    tgt = L87.B["domains"]["education"][f"{lvl}_pupils_per_teacher"]
-                    if r is None or r <= tgt:
-                        c = 1.0
-                    else:
-                        g = base["teacher_growth"] * automation(t, sc) ** 0.5 * gov_s.get(k, 1.0)
-                        c = 1.0 if r / (1 + g) ** t <= tgt else 0.0
-                    per_dom[L].setdefault("teachers", {})[k] = c
-            # physical
-            for k in keys:
-                e_c, h_c, fl, e_e, h_e = snap[k]
-                per_dom["L1"].setdefault("energy", {})[k] = 1.0 if e_e >= TOL else 0.0
-                per_dom["L1"].setdefault("health", {})[k] = 1.0 if h_e >= TOL else 0.0
-                per_dom["L1"].setdefault("housing", {})[k] = 1.0 if fl >= 15 * TOL else 0.0
-                per_dom["L2"].setdefault("energy", {})[k] = 1.0 if e_c >= TOL else 0.0
-                per_dom["L2"].setdefault("health", {})[k] = 1.0 if h_c >= TOL else 0.0
-                per_dom["L2"].setdefault("housing", {})[k] = 1.0 if fl >= 27 * TOL else 0.0
-                per_dom["L1"].setdefault("food", {})[k] = 1.0 if t >= 1 else 0.0
-                per_dom["L2"].setdefault("food", {})[k] = 1.0 if t >= max(1, food_com) else 0.0
-                per_dom["L2"].setdefault("goods", {})[k] = 1.0 if t >= 1 else 0.0
-                # local services for Level 2 (savings, leisure, holidays, restaurants, culture)
-                sv = capf.get(k, {}).get("services_vs_france")
-                if sv is None:
-                    sv = 0.3
-                gap = max(0.0, math.log(SERVICES_L2 / sv)) if sv < SERVICES_L2 else 0.0
-                level = sv
-                for _ in range(t):
-                    g = max(0.0, math.log(SERVICES_L2 / level)) if level < SERVICES_L2 else 0.0
-                    level *= 1 + (0.01 + sc["service_catch_up"] * min(1.0, g)) * automation(t, sc) ** 0.5 * gov_s.get(k, 1.0)
-                per_dom["L2"].setdefault("services", {})[k] = 1.0 if level >= SERVICES_L2 else level / SERVICES_L2 * 0  # binary
-            for lvl, L in (("essential", "L1"), ("comfortable", "L2")):
-                for dom, d in acc[lvl].items():
-                    per_dom[L][dom] = {k: d[k][t] if k in d else 1.0 for k in keys}
-            # mobility (Level 2): shared cars built for regions lacking them
-            share_cars = min(1.0, cars_built / car_fleet_needed)
-            # countries ordered by need (lowest services first get cars first)
-            order = sorted(keys, key=lambda k: capf.get(k, {}).get("services_vs_france", 0.3))
-            lacking_pop = CAR_LACKING * sum(cty[k]["pop"] for k in keys)
-            served_pop = lacking_pop * share_cars   # people in car-lacking regions already given shared car access
-            acc_pop, mob = 0.0, {}
-            for k in order:  # regions with the greatest need are served first
-                if acc_pop >= lacking_pop:
-                    mob[k] = 1.0  # regions that already have cars
-                else:  # share of this region's people already given shared car access (proportional at the boundary)
-                    lacking_here = min(cty[k]["pop"], lacking_pop - acc_pop)
-                    got = min(lacking_here, max(0.0, served_pop - acc_pop))
-                    mob[k] = 1.0 - (lacking_here - got) / cty[k]["pop"]
-                acc_pop += cty[k]["pop"]
-            per_dom["L2"]["mobility"] = mob
-            cars_built += prod * sc["car_share"]
-            prod *= 1 + sc["car_growth"]
-            # levels and bottleneck
-            for L in ("L1", "L2"):
-                doms = per_dom[L]
-                covered = sum(cty[k]["pop"] * min(doms[d].get(k, 1.0) for d in doms) for k in keys) / W0
-                cov[L].append(covered)
-            entry = {"year": t}
-            for L in ("L1", "L2"):
-                short = {}
-                for d, m in per_dom[L].items():
-                    if t == 0 and d == "food":
-                        continue  # delivery starts in year 1
-                    short[d] = sum(cty[k]["pop"] * (1 - m.get(k, 1.0)) for k in keys)
-                worst = max(short, key=short.get)
-                people = short[worst]
-                in_conflict = 0.0 if sc.get("no_conflict") else sum(cty[k]["pop"] * (1 - per_dom[L][worst].get(k, 1.0)) for k in keys if status.get(k) == "conflict")
-                kind = ACCESS[worst][2] if worst in ACCESS else TYPE.get(worst, "other")
-                if people and in_conflict / people > 0.5:
-                    kind = "conflict"
-                entry[L] = {"domain": worst, "type": kind, "people_short_m": round(people / 1e6),
-                            "share_in_conflict_states": round(in_conflict / people, 2) if people else 0.0,
-                            "all_domains_short_m": {d: round(v / 1e6) for d, v in sorted(short.items(), key=lambda x: -x[1])}}
-            bottleneck.append(entry)
-        dates = {L: {f"{int(100 * q)}pct": next((t for t, v in enumerate(cov[L]) if v >= q), None) for q in (0.9, 0.95, 0.99)} for L in cov}
-        lab = L87.labour(base, regions, built, years=(0, 30, 60))
+        gov_s = {} if sc.get("no_conflict") else ctx["gov"]
+        status = {} if sc.get("no_conflict") else ctx["status"]
+        r = core(ctx, sc, lambda k, t: gov_s.get(k, 1.0), conflict_status=lambda k, t: status.get(k) == "conflict")
+        dates, cov, bottleneck, ew = r["dates"], r["cov"], r["bottleneck"], r["ew"]
+        lab = L87.labour(base, regions, r["built"], years=(0, 30, 60))
         res88 = E88.plan(E88.inventory(), 15, sc["scale"], "decentralised")
         infra_workers = sum(v["all_workers_needed_m"] for v in res88["services"].values())
         out["scenarios"][name] = {
@@ -213,10 +243,9 @@ def main():
             "essential_infrastructure_construction": {"capital_usd_bn_per_year": res88["total_capital_usd_bn_per_year"],
                                                       "workers_m": round(infra_workers, 2),
                                                       "note": "construction only; operation and maintenance are already in the basket labour (v87 energy and water domain)"},
-            "environment": {"world_final_energy_2050_ej": round(sum(40 * ew[k] * r["pop50"] for k, r in regions.items()) / 1e9),
+            "environment": {"world_final_energy_2050_ej": round(sum(40 * ew[k] * rr["pop50"] for k, rr in regions.items()) / 1e9),
                             "clean_cooking_energy_ej": round(1.92e9 * 0.5 / 1e9, 1),
                             "check": "energy within today's 409 EJ; housing needs low-carbon building; travel mostly rail (v87)"}}
-        s = out["scenarios"][name]
         print(f"\n== {name}: Level 1 for 90/95/99% of humanity in year {dates['L1']['90pct']}/{dates['L1']['95pct']}/{dates['L1']['99pct']}; "
               f"Level 2 in year {dates['L2']['90pct']}/{dates['L2']['95pct']}/{dates['L2']['99pct']}")
         for t in (1, 5, 10, 15, 20, 30, 40, 50, 60, 70, 80):
