@@ -799,13 +799,24 @@ Income, wealth and any offer to pay more are never taken into account.
 
 ---
 
-**T-8. Equal salaries, built up within 20 years.**
-1. From the first year, every person in every member region receives their needs in kind: food, health care, education, a home and the essential energy allowance.
-2. Each region's salary scale in U starts at the level its own production can support and rises every year toward the full scale of Article 14, with **twenty years as the target**.
-3. Salaries never rise faster than the goods available to the region, its own production plus transfers from the One Earth Fund, so that money never empties the shelves.
-4. Each region's progress is published every year. A region behind the target receives priority for investment, training and technology from One Earth.
+**T-8. Equal rights from day one; equal purchasing power built up (the D + C transition).**
+1. **Success is measured by real living standards** (homes, food, health care, education, transport, energy), not by money in accounts. Each region's real access is measured and published every year, and unmet needs are listed and given priority.
+2. **Rights from day one (D, the real economy).** From the first day, every person in every member region has the right to food, a home, health care, education and the essential energy allowance. One Earth first takes inventory of what exists, redistributes it, repairs and renovates it, and only then produces what is missing. Equal rights are not the same as immediate equal availability: where homes or care must first be built, the right begins at once as a published priority with a deadline.
+3. **Money follows real supply (C, the monetary economy).** Each region's salary scale in U rises toward the full scale of Article 14 according to the region's sustainable, accessible supply of the goods and services people need, after essential guarantees, reserves and ecological limits. It does not rise simply because total production rises. Essential needs remain guaranteed whatever a person's income. The Monetary Authority (Article 17b) prevents total purchasing power from persistently exceeding available supply. Salaries are never cut.
+4. **Differences are temporary.** Regional salary differences rest only on measured constraints. They are reviewed every year by an independent body, and every region moves toward the full scale. No permanent regional salary scale may exist.
+5. **Compensation during the transition.** While a region's salary scale is below the full scale:
+    - goods and services that are not scarce (education, training, culture, digital access, public transport, health care) are free and equal everywhere;
+    - the regions furthest behind have priority for scarce goods, renovation, building and investment (Article 10a);
+    - each worker receives an **equality credit** of one quarter of the gap between the full salary and the regional salary, in a protected personal account.
+6. **Equality credits are guaranteed obligations.**
+    - Repayment begins during the transition, using at most 5% of the world's usable supply each year, and accelerates to at most 15% once salaries are equal everywhere.
+    - The outstanding total and the projected repayment capacity are published every year.
+    - While outstanding credits reach two years of world consumption, new accrual pauses until repayment brings them below.
+    - The one-quarter rate is provisional and reviewed every five years with real data. If productivity and resources exceed projections, repayment is accelerated rather than surpluses accumulated.
+7. **Reserves and resilience.** Three per cent of supply each year builds strategic inventories and emergency capacity (Article 11), so that droughts, disasters and supply disruptions are absorbed without cutting rights or salaries.
+8. **The timeline is a tested range, not a promise.** Simulations give full salary convergence in about 33 to 45 years under strong catch-up growth, and later under slower growth. Progress is published every year against this range.
 
-*Evidence (V8.2, `v82/worldmoney`): world household consumption is about $11,500 per person against about $21,900 bought by the lowest UNIRA salary, so equal salaries on day one would ask for about twice what exists. A strict 20-year schedule would leave 19–39% of demand unmet in year 20; with clause 3 there are no shortages, the One Earth Fund transfers 15–20% of world goods, and the full scale is reached in 31–39 years with strong catch-up growth.*
+*Evidence (V8.3, `v83/equality_credit`). Strong catch-up: equal salaries in year 45 and credits fully repaid in year 55; with very strong catch-up, in years 37 and 44. A credit of one half of the gap would be repaid only in years 61 to 75, and a full credit never. The stress test found no shortages after reserves under population changes of ±30% or repeated supply shocks of 5–10%. If Africa and South Asia catch up at half speed, convergence comes in year 54. At the historical growth pace, convergence to today's French level is not reached within 80 years, and the liability ceiling keeps outstanding credits at about two years of world consumption.*
 
 
 ### Notes for the author (not part of the text)
@@ -819,4 +830,5 @@ Income, wealth and any offer to pay more are never taken into account.
 
 - **V7.9 (2026-11-03): the missing designs and power safeguards added** — Articles 3c, 3d, 5b, 5c, 6a, 9a, 10a, 12a, 17b, 22a, 26a, 30a, 32a, 32b, 39a, 41a, 42a, 42b, T-7; amendments to 5a, 13, 17 and 18. Evidence and the stress test of 13 attack scenarios are in `v79/`.
 - **Decided by the author on the research's recommendation (2026-11-03):** a time account of at most 2 weeks a year (sabbatical up to 3 months), paused in shortage jobs (Article 17.4); an open housing lottery of 10%, at most 20% by regional choice (Article 18.8); health need weighted by age and disease burden together (Article 10a.3). Still to confirm with data: the account limits (150,000 U home, 120,000 U retirement, 13 weeks).
+- **Open question for the author (V8.3):** at the historical pace of growth, full salary convergence to today's French consumption level is not reached within 80 years, and that level is also not ecologically possible for everyone (V6.6). Should the full scale's real basket be defined as the sustainable comfortable level for all, rather than France's current consumption?
 - **Decided by the author (2026-11-03):** a moderate money cap with protected home and retirement accounts. The research set the floor at 1.5 years of base salary (Article 17.3–17.5), and the author confirmed it after comparing 3- and 5-year caps: with all protected accounts, 30% of adults lose some money at 1.5 years, against 19% at 5 years, but a sudden spending rush would create shortages three times larger at 5 years.

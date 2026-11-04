@@ -149,6 +149,25 @@ The union of gainers works at about **half speed**. Even so, it beats the most c
 
 This is perhaps the most important result for the transition. UNIRA does not need everyone on day one. It can start with the willing, show results, and grow.
 
+## Equal rights from the first day
+
+The research found a hard fact. If every person on Earth were paid at least 5,000 U from the first day, people would try to buy about **twice** what the world produces. With fixed prices, that gap would become empty shelves.
+
+So the transition rests on two parts, in the author's words:
+- **D, the real economy,** decides what must be delivered. From day one, everyone has the right to food, a home, care, education and essential energy. One Earth first counts what exists, redistributes it, repairs and renovates it, and only then produces what is missing.
+- **C, the money,** decides how purchasing power grows. Salaries rise as fast as the goods people need can really be supplied, and are never cut.
+
+Success is measured by how people actually live, not by the money in their accounts.
+
+During the transition, nobody is simply told to wait:
+- everything that is not scarce (school, training, culture, internet, public transport, care) is free and equal everywhere at once;
+- the regions furthest behind come first for homes, energy and investment;
+- each worker earns an **equality credit**: a quarter of the gap between their salary and the full salary, saved in a protected account.
+
+A worker earning 2,000 U where the full salary is 5,000 U banks 750 U a month. The credit is repaid from the start, faster once salaries are equal, and fully about ten years later in the simulations.
+
+The research tested this against bad news: population surprises, droughts and pandemics, regions catching up slowly. Shelves never emptied; the reserves absorbed the shocks. But slow growth stretches the timeline: equal salaries take about 33 to 45 years with strong growth, longer without it. That is why the constitution calls it a tested range, not a promise.
+
 ## What history teaches
 
 Large transitions have been tried before. The research reviewed **61** findings on how they went. **51** of them were verified in fetched text. The other 10 are not used as facts. Chapter 4 told the stories of German reunification, the European Union and debt relief in detail. Here are the lessons that shape the transition rules, with a few new ones.

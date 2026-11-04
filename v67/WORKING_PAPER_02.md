@@ -373,6 +373,18 @@ UNIRA can start with willing regions and grow. Compared with a reformed market w
     - all public debts of member regions are cancelled (author decision), with bonds held by savers and pension funds treated as protected savings; outside creditors are paid on a schedule until they join;
     - a democratic right to leave (author decision); energy, travel and data always metered per unit (Article 21).
 
+**Completing the economy and the transition framework (V8.2–V8.3).**
+- **Ordinary goods** follow orders and waiting lists: 96% of wishes are served within 3 months, against a market that prices out 19% of wishes, almost all among the poorer half.
+- **Hard jobs** get hardship steps, shorter hours and better conditions: unwilling workers fall from 87% to 46%.
+- **Investment** puts maintenance first.
+- **A restaurant and a supermarket** balance their accounts with UNIRA prices and salaries.
+- **Equal salaries on day one would demand twice what the world produces.** The author therefore adopted the D + C framework:
+  - equal rights and essentials in kind from day one;
+  - redistribution and repair before new production;
+  - regional salaries rising with sustainable supply;
+  - a provisional 25% equality credit, repaid 10 years after convergence.
+- **Stress test:** no shortages under population change or supply shocks. Full convergence takes about 33–45 years under strong catch-up, longer with regional lag, and is not reached within 80 years at historical growth. Convergence is therefore a tested range, not a promise.
+
 <!-- refs:begin sources §11 -->
 
 *Sources for this section:* Brainard & Perry 1991; Documents & Images n.d.a; Eurostat ilc_di01, 2026; Institut für Arbeitsmarkt- und Berufsforschung (IAB) 1998; International Monetary Fund 2019; Notes from Poland 2026; Polish Economic Institute 2019; Polish Investment \& Trade Agency n.d.; Wikipedia contributors n.d.b.
