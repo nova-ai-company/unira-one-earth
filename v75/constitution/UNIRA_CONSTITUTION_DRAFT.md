@@ -861,6 +861,10 @@ Income, wealth and any offer to pay more are never taken into account.
 4. As automation increases productive capacity, society shall progressively reduce compulsory working hours, while protecting individual freedom, innovation and ecological sustainability.
 5. **Guaranteed income plus rewards for work (model B).** As automation grows, a guaranteed income, calibrated to sustainable production and to the UNIRA living standard (Article 10c), progressively covers every adult whether employed or not. Those who contribute work that society still needs (care, teaching, research, repair, creative and civic work) receive additional pay within Article 14. The duty to work (Article 7) becomes a duty to contribute in proportion to what society still needs.
 6. Critical automated systems (energy, food, health, payments, networks) remain under public oversight and human control. They have several independent suppliers, and are protected against failure and cyber-attack.
+7. **Funding.** The guaranteed income is funded by the community share of automated production (Article 16). Machines' returns belong to everyone, not to their operators.
+8. **Skills reserve.** Enough people remain trained, through regular practice and rotation, to run essential systems by hand if automation fails.
+
+*Research basis (V8.6, `v86/automation`, illustrative): with automation rising toward 90% of today's tasks, the average working week falls from 30 hours to about 2 hours over a century, and the guaranteed income grows from almost nothing to about 96% of all income. About a tenth of today's tasks stay human, so model B keeps rewards for work. A failure of a fifth of automated capacity needs about 3–4 extra hours a week of trained human work, which a skills reserve of about 2 hours a week covers.*
 
 ### Notes for the author (not part of the text)
 - **Representation (agreed 2026-11-03).** 55%/65% double majority and a maximum seat share per region. The square-root weighting is added so that no pair of regions can block the world.

@@ -1,6 +1,6 @@
 {
  "about": "UNIRA v79 housing allocation simulation; see RESEARCH_NOTE.md",
- "runtime_seconds": 27.19,
+ "runtime_seconds": 26.65,
  "scenarios": {
   "baseline": {
    "settings": {

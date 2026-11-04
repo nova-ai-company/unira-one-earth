@@ -1,0 +1,197 @@
+{
+  "assumptions": {
+    "human_only": 0.1,
+    "need_growth": 0.005,
+    "human_productivity": 0.01,
+    "failure_share": 0.2,
+    "skills_reserve_hours": 2.0
+  },
+  "scenarios": {
+    "slow": {
+      "year_0": {
+        "year": 0,
+        "automation": 0.0,
+        "weekly_hours": 29.985,
+        "guaranteed_share_of_income": 0.0,
+        "work_pay_share_of_income": 1.0,
+        "income_vs_today": 1.0,
+        "failure_extra_hours_needed": 0.003,
+        "failure_share_covered_by_trained_people": 1.0
+      },
+      "year_10": {
+        "year": 10,
+        "automation": 0.002,
+        "weekly_hours": 28.498,
+        "guaranteed_share_of_income": 0.096,
+        "work_pay_share_of_income": 0.904,
+        "income_vs_today": 1.051,
+        "failure_extra_hours_needed": 0.01,
+        "failure_share_covered_by_trained_people": 1.0
+      },
+      "year_25": {
+        "year": 25,
+        "automation": 0.011,
+        "weekly_hours": 26.203,
+        "guaranteed_share_of_income": 0.229,
+        "work_pay_share_of_income": 0.771,
+        "income_vs_today": 1.133,
+        "failure_extra_hours_needed": 0.059,
+        "failure_share_covered_by_trained_people": 1.0
+      },
+      "year_50": {
+        "year": 50,
+        "automation": 0.2,
+        "weekly_hours": 18.716,
+        "guaranteed_share_of_income": 0.514,
+        "work_pay_share_of_income": 0.486,
+        "income_vs_today": 1.283,
+        "failure_extra_hours_needed": 0.938,
+        "failure_share_covered_by_trained_people": 1.0
+      },
+      "year_75": {
+        "year": 75,
+        "automation": 0.78,
+        "weekly_hours": 4.542,
+        "guaranteed_share_of_income": 0.896,
+        "work_pay_share_of_income": 0.104,
+        "income_vs_today": 1.454,
+        "failure_extra_hours_needed": 3.227,
+        "failure_share_covered_by_trained_people": 1.0
+      },
+      "year_100": {
+        "year": 100,
+        "automation": 0.894,
+        "weekly_hours": 1.936,
+        "guaranteed_share_of_income": 0.961,
+        "work_pay_share_of_income": 0.039,
+        "income_vs_today": 1.647,
+        "failure_extra_hours_needed": 3.265,
+        "failure_share_covered_by_trained_people": 1.0
+      }
+    },
+    "medium": {
+      "year_0": {
+        "year": 0,
+        "automation": 0.006,
+        "weekly_hours": 29.819,
+        "guaranteed_share_of_income": 0.006,
+        "work_pay_share_of_income": 0.994,
+        "income_vs_today": 1.0,
+        "failure_extra_hours_needed": 0.036,
+        "failure_share_covered_by_trained_people": 1.0
+      },
+      "year_10": {
+        "year": 10,
+        "automation": 0.021,
+        "weekly_hours": 27.957,
+        "guaranteed_share_of_income": 0.113,
+        "work_pay_share_of_income": 0.887,
+        "income_vs_today": 1.051,
+        "failure_extra_hours_needed": 0.118,
+        "failure_share_covered_by_trained_people": 1.0
+      },
+      "year_25": {
+        "year": 25,
+        "automation": 0.12,
+        "weekly_hours": 23.328,
+        "guaranteed_share_of_income": 0.314,
+        "work_pay_share_of_income": 0.686,
+        "income_vs_today": 1.133,
+        "failure_extra_hours_needed": 0.634,
+        "failure_share_covered_by_trained_people": 1.0
+      },
+      "year_50": {
+        "year": 50,
+        "automation": 0.7,
+        "weekly_hours": 7.032,
+        "guaranteed_share_of_income": 0.817,
+        "work_pay_share_of_income": 0.183,
+        "income_vs_today": 1.283,
+        "failure_extra_hours_needed": 3.275,
+        "failure_share_covered_by_trained_people": 1.0
+      },
+      "year_75": {
+        "year": 75,
+        "automation": 0.889,
+        "weekly_hours": 2.299,
+        "guaranteed_share_of_income": 0.947,
+        "work_pay_share_of_income": 0.053,
+        "income_vs_today": 1.454,
+        "failure_extra_hours_needed": 3.675,
+        "failure_share_covered_by_trained_people": 1.0
+      },
+      "year_100": {
+        "year": 100,
+        "automation": 0.9,
+        "weekly_hours": 1.835,
+        "guaranteed_share_of_income": 0.963,
+        "work_pay_share_of_income": 0.037,
+        "income_vs_today": 1.647,
+        "failure_extra_hours_needed": 3.286,
+        "failure_share_covered_by_trained_people": 1.0
+      }
+    },
+    "fast": {
+      "year_0": {
+        "year": 0,
+        "automation": 0.038,
+        "weekly_hours": 28.864,
+        "guaranteed_share_of_income": 0.038,
+        "work_pay_share_of_income": 0.962,
+        "income_vs_today": 1.0,
+        "failure_extra_hours_needed": 0.227,
+        "failure_share_covered_by_trained_people": 1.0
+      },
+      "year_10": {
+        "year": 10,
+        "automation": 0.12,
+        "weekly_hours": 25.131,
+        "guaranteed_share_of_income": 0.203,
+        "work_pay_share_of_income": 0.797,
+        "income_vs_today": 1.051,
+        "failure_extra_hours_needed": 0.683,
+        "failure_share_covered_by_trained_people": 1.0
+      },
+      "year_25": {
+        "year": 25,
+        "automation": 0.45,
+        "weekly_hours": 14.575,
+        "guaranteed_share_of_income": 0.571,
+        "work_pay_share_of_income": 0.429,
+        "income_vs_today": 1.133,
+        "failure_extra_hours_needed": 2.385,
+        "failure_share_covered_by_trained_people": 1.0
+      },
+      "year_50": {
+        "year": 50,
+        "automation": 0.862,
+        "weekly_hours": 3.227,
+        "guaranteed_share_of_income": 0.916,
+        "work_pay_share_of_income": 0.084,
+        "income_vs_today": 1.283,
+        "failure_extra_hours_needed": 4.036,
+        "failure_share_covered_by_trained_people": 1.0
+      },
+      "year_75": {
+        "year": 75,
+        "automation": 0.898,
+        "weekly_hours": 2.103,
+        "guaranteed_share_of_income": 0.952,
+        "work_pay_share_of_income": 0.048,
+        "income_vs_today": 1.454,
+        "failure_extra_hours_needed": 3.715,
+        "failure_share_covered_by_trained_people": 1.0
+      },
+      "year_100": {
+        "year": 100,
+        "automation": 0.9,
+        "weekly_hours": 1.828,
+        "guaranteed_share_of_income": 0.963,
+        "work_pay_share_of_income": 0.037,
+        "income_vs_today": 1.647,
+        "failure_extra_hours_needed": 3.287,
+        "failure_share_covered_by_trained_people": 1.0
+      }
+    }
+  }
+}
