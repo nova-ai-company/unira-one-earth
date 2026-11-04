@@ -114,8 +114,10 @@ def climate_weights(regions, cty):
     return {k: v / mean for k, v in raw.items()}
 
 
-def physical_dates(regions, cty, sc):
-    """Energy, health and housing: decent-first allocation with region-specific targets; per-year coverage."""
+def physical_dates(regions, cty, sc, record=None, years=None, boost=None):
+    """Energy, health and housing: decent-first allocation with region-specific targets; per-year coverage.
+    record: optional list receiving, each year, {iso: (energy_gj / target, health_10k / target, floor_m2)} (v89).
+    boost: optional function t -> multiplier on health training and housing capacity (automation, v89)."""
     cap = json.loads((U / "v66" / "construction" / "capacity.json").read_text())
     ew = climate_weights(regions, cty)
     a3, gw = hw.age_weights(regions, 3.0), hw.gap_weights(regions)
@@ -128,7 +130,7 @@ def physical_dates(regions, cty, sc):
 
     def floor(t, f_def):
         need_pop = sum(regions[k]["pop0"] for k, v in f_def.items() if v > 0)
-        return min(base * (1 + sc["housing_growth"]) ** t, 1.468 * need_pop)
+        return min(base * (1 + sc["housing_growth"]) ** t * (boost(t) if boost else 1.0), 1.468 * need_pop)
     p = {"energy_target": 40, "health_target": 131, "floor_target": 27, "excess_decline": 0.04,
          "energy_new_ej_per_yr": sc["energy_new_ej_per_yr"], "health_net_new": rt.health_flow(sc["health_plan"]),
          "floor_new_m2_per_yr": floor, "kcal_eaten": {"decent": 2100, "comfortable": 2470},
@@ -140,6 +142,12 @@ def physical_dates(regions, cty, sc):
 
     def alloc(pool, true_def, p_, domain, t):
         st = p_["_state"]
+        if record is not None and domain == "energy" and len(record) == t:
+            record.append({k: (r["energy_gj"] / (d["energy"]["comfortable"] * ew[k]), r["health_10k"] / (d["health"]["comfortable"] * hwt[k]),
+                               r["floor_m2"], r["energy_gj"] / (d["energy"]["essential"] * ew[k]),
+                               r["health_10k"] / (d["health"]["essential"] * hwt[k])) for k, r in st.items()})
+        if boost and domain == "health":
+            pool *= boost(t)
         key, ess, com, unit, w = spec_[domain]
         W = sum(r["pop"] for r in st.values())
         for lvl, tgt in (("essential", ess), ("comfortable", com)):
@@ -155,7 +163,7 @@ def physical_dates(regions, cty, sc):
         return g
     tr.allocate_perceived = alloc
     try:
-        rows, _ = tr.run(regions, p, HORIZON)
+        rows, _ = tr.run(regions, p, years or HORIZON)
     finally:
         tr.allocate_perceived = real
     out = {}

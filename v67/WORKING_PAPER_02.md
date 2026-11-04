@@ -394,6 +394,14 @@ UNIRA can start with willing regions and grow. Compared with a reformed market w
 - **Timelines:** reaching 95% of the unserved within 15 years needs 2–4 times the best historical pace with peace; 5 years is not achievable.
 - **Constitution:** the Global Essential Infrastructure Priority Rule (Article 10e) puts closing these gaps first, with repair, local solutions, training, local participation and independently verified delivery.
 
+**The integrated living standard (V8.9).**
+- **Dates** (every domain together, a person counted only when they have all of it, delivery measured as working services, conflicts not assumed to end):
+  - **essential security:** 90% / 95% / 99% of humanity in years 17 / 29 / 53 (accelerated) and 25 / 43 / later (moderate);
+  - **comfortable life:** 90% in year 69 (accelerated); 95% and 99% not within 80 years while today's conflicts last;
+  - **if conflicts ended** (upper bound): years 14 / 21 / 32 and 44 / 51 / 57.
+- **Bottlenecks:** health-worker training first, then clean-cooking supply chains, then conflict. For the comfortable level, local services in the poorest regions.
+- **Never binding:** energy, materials and money.
+
 <!-- refs:begin sources §11 -->
 
 *Sources for this section:* Brainard & Perry 1991; Documents & Images n.d.a; Eurostat ilc_di01, 2026; Institut für Arbeitsmarkt- und Berufsforschung (IAB) 1998; International Monetary Fund 2019; Notes from Poland 2026; Polish Economic Institute 2019; Polish Investment \& Trade Agency n.d.; Wikipedia contributors n.d.b.
