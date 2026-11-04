@@ -1,0 +1,74 @@
+{
+  "assumptions": {
+    "pop_2050": 9660000000.0,
+    "household": 2.5,
+    "cars_today": 1500000000.0,
+    "car_production": 90000000.0,
+    "tourism_today": 1400000000.0,
+    "note": "rounded published orders of magnitude, to verify"
+  },
+  "cars": {
+    "one_per_household_owned": {
+      "fleet_bn": 3.86,
+      "vs_today": 2.58,
+      "new_cars_per_year_m": 258,
+      "vs_today_production": 2.86,
+      "energy_gj_per_person": 2.4,
+      "share_of_comfortable_energy": 0.06,
+      "years_to_reach_fleet": {
+        "production_growth_0pct": null,
+        "production_growth_3pct": 48,
+        "production_growth_6pct": 29
+      }
+    },
+    "shared_one_per_three_households": {
+      "fleet_bn": 1.29,
+      "vs_today": 0.86,
+      "new_cars_per_year_m": 86,
+      "vs_today_production": 0.95,
+      "energy_gj_per_person": 2.4,
+      "share_of_comfortable_energy": 0.06,
+      "years_to_reach_fleet": {
+        "production_growth_0pct": 0,
+        "production_growth_3pct": 0,
+        "production_growth_6pct": 0
+      }
+    },
+    "one_per_two_households": {
+      "fleet_bn": 1.93,
+      "vs_today": 1.29,
+      "new_cars_per_year_m": 129,
+      "vs_today_production": 1.43,
+      "energy_gj_per_person": 2.4,
+      "share_of_comfortable_energy": 0.06,
+      "years_to_reach_fleet": {
+        "production_growth_0pct": null,
+        "production_growth_3pct": 23,
+        "production_growth_6pct": 15
+      }
+    }
+  },
+  "holidays": {
+    "air_far": {
+      "energy_gj_per_person": 5.4,
+      "share_of_comfortable_energy": 0.135,
+      "international_trips_bn_per_year": 9.7,
+      "vs_today_tourism": 6.9,
+      "air_trips_bn": 9.7
+    },
+    "rail_near": {
+      "energy_gj_per_person": 0.38,
+      "share_of_comfortable_energy": 0.009,
+      "international_trips_bn_per_year": 9.7,
+      "vs_today_tourism": 6.9,
+      "air_trips_bn": 0.0
+    },
+    "air_alternate": {
+      "energy_gj_per_person": 2.89,
+      "share_of_comfortable_energy": 0.072,
+      "international_trips_bn_per_year": 9.7,
+      "vs_today_tourism": 6.9,
+      "air_trips_bn": 4.8
+    }
+  }
+}

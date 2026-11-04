@@ -287,7 +287,11 @@ Surplus beyond a region's needs goes to the One Earth Fund for sharing.
 *Evidence: in a 20-year simulation of 120 products with changing tastes and the same labour hours (V8.2, `v82/production`), these signals served 96% of wishes within 3 months, lost 3.8% and wasted 2.8% of production. A market with flexible prices priced out 19% of wishes, almost all among the poorer half, and lost 10% more; a Soviet-style annual plan lost 47%. Without waiting lists the lost share doubled.*
 
 **Article 10c — The UNIRA living standard.**
-1. The central promise of One Earth is equal access to a high standard of living, defined scientifically and published: a comfortable home, nutritious food, health care, education, mobility, energy, digital access, culture, and reasonable discretionary consumption.
+1. The central promise of One Earth is that every human being lives a comfortable, secure and fulfilling life, wherever they live. It is measured by the real access of people and families to the conditions of that life, not by income, spending or comparison with any country's consumption. In two levels:
+    - **Level 1, essential security:** a healthy home with water, sanitation, electricity, heating or cooling and clean cooking; nutritious food; health care; education; essential energy; Internet access; basic mobility. No one may lack these.
+    - **Level 2, comfortable life:** a comfortable home with real choice and a realistic path to owning it; healthy, varied and enjoyable meals; high-quality health care including prevention, dental care and medicines; free education from childhood to lifelong learning; reliable access to a car, owned or shared, and good public transport; financial security with savings and an emergency reserve; holidays and leisure, including a holiday abroad each year; personal freedom in how to live, work, study, travel and spend free time.
+
+    Level 1 has priority whenever goods are short; Level 2 becomes universal as productive capacity allows, within Earth's limits.
 2. Its physical levels are set by the Scientific Council from the best evidence and reviewed every five years. The starting values come from the research (V6.5–V6.6):
     - about 27 m² of living space per person;
     - a comfortable diet of about 2,470 kcal a day with sufficient protein;
@@ -297,7 +301,9 @@ Surplus beyond a region's needs goes to the One Earth Fund for sharing.
     - about 40 GJ of final energy per person in all uses;
     - access to digital networks;
     - a share for personal choices.
-3. The standard must be possible for everyone within Earth's limits. It is the target of the transition (T-8) and the measure of its success.
+3. The standard must be possible for everyone within Earth's limits. It is the target of the transition (T-8) and the measure of its success. Travel and vehicles are provided in the forms the planet can sustain: holidays abroad mainly by rail or coach, long-distance flights within the travel allowance at the surcharged energy price (Article 13.7), and car access through shared or owned vehicles as factories and materials allow.
+
+*Evidence (V8.7, `v87`): the comfortable level of energy for 9.66 billion people in 2050, adjusted for climate, is about 378 EJ, below today's use; the comfortable basket needs about 14 hours of work per worker per week at today's French productivity, falling with automation. Shared cars at one per three households need no more cars than exist today; a yearly holiday abroad by rail or coach uses about 1% of the comfortable energy level, by long-distance air about 14%.*
 
 **Article 10d — Fair shares of what is scarce.**
 1. **Principle.** Every person has an equal right to a dignified and comfortable standard of living. Scarce resources shall be allocated according to legitimate needs and sustainable availability, while monetary entitlements shall reflect the economy's real capacity to deliver goods and services.

@@ -101,8 +101,9 @@ def run(regions, p, years=30):
         give = allocate_perceived(pool, e_def, p, "energy", t)
         for k, r in st.items():
             r["energy_gj"] += give[k] / r["pop"]
-            if r["energy_gj"] > p["energy_target"]:
-                r["energy_gj"] = max(p["energy_target"], r["energy_gj"] * (1 - p["excess_decline"]))
+            floor_k = p.get("energy_target_by_region", {}).get(k, p["energy_target"])  # optional climate-adjusted target
+            if r["energy_gj"] > floor_k:
+                r["energy_gj"] = max(floor_k, r["energy_gj"] * (1 - p["excess_decline"]))
         # health: net new workers this year from the training plan
         h_def = {k: max(0.0, (p["health_target"] - r["health_10k"]) / 1e4 * r["pop"]) for k, r in st.items()}
         new_workers = p["health_net_new"](t) * p.get("health_share_to_deficit", 1.0) * (1 - p.get("leakage", 0.0))

@@ -1,0 +1,59 @@
+{
+  "_about": "The UNIRA living standard (Constitution Article 10c), essential and comfortable levels. Every value carries its source or is marked ASSUMPTION. The constitutional definition is not changed to improve results.",
+  "domains": {
+    "food": {"essential": 2100, "comfortable": 2470, "unit": "kcal eaten per person per day",
+             "source": "essential: Millward-Hopkins et al. 2020 DLE (2,000-2,150); comfortable: UNIRA comfortable diet (v65 thresholds, planetary-health composition)"},
+    "water": {"essential": 100, "comfortable": 100, "unit": "% of people with at least basic drinking water (essential) / safely managed (comfortable)",
+              "source": "UN SDG 6.1 service ladders (WHO/UNICEF JMP), via World Bank SH.H2O.BASW.ZS / SH.H2O.SMDW.ZS"},
+    "sanitation": {"essential": 100, "comfortable": 100, "unit": "% of people with at least basic sanitation",
+                   "source": "UN SDG 6.2 (JMP), World Bank SH.STA.BASS.ZS"},
+    "electricity": {"essential": 100, "comfortable": 100, "unit": "% of people with access to electricity", "source": "SDG 7.1, World Bank EG.ELC.ACCS.ZS"},
+    "clean_cooking": {"essential": 100, "comfortable": 100, "unit": "% of people with clean cooking fuels and technologies", "source": "SDG 7.1.2, World Bank EG.CFT.ACCS.ZS"},
+    "energy": {"essential": 15.3, "comfortable": 40, "unit": "GJ of final energy per person per year, all uses (heating/cooling, mobility, goods, services)",
+               "source": "essential: Millward-Hopkins et al. 2020 decent living energy; comfortable: UNIRA comfortable level within a 1.5 C-class pathway (v66)",
+               "climate_adjustment": "ASSUMPTION: x (1 + 0.25 x (|latitude of capital| - 25) / 40), clipped to 0.85-1.25, renormalised so the world mean is unchanged"},
+    "housing": {"essential": 15, "comfortable": 27, "unit": "m2 of residential floor area per person",
+                "source": "essential: Millward-Hopkins et al. 2020 (15 m2); comfortable: UNIRA comfortable level (v66)",
+                "household_note": "ASSUMPTION: per-person floor area; household composition adjusts allocations in practice (Article 10d.5)"},
+    "health": {"essential": 44.5, "comfortable": 131, "unit": "doctors, nurses and midwives per 10,000 people, weighted by age and disease burden (rule 37)",
+               "source": "essential: WHO 2016 SDG health-workforce threshold; comfortable: EU level (v65); weighting v79/health_need"},
+    "education": {"essential_secondary_enrolment": 90, "comfortable_secondary_enrolment": 100, "essential_pupils_per_teacher": 40, "comfortable_pupils_per_teacher": 20,
+                  "unit": "% gross secondary enrolment; primary pupils per teacher",
+                  "source": "enrolment: SDG 4 (universal secondary completion); 40 pupils per teacher: UNESCO upper benchmark commonly used; 20: ASSUMPTION near OECD averages"},
+    "internet": {"essential": 70, "comfortable": 95, "unit": "% of individuals using the Internet",
+                 "source": "ASSUMPTION thresholds (universal meaningful connectivity is the goal); data ITU via World Bank IT.NET.USER.ZS"},
+    "goods_and_discretionary": {"essential": 0.3, "comfortable": 0.6, "unit": "share of France's 2022 household goods consumption per person (clothing, furniture, equipment, leisure goods, personal choices)",
+                                "source": "ASSUMPTION: UNIRA favours repair, reuse and durability (Article 11); delivered by needs-based quotas (Article 10d) from world goods capacity (v85)"},
+    "mobility": {"note": "essential and comfortable mobility (Millward-Hopkins 2020: 5,000-15,000 passenger-km per person per year) is included in the energy level and in the labour estimate; no country data on passenger-km were available"}
+  },
+  "scenarios": {
+    "conservative": {"energy_new_ej_per_yr": 3.9, "health_plan": "low", "housing_growth": 0.0, "access_speed": 1.0, "teacher_growth": 0.03, "automation_by_year_30": 0.15},
+    "moderate": {"energy_new_ej_per_yr": 7.0, "health_plan": "central", "housing_growth": 0.05, "access_speed": 1.5, "teacher_growth": 0.05, "automation_by_year_30": 0.35},
+    "accelerated": {"energy_new_ej_per_yr": 10.5, "health_plan": "high", "housing_growth": 0.10, "access_speed": 2.5, "teacher_growth": 0.08, "automation_by_year_30": 0.6},
+    "_notes": "energy build 0.67/1.2/1.8 TW-equivalent (v67); health training plans (v66); housing build growth (v70); access_speed selects the median (1.0), top quarter (1.5) or top tenth (2.5) of the yearly coverage gains actually achieved by lagging countries since 2010 (measured); each country uses at least its own measured pace; teacher stock growth in deficit regions (ASSUMPTION); automation_by_year_30 = share of each sector's automation potential reached by year 30 (ASSUMPTION)"
+  },
+  "labour": {
+    "_about": "Hours per person per year France 2022 embodied in household and government final consumption (v63/io), mapped to basket domains and scaled to the UNIRA standard. Scaling factors are ASSUMPTIONS unless stated.",
+    "domain_products": {
+      "food": ["CPA_A01", "CPA_A02", "CPA_A03", "CPA_C10-12"],
+      "energy": ["CPA_B", "CPA_C19", "CPA_D", "CPA_E36", "CPA_E37-39"],
+      "housing": ["CPA_F", "CPA_L68A", "CPA_L68B", "CPA_C16", "CPA_C23", "CPA_N80-82"],
+      "health": ["CPA_Q86", "CPA_C21"],
+      "care": ["CPA_Q87_88"],
+      "education": ["CPA_P"],
+      "mobility": ["CPA_C29", "CPA_C30", "CPA_H49", "CPA_H50", "CPA_H51", "CPA_H52", "CPA_H53", "CPA_G45"],
+      "clothing_goods": ["CPA_C13-15", "CPA_C17", "CPA_C18", "CPA_C20", "CPA_C22", "CPA_C24", "CPA_C25", "CPA_C27", "CPA_C28", "CPA_C31_32", "CPA_C33"],
+      "communication": ["CPA_J58", "CPA_J59_60", "CPA_J61", "CPA_J62_63", "CPA_C26"],
+      "leisure": ["CPA_I", "CPA_R90-92", "CPA_R93", "CPA_S94", "CPA_S95", "CPA_S96", "CPA_T"],
+      "public_administration": ["CPA_O", "CPA_U"],
+      "trade_finance_business": ["CPA_G46", "CPA_G47", "CPA_K64", "CPA_K65", "CPA_K66", "CPA_M69_70", "CPA_M71", "CPA_M72", "CPA_M73", "CPA_M74_75", "CPA_N77", "CPA_N78", "CPA_N79"]
+    },
+    "scale_to_unira": {"food": 0.85, "energy": "computed: 40 GJ / France final energy per person", "housing": "computed: 27 / France m2 per person", "health": 1.0,
+                       "care": 1.0, "education": 1.0, "mobility": 0.7, "clothing_goods": 0.6, "communication": 1.0, "leisure": 0.8,
+                       "public_administration": 0.8, "trade_finance_business": 0.5,
+                       "_why": "ASSUMPTIONS: less waste and meat (food); more public transport (mobility); repair and reuse (goods); no advertising, speculation or competitive duplication (trade, finance, business: v63 avoidable output); leaner administration"},
+    "automation_potential": {"food": 0.6, "energy": 0.6, "housing": 0.4, "health": 0.25, "care": 0.15, "education": 0.2, "mobility": 0.6,
+                             "clothing_goods": 0.7, "communication": 0.5, "leisure": 0.3, "public_administration": 0.5, "trade_finance_business": 0.6,
+                             "_source": "ASSUMPTION informed by task-based automation studies (high for routine physical and data tasks, low for care and teaching); human-only floor as in v86"}
+  }
+}
