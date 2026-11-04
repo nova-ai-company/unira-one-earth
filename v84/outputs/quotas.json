@@ -1,0 +1,207 @@
+{
+  "goods_share": 0.24,
+  "assumptions": {
+    "catch_up": 0.04,
+    "rich_growth": 0.01,
+    "reserve": 0.03,
+    "shocks": {
+      "5": 0.05,
+      "13": 0.05,
+      "15": 0.1,
+      "21": 0.05,
+      "29": 0.05,
+      "37": 0.05
+    }
+  },
+  "scenarios": {
+    "s1_DC": {
+      "year_poorer_half_reaches_90pct": 55,
+      "year_0": {
+        "year": 0,
+        "real_poorer_half_vs_full": 0.194,
+        "real_richer_half_vs_full": 0.602,
+        "real_world_vs_full": 0.398,
+        "gini_real_between_regions": 0.372,
+        "unspendable_money_share_of_income": 0.0,
+        "richest20_real_vs_today": 0.647,
+        "mean_salary_factor": 0.398,
+        "credit_outstanding_years": 0.151,
+        "reserve_years_of_goods": 0.03
+      },
+      "year_10": {
+        "year": 10,
+        "real_poorer_half_vs_full": 0.297,
+        "real_richer_half_vs_full": 0.721,
+        "real_world_vs_full": 0.505,
+        "gini_real_between_regions": 0.294,
+        "unspendable_money_share_of_income": 0.0,
+        "richest20_real_vs_today": 0.646,
+        "mean_salary_factor": 0.505,
+        "credit_outstanding_years": 1.41,
+        "reserve_years_of_goods": 0.283
+      },
+      "year_20": {
+        "year": 20,
+        "real_poorer_half_vs_full": 0.431,
+        "real_richer_half_vs_full": 0.833,
+        "real_world_vs_full": 0.628,
+        "gini_real_between_regions": 0.226,
+        "unspendable_money_share_of_income": 0.0,
+        "richest20_real_vs_today": 0.645,
+        "mean_salary_factor": 0.628,
+        "credit_outstanding_years": 2.013,
+        "reserve_years_of_goods": 0.477
+      },
+      "year_40": {
+        "year": 40,
+        "real_poorer_half_vs_full": 0.736,
+        "real_richer_half_vs_full": 0.99,
+        "real_world_vs_full": 0.856,
+        "gini_real_between_regions": 0.111,
+        "unspendable_money_share_of_income": 0.0,
+        "richest20_real_vs_today": 0.645,
+        "mean_salary_factor": 0.856,
+        "credit_outstanding_years": 2.007,
+        "reserve_years_of_goods": 0.837
+      },
+      "year_80": {
+        "year": 80,
+        "real_poorer_half_vs_full": 0.99,
+        "real_richer_half_vs_full": 1.0,
+        "real_world_vs_full": 0.995,
+        "gini_real_between_regions": 0.005,
+        "unspendable_money_share_of_income": 0.0,
+        "richest20_real_vs_today": 0.645,
+        "mean_salary_factor": 0.995,
+        "credit_outstanding_years": 1.559,
+        "reserve_years_of_goods": 1.518
+      }
+    },
+    "s2_DCQ": {
+      "year_poorer_half_reaches_90pct": 50,
+      "year_0": {
+        "year": 0,
+        "real_poorer_half_vs_full": 0.253,
+        "real_richer_half_vs_full": 0.562,
+        "real_world_vs_full": 0.407,
+        "gini_real_between_regions": 0.276,
+        "unspendable_money_share_of_income": 0.593,
+        "richest20_real_vs_today": 0.559,
+        "mean_salary_factor": 1.0,
+        "credit_outstanding_years": 0.0,
+        "reserve_years_of_goods": 0.03
+      },
+      "year_10": {
+        "year": 10,
+        "real_poorer_half_vs_full": 0.36,
+        "real_richer_half_vs_full": 0.687,
+        "real_world_vs_full": 0.52,
+        "gini_real_between_regions": 0.22,
+        "unspendable_money_share_of_income": 0.48,
+        "richest20_real_vs_today": 0.578,
+        "mean_salary_factor": 1.0,
+        "credit_outstanding_years": 0.0,
+        "reserve_years_of_goods": 0.283
+      },
+      "year_20": {
+        "year": 20,
+        "real_poorer_half_vs_full": 0.494,
+        "real_richer_half_vs_full": 0.8,
+        "real_world_vs_full": 0.644,
+        "gini_real_between_regions": 0.168,
+        "unspendable_money_share_of_income": 0.356,
+        "richest20_real_vs_today": 0.598,
+        "mean_salary_factor": 1.0,
+        "credit_outstanding_years": 0.0,
+        "reserve_years_of_goods": 0.477
+      },
+      "year_40": {
+        "year": 40,
+        "real_poorer_half_vs_full": 0.794,
+        "real_richer_half_vs_full": 0.987,
+        "real_world_vs_full": 0.885,
+        "gini_real_between_regions": 0.082,
+        "unspendable_money_share_of_income": 0.115,
+        "richest20_real_vs_today": 0.641,
+        "mean_salary_factor": 1.0,
+        "credit_outstanding_years": 0.0,
+        "reserve_years_of_goods": 0.837
+      },
+      "year_80": {
+        "year": 80,
+        "real_poorer_half_vs_full": 0.992,
+        "real_richer_half_vs_full": 1.0,
+        "real_world_vs_full": 0.996,
+        "gini_real_between_regions": 0.004,
+        "unspendable_money_share_of_income": 0.004,
+        "richest20_real_vs_today": 0.645,
+        "mean_salary_factor": 1.0,
+        "credit_outstanding_years": 0.0,
+        "reserve_years_of_goods": 1.518
+      }
+    },
+    "s3_hybrid": {
+      "year_poorer_half_reaches_90pct": 50,
+      "year_0": {
+        "year": 0,
+        "real_poorer_half_vs_full": 0.253,
+        "real_richer_half_vs_full": 0.562,
+        "real_world_vs_full": 0.407,
+        "gini_real_between_regions": 0.276,
+        "unspendable_money_share_of_income": 0.0,
+        "richest20_real_vs_today": 0.559,
+        "mean_salary_factor": 0.407,
+        "credit_outstanding_years": 0.0,
+        "reserve_years_of_goods": 0.03
+      },
+      "year_10": {
+        "year": 10,
+        "real_poorer_half_vs_full": 0.36,
+        "real_richer_half_vs_full": 0.687,
+        "real_world_vs_full": 0.52,
+        "gini_real_between_regions": 0.22,
+        "unspendable_money_share_of_income": 0.0,
+        "richest20_real_vs_today": 0.578,
+        "mean_salary_factor": 0.52,
+        "credit_outstanding_years": 0.0,
+        "reserve_years_of_goods": 0.283
+      },
+      "year_20": {
+        "year": 20,
+        "real_poorer_half_vs_full": 0.494,
+        "real_richer_half_vs_full": 0.8,
+        "real_world_vs_full": 0.644,
+        "gini_real_between_regions": 0.168,
+        "unspendable_money_share_of_income": 0.0,
+        "richest20_real_vs_today": 0.598,
+        "mean_salary_factor": 0.644,
+        "credit_outstanding_years": 0.0,
+        "reserve_years_of_goods": 0.477
+      },
+      "year_40": {
+        "year": 40,
+        "real_poorer_half_vs_full": 0.794,
+        "real_richer_half_vs_full": 0.987,
+        "real_world_vs_full": 0.885,
+        "gini_real_between_regions": 0.082,
+        "unspendable_money_share_of_income": 0.0,
+        "richest20_real_vs_today": 0.641,
+        "mean_salary_factor": 0.885,
+        "credit_outstanding_years": 0.0,
+        "reserve_years_of_goods": 0.837
+      },
+      "year_80": {
+        "year": 80,
+        "real_poorer_half_vs_full": 0.992,
+        "real_richer_half_vs_full": 1.0,
+        "real_world_vs_full": 0.996,
+        "gini_real_between_regions": 0.004,
+        "unspendable_money_share_of_income": 0.0,
+        "richest20_real_vs_today": 0.645,
+        "mean_salary_factor": 0.996,
+        "credit_outstanding_years": 0.0,
+        "reserve_years_of_goods": 1.518
+      }
+    }
+  }
+}
