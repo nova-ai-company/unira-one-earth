@@ -31,7 +31,8 @@ def main():
     shutil.copy(U / "v75" / "constitution" / "constitution.html", DOCS / "constitution.html")
     paper = (U / "v67" / "WORKING_PAPER_02.md").read_text(encoding="utf-8")
     (DOCS / "paper.html").write_text(page("UNIRA Working Paper 02", md_to_html(paper), 820), encoding="utf-8")
-    for src, name, title in ((U / "paper" / "UNIRA_PAPER_V1.md", "paper_v1.html", "UNIRA Paper V1"),
+    for src, name, title in ((U / "v91" / "PROPOSED_CONSTITUTION_CHANGES.md", "proposals.html", "Proposed constitution changes (V9.1)"),
+                             (U / "paper" / "UNIRA_PAPER_V1.md", "paper_v1.html", "UNIRA Paper V1"),
                              (U / "concept" / "UNIRA_CONCEPT.md", "concept.html", "UNIRA: the concept")):
         if src.exists():
             (DOCS / name).write_text(page(title, md_to_html(src.read_text(encoding="utf-8")), 820), encoding="utf-8")
@@ -59,6 +60,7 @@ made with an AI assistant, not yet peer reviewed (see the self-audit under "For 
 <div class='tile'><b><a href='paper_v1.html'>Paper V1</a></b><span>The consolidated paper: physical feasibility, validation, uncertainty (not yet peer reviewed)</span></div>
 <div class='tile'><b><a href='concept.html'>The concept</a></b><span>The design in one document, what is tested and what is not</span></div>
 <div class='tile'><b><a href='constitution.html'>Constitution</a></b><span>Draft Constitution of One Earth</span></div>
+<div class='tile'><b><a href='proposals.html'>Proposed changes</a></b><span>Three constitution proposals awaiting the author's decision (V9.1)</span></div>
 <div class='tile'><b><a href='simulator.html'>Simulator</a></b><span>Change the assumptions and see the results</span></div>
 <div class='tile'><b><a href='dashboard.html'>Dashboard</a></b><span>Key numbers and charts</span></div>
 <div class='tile'><b><a href='paper.html'>Working Paper 02</a></b><span>The full research log, V6.2–V9.1</span></div>
