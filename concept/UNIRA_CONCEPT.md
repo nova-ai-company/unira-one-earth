@@ -23,7 +23,7 @@ The premises are stated so that they can be argued with. The research does not s
 - **Data and science in every decision** (3a): decisions are based on published data and methods, with their uncertainty, reviewed by an independent Scientific Council.
 - **AI serves; people decide** (3b–3c): models advise, are open and signed, must beat simple benchmarks, never score persons, and have no role in rights, sanctions or force.
 - **Innovation** (3d): open public research, prizes, and rewards for visible contributions, never above the 5× ceiling.
-- **Subsidiarity and diversity** (4, 4a): decisions as close to people as possible; each region's religion, culture, language, education and daily life are its own; minorities protected.
+- **Subsidiarity and diversity** (4, 4a, 4c): decisions as close to people as possible; each region's religion, culture, language, education and daily life are its own; minorities protected; no community permanently excluded from power or office within its region, each region choosing how to include its communities.
 - **Borders and movement** (4b): regions control entry and settlement; everyone may leave any region; people in danger are protected first at home, then by shared shelter.
 - **Peace** (5–5c): war abolished; One Earth holds the only armed force, bound by ceilings, mixed composition, many keys and lawful-orders rules; prosperity does not guarantee peace (5.6).
 - **Rights that cannot be reduced** (6, 9, 9a): food and water, a home, health and education, an income, time, energy and connectivity, privacy, expression, movement and participation; emergencies are limited in time, scope and power.
@@ -76,11 +76,11 @@ Starting physical values (research, revised every five years): about 27 m² of l
 - **Peace Force** (5a–5c) and a civilian **Mediation Service** (10f): the only armed body, capped at a million members and 0.15% of world output, mixed by rule, deployed only with a Court ruling and double majority, weapons under three keys; mediation, early warning and dispute resolution are unarmed, supervised by lot-chosen panels, and never tools of surveillance.
 - **The protected core** (42a): rights, elections, term limits, the separation of powers, the Force's limits, court-order protection of money and data, emergency limits, the right to leave, and the equality of regions cannot be amended away.
 
-## 6. Peace and conflict (Articles 5, 10e.6, 10f)
+## 6. Peace and conflict (Articles 4c, 5, 10e.6, 10f)
 
-UNIRA removes some causes of war (scarcity, exclusion from essentials, debt, arms) and keeps a single, constrained force to enforce rights and rulings. It does not claim that prosperity brings peace: territorial, identity and power conflicts need political means. Essential services are delivered in a way that does not increase tensions, are never withheld from a region judged unstable, and are accompanied by mediation, early warning and cooperation between communities, independently monitored for whether they reduce or increase conflict risk.
+UNIRA removes some causes of war (scarcity, exclusion from essentials, debt, arms) and keeps a single, constrained force to enforce rights and rulings. It does not claim that prosperity brings peace: territorial, identity and power conflicts need political means. Essential services are delivered in a way that does not increase tensions, are never withheld from a region judged unstable, and are accompanied by mediation, early warning and cooperation between communities, independently monitored for whether they reduce or increase conflict risk. For ten years after a conflict ends, a region may ask for priority support for a lasting peace, allocated by the same needs-based formula (10f.6); institutional reform in weak or distrustful settings is introduced in agreed stages that never delay rights, services or safeguards (T-9).
 
-## 7. Transition (Transitional provisions T-1 to T-8)
+## 7. Transition (Transitional provisions T-1 to T-9)
 
 Regions join voluntarily by referendum and may leave the same way. On joining: wages move onto the U scale; essential prices are set from embodied work; savings convert at basket parity, with the cap phased in over ten years; homes are never seized and mortgages become zero-interest credit; enterprise owners are compensated in U under the cap; public debts of members are cancelled, with ordinary savers' bonds protected; armed forces are dissolved within five years with work, training and income for every member; safeguards and the Inspector-General are in place before any force is built; the D + Q + C framework applies from the first day.
 
@@ -88,9 +88,9 @@ Regions join voluntarily by referendum and may leave the same way. On joining: w
 
 | Status | Items |
 |---|---|
-| **Decided by the author** (constitution text) | the premises of section 1; rights; the living-standard levels; D + Q + C; fixed prices and the energy allowance; digital-only money; the 1.5-year cap with protected accounts; the time account; the housing lottery; health-need weighting; the Peace Force design; the voting rules; essential-infrastructure priority; peaceful delivery and conflict prevention; prosperity does not guarantee peace |
+| **Decided by the author** (constitution text) | the premises of section 1; rights; the living-standard levels; D + Q + C; fixed prices and the energy allowance; digital-only money; the 1.5-year cap with protected accounts; the time account; the housing lottery; health-need weighting; the Peace Force design; the voting rules; essential-infrastructure priority; peaceful delivery and conflict prevention; prosperity does not guarantee peace; no permanent exclusion of communities within regions (4c); ten years of support after a conflict ends (10f.6); institutional reform at a safe pace (T-9) |
 | **Provisional** (adopted, revisable with data) | the 25% equality credit (research only); the 20-year convergence target; the 5,000 U value of the base salary; the 146.4 U hour price; the 5,000 kWh allowance; the 150,000 / 120,000 U account limits; 15 years as the infrastructure planning objective |
-| **Proposed, not adopted** | Article 14c (automation); Article 4c (no permanent exclusion), 10f.6 (recovery after conflict) and T-9 (paced reform) from V9.1 |
+| **Proposed, not adopted** | Article 14c (automation) |
 | **Open** | whether today's French consumption level could ever be provided to everyone (recorded as impossible under current assumptions); the exact allocation formula weights; the size of the Mediation Service; the behaviour of people under these rules (section 11) |
 
 ## 9. How UNIRA differs from what exists

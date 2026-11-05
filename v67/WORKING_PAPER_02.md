@@ -418,7 +418,7 @@ UNIRA can start with willing regions and grow. Compared with a reformed market w
 - **Simulated** (33 conflicts in 2024, 80 years): moderate, strong and comprehensive reform avoid about 15%, 40% (34–50%) and 61% of conflict-years. Rising institutional quality alone accounts for about 11%. The rest depends on mediation and lower relapse, whose national-scale size is assumed.
 - **Dates:** essential security for 99% of humanity in years 48–58 (strong to comprehensive) instead of not within 80 years; the comfortable life for 95% in years 64–72.
 - **Costs and risks:** 2.5–7.8 million workers (courts, mediators, auditors). Rapid reform where institutions are weak can raise tension.
-- **Constitution:** unchanged pending the author's review. Proposals: no permanent exclusion of communities within regions, recovery support after conflicts, and paced reform where institutions are weak.
+- **Constitution (author's decision, 2026-11-05):** three provisions added: Article 4c (no permanent exclusion of communities within regions), Article 10f.6 (ten years of support after a conflict ends) and T-9 (institutional reform at a safe pace where institutions are weak).
 
 <!-- refs:begin sources §11 -->
 

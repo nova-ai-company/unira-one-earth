@@ -1,6 +1,8 @@
-# V9.1 — proposed constitution changes (NOT applied; for the author's review of the findings)
+# V9.1 — proposed constitution changes
 
-None of these texts has been added to `v75/constitution/UNIRA_CONSTITUTION_DRAFT.md`. The author asked for changes only where the evidence supports them. Each proposal below states its evidence and how strong it is. Accept, change or reject each one separately.
+**Status (2026-11-05): all three approved by the author on the research's recommendation and incorporated** as Article 4c, Article 10f.6 and T-9 of the Draft Constitution (with the drafting clarifications listed in its notes for the author, and the consistency check in `CONSTITUTION_CONSISTENCY_CHECK.md`). The original proposals follow for the record.
+
+The author asked for changes only where the evidence supports them. Each proposal below states its evidence and how strong it is. Accept, change or reject each one separately.
 
 ## What the evidence does not justify changing
 
