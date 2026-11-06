@@ -70,6 +70,8 @@ These are tests of **physical feasibility under stated assumptions**, not foreca
 | `v81/prices/` | Price calculator (Article 13): embodied hours × 146.4 U + resource surcharge, 62 product groups, examples |
 | `v82/` | Completing the economy: production signals, hard jobs, investment, restaurant and supermarket accounts, world money (option C), trade, resale, sizes, behaviour register |
 | `v80/pilot/` | Pilot plan: precedents (TZCLD, Marienthal, shorter-week trials), predictions, failure criteria, budget |
+| `v92/` | The working week during the transition: measured starting week (France 35 h, Europe 33–40 h) falling to 30 h as productivity rises, pay unchanged; proposal T-10 awaiting the author's decision |
+| `concept/UNIRA_TRANSITION_PLAN.md` | The transition plan: phases, objectives and measured triggers from joining to a stable UNIRA economy, with model dates and their uncertainty |
 | `v87/`–`v89/` | Living-standard levels: real cost, essential infrastructure, integrated dates |
 | `v90/` | Fair distribution and armed conflict: evidence, country conflict model coupled with V8.9, scenarios A–D, proposed (not applied) constitution changes |
 | `v91/` | Fair institutions and armed conflict: historical panel (UCDP/PRIO, World Bank governance indicators), institutional scenarios A–D, proposed (not applied) constitution changes |

@@ -37,3 +37,4 @@ Verification rule: "yes" means the exact number was read in fetched source text 
 - Grubler et al. 2018 LED (245 EJ final in 2050): only quoted in MH2020; the per-capita value was not stated.
 - Total EU passenger-km per capita (all modes): not found. Only car km was verified.
 - SDG 4.1 wording (12 years): not fetched.
+- **Research item (2026-11-06):** the comfortable health threshold (131 per 10,000) is the EU's staff density, not an outcome. It decides the date of Level 2 health more than any training lever (`v66/outputs/health_levers.json`: 23 years at 131, 15 at 100, 8 at 80). An outcome-based threshold (healthy life years, waiting times, avoidable mortality) and the share of need that community health workers and care workers (not counted in the 131) can meet are to be established from verified sources before any change to the standard.

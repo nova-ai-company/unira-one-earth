@@ -35,7 +35,8 @@ def main():
                              (U / "v92" / "PROPOSED_CONSTITUTION_CHANGES.md", "proposals_v92.html", "Proposed constitution changes (V9.2)"),
                              (U / "v92" / "RESEARCH_NOTE.md", "v92_hours.html", "V9.2 — The working week during the transition"),
                              (U / "paper" / "UNIRA_PAPER_V1.md", "paper_v1.html", "UNIRA Paper V1"),
-                             (U / "concept" / "UNIRA_CONCEPT.md", "concept.html", "UNIRA: the concept")):
+                             (U / "concept" / "UNIRA_CONCEPT.md", "concept.html", "UNIRA: the concept"),
+                             (U / "concept" / "UNIRA_TRANSITION_PLAN.md", "transition.html", "UNIRA: the transition plan")):
         if src.exists():
             (DOCS / name).write_text(page(title, md_to_html(src.read_text(encoding="utf-8")), 820), encoding="utf-8")
     for src, name in ((U / "v67" / "dashboard" / "WORKING_PAPER_02.docx", "UNIRA_Working_Paper_02.docx"),
@@ -61,6 +62,7 @@ made with an AI assistant, not yet peer reviewed (see the self-audit under "For 
 <div class='tiles'>
 <div class='tile'><b><a href='paper_v1.html'>Paper V1</a></b><span>The consolidated paper: physical feasibility, validation, uncertainty (not yet peer reviewed)</span></div>
 <div class='tile'><b><a href='concept.html'>The concept</a></b><span>The design in one document, what is tested and what is not</span></div>
+<div class='tile'><b><a href='transition.html'>The transition plan</a></b><span>Phases, objectives and measured triggers from joining to a stable UNIRA economy, with the dates the models give and their uncertainty</span></div>
 <div class='tile'><b><a href='constitution.html'>Constitution</a></b><span>Draft Constitution of One Earth</span></div>
 <div class='tile'><b><a href='proposals_v92.html'>Proposed changes (V9.2)</a></b><span>The working week during the transition: start where the reserve covers it, fall to 30 h, same pay — awaiting the author's decision (<a href='v92_hours.html'>research note</a>)</span></div>
 <div class='tile'><b><a href='proposals.html'>Approved changes (V9.1)</a></b><span>Articles 4c, 10f.6 and T-9, approved 5 November 2026</span></div>

@@ -42,6 +42,30 @@ The world has 47.4 m doctors, nurses and midwives (58 per 10,000). Population re
 | **ambitious:** training +10%/yr, 50% of soldiers volunteer, strong prevention (−14% at 30 yrs) | **42 / 23 / 18** |
 
 - **Training capacity (schools, teachers) is the bottleneck.** Without expanding it, the world never reaches comfortable care. With an ambitious UNIRA programme it takes about 18–42 years (central 23).
+
+### 2b. Which levers shorten it? (author's question, 2026-11-06; `model/run_health_levers.py`, `outputs/health_levers.json`)
+
+Parameter changes on the ambitious scenario; low / central / high training capacity. None is a new mechanism and none is evidence that the change can be achieved.
+
+| Lever | Years until everyone has EU-level care |
+|---|---|
+| Ambitious plan as published (exits 3%/yr, 4-year courses, capacity cap 3×, +10%/yr) | 42 / 23 / 18 |
+| Keep more workers: exits 3% → 2% a year | 30 / 20 / 16 |
+| Exits 3% → 1.5% a year | 27 / 18 / 15 |
+| Shorter courses, 4 → 3 years | 41 / 22 / 17 |
+| Shorter courses, 4 → 2 years | 40 / 21 / 16 |
+| Training capacity cap 3× → 4× today's intake | 30 / 21 / 18 |
+| Capacity cap 5× and +15%/yr (faculties and trainers first) | 23 / 17 / 15 |
+| Retention 2% + courses 3 years + capacity 4× | 24 / 18 / 15 |
+| **All levers** (retention 2%, courses 3 years, capacity 5×, +15%/yr) | **19 / 15 / 13** |
+| Target 131 → 100 per 10,000 | 24 / 15 / 12 |
+| Target 131 → 80 per 10,000 | 14 / 8 / 7 |
+| Target 44.5 (WHO threshold, world total) | 0 / 0 / 0 (the world total is already above it; the problem is regional, see V7.9) |
+
+- **The capacity cap binds, not the course length.** Two years off the courses saves 1–2 years; faculties and trainers built first save 6 years in the central case. "Training and health capacity first" (T-8.5) should read *faculties first*.
+- **Retention is worth as much as capacity.** A one-point fall in yearly exits saves 3 years (12 in the low case). Whether a 30-hour week and better conditions achieve it is untested; people trained in health who no longer practise are a reserve the model does not count (research item).
+- **The target decides the date more than any lever.** 131 per 10,000 is the EU's staff density (medium confidence in `v65/thresholds`), not an outcome. An outcome-based Level 2 threshold, and the share of need that community health workers and care workers (not counted in the 131) can meet, are open research questions (concept §11.13); sources must be verified before either enters the paper. The 100 and 80 rows are illustrative, not proposals.
+- **Essential care for everyone is a distribution problem, not a world-total problem:** with "decent for everyone first" allocation every region reaches 44.5 per 10,000 by year 6–7 (V7.9), provided workers are trained where people live.
 - **Disarmament (rule 19):** it matters most early. Volunteers lift the world to 71 per 10,000 by year 10, against 64 without them, but the training-capacity cap limits the total effect. 27.4 m armed-forces personnel (0.79% of the labour force) also become available for all other work.
 - **Healthier lives (rule 19), evidence-based:**
   - 41–48% of the world's disease burden is attributable to modifiable risks.

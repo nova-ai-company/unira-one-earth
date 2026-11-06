@@ -1,0 +1,210 @@
+{
+  "base_scenario": "5_ambitious_10pct_50pct_prevention_high",
+  "stock0": 47404421.067994,
+  "need_at_131_for_2050_population_m": 126.6,
+  "levers": {
+    "ambitious": {
+      "label": "Ambitious plan as published (exits 3%/yr, 4-year courses, capacity cap 3x, +10%/yr)",
+      "overrides": {},
+      "years": {
+        "low": 42,
+        "central": 23,
+        "high": 18
+      },
+      "per_10k_y30": {
+        "low": 97.8,
+        "central": 134.3,
+        "high": 170.1
+      }
+    },
+    "retention_2pct": {
+      "label": "Exits 3% -> 2% a year (retention)",
+      "overrides": {
+        "exit_rate": 0.02
+      },
+      "years": {
+        "low": 30,
+        "central": 20,
+        "high": 16
+      },
+      "per_10k_y30": {
+        "low": 114.4,
+        "central": 154.9,
+        "high": 194.7
+      }
+    },
+    "retention_1p5pct": {
+      "label": "Exits 3% -> 1.5% a year",
+      "overrides": {
+        "exit_rate": 0.015
+      },
+      "years": {
+        "low": 27,
+        "central": 18,
+        "high": 15
+      },
+      "per_10k_y30": {
+        "low": 124.2,
+        "central": 167.0,
+        "high": 208.9
+      }
+    },
+    "courses_3y": {
+      "label": "Courses 4 -> 3 years (shorter tracks)",
+      "overrides": {
+        "lead_time": 3
+      },
+      "years": {
+        "low": 41,
+        "central": 22,
+        "high": 17
+      },
+      "per_10k_y30": {
+        "low": 99.3,
+        "central": 136.6,
+        "high": 173.2
+      }
+    },
+    "courses_2y": {
+      "label": "Courses 4 -> 2 years",
+      "overrides": {
+        "lead_time": 2
+      },
+      "years": {
+        "low": 40,
+        "central": 21,
+        "high": 16
+      },
+      "per_10k_y30": {
+        "low": 100.7,
+        "central": 138.8,
+        "high": 176.3
+      }
+    },
+    "capacity_4x": {
+      "label": "Training capacity cap 3x -> 4x today's intake",
+      "overrides": {
+        "intake_capacity_multiple": 4.0
+      },
+      "years": {
+        "low": 30,
+        "central": 21,
+        "high": 18
+      },
+      "per_10k_y30": {
+        "low": 113.8,
+        "central": 157.4,
+        "high": 200.9
+      }
+    },
+    "capacity_5x_exp15": {
+      "label": "Capacity cap 5x and +15%/yr expansion (faculties and trainers first)",
+      "overrides": {
+        "intake_capacity_multiple": 5.0,
+        "expansion": 0.15
+      },
+      "years": {
+        "low": 23,
+        "central": 17,
+        "high": 15
+      },
+      "per_10k_y30": {
+        "low": 139.3,
+        "central": 195.5,
+        "high": 251.8
+      }
+    },
+    "target_100": {
+      "label": "Target 131 -> 100 per 10,000",
+      "overrides": {
+        "tau_per_10k": 100.0
+      },
+      "years": {
+        "low": 24,
+        "central": 15,
+        "high": 12
+      },
+      "per_10k_y30": {
+        "low": 97.8,
+        "central": 134.3,
+        "high": 170.1
+      }
+    },
+    "target_80": {
+      "label": "Target 131 -> 80 per 10,000",
+      "overrides": {
+        "tau_per_10k": 80.0
+      },
+      "years": {
+        "low": 14,
+        "central": 8,
+        "high": 7
+      },
+      "per_10k_y30": {
+        "low": 97.8,
+        "central": 134.3,
+        "high": 170.1
+      }
+    },
+    "target_decent": {
+      "label": "Target 44.5 per 10,000 (decent; world total only, regions differ)",
+      "overrides": {
+        "tau_per_10k": 44.5
+      },
+      "years": {
+        "low": 0,
+        "central": 0,
+        "high": 0
+      },
+      "per_10k_y30": {
+        "low": 97.8,
+        "central": 134.3,
+        "high": 170.1
+      }
+    },
+    "retention_courses_capacity": {
+      "label": "Retention 2% + courses 3 years + capacity 4x",
+      "overrides": {
+        "exit_rate": 0.02,
+        "lead_time": 3,
+        "intake_capacity_multiple": 4.0
+      },
+      "years": {
+        "low": 24,
+        "central": 18,
+        "high": 15
+      },
+      "per_10k_y30": {
+        "low": 134.4,
+        "central": 183.9,
+        "high": 233.4
+      }
+    },
+    "all": {
+      "label": "All levers: retention 2%, courses 3 years, capacity 5x, +15%/yr",
+      "overrides": {
+        "exit_rate": 0.02,
+        "lead_time": 3,
+        "intake_capacity_multiple": 5.0,
+        "expansion": 0.15
+      },
+      "years": {
+        "low": 19,
+        "central": 15,
+        "high": 13
+      },
+      "per_10k_y30": {
+        "low": 163.4,
+        "central": 227.3,
+        "high": 291.2
+      }
+    }
+  },
+  "evidence": {
+    "exit_rate": "3%/yr MODEL_DERIVED (France nurses); 2% and 1.5% are SYNTHETIC targets, untested",
+    "lead_time": "4 yr weighted (REPORTED_NEEDS_RECHECK); 3 and 2 yr illustrate task shifting / shorter tracks, SYNTHETIC",
+    "intake_capacity_multiple": "3x SYNTHETIC; 4x and 5x SYNTHETIC (faculties and trainers must be built first)",
+    "tau_per_10k": "131 = EU density (medium confidence, not outcome-based); 100 and 80 are illustrative; 44.5 = WHO threshold",
+    "reading": "the capacity cap binds, so course length matters little; the target definition and retention matter most"
+  }
+}

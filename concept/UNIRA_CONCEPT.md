@@ -82,7 +82,7 @@ UNIRA removes some causes of war (scarcity, exclusion from essentials, debt, arm
 
 ## 7. Transition (Transitional provisions T-1 to T-9)
 
-Regions join voluntarily by referendum and may leave the same way. On joining: wages move onto the U scale; essential prices are set from embodied work; savings convert at basket parity, with the cap phased in over ten years; homes are never seized and mortgages become zero-interest credit; enterprise owners are compensated in U under the cap; public debts of members are cancelled, with ordinary savers' bonds protected; armed forces are dissolved within five years with work, training and income for every member; safeguards and the Inspector-General are in place before any force is built; the D + Q + C framework applies from the first day.
+The phased plan, with objectives, measured triggers and the dates the models give, is in `UNIRA_TRANSITION_PLAN.md`. Regions join voluntarily by referendum and may leave the same way. On joining: wages move onto the U scale; essential prices are set from embodied work; savings convert at basket parity, with the cap phased in over ten years; homes are never seized and mortgages become zero-interest credit; enterprise owners are compensated in U under the cap; public debts of members are cancelled, with ordinary savers' bonds protected; armed forces are dissolved within five years with work, training and income for every member; safeguards and the Inspector-General are in place before any force is built; the D + Q + C framework applies from the first day.
 
 ## 8. What is decided, what is provisional, what is open
 
@@ -145,6 +145,7 @@ These are the questions the research cannot answer with models. They are the rea
 10. **Measurement.** Regional and national averages hide inequality within countries; floor-area and workforce figures are partly modelled; input–output coefficients are euro-based proxies for physical structure.
 11. **Conflict.** Fair distribution and fair institutions are associated with less war; causation is not established, and wars between states are outside the models.
 12. **Automation.** Model B (guaranteed income plus rewards for work) is a proposal with an illustrative simulation, not a tested design.
+13. **What "comfortable" health care is.** The Level 2 health target (131 doctors, nurses and midwives per 10,000) is the EU's staff density, not a measured outcome. It decides the date more than any other lever: 23 years at 131, 15 at 100, 8 at 80 (v66 levers). An outcome-based threshold (healthy life years, waiting times) and the share of need that community health workers and care workers can meet are open research questions; sources must be verified before either enters the paper.
 
 ## 12. How UNIRA could be tested
 
