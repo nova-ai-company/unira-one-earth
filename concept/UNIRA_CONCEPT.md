@@ -90,7 +90,7 @@ Regions join voluntarily by referendum and may leave the same way. On joining: w
 |---|---|
 | **Decided by the author** (constitution text) | the premises of section 1; rights; the living-standard levels; D + Q + C; fixed prices and the energy allowance; digital-only money; the 1.5-year cap with protected accounts; the time account; the housing lottery; health-need weighting; the Peace Force design; the voting rules; essential-infrastructure priority; peaceful delivery and conflict prevention; prosperity does not guarantee peace; no permanent exclusion of communities within regions (4c); ten years of support after a conflict ends (10f.6); institutional reform at a safe pace (T-9) |
 | **Provisional** (adopted, revisable with data) | the 25% equality credit (research only); the 20-year convergence target; the 5,000 U value of the base salary; the 146.4 U hour price; the 5,000 kWh allowance; the 150,000 / 120,000 U account limits; 15 years as the infrastructure planning objective |
-| **Proposed, not adopted** | Article 14c (automation) |
+| **Proposed, not adopted** | Article 14c (automation); the working week during the transition (V9.2, `v92/PROPOSED_CONSTITUTION_CHANGES.md`: a measured starting week of 33–40 hours that falls to 30 as productivity rises, pay unchanged — the author's design direction of 6 November 2026, text awaiting approval) |
 | **Open** | whether today's French consumption level could ever be provided to everyone (recorded as impossible under current assumptions); the exact allocation formula weights; the size of the Mediation Service; the behaviour of people under these rules (section 11) |
 
 ## 9. How UNIRA differs from what exists
@@ -112,6 +112,7 @@ The comparison with planned economies is the one critics will make first. UNIRA'
 | Component | Status | Where |
 |---|---|---|
 | 30-hour week with universal work (France, Europe) | **simulated on official data**; behavioural response assumed | v62–v63, paper §3 |
+| Working week during the transition (measured starting week, falling to 30 h) | **computed on official data** for 30 European countries; reserve take-up and entrant productivity assumed; arrival date at 30 h depends on unforecast productivity | v92 |
 | World sufficiency of food, energy, health workers | **computed from official data** against decent-living thresholds | v65, paper §4 |
 | Ecological limits (energy, CO₂, land, materials) | **literature ranges**, model-derived totals | v66, paper §5 |
 | Health-worker training plan | **simulated**; training-growth rates assumed | v66, paper §5 |

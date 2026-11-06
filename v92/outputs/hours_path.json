@@ -1,0 +1,870 @@
+{
+  "distribution_2023_countries": {
+    "0.75": {
+      "33": 2,
+      "35": 3,
+      "36": 4,
+      "37": 4,
+      "38": 8,
+      "39": 7,
+      "40": 2
+    },
+    "1.0": {
+      "32": 2,
+      "34": 4,
+      "35": 2,
+      "36": 5,
+      "37": 7,
+      "38": 6,
+      "39": 4
+    },
+    "n": 30
+  },
+  "evidence_classes": {
+    "FR productivity trends": "MODEL_DERIVED from Eurostat national accounts (v62)",
+    "entrant productivity": "SYNTHETIC_ASSUMPTION (v62)",
+    "hours and reserve": "VERIFIED_OFFICIAL (Eurostat, v62 manifest)",
+    "illustrative growth rates": "SYNTHETIC_ASSUMPTION (not forecasts; AI effects not assumed)",
+    "reserve take-up": "SYNTHETIC_ASSUMPTION (no hours cut created net jobs by itself, v62 \u00a74c)"
+  },
+  "france": {
+    "2023": {
+      "0.75": [
+        {
+          "cap": 30,
+          "employment_rate": 74.3,
+          "gain_no_mobilisation": 0.20207275296804839,
+          "hours_lost_share": 0.16810359644963982,
+          "reserve_closes_share": 0.3851975497292643,
+          "reserve_persons_ths": 3124,
+          "residual_gain": 0.11526299110405369,
+          "usual_hours_all": 37.0
+        },
+        {
+          "cap": 31,
+          "employment_rate": 74.3,
+          "gain_no_mobilisation": 0.17538584801214951,
+          "hours_lost_share": 0.14921555190473637,
+          "reserve_closes_share": 0.4522444699641271,
+          "reserve_persons_ths": 3124,
+          "residual_gain": 0.08900864456645108,
+          "usual_hours_all": 37.0
+        },
+        {
+          "cap": 32,
+          "employment_rate": 74.3,
+          "gain_no_mobilisation": 0.14985814598341785,
+          "hours_lost_share": 0.13032750735983306,
+          "reserve_closes_share": 0.5387252801221378,
+          "reserve_persons_ths": 3124,
+          "residual_gain": 0.06396197256761771,
+          "usual_hours_all": 37.0
+        },
+        {
+          "cap": 33,
+          "employment_rate": 74.3,
+          "gain_no_mobilisation": 0.12541572369167575,
+          "hours_lost_share": 0.11143946281492978,
+          "reserve_closes_share": 0.6545216191472709,
+          "reserve_persons_ths": 3124,
+          "residual_gain": 0.04004152072839218,
+          "usual_hours_all": 37.0
+        },
+        {
+          "cap": 34,
+          "employment_rate": 74.3,
+          "gain_no_mobilisation": 0.10199081262938892,
+          "hours_lost_share": 0.09255141827002648,
+          "reserve_closes_share": 0.817581770019397,
+          "reserve_persons_ths": 3124,
+          "residual_gain": 0.017172998773050452,
+          "usual_hours_all": 37.0
+        },
+        {
+          "cap": 35,
+          "employment_rate": 74.3,
+          "gain_no_mobilisation": 0.07952117150041782,
+          "hours_lost_share": 0.07366337372512287,
+          "reserve_closes_share": 1.0642625110823611,
+          "reserve_persons_ths": 3124,
+          "residual_gain": 0.0,
+          "usual_hours_all": 37.0
+        },
+        {
+          "cap": 36,
+          "employment_rate": 74.3,
+          "gain_no_mobilisation": 0.057949533979803736,
+          "hours_lost_share": 0.05477532918021974,
+          "reserve_closes_share": 1.481067901154257,
+          "reserve_persons_ths": 3124,
+          "residual_gain": 0.0,
+          "usual_hours_all": 37.0
+        },
+        {
+          "cap": 37,
+          "employment_rate": 74.3,
+          "gain_no_mobilisation": 0.03722312138756689,
+          "hours_lost_share": 0.035887284635316284,
+          "reserve_closes_share": 2.3366158070913183,
+          "reserve_persons_ths": 3124,
+          "residual_gain": 0.0,
+          "usual_hours_all": 37.0
+        },
+        {
+          "cap": 38,
+          "employment_rate": 74.3,
+          "gain_no_mobilisation": 0.01729321154540764,
+          "hours_lost_share": 0.016999240090412995,
+          "reserve_closes_share": 5.093381281777388,
+          "reserve_persons_ths": 3124,
+          "residual_gain": 0.0,
+          "usual_hours_all": 37.0
+        },
+        {
+          "cap": 39,
+          "employment_rate": 74.3,
+          "gain_no_mobilisation": 0.0,
+          "hours_lost_share": 0.0,
+          "reserve_closes_share": null,
+          "reserve_persons_ths": 3124,
+          "residual_gain": 0.0,
+          "usual_hours_all": 37.0
+        },
+        {
+          "cap": 40,
+          "employment_rate": 74.3,
+          "gain_no_mobilisation": 0.0,
+          "hours_lost_share": 0.0,
+          "reserve_closes_share": null,
+          "reserve_persons_ths": 3124,
+          "residual_gain": 0.0,
+          "usual_hours_all": 37.0
+        }
+      ],
+      "1.0": [
+        {
+          "cap": 30,
+          "employment_rate": 74.3,
+          "gain_no_mobilisation": 0.20207275296804839,
+          "hours_lost_share": 0.16810359644963982,
+          "reserve_closes_share": 0.5135967329723524,
+          "reserve_persons_ths": 3124,
+          "residual_gain": 0.08904718279471613,
+          "usual_hours_all": 37.0
+        },
+        {
+          "cap": 31,
+          "employment_rate": 74.3,
+          "gain_no_mobilisation": 0.17538584801214951,
+          "hours_lost_share": 0.14921555190473637,
+          "reserve_closes_share": 0.6029926266188361,
+          "reserve_persons_ths": 3124,
+          "residual_gain": 0.06296999640911438,
+          "usual_hours_all": 37.0
+        },
+        {
+          "cap": 32,
+          "employment_rate": 74.3,
+          "gain_no_mobilisation": 0.14985814598341785,
+          "hours_lost_share": 0.13032750735983306,
+          "reserve_closes_share": 0.7183003734961839,
+          "reserve_persons_ths": 3124,
+          "residual_gain": 0.038112440171653716,
+          "usual_hours_all": 37.0
+        },
+        {
+          "cap": 33,
+          "employment_rate": 74.3,
+          "gain_no_mobilisation": 0.12541572369167575,
+          "hours_lost_share": 0.11143946281492978,
+          "reserve_closes_share": 0.8726954921963612,
+          "reserve_persons_ths": 3124,
+          "residual_gain": 0.014390906092475841,
+          "usual_hours_all": 37.0
+        },
+        {
+          "cap": 34,
+          "employment_rate": 74.3,
+          "gain_no_mobilisation": 0.10199081262938892,
+          "hours_lost_share": 0.09255141827002648,
+          "reserve_closes_share": 1.0901090266925293,
+          "reserve_persons_ths": 3124,
+          "residual_gain": 0.0,
+          "usual_hours_all": 37.0
+        },
+        {
+          "cap": 35,
+          "employment_rate": 74.3,
+          "gain_no_mobilisation": 0.07952117150041782,
+          "hours_lost_share": 0.07366337372512287,
+          "reserve_closes_share": 1.419016681443148,
+          "reserve_persons_ths": 3124,
+          "residual_gain": 0.0,
+          "usual_hours_all": 37.0
+        },
+        {
+          "cap": 36,
+          "employment_rate": 74.3,
+          "gain_no_mobilisation": 0.057949533979803736,
+          "hours_lost_share": 0.05477532918021974,
+          "reserve_closes_share": 1.974757201539009,
+          "reserve_persons_ths": 3124,
+          "residual_gain": 0.0,
+          "usual_hours_all": 37.0
+        },
+        {
+          "cap": 37,
+          "employment_rate": 74.3,
+          "gain_no_mobilisation": 0.03722312138756689,
+          "hours_lost_share": 0.035887284635316284,
+          "reserve_closes_share": 3.1154877427884244,
+          "reserve_persons_ths": 3124,
+          "residual_gain": 0.0,
+          "usual_hours_all": 37.0
+        },
+        {
+          "cap": 38,
+          "employment_rate": 74.3,
+          "gain_no_mobilisation": 0.01729321154540764,
+          "hours_lost_share": 0.016999240090412995,
+          "reserve_closes_share": 6.791175042369851,
+          "reserve_persons_ths": 3124,
+          "residual_gain": 0.0,
+          "usual_hours_all": 37.0
+        },
+        {
+          "cap": 39,
+          "employment_rate": 74.3,
+          "gain_no_mobilisation": 0.0,
+          "hours_lost_share": 0.0,
+          "reserve_closes_share": null,
+          "reserve_persons_ths": 3124,
+          "residual_gain": 0.0,
+          "usual_hours_all": 37.0
+        },
+        {
+          "cap": 40,
+          "employment_rate": 74.3,
+          "gain_no_mobilisation": 0.0,
+          "hours_lost_share": 0.0,
+          "reserve_closes_share": null,
+          "reserve_persons_ths": 3124,
+          "residual_gain": 0.0,
+          "usual_hours_all": 37.0
+        }
+      ]
+    },
+    "2024": {
+      "0.75": [
+        {
+          "cap": 30,
+          "employment_rate": 75.0,
+          "gain_no_mobilisation": 0.2000737929575147,
+          "hours_lost_share": 0.16671790862497213,
+          "reserve_closes_share": 0.38189953707584384,
+          "reserve_persons_ths": 3098,
+          "residual_gain": 0.11488737897825407,
+          "usual_hours_all": 36.9
+        },
+        {
+          "cap": 31,
+          "employment_rate": 75.0,
+          "gain_no_mobilisation": 0.17339586551943054,
+          "hours_lost_share": 0.14777269173577062,
+          "reserve_closes_share": 0.4490076300479525,
+          "reserve_persons_ths": 3098,
+          "residual_gain": 0.08863873557861046,
+          "usual_hours_all": 36.9
+        },
+        {
+          "cap": 32,
+          "employment_rate": 75.0,
+          "gain_no_mobilisation": 0.1478782573220847,
+          "hours_lost_share": 0.12882747484656928,
+          "reserve_closes_share": 0.5358533974236221,
+          "reserve_persons_ths": 3098,
+          "residual_gain": 0.06359764547114333,
+          "usual_hours_all": 36.9
+        },
+        {
+          "cap": 33,
+          "employment_rate": 75.0,
+          "gain_no_mobilisation": 0.12344687985345781,
+          "hours_lost_share": 0.10988225795736795,
+          "reserve_closes_share": 0.6526459811357295,
+          "reserve_persons_ths": 3098,
+          "residual_gain": 0.03968265315104347,
+          "usual_hours_all": 36.9
+        },
+        {
+          "cap": 34,
+          "employment_rate": 75.0,
+          "gain_no_mobilisation": 0.10003382073230593,
+          "hours_lost_share": 0.09093704106816661,
+          "reserve_closes_share": 0.8181021413945483,
+          "reserve_persons_ths": 3098,
+          "residual_gain": 0.0168194681162952,
+          "usual_hours_all": 36.9
+        },
+        {
+          "cap": 35,
+          "employment_rate": 75.0,
+          "gain_no_mobilisation": 0.07757671328194071,
+          "hours_lost_share": 0.07199182417896527,
+          "reserve_closes_share": 1.0706404912632714,
+          "reserve_persons_ths": 3098,
+          "residual_gain": 0.0,
+          "usual_hours_all": 36.9
+        },
+        {
+          "cap": 36,
+          "employment_rate": 75.0,
+          "gain_no_mobilisation": 0.05601818177971918,
+          "hours_lost_share": 0.05304660728976377,
+          "reserve_closes_share": 1.5035633767525147,
+          "reserve_persons_ths": 3098,
+          "residual_gain": 0.0,
+          "usual_hours_all": 36.9
+        },
+        {
+          "cap": 37,
+          "employment_rate": 75.0,
+          "gain_no_mobilisation": 0.035305351992073186,
+          "hours_lost_share": 0.03410139040056228,
+          "reserve_closes_share": 2.417511690563145,
+          "reserve_persons_ths": 3098,
+          "residual_gain": 0.0,
+          "usual_hours_all": 36.9
+        },
+        {
+          "cap": 38,
+          "employment_rate": 75.0,
+          "gain_no_mobilisation": 0.015389418203898053,
+          "hours_lost_share": 0.01515617351136094,
+          "reserve_closes_share": 5.616330788900356,
+          "reserve_persons_ths": 3098,
+          "residual_gain": 0.0,
+          "usual_hours_all": 36.9
+        },
+        {
+          "cap": 39,
+          "employment_rate": 75.0,
+          "gain_no_mobilisation": -1.1102230246251565e-16,
+          "hours_lost_share": -1.6101900526544773e-16,
+          "reserve_closes_share": null,
+          "reserve_persons_ths": 3098,
+          "residual_gain": 0.0,
+          "usual_hours_all": 36.9
+        },
+        {
+          "cap": 40,
+          "employment_rate": 75.0,
+          "gain_no_mobilisation": -1.1102230246251565e-16,
+          "hours_lost_share": -1.6101900526544773e-16,
+          "reserve_closes_share": null,
+          "reserve_persons_ths": 3098,
+          "residual_gain": 0.0,
+          "usual_hours_all": 36.9
+        }
+      ],
+      "1.0": [
+        {
+          "cap": 30,
+          "employment_rate": 75.0,
+          "gain_no_mobilisation": 0.2000737929575147,
+          "hours_lost_share": 0.16671790862497213,
+          "reserve_closes_share": 0.5091993827677918,
+          "reserve_persons_ths": 3098,
+          "residual_gain": 0.08911729785178957,
+          "usual_hours_all": 36.9
+        },
+        {
+          "cap": 31,
+          "employment_rate": 75.0,
+          "gain_no_mobilisation": 0.17339586551943054,
+          "hours_lost_share": 0.14777269173577062,
+          "reserve_closes_share": 0.5986768400639367,
+          "reserve_persons_ths": 3098,
+          "residual_gain": 0.06304336539393263,
+          "usual_hours_all": 36.9
+        },
+        {
+          "cap": 32,
+          "employment_rate": 75.0,
+          "gain_no_mobilisation": 0.1478782573220847,
+          "hours_lost_share": 0.12882747484656928,
+          "reserve_closes_share": 0.7144711965648295,
+          "reserve_persons_ths": 3098,
+          "residual_gain": 0.038188685626268315,
+          "usual_hours_all": 36.9
+        },
+        {
+          "cap": 33,
+          "employment_rate": 75.0,
+          "gain_no_mobilisation": 0.12344687985345781,
+          "hours_lost_share": 0.10988225795736795,
+          "reserve_closes_share": 0.8701946415143059,
+          "reserve_persons_ths": 3098,
+          "residual_gain": 0.01446969152161337,
+          "usual_hours_all": 36.9
+        },
+        {
+          "cap": 34,
+          "employment_rate": 75.0,
+          "gain_no_mobilisation": 0.10003382073230593,
+          "hours_lost_share": 0.09093704106816661,
+          "reserve_closes_share": 1.090802855192731,
+          "reserve_persons_ths": 3098,
+          "residual_gain": 0.0,
+          "usual_hours_all": 36.9
+        },
+        {
+          "cap": 35,
+          "employment_rate": 75.0,
+          "gain_no_mobilisation": 0.07757671328194071,
+          "hours_lost_share": 0.07199182417896527,
+          "reserve_closes_share": 1.427520655017695,
+          "reserve_persons_ths": 3098,
+          "residual_gain": 0.0,
+          "usual_hours_all": 36.9
+        },
+        {
+          "cap": 36,
+          "employment_rate": 75.0,
+          "gain_no_mobilisation": 0.05601818177971918,
+          "hours_lost_share": 0.05304660728976377,
+          "reserve_closes_share": 2.004751169003353,
+          "reserve_persons_ths": 3098,
+          "residual_gain": 0.0,
+          "usual_hours_all": 36.9
+        },
+        {
+          "cap": 37,
+          "employment_rate": 75.0,
+          "gain_no_mobilisation": 0.035305351992073186,
+          "hours_lost_share": 0.03410139040056228,
+          "reserve_closes_share": 3.2233489207508605,
+          "reserve_persons_ths": 3098,
+          "residual_gain": 0.0,
+          "usual_hours_all": 36.9
+        },
+        {
+          "cap": 38,
+          "employment_rate": 75.0,
+          "gain_no_mobilisation": 0.015389418203898053,
+          "hours_lost_share": 0.01515617351136094,
+          "reserve_closes_share": 7.488441051867142,
+          "reserve_persons_ths": 3098,
+          "residual_gain": 0.0,
+          "usual_hours_all": 36.9
+        },
+        {
+          "cap": 39,
+          "employment_rate": 75.0,
+          "gain_no_mobilisation": -1.1102230246251565e-16,
+          "hours_lost_share": -1.6101900526544773e-16,
+          "reserve_closes_share": null,
+          "reserve_persons_ths": 3098,
+          "residual_gain": 0.0,
+          "usual_hours_all": 36.9
+        },
+        {
+          "cap": 40,
+          "employment_rate": 75.0,
+          "gain_no_mobilisation": -1.1102230246251565e-16,
+          "hours_lost_share": -1.6101900526544773e-16,
+          "reserve_closes_share": null,
+          "reserve_persons_ths": 3098,
+          "residual_gain": 0.0,
+          "usual_hours_all": 36.9
+        }
+      ]
+    }
+  },
+  "growth_rates_per_year": {
+    "1.0%": 0.01,
+    "1.5%": 0.015,
+    "2.0%": 0.02,
+    "3.0%": 0.03,
+    "FR_trend_2015_2019": 0.005679,
+    "FR_trend_2015_2023": 0.000609
+  },
+  "question": "At what working week can a region start so that its existing labour reserve maintains output without any productivity gain, and how long until 30 h as productivity rises, pay unchanged?",
+  "rule": {
+    "caps_tested": [
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "central": 0.75,
+    "entrant_relative_productivity": [
+      1.0,
+      0.75
+    ],
+    "hours_fall_as": "cap_t = cap_0 / (1 + g)^t, output and pay unchanged (Article 13.3)",
+    "reserve_framing": "slack = unemployed + available not seeking (v62)",
+    "target_hours": 30
+  },
+  "starting_week": {
+    "AT": {
+      "2023": {
+        "0.75": 37,
+        "1.0": 36
+      },
+      "2024": {
+        "0.75": 37,
+        "1.0": 36
+      }
+    },
+    "BE": {
+      "2023": {
+        "0.75": 36,
+        "1.0": 35
+      },
+      "2024": {
+        "0.75": 36,
+        "1.0": 35
+      }
+    },
+    "BG": {
+      "2023": {
+        "0.75": 38,
+        "1.0": 38
+      },
+      "2024": {
+        "0.75": 39,
+        "1.0": 38
+      }
+    },
+    "CH": {
+      "2023": {
+        "0.75": 39,
+        "1.0": 38
+      },
+      "2024": {
+        "0.75": 39,
+        "1.0": 38
+      }
+    },
+    "CY": {
+      "2023": {
+        "0.75": 39,
+        "1.0": 38
+      },
+      "2024": {
+        "0.75": 39,
+        "1.0": 39
+      }
+    },
+    "CZ": {
+      "2023": {
+        "0.75": 39,
+        "1.0": 38
+      },
+      "2024": {
+        "0.75": 38,
+        "1.0": 38
+      }
+    },
+    "DE": {
+      "2023": {
+        "0.75": 38,
+        "1.0": 37
+      },
+      "2024": {
+        "0.75": 38,
+        "1.0": 37
+      }
+    },
+    "DK": {
+      "2023": {
+        "0.75": 36,
+        "1.0": 35
+      },
+      "2024": {
+        "0.75": 35,
+        "1.0": 35
+      }
+    },
+    "EE": {
+      "2023": {
+        "0.75": 37,
+        "1.0": 36
+      },
+      "2024": {
+        "0.75": 37,
+        "1.0": 36
+      }
+    },
+    "EL": {
+      "2023": {
+        "0.75": 36,
+        "1.0": 34
+      },
+      "2024": {
+        "0.75": 36,
+        "1.0": 35
+      }
+    },
+    "ES": {
+      "2023": {
+        "0.75": 33,
+        "1.0": 32
+      },
+      "2024": {
+        "0.75": 34,
+        "1.0": 32
+      }
+    },
+    "EU27_2020": {
+      "2023": {
+        "0.75": 36,
+        "1.0": 35
+      },
+      "2024": {
+        "0.75": 36,
+        "1.0": 35
+      }
+    },
+    "FI": {
+      "2023": {
+        "0.75": 35,
+        "1.0": 34
+      },
+      "2024": {
+        "0.75": 34,
+        "1.0": 33
+      }
+    },
+    "FR": {
+      "2023": {
+        "0.75": 35,
+        "1.0": 34
+      },
+      "2024": {
+        "0.75": 35,
+        "1.0": 34
+      }
+    },
+    "HR": {
+      "2023": {
+        "0.75": 38,
+        "1.0": 37
+      },
+      "2024": {
+        "0.75": 38,
+        "1.0": 37
+      }
+    },
+    "HU": {
+      "2023": {
+        "0.75": 39,
+        "1.0": 38
+      },
+      "2024": {
+        "0.75": 39,
+        "1.0": 38
+      }
+    },
+    "IE": {
+      "2023": {
+        "0.75": 36,
+        "1.0": 36
+      },
+      "2024": {
+        "0.75": 36,
+        "1.0": 35
+      }
+    },
+    "IS": {
+      "2023": {
+        "0.75": 40,
+        "1.0": 39
+      },
+      "2024": {
+        "0.75": 40,
+        "1.0": 39
+      }
+    },
+    "IT": {
+      "2023": {
+        "0.75": 33,
+        "1.0": 32
+      },
+      "2024": {
+        "0.75": 34,
+        "1.0": 32
+      }
+    },
+    "LT": {
+      "2023": {
+        "0.75": 37,
+        "1.0": 36
+      },
+      "2024": {
+        "0.75": 37,
+        "1.0": 36
+      }
+    },
+    "LU": {
+      "2023": {
+        "0.75": 39,
+        "1.0": 38
+      },
+      "2024": {
+        "0.75": 38,
+        "1.0": 38
+      }
+    },
+    "LV": {
+      "2023": {
+        "0.75": 37,
+        "1.0": 36
+      },
+      "2024": {
+        "0.75": 37,
+        "1.0": 36
+      }
+    },
+    "MT": {
+      "2023": {
+        "0.75": 40,
+        "1.0": 39
+      },
+      "2024": {
+        "0.75": 40,
+        "1.0": 39
+      }
+    },
+    "NL": {
+      "2023": {
+        "0.75": 35,
+        "1.0": 34
+      },
+      "2024": {
+        "0.75": 35,
+        "1.0": 34
+      }
+    },
+    "NO": {
+      "2023": {
+        "0.75": 38,
+        "1.0": 37
+      },
+      "2024": {
+        "0.75": 38,
+        "1.0": 37
+      }
+    },
+    "PL": {
+      "2023": {
+        "0.75": 39,
+        "1.0": 39
+      },
+      "2024": {
+        "0.75": 39,
+        "1.0": 39
+      }
+    },
+    "PT": {
+      "2023": {
+        "0.75": 38,
+        "1.0": 37
+      },
+      "2024": {
+        "0.75": 38,
+        "1.0": 37
+      }
+    },
+    "RO": {
+      "2023": {
+        "0.75": 38,
+        "1.0": 37
+      },
+      "2024": {
+        "0.75": 38,
+        "1.0": 37
+      }
+    },
+    "SE": {
+      "2023": {
+        "0.75": 38,
+        "1.0": 37
+      },
+      "2024": {
+        "0.75": 37,
+        "1.0": 36
+      }
+    },
+    "SI": {
+      "2023": {
+        "0.75": 39,
+        "1.0": 39
+      },
+      "2024": {
+        "0.75": 39,
+        "1.0": 39
+      }
+    },
+    "SK": {
+      "2023": {
+        "0.75": 38,
+        "1.0": 37
+      },
+      "2024": {
+        "0.75": 38,
+        "1.0": 37
+      }
+    }
+  },
+  "years_to_30h_by_start": {
+    "34": {
+      "1.0%": 13,
+      "1.5%": 9,
+      "2.0%": 7,
+      "3.0%": 5,
+      "FR_trend_2015_2019": 23,
+      "FR_trend_2015_2023": 206
+    },
+    "35": {
+      "1.0%": 16,
+      "1.5%": 11,
+      "2.0%": 8,
+      "3.0%": 6,
+      "FR_trend_2015_2019": 28,
+      "FR_trend_2015_2023": 254
+    },
+    "36": {
+      "1.0%": 19,
+      "1.5%": 13,
+      "2.0%": 10,
+      "3.0%": 7,
+      "FR_trend_2015_2019": 33,
+      "FR_trend_2015_2023": 300
+    },
+    "38": {
+      "1.0%": 24,
+      "1.5%": 16,
+      "2.0%": 12,
+      "3.0%": 8,
+      "FR_trend_2015_2019": 42,
+      "FR_trend_2015_2023": 389
+    },
+    "40": {
+      "1.0%": 29,
+      "1.5%": 20,
+      "2.0%": 15,
+      "3.0%": 10,
+      "FR_trend_2015_2019": 51,
+      "FR_trend_2015_2023": 473
+    }
+  }
+}
