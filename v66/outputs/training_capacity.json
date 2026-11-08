@@ -1,0 +1,150 @@
+{
+  "question": "author, 2026-11-08: theory online, physical schools and hospitals used in rotation for practice only; trainees rotate across hospitals to learn with expert clinicians",
+  "base_scenario": "5_ambitious_10pct_50pct_prevention_high",
+  "published_cap": 3.0,
+  "component_caps": {
+    "low": {
+      "effective_cap": 3.3,
+      "binding_component": "educators",
+      "components": {
+        "lecture_space": 90.0,
+        "practice_facilities": 5.1,
+        "clinical_placements": 3.99,
+        "educators": 3.3
+      }
+    },
+    "central": {
+      "effective_cap": 3.9,
+      "binding_component": "educators",
+      "components": {
+        "lecture_space": 90.0,
+        "practice_facilities": 7.5,
+        "clinical_placements": 6.0,
+        "educators": 3.9
+      }
+    },
+    "high": {
+      "effective_cap": 4.5,
+      "binding_component": "educators",
+      "components": {
+        "lecture_space": 90.0,
+        "practice_facilities": 10.5,
+        "clinical_placements": 9.0,
+        "educators": 4.5
+      }
+    }
+  },
+  "designs": {
+    "published": {
+      "label": "Published plan: schools and teachers at most tripled (cap 3x), +10%/yr for 15 years",
+      "years": {
+        "low": 42,
+        "central": 23,
+        "high": 18
+      },
+      "per_10k_y30": {
+        "low": 97.8,
+        "central": 134.3,
+        "high": 170.1
+      },
+      "intake_cap_multiple": {
+        "low": 3.0,
+        "central": 3.0,
+        "high": 3.0
+      }
+    },
+    "rotation_same_educators": {
+      "label": "Theory online, facilities in rotation, simulation for half of clinical hours; same educators",
+      "years": {
+        "low": 36,
+        "central": 21,
+        "high": 18
+      },
+      "per_10k_y30": {
+        "low": 103.3,
+        "central": 155.3,
+        "high": 205.9
+      },
+      "intake_cap_multiple": {
+        "low": 3.3,
+        "central": 3.9,
+        "high": 4.5
+      }
+    },
+    "rotation_every_hospital_teaches": {
+      "label": "As above, and every hospital teaches: placements and preceptors grow with the workforce",
+      "years": {
+        "low": 29,
+        "central": 21,
+        "high": 18
+      },
+      "per_10k_y30": {
+        "low": 116.2,
+        "central": 161.1,
+        "high": 205.9
+      },
+      "intake_cap_multiple": {
+        "low": 3.3,
+        "central": 3.9,
+        "high": 4.5
+      }
+    },
+    "rotation_every_hospital_exp15": {
+      "label": "As above, with +15%/yr expansion (faculties and trainers first, T-8.5)",
+      "years": {
+        "low": 23,
+        "central": 17,
+        "high": 15
+      },
+      "per_10k_y30": {
+        "low": 164.1,
+        "central": 266.0,
+        "high": 346.8
+      },
+      "intake_cap_multiple": {
+        "low": 3.3,
+        "central": 3.9,
+        "high": 4.5
+      }
+    },
+    "rotation_every_hospital_exp15_retention2": {
+      "label": "As above, with exits 3% -> 2% a year (retention)",
+      "years": {
+        "low": 20,
+        "central": 16,
+        "high": 14
+      },
+      "per_10k_y30": {
+        "low": 195.4,
+        "central": 296.6,
+        "high": 383.6
+      },
+      "intake_cap_multiple": {
+        "low": 3.3,
+        "central": 3.9,
+        "high": 4.5
+      }
+    }
+  },
+  "sensitivity_central_intake": {
+    "multipliers_low|same_educators": 22,
+    "multipliers_low|every_hospital_teaches": 21,
+    "multipliers_central|same_educators": 21,
+    "multipliers_central|every_hospital_teaches": 21,
+    "multipliers_high|same_educators": 21,
+    "multipliers_high|every_hospital_teaches": 21
+  },
+  "reading": "with the same educators the cap rises only from 3x to about 3.3-4.5x because educators bind; the large gain comes when every hospital teaches, so that placements and preceptors grow with the workforce. Facilities stop being the limit; people who teach are.",
+  "evidence": {
+    "lecture_space": "theory online: lecture halls stop binding (set to 30x, i.e. never the smallest component). Blended learning vs traditional: knowledge SMD 0.81 (Liu 2016, 56 articles; 0.26 after trim-and-fill) and 1.07 (Vallee 2020, 56 studies) - as effective or better, heterogeneity high. VERIFIED (abstracts).",
+    "practice_facilities": "skills laboratories and simulation centres used in rotation: occupancy from ~20% (Smart Space Forum / SmartViz analysis of 30+ UK universities, THE 23 Jul 2026, REPORTED) or 35% (Bristol target, unverified) to 60-70% with shifts and six or seven days a week. SYNTHETIC targets.",
+    "clinical_placements": "simulation replaces 25% (low) or 50% (central, high) of clinical hours with no difference in outcomes (NCSBN National Simulation Study, 10 programmes, 666 students, randomised, VERIFIED_OFFICIAL) -> x1.33 / x2 placement capacity per student; high adds x1.5 for rotation across under-used hospitals and regions (SYNTHETIC). Evidence is for pre-licensure nursing; extension to doctors and midwives is an assumption.",
+    "educators": "online theory frees 10 / 30 / 50% of educator time per student (one lecturer serves many; tutoring, assessment and supervision still scale with students). SYNTHETIC. Educators, clinical sites and preceptors are the barriers US nursing schools report (AACN, 15 Apr 2024: 65,766 qualified applications refused in 2023, VERIFIED_OFFICIAL)."
+  },
+  "limits": [
+    "simulation evidence is for pre-licensure nursing at 50% of clinical hours; it is applied to all cadres",
+    "supervising trainees costs clinicians' time; the model does not subtract it from care delivered",
+    "children's schooling is NOT covered: school closures cost about 0.19 SD of learning (Di Pietro 2023, 39 studies, 19 countries, VERIFIED); online theory is for adult and professional education",
+    "trainees rotating across regions need housing, travel and language support, not modelled"
+  ]
+}

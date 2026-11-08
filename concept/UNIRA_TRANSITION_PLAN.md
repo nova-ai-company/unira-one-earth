@@ -43,7 +43,7 @@ Until all ten hold, the region is in transition and says so.
 What happens from the first day:
 - Rights and the essential guarantees apply at once (Article 10d.2); where something must first be built, the right is a published priority with a deadline (T-8.2).
 - **Decent for everyone first:** new capacity closes every region's gap to the essential level before any comfortable gap (Article 10a; V7.9).
-- **Faculties and trainers first** in health: the training-capacity cap, not course length, decides the date of care for all (V6.6 levers).
+- **Faculties and trainers first** in health: the training-capacity cap, not course length, decides the date of care for all (V6.6 levers). Theory taught online, laboratories and simulation centres used in rotation, and every hospital a place of training, so that buildings never limit intake (V6.6 §2c; text proposed, not yet adopted).
 - Wages move onto the U scale at the full base salary, whatever the starting week; prices of essentials set from embodied work; savings convert at basket parity; the money cap phases in over ten years (T-1).
 - A member keeps its existing forces for defence only, never inside the federation, under the Inspector-General, until the Court finds that its security no longer depends on them (the federation's size and the Peace Force's strength set by law, or every neighbour a member or bound by agreement); they are then dissolved within five years, every member offered work, training and full income (T-5); safeguards govern any Peace Force (5a–5c).
 - The essential-infrastructure programme (water, sanitation, clean cooking) runs at up to three times the best observed delivery pace, with local participation (V8.8).
@@ -66,7 +66,7 @@ What the models give (central case; same resources as the single-pass plan):
 ### Phase 2 — Build (until every region has Level 2 energy and health, and housing is half closed)
 
 - Clean energy built at 1.2–1.8 TW a year; rich regions cut final energy use 3–4% a year so that convergence and decarbonisation do not compete for the same build (paper §6).
-- Health training expanded for 15–30 years (V6.6); home building grows toward 6–7 billion m² a year with low-carbon materials (paper §5).
+- Health training expanded for 15–30 years (V6.6); home building grows toward 6–7 billion m² a year with low-carbon materials (paper §5), repair and a decent core for every household first, factory-made parts, and households extending their own homes with supervision and materials (V7.0 levers; text proposed, not yet adopted).
 - Quotas on scarce goods relax and end as supply grows (T-8.3); the money cap is fully in place by year 10 (T-1).
 - The working week falls each year by measured productivity growth, pay unchanged (Article 13.3; T-10): from 35 hours, 30 hours comes in about 28 years at France's 2015–19 productivity trend, 16 years at 1% a year, 8 years at 2% a year, and effectively never at the 2015–23 trend (V9.2). Nothing is assumed about automation; the rule follows the measurement.
 

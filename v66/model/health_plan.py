@@ -6,6 +6,7 @@ Annual stock-flow, world as one entity (rule 3), physical persons:
   graduates[t] = intake[t - lead_time]            (training pipeline)
   intake[t] = base_intake * (1 + expansion)^min(t, ramp_years) + converted_military[t]
               capped by training capacity (teachers/schools) = intake_capacity_multiple * base_intake
+              (optionally scaled by stock[t]/stock0 when every hospital teaches: capacity_scales_with_stock)
 Converted military: disarmament (rule 19) frees armed-forces personnel; a voluntary share joins
 health training over `conversion_years` (no coercion). Health need is not proportional to disease
 burden: ageing raises need; preventable_share is the evidence-based net effect.
@@ -44,7 +45,10 @@ def simulate(p, years=60):
             conv = min(mil_left, p["military_pool"] * p["military_volunteer_share"] / p["conversion_years"])
             mil_left -= conv
         intake = p["base_intake"] * (1 + p["expansion"]) ** min(t, p["ramp_years"]) + conv
-        intake = min(intake, p["base_intake"] * p["intake_capacity_multiple"])
+        cap = p["base_intake"] * p["intake_capacity_multiple"]
+        if p.get("capacity_scales_with_stock"):  # placements and preceptors grow with the workforce itself
+            cap *= stock / p["stock0"]
+        intake = min(intake, cap)
         pipeline.append(intake)
         graduates = pipeline.pop(0)
         stock = stock * (1 - p["exit_rate"]) + graduates

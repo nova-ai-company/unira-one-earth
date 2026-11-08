@@ -55,11 +55,11 @@ These are tests of **physical feasibility under stated assumptions**, not foreca
 | `v63/` | Input–output model in hours, take-up flows, health staffing, year-1 ledger; **`run_all.py` rebuilds everything** |
 | `v64/` | Money circuit (stock-flow consistent) and lifecycle model with the money cap |
 | `v65/` | World sufficiency: food, energy, health workers (FAO, World Bank, WHO, ILO, OWID) |
-| `v66/` | Ecology limits, health training plan, housing need, construction capacity |
+| `v66/` | Ecology limits, health training plan and its levers, training capacity with theory online and facilities in rotation, housing need, construction capacity |
 | `v67/` | 30-year transition model, dashboard, **Working Paper 02** |
 | `v68/` | UNIRA versus reformed market (matched resources) and verification |
 | `v69/` | Allocation failures (error, lag, misreporting, leakage) and safeguards |
-| `v70/` | Housing acceleration, low-carbon building, safeguard articles |
+| `v70/` | Housing acceleration, low-carbon building, housing levers (factory building, decent core first, household-built extensions), safeguard articles |
 | `v71/`–`v72/` | Security and consumption; transition, joining, property and debts |
 | `v73/book/` | Book draft |
 | `v74/` | Income distribution inside rich regions |

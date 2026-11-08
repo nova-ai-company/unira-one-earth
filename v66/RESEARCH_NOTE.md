@@ -73,6 +73,30 @@ Parameter changes on the ambitious scenario; low / central / high training capac
   - Longer lives add care needs later.
   - Net effect on health-worker need: about −3% (central) to −14% (high) after 30 years. **It helps, but it does not replace training.** Confidence: low.
 
+### 2c. Training "out of the box": theory online, facilities in rotation, every hospital teaches (author, 2026-11-08)
+
+The author's direction: teach theory online; use schools, universities, laboratories and hospitals for practice only, in rotation (one cohort today, another tomorrow, at full capacity); send trainees to different hospitals to learn with expert practitioners. `model/training_capacity.py` (+6 tests) splits the synthetic 3× capacity cap into four components and asks what each becomes.
+
+| Component | What the evidence says | Cap under the rotation design (× today's intake, low / central / high) |
+|---|---|---|
+| Lecture space | blended learning as effective as or better than traditional for knowledge in health professions (SMD 0.81, 0.26 after publication-bias adjustment; 1.07 in medical education; both verified abstracts) | stops binding |
+| Practice facilities (skills laboratories, simulation centres) | university teaching space occupied about 20% of the time (30+ UK universities, reported); rotation to 50–70% (synthetic) | 5 / 7.5 / 10.5 |
+| Clinical placements | half of clinical hours can be simulation with no difference in competency, knowledge or licensing results (NCSBN randomised study, 10 programmes, 666 students, verified); rotation across under-used hospitals (synthetic) | 4 / 6 / 9 |
+| Educators | online theory frees 10–50% of educator time per student (synthetic); US schools refuse qualified applicants for lack of clinical sites, faculty, preceptors and classrooms (65,766 applications in 2023, AACN, verified) | **3.3 / 3.9 / 4.5 (binding)** |
+
+| Design (ambitious plan otherwise unchanged) | Years to 131 per 10,000 for all, low / central / high |
+|---|---|
+| Published (cap 3×, +10%/yr for 15 years) | 42 / 23 / 18 |
+| Theory online, facilities in rotation, simulation for half of clinical hours; same educators (cap 3.9×) | 36 / 21 / 18 |
+| As above, and every hospital teaches: placements and preceptors grow with the workforce | 29 / 21 / 18 |
+| As above, +15%/yr expansion (faculties and trainers first) | 23 / 17 / 15 |
+| As above, exits 3% → 2% | **20 / 16 / 14** |
+
+- **Buildings stop being the limit; people who teach are.** With the same educators the cap rises only to about 3.9×. The large gain in the low case (42 → 29 years) comes from treating every hospital as a teaching hospital, so that placement and preceptor capacity grows with the workforce itself (`capacity_scales_with_stock` in `health_plan.py`; off by default, published results unchanged). In the central case the pace of expansion binds, not the cap.
+- **It is cheaper in buildings:** the same intake needs about a fifth more laboratory space instead of three times the campuses (not costed; no faculty cost model exists in the project).
+- **Boundary:** this is for adult and professional education. School closures cost children 0.14–0.19 standard deviations of learning (two meta-analyses, verified abstracts); children's schooling stays in person.
+- **Limits:** the simulation evidence is for pre-licensure nursing and is applied to all cadres; supervising trainees costs clinicians' time that the model does not subtract; trainees rotating across regions need housing, travel and language support. Constitution text proposed in `concept/PROPOSED_CONSTITUTION_CHANGES_2026-11-08.md` (not yet approved).
+
 ## 3. Housing (floor area, regional model values)
 | standard | world supply ÷ need | people in regions below | new floor area to build |
 |---|---|---|---|

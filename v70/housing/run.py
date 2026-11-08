@@ -52,7 +52,7 @@ def run_case(case, cfg, regions, cmpcfg, cap):
         return built + upgraded
 
     sh = cmpcfg["shared"]
-    p = {"energy_target": 40, "health_target": 131, "floor_target": 27,
+    p = {"energy_target": 40, "health_target": 131, "floor_target": case.get("floor_target", 27),
          "excess_decline": s["rich_region_energy_decline"], "energy_new_ej_per_yr": sh["energy_new_ej_per_yr"],
          "energy_share_to_deficit": s["energy_share_to_regions_in_need"],
          "health_net_new": compare.health_flow(s["health_plan"]), "health_share_to_deficit": s["health_share_to_regions_in_need"],
@@ -63,7 +63,7 @@ def run_case(case, cfg, regions, cmpcfg, cap):
     first = next((r["year"] for r in rows if r["housing_share_pop_at_target"] >= 0.999), None)
     co2_new, co2_low = central(ev["embodied_co2_kg_m2"]["conventional"]), central(ev["embodied_co2_kg_m2"]["low_carbon"])
     mat_ratio = central(ev["upgrade_material_ratio_vs_new"])
-    h_m2 = central(ev["labour_h_m2_low_cost"])
+    h_m2 = central(ev["labour_h_m2_low_cost"]) * case.get("labour_multiplier", 1.0)  # factory building, if any
     co2_per_new = co2_low if case.get("low_carbon") else co2_new
     # use what was actually DELIVERED each year (allocation never exceeds true need), split new vs upgraded
     new_tot = up_tot = peak_m2 = 0.0

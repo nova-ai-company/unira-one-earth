@@ -90,7 +90,7 @@ The phased plan, with objectives, measured triggers and the dates the models giv
 |---|---|
 | **Decided by the author** (constitution text) | the premises of section 1; rights; the living-standard levels; D + Q + C; fixed prices and the energy allowance; digital-only money; the 1.5-year cap with protected accounts; the time account; the housing lottery; health-need weighting; the Peace Force design; the voting rules; essential-infrastructure priority; peaceful delivery and conflict prevention; prosperity does not guarantee peace; no permanent exclusion of communities within regions (4c); ten years of support after a conflict ends (10f.6); institutional reform at a safe pace (T-9); the working week during the transition (Article 6 "time", T-10, 8 November 2026); faculties and trainers before new posts (T-8.5); conditional disarmament (T-5) |
 | **Provisional** (adopted, revisable with data) | the 25% equality credit (research only); the 20-year convergence target; the 5,000 U value of the base salary; the 146.4 U hour price; the 5,000 kWh allowance; the 150,000 / 120,000 U account limits; 15 years as the infrastructure planning objective |
-| **Proposed, not adopted** | Article 14c (automation) |
+| **Proposed, not adopted** | Article 14c (automation); how training is organised (T-8.5 addition) and how homes are built (Article 18.12), proposed on 8 November 2026 on the author's "out of the box" directions (`PROPOSED_CONSTITUTION_CHANGES_2026-11-08.md`) |
 | **Open** | whether today's French consumption level could ever be provided to everyone (recorded as impossible under current assumptions); the exact allocation formula weights; the size of the Mediation Service; the behaviour of people under these rules (section 11) |
 
 ## 9. How UNIRA differs from what exists
@@ -116,7 +116,9 @@ The comparison with planned economies is the one critics will make first. UNIRA'
 | World sufficiency of food, energy, health workers | **computed from official data** against decent-living thresholds | v65, paper §4 |
 | Ecological limits (energy, CO₂, land, materials) | **literature ranges**, model-derived totals | v66, paper §5 |
 | Health-worker training plan | **simulated**; training-growth rates assumed | v66, paper §5 |
+| Training organised "out of the box" (theory online, facilities in rotation, every hospital teaches) | **simulated** on verified evidence for simulation and blended learning; rotation multipliers and educator time freed are assumptions | v66 `training_capacity.py` |
 | Housing need and construction capacity | **model-derived** (regional floor-area estimates, no official country data) | v66, v70, paper §5 |
+| Housing levers (factory building, decent core first, household-built extensions) | **simulated**; labour savings and self-build shares are reported or synthetic values | v70 `run_levers.py` |
 | 30-year transition plan | **simulated**; build rates and allocation shares assumed; **joint uncertainty propagated** | v67, validation/ |
 | Needs-first vs reformed market | **simulated comparison**, institutions only changed | v68 |
 | Allocation errors and safeguards | **simulated**, calibrated on 44 sourced observations of transfer programmes | v69 |
@@ -146,6 +148,7 @@ These are the questions the research cannot answer with models. They are the rea
 11. **Conflict.** Fair distribution and fair institutions are associated with less war; causation is not established, and wars between states are outside the models.
 12. **Automation.** Model B (guaranteed income plus rewards for work) is a proposal with an illustrative simulation, not a tested design.
 13. **What "comfortable" health care is.** The Level 2 health target (131 doctors, nurses and midwives per 10,000) is the EU's staff density, not a measured outcome. It decides the date more than any other lever: 23 years at 131, 15 at 100, 8 at 80 (v66 levers). An outcome-based threshold (healthy life years, waiting times) and the share of need that community health workers and care workers can meet are open research questions; sources must be verified before either enters the paper.
+14. **Methods of building and training at scale.** Factory-built homes, household-built extensions and training with theory online and practice in rotation are modelled from verified evidence at project or programme scale (modular construction savings, mutual self-help housing, simulation replacing half of clinical hours, blended learning). None has been run at the scale of a region's whole housing or training system; the model treats them as multipliers, not as demonstrated capacity.
 
 ## 12. How UNIRA could be tested
 

@@ -1,0 +1,157 @@
+{
+  "question": "author, 2026-11-08: out-of-the-box ways to build homes at low cost and fast",
+  "base_case": "ramp_10pct_stock_first_low_carbon",
+  "increment_above_decent_share_of_need": 0.6545,
+  "labour_h_per_m2_central": 48,
+  "world_construction_workers_m": 294,
+  "workers_south_asia_africa_m": 116,
+  "levers": {
+    "base": {
+      "label": "Published: +10%/yr, stock-first, low-carbon",
+      "overrides": {},
+      "self_build_share_of_extension_labour": 0.0,
+      "housing_all_by": 27,
+      "housing_closed_y15": 0.8301,
+      "housing_closed_y30": 1.0,
+      "peak_bn_m2_per_yr": 7.133,
+      "peak_construction_workers_m": 265.4,
+      "peak_professional_workers_m": 265.4,
+      "household_hours_bn_30y": 0.0,
+      "embodied_co2_gt_30y": 15.5
+    },
+    "factory_20": {
+      "label": "Factory building: 20% fewer hours per m2",
+      "overrides": {
+        "labour_multiplier": 0.8
+      },
+      "self_build_share_of_extension_labour": 0.0,
+      "housing_all_by": 27,
+      "housing_closed_y15": 0.8301,
+      "housing_closed_y30": 1.0,
+      "peak_bn_m2_per_yr": 7.133,
+      "peak_construction_workers_m": 212.3,
+      "peak_professional_workers_m": 212.3,
+      "household_hours_bn_30y": 0.0,
+      "embodied_co2_gt_30y": 15.5
+    },
+    "factory_35": {
+      "label": "Factory building: 35% fewer hours per m2",
+      "overrides": {
+        "labour_multiplier": 0.65
+      },
+      "self_build_share_of_extension_labour": 0.0,
+      "housing_all_by": 27,
+      "housing_closed_y15": 0.8301,
+      "housing_closed_y30": 1.0,
+      "peak_bn_m2_per_yr": 7.133,
+      "peak_construction_workers_m": 172.5,
+      "peak_professional_workers_m": 172.5,
+      "household_hours_bn_30y": 0.0,
+      "embodied_co2_gt_30y": 15.5
+    },
+    "self_build_50": {
+      "label": "Households build half of the extension above 15 m2 (supervised, materials supplied)",
+      "overrides": {},
+      "self_build_share_of_extension_labour": 0.5,
+      "housing_all_by": 27,
+      "housing_closed_y15": 0.8301,
+      "housing_closed_y30": 1.0,
+      "peak_bn_m2_per_yr": 7.133,
+      "peak_construction_workers_m": 265.4,
+      "peak_professional_workers_m": 178.6,
+      "household_hours_bn_30y": 1708.3,
+      "embodied_co2_gt_30y": 15.5
+    },
+    "self_build_65": {
+      "label": "Households build 65% of the extension (mutual self-help practice)",
+      "overrides": {},
+      "self_build_share_of_extension_labour": 0.65,
+      "housing_all_by": 27,
+      "housing_closed_y15": 0.8301,
+      "housing_closed_y30": 1.0,
+      "peak_bn_m2_per_yr": 7.133,
+      "peak_construction_workers_m": 265.4,
+      "peak_professional_workers_m": 152.5,
+      "household_hours_bn_30y": 2220.8,
+      "embodied_co2_gt_30y": 15.5
+    },
+    "decent_core_first": {
+      "label": "Decent core (15 m2) for everyone first",
+      "overrides": {
+        "floor_target": 15.0
+      },
+      "self_build_share_of_extension_labour": 0.0,
+      "housing_all_by": 27,
+      "housing_closed_y15": 0.9394,
+      "housing_closed_y30": 1.0,
+      "peak_bn_m2_per_yr": 3.492,
+      "peak_construction_workers_m": 129.9,
+      "peak_professional_workers_m": 129.9,
+      "household_hours_bn_30y": 0.0,
+      "embodied_co2_gt_30y": 5.0
+    },
+    "growth_15": {
+      "label": "Capacity +15%/yr (standard record cap)",
+      "overrides": {
+        "growth": 0.15
+      },
+      "self_build_share_of_extension_labour": 0.0,
+      "housing_all_by": 27,
+      "housing_closed_y15": 0.9588,
+      "housing_closed_y30": 1.0,
+      "peak_bn_m2_per_yr": 7.232,
+      "peak_construction_workers_m": 269.1,
+      "peak_professional_workers_m": 269.1,
+      "household_hours_bn_30y": 0.0,
+      "embodied_co2_gt_30y": 15.6
+    },
+    "growth_15_record_1_5x": {
+      "label": "Capacity +15%/yr and build rate up to 1.5x the China 2011 record (SYNTHETIC)",
+      "overrides": {
+        "growth": 0.15,
+        "max_rate_m2_per_person": 2.202
+      },
+      "self_build_share_of_extension_labour": 0.0,
+      "housing_all_by": 27,
+      "housing_closed_y15": 0.9733,
+      "housing_closed_y30": 1.0,
+      "peak_bn_m2_per_yr": 10.437,
+      "peak_construction_workers_m": 388.3,
+      "peak_professional_workers_m": 388.3,
+      "household_hours_bn_30y": 0.0,
+      "embodied_co2_gt_30y": 15.7
+    },
+    "all": {
+      "label": "All levers: factory 20%, households build half of the extension, +15%/yr, 1.5x record",
+      "overrides": {
+        "labour_multiplier": 0.8,
+        "growth": 0.15,
+        "max_rate_m2_per_person": 2.202
+      },
+      "self_build_share_of_extension_labour": 0.5,
+      "housing_all_by": 27,
+      "housing_closed_y15": 0.9733,
+      "housing_closed_y30": 1.0,
+      "peak_bn_m2_per_yr": 10.437,
+      "peak_construction_workers_m": 310.7,
+      "peak_professional_workers_m": 209.0,
+      "household_hours_bn_30y": 1366.9,
+      "embodied_co2_gt_30y": 15.7
+    }
+  },
+  "evidence": {
+    "labour_multiplier": "McKinsey 2019 (via Construction Dive 24 Jun 2019, secondary, VERIFIED text): modular 20-50% faster, cost savings up to 20%, risk of 10% loss; applied to hours per m2 as 0.8 / 0.65 SYNTHETIC",
+    "self_build_share": "USDA mutual self-help housing: families provide at least 65% of labour (RCAC, REPORTED, page refused fetch); applied to the increment above 15 m2 only; household hours are counted separately",
+    "sites_and_services": "Michaels et al. 2017 (LSE SERC DP222, VERIFIED abstract): de novo sites-and-services neighbourhoods in seven Tanzanian cities developed better housing than control areas (larger footprints, more storeys, water, electricity, sanitation, roads); upgrading areas if anything worse",
+    "reuse": "Japan 2023 Housing and Land Survey: 9.0 m vacant, 13.8% (Jiji/Kyodo, REPORTED); EU 2023: 33.3% in under-occupied homes (Eurostat housing 2024, VERIFIED); India urban vacant 11.1 m (v70): ~0.5% of the need in deficit regions",
+    "record_1_5x": "SYNTHETIC: factory production could exceed the China 2011 site-built record; no observation supports it",
+    "3d_printing": "no independently audited whole-project cost or schedule figures found (prototype and print-time claims only); not used as a lever"
+  },
+  "reading": "the date is set by how fast building capacity grows and by the record build rate, not by cost; factory building and household self-build cut the professional workforce needed at the peak, which is the binding limit found in v70 (240-265 m workers against 116 m in South Asia and Africa)",
+  "limits": [
+    "labour hours per m2 for self-built extensions unknown (set equal to professional hours)",
+    "self-build needs a core designed for extension, land tenure, supervision and materials logistics",
+    "the model has one world capacity; regional bottlenecks (cement, skilled trades) are not represented",
+    "the 1.5x record case has no observational support and is shown only to test whether the cap binds"
+  ]
+}

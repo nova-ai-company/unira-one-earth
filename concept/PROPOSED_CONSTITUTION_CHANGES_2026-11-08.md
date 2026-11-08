@@ -1,0 +1,46 @@
+# Proposed constitution changes of 8 November 2026: training and housing "out of the box"
+
+**Status: proposed on the author's design directions of 8 November 2026, awaiting the author's approval of the text.** The directions: (1) teach theory online and use schools, universities, laboratories and hospitals for practice only, in rotation, with trainees moving between hospitals to learn with expert practitioners; (2) find ways to build homes at low cost and fast. The research behind each proposal is in `v66/model/training_capacity.py` and `v70/housing/run_levers.py` (research notes V6.6 §2c and V7.0 Part A, levers). Accept, change or reject each point separately.
+
+## What the evidence supports
+
+**Training.** The limit on training health workers is not applicants: US nursing schools refused 65,766 qualified applications in 2023 for lack of clinical placement sites, faculty, preceptors and classroom space (AACN, verified). Blended learning is as effective as or more effective than traditional teaching for knowledge in the health professions (two meta-analyses, verified abstracts). Half of clinical hours can be replaced by high-quality simulation with no difference in competency, knowledge or licensing results (NCSBN randomised study, verified). University teaching space is occupied about 20% of the time (analysis of 30+ UK universities, reported). In the model, rotating the facilities alone raises the training cap from 3× to about 3.9× today's intake, because educators then bind; making every hospital a teaching hospital, so that placements and preceptors grow with the workforce, brings EU-level care for all in 29 / 21 / 18 years (low / central / high) instead of 42 / 23 / 18, and 20 / 16 / 14 with faster expansion and better retention. **Boundary:** school closures cost children 0.14–0.19 standard deviations of learning (two meta-analyses, verified abstracts); online theory is for adult and professional education, not for children's schooling.
+
+**Housing.** In the model the date at which everyone has a comfortable home is set by how fast building capacity grows, not by cost. What the "out of the box" levers change is the number of professional builders needed at the peak, which V7.0 found to be the binding limit (265 million against 116 million in South Asia and Africa): factory building cuts it to 212–172 million; a decent core for everyone first, designed for extension, halves the early build rate and workforce (130 million) while closing 94% of the gap by year 15; households building half of their own extension cuts professional workers to 179 million for about 11 hours per person per year. Planned cores with services grew into better housing than control areas in Tanzania over 30–40 years (verified abstract). Empty and under-occupied homes are in Japan, Spain, Portugal and the EU, not where floor area is missing. 3D printing has no audited evidence and is not proposed.
+
+## Proposal 1 — T-8.5, how training is organised (addition)
+
+**Current text (after the 8 November amendment).**
+> In health and education, **faculties and trainers come before new posts**, because the capacity to train, not the length of courses, sets the date on which care for all is reached.
+
+**Proposed addition (new sentences at the end of T-8.5).**
+> Training for the professions in shortage is organised so that no building limits it: theory is taught online wherever that is shown to be as effective; schools, laboratories and simulation centres are used for practice, in rotation, every day of the week; every hospital, clinic and school is a place of training, and trainees move between hospitals and regions to learn from experienced practitioners, with housing and travel provided. Hours of supervised practice are never reduced to go faster. Schooling for children remains in person.
+
+**Why.** The first sentence removes facilities as a limit (research: the cap rises from 3× to about 3.9× with the same educators). "Every hospital a place of training" is what makes the big difference in the model: placements and preceptors grow with the workforce. The last two sentences hold quality and protect children from an extension of the idea that the evidence does not support.
+
+## Proposal 2 — Article 18, new point 12 "How homes are built"
+
+**Proposed text.**
+> **12. How homes are built.** Regions build to need in this order: first repair, extend and convert what exists (Article 11); then a decent core for every household without one (Article 10c, Level 1), designed from the start to be extended; then extension to the comfortable standard. Parts are made in factories and from local low-carbon materials where that saves hours or materials. A household may build part of its own extension with professional supervision and the materials supplied; the hours it provides are deducted from the price of the home (Article 13) and count as work under Article 7 for the duration. No home is left as a core longer than the published regional deadline (T-8.2).
+
+**Why.** Points 1 and 2 are the "decent core first" result (94% of the gap by year 15 at half the workforce) and the existing stock-first rule; point 3 is the factory lever (20–35% fewer hours); the household clause is the self-build lever and settles the fairness question it raises: hours a household gives are hours it does not pay for. The deadline stops "core first" from becoming "core forever", which is the known failure of sites-and-services programmes when the second phase never comes.
+
+**Decisions this needs from the author.** (a) Whether self-build hours count as work under Article 7 (the duty to contribute) and are paid at the base salary, or are unpaid but deducted from the home's price, or both. (b) Whether a region may require, rather than allow, household participation. The text above allows and does not require.
+
+## Not proposed
+
+- **No online schooling for children.** The evidence is against it.
+- **No change to the 15 m² and 27 m² standards** (Article 10c); the core is the Level 1 standard, not a new lower one.
+- **No 3D-printing clause**: no audited evidence.
+- **No reuse target for empty homes in the constitution**: Article 18.9 (must live in) and T-2 already return empty homes to the pool where demand is high; the empty stock is not where the need is.
+
+## Consistency notes
+
+- **Article 10c** (Level 1 then Level 2) and **Article 10a.4** (decent for everyone first): Proposal 2 is their building method, not a new priority.
+- **Article 11.1** (repair before producing) is restated as the first step.
+- **Article 13** (price = embodied hours): a household's own hours are embodied hours it has already paid in kind; deducting them keeps the price rule honest.
+- **Article 7** (duty to contribute, free choice of occupation): self-build is voluntary in the text; counting it as work is the author's decision (a).
+- **T-8.2** (rights begin as a published priority with a deadline): used to bound the core phase.
+- **T-8.5** (faculties and trainers first) and **Article 10a.3** (health need weighting): Proposal 1 is about how training capacity is used, not where it goes.
+- **Article 6** (education free throughout life) is unaffected; nothing changes who is taught, only where theory is taught.
+- **Article 42a**: nothing in the protected core is touched.
