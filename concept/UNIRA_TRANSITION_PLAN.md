@@ -1,6 +1,6 @@
 # UNIRA — The transition plan
 
-**Status (6 November 2026): preliminary, not peer reviewed.** Every date below comes from this project's models on official data; the ranges are from the joint-uncertainty runs (`validation/uncertainty.py`). The dates are what the models give under their stated conditions, not promises. The constitution (`v75/constitution/`) holds the rules; this document orders them in time.
+**Status (6 November 2026, updated 8 November 2026 after the author approved T-10, the amended T-5 and T-8.5): preliminary, not peer reviewed.** Every date below comes from this project's models on official data; the ranges are from the joint-uncertainty runs (`validation/uncertainty.py`). The dates are what the models give under their stated conditions, not promises. The constitution (`v75/constitution/`) holds the rules; this document orders them in time.
 
 ## 1. Why a transition plan
 
@@ -20,7 +20,7 @@ The end of the transition is defined by conditions that the constitution's own i
 | 4 | Average pay grows no faster than productivity; prices of essentials fixed | Articles 13 and 14.4 |
 | 5 | Every region holds at least three months of essential goods in reserve | T-8.7 |
 | 6 | Allocation leakage well below the 45% failure level, with data under a year old | Independent audits (Article 36), open publication (26a); research basis V6.9 |
-| 7 | Everyone able to work is at work; the standard week is at 30 hours or on its published path (T-10, if adopted) | Article 7, T-10, yearly report |
+| 7 | Everyone able to work is at work; the standard week is at 30 hours or on its published path (T-10) | Article 7, T-10, yearly report |
 | 8 | The democracy health check and the Court function as designed | Articles 32, 36, 39a |
 | 9 | No armed conflict in the federation for ten years; the Mediation Service in place | Articles 5, 10e.6, 10f |
 | 10 | World final energy at or below its planned peak and falling; the clean share rising | Paper §6; Article 11 |
@@ -34,7 +34,7 @@ Until all ten hold, the region is in transition and says so.
 - A **pilot** inside today's law: a town of about 20,000 people with a shorter week, guaranteed work and household delivery monitoring, with pre-registered predictions and failure criteria (`v80/pilot/`). The only step that replaces assumptions about behaviour with data.
 - **Safeguards before power** (T-7): courts, audits, the Inspector-General and the allocation rules exist before any allocation or force.
 - **Inventory** of what the region has (homes, clinics, networks, workers, reserves) so that redistribution and repair come before new production (T-8.2).
-- **The starting week is measured** (T-10, proposed): the shortest week the region's existing labour reserve can cover without loss of output. Research values: 33–40 hours in Europe, 35 in France (V9.2).
+- **The starting week is measured** (T-10): the shortest week the region's existing labour reserve can cover without loss of output. Research values: 33–40 hours in Europe, 35 in France (V9.2).
 
 *Trigger to Phase 1:* referendum to join (Article 40); safeguards certified in place.
 
@@ -45,7 +45,7 @@ What happens from the first day:
 - **Decent for everyone first:** new capacity closes every region's gap to the essential level before any comfortable gap (Article 10a; V7.9).
 - **Faculties and trainers first** in health: the training-capacity cap, not course length, decides the date of care for all (V6.6 levers).
 - Wages move onto the U scale at the full base salary, whatever the starting week; prices of essentials set from embodied work; savings convert at basket parity; the money cap phases in over ten years (T-1).
-- Armed forces are dissolved within five years of full membership, every member offered work, training and full income (T-5); safeguards govern any Peace Force (5a–5c).
+- A member keeps its existing forces for defence only, never inside the federation, under the Inspector-General, until the Court finds that its security no longer depends on them (the federation's size and the Peace Force's strength set by law, or every neighbour a member or bound by agreement); they are then dissolved within five years, every member offered work, training and full income (T-5); safeguards govern any Peace Force (5a–5c).
 - The essential-infrastructure programme (water, sanitation, clean cooking) runs at up to three times the best observed delivery pace, with local participation (V8.8).
 - Paced institutional reform where institutions are weak (T-9); ten years of support after any conflict ends (10f.6).
 
@@ -98,8 +98,8 @@ The ten conditions of section 2 hold for five consecutive years in every region.
 
 | Years after joining | Energy | Health | Housing | Water, sanitation, cooking | Work and money | Institutions and peace |
 |---|---|---|---|---|---|---|
-| 0 | essential allowance for all | care guaranteed, faculties first | homes kept, no eviction | programme starts at up to 3× best pace | full base salary; starting week 33–40 h; cap phases in | safeguards in place before power; disarmament begins |
-| 5 | every region at decent level (yr 4) | every region at decent level (yr 6–7) | | 40–60% of gaps closed | armed forces dissolved (T-5) | ten-year post-conflict support where needed |
+| 0 | essential allowance for all | care guaranteed, faculties first | homes kept, no eviction | programme starts at up to 3× best pace | full base salary; starting week 33–40 h; cap phases in | safeguards in place before power; existing forces kept for defence only until the T-5 conditions are met |
+| 5 | every region at decent level (yr 4) | every region at decent level (yr 6–7) | | 40–60% of gaps closed | armed forces dissolved within five years of the T-5 conditions being met | ten-year post-conflict support where needed |
 | 10 | | | every region at decent level (yr 9) | | cap fully in; week falling with productivity | paced reforms assessed stage by stage |
 | 15 | | central date at 131 per 10,000 with all levers | | two-thirds to four-fifths closed | | |
 | 26 (17–36) | | | | | **Level 1 for 90% of humanity** | |

@@ -1,12 +1,12 @@
 # Is a one-world cooperative economy physically feasible? Evidence, validation and uncertainty for the UNIRA proposal
 
-**Paper V1 — 4 November 2026. Preliminary; not peer reviewed.** This paper consolidates the physical-feasibility results of the UNIRA research (Working Paper 02, V6.2–V9.1) into one document, adds a historical backtest of its delivery model and a joint propagation of its uncertain assumptions, and states its claims at the strength the evidence supports. The normative design it tests is described separately (`concept/UNIRA_CONCEPT.md`); the legal text is the Draft Constitution of One Earth. An authorship disclosure is in section 12.
+**Paper V1 — 4 November 2026, revised 8 November 2026 (condition 1 now follows the adopted transitional provision T-10). Preliminary; not peer reviewed.** This paper consolidates the physical-feasibility results of the UNIRA research (Working Paper 02, V6.2–V9.1) into one document, adds a historical backtest of its delivery model and a joint propagation of its uncertain assumptions, and states its claims at the strength the evidence supports. The normative design it tests is described separately (`concept/UNIRA_CONCEPT.md`); the legal text is the Draft Constitution of One Earth. An authorship disclosure is in section 12.
 
 ## Abstract
 
 UNIRA proposes one democratic world federation in which today's countries become regions, resources go to regions by measured needs and population, every adult able to work works 30 hours a week, essentials have fixed prices and personal money is capped. We ask one question: is that world *physically* possible with the people, energy, food, land, materials, health workers and homes the Earth has? We do not ask whether it is politically achievable or whether people would behave as assumed.
 
-Using frozen official data (Eurostat, INSEE, World Bank, FAO, WHO, ILO, UN population projections) and reproducible models, we find **no physical constraint that rules UNIRA out under stated conditions**, and six conditions that would have to hold: employment of about 88% of adults aged 20–64, food waste halved, clean energy built at 1.2–1.8 TW a year, material use per person cut about 2.7-fold, a 20–30-year health-worker training programme, and home building growing to 6–7 billion m² a year. In the central 30-year plan every region reaches 40 GJ of final energy per person by year 27 and EU-level health staffing by year 30, with world energy at or below today's level; comfortable housing is half done.
+Using frozen official data (Eurostat, INSEE, World Bank, FAO, WHO, ILO, UN population projections) and reproducible models, we find **no physical constraint that rules UNIRA out under stated conditions**, and six conditions that would have to hold: the existing labour reserve brought into work at a measured starting week (35 hours in France, 33–40 in Europe) with the 30-hour week reached as productivity grows, food waste halved, clean energy built at 1.2–1.8 TW a year, material use per person cut about 2.7-fold, a 20–30-year health-worker training programme, and home building growing to 6–7 billion m² a year. In the central 30-year plan every region reaches 40 GJ of final energy per person by year 27 and EU-level health staffing by year 30, with world energy at or below today's level; comfortable housing is half done.
 
 Two additions change how those results should be read. **Joint uncertainty:** when all uncertain assumptions of the 30-year plan are sampled together, energy for all within 30 years holds in 68% of cases, health in 66% and housing in 11%; when the assumptions of the later living-standard model are sampled together, essential security for 90% of humanity comes in year 26 (5–95% range 17–36), and a comfortable life for 95% of humanity is not reached within 80 years in any sampled case while today's conflicts persist. **Validation:** the delivery-pace rule used to project access to services reproduces 2012–2024 history to within 1–3 percentage points for water, sanitation and electricity when each country's own pace is extrapolated, but the faster "programme" paces it assumes over-predict by 10–25 points in conflict and fragile states unless delivery is discounted there.
 
@@ -18,7 +18,7 @@ The UNIRA proposal is a design, set by its author, whose rules are treated here 
 
 | # | Premise (normative) | What this paper tests |
 |---|---|---|
-| 1 | A 30-hour week (6 h × 5 days) from year 1 | Hours lost and how they could be replaced (§3) |
+| 1 | A standard week of 30 hours (6 h × 5 days), reached from a measured starting week at unchanged pay (T-10, adopted 8 November 2026) | Hours lost at 30 h, how they could be replaced, and the starting week (§3) |
 | 2 | Results in hours and physical units, never in today's prices | All results are in hours, kcal, GJ, persons and m² |
 | 3 | One world entity; countries become regions | Pooling of labour and production across regions |
 | 4 | No commercial competition for profit; ideas still compete | Hours freed from market-specific activity (§3) |
@@ -26,7 +26,7 @@ The UNIRA proposal is a design, set by its author, whose rules are treated here 
 | 6 | Fixed prices for essentials; a base salary with multipliers up to 5×; a personal money cap | Internal consistency of the money circuit (§7.3) |
 | 7 | Everyone able to work works; disarmament; health care and education free | Employment, freed labour and energy, training (§3, §5) |
 
-What this paper does **not** show: that people would take up work at 88%, save and spend as assumed under a cap, report their needs honestly, or accept the premises; that the institutions could be built; or that the political path exists. Those limits are stated in §10 and in the concept document.
+What this paper does **not** show: that people would take up work from the labour reserve as assumed, save and spend as assumed under a cap, report their needs honestly, or accept the premises; that the institutions could be built; or that the political path exists. Those limits are stated in §10 and in the concept document.
 
 ## 2. Data, methods and reproducibility
 
@@ -42,7 +42,7 @@ What this paper does **not** show: that people would take up work at 88%, save a
 
 <!-- refs:end -->
 
-## 3. Labour: a 30-hour week from year 1
+## 3. Labour: from a measured starting week to a 30-hour week
 
 **Baseline (France 2023, national accounts, all employed):** 45.6 billion hours, 1,501 hours per person employed. Capping employees' usual week at 30 hours removes 16.7% of hours, so output per hour would have to rise 20.1% to keep output constant (29.1% if the self-employed are also capped) — about 32 years of the 2015–19 productivity trend. Sector averages mislead: in health, education and public administration, annual hours are already below 1,380 because of part-time work, so full-time and part-time workers must be separated.
 
@@ -60,6 +60,8 @@ What this paper does **not** show: that people would take up work at 88%, save a
 | Europe pooled, 88% | 1.3% |
 
 The 88% case needs workplaces for about 5 million new workers, childcare and eldercare, and an employment rate above any country's today. Health and care staffing stays short in year 1 (about 100,000 nurses and 145,000 care workers) because training takes years. The hours–productivity elasticities are extrapolated far beyond any evaluated reform; this is the first item reviewers should test.
+
+**The adopted rule: a measured starting week (V9.2; T-10, 8 November 2026).** The constitution no longer requires 30 hours from year 1. Each region starts at the shortest whole-hour week that its existing labour reserve (the unemployed plus people available but not seeking) can cover with no productivity gain, never above 40 hours and never above its pre-joining week, and shortens it each year by measured productivity growth at unchanged pay. In France that week is 35 hours (34 if entrants are as productive as incumbents): the reserve covers 106% of the hours removed at 35 hours against 39% at 30 hours. Across 30 European countries the starting week is 33–40 hours. The 88% row above is therefore the condition for an *immediate* 30-hour week, which is no longer the design; the condition that replaces it is that the slack reserve is brought into work at the starting week, which removes about 7% of employees' hours, within the range of the reforms that were actually evaluated. Total hours of work are unchanged by construction, so the results of §4–§8, which are in hours, do not move. The date at which 30 hours is reached depends only on productivity growth: from 35 hours, about 28 years at France's 2015–19 trend (0.57% a year), 16 years at 1%, 8 years at 2%, and effectively never at the 2015–23 trend (0.06% a year). No automation effect is assumed (`v92/`).
 
 <!-- refs:begin sources §3 -->
 
@@ -273,7 +275,7 @@ For water, sanitation and electricity, countries kept their pace (rank correlati
 
 **What would refute the physical claims.**
 
-1. **Labour:** under universal work, employment cannot be raised above about 85% within a few years, and the productivity response to a 30-hour week stays below 0.1.
+1. **Labour:** the labour reserve cannot be brought into work at the measured starting week (take-up stays near today's job-finding flows), or productivity growth stays near zero so that 30 hours is never reached; for an immediate 30-hour week, employment cannot be raised above about 85% within a few years and the productivity response stays below 0.1.
 2. **Money:** under the cap, people respond by spending rather than saving, and demand exceeds supply at fixed prices by more than reserve stocks can absorb.
 3. **Health:** world training capacity cannot grow beyond about 1.5-fold, leaving EU-level care for all out of reach for more than 50 years.
 4. **Ecology:** clean-energy build rates stay below the 2025 record, or material use cannot be cut at least 2-fold while homes and infrastructure are built.
@@ -290,7 +292,7 @@ For water, sanitation and electricity, countries kept their pace (rank correlati
 
 ## 11. Conclusions
 
-On the physical evidence, no constraint rules out a comfortable life for everyone, a 30-hour week and a world within climate limits over about one generation, **under six conditions**: universal work at about 88% employment; less waste and a healthier diet; clean energy built at 1.2–1.8 TW a year with rich regions cutting energy use 3–4% a year; about 2.7-fold less material use per person; a 20–30-year health-worker training programme; and home building growing to 6–7 billion m² a year with low-carbon materials. Today's European or US consumption for everyone is not one of the conditions: it is not possible.
+On the physical evidence, no constraint rules out a comfortable life for everyone, a 30-hour week and a world within climate limits over about one generation, **under six conditions**: universal work, with the existing labour reserve brought into work at a measured starting week (35 hours in France) and 30 hours reached as productivity grows; less waste and a healthier diet; clean energy built at 1.2–1.8 TW a year with rich regions cutting energy use 3–4% a year; about 2.7-fold less material use per person; a 20–30-year health-worker training programme; and home building growing to 6–7 billion m² a year with low-carbon materials. Today's European or US consumption for everyone is not one of the conditions: it is not possible.
 
 Under joint uncertainty the central 30-year plan succeeds on energy and health in about two cases in three and on housing in one in nine; the last 10% of humanity, who live mostly in fragile and conflict-affected states, are the slowest to reach even essential security, and a comfortable life for 95% of humanity within 80 years requires conditions outside the sampled ranges. Needs-first allocation is the institution that matters most, and leakage is the failure that matters most.
 

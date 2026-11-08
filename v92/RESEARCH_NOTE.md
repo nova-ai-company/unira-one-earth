@@ -1,6 +1,6 @@
 # UNIRA V9.2 — The working week during the transition
 
-**Status (2026-11-06): preliminary, not peer reviewed; constitution unchanged pending the author's decision on the proposal in `PROPOSED_CONSTITUTION_CHANGES.md`.** Produced with an AI assistant from the V6.2 labour model and its frozen Eurostat data. Research basis only, not independent evidence.
+**Status (2026-11-08): preliminary, not peer reviewed. The proposal in `PROPOSED_CONSTITUTION_CHANGES.md` was approved by the author on 8 November 2026 and is in the constitution (Article 6 "time", T-10, Article 40.2); see `CONSTITUTION_CONSISTENCY_CHECK.md`.** Produced with an AI assistant from the V6.2 labour model and its frozen Eurostat data. Research basis only, not independent evidence.
 
 ## 1. The question (author, 2026-11-06)
 

@@ -1,6 +1,6 @@
 # The Constitution of One Earth (UNIRA) — Draft 1
 
-*Draft for discussion, 3–4 November 2026. Written for the author of UNIRA from the design rules, research results and evidence reviews, with an AI assistant; the legal text expresses the author's decisions. Notes in italics give the reasoning behind an article; they are not part of the legal text. Where a note cites this project's own simulations ("research basis"), it is not independent evidence: the simulations rest on stated assumptions and have not been peer reviewed. The consolidated design is in `concept/UNIRA_CONCEPT.md`; the research status of each component is in its section 10.*
+*Draft for discussion, 3–8 November 2026. Written for the author of UNIRA from the design rules, research results and evidence reviews, with an AI assistant; the legal text expresses the author's decisions. Notes in italics give the reasoning behind an article; they are not part of the legal text. Where a note cites this project's own simulations ("research basis"), it is not independent evidence: the simulations rest on stated assumptions and have not been peer reviewed. The consolidated design is in `concept/UNIRA_CONCEPT.md`; the research status of each component is in its section 10.*
 
 ---
 
@@ -205,7 +205,7 @@ We, the people of the Earth, one humanity in many regions, cultures and language
     - if unable to work for health reasons, a guaranteed income equal to the base salary;
     - in retirement, a needs-based income for life covering food, daily life and one holiday a year;
     - for children, the allowance of Article 15;
-- **time:** a standard working week of 30 hours (6 hours × 5 days), so that families can live together;
+- **time:** a standard working week of 30 hours (6 hours × 5 days), so that families can live together, reached in each region as set out in T-10; from the first day no one is required to work more than 40 hours a week, or more than before their region joined;
 - **energy, transport and digital access** sufficient for a comfortable life;
 - **privacy, freedom of thought, expression, belief and association**;
 - **movement within their own region, the right to leave any region and return to their own** (entry to other regions follows each region's visa rules, Article 4b);
@@ -815,7 +815,7 @@ Income, wealth and any offer to pay more are never taken into account.
 1. A region joins by referendum of its people.
 2. It passes through three stages:
     - observer, building the safeguard institutions;
-    - associate, receiving needs-based transfers and adopting the 30-hour week;
+    - associate, receiving needs-based transfers and adopting the working week of Article 6 and T-10;
     - full member, adopting the U and all rules.
 
 **Article 41 — Leaving.** A region may leave by referendum, with a negotiated settlement. Every person may leave any region at any time; entry elsewhere follows Article 4b.
@@ -885,7 +885,20 @@ Income, wealth and any offer to pay more are never taken into account.
 2. Bonds held by savers and pension funds count as their savings.
 3. Outside creditors are paid on a schedule.
 
-**T-5. Disarmament.** Armed forces are dissolved within 5 years of full membership, and every member is offered work, training and full income.
+**T-5. Disarmament.** *(Gives effect to Article 5.2–5.3. Amended by the author on 8 November 2026: the first members keep their defence until One Earth can protect them.)*
+1. **The rule.** A member's armed forces are dissolved within 5 years of the day its conditions under point 2 are met, and every member of them is offered work, training and full income (Article 5.3).
+2. **The conditions.** Disarmament begins when the Court of One Earth, on the published assessment of the Council of Regions, finds that the region's security no longer depends on its own forces: either because the federation has reached the size, and the Peace Force the strength, set by law for this purpose; or because every state bordering the region is a member of One Earth or has concluded a verified non-aggression and security agreement with it. The size and the strength are set by law from the best evidence and published with it (T-8.9).
+3. **Until then, defence only.** A member whose conditions are not yet met keeps its existing forces, by way of exception to Article 5.2, under these limits:
+    - they serve only the defence of the region's territory and people against attack from outside One Earth;
+    - they are never used inside the federation, against another member, or against peaceful citizens, an election, a court or a vote to leave (Articles 5a.1 and 5c), and their members have the duties of Article 5c;
+    - they do not grow in numbers or in weapons beyond their strength on the day of the joining vote; the production of arms is limited to maintaining existing equipment, and exports of arms stop;
+    - they are open to the Inspector-General of the Force (Article 5a.6), and their size, budget and every movement of heavy weapons are published each year in the Public Allocation Register (Article 5a.4);
+    - they remain under the civilian, democratic authority of the region;
+    - no new armed body is created (Article 5b.6).
+4. **The Peace Force takes over.** As a member disarms, the protection of the Peace Force begins at once, within the ceilings of Article 5a.4, and the dissolution follows the rules of mixing of T-7.3.
+5. **Review.** The Council of Regions reviews every member's conditions at least every 2 years and publishes its assessment. Any member may ask the Court to find that its conditions are met or are no longer met.
+
+*Basis: the concept's open gap 5 (`concept/UNIRA_CONCEPT.md` §11) found that T-5 as first written gave a first member next to non-member states a reason to refuse to join. The federation size and Peace Force strength at which a member can safely disarm have not been studied by this project; they are left to law, with the evidence. The period in which a new force is built is the period of highest coup risk (De Bruin 2018, `v76/peace_force/`), hence the Inspector-General's access and the publication rules during the transition. Whether the destruction of weapons of mass destruction (Article 5.5) should follow the same conditions is an open question recorded in the notes.*
 
 **T-6. Protecting production.** New members keep their productive capacity running through transitional support from the union.
 
@@ -905,7 +918,7 @@ Income, wealth and any offer to pay more are never taken into account.
     - Regional differences rest only on measured constraints, are reviewed every year by an independent body, and are temporary: every region moves toward the full scale of Article 14.
     - Salaries are never cut.
     - The Monetary Authority (Article 17b) prevents total purchasing power from persistently exceeding available supply.
-5. **Investment first where needs are greatest.** Underserved regions have priority for training, health capacity, infrastructure, equipment and productivity, to bring real living standards together as fast as possible. **Building local services comes first** (care, teaching, transport, shops, repair), because they cannot be shipped and are the largest gap between regions.
+5. **Investment first where needs are greatest.** Underserved regions have priority for training, health capacity, infrastructure, equipment and productivity, to bring real living standards together as fast as possible. In health and education, **faculties and trainers come before new posts**, because the capacity to train, not the length of courses, sets the date on which care for all is reached. **Building local services comes first** (care, teaching, transport, shops, repair), because they cannot be shipped and are the largest gap between regions.
 6. **Independent audit and reporting.** Every year an independent body publishes, for every region:
     - real living standards;
     - unmet needs and shortages;
@@ -926,6 +939,16 @@ Income, wealth and any offer to pay more are never taken into account.
 3. Each stage is assessed publicly before the next one begins. The Court may be asked by any person or community whether a staging plan is being used to delay rights or safeguards.
 
 *Research basis (this project's analysis of published studies, not independent evidence; V9.1): intermediate regimes and periods of political change are associated with more civil war (Hegre et al. 2001; Cederman, Hug & Krebs 2010), and anti-corruption reform can disturb patronage arrangements that were buying short-term peace (Fjelde 2009). In the conflict model, if rapid reform in weak institutions doubled onset risk, the last 1% of people would reach essential security about ten years later. Historically one in three institutional gains was reversed the next decade, and externally imposed community programmes did not durably change institutions (Casey, Glennerster & Miguel 2012). Paced reform therefore risks delay as well as tension, hence points 2 and 3.*
+
+**T-10. The working week during the transition.** *(Follows T-9. Gives effect to Articles 6 ("time"), 7, 13.3 and 14. Approved by the author on 8 November 2026.)*
+1. **The starting week.** When a region joins, its standard week is set by law at the shortest whole number of hours that the region's existing labour reserve can cover without loss of output, as measured by the independent body of T-8.6. It is never more than 40 hours and never more than the usual full-time week before joining.
+2. **Full pay from the first day.** The base salary of Article 14 is paid in full whatever the length of the week. Salaries are never cut when hours fall (T-8.4).
+3. **Shorter each year.** Each year the week is shortened by the region's measured growth in output per hour, by published rule, until it reaches 30 hours. During the transition productivity gains go to time first (Article 13.3); only once the region is at 30 hours do they go to the guaranteed income of Article 14c, if adopted.
+4. **Never longer again.** The week never rises, except for the duration of a declared emergency (Article 9a), under review by the Court.
+5. **Jobs do not appear by themselves.** The region and One Earth bring the reserve into work through training, childcare and eldercare, accessible workplaces and regional matching (Article 7, T-8.5). Where the reserve is not yet at work, the week is not shortened on paper ahead of the measurement.
+6. **Published.** The starting week, each reduction and the data behind them are published with the yearly report of T-8.6.
+
+*Research basis (this project's computation on Eurostat data, not independent evidence; V9.2, `v92/`): in France the existing labour reserve (unemployed plus people available but not seeking, counted at three-quarters of average productivity) covers 106% of the hours removed by a 35-hour week but only 39% of those removed by a 30-hour week; across 30 European countries the measured starting week is 33–40 hours. At France's 2015–19 productivity trend, 30 hours comes about 28 years after 35; at 2% a year, 8 years; at the 2015–23 trend, effectively never. Take-up of the reserve is an assumption: no evaluated reform shows that shorter hours alone create jobs, hence point 5. Nothing is assumed about automation.*
 
 ---
 
@@ -951,7 +974,9 @@ Income, wealth and any offer to pay more are never taken into account.
     - The size of the Protection Service.
     - The Peace Force ceiling (1,000,000 members, 0.15% of world output) rests on UN peacekeeping and disaster-response evidence and two assumptions (a 3× allowance for rotation, training and reserve; USD 100–150k per member).
     - How the money cap is set each year (Article 17).
+    - The federation size and Peace Force strength at which a member can safely disarm (T-5.2), and whether the destruction of weapons of mass destruction (Article 5.5) should follow the same conditions.
 
+- **Decided by the author (V9.2 and the transition, 2026-11-08):** three changes approved. (1) The working week during the transition: Article 6 "time" amended (30 hours reached as set out in T-10; from the first day no one works more than 40 hours or more than before joining), new T-10 (measured starting week, full base salary from day one, the week shortened each year by measured productivity until 30 hours, never longer again, the reserve brought into work, all published), Article 40.2 made consequential. (2) T-8.5: in health and education, faculties and trainers come before new posts (V6.6 levers: training capacity, not course length, sets the date). (3) T-5 rewritten: a member disarms within five years of the day the Court finds that its security no longer depends on its own forces (federation size and Peace Force strength set by law, or all neighbours members or bound by agreement); until then its forces serve defence only, under the Inspector-General, never inside the federation, never growing, published. The thresholds of T-5.2 are research values not yet studied. Consistency check in `v92/CONSTITUTION_CONSISTENCY_CHECK.md`.
 - **V7.9 (2026-11-03): the missing designs and power safeguards added** — Articles 3c, 3d, 5b, 5c, 6a, 9a, 10a, 12a, 17b, 22a, 26a, 30a, 32a, 32b, 39a, 41a, 42a, 42b, T-7; amendments to 5a, 13, 17 and 18. Evidence and the stress test of 13 attack scenarios are in `v79/`.
 - **Decided by the author on the research's recommendation (2026-11-03):** a time account of at most 2 weeks a year (sabbatical up to 3 months), paused in shortage jobs (Article 17.4); an open housing lottery of 10%, at most 20% by regional choice (Article 18.8); health need weighted by age and disease burden together (Article 10a.3). Still to confirm with data: the account limits (150,000 U home, 120,000 U retirement, 13 weeks).
 - **Decided by the author (V8.8, 2026-11-04):** the Global Essential Infrastructure Priority Rule added as Article 10e in the author's wording, strengthened by the evidence. Fifteen years is an ambitious planning objective, not a constitutional guarantee; five years remains a research benchmark; ten years is to be tested where institutions allow. An independent household-level monitoring system is required before implementation.

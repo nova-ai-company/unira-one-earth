@@ -1,6 +1,6 @@
 # V9.2 — proposed constitution changes: the working week during the transition
 
-**Status (2026-11-06): proposed on the author's design direction, awaiting the author's approval of the text.** The direction ("start with more hours so there is no gap in productivity, shorten the week as productivity rises, guarantee the same salaries") was given by the author on 2026-11-06. The research in `RESEARCH_NOTE.md` gives the measured values. The text below is drafted to fit the existing articles; accept, change or reject each point separately.
+**Status (2026-11-08): approved by the author and incorporated in `v75/constitution/UNIRA_CONSTITUTION_DRAFT.md` (Article 6 "time", new T-10, Article 40.2); the consistency check is in `CONSTITUTION_CONSISTENCY_CHECK.md`.** Proposed on 2026-11-06 on the author's design direction. The direction ("start with more hours so there is no gap in productivity, shorten the week as productivity rises, guarantee the same salaries") was given by the author on 2026-11-06. The research in `RESEARCH_NOTE.md` gives the measured values. The text below is drafted to fit the existing articles; accept, change or reject each point separately.
 
 ## What the evidence supports
 
@@ -55,4 +55,4 @@
 - **Proposed Article 14c.4** ("society shall progressively reduce compulsory working hours") is the same principle after 30 hours; T-10.3 says which comes first.
 - **T-8.4** ("salaries are never cut") is restated, not changed. **T-8.6** supplies the measurement and the publication. **T-8.9** (parameters set by law) covers the starting week.
 - **Article 42a (protected core):** T-10 is transitional and is not proposed for the core.
-- **Research files to update if adopted:** `v62/config/v62_config.json` (weekly cap: NORMATIVE_TARGET 30 → starting week measured, 30 the destination), paper §2 condition 1 and §3, concept §3, §7 and §8, `v63/DESIGN_CLARIFICATIONS_2026-11-03.md` (rule 69 records the decision), V6.4 rerun with the starting week.
+- **Research files updated on adoption (2026-11-08):** `v62/config/v62_config.json` (weekly cap note: 30 h is the destination, the starting week is measured), paper §1 table 1, §3, §10 and §11, concept §2, §4.6, §7, §8, §10 and §11, `v63/DESIGN_CLARIFICATIONS_2026-11-03.md` (rule 69), the transition plan, the review questions; the V6.4 check at 35 h is reported in `CONSTITUTION_CONSISTENCY_CHECK.md`.

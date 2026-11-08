@@ -4,7 +4,7 @@
 
 UNIRA is a proposal for one world federation of equal regions. It has a 30-hour working week, a stable money (the U) with fixed prices, allocation of resources by need and population, and no armies except a small common Peace Force. This repository holds everything behind it: data, models, tests, the papers, the concept, the draft constitution and the book draft. It is published free so that anyone can check it, criticise it and improve it.
 
-**Status (4 November 2026): preliminary, not peer reviewed.** The research tests *physical feasibility under stated assumptions*. It does not show that UNIRA is politically achievable or that people would behave as assumed. A self-audit and the responses to it are in `v77/review/SELF_AUDIT_2026-11-04.md`.
+**Status (8 November 2026): preliminary, not peer reviewed.** The research tests *physical feasibility under stated assumptions*. It does not show that UNIRA is politically achievable or that people would behave as assumed. A self-audit and the responses to it are in `v77/review/SELF_AUDIT_2026-11-04.md`.
 
 **Website and simulator:** https://nova-ai-company.github.io/unira-one-earth/
 
@@ -29,7 +29,7 @@ UNIRA is a proposal for one world federation of equal regions. It has a 30-hour 
 
 ## Main results (with their conditions)
 
-- **The 30-hour week (France).** Cutting from today's hours to 30 h needs about 20% more output per hour. That gap closes from year 1 if about 88% of adults aged 20–64 work, against 75.4% in 2025 (Eurostat). Shorter hours raise productivity, and less work goes on selling and speculation. (V6.2–V6.3)
+- **The working week (France, Europe).** Cutting to 30 h at once would need about 20% more output per hour, or about 88% of adults aged 20–64 at work against 75.4% in 2025 (Eurostat). The constitution instead starts each region at the shortest week its existing labour reserve can cover with no productivity gain (35 h in France, 33–40 h in Europe, never above 40 h), pays the full base salary from day one and shortens the week as measured productivity grows until 30 h (T-10). Shorter hours raise productivity, and less work goes on selling and speculation. (V6.2–V6.3, V9.2)
 - **Enough for everyone.** Today's world output already covers decent food and energy for all. A comfortable level (40 GJ of final energy per person) fits a 1.5 °C-class pathway at 6–13% less energy than the world uses today, if waste is halved, materials fall about 2.7× and clean energy is built fast. (V6.5–V6.6)
 - **30-year plan.** In the central case every region reaches 40 GJ per person by year 27 and EU-level health staffing by year 30. Comfortable housing for all needs home building to grow 5–10% a year. At 1.2 TW a year of clean energy, the build closes the poorer regions' gap but leaves final energy only about 75% clean by year 30. Bringing fossil use near zero as well needs about 1.8 TW a year. (V6.7, V7.0)
 - **Needs-first versus market.** With the same resources, needs-first allocation closes the gaps. A reformed market does not, unless about 90% of its new capacity is directed to need. Strong safeguards against error and corruption keep about 80–89% of this advantage. (V6.8–V6.9)
@@ -70,7 +70,7 @@ These are tests of **physical feasibility under stated assumptions**, not foreca
 | `v81/prices/` | Price calculator (Article 13): embodied hours × 146.4 U + resource surcharge, 62 product groups, examples |
 | `v82/` | Completing the economy: production signals, hard jobs, investment, restaurant and supermarket accounts, world money (option C), trade, resale, sizes, behaviour register |
 | `v80/pilot/` | Pilot plan: precedents (TZCLD, Marienthal, shorter-week trials), predictions, failure criteria, budget |
-| `v92/` | The working week during the transition: measured starting week (France 35 h, Europe 33–40 h) falling to 30 h as productivity rises, pay unchanged; proposal T-10 awaiting the author's decision |
+| `v92/` | The working week during the transition: measured starting week (France 35 h, Europe 33–40 h) falling to 30 h as productivity rises, pay unchanged; adopted as T-10 on 8 November 2026, with the consistency check of that day's constitution changes |
 | `concept/UNIRA_TRANSITION_PLAN.md` | The transition plan: phases, objectives and measured triggers from joining to a stable UNIRA economy, with model dates and their uncertainty |
 | `v87/`–`v89/` | Living-standard levels: real cost, essential infrastructure, integrated dates |
 | `v90/` | Fair distribution and armed conflict: evidence, country conflict model coupled with V8.9, scenarios A–D, proposed (not applied) constitution changes |

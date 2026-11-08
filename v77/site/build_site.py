@@ -32,7 +32,8 @@ def main():
     paper = (U / "v67" / "WORKING_PAPER_02.md").read_text(encoding="utf-8")
     (DOCS / "paper.html").write_text(page("UNIRA Working Paper 02", md_to_html(paper), 820), encoding="utf-8")
     for src, name, title in ((U / "v91" / "PROPOSED_CONSTITUTION_CHANGES.md", "proposals.html", "Proposed constitution changes (V9.1)"),
-                             (U / "v92" / "PROPOSED_CONSTITUTION_CHANGES.md", "proposals_v92.html", "Proposed constitution changes (V9.2)"),
+                             (U / "v92" / "PROPOSED_CONSTITUTION_CHANGES.md", "proposals_v92.html", "Constitution changes (V9.2), approved 8 November 2026"),
+                             (U / "v92" / "CONSTITUTION_CONSISTENCY_CHECK.md", "consistency_v92.html", "Consistency check of the constitution changes of 8 November 2026"),
                              (U / "v92" / "RESEARCH_NOTE.md", "v92_hours.html", "V9.2 — The working week during the transition"),
                              (U / "paper" / "UNIRA_PAPER_V1.md", "paper_v1.html", "UNIRA Paper V1"),
                              (U / "concept" / "UNIRA_CONCEPT.md", "concept.html", "UNIRA: the concept"),
@@ -64,7 +65,7 @@ made with an AI assistant, not yet peer reviewed (see the self-audit under "For 
 <div class='tile'><b><a href='concept.html'>The concept</a></b><span>The design in one document, what is tested and what is not</span></div>
 <div class='tile'><b><a href='transition.html'>The transition plan</a></b><span>Phases, objectives and measured triggers from joining to a stable UNIRA economy, with the dates the models give and their uncertainty</span></div>
 <div class='tile'><b><a href='constitution.html'>Constitution</a></b><span>Draft Constitution of One Earth</span></div>
-<div class='tile'><b><a href='proposals_v92.html'>Proposed changes (V9.2)</a></b><span>The working week during the transition: start where the reserve covers it, fall to 30 h, same pay — awaiting the author's decision (<a href='v92_hours.html'>research note</a>)</span></div>
+<div class='tile'><b><a href='proposals_v92.html'>Approved changes (V9.2)</a></b><span>Approved 8 November 2026: the working week during the transition (Article 6, T-10, Article 40.2), faculties and trainers first (T-8.5), conditional disarmament (T-5) — <a href='consistency_v92.html'>consistency check</a>, <a href='v92_hours.html'>research note</a></span></div>
 <div class='tile'><b><a href='proposals.html'>Approved changes (V9.1)</a></b><span>Articles 4c, 10f.6 and T-9, approved 5 November 2026</span></div>
 <div class='tile'><b><a href='simulator.html'>Simulator</a></b><span>Change the assumptions and see the results</span></div>
 <div class='tile'><b><a href='dashboard.html'>Dashboard</a></b><span>Key numbers and charts</span></div>

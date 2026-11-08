@@ -55,7 +55,7 @@
     "weekly_cap_hours": {
       "value": 30,
       "evidence_class": "NORMATIVE_TARGET",
-      "note": "UNIRA rule: 6h x 5 days"
+      "note": "UNIRA standard (Constitution Article 6): 6h x 5 days. Since T-10 (2026-11-08) this is the destination, not the starting week; the starting week is measured in v92/hours (France 35 h, Europe 33-40 h)"
     },
     "normative_weeks": {
       "value": 46,
