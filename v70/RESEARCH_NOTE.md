@@ -56,6 +56,14 @@ The remaining 1.5 °C carbon budget is 130 Gt from 2025 (50% chance); 2 °C is 1
 - **3D printing:** no independently audited whole-project cost or schedule figures; not used.
 - **Limits:** labour hours per m² of self-built extensions unknown (set equal to professional hours); self-build needs tenure, supervision and materials logistics; one world capacity, no regional trade or cement bottlenecks; the 1.5× record case has no observational support. Constitution text proposed in `concept/PROPOSED_CONSTITUTION_CHANGES_2026-11-08.md` (not yet approved).
 
+**Where the factories go (author, 2026-11-08; `housing/factories.py`, +8 tests, `outputs/housing_factories.json`).** The author asked which regions can build factories to make walls and homes as fast as possible for all regions. Article 10a.5 answers: produce where it takes the fewest hours, resources and transport, giving every region productive work. Applied to the 109 regions below 27 m² (5.0 bn people) at the programme's peak of 7.1 bn m² a year:
+
+- **The homes must be made where they are needed.** Room modules are trucked economically about 200 miles (320 km; UW CERC 2013, verified). Measured capital to capital, which overstates reach, 92% of the people in deficit regions live more than 1,000 km from any surplus industrial region and 69% more than 1,000 km from any industrial region at all; 0.1% live within module range of a surplus industrial region. Exporting finished homes or walls across the world is not the plan the rule gives.
+- **It is a distributed industry.** At the output of verified module plants (Sekisui Heim Thailand 1,000 houses a year; BoKlok 1,200), the peak is 45,000–90,000 plants, one per 70,000–110,000 people in the regions of need; India alone about 20,000, Nigeria 4,700, Pakistan 4,300. Panel plants are larger, so these are upper bounds on the count.
+- **What the industrial regions supply:** the machines and production lines, the training, and the materials where local production is short. The programme needs about 390 Mt of cement and 190 Mt of steel a year at the peak, about a tenth of world output of each (denominators reported, not verified); the largest surplus industrial regions by manufacturing are China, the USA, Japan, Germany, Korea, Mexico, Türkiye, Italy, France, the UK, Poland and Spain. Where Sub-Saharan Africa's cement comes from is the open question.
+- **People:** at the Finnish precast value-chain benchmark of 13 h/m² (verified), the peak workforce is about 72 m instead of 265 m site-built. Reaching that productivity everywhere is an assumption.
+- **Limits:** capital-to-capital distances; module-plant sizes; reported material denominators; no regional cement data; the low-carbon path (timber, bamboo, earth panels) uses less cement and is local by nature, not modelled here.
+
 ## Part B. Constitutional safeguards
 `constitution/SAFEGUARD_ARTICLES.md` turns the V6.9 results into draft Articles 13–20:
 - 13 Public Allocation Register;

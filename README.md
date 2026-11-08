@@ -59,7 +59,7 @@ These are tests of **physical feasibility under stated assumptions**, not foreca
 | `v67/` | 30-year transition model, dashboard, **Working Paper 02** |
 | `v68/` | UNIRA versus reformed market (matched resources) and verification |
 | `v69/` | Allocation failures (error, lag, misreporting, leakage) and safeguards |
-| `v70/` | Housing acceleration, low-carbon building, housing levers (factory building, decent core first, household-built extensions), safeguard articles |
+| `v70/` | Housing acceleration, low-carbon building, housing levers (factory building, decent core first, household-built extensions), where home and wall factories go, safeguard articles |
 | `v71/`–`v72/` | Security and consumption; transition, joining, property and debts |
 | `v73/book/` | Book draft |
 | `v74/` | Income distribution inside rich regions |

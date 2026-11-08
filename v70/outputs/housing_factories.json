@@ -1,0 +1,469 @@
+{
+  "question": "author, 2026-11-08: which regions can build factories to make walls and homes as fast as possible for all regions",
+  "rule": "Article 10a.5: produce where it takes the fewest hours, resources and transport, giving every region productive work",
+  "peak_world_demand_bn_m2_per_yr": 7.13,
+  "deficit_regions": 109,
+  "deficit_population_bn": 4.99,
+  "plants_needed_world": {
+    "low": 89159,
+    "central": 74299,
+    "high": 44579
+  },
+  "plants_per_million_people_in_deficit_regions": {
+    "low": 17.9,
+    "central": 14.9,
+    "high": 8.9
+  },
+  "people_per_plant_central": 67114,
+  "share_of_deficit_population_by_distance_to_nearest_supplier": {
+    "surplus_industrial": {
+      "within_module_radius": 0.0012,
+      "within_panel_radius": 0.0837,
+      "beyond": 0.9152,
+      "no_coordinates": 0.0
+    },
+    "any_industrial": {
+      "within_module_radius": 0.0282,
+      "within_panel_radius": 0.2818,
+      "beyond": 0.69,
+      "no_coordinates": 0.0
+    }
+  },
+  "surplus_industrial_regions": 51,
+  "largest_surplus_industrial_regions_by_manufacturing": [
+    "CHN",
+    "USA",
+    "JPN",
+    "DEU",
+    "KOR",
+    "MEX",
+    "TUR",
+    "ITA",
+    "FRA",
+    "GBR",
+    "POL",
+    "ESP"
+  ],
+  "materials_at_peak_mt_per_yr": {
+    "cement": 387.3,
+    "steel": 190.4,
+    "concrete": 4372.4,
+    "wood": 296.7
+  },
+  "materials_share_of_world_production": {
+    "cement": 0.097,
+    "steel": 0.101
+  },
+  "workforce_at_peak_m": {
+    "site_built_48_h_per_m2": 265,
+    "factory_value_chain_13_h_per_m2": 72
+  },
+  "regions": [
+    {
+      "region": "IND",
+      "pop_m": 1450.9,
+      "floor_m2": 10.485114,
+      "need_share": 0.2707,
+      "peak_demand_m2_per_yr": 1930629769,
+      "plants_central": 20111,
+      "nearest_surplus_industrial_km": 3769
+    },
+    {
+      "region": "NGA",
+      "pop_m": 232.7,
+      "floor_m2": 11.215043,
+      "need_share": 0.0637,
+      "peak_demand_m2_per_yr": 454121732,
+      "plants_central": 4730,
+      "nearest_surplus_industrial_km": 3069
+    },
+    {
+      "region": "PAK",
+      "pop_m": 251.3,
+      "floor_m2": 14.589973,
+      "need_share": 0.0573,
+      "peak_demand_m2_per_yr": 408367607,
+      "plants_central": 4254,
+      "nearest_surplus_industrial_km": 3695
+    },
+    {
+      "region": "ETH",
+      "pop_m": 132.1,
+      "floor_m2": 7.106071,
+      "need_share": 0.0461,
+      "peak_demand_m2_per_yr": 329110271,
+      "plants_central": 3428,
+      "nearest_surplus_industrial_km": 2958
+    },
+    {
+      "region": "COD",
+      "pop_m": 109.3,
+      "floor_m2": 11.215043,
+      "need_share": 0.0419,
+      "peak_demand_m2_per_yr": 298996167,
+      "plants_central": 3115,
+      "nearest_surplus_industrial_km": 4474
+    },
+    {
+      "region": "IDN",
+      "pop_m": 283.5,
+      "floor_m2": 14.950437,
+      "need_share": 0.0397,
+      "peak_demand_m2_per_yr": 283228288,
+      "plants_central": 2950,
+      "nearest_surplus_industrial_km": 5233
+    },
+    {
+      "region": "BGD",
+      "pop_m": 173.6,
+      "floor_m2": 14.589973,
+      "need_share": 0.0293,
+      "peak_demand_m2_per_yr": 209162862,
+      "plants_central": 2179,
+      "nearest_surplus_industrial_km": 3026
+    },
+    {
+      "region": "TZA",
+      "pop_m": 68.6,
+      "floor_m2": 10.543828,
+      "need_share": 0.0249,
+      "peak_demand_m2_per_yr": 177899851,
+      "plants_central": 1853,
+      "nearest_surplus_industrial_km": 4604
+    },
+    {
+      "region": "EGY",
+      "pop_m": 116.5,
+      "floor_m2": 18.367203,
+      "need_share": 0.02,
+      "peak_demand_m2_per_yr": 142449723,
+      "plants_central": 1484,
+      "nearest_surplus_industrial_km": 598
+    },
+    {
+      "region": "UGA",
+      "pop_m": 50.0,
+      "floor_m2": 7.106071,
+      "need_share": 0.0175,
+      "peak_demand_m2_per_yr": 125004831,
+      "plants_central": 1302,
+      "nearest_surplus_industrial_km": 3876
+    },
+    {
+      "region": "SDN",
+      "pop_m": 50.4,
+      "floor_m2": 7.106071,
+      "need_share": 0.0174,
+      "peak_demand_m2_per_yr": 124418433,
+      "plants_central": 1296,
+      "nearest_surplus_industrial_km": 2178
+    },
+    {
+      "region": "KEN",
+      "pop_m": 56.4,
+      "floor_m2": 7.106071,
+      "need_share": 0.0167,
+      "peak_demand_m2_per_yr": 118903915,
+      "plants_central": 1239,
+      "nearest_surplus_industrial_km": 4069
+    },
+    {
+      "region": "PHL",
+      "pop_m": 115.8,
+      "floor_m2": 16.284097,
+      "need_share": 0.0156,
+      "peak_demand_m2_per_yr": 111579563,
+      "plants_central": 1162,
+      "nearest_surplus_industrial_km": 2621
+    },
+    {
+      "region": "AGO",
+      "pop_m": 37.9,
+      "floor_m2": 10.543828,
+      "need_share": 0.0144,
+      "peak_demand_m2_per_yr": 102920624,
+      "plants_central": 1072,
+      "nearest_surplus_industrial_km": 4974
+    },
+    {
+      "region": "AFG",
+      "pop_m": 42.6,
+      "floor_m2": 14.589973,
+      "need_share": 0.0131,
+      "peak_demand_m2_per_yr": 93128937,
+      "plants_central": 970,
+      "nearest_surplus_industrial_km": 3250
+    },
+    {
+      "region": "MOZ",
+      "pop_m": 34.6,
+      "floor_m2": 10.543828,
+      "need_share": 0.0121,
+      "peak_demand_m2_per_yr": 86498987,
+      "plants_central": 901,
+      "nearest_surplus_industrial_km": 6798
+    },
+    {
+      "region": "VNM",
+      "pop_m": 101.0,
+      "floor_m2": 16.284097,
+      "need_share": 0.0119,
+      "peak_demand_m2_per_yr": 84933436,
+      "plants_central": 885,
+      "nearest_surplus_industrial_km": 2338
+    },
+    {
+      "region": "MDG",
+      "pop_m": 32.0,
+      "floor_m2": 7.106071,
+      "need_share": 0.0109,
+      "peak_demand_m2_per_yr": 77445270,
+      "plants_central": 807,
+      "nearest_surplus_industrial_km": 6322
+    },
+    {
+      "region": "CIV",
+      "pop_m": 31.9,
+      "floor_m2": 11.215043,
+      "need_share": 0.0103,
+      "peak_demand_m2_per_yr": 73483661,
+      "plants_central": 765,
+      "nearest_surplus_industrial_km": 3747
+    },
+    {
+      "region": "NER",
+      "pop_m": 27.0,
+      "floor_m2": 11.215043,
+      "need_share": 0.01,
+      "peak_demand_m2_per_yr": 71413103,
+      "plants_central": 744,
+      "nearest_surplus_industrial_km": 2781
+    },
+    {
+      "region": "CMR",
+      "pop_m": 29.1,
+      "floor_m2": 11.215043,
+      "need_share": 0.0095,
+      "peak_demand_m2_per_yr": 67458495,
+      "plants_central": 703,
+      "nearest_surplus_industrial_km": 3575
+    },
+    {
+      "region": "YEM",
+      "pop_m": 40.6,
+      "floor_m2": 22.24065,
+      "need_share": 0.0091,
+      "peak_demand_m2_per_yr": 64946550,
+      "plants_central": 677,
+      "nearest_surplus_industrial_km": 2454
+    },
+    {
+      "region": "ZAF",
+      "pop_m": 64.0,
+      "floor_m2": 17.96679,
+      "need_share": 0.0089,
+      "peak_demand_m2_per_yr": 63281975,
+      "plants_central": 659,
+      "nearest_surplus_industrial_km": 6795
+    },
+    {
+      "region": "GHA",
+      "pop_m": 34.4,
+      "floor_m2": 11.215043,
+      "need_share": 0.0088,
+      "peak_demand_m2_per_yr": 62708159,
+      "plants_central": 653,
+      "nearest_surplus_industrial_km": 3693
+    },
+    {
+      "region": "MLI",
+      "pop_m": 24.5,
+      "floor_m2": 11.215043,
+      "need_share": 0.0087,
+      "peak_demand_m2_per_yr": 62247170,
+      "plants_central": 648,
+      "nearest_surplus_industrial_km": 2800
+    },
+    {
+      "region": "IRQ",
+      "pop_m": 46.0,
+      "floor_m2": 22.24065,
+      "need_share": 0.0082,
+      "peak_demand_m2_per_yr": 58815888,
+      "plants_central": 613,
+      "nearest_surplus_industrial_km": 1033
+    },
+    {
+      "region": "SOM",
+      "pop_m": 19.0,
+      "floor_m2": 7.106071,
+      "need_share": 0.0078,
+      "peak_demand_m2_per_yr": 55703858,
+      "plants_central": 580,
+      "nearest_surplus_industrial_km": 3881
+    },
+    {
+      "region": "TCD",
+      "pop_m": 20.3,
+      "floor_m2": 11.215043,
+      "need_share": 0.0074,
+      "peak_demand_m2_per_yr": 52629177,
+      "plants_central": 548,
+      "nearest_surplus_industrial_km": 2647
+    },
+    {
+      "region": "ZMB",
+      "pop_m": 21.3,
+      "floor_m2": 10.543828,
+      "need_share": 0.0072,
+      "peak_demand_m2_per_yr": 51476539,
+      "plants_central": 536,
+      "nearest_surplus_industrial_km": 5648
+    },
+    {
+      "region": "MWI",
+      "pop_m": 21.7,
+      "floor_m2": 10.543828,
+      "need_share": 0.007,
+      "peak_demand_m2_per_yr": 49998291,
+      "plants_central": 521,
+      "nearest_surplus_industrial_km": 5466
+    },
+    {
+      "region": "THA",
+      "pop_m": 71.7,
+      "floor_m2": 16.284097,
+      "need_share": 0.0069,
+      "peak_demand_m2_per_yr": 49200791,
+      "plants_central": 513,
+      "nearest_surplus_industrial_km": 3306
+    },
+    {
+      "region": "BFA",
+      "pop_m": 23.5,
+      "floor_m2": 11.215043,
+      "need_share": 0.0067,
+      "peak_demand_m2_per_yr": 47607524,
+      "plants_central": 496,
+      "nearest_surplus_industrial_km": 3024
+    },
+    {
+      "region": "DZA",
+      "pop_m": 46.8,
+      "floor_m2": 18.367203,
+      "need_share": 0.0067,
+      "peak_demand_m2_per_yr": 47947343,
+      "plants_central": 499,
+      "nearest_surplus_industrial_km": 715
+    },
+    {
+      "region": "IRN",
+      "pop_m": 91.6,
+      "floor_m2": 22.24065,
+      "need_share": 0.0064,
+      "peak_demand_m2_per_yr": 45725951,
+      "plants_central": 476,
+      "nearest_surplus_industrial_km": 1636
+    },
+    {
+      "region": "UZB",
+      "pop_m": 36.4,
+      "floor_m2": 19.470697,
+      "need_share": 0.0063,
+      "peak_demand_m2_per_yr": 44954091,
+      "plants_central": 468,
+      "nearest_surplus_industrial_km": 3102
+    },
+    {
+      "region": "MMR",
+      "pop_m": 54.5,
+      "floor_m2": 16.284097,
+      "need_share": 0.0062,
+      "peak_demand_m2_per_yr": 44546823,
+      "plants_central": 464,
+      "nearest_surplus_industrial_km": 2783
+    },
+    {
+      "region": "MYS",
+      "pop_m": 35.6,
+      "floor_m2": 16.284097,
+      "need_share": 0.0055,
+      "peak_demand_m2_per_yr": 39514983,
+      "plants_central": 412,
+      "nearest_surplus_industrial_km": 4361
+    },
+    {
+      "region": "SEN",
+      "pop_m": 18.5,
+      "floor_m2": 11.215043,
+      "need_share": 0.0055,
+      "peak_demand_m2_per_yr": 39230149,
+      "plants_central": 409,
+      "nearest_surplus_industrial_km": 2789
+    },
+    {
+      "region": "BDI",
+      "pop_m": 14.0,
+      "floor_m2": 7.106071,
+      "need_share": 0.005,
+      "peak_demand_m2_per_yr": 35346469,
+      "plants_central": 368,
+      "nearest_surplus_industrial_km": 4307
+    },
+    {
+      "region": "ZWE",
+      "pop_m": 16.6,
+      "floor_m2": 10.543828,
+      "need_share": 0.0047,
+      "peak_demand_m2_per_yr": 33505929,
+      "plants_central": 349,
+      "nearest_surplus_industrial_km": 5898
+    }
+  ],
+  "parameters": {
+    "module_radius_km": {
+      "value": 320,
+      "basis": "200 miles 'probably the most cost-efficient option' for trucking modules (UW Construction Management, CERC report 2013, Skanska grant, VERIFIED text)"
+    },
+    "panel_radius_km": {
+      "value": 1000,
+      "basis": "flat wall and floor panels are shipped much farther than room modules (industry commentary, REPORTED); 1,000 km is a generous SYNTHETIC bound"
+    },
+    "plant_homes_per_year": {
+      "low": 1000,
+      "central": 1200,
+      "high": 2000,
+      "basis": "Sekisui Heim plant 80 km north of Bangkok, 1,000 houses/yr (VERIFIED); BoKlok (Skanska/IKEA) about 1,200 homes/yr (VERIFIED); Urban Splash/Sekisui House UK target 2,000/yr (REPORTED). Module plants; panel plants can be larger, so plant counts are upper bounds"
+    },
+    "m2_per_home": {
+      "value": 80,
+      "basis": "SYNTHETIC: about three people at the 27 m2 comfortable standard"
+    },
+    "material_kg_per_m2": {
+      "cement": 54.3,
+      "steel": 26.7,
+      "concrete": 613.0,
+      "wood": 41.6,
+      "basis": "residential medians, Heeren & Fishman 2019 material-intensity database (v66/construction/evidence.csv, VERIFIED computation)"
+    },
+    "world_production_mt": {
+      "cement": 4000,
+      "steel": 1882.6,
+      "basis": "cement: USGS Mineral Commodity Summaries, about 3.8-4.1 bn t in 2023-2025 (REPORTED, PDF refused automated fetch); steel: worldsteel 2024 total 1,882.6 Mt, China 1,005.1, India 149.6 (REPORTED, pages render without text). Both REPORTED_NEEDS_RECHECK"
+    },
+    "labour_h_per_m2": {
+      "factory_value_chain": 13.0,
+      "site_central": 48.0,
+      "basis": "13 h/m2 (10-20) for 11 Finnish precast apartment projects, whole value chain excluding material manufacture (RT 2024, VERIFIED); 48 = v70 central site-built value"
+    },
+    "hours_per_worker_year": 1290
+  },
+  "reading": "the homes must be made where they are needed: almost all people in deficit regions live beyond the distance over which room modules travel economically, and most beyond the generous bound for panels, when distance is measured between capitals (so even this overstates reach). The programme is a distributed local industry of tens of thousands of plants, about one per 80,000-150,000 people, not a few exporting regions. What the industrial regions supply is the machines, the training, and the cement and steel where local production is short: the programme needs about a tenth of world cement and steel output at its peak. At the industrialised benchmark the peak workforce falls from about 265 million to about 70 million.",
+  "limits": [
+    "capital-to-capital distances understate distances inside large regions (India, Nigeria, Brazil), so the 'within radius' shares are upper bounds on what imports could serve",
+    "plant output figures are from module factories in Thailand, Estonia and the UK; panel plants are larger, so the plant counts are upper bounds and the people-per-plant figures lower bounds",
+    "cement and steel world production are reported, not verified in source; the shares are ratios, robust to about 10% error",
+    "no data on cement production by region in the project; where Sub-Saharan Africa's cement would come from is the open question for the next step",
+    "the Finnish 13 h/m2 benchmark excludes material manufacture and earthworks and reflects a high-skill, capital-intensive industry; reaching it everywhere is an assumption"
+  ]
+}

@@ -119,6 +119,7 @@ The comparison with planned economies is the one critics will make first. UNIRA'
 | Training organised "out of the box" (theory online, facilities in rotation, every hospital teaches) | **simulated** on verified evidence for simulation and blended learning; rotation multipliers and educator time freed are assumptions | v66 `training_capacity.py` |
 | Housing need and construction capacity | **model-derived** (regional floor-area estimates, no official country data) | v66, v70, paper §5 |
 | Housing levers (factory building, decent core first, household-built extensions) | **simulated**; labour savings and self-build shares are reported or synthetic values | v70 `run_levers.py` |
+| Where home and wall factories go | **computed on regional data** (floor area, population, manufacturing, coordinates) with verified transport and plant-size figures; material denominators reported | v70 `factories.py` |
 | 30-year transition plan | **simulated**; build rates and allocation shares assumed; **joint uncertainty propagated** | v67, validation/ |
 | Needs-first vs reformed market | **simulated comparison**, institutions only changed | v68 |
 | Allocation errors and safeguards | **simulated**, calibrated on 44 sourced observations of transfer programmes | v69 |
