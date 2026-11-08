@@ -45,13 +45,13 @@
     "ESP"
   ],
   "materials_at_peak_mt_per_yr": {
-    "cement": 387.3,
+    "cement": 933.9,
     "steel": 190.4,
     "concrete": 4372.4,
     "wood": 296.7
   },
   "materials_share_of_world_production": {
-    "cement": 0.097,
+    "cement": 0.233,
     "steel": 0.101
   },
   "workforce_at_peak_m": {
@@ -440,11 +440,11 @@
       "basis": "SYNTHETIC: about three people at the 27 m2 comfortable standard"
     },
     "material_kg_per_m2": {
-      "cement": 54.3,
+      "cement": 130.925,
       "steel": 26.7,
       "concrete": 613.0,
       "wood": 41.6,
-      "basis": "residential medians, Heeren & Fishman 2019 material-intensity database (v66/construction/evidence.csv, VERIFIED computation)"
+      "basis": "residential medians, Heeren & Fishman 2019 material-intensity database (v66/construction/evidence.csv, VERIFIED computation): cement 54.3 recorded separately plus the cement inside 613 kg of concrete at 12.5% of mass (about 300 kg per m3 of 2,400 kg, a standard mix; ASSUMPTION), i.e. about 131 kg of cement per m2 in all"
     },
     "world_production_mt": {
       "cement": 4000,
@@ -458,7 +458,7 @@
     },
     "hours_per_worker_year": 1290
   },
-  "reading": "the homes must be made where they are needed: almost all people in deficit regions live beyond the distance over which room modules travel economically, and most beyond the generous bound for panels, when distance is measured between capitals (so even this overstates reach). The programme is a distributed local industry of tens of thousands of plants, about one per 80,000-150,000 people, not a few exporting regions. What the industrial regions supply is the machines, the training, and the cement and steel where local production is short: the programme needs about a tenth of world cement and steel output at its peak. At the industrialised benchmark the peak workforce falls from about 265 million to about 70 million.",
+  "reading": "the homes must be made where they are needed: almost all people in deficit regions live beyond the distance over which room modules travel economically, and most beyond the generous bound for panels, when distance is measured between capitals (so even this overstates reach). The programme is a distributed local industry of tens of thousands of plants, about one per 80,000-150,000 people, not a few exporting regions. What the industrial regions supply is the machines, the training, and the cement and steel where local production is short: the programme needs about a quarter of world cement output and a tenth of world steel at its peak. At the industrialised benchmark the peak workforce falls from about 265 million to about 70 million.",
   "limits": [
     "capital-to-capital distances understate distances inside large regions (India, Nigeria, Brazil), so the 'within radius' shares are upper bounds on what imports could serve",
     "plant output figures are from module factories in Thailand, Estonia and the UK; panel plants are larger, so the plant counts are upper bounds and the people-per-plant figures lower bounds",

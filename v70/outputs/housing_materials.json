@@ -1,0 +1,388 @@
+{
+  "question": "author, 2026-11-08: can any material be used better than cement and steel?",
+  "peak_bn_m2_per_yr": 7.13,
+  "total_30y_bn_m2": 109,
+  "systems": {
+    "rc_conventional": {
+      "label": "Reinforced concrete frame, fired brick or block infill (today's standard)",
+      "cement_kg": 130.925,
+      "steel_kg": 26.7,
+      "wood_m3": 0.0832,
+      "bamboo_kg": 0.0,
+      "earth_t": 0.0,
+      "co2_kg": 400,
+      "labour_h": 48,
+      "storeys": "any",
+      "where": "everywhere today",
+      "basis": "materials: Heeren & Fishman 2019 medians (VERIFIED); CO2 400 and labour 48: v70 central values"
+    },
+    "rc_lc3": {
+      "label": "Same building with LC3 limestone calcined clay cement",
+      "cement_kg": 130.925,
+      "steel_kg": 26.7,
+      "wood_m3": 0.0832,
+      "bamboo_kg": 0.0,
+      "earth_t": 0.0,
+      "co2_kg": 368.578,
+      "labour_h": 48,
+      "storeys": "any",
+      "where": "everywhere concrete is still needed",
+      "basis": "LC3 cuts cement CO2 by up to 40% using abundant low-grade clays in existing plants (lc3.ch, VERIFIED); 0.6 kg CO2 per kg of ordinary cement (REPORTED); only the cement share of the building's CO2 changes"
+    },
+    "timber_frame": {
+      "label": "Light timber frame, 1-3 storeys",
+      "cement_kg": 30.0,
+      "steel_kg": 5.0,
+      "wood_m3": 0.18,
+      "bamboo_kg": 0.0,
+      "earth_t": 0.0,
+      "co2_kg": 150,
+      "labour_h": 35,
+      "storeys": "1-3",
+      "where": "temperate and boreal forest regions; tropical where forests are managed",
+      "basis": "wood 0.16-0.22 m3/m2 for timber-frame homes incl. insulation and cladding (REPORTED); cement for foundations and steel for fasteners ASSUMPTION; CO2 150 = v70 low-carbon central; labour between the Finnish precast benchmark (13) and site-built (48), ASSUMPTION"
+    },
+    "clt_midrise": {
+      "label": "Cross-laminated timber, 4-8 storeys",
+      "cement_kg": 45.0,
+      "steel_kg": 8.0,
+      "wood_m3": 0.3,
+      "bamboo_kg": 0.0,
+      "earth_t": 0.0,
+      "co2_kg": 200,
+      "labour_h": 25,
+      "storeys": "4-8",
+      "where": "dense cities in or near forest regions",
+      "basis": "CLT use factors 0.149-0.457 m3 per m2 of footprint per storey, most above 0.305 (Dolan et al. 2019 citing Crespell & Gagnon 2010, VERIFIED); cement for foundations and cores, steel connectors, CO2 and labour ASSUMPTION"
+    },
+    "bamboo_frame": {
+      "label": "Engineered bamboo or bahareque frame, 1-3 storeys",
+      "cement_kg": 30.0,
+      "steel_kg": 4.0,
+      "wood_m3": 0.02,
+      "bamboo_kg": 45.0,
+      "earth_t": 0.0,
+      "co2_kg": 60,
+      "labour_h": 45,
+      "storeys": "1-3",
+      "where": "humid tropics (South and South-East Asia, Central Africa, Latin America)",
+      "basis": "bamboo buildings about 30 kg CO2e/m2 (Escamilla 2018, cited in v70) and a Colombian bamboo house about 107 (unverified): 60 is judgement; bamboo mass per m2 (30-60 kg) ASSUMPTION, the inventory paper could not be read (publisher refuses automated access); cement for foundations and render ASSUMPTION; needs treatment against borers and fungi"
+    },
+    "earth_vault": {
+      "label": "Compressed or raw earth walls with earth vault roofs, 1-2 storeys",
+      "cement_kg": 8.0,
+      "steel_kg": 1.0,
+      "wood_m3": 0.0,
+      "bamboo_kg": 0.0,
+      "earth_t": 1.2,
+      "co2_kg": 40,
+      "labour_h": 70,
+      "storeys": "1-2",
+      "where": "dry and semi-arid regions (Sahel, Horn of Africa, South Asia's dry zones, Middle East, Andes)",
+      "basis": "Nubian Vault programme: 8,500+ buildings, 4,900+ trained masons, 7 Sahel countries, 'based exclusively on local raw earth' (lavoutenubienne.org, VERIFIED); cement 0-15 kg for optional stabilised blocks, earth mass, CO2 and labour (PMAY-G upper value 64 h/m2) ASSUMPTION; limited to low rise and to climates with little driving rain"
+    }
+  },
+  "mixes": {
+    "all_rc_conventional": {
+      "shares": {
+        "rc_conventional": 1.0
+      },
+      "per_m2": {
+        "cement_kg": 130.925,
+        "steel_kg": 26.7,
+        "wood_m3": 0.083,
+        "bamboo_kg": 0.0,
+        "earth_t": 0.0,
+        "co2_kg": 400.0,
+        "labour_h": 48.0
+      },
+      "cement_mt_per_yr": 933.9,
+      "cement_share_of_world": 0.233,
+      "steel_mt_per_yr": 190.4,
+      "steel_share_of_world": 0.101,
+      "wood_mm3_per_yr": 593.4,
+      "wood_share_of_industrial_roundwood": 0.299,
+      "plantation_mha_needed": {
+        "low": 118.7,
+        "central": 59.3,
+        "high": 39.6
+      },
+      "plantation_mha_needed_vs_existing_plantations": 0.45,
+      "bamboo_mt_per_yr": 0.0,
+      "bamboo_mha_needed": {
+        "low": 0.0,
+        "central": 0.0,
+        "high": 0.0
+      },
+      "bamboo_mha_needed_vs_existing_area": 0.0,
+      "earth_gt_per_yr": 0.0,
+      "co2_gt_per_yr_at_peak": 2.85,
+      "co2_gt_30y": 43.5,
+      "co2_30y_share_of_1p5_budget": 0.33,
+      "peak_workers_m": 265
+    },
+    "all_rc_lc3": {
+      "shares": {
+        "rc_lc3": 1.0
+      },
+      "per_m2": {
+        "cement_kg": 130.925,
+        "steel_kg": 26.7,
+        "wood_m3": 0.083,
+        "bamboo_kg": 0.0,
+        "earth_t": 0.0,
+        "co2_kg": 368.578,
+        "labour_h": 48.0
+      },
+      "cement_mt_per_yr": 933.9,
+      "cement_share_of_world": 0.233,
+      "steel_mt_per_yr": 190.4,
+      "steel_share_of_world": 0.101,
+      "wood_mm3_per_yr": 593.4,
+      "wood_share_of_industrial_roundwood": 0.299,
+      "plantation_mha_needed": {
+        "low": 118.7,
+        "central": 59.3,
+        "high": 39.6
+      },
+      "plantation_mha_needed_vs_existing_plantations": 0.45,
+      "bamboo_mt_per_yr": 0.0,
+      "bamboo_mha_needed": {
+        "low": 0.0,
+        "central": 0.0,
+        "high": 0.0
+      },
+      "bamboo_mha_needed_vs_existing_area": 0.0,
+      "earth_gt_per_yr": 0.0,
+      "co2_gt_per_yr_at_peak": 2.63,
+      "co2_gt_30y": 40.1,
+      "co2_30y_share_of_1p5_budget": 0.31,
+      "peak_workers_m": 265
+    },
+    "regional_mix": {
+      "shares": {
+        "bamboo_frame": 0.25,
+        "earth_vault": 0.2,
+        "timber_frame": 0.2,
+        "clt_midrise": 0.1,
+        "rc_lc3": 0.25
+      },
+      "per_m2": {
+        "cement_kg": 52.331,
+        "steel_kg": 9.675,
+        "wood_m3": 0.092,
+        "bamboo_kg": 11.25,
+        "earth_t": 0.24,
+        "co2_kg": 165.144,
+        "labour_h": 46.75
+      },
+      "cement_mt_per_yr": 373.3,
+      "cement_share_of_world": 0.093,
+      "steel_mt_per_yr": 69.0,
+      "steel_share_of_world": 0.037,
+      "wood_mm3_per_yr": 654.8,
+      "wood_share_of_industrial_roundwood": 0.33,
+      "plantation_mha_needed": {
+        "low": 131.0,
+        "central": 65.5,
+        "high": 43.7
+      },
+      "plantation_mha_needed_vs_existing_plantations": 0.5,
+      "bamboo_mt_per_yr": 80.2,
+      "bamboo_mha_needed": {
+        "low": 8.0,
+        "central": 4.0,
+        "high": 2.7
+      },
+      "bamboo_mha_needed_vs_existing_area": 0.11,
+      "earth_gt_per_yr": 1.71,
+      "co2_gt_per_yr_at_peak": 1.18,
+      "co2_gt_30y": 18.0,
+      "co2_30y_share_of_1p5_budget": 0.14,
+      "peak_workers_m": 258
+    },
+    "max_bio": {
+      "shares": {
+        "bamboo_frame": 0.4,
+        "timber_frame": 0.2,
+        "clt_midrise": 0.2,
+        "earth_vault": 0.15,
+        "rc_lc3": 0.05
+      },
+      "per_m2": {
+        "cement_kg": 34.746,
+        "steel_kg": 5.685,
+        "wood_m3": 0.108,
+        "bamboo_kg": 18.0,
+        "earth_t": 0.18,
+        "co2_kg": 118.429,
+        "labour_h": 42.9
+      },
+      "cement_mt_per_yr": 247.8,
+      "cement_share_of_world": 0.062,
+      "steel_mt_per_yr": 40.5,
+      "steel_share_of_world": 0.022,
+      "wood_mm3_per_yr": 771.5,
+      "wood_share_of_industrial_roundwood": 0.389,
+      "plantation_mha_needed": {
+        "low": 154.3,
+        "central": 77.1,
+        "high": 51.4
+      },
+      "plantation_mha_needed_vs_existing_plantations": 0.59,
+      "bamboo_mt_per_yr": 128.4,
+      "bamboo_mha_needed": {
+        "low": 12.8,
+        "central": 6.4,
+        "high": 4.3
+      },
+      "bamboo_mha_needed_vs_existing_area": 0.18,
+      "earth_gt_per_yr": 1.28,
+      "co2_gt_per_yr_at_peak": 0.84,
+      "co2_gt_30y": 12.9,
+      "co2_30y_share_of_1p5_budget": 0.1,
+      "peak_workers_m": 237
+    },
+    "all_timber_frame": {
+      "shares": {
+        "timber_frame": 1.0
+      },
+      "per_m2": {
+        "cement_kg": 30.0,
+        "steel_kg": 5.0,
+        "wood_m3": 0.18,
+        "bamboo_kg": 0.0,
+        "earth_t": 0.0,
+        "co2_kg": 150.0,
+        "labour_h": 35.0
+      },
+      "cement_mt_per_yr": 214.0,
+      "cement_share_of_world": 0.053,
+      "steel_mt_per_yr": 35.7,
+      "steel_share_of_world": 0.019,
+      "wood_mm3_per_yr": 1283.9,
+      "wood_share_of_industrial_roundwood": 0.647,
+      "plantation_mha_needed": {
+        "low": 256.8,
+        "central": 128.4,
+        "high": 85.6
+      },
+      "plantation_mha_needed_vs_existing_plantations": 0.98,
+      "bamboo_mt_per_yr": 0.0,
+      "bamboo_mha_needed": {
+        "low": 0.0,
+        "central": 0.0,
+        "high": 0.0
+      },
+      "bamboo_mha_needed_vs_existing_area": 0.0,
+      "earth_gt_per_yr": 0.0,
+      "co2_gt_per_yr_at_peak": 1.07,
+      "co2_gt_30y": 16.3,
+      "co2_30y_share_of_1p5_budget": 0.13,
+      "peak_workers_m": 194
+    },
+    "all_bamboo": {
+      "shares": {
+        "bamboo_frame": 1.0
+      },
+      "per_m2": {
+        "cement_kg": 30.0,
+        "steel_kg": 4.0,
+        "wood_m3": 0.02,
+        "bamboo_kg": 45.0,
+        "earth_t": 0.0,
+        "co2_kg": 60.0,
+        "labour_h": 45.0
+      },
+      "cement_mt_per_yr": 214.0,
+      "cement_share_of_world": 0.053,
+      "steel_mt_per_yr": 28.5,
+      "steel_share_of_world": 0.015,
+      "wood_mm3_per_yr": 142.7,
+      "wood_share_of_industrial_roundwood": 0.072,
+      "plantation_mha_needed": {
+        "low": 28.5,
+        "central": 14.3,
+        "high": 9.5
+      },
+      "plantation_mha_needed_vs_existing_plantations": 0.11,
+      "bamboo_mt_per_yr": 321.0,
+      "bamboo_mha_needed": {
+        "low": 32.1,
+        "central": 16.0,
+        "high": 10.7
+      },
+      "bamboo_mha_needed_vs_existing_area": 0.46,
+      "earth_gt_per_yr": 0.0,
+      "co2_gt_per_yr_at_peak": 0.43,
+      "co2_gt_30y": 6.5,
+      "co2_30y_share_of_1p5_budget": 0.05,
+      "peak_workers_m": 249
+    }
+  },
+  "world_resources": {
+    "cement_mt_per_yr": {
+      "value": 4000,
+      "class": "REPORTED",
+      "basis": "USGS MCS 2025/2026, 3.8-4.1 bn t (PDF refuses automated fetch)"
+    },
+    "steel_mt_per_yr": {
+      "value": 1882.6,
+      "class": "REPORTED",
+      "basis": "worldsteel 2024 (page renders without text)"
+    },
+    "industrial_roundwood_mm3_per_yr": {
+      "value": 1984,
+      "class": "VERIFIED",
+      "basis": "FAO forest products statistics, 2020 table: roundwood 3,912, wood fuel 1,928, industrial roundwood 1,984 million m3"
+    },
+    "forest_area_bn_ha": {
+      "value": 4.06,
+      "class": "VERIFIED",
+      "basis": "FAO FRA 2020 key findings: 4.06 billion ha, nearly a third of land"
+    },
+    "plantation_forest_mha": {
+      "value": 131,
+      "class": "VERIFIED",
+      "basis": "FAO FRA 2020: plantation forests about 131 million ha, 3% of forest area"
+    },
+    "bamboo_area_mha": {
+      "value": 35,
+      "class": "REPORTED",
+      "basis": "FAO FRA 2020 bamboo area about 35 million ha; not read in source this session"
+    },
+    "bamboo_yield_t_ha_yr": {
+      "low": 10,
+      "central": 20,
+      "high": 30,
+      "class": "REPORTED",
+      "basis": "Dendrocalamus giganteus 20-30 t/ha/yr dry (commercial nursery claim); 10 as a conservative value"
+    },
+    "plantation_wood_yield_m3_ha_yr": {
+      "low": 5,
+      "central": 10,
+      "high": 15,
+      "class": "ASSUMPTION",
+      "basis": "managed temperate forests about 3-5 m3/ha/yr, tropical plantations 10-20"
+    },
+    "co2_budget_1p5_gt": {
+      "value": 130,
+      "class": "VERIFIED",
+      "basis": "v66/ecology (Forster et al. 2025), 50% chance, from 2025"
+    },
+    "hours_per_worker_year": 1290
+  },
+  "deficit_population_by_latitude": {
+    "within_tropics_23_5": 0.445,
+    "within_30_degrees": 0.81
+  },
+  "reading": "no single material replaces cement and steel for 7 billion m2 a year: all-timber would take about two-thirds of the world's industrial roundwood, and all-bamboo half to all of today's bamboo area at reported yields, in a climate that holds 44-81% of the people in need. A regional mix does the job: bamboo in the humid tropics, earth with vault roofs in dry regions, timber where forests are managed, cross-laminated timber in dense cities, and LC3 cement where concrete is still needed. It cuts cement to about 40% of the conventional programme, steel to 40%, and embodied CO2 by about 60%, with about the same hours of work, more of them local and low-skill. Its weak point is wood: about a third of today's industrial roundwood, like the conventional programme itself. LC3 alone saves only about 8% of a building's embodied CO2, because cement is a fifth of it: the frame, floors and roof are where the carbon is.",
+  "limits": [
+    "bamboo mass per m2 and bamboo area are not verified; yields are commercial claims",
+    "earth and bamboo systems are limited to 1-3 storeys and to their climates; durability depends on treatment, detailing and maintenance (driving rain, termites, earthquakes)",
+    "labour per m2 for timber, bamboo and earth systems are assumptions; earth is deliberately labour-intensive",
+    "the mix shares are a design proposal, not an optimisation; the latitude test uses capitals only",
+    "the conventional system's wood (41.6 kg/m2) is the median of a Europe-heavy sample with many timber homes and probably overstates wood in concrete-frame homes of the regions in need",
+    "wood: harvesting 0.6-0.8 bn m3 a year for housing competes with paper, fuel and furniture; plantation expansion has land and biodiversity costs not modelled"
+  ]
+}

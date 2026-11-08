@@ -120,6 +120,7 @@ The comparison with planned economies is the one critics will make first. UNIRA'
 | Housing need and construction capacity | **model-derived** (regional floor-area estimates, no official country data) | v66, v70, paper §5 |
 | Housing levers (factory building, decent core first, household-built extensions) | **simulated**; labour savings and self-build shares are reported or synthetic values | v70 `run_levers.py` |
 | Where home and wall factories go | **computed on regional data** (floor area, population, manufacturing, coordinates) with verified transport and plant-size figures; material denominators reported | v70 `factories.py` |
+| Materials by region (bamboo, earth, timber, CLT, LC3 cement) against world resources | **computed** with verified wood, forest, LC3 and Nubian Vault figures; bamboo quantities and labour values assumed | v70 `materials.py` |
 | 30-year transition plan | **simulated**; build rates and allocation shares assumed; **joint uncertainty propagated** | v67, validation/ |
 | Needs-first vs reformed market | **simulated comparison**, institutions only changed | v68 |
 | Allocation errors and safeguards | **simulated**, calibrated on 44 sourced observations of transfer programmes | v69 |

@@ -35,8 +35,10 @@ PARAMS = {
                                       "about 1,200 homes/yr (VERIFIED); Urban Splash/Sekisui House UK target 2,000/yr (REPORTED). "
                                       "Module plants; panel plants can be larger, so plant counts are upper bounds"},
     "m2_per_home": {"value": 80, "basis": "SYNTHETIC: about three people at the 27 m2 comfortable standard"},
-    "material_kg_per_m2": {"cement": 54.3, "steel": 26.7, "concrete": 613.0, "wood": 41.6,
-                           "basis": "residential medians, Heeren & Fishman 2019 material-intensity database (v66/construction/evidence.csv, VERIFIED computation)"},
+    "material_kg_per_m2": {"cement": 54.3 + 0.125 * 613.0, "steel": 26.7, "concrete": 613.0, "wood": 41.6,
+                           "basis": "residential medians, Heeren & Fishman 2019 material-intensity database (v66/construction/evidence.csv, VERIFIED "
+                                    "computation): cement 54.3 recorded separately plus the cement inside 613 kg of concrete at 12.5% of mass "
+                                    "(about 300 kg per m3 of 2,400 kg, a standard mix; ASSUMPTION), i.e. about 131 kg of cement per m2 in all"},
     "world_production_mt": {"cement": 4000, "steel": 1882.6,
                             "basis": "cement: USGS Mineral Commodity Summaries, about 3.8-4.1 bn t in 2023-2025 (REPORTED, PDF refused "
                                      "automated fetch); steel: worldsteel 2024 total 1,882.6 Mt, China 1,005.1, India 149.6 (REPORTED, "
@@ -132,7 +134,7 @@ def main(write=True):
                       "measured between capitals (so even this overstates reach). The programme is a distributed local industry of "
                       "tens of thousands of plants, about one per 80,000-150,000 people, not a few exporting regions. What the "
                       "industrial regions supply is the machines, the training, and the cement and steel where local production is "
-                      "short: the programme needs about a tenth of world cement and steel output at its peak. At the industrialised "
+                      "short: the programme needs about a quarter of world cement output and a tenth of world steel at its peak. At the industrialised "
                       "benchmark the peak workforce falls from about 265 million to about 70 million.",
            "limits": ["capital-to-capital distances understate distances inside large regions (India, Nigeria, Brazil), so the "
                       "'within radius' shares are upper bounds on what imports could serve",
