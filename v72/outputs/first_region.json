@@ -1,0 +1,289 @@
+{
+  "question": "author, 2026-11-08: how to solve the political-path gap; which region could be first and what is it exposed to",
+  "screens": {
+    "material_gainer": "region gains materially from joining at year 30 (V7.2, not in the 33 losers)",
+    "not_in_conflict": "not on the World Bank FCS FY26 conflict list",
+    "institutions_above_world_average": "mean of WGI voice, rule of law, control of corruption and government effectiveness >= 0",
+    "import_share_at_or_below_median_of_gainers": "imports of goods and services, % of GDP, at or below the median of gaining regions",
+    "population_at_least_5_million": "large enough to run an economy of its own",
+    "at_least_90pct_better_off_at_base_salary": "share of people better off at the lowest UNIRA salary >= 0.9 (V7.4)"
+  },
+  "median_import_share_of_gainers_pct_gdp": 39.3,
+  "counts": {
+    "regions": 179,
+    "gainers": 146,
+    "gainers_in_conflict": 19,
+    "gainers_fragile_not_conflict": 14,
+    "gainers_with_institutions_above_average": 47,
+    "passing_all_screens": 2,
+    "one_screen_short": 34
+  },
+  "passing_population_share_of_world": 0.184,
+  "exposure_of_gainers": {
+    "imports_pct_gdp_p25_p50_p75": [
+      26.7,
+      39.3,
+      58.1
+    ],
+    "wgi_mean_p25_p50_p75": [
+      -0.9,
+      -0.32,
+      0.14
+    ]
+  },
+  "candidates": [
+    {
+      "region": "GHA",
+      "pop_m": 34.4,
+      "material_gainer": true,
+      "in_conflict": false,
+      "fragile": false,
+      "wgi_mean": 0.07,
+      "imports_pct_gdp": 33.9,
+      "share_better_off_at_base": 1.0,
+      "passes": {
+        "material_gainer": true,
+        "not_in_conflict": true,
+        "institutions_above_world_average": true,
+        "import_share_at_or_below_median_of_gainers": true,
+        "population_at_least_5_million": true,
+        "at_least_90pct_better_off_at_base_salary": true
+      },
+      "screens_passed": 6
+    },
+    {
+      "region": "IND",
+      "pop_m": 1450.9,
+      "material_gainer": true,
+      "in_conflict": false,
+      "fragile": false,
+      "wgi_mean": 0.04,
+      "imports_pct_gdp": 23.9,
+      "share_better_off_at_base": 1.0,
+      "passes": {
+        "material_gainer": true,
+        "not_in_conflict": true,
+        "institutions_above_world_average": true,
+        "import_share_at_or_below_median_of_gainers": true,
+        "population_at_least_5_million": true,
+        "at_least_90pct_better_off_at_base_salary": true
+      },
+      "screens_passed": 6
+    }
+  ],
+  "one_screen_short": [
+    {
+      "region": "AGO",
+      "pop_m": 37.9,
+      "wgi_mean": -0.9,
+      "imports_pct_gdp": 19.0,
+      "share_better_off_at_base": 1.0,
+      "missing": [
+        "institutions_above_world_average"
+      ]
+    },
+    {
+      "region": "ARG",
+      "pop_m": 45.7,
+      "wgi_mean": 0.01,
+      "imports_pct_gdp": 12.7,
+      "share_better_off_at_base": 0.757,
+      "missing": [
+        "at_least_90pct_better_off_at_base_salary"
+      ]
+    },
+    {
+      "region": "AZE",
+      "pop_m": 10.2,
+      "wgi_mean": -0.75,
+      "imports_pct_gdp": 36.7,
+      "share_better_off_at_base": 0.929,
+      "missing": [
+        "institutions_above_world_average"
+      ]
+    },
+    {
+      "region": "BEN",
+      "pop_m": 14.5,
+      "wgi_mean": -0.31,
+      "imports_pct_gdp": 21.8,
+      "share_better_off_at_base": 1.0,
+      "missing": [
+        "institutions_above_world_average"
+      ]
+    },
+    {
+      "region": "BGD",
+      "pop_m": 173.6,
+      "wgi_mean": -0.9,
+      "imports_pct_gdp": 16.3,
+      "share_better_off_at_base": 1.0,
+      "missing": [
+        "institutions_above_world_average"
+      ]
+    },
+    {
+      "region": "BOL",
+      "pop_m": 12.4,
+      "wgi_mean": -0.78,
+      "imports_pct_gdp": 25.5,
+      "share_better_off_at_base": 0.93,
+      "missing": [
+        "institutions_above_world_average"
+      ]
+    },
+    {
+      "region": "CHL",
+      "pop_m": 19.8,
+      "wgi_mean": 0.97,
+      "imports_pct_gdp": 30.2,
+      "share_better_off_at_base": 0.816,
+      "missing": [
+        "at_least_90pct_better_off_at_base_salary"
+      ]
+    },
+    {
+      "region": "CHN",
+      "pop_m": 1409.0,
+      "wgi_mean": -0.37,
+      "imports_pct_gdp": 17.5,
+      "share_better_off_at_base": 0.922,
+      "missing": [
+        "institutions_above_world_average"
+      ]
+    },
+    {
+      "region": "CIV",
+      "pop_m": 31.9,
+      "wgi_mean": -0.42,
+      "imports_pct_gdp": 25.2,
+      "share_better_off_at_base": 1.0,
+      "missing": [
+        "institutions_above_world_average"
+      ]
+    },
+    {
+      "region": "CRI",
+      "pop_m": 5.1,
+      "wgi_mean": 0.67,
+      "imports_pct_gdp": 32.3,
+      "share_better_off_at_base": 0.786,
+      "missing": [
+        "at_least_90pct_better_off_at_base_salary"
+      ]
+    },
+    {
+      "region": "DZA",
+      "pop_m": 46.8,
+      "wgi_mean": -0.64,
+      "imports_pct_gdp": 20.3,
+      "share_better_off_at_base": 1.0,
+      "missing": [
+        "institutions_above_world_average"
+      ]
+    },
+    {
+      "region": "ECU",
+      "pop_m": 18.1,
+      "wgi_mean": -0.49,
+      "imports_pct_gdp": 26.9,
+      "share_better_off_at_base": 0.902,
+      "missing": [
+        "institutions_above_world_average"
+      ]
+    },
+    {
+      "region": "GBR",
+      "pop_m": 69.3,
+      "wgi_mean": 1.31,
+      "imports_pct_gdp": 31.8,
+      "share_better_off_at_base": 0.41,
+      "missing": [
+        "at_least_90pct_better_off_at_base_salary"
+      ]
+    },
+    {
+      "region": "IDN",
+      "pop_m": 283.5,
+      "wgi_mean": -0.16,
+      "imports_pct_gdp": 20.5,
+      "share_better_off_at_base": 1.0,
+      "missing": [
+        "institutions_above_world_average"
+      ]
+    },
+    {
+      "region": "IRN",
+      "pop_m": 91.6,
+      "wgi_mean": -1.17,
+      "imports_pct_gdp": 28.5,
+      "share_better_off_at_base": 1.0,
+      "missing": [
+        "institutions_above_world_average"
+      ]
+    },
+    {
+      "region": "ISR",
+      "pop_m": 10.0,
+      "wgi_mean": 0.83,
+      "imports_pct_gdp": 26.0,
+      "share_better_off_at_base": 0.625,
+      "missing": [
+        "at_least_90pct_better_off_at_base_salary"
+      ]
+    },
+    {
+      "region": "KEN",
+      "pop_m": 56.4,
+      "wgi_mean": -0.44,
+      "imports_pct_gdp": 23.2,
+      "share_better_off_at_base": 1.0,
+      "missing": [
+        "institutions_above_world_average"
+      ]
+    },
+    {
+      "region": "LKA",
+      "pop_m": 21.9,
+      "wgi_mean": -0.26,
+      "imports_pct_gdp": 22.4,
+      "share_better_off_at_base": 0.92,
+      "missing": [
+        "institutions_above_world_average"
+      ]
+    },
+    {
+      "region": "MDG",
+      "pop_m": 32.0,
+      "wgi_mean": -0.84,
+      "imports_pct_gdp": 33.5,
+      "share_better_off_at_base": 1.0,
+      "missing": [
+        "institutions_above_world_average"
+      ]
+    },
+    {
+      "region": "MWI",
+      "pop_m": 21.7,
+      "wgi_mean": -0.35,
+      "imports_pct_gdp": 30.6,
+      "share_better_off_at_base": 1.0,
+      "missing": [
+        "institutions_above_world_average"
+      ]
+    }
+  ],
+  "exposure_channels": {
+    "import_dependence": "the Trade Office (12b) must earn in exports the foreign currency for imports; the larger the import share of GDP, the larger the share of consumption that depends on world prices and on export earnings",
+    "capital_flight_before_the_vote": "money moved abroad is not converted into U (T-1.3 applies to wealth held on the voting day); it does not remove workers, land or plants, so the internal economy in hours is unaffected, but foreign-currency reserves are",
+    "skilled_emigration": "people who lose at the base salary (1 - share better off) are the pool that may leave; multipliers up to 5x and salaries never cut (T-8.4) are the design's answer",
+    "smuggling": "incentive = price wedge between fixed internal prices and world prices x openness; the wedge is not measurable in this project"
+  },
+  "reading": "the screen is passed by a small group of middle-income regions with working institutions, no armed conflict, moderate trade openness and almost everyone better off at the base salary; most gaining regions fail on institutions or conflict, and the most open economies fail on imports. A first member therefore exists on the data, but it is not a poor region and not a rich one: it is a stable middle-income region whose people gain and whose borders are manageable. Nothing here says such a region would vote to join.",
+  "limits": [
+    "WGI are perception-based indices; imports share is a crude proxy for border exposure (essential imports share would be better, as in the French case of 12b)",
+    "the material gain is the V7.2 year-30 comparison with equal weights on energy, health and housing",
+    "the share better off at the base salary (V7.4) uses income distributions of 150 regions; regions without data cannot pass that screen",
+    "a screen, not a model of the first member's economy: no simulation of trade balance, reserves or emigration"
+  ]
+}

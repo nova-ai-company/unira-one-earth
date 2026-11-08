@@ -187,3 +187,22 @@ Each result holds only under the conditions stated next to it.
 | F7 | Governance (V6.9; Art. 39) | leakage cannot be kept well below about 45%, or data lags stay above about 5 years. Needs-first allocation is then no better than a cooperative market. |
 
 Reviewers are asked to judge whether each test is well posed (measurable, not trivially passed, not dependent on SYNTHETIC inputs), and to propose sharper versions. See `FEEDBACK_FORM.md` §5.
+
+## 8. Economic attack scenarios (added 8 November 2026)
+
+The power stress test (`v79/power/STRESS_TEST.md`) covers thirteen political attacks. Reviewers are asked to run the economic ones below against the design, and to say which indicator would detect each early and which design answer fails.
+
+| # | Attack | The design's answer | Indicator that should detect it | What reviewers should test |
+|---|---|---|---|---|
+| E1 | Hoarding when prices are fixed and supply is uncertain | three months of essential reserves (T-8.7); needs-based quotas that expire (10d); security itself cuts panic buying for satiable goods (V7.1) | purchase volumes above trend; reserve draw-down | is a three-month reserve enough against a region-wide scare? |
+| E2 | Informal markets and resale at a premium | capped resale prices with wear schedules, holding periods (18b); must-live-in homes (18.9); orders and waiting lists (10b) | informal exchange prices above the fixed price; order cancellations | at what price wedge do informal markets appear in shortage economies, and how fast? |
+| E3 | Needs-reporting fraud by households or regions | household-level delivery monitoring (10e.4); independent audits (36); the allocation formula on measured gaps (10a); leakage tests (39) | gap between reported need and delivered goods; audit residuals | does the 45% leakage threshold come too late? |
+| E4 | Gaming the formula (population, age or disease-burden inflation) | published data and formula (10a.6, 33); Court challenge by any region; Scientific Council approval of adjustments (10a.2) | divergence between a region's figures and independent sources (UN, WHO) | which inputs are easiest to inflate, and what would independent verification cost? |
+| E5 | Cross-border smuggling for a first member next to market states | the Trade Office monopoly on external trade in U (12b); fixed prices only inside | customs seizures; price wedge × openness (`v72/outputs/first_region.json`) | at what import share of GDP does a one-member economy become unmanageable? |
+| E6 | Capital flight before the joining vote | the cap applies to wealth on the day of the vote (T-1.3); money abroad is simply not converted | financial outflows in the year before the vote | should T-1.3 add a look-back for transfers abroad, and is it enforceable? |
+| E7 | Skilled emigration after joining | multipliers up to 5× (14), salaries never cut (T-8.4), convergence (T-8.4) | emigration of the top income decile | which professions leave first, and can the 5× ceiling hold them? |
+| E8 | Collusion between enterprises and allocators | workers' and communities' control (16); open registers (26a, 33); Inspector-General and audits (36) | repeated allocations to the same enterprises; cost above embodied-hours norms | what share of allocation could be captured before the indicators move? |
+| E9 | Fake orders on the production platform | orders lapse after three months, no resale within a year (10b, 18b) | lapsed and cancelled order shares | can bots or coordinated groups still distort production plans? |
+| E10 | Cap evasion through goods and claims | the cap includes goods beyond personal use (17); second homes limited (18.2); inheritance rules (18.4) | holdings of durable goods per adult; empty homes | which asset classes escape the cap first (art, vehicles, land use rights)? |
+
+The proposed shortage-correction rule (`concept/PROPOSED_SHORTAGE_CORRECTION_RULE.md`, not yet approved) is the design's answer to E1 and E2 as a loop with fixed steps rather than as a list of instruments.

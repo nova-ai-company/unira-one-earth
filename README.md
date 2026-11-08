@@ -60,7 +60,7 @@ These are tests of **physical feasibility under stated assumptions**, not foreca
 | `v68/` | UNIRA versus reformed market (matched resources) and verification |
 | `v69/` | Allocation failures (error, lag, misreporting, leakage) and safeguards |
 | `v70/` | Housing acceleration, low-carbon building, housing levers (factory building, decent core first, household-built extensions), where home and wall factories go, materials by region against world resources, safeguard articles |
-| `v71/`–`v72/` | Security and consumption; transition, joining, property and debts |
+| `v71/`–`v72/` | Security and consumption; transition, joining, property and debts; the first-region screen (which regions could join first) and the one-member economy test (trade balance, reserves, border wedge and the top of the pay scale for Ghana and India) |
 | `v73/book/` | Book draft |
 | `v74/` | Income distribution inside rich regions |
 | `v75/constitution/` | Draft Constitution of One Earth and voting tests |
@@ -68,7 +68,7 @@ These are tests of **physical feasibility under stated assumptions**, not foreca
 | `v77/` | Website, simulator and outside-review package |
 | `v78/` | AI / machine-learning planning of needed production: backtests, fairness, 30-year information test |
 | `v81/prices/` | Price calculator (Article 13): embodied hours × 146.4 U + resource surcharge, 62 product groups, examples |
-| `v82/` | Completing the economy: production signals, hard jobs, investment, restaurant and supermarket accounts, world money (option C), trade, resale, sizes, behaviour register |
+| `v82/` | Completing the economy: production signals, hard jobs, investment, restaurant and supermarket accounts, world money (option C), trade, resale, sizes, behaviour register (with the evidence from existing trials, 8 November 2026) |
 | `v80/pilot/` | Pilot plan: precedents (TZCLD, Marienthal, shorter-week trials), predictions, failure criteria, budget |
 | `v92/` | The working week during the transition: measured starting week (France 35 h, Europe 33–40 h) falling to 30 h as productivity rises, pay unchanged; adopted as T-10 on 8 November 2026, with the consistency check of that day's constitution changes |
 | `concept/UNIRA_TRANSITION_PLAN.md` | The transition plan: phases, objectives and measured triggers from joining to a stable UNIRA economy, with model dates and their uncertainty |

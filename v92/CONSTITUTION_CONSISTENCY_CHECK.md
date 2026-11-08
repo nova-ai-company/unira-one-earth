@@ -55,8 +55,8 @@ The lifecycle money model (`v64/run_lifecycle.py`) was rerun with the week set t
 
 1. **Reading of the Article 6 right.** The draft treats 30 hours as the standard and T-10 as the path. If the author prefers, Article 6 could say "a standard working week falling to 30 hours" to make the transitional reading explicit.
 2. **The thresholds of T-5.2** (federation size, Peace Force strength) have not been studied by this project. They are recorded as a research item in the constitution's notes and in review question 13.
-3. **Weapons of mass destruction during the transition** (drafting choice 6).
-4. **Protected core:** whether Article 4c and T-9 (V9.1) join Article 42a is still undecided.
+3. **Weapons of mass destruction during the transition** (drafting choice 6). *Resolved on 8 November 2026 (evening): T-5.6, frozen and verified from the joining day, destroyed within five years of the T-5.2 conditions being met.*
+4. **Protected core:** whether Article 4c and T-9 (V9.1) join Article 42a. *Resolved on 8 November 2026 (evening): Article 4c and T-9.2 added as 42a.1.11.*
 5. **Not drafted:** the proposal that every economic chapter be checked for a single member trading with a market world (D + Q + C, the Trade Office of 12b) remains a research item, not a constitutional change.
 6. **The book draft** (`v73/book/`) still describes a 30-hour week from the first day and disarmament within five years of membership. It is a second draft dated 3 November 2026 and is to be revised in the next draft, not patched.
 

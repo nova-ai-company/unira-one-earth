@@ -34,7 +34,8 @@ def main():
     for src, name, title in ((U / "v91" / "PROPOSED_CONSTITUTION_CHANGES.md", "proposals.html", "Proposed constitution changes (V9.1)"),
                              (U / "v92" / "PROPOSED_CONSTITUTION_CHANGES.md", "proposals_v92.html", "Constitution changes (V9.2), approved 8 November 2026"),
                              (U / "v92" / "CONSTITUTION_CONSISTENCY_CHECK.md", "consistency_v92.html", "Consistency check of the constitution changes of 8 November 2026"),
-                             (U / "concept" / "PROPOSED_CONSTITUTION_CHANGES_2026-11-08.md", "proposals_2026-11-08.html", "Proposed constitution changes (8 November 2026): training and housing"),
+                             (U / "concept" / "PROPOSED_CONSTITUTION_CHANGES_2026-11-08.md", "proposals_2026-11-08.html", "Constitution changes (8 November 2026): training and housing, approved"),
+                             (U / "concept" / "CONSTITUTION_CONSISTENCY_CHECK_2026-11-08.md", "consistency_2026-11-08.html", "Consistency check of the constitution changes of 8 November 2026 (evening)"),
                              (U / "v92" / "RESEARCH_NOTE.md", "v92_hours.html", "V9.2 — The working week during the transition"),
                              (U / "paper" / "UNIRA_PAPER_V1.md", "paper_v1.html", "UNIRA Paper V1"),
                              (U / "concept" / "UNIRA_CONCEPT.md", "concept.html", "UNIRA: the concept"),
@@ -67,7 +68,7 @@ made with an AI assistant, not yet peer reviewed (see the self-audit under "For 
 <div class='tile'><b><a href='transition.html'>The transition plan</a></b><span>Phases, objectives and measured triggers from joining to a stable UNIRA economy, with the dates the models give and their uncertainty</span></div>
 <div class='tile'><b><a href='constitution.html'>Constitution</a></b><span>Draft Constitution of One Earth</span></div>
 <div class='tile'><b><a href='proposals_v92.html'>Approved changes (V9.2)</a></b><span>Approved 8 November 2026: the working week during the transition (Article 6, T-10, Article 40.2), faculties and trainers first (T-8.5), conditional disarmament (T-5) — <a href='consistency_v92.html'>consistency check</a>, <a href='v92_hours.html'>research note</a></span></div>
-<div class='tile'><b><a href='proposals_2026-11-08.html'>Proposed changes (training, housing)</a></b><span>Theory online and facilities in rotation for training; repair, a decent core first, factory parts and household-built extensions for homes — awaiting the author's decision</span></div>
+<div class='tile'><b><a href='proposals_2026-11-08.html'>Approved changes (training, housing)</a></b><span>Approved 8 November 2026: how training is organised (T-8.5), how homes are built (Article 18.12), Article 4c and T-9.2 in the protected core, weapons of mass destruction under the T-5 conditions — <a href='consistency_2026-11-08.html'>consistency check</a></span></div>
 <div class='tile'><b><a href='proposals.html'>Approved changes (V9.1)</a></b><span>Articles 4c, 10f.6 and T-9, approved 5 November 2026</span></div>
 <div class='tile'><b><a href='simulator.html'>Simulator</a></b><span>Change the assumptions and see the results</span></div>
 <div class='tile'><b><a href='dashboard.html'>Dashboard</a></b><span>Key numbers and charts</span></div>
